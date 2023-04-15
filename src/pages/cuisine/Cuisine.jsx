@@ -8,9 +8,6 @@ function Cuisine() {
     const { isMenuShown } = useSetLang();
   return (
         <PageContainer>
-            <Header />
-            <SideNav />
-            {isMenuShown && <Menu />}
             Cuisine
         </PageContainer>
   );

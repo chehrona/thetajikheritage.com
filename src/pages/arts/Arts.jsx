@@ -8,9 +8,6 @@ function Arts() {
     const { isMenuShown } = useSetLang();
   return (
         <PageContainer>
-            <Header />
-            <SideNav />
-            {isMenuShown && <Menu />}
             Arts
         </PageContainer>
   );

@@ -8,9 +8,6 @@ function History() {
     const { isMenuShown } = useSetLang();
   return (
         <PageContainer>
-            <Header />
-            <SideNav />
-            {isMenuShown && <Menu />}
             History
         </PageContainer>
   );

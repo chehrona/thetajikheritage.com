@@ -6,6 +6,9 @@ import Customs from './pages/customs/Customs';
 import Arts from './pages/arts/Arts';
 import Language from './pages/language/Language';
 import History from './pages/history/History';
+import Header from './components/header/Header';
+import SideNav from './components/sideNav/SideNav';
+import Menu from './components/menu/Menu';
 
 const LangContext = createContext({
     lang: 'us',
@@ -31,7 +34,10 @@ function App() {
 
   return (
     <LangContext.Provider value={value}>
-          <Routes>
+      <Header />
+      <SideNav />
+      {isMenuShown && <Menu />}
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/arts" element={<Arts />} />
           <Route path="/customs" element={<Customs />} />
