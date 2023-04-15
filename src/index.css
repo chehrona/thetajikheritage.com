@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Pagella;
+  src: url("./fonts/TeX-Gyre-Pagella/texgyrepagella-regular.otf");
+}
+
+@font-face {
+  font-family: Pagella;
+  src: url("./fonts/TeX-Gyre-Pagella/texgyrepagella-bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Pagella;
+  src: url("./fonts/TeX-Gyre-Pagella/texgyrepagella-italic.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Pagella;
+  src: url("./fonts/TeX-Gyre-Pagella/texgyrepagella-bolditalic.otf");
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Pagella;
+}
