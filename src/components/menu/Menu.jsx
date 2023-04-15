@@ -56,7 +56,7 @@ export default function Menu() {
                 {pageInfo[lang]?.map((entry) => {
                     return (
                         <StyledLink to={entry.link}>
-                            <div onClick={setIsMenuShown(false)}>
+                            <div onClick={() => setIsMenuShown(false)}>
                                 <PageName>{entry.title}</PageName>
                                 <PageDesc>{entry.desc}</PageDesc>
                             </div>
