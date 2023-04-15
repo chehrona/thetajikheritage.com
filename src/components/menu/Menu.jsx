@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { MenuContainer, LogoContainer, Logo, PageName, MenuItem, LogoHalf, PageNamesContainer,Background, PageDesc } from "./menuStyles";
 
 export default function Menu() {
-    const { lang } = useSetLang(),
+    const { lang, setIsMenuShown } = useSetLang(),
           navigate = useNavigate();
     const pageInfo = {
         "us": [
@@ -15,11 +15,11 @@ export default function Menu() {
             {title: "History", desc: "Ancient, medieval and modern", link: "/history"}
         ],
         "ru": [
-            {title: "Искусства & ремесла", desc: "Материальная культура"},
-            {title: "Обычаи", desc: "Нематериальное наследие"},
-            {title: "Кухня", desc: "Кулинарная & национальная самобытность"},
-            {title: "Язык", desc: "Звуки прошлого и настоящего"},
-            {title: "История", desc: "Древняя, средневековая и современная"}
+            {title: "Искусства & ремесла", desc: "Материальная культура", link: "/искусства"},
+            {title: "Обычаи", desc: "Нематериальное наследие", link: "/обычаи"},
+            {title: "Кухня", desc: "Кулинарная & национальная самобытность", link: "/кухня"},
+            {title: "Язык", desc: "Звуки прошлого и настоящего", link: "/язык"},
+            {title: "История", desc: "Древняя, средневековая и современная", link: "/история"}
         ],
         "tj": [
             {title: "Санъат ва ҳунар", desc: "Фарҳанги моддӣ"},
@@ -39,6 +39,7 @@ export default function Menu() {
 
     function navigateToPage(e) {
         console.log(e.target.datatype, "target")
+        setIsMenuShown(false);
         // history.push()
     }
     return (

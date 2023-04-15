@@ -11,6 +11,7 @@ function Arts() {
             <Header />
             <SideNav />
             {isMenuShown && <Menu />}
+            Arts
         </PageContainer>
   );
 }

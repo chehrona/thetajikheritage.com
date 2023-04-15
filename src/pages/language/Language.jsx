@@ -11,6 +11,7 @@ function Language() {
             <Header />
             <SideNav />
             {isMenuShown && <Menu />}
+            Language
         </PageContainer>
   );
 }

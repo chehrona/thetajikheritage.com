@@ -11,6 +11,7 @@ function History() {
             <Header />
             <SideNav />
             {isMenuShown && <Menu />}
+            History
         </PageContainer>
   );
 }
