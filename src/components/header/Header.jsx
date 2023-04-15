@@ -11,7 +11,7 @@ import { HeaderContainer,
          Logo,
          TitleSpan,
          StyledCloseIcon
-    } from "./headerStyles";
+} from "./headerStyles";
 
 export default function Header() {
     const { isMenuShown, setIsMenuShown } = useSetLang();

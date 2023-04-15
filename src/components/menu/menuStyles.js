@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const MenuContainer = styled.div`
     width: 100%;
@@ -64,3 +65,8 @@ export const PageDesc = styled.div`
     font-size: 0.8em;
     cursor: pointer;
 `;
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: inherit;
+`

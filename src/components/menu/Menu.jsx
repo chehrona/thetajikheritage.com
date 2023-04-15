@@ -1,11 +1,19 @@
 import React from "react";
 import { useSetLang } from "../../App";
-import { Link, useNavigate } from "react-router-dom";
-import { MenuContainer, LogoContainer, Logo, PageName, MenuItem, LogoHalf, PageNamesContainer,Background, PageDesc } from "./menuStyles";
+import { MenuContainer,
+        LogoContainer,
+        Logo,
+        PageName,
+        LogoHalf,
+        PageNamesContainer,
+        Background,
+        PageDesc,
+        StyledLink 
+} from "./menuStyles";
 
 export default function Menu() {
-    const { lang, setIsMenuShown } = useSetLang(),
-          navigate = useNavigate();
+    const { lang, setIsMenuShown } = useSetLang();
+
     const pageInfo = {
         "us": [
             {title: "Arts & Crafts", desc: "Material culture", link: "/arts"},
@@ -15,33 +23,28 @@ export default function Menu() {
             {title: "History", desc: "Ancient, medieval and modern", link: "/history"}
         ],
         "ru": [
-            {title: "Искусства & ремесла", desc: "Материальная культура", link: "/искусства"},
-            {title: "Обычаи", desc: "Нематериальное наследие", link: "/обычаи"},
-            {title: "Кухня", desc: "Кулинарная & национальная самобытность", link: "/кухня"},
-            {title: "Язык", desc: "Звуки прошлого и настоящего", link: "/язык"},
-            {title: "История", desc: "Древняя, средневековая и современная", link: "/история"}
+            {title: "Искусства & ремесла", desc: "Материальная культура", link: "/arts"},
+            {title: "Обычаи", desc: "Нематериальное наследие", link: "/customs"},
+            {title: "Кухня", desc: "Кулинарная & национальная самобытность", link: "/cuisine"},
+            {title: "Язык", desc: "Звуки прошлого и настоящего", link: "/language"},
+            {title: "История", desc: "Древняя, средневековая и современная", link: "/history"}
         ],
         "tj": [
-            {title: "Санъат ва ҳунар", desc: "Фарҳанги моддӣ"},
-            {title: "Расму русум", desc: "Мероси ғайримоддӣ"},
-            {title: "Ғизоҳо", desc: "Хӯрокпазӣ & хусусияти миллӣ"},
-            {title: "Забон", desc: "Садоҳои гузашта ва ҳозира"},
-            {title: "Таърих", desc: "Қадима, асрҳои миёна ва муосир"}
+            {title: "Санъат ва ҳунар", desc: "Фарҳанги моддӣ", link: "/arts"},
+            {title: "Расму русум", desc: "Мероси ғайримоддӣ", link: "/customs"},
+            {title: "Ғизоҳо", desc: "Хӯрокпазӣ & хусусияти миллӣ", link: "/cuisine"},
+            {title: "Забон", desc: "Садоҳои гузашта ва ҳозира", link: "/language"},
+            {title: "Таърих", desc: "Қадима, асрҳои миёна ва муосир", link: "/history"}
         ],
         "kh": [
-            {title: "هنر و صنعت", desc: "فرهنگ مادی"},
-            {title: "رسم و رسوم", desc: "میراث ناملموس"},
-            {title: "غذاها", desc: "خوراک‌پزی و هویت ملی"},
-            {title: "زبان", desc: "صداهای گذشته و حال"},
-            {title: "تاریخ", desc: "باستان، قرون وسطی و مدرن"},
+            {title: "هنر و صنعت", desc: "فرهنگ مادی", link: "/arts"},
+            {title: "رسم و رسوم", desc: "میراث ناملموس", link: "/customs"},
+            {title: "غذاها", desc: "خوراک‌پزی و هویت ملی", link: "/cuisine"},
+            {title: "زبان", desc: "صداهای گذشته و حال", link: "/language"},
+            {title: "تاریخ", desc: "باستان، قرون وسطی و مدرن", link: "/history"},
         ]
     }
 
-    function navigateToPage(e) {
-        console.log(e.target.datatype, "target")
-        setIsMenuShown(false);
-        // history.push()
-    }
     return (
         <MenuContainer>
             <Background />
@@ -52,12 +55,12 @@ export default function Menu() {
             <PageNamesContainer>
                 {pageInfo[lang]?.map((entry) => {
                     return (
-                        <Link to={entry.link}>
-                            <div onClick={(e) => navigateToPage(e)} datatype={entry.link}>
+                        <StyledLink to={entry.link}>
+                            <div onClick={setIsMenuShown(false)}>
                                 <PageName>{entry.title}</PageName>
                                 <PageDesc>{entry.desc}</PageDesc>
                             </div>
-                        </Link>
+                        </StyledLink>
                     )
                 })}
             </PageNamesContainer>
