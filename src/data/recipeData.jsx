@@ -1,9 +1,21 @@
 module.exports.recipes = [
     {
+        title: "Osh-i palov",
+        subtitle: "Rice pilaf",
+        imageName: "oshipalov.png",
+        sound: "/recipeNames/oshipalov.mp3",
+    },
+    {
         title: "Shirchoy",
         subtitle: "Milk tea with nuts",
         imageName: "/recipePics/shirchoy.png",
         sound: "/recipeNames/shirchoy.mp3",
+    },
+    {
+        title: "Qurutob",
+        subtitle: "Bread salad",
+        imageName: "qurutob.png",
+        sound: "/recipeNames/gurutob.mp3",
     },
     {
         title: "Kichiri",
@@ -37,7 +49,7 @@ module.exports.recipes = [
     },
     {
         title: "Shirbirinj",
-        subtitle: "Rice pudding",
+        subtitle: "Milk porridge",
         imageName: "shirbirinj.png",
         sound: "/recipeNames/shirbirinj.mp3",
     },
@@ -53,6 +65,88 @@ module.exports.recipes = [
         imageName: "pamirimeat.png",
         sound: "/recipeNames/pamirimeat.mp3",
     },
-
-
+    {
+        title: "Sambusa",
+        subtitle: "Meat pie with phyllo dough",
+        imageName: "sambusa.png",
+        sound: "/recipeNames/sambusa.mp3",
+    },
+    {
+        title: "Burchak-i güshti",
+        subtitle: "Meat pie with potatoes and meat",
+        imageName: "burchak.png",
+        sound: "/recipeNames/burchak.mp3",
+    },
+    {
+        title: "Shüla",
+        subtitle: "Sticky rice with carrots",
+        imageName: "shula.png",
+        sound: "/recipeNames/shula.mp3",
+    },
+    {
+        title: "Shürbo",
+        subtitle: "Soup with vegetables and bone-in meat",
+        imageName: "shurbo.png",
+        sound: "/recipeNames/shurbo.mp3",
+    },
+    {
+        title: "Tunukcha",
+        subtitle: "Fried flat bread",
+        imageName: "tunukcha.png",
+        sound: "/recipeNames/tunukcha.mp3",
+    },
+    {
+        title: "Torpukht",
+        subtitle: "Cream stuffed flat bread",
+        imageName: "torpukht.png",
+        sound: "/recipeNames/torpukht.mp3",
+    },
+    {
+        title: "Zanbürugh-i tanüri",
+        subtitle: "Clay oven baked mushrooms",
+        imageName: "torpukht.png",
+        sound: "/recipeNames/torpukht.mp3",
+    },
+    {
+        title: "Küza kabob",
+        subtitle: "Kabab in a clay jug",
+        imageName: "torpukht.png",
+        sound: "/recipeNames/torpukht.mp3",
+    },
+    {
+        title: "Falla",
+        subtitle: "Soft cheese with the first milk of the cow",
+        imageName: "torpukht.png",
+        sound: "/recipeNames/torpukht.mp3",
+    },
+    {
+        title: "Shirkadu/Kadu-ba-shir",
+        subtitle: "Pumpkin porridge with milk",
+        imageName: "shirkadu.png",
+        sound: "/recipeNames/shirkadu.mp3",
+    },
+    {
+        title: "Lüla kabob",
+        subtitle: "Rolled kebab",
+        imageName: "lulakabob.png",
+        sound: "/recipeNames/lulakabob.mp3",
+    },
+    {
+        title: "Buron-i bodimjon",
+        subtitle: "Fried meat with eggplants",
+        imageName: "buronibodimjon.png",
+        sound: "/recipeNames/buronibodimjon.mp3",
+    },
+    {
+        title: "Nakhutak",
+        subtitle: "Fried chickpeas",
+        imageName: "nakhutak.png",
+        sound: "/recipeNames/nakhutak.mp3",
+    },
+    {
+        title: "Khomshürbo",
+        subtitle: "Fried chickpeas",
+        imageName: "nakhutak.png",
+        sound: "/recipeNames/nakhutak.mp3",
+    },
 ]
