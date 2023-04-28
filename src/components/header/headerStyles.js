@@ -4,7 +4,7 @@ import { IconButton } from "@mui/material";
 
 export const HeaderContainer = styled.div`
     background: #000000;
-    height: 8em;
+    height: 8rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -16,16 +16,16 @@ export const LogoWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 6em;
-    width: 6em;
-    margin: 1em;
+    height: 7.5rem;
+    width: 7.5rem;
+    margin: 1rem;
 `;
 
 export const TitleWrapper = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    font-size: 1.8em;
+    font-size: 1.8rem;
 `;
 
 export const Title = styled.div`
@@ -36,16 +36,16 @@ export const Title = styled.div`
 export const TitleSpan = styled.span`
     font-style: normal;
     font-weight: bold;
-    margin-right: 0.4em;
+    margin-right: 0.4rem;
 `;
 
 export const MenuWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-left: 1em;
-    height: 4em;
-    width: 6em;
+    margin-left: 1rem;
+    height: 4rem;
+    width: 6rem;
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -56,14 +56,14 @@ export const StyledIconButton = styled(IconButton)`
 
 export const StyledMenuIcon = styled(Menu)`
     color: #D5D5D5;
-    width: 2.5em !important;
-    height: 1.5em !important;
+    width: 3.5rem !important;
+    height: 2.5rem !important;
 `;
 
 export const StyledCloseIcon = styled(Close)`
     color: #D5D5D5;
-    width: 2.5em !important;
-    height: 1.5em !important;
+    width: 3.5rem !important;
+    height: 2.5rem !important;
 `;
 
 export const Logo = styled.img`

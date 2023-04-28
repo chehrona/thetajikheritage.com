@@ -15,7 +15,7 @@ module.exports.recipes = [
         title: "Qurutob",
         subtitle: "Bread salad",
         imageName: "qurutob.png",
-        sound: "/recipeNames/gurutob.mp3",
+        sound: "/recipeNames/qurutob.mp3",
     },
     {
         title: "Kichiri",
@@ -39,7 +39,7 @@ module.exports.recipes = [
         title: "Mastoba-i qaylagi",
         subtitle: "Rice soup with yogurt and dried dill",
         imageName: "/recipePics/qaylagi.png",
-        sound: "/recipeNames/qaylagi.mp3",
+        sound: "/recipeNames/mastobaiqaylagi.mp3",
     },
     {
         title: "Siyoh alaf",
@@ -67,15 +67,15 @@ module.exports.recipes = [
     },
     {
         title: "Sambusa",
-        subtitle: "Meat pie with phyllo dough",
+        subtitle: "Meat pocket with phyllo dough",
         imageName: "sambusa.png",
         sound: "/recipeNames/sambusa.mp3",
     },
     {
         title: "Burchak-i güshti",
-        subtitle: "Meat pie with potatoes and meat",
+        subtitle: "Rectangular meat pocket",
         imageName: "burchak.png",
-        sound: "/recipeNames/burchak.mp3",
+        sound: "/recipeNames/burchakigushti.mp3",
     },
     {
         title: "Shüla",
@@ -103,21 +103,21 @@ module.exports.recipes = [
     },
     {
         title: "Zanbürugh-i tanüri",
-        subtitle: "Clay oven baked mushrooms",
+        subtitle: "Baked mushrooms",
         imageName: "torpukht.png",
-        sound: "/recipeNames/torpukht.mp3",
+        sound: "/recipeNames/zanburughitanuri.mp3",
     },
     {
         title: "Küza kabob",
-        subtitle: "Kabab in a clay jug",
+        subtitle: "Kabab in a jug",
         imageName: "torpukht.png",
-        sound: "/recipeNames/torpukht.mp3",
+        sound: "/recipeNames/kuzakabob.mp3",
     },
     {
         title: "Falla",
         subtitle: "Soft cheese with the first milk of the cow",
         imageName: "torpukht.png",
-        sound: "/recipeNames/torpukht.mp3",
+        sound: "/recipeNames/falla.mp3",
     },
     {
         title: "Shirkadu/Kadu-ba-shir",
@@ -138,15 +138,52 @@ module.exports.recipes = [
         sound: "/recipeNames/buronibodimjon.mp3",
     },
     {
-        title: "Nakhutak",
+        title: "Nakhütak",
         subtitle: "Fried chickpeas",
         imageName: "nakhutak.png",
         sound: "/recipeNames/nakhutak.mp3",
     },
     {
         title: "Khomshürbo",
-        subtitle: "Fried chickpeas",
-        imageName: "nakhutak.png",
-        sound: "/recipeNames/nakhutak.mp3",
+        subtitle: "Vegetable soup",
+        imageName: "khomshurbo.png",
+        sound: "/recipeNames/khomshurbo.mp3",
     },
+    {
+        title: "Poplang",
+        subtitle: "Spread with dried mulberries and nuts",
+        imageName: "poplang.png",
+        sound: "/recipeNames/poplang.mp3",
+    },
+    {
+        title: "Non-i zaghora",
+        subtitle: "Corn bread",
+        imageName: "nonizaghora.png",
+        sound: "/recipeNames/nonizaghora.mp3",
+    },
+    {
+        title: "Buron-i khiyor",
+        subtitle: "Fried meat with cucumbers",
+        imageName: "buronikhiyor.png",
+        sound: "/recipeNames/buronikhiyor.mp3",
+    },
+    {
+        title: "Nonpalov",
+        subtitle: "Rice pilaf with bread",
+        imageName: "nonpalov.png",
+        sound: "/recipeNames/nonpalov.mp3",
+    },
+    {
+        title: "Mantu",
+        subtitle: "Steamed dumplings",
+        imageName: "mantu.png",
+        sound: "/recipeNames/mantu.mp3",
+    },
+    {
+        title: "Tushbera",
+        subtitle: "Beef pierogies",
+        imageName: "tushbera.png",
+        sound: "/recipeNames/tushbera.mp3",
+    },
+    
 ]

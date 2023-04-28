@@ -1,54 +1,55 @@
-import { VolumeUp } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import styled from "styled-components";
 
 export const RecipeBoxContainer = styled.div`
-    margin-left: 8em;
-    margin-right: 6.5em;
-    margin-top: 2em;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 `;
 
 export const RecipeCard = styled.div`
-    border-radius: ${({hovered}) => hovered ? "1em" : "0.7em"};
-    height: 30em;
-    width: 20em;
-    margin-right: 1.5em;
-    margin-bottom: 7em;
-    ${({hovered}) => hovered && "box-shadow: 100px 10px 10px 10px black"};
+    border-radius: 0.7rem;
+    height: 35rem;
+    width: 23rem;
+    margin-bottom: 7rem;
     cursor: pointer;
 `;
 
 export const RecipeNameBox = styled.div`
     display: flex;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     align-items: center;
-    margin-top: 0.1em;
-    height: 1.5em;
-`;
-
-export const PronunciationIcon = styled(VolumeUp)`
-    
+    margin-top: 0.5rem;
+    height: 2.2rem;
 `;
 
 export const StyledIconButton = styled(IconButton)`
-    width: 1.6em;
+    width: 2.5rem;
+
+    &:hover {
+        color: #59a959;
+    }
 `;
 
 export const RecipeTitle = styled.div`
     font-weight: bold;
-    margin-right: 0.2em;
+    margin-right: 0.5rem;
 `;
 
 export const RecipeSubtitle = styled.div`
-    font-size: 1.2em;
-    margin-top: -0.2em;
+    font-size: 1.2rem;
 `;
 
 export const RecipeImage= styled.img`
-    border-radius: ${({hovered}) => hovered ? "1em" : "0.7em"};
+    border-radius: 0.7rem;
     width: 100%;
     height: 100%;
+
+    &:hover {
+        border-radius: 1.5rem;
+        box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.5);
+    }
 `;

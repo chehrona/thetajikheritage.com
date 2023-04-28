@@ -1,3 +1,4 @@
+import { VolumeUp } from "@mui/icons-material";
 import React, { useState } from "react";
 import { recipes } from "../../data/recipeData";
 
@@ -8,7 +9,6 @@ import {
     RecipeImage,
     RecipeSubtitle,
     RecipeNameBox,
-    PronunciationIcon, 
     StyledIconButton
 } from "./recipeBoxStyles";
 
@@ -38,7 +38,7 @@ export default function RecipeBox() {
                             </RecipeTitle>
                             <StyledIconButton onClick={(e) => toggleAudio(e)}>
                                 <audio src={recipe.sound}></audio>
-                                <PronunciationIcon />
+                                <VolumeUp />
                             </StyledIconButton>
                         </RecipeNameBox>
                         <RecipeSubtitle>
