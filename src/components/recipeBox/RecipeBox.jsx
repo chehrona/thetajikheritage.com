@@ -17,7 +17,9 @@ export default function RecipeBox() {
 
     function toggleAudio(e) {
         const audioFile = e.currentTarget.children[0];
+        console.log(audioFile, "before");
         audioFile.play();
+        console.log(audioFile, "after");
     }
 
     return (
