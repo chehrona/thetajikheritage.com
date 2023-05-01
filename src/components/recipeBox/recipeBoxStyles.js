@@ -1,9 +1,9 @@
 import { IconButton } from "@mui/material";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const RecipeBoxContainer = styled.div`
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin: 4.5rem;
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +16,7 @@ export const RecipeCard = styled.div`
     width: 23rem;
     margin-bottom: 7rem;
     cursor: pointer;
+    position: relative;
 `;
 
 export const RecipeNameBox = styled.div`
@@ -23,11 +24,11 @@ export const RecipeNameBox = styled.div`
     font-size: 1.6rem;
     align-items: center;
     margin-top: 0.5rem;
-    height: 2.2rem;
 `;
 
 export const StyledIconButton = styled(IconButton)`
     width: 2.5rem;
+    margin-top: 0.3rem !important;
 
     &:hover {
         color: #59a959;
@@ -36,14 +37,15 @@ export const StyledIconButton = styled(IconButton)`
 
 export const RecipeTitle = styled.div`
     font-weight: bold;
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
 `;
 
 export const RecipeSubtitle = styled.div`
     font-size: 1.2rem;
+    margin-top: -0.2rem;
 `;
 
-export const RecipeImage= styled.img`
+export const RecipeImage = styled.img`
     border-radius: 0.7rem;
     width: 100%;
     height: 100%;
@@ -52,4 +54,9 @@ export const RecipeImage= styled.img`
         border-radius: 1.5rem;
         box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.5);
     }
+`;
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: inherit;
 `;

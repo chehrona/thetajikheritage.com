@@ -1,6 +1,7 @@
 import { VolumeUp } from "@mui/icons-material";
 import React, { useState } from "react";
 import { recipes } from "../../data/recipeData";
+import { StyledLink } from "../recipeBox/recipeBoxStyles";
 
 import { 
     RecipeBoxContainer,
@@ -9,31 +10,27 @@ import {
     RecipeImage,
     RecipeSubtitle,
     RecipeNameBox,
-    StyledIconButton
+    StyledIconButton,
+    StyledPinIcon,
+    CircleBorder
 } from "./recipeBoxStyles";
 
 export default function RecipeBox() {
-    const [hovered, setHovered] = useState(false);
-
     function toggleAudio(e) {
         const audioFile = e.currentTarget.children[0];
-        console.log(audioFile, "before");
         audioFile.play();
-        console.log(audioFile, "after");
     }
 
     return (
         <RecipeBoxContainer>
             {recipes.map((recipe, i) => {
                 return (
-                    <RecipeCard key={i} hovered={hovered === i}>
-                        <RecipeImage
-                            src={recipe.imageName}
-                            hovered={hovered === i}
-                            data={i}
-                            onMouseEnter={(e) => setHovered(e.currentTarget.getAttribute("data"))}
-                            onMouseLeave={() => setHovered(false)}
-                        />
+                    <RecipeCard key={i}>
+                        <StyledLink to={"/cuisine" + recipe.link}>
+                            <RecipeImage
+                                src={recipe.imageName}
+                            />
+                        </StyledLink>
                         <RecipeNameBox>
                             <RecipeTitle>
                                 {recipe.title}

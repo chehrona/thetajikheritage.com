@@ -9,6 +9,8 @@ import History from './pages/history/History';
 import Header from './components/header/Header';
 import SideNav from './components/sideNav/SideNav';
 import Menu from './components/menu/Menu';
+import { recipes } from './data/recipeData';
+import RecipePage from './finalPages/RecipePage';
 
 const LangContext = createContext({
     lang: 'us',
@@ -20,6 +22,8 @@ const LangContext = createContext({
 export function useSetLang() {
   return useContext(LangContext);
 }
+
+console.log(recipes, "recipes")
 
 function App() {
   const [lang, setLang] = useState('us'),
@@ -38,12 +42,13 @@ function App() {
       <SideNav />
       {isMenuShown && <Menu />}
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/arts" element={<Arts />} />
           <Route path="/customs" element={<Customs />} />
+          <Route path="/cuisine/:id" element={<RecipePage />} />
           <Route path="/cuisine" element={<Cuisine />} />
           <Route path="/language" element={<Language />} />
           <Route path="/history" element={<History />} />
+          <Route path="/" element={<Home />} />
        </Routes>
     </LangContext.Provider>
   );
