@@ -27,6 +27,23 @@ export const ImageContainer = styled.div`
     margin-right: 8rem;
 `;
 
+export const InfoContainer = styled.div`
+    width: 42rem;
+`;
+
+export const HistoryInfo = styled.div`
+    font-size: 1.2rem;
+    margin-top: 2rem;
+`;
+
+export const AllergyContainer = styled.div`
+    display: flex;
+`;
+
+export const ContainsBox = styled.div`
+    
+`;
+
 export const StyledPinIcon = styled(Pinterest)`
     color: #e60022;
     position: absolute;

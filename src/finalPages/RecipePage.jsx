@@ -6,7 +6,12 @@ import { PageContainer,
          IntroSection,
          MainTitle,
          ImageContainer,
-         StyledPinIcon
+         StyledPinIcon,
+         InfoContainer,
+         HistoryInfo,
+         AllergyContainer,
+         ContainsBox,
+         LabelContainer
 } from "./recipePageStyles";
 
 export default function RecipePage() {
@@ -23,10 +28,34 @@ export default function RecipePage() {
                             target={"_blank"}
                             >
                             <StyledPinIcon />
-                            <MainImage src={recipe[0].mainImg} />
                         </a>
+                        <MainImage src={recipe[0].mainImg} />
                     </ImageContainer>
-                    <MainTitle>{recipe[0].title}</MainTitle>
+                    <InfoContainer>
+                        <MainTitle>{recipe[0].title}</MainTitle>
+                        <HistoryInfo>{recipe[0].history}</HistoryInfo>
+                        <AllergyContainer>
+                            {recipe[0].contains && 
+                                <ContainsBox>
+                                    {recipe[0].contains.map((label) => {
+                                        if (label === 'dairy') {
+                                            return (
+                                                <LabelContainer>
+                                                    <img src={'/allergyLabels/dairy.png'} />
+                                                </LabelContainer>
+                                            )
+                                        } else if (label === 'gluten') {
+                                            return (
+                                                <LabelContainer>
+                                                    <img src={'/allergyLabels/gluten.png'} />
+                                                </LabelContainer>
+                                            )
+                                        }
+                                    })}
+                                </ContainsBox>
+                            }
+                        </AllergyContainer>
+                    </InfoContainer>
                 </IntroSection>
             </PageContainer>
         )
