@@ -32,16 +32,16 @@ export default function Flags() {
                 <StyledFlag lang={lang} title={lang} hovered={hovered}></StyledFlag> 
             </StyledIconButton>
             {showLangMenu && <FlagDropdown>
-                {lang !== 'us' && <StyledIconButton onClick={changeLang}>
+                {lang !== 'us' && <StyledIconButton title={'us'} onClick={changeLang}>
                     <StyledFlag lang={'us'} title={'us'} hovered={"true"}></StyledFlag> 
                 </StyledIconButton>}
-                {lang !== 'tj' && <StyledIconButton onClick={changeLang}>
+                {lang !== 'tj' && <StyledIconButton title={"tj"} onClick={changeLang}>
                     <StyledFlag lang={'tj'} title={"tj"} hovered={"true"}></StyledFlag> 
                 </StyledIconButton>}
-                {lang !== 'kh' && <StyledIconButton onClick={changeLang}>
+                {lang !== 'kh' && <StyledIconButton title={'kh'} onClick={changeLang}>
                     <StyledFlag lang={'kh'} title={'kh'} hovered={"true"}></StyledFlag> 
                 </StyledIconButton>}
-                {lang !== 'ru' && <StyledIconButton onClick={changeLang}>
+                {lang !== 'ru' && <StyledIconButton title={'ru'} onClick={changeLang}>
                     <StyledFlag lang={'ru'} title={'ru'} hovered={"true"}></StyledFlag> 
                 </StyledIconButton>}
             </FlagDropdown>}

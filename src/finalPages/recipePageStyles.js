@@ -3,7 +3,7 @@ import { Pinterest } from "@mui/icons-material";
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
-    margin: 4.5rem;
+    margin: 5rem;
 `;
 
 export const MainImage = styled.img`

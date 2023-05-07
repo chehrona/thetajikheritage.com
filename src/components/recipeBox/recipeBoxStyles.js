@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const RecipeBoxContainer = styled.div`
-    margin: 4.5rem;
+    margin: 5rem;
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
