@@ -1,6 +1,9 @@
 import { IconButton } from "@mui/material";
-import { CircleFlag } from "react-circle-flags";
 import styled from "styled-components";
+import khorLogo from "./images/khorasan.png";
+import usLogo from "./images/united-states.png";
+import ruLogo from "./images/russia.png";
+import tjLogo from "./images/tajikistan.png";
 
 export const FlagWrapper = styled.div`
     height: 2rem;
@@ -9,17 +12,16 @@ export const FlagWrapper = styled.div`
     margin-bottom: 0.4rem;
 `;
 
-export const StyledFlag = styled(CircleFlag)`
-    width: 1.25rem;
-    height: 1.25rem;
-    filter: ${({hovered}) => hovered === "true" ? 'grayscale(0%)': 'grayscale(100%)'};
-`
-
-export const StyledKhorImg = styled.img`
+export const StyledFlag = styled.div`
     width: 1.25rem;
     border-radius: 50%;
     height: 1.25rem;
     filter: ${({hovered}) => hovered === "true" ? 'grayscale(0%)': 'grayscale(100%)'};
+    background-size: 100%;
+    background-image: ${({lang}) => lang === "kh" ? `url(${khorLogo})` :
+                                    lang === "us" ? `url(${usLogo})` :
+                                    lang === "ru" ? `url(${ruLogo})` :
+                                    `url(${tjLogo})`};
 `;
 
 export const FlagDropdown = styled.div`

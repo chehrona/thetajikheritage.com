@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useSetLang } from "../../App";
 
 import { StyledFlag,
-         StyledKhorImg,
          FlagWrapper,
          FlagDropdown,
          StyledIconButton
@@ -30,24 +29,20 @@ export default function Flags() {
             <StyledIconButton onClick={showLangOptions}
                 onMouseEnter={() => setHovered("true")}
                 onMouseLeave={() => !showLangMenu && setHovered("false")}>
-                {lang !== 'kh' ? 
-                    <StyledFlag countryCode={lang} hovered={hovered}></StyledFlag> :
-                    <StyledKhorImg src='khorasan.png' title='kh' hovered={hovered}
-                    ></StyledKhorImg>}  
+                <StyledFlag lang={lang} title={lang} hovered={hovered}></StyledFlag> 
             </StyledIconButton>
             {showLangMenu && <FlagDropdown>
                 {lang !== 'us' && <StyledIconButton onClick={changeLang}>
-                    <StyledFlag countryCode='us' hovered={"true"}></StyledFlag>
+                    <StyledFlag lang={'us'} title={'us'} hovered={"true"}></StyledFlag> 
                 </StyledIconButton>}
                 {lang !== 'tj' && <StyledIconButton onClick={changeLang}>
-                    <StyledFlag countryCode='tj' hovered={"true"}></StyledFlag>
+                    <StyledFlag lang={'tj'} title={"tj"} hovered={"true"}></StyledFlag> 
                 </StyledIconButton>}
                 {lang !== 'kh' && <StyledIconButton onClick={changeLang}>
-                    <StyledKhorImg src='khorasan.png' title='kh' hovered={"true"}
-                    ></StyledKhorImg>
+                    <StyledFlag lang={'kh'} title={'kh'} hovered={"true"}></StyledFlag> 
                 </StyledIconButton>}
                 {lang !== 'ru' && <StyledIconButton onClick={changeLang}>
-                    <StyledFlag countryCode='ru' hovered={"true"}></StyledFlag>
+                    <StyledFlag lang={'ru'} title={'ru'} hovered={"true"}></StyledFlag> 
                 </StyledIconButton>}
             </FlagDropdown>}
         </FlagWrapper>

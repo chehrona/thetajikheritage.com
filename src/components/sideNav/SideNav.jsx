@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Flags from "../flags/Flags";
+import pinIcon from "./icons/pin.png";
+import instIcon from "./icons/inst.png";
+import mailIcon from "./icons/mail.png";
 
 import { SideNavContainer,
          StyledIcon,
@@ -18,21 +21,21 @@ export default function SideNav() {
                 <StyledIconButton 
                     onMouseEnter={() => setPinHovered("true")}
                     onMouseLeave={() => setPinHovered("false")}>
-                    <StyledIcon src='pin.png' rad={true} hovered={pinHovered}/>
+                    <StyledIcon src={pinIcon} rad={true} hovered={pinHovered}/>
                 </StyledIconButton>
             </a>
             <a href='https://www.instagram.com/tajik_heritage/' rel="noreferrer" target={'_blank'}>
                 <StyledIconButton
                     onMouseEnter={() => setInstHovered("true")}
                     onMouseLeave={() => setInstHovered("false")}>
-                    <StyledIcon src='inst.png' rad={false} hovered={instHovered}/>
+                    <StyledIcon src={instIcon} rad={false} hovered={instHovered}/>
                 </StyledIconButton>
             </a>
             <a href='mailto:thetajikheritage@gmail.com' rel="noreferrer" target={'_blank'}>
                 <StyledIconButton 
                     onMouseEnter={() => setEmailHovered("true")}
                     onMouseLeave={() => setEmailHovered("false")}>
-                    <StyledIcon src='mail.png' rad={false} hovered={emailHovered}/>
+                    <StyledIcon src={mailIcon} rad={false} hovered={emailHovered}/>
                 </StyledIconButton>
             </a>
             <Divider />

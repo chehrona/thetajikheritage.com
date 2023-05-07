@@ -10,14 +10,38 @@ module.exports.recipes = [
     },
     {
         id: 'shirchoy',
-        title: 'Shirchoy',
+        title: {us: 'Shirchoy', ru: 'Ширчой', tj: 'Ширчой', kh: 'شیرچوی'},
         subtitle: 'Milk tea with nuts',
         mainImg: '/recipePics/kichiri.png',
         sound: '/recipeNames/shirchoy.mp3',
-        history: 'Shirchoy is a meal prepared in various countries in Central Asia, including Tajikistan. The name "shirchoy" is derived from two Persian words: "shir," which means milk, and "choy," which means tea. Unlike the milk tea beverages prepared in the West, such as British tea, Tajik milk tea is a substantial meal, which can be consumed as a breakfast or a light dinner. In addition to milk and tea, people add bread pieces, butter or animal fat, almond leaves, walnuts, and rose hip flowers. Depending on personal preference, sugar or salt, and sometimes pepper can also be added. The salty version is known as "shürchoy" ("shür" is derived from Persian - salty). Therefore, shirchoy can be considered a milk-based soup, which is typically served in a bowl or on deep wooden plates. Urban Tajiks mainly consume it during winter, while mountain communities such as Pamiri people enjoy it year-round.',
+        history: {
+            us: `<span style='font-weight: bold; color: black;'>Shirchoy</span> is a meal prepared in various countries in Central Asia, including Tajikistan. The name "shirchoy" is derived from two Tajiki-Persian words: <span style='font-weight: bold; color: black;'>"shir,"</span> which means milk, and <span style='font-weight: bold; color: black;'>"choy"</span> - tea. Unlike the milk teas prepared in the West, such as English tea, Tajik milk tea is a substantial meal, which can be consumed as a breakfast or a light dinner. In addition to milk and tea, people add flatbread pieces, ghee or sheep tail fat, almond leaves, walnuts, and rose hip flowers. Depending on personal preference, sugar or salt, and sometimes pepper can also be added. The salty version is known as <span style='font-weight: bold; color: black;'>"shürchoy"</span> ("shür" is derived from Tajiki-Persian - salty). Therefore, shirchoy can be considered a milk-based soup, which is typically served in a bowl or on deep wooden plates. Urban Tajiks mainly consume it during winter, while mountain communities, such as the Pamiri people, enjoy it year-round.`, 
+            ru: `<span style='font-weight: bold; color: black;'>Ширчой</span> это блюдо, которое готовят в разных странах Центральной Азии, в том числе в Таджикистане. Название «ширчой» образовано от двух таджико-персидских слов: <span style='font-weight: bold; color: black;'>«шир»</span>, что означает молоко, и <span style='font-weight: bold; color: black;'>«чой»</span> — чай. В отличие от чаев с молоком, приготовленных на Западе, таких как английский чай, таджикский чай с молоком — это сытная еда, которую можно употреблять в качестве завтрака или легкого ужина. Кроме молока и чая, в него добавляют кусочки лепёшки, топлёное сливочное или курдючное масло, листья миндаля, грецкие орехи, и цветки шиповника. В зависимости от личных предпочтений можно добавить еще сахар или соль, а иногда и перец. Соленый вариант также известен как <span style='font-weight: bold; color: black;'>«шурчой»</span> («шур» происходит от таджико-персидского — соленый). Поэтому ширчой можно считать молочным супом, который обычно подают в миске или на глубоких деревянных тарелках. Городское население потребляет его в основном зимой, тогда как горные общины, такие как памирцы, наслаждаются им круглый год.`,
+            kh: `<span style='font-weight: bold; color: black;'>شیرچوی</span>`,
+            tj: `<span style='font-weight: bold; color: black;'>Ширчой</span> таомест, ки дар кишварҳои мухталифи Осиёи Миёна ва ҳамчунин дар Тоҷикистон тайёр карда мешавад. Номи "ширчой" аз ду калимаи тоҷикӣ-форсии <span style='font-weight: bold; color: black;'>"шир"</span> ва <span style='font-weight: bold; color: black;'>"чой"</span> гирифта шудааст. Нисбат ба ширчойҳое, ки махсусан дар кишварҳои Ғарб (масалан чойи англисӣ) омода мекунанд, ширчойи тоҷикӣ камтар фарқ мекунад. Ширчойи тоҷикӣ ғизои пурра аст, ки онро ҳамчун субҳона ва ё шоми сабук истеъмол кардан мумкин аст. Ба ғайр аз ширу чой ба он порчаҳои нон, равғани зарди сӯхта ё ин ки равғани дунбаи обкардашуда, барги бодом, чормағз ва гулҳои хуч (шиповник) меандозанд. Вобаста аз хости хонавода, шакар ё намак, ва баъзан мурч низ метавонанд илова кунанд. Намуди намакдораш бо номи <span style='font-weight: bold; color: black;'>"шӯрчой"</span> ҳам маъруф аст (аз вожаи тоҷикӣ-форсии шӯр). Аз ин рӯ, ширчойро "шӯрбо"-и ширӣ ҳисоб кардан мумкин аст ва онро асосан дар коса ё табақҳои чуқури чӯбӣ мекашанд. Аҳолии шаҳрӣ онро бисёртар дар фасли зимистон истеъмол мекунанд, вале ҷамоаҳои кӯҳӣ, ба мисли помириҳо, аз ширчой тамоми сол лаззат мебаранд.`
+        },
         link: '/shirchoy',
         contains: ['dairy', 'gluten', 'nuts'],
-        swapOut: ['dairy'],
+        containsLang: {ru: 'Содержит', us: 'Contains', tj: 'Дорад', kh: ''},
+        ingredientsLang: {ru: 'Ингредиенты', us: 'Ingredients', tj: 'Маҳсулот', kh: ''},
+        directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: ''},
+        labels: [
+            {us: 'Dairy', ru: 'Молоко', tj: 'Шир', kh: 'شیر'},
+            {us: 'Gluten', ru: 'Клейковина', tj: 'Глютен', kh: 'گلوتن'},
+            {us: 'Nuts', ru: 'Орехи', tj: 'Чормағз', kh: 'آجیل'}
+        ],
+        ingredients: {
+            us: ["3 cups milk", "2 Tbsps black tea", "1 loaf baguette", "&#189 cup chopped walnuts", "1 tsp ghee", "2 tsps sugar"],
+            ru: ["3 стакана молока", "2 c.л. чёрного чая", "1 лепёшка", "&#189 стакана измельченных грецких орехов", "1 ч.л. топлёного масла", "2 ч.л. cахара"],
+            tj: ["3 стакан шир", "2 қошуқи калон чойи сиёҳ", "1-то нон"],
+            kh: ["3 стакана молока", "2 чёрного чая", ""],
+        },
+        directions: {
+            us: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
+            ru: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
+            tj: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
+            kh: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
+        },
     },
     {
         id: 'qurutob',

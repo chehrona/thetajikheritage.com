@@ -23,8 +23,6 @@ export function useSetLang() {
   return useContext(LangContext);
 }
 
-console.log(recipes, "recipes")
-
 function App() {
   const [lang, setLang] = useState('us'),
         [isMenuShown, setIsMenuShown] = useState(false);
