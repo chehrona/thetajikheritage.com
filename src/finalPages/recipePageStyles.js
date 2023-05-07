@@ -84,8 +84,8 @@ export const AllergenName = styled.div`
 export const StyledPinIcon = styled(Pinterest)`
     color: #e60022;
     position: absolute;
-    left: 5rem;
-    top: 13rem;
+    left: 5.5rem;
+    top: 13.5rem;
     font-size: 2em !important;
 `;
 

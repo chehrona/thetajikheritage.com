@@ -20,8 +20,8 @@ module.exports.recipes = [
                 <span style='font-weight: bold; color: black;'>"shir,"</span> which means milk, and 
                 <span style='font-weight: bold; color: black;'>"choi"</span> - tea. Unlike the milk teas prepared in the West, 
                 such as English tea, Tajik milk tea is a substantial meal, which can be consumed as a breakfast or a light dinner. 
-                In addition to milk and tea, people add flatbread pieces, ghee or sheep tail fat, almond leaves, walnuts, and rose hip 
-                flowers. Depending on personal preference, sugar or salt, and sometimes even pepper is added. The salty version is known 
+                In addition to milk and tea, people add flatbread pieces, ghee or sheep tail fat<Tooltip title="Here">*</Tooltip>, 
+                almond leaves, walnuts, and rose hip flowers. Depending on personal preference, sugar or salt, and sometimes even pepper is added. The salty version is known 
                 as <span style='font-weight: bold; color: black;'>"shürchoi"</span> ("shür" is derived from Tajiki-Persian - salty). 
                 The shirchoi ingredients vary based on the climate, such as the addition of ghee or even cream being more 
                 common among mountainous peoples, who need a high-calorie food to help them endure the harsh and cold weather. 
