@@ -1,5 +1,6 @@
 import React from "react";
 import { useSetLang } from "../../App";
+import logo from "./tajiks.svg";
 import { MenuContainer,
         LogoContainer,
         Logo,
@@ -15,21 +16,21 @@ export default function Menu() {
     const { lang, setIsMenuShown } = useSetLang();
 
     const pageInfo = {
-        "us": [
+        us: [
             {title: "Arts & Crafts", desc: "Material culture", link: "/arts"},
             {title: "Customs", desc: "Intangible heritage", link: "/customs"},
             {title: "Cuisine", desc: "Food & national identity", link: "/cuisine"},
             {title: "Language", desc: "Sounds of the past and present", link: "/language"},
             {title: "History", desc: "Ancient, medieval and modern", link: "/history"}
         ],
-        "ru": [
+        ru: [
             {title: "Искусства & ремесла", desc: "Материальная культура", link: "/arts"},
             {title: "Обычаи", desc: "Нематериальное наследие", link: "/customs"},
             {title: "Кухня", desc: "Кулинарная & национальная самобытность", link: "/cuisine"},
             {title: "Язык", desc: "Звуки прошлого и настоящего", link: "/language"},
             {title: "История", desc: "Древняя, средневековая и современная", link: "/history"}
         ],
-        "tj": [
+        tj: [
             {title: "Санъат ва ҳунар", desc: "Фарҳанги моддӣ", link: "/arts"},
             {title: "Расму русум", desc: "Мероси ғайримоддӣ", link: "/customs"},
             {title: "Ғизоҳо", desc: "Хӯрокпазӣ & хусусияти миллӣ", link: "/cuisine"},
@@ -50,7 +51,7 @@ export default function Menu() {
             <Background />
             <LogoContainer>
                 {/* <LogoHalf src="zarduzi.png"></LogoHalf> */}
-                <Logo src="tajiks.svg"></Logo>
+                <Logo src={logo}></Logo>
             </LogoContainer>
             <PageNamesContainer>
                 {pageInfo[lang]?.map((entry) => {

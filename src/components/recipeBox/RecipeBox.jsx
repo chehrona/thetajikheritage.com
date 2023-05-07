@@ -1,5 +1,6 @@
 import { VolumeUp } from "@mui/icons-material";
-import React, { useState } from "react";
+import React from "react";
+import { useSetLang } from "../../App";
 import { recipes } from "../../data/recipeData";
 import { StyledLink } from "../recipeBox/recipeBoxStyles";
 
@@ -16,6 +17,8 @@ import {
 } from "./recipeBoxStyles";
 
 export default function RecipeBox() {
+    const { lang } = useSetLang();
+
     function toggleAudio(e) {
         const audioFile = e.currentTarget.children[0];
         audioFile.play();
@@ -23,7 +26,7 @@ export default function RecipeBox() {
 
     return (
         <RecipeBoxContainer>
-            {recipes.map((recipe, i) => {
+            {recipes?.map((recipe, i) => {
                 return (
                     <RecipeCard key={i}>
                         <StyledLink to={"/cuisine" + recipe.link}>
@@ -33,7 +36,7 @@ export default function RecipeBox() {
                         </StyledLink>
                         <RecipeNameBox>
                             <RecipeTitle>
-                                {recipe.title}
+                                {recipe.title[lang]}
                             </RecipeTitle>
                             <StyledIconButton onClick={(e) => toggleAudio(e)}>
                                 <audio src={recipe.sound}></audio>
@@ -41,7 +44,7 @@ export default function RecipeBox() {
                             </StyledIconButton>
                         </RecipeNameBox>
                         <RecipeSubtitle>
-                            {recipe.subtitle}
+                            {recipe.subtitle[lang]}
                         </RecipeSubtitle>
                     </RecipeCard>
                 )

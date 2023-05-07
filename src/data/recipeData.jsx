@@ -1,17 +1,17 @@
 module.exports.recipes = [
-    {
-        id: 'oshi-palov',
-        title: 'Osh-i palov',
-        subtitle: 'Rice pilaf',
-        mainImg: 'oshipalov.png',
-        sound: '/recipeNames/oshipalov.mp3',
-        history: '',
-        link: '/osh-i-palov',
-    },
+    // {
+    //     id: 'oshi-palov',
+    //     title: 'Osh-i palov',
+    //     subtitle: 'Rice pilaf',
+    //     mainImg: 'oshipalov.png',
+    //     sound: '/recipeNames/oshipalov.mp3',
+    //     history: '',
+    //     link: '/osh-i-palov',
+    // },
     {
         id: 'shirchoy',
         title: {us: 'Shirchoy', ru: 'Ширчой', tj: 'Ширчой', kh: 'شیرچوی'},
-        subtitle: 'Milk tea with nuts',
+        subtitle: {us: 'Milk tea with nuts', ru: 'Чай с молоком и орехами', tj: '', kh: ''},
         mainImg: '/recipePics/kichiri.png',
         sound: '/recipeNames/shirchoy.mp3',
         history: {
@@ -43,15 +43,15 @@ module.exports.recipes = [
             kh: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
         },
     },
-    {
-        id: 'qurutob',
-        title: 'Qurutob',
-        subtitle: 'Bread salad',
-        mainImg: 'qurutob.png',
-        sound: '/recipeNames/qurutob.mp3',
-        history: '',
-        link: '/qurutob',
-    },
+    // {
+    //     id: 'qurutob',
+    //     title: 'Qurutob',
+    //     subtitle: 'Bread salad',
+    //     mainImg: 'qurutob.png',
+    //     sound: '/recipeNames/qurutob.mp3',
+    //     history: '',
+    //     link: '/qurutob',
+    // },
     // {
     //     title: 'Kichiri',
     //     subtitle: 'Rice porridge with mung beans',
