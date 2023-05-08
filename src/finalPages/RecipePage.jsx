@@ -26,10 +26,10 @@ import { PageContainer,
 
 export default function RecipePage() {
     const { id } = useParams();
-    const { lang } = useSetLang();
+    const { lang, isMenuShown } = useSetLang();
     const recipe = recipes.filter((recipe) => recipe.id === id);
 
-    if (recipe) {
+    if (recipe && !isMenuShown) {
         return (
             <PageContainer>
                 <IntroSection>

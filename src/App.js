@@ -15,7 +15,7 @@ import RecipePage from './finalPages/RecipePage';
 const LangContext = createContext({
     lang: 'us',
     setLang: () => {},
-    isMenuShown: 'us',
+    isMenuShown: false,
     setIsMenuShown: () => {},
 });
 
