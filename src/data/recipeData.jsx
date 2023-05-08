@@ -21,7 +21,7 @@ module.exports.recipes = [
                 <span style='font-weight: bold; color: black;'>"choy"</span> - tea. Unlike the milk teas prepared in the West, 
                 such as English tea, Tajik milk tea is a substantial meal, which can be consumed as a breakfast or a light dinner. 
                 In addition to milk and tea, people add flatbread pieces, ghee or <div class="tooltip">sheep tail fat
-                <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>, 
+                <span class="tooltiptext" style='width: 17rem; margin-left: -10rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>, 
                 almond leaves, walnuts, and rose hip flowers. Depending on personal preference, sugar or salt, and sometimes even pepper is added. The salty version is known 
                 as <span style='font-weight: bold; color: black;'>"shürchoy"</span> ("shür" is derived from Tajiki-Persian - salty). 
                 The shirchoy ingredients vary based on the climate, such as the addition of ghee or even cream being more 
