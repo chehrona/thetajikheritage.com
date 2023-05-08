@@ -39,7 +39,7 @@ export const InfoContainer = styled.div`
 
 export const HistoryInfo = styled.div`
     font-size: 1.1rem;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     margin-top: 0.5rem;
     color: #212529;
 `;
