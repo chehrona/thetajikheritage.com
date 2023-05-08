@@ -21,7 +21,7 @@ export const RecipeCard = styled.div`
 
 export const RecipeNameBox = styled.div`
     display: flex;
-    font-size: 1.6rem;
+    font-size: 2rem;
     align-items: center;
     margin-top: 0.5rem;
 `;
@@ -36,12 +36,14 @@ export const StyledIconButton = styled(IconButton)`
 `;
 
 export const RecipeTitle = styled.div`
-    font-weight: bold;
+    font-weight: 500;
     margin-right: 0.3rem;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
 `;
 
 export const RecipeSubtitle = styled.div`
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-top: -0.2rem;
 `;
 

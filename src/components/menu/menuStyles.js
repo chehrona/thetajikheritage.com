@@ -47,7 +47,7 @@ export const PageNamesContainer = styled.div`
     top: 7em;
     padding: 1em;
     padding-top: 0em;
-    font-size: 1.8em;
+    font-size: 2em;
 `;
 
 export const MenuItem = styled.div`
@@ -56,13 +56,15 @@ export const MenuItem = styled.div`
 
 export const PageName = styled.div`
     font-weight: bold;
+    font-style: italic;
     padding-top: 1em;
     cursor: pointer;
+    font-family: 'EB Garamond', serif;
 `;
 
 export const PageDesc = styled.div`
     color: rgb(181 181 181);
-    font-size: 0.8em;
+    font-size: 0.65em;
     cursor: pointer;
 `;
 

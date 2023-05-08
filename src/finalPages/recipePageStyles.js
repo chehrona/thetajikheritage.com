@@ -21,6 +21,9 @@ export const IntroSection = styled.div`
 export const MainTitle = styled.div`
     font-size: 5rem;
     margin-top: -1rem;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 500;
 `;
 
 export const ImageContainer = styled.div`
@@ -34,7 +37,8 @@ export const InfoContainer = styled.div`
 `;
 
 export const HistoryInfo = styled.div`
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
     margin-top: 0.5rem;
     color: #212529;
 `;
@@ -62,7 +66,7 @@ export const LabelContainer = styled.div`
 
 export const BoxTitle = styled.div`
     margin-bottom: 0.8rem;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1.2rem;
 `;
 
@@ -78,7 +82,7 @@ export const LabelImage = styled.img`
 `;
 
 export const AllergenName = styled.div`
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 `;
 
 export const StyledPinIcon = styled(Pinterest)`
@@ -103,6 +107,9 @@ export const IngredientBox = styled.div`
 
 export const SubTitle = styled.div`
     font-size: 2rem;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 500;
     padding-right: 2rem;
     padding-left: ${({margin}) => margin === "false" ? "0rem" : "2rem"};
     padding-top: 1rem;
