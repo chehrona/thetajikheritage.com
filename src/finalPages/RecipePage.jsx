@@ -21,7 +21,8 @@ import { PageContainer,
          IngredientContainer,
          SubTitle,
          IngredientBox,
-         Ingredient
+         Ingredient,
+         DietBox,
 } from "./recipePageStyles";
 
 export default function RecipePage() {
@@ -63,6 +64,23 @@ export default function RecipePage() {
                                         })}
                                     </LabelWrapper>
                                 </ContainsBox>
+                            }
+                            {recipe[0].diet && 
+                                <DietBox>
+                                    <BoxTitle>{recipe[0].dietLang[lang]}</BoxTitle>
+                                    <LabelWrapper>
+                                        {recipe[0].diet.map((label, i) => {
+                                            return (
+                                                <LabelContainer>
+                                                    <LabelImage src={`/allergyLabels/${label}.png`} />
+                                                    <AllergenName>
+                                                        {recipe[0].dietLabels[i][lang]}
+                                                    </AllergenName>
+                                                </LabelContainer>
+                                            )
+                                        })}
+                                    </LabelWrapper>
+                                </DietBox>
                             }
                         </AllergyContainer>
                     </InfoContainer>

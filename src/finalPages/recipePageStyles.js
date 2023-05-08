@@ -53,6 +53,16 @@ export const ContainsBox = styled.div`
     border-radius: 1rem;
     padding: 0.8rem;
     padding-top: 0.5rem;
+    min-width: 7rem;
+`;
+
+export const DietBox = styled.div`
+    background: rgb(225 244 244);
+    border-radius: 1rem;
+    padding: 0.8rem;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    min-width: 7rem;
 `;
 
 export const LabelContainer = styled.div`
@@ -72,6 +82,7 @@ export const BoxTitle = styled.div`
 
 export const LabelWrapper = styled.div`
     display: flex;
+    justify-content: center;
 `;
 
 export const LabelImage = styled.img`

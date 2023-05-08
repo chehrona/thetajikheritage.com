@@ -59,7 +59,12 @@ module.exports.recipes = [
         },
         link: '/shirchoy',
         contains: ['dairy', 'gluten', 'nuts'],
+        diet: ["veg"],
         containsLang: {ru: 'Содержит', us: 'Contains', tj: 'Дорад', kh: ''},
+        dietLang: {us: "Diet", ru: "Диета", tj: "Парҳез", kh: ""},
+        dietLabels: [
+            {us: 'Vegetarian', ru: 'Вегетарианский', tj: 'Гиёҳхорӣ', kh: 'گیاه خواری'},
+        ],
         ingredientsLang: {ru: 'Ингредиенты', us: 'Ingredients', tj: 'Маҳсулот', kh: ''},
         directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: ''},
         labels: [
