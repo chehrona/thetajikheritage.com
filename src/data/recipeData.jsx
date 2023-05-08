@@ -9,24 +9,24 @@ module.exports.recipes = [
     //     link: '/osh-i-palov',
     // },
     {
-        id: 'shirchoi',
-        title: {us: 'Shirchoi', ru: 'Ширчой', tj: 'Ширчой', kh: 'شیرچوی'},
-        subtitle: {us: 'Milk tea with nuts', ru: 'Чай с молоком и орехами', tj: '', kh: ''},
+        id: 'shirchoy',
+        title: {us: 'Shirchoy', ru: 'Ширчой', tj: 'Ширчой', kh: 'شیرچوی'},
+        subtitle: {us: 'Salted milk tea', ru: 'Солёный чай с молоком', tj: '', kh: ''},
         mainImg: '/recipePics/kichiri.png',
-        sound: '/recipeNames/shirchoi.mp3',
+        sound: '/recipeNames/shirchoy.mp3',
         history: {
-            us: `<span style='font-weight: bold; color: black;'>Shirchoi</span> is a meal prepared in various countries in 
-                Central Asia, including Tajikistan. The name "shirchoi" is derived from two Tajiki-Persian words: 
+            us: `<span style='font-weight: bold; color: black;'>Shirchoy</span> is a meal prepared in various countries in 
+                Central Asia, including Tajikistan. The name "shirchoy" is derived from two Tajiki-Persian words: 
                 <span style='font-weight: bold; color: black;'>"shir,"</span> which means milk, and 
-                <span style='font-weight: bold; color: black;'>"choi"</span> - tea. Unlike the milk teas prepared in the West, 
+                <span style='font-weight: bold; color: black;'>"choy"</span> - tea. Unlike the milk teas prepared in the West, 
                 such as English tea, Tajik milk tea is a substantial meal, which can be consumed as a breakfast or a light dinner. 
                 In addition to milk and tea, people add flatbread pieces, ghee or <div class="tooltip">sheep tail fat
                 <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>, 
                 almond leaves, walnuts, and rose hip flowers. Depending on personal preference, sugar or salt, and sometimes even pepper is added. The salty version is known 
-                as <span style='font-weight: bold; color: black;'>"shürchoi"</span> ("shür" is derived from Tajiki-Persian - salty). 
-                The shirchoi ingredients vary based on the climate, such as the addition of ghee or even cream being more 
+                as <span style='font-weight: bold; color: black;'>"shürchoy"</span> ("shür" is derived from Tajiki-Persian - salty). 
+                The shirchoy ingredients vary based on the climate, such as the addition of ghee or even cream being more 
                 common among mountainous peoples, who need a high-calorie food to help them endure the harsh and cold weather. 
-                Therefore, shirchoi can be seen as a milk-based "soup" typically served in a bowl or on deep wooden plates. Urban 
+                Therefore, shirchoy can be seen as a milk-based "soup" typically served in a bowl or on deep wooden plates. Urban 
                 Tajiks mainly consume it during winter, while mountain communities, such as the Pamiri people, enjoy it year-round.`,
             ru: `<span style='font-weight: bold; color: black;'>Ширчой</span> это блюдо, которое готовят в разных странах Центральной 
                 Азии, в том числе в Таджикистане. Название «ширчой» образовано от двух таджико-персидских слов: 
@@ -57,7 +57,7 @@ module.exports.recipes = [
                 мумкин аст ва онро асосан дар коса ё табақҳои чуқури чӯбӣ мекашанд. Аҳолии шаҳрӣ онро бисёртар дар фасли зимистон 
                 истеъмол мекунад, вале ҷамоаҳои кӯҳӣ, ба мисли помириҳо, аз ширчой тамоми сол лаззат мебаранд.`
         },
-        link: '/shirchoi',
+        link: '/shirchoy',
         contains: ['dairy', 'gluten', 'nuts'],
         containsLang: {ru: 'Содержит', us: 'Contains', tj: 'Дорад', kh: ''},
         ingredientsLang: {ru: 'Ингредиенты', us: 'Ingredients', tj: 'Маҳсулот', kh: ''},

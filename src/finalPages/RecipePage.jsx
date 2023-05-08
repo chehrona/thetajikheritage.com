@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {useParams} from "react-router-dom";
 import { useSetLang } from "../App";
 import "./finalPagesStyles.css";
@@ -25,21 +25,22 @@ import { PageContainer,
 } from "./recipePageStyles";
 
 export default function RecipePage() {
-    const { id } = useParams();
-    const { lang, isMenuShown } = useSetLang();
-    const recipe = recipes.filter((recipe) => recipe.id === id);
+    const { id } = useParams(),
+          { lang, isMenuShown } = useSetLang(),
+          [pinHovered, setPinHovered] = useState(false),
+          recipe = recipes.filter((recipe) => recipe.id === id);
 
     if (recipe && !isMenuShown) {
         return (
             <PageContainer>
                 <IntroSection>
-                    <ImageContainer>
-                        <a data-pin-do="buttonPin"
+                    <ImageContainer onMouseEnter={() => setPinHovered(true)} onMouseLeave={() => setPinHovered(false)}>
+                        {pinHovered && <a data-pin-do="buttonPin"
                             href={`https://www.pinterest.com/pin/create/button/?url=http://www.thetajikheritage.com/cuisine/${recipe[0].id}/&media=https://www.thetajikheritage.com/recipePics/${recipe[0].mainImg}&description=${recipe[0].title}`}
                             target={"_blank"}
                             >
                             <StyledPinIcon />
-                        </a>
+                        </a>}
                         <MainImage src={recipe[0].mainImg} />
                     </ImageContainer>
                     <InfoContainer>
