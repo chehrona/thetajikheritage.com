@@ -20,7 +20,8 @@ module.exports.recipes = [
                 <span style='font-weight: bold; color: black;'>"shir,"</span> which means milk, and 
                 <span style='font-weight: bold; color: black;'>"choi"</span> - tea. Unlike the milk teas prepared in the West, 
                 such as English tea, Tajik milk tea is a substantial meal, which can be consumed as a breakfast or a light dinner. 
-                In addition to milk and tea, people add flatbread pieces, ghee or sheep tail fat<Tooltip title="Here">*</Tooltip>, 
+                In addition to milk and tea, people add flatbread pieces, ghee or <div class="tooltip">sheep tail fat
+                <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>, 
                 almond leaves, walnuts, and rose hip flowers. Depending on personal preference, sugar or salt, and sometimes even pepper is added. The salty version is known 
                 as <span style='font-weight: bold; color: black;'>"shürchoi"</span> ("shür" is derived from Tajiki-Persian - salty). 
                 The shirchoi ingredients vary based on the climate, such as the addition of ghee or even cream being more 
@@ -32,8 +33,9 @@ module.exports.recipes = [
                 <span style='font-weight: bold; color: black;'>«шир»</span>, что означает молоко, и 
                 <span style='font-weight: bold; color: black;'>«чой»</span> — чай. В отличие от чаев с молоком, приготавливающихся на Западе, таких 
                 как английский чай, таджикский чай с молоком — это сытная еда, которую можно употреблять в качестве завтрака или легкого ужина. 
-                В дополнение к молоку и чаю добавляют кусочки лепешек, топлёное сливочное или курдючное масло, листья миндаля, грецкие орехи, 
-                и цветки шиповника. В зависимости от личных предпочтений можно добавить еще сахар или соль, а иногда и перец. Соленый вариант 
+                В дополнение к молоку и чаю добавляют кусочки лепешек, топлёное сливочное или 
+                <div class="tooltip">курдючное <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</span></div>
+                масло, листья миндаля, грецкие орехи, и цветки шиповника. В зависимости от личных предпочтений можно добавить еще сахар или соль, а иногда и перец. Соленый вариант 
                 также известен как <span style='font-weight: bold; color: black;'>«шурчой»</span> («шур» происходит от таджико-персидского — соленый).  
                 Ингредиенты ширчоя варьируются в зависимости от климата, например, добавление топленого масла или даже сливок более распространено 
                 среди горцев, которым нужна высококалорийная еда, чтобы выдержать суровый климат. Поэтому ширчой можно считать 
@@ -45,8 +47,10 @@ module.exports.recipes = [
                 <span style='font-weight: bold; color: black;'>"шир"</span> ва <span style='font-weight: bold; color: black;'>"чой"</span> гирифта 
                 шудааст. Нисбат ба ширчойҳое, ки махсусан дар кишварҳои Ғарб (масалан чойи англисӣ) омода мекунанд, ширчойи тоҷикӣ камтар фарқ 
                 мекунад. Ширчойи тоҷикӣ ин ғизои пурра аст, ки ҳамчун субҳона ва ё шоми сабук истеъмол карда мешавад. Ба ғайр аз ширу чой 
-                ба он порчаҳои нон, равғани зарди сӯхта ё ин ки равғани дунбаи обкардашуда, барги бодом, чормағз ва гулҳои хуч (шиповник) меандозанд. 
-                Вобаста аз хости хонавода, шакар ё намак, ва баъзан мурч низ метавонанд илова кунанд. Намуди намакдораш бо номи 
+                ба он порчаҳои нон, равғани зарди сӯхта ё ин ки равғани <div class="tooltip">дунбаи обкардашуда
+                <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Асосан дар Самарқанд, Бухоро, Фарғона ва вилояти Суғд</span></div>, 
+                барги бодом, чормағз ва гулҳои хуч (шиповник) меандозанд. Вобаста аз хости хонавода, шакар ё намак, ва баъзан мурч низ метавонанд илова кунанд. 
+                Намуди намакдораш бо номи 
                 <span style='font-weight: bold; color: black;'>"шӯрчой"</span> ҳам маъруф аст (аз вожаи тоҷикӣ-форсии шӯр). 
                 Маҳсулоти ширчой аз обу ҳаво вобаста аст, масалан мардуми кӯҳистон бештар равған ё ҳатто қаймоқ илова мекунанд, 
                 чунки барои тобоварӣ ба обу ҳавои сард ба хӯрокҳои серкалория ниёз доранд. Аз ин рӯ, ширчойро "шӯрбо"-и ширӣ ҳисоб кардан 
