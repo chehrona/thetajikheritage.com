@@ -8,7 +8,7 @@ export const SideNavContainer = styled.div`
     position: fixed;
     left: 1rem;
     bottom: 0;
-    z-index: 1;
+    z-index: 2;
 `;
 
 export const StyledIcon = styled.img`

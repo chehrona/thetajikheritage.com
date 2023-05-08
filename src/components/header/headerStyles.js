@@ -25,7 +25,8 @@ export const TitleWrapper = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-family: 'EB Garamond', serif;
 `;
 
 export const Title = styled.div`

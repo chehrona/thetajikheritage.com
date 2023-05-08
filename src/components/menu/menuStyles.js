@@ -7,13 +7,16 @@ export const MenuContainer = styled.div`
     overflow: hidden;
     color: #D5D5D5;
     display: flex;
+    position: absolute;
+    left: 0rem;
+    top: 8rem;
+    z-index: 1;
 `;
 
 export const Background = styled.div`
     min-width: 100%;
     min-height: calc(100vh - 7.95em);
-    background: #000000;
-    opacity: 0.8;
+    background: rgb(51 51 51);
 `;
 
 export const LogoContainer = styled.div`
@@ -21,7 +24,7 @@ export const LogoContainer = styled.div`
     opacity: 0.5;
     position: absolute;
     left: 7em;
-    top: 10em;
+    top: 3rem;
 `
 
 export const Logo = styled.img`
@@ -44,7 +47,7 @@ export const PageNamesContainer = styled.div`
     width: 35%;
     position: absolute;
     right: 0em;
-    top: 7em;
+    top: 5.5rem;
     padding: 1em;
     padding-top: 0em;
     font-size: 2em;
