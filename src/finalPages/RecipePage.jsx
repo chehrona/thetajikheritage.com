@@ -6,33 +6,20 @@ import { recipes } from "../data/recipeData";
 import { PageContainer,
          MainImage,
          IntroSection,
-         MainTitle,
          ImageContainer,
          StyledPinIcon,
          InfoContainer,
-         HistoryInfo,
-         AllergyContainer,
-         ContainsBox,
-         LabelContainer,
-         LabelImage,
-         BoxTitle,
-         LabelWrapper,
-         AllergenName,
-         IngredientContainer,
          SubTitle,
          IngredientBox,
          Ingredient,
-         DietBox,
-         Line,
-         DropDownContainer,
-         StyledDownIcon,
 } from "./recipePageStyles";
-import { IconButton } from "@mui/material";
+
 import RecipeInfo from "../components/recipeInfo/RecipeInfo";
+import RecipeIngredients from "../components/recipeIngredients/RecipeIngredients";
 
 export default function RecipePage() {
     const { id } = useParams(),
-          { lang, isMenuShown } = useSetLang(),
+          { isMenuShown } = useSetLang(),
           [pinHovered, setPinHovered] = useState(false),
           recipe = recipes.filter((recipe) => recipe.id === id);
 
@@ -52,19 +39,8 @@ export default function RecipePage() {
                     <RecipeInfo recipe={recipe[0]} />
                 </IntroSection>
                 <IntroSection>
-                    <ImageContainer>
-                        <IngredientContainer>
-                            <SubTitle>{recipe[0].ingredientsLang[lang]}</SubTitle>
-                            <IngredientBox>
-                                {recipe[0].ingredients[lang].map((piece, i) => {
-                                    return (
-                                        <Ingredient dangerouslySetInnerHTML={{__html: piece}}></Ingredient>
-                                    )
-                                })}
-                            </IngredientBox>
-                        </IngredientContainer>
-                    </ImageContainer>
-                    <InfoContainer>
+                    <RecipeIngredients recipe={recipe[0]} />
+                    {/* <InfoContainer>
                         <SubTitle margin={"false"}>{recipe[0].directionsLang[lang]}</SubTitle>
                         <IngredientBox margin={"false"}>
                             {recipe[0].directions[lang].map((piece, i) => {
@@ -73,7 +49,7 @@ export default function RecipePage() {
                                 )
                             })}
                         </IngredientBox>
-                    </InfoContainer>
+                    </InfoContainer> */}
                 </IntroSection>
             </PageContainer>
         )

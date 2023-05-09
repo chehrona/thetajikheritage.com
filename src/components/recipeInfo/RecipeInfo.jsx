@@ -20,7 +20,7 @@ export default function RecipeInfo({ recipe }) {
         <InfoContainer>
             <MainTitle>{recipe.title[lang]}</MainTitle>
             <HistoryInfo dangerouslySetInnerHTML={{__html: recipe.history[lang]}}></HistoryInfo>
-            <RecipeSources />
+            <RecipeSources recipe={recipe}/>
             <AllergyContainer>
                 {recipe.contains && 
                     <ContainsBox>

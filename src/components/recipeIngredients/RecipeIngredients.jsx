@@ -1,0 +1,21 @@
+import React from "react";
+import { useSetLang } from "../../App";
+
+import { MainContainer,
+         SubTitle,
+         Ingredient 
+} from "./recipeIngredientsStyles";
+
+export default function RecipeIngredients( { recipe }) {
+    const { lang } = useSetLang();
+    return (
+        <MainContainer>
+            <SubTitle>{recipe.ingredientsLang[lang]}</SubTitle>
+            {recipe.ingredients[lang].map((piece, i) => {
+                return (
+                    <Ingredient dangerouslySetInnerHTML={{__html: piece}}></Ingredient>
+                )
+            })}
+        </MainContainer>
+    )
+}

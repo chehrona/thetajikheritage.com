@@ -67,6 +67,13 @@ module.exports.recipes = [
         ],
         ingredientsLang: {ru: 'Ингредиенты', us: 'Ingredients', tj: 'Маҳсулот', kh: ''},
         directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: ''},
+        referencesLang: {ru: 'Литература', us: 'References', tj: 'Адабиёт', kh: ''},
+        references: {
+            us: ["here", "here 2"],
+            ru: ["here", "here 2"],
+            tj: ["here", "here 2"],
+            kh: ["here", "here 2"],
+        },
         labels: [
             {us: 'Dairy', ru: 'Молоко', tj: 'Шир', kh: 'شیر'},
             {us: 'Gluten', ru: 'Клейковина', tj: 'Глютен', kh: 'گلوتن'},

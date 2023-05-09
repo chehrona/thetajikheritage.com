@@ -22,7 +22,7 @@ export const HistoryInfo = styled.div`
 
 export const AllergyContainer = styled.div`
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4.3rem;
 `;
 
 export const ContainsBox = styled.div`
