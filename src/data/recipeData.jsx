@@ -69,10 +69,10 @@ module.exports.recipes = [
         directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: ''},
         referencesLang: {ru: 'Литература', us: 'References', tj: 'Адабиёт', kh: ''},
         references: {
-            us: ["here", "here 2"],
-            ru: ["here", "here 2"],
-            tj: ["here", "here 2"],
-            kh: ["here", "here 2"],
+            us: ["1. here", "2. here 2"],
+            ru: ["1. here", "2. here 2"],
+            tj: ["1. here", "2. here 2"],
+            kh: ["1. here", "2. here 2"],
         },
         labels: [
             {us: 'Dairy', ru: 'Молоко', tj: 'Шир', kh: 'شیر'},

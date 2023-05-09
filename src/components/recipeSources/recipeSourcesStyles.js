@@ -48,9 +48,11 @@ export const SubTitle = styled.div`
     font-family: 'EB Garamond', serif;
     font-style: italic;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 `;
 
 export const Reference = styled.div`
-
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-top: 0.5rem;
 `;

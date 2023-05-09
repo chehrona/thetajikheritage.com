@@ -30,9 +30,7 @@ export default function RecipeSources({ recipe }) {
                     <SubTitle>{recipe.referencesLang[lang]}</SubTitle>
                     {recipe.references[lang].map((source, i) => {
                         return (
-                            <Reference>
-
-                            </Reference>
+                            <Reference>{source}</Reference>
                         )
                     })}
                 </RefContainer>
