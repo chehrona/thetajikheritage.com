@@ -23,7 +23,12 @@ import { PageContainer,
          IngredientBox,
          Ingredient,
          DietBox,
+         Line,
+         DropDownContainer,
+         StyledDownIcon,
 } from "./recipePageStyles";
+import { IconButton } from "@mui/material";
+import RecipeInfo from "../components/recipeInfo/RecipeInfo";
 
 export default function RecipePage() {
     const { id } = useParams(),
@@ -44,46 +49,7 @@ export default function RecipePage() {
                         </a>}
                         <MainImage src={recipe[0].mainImg} />
                     </ImageContainer>
-                    <InfoContainer>
-                        <MainTitle>{recipe[0].title[lang]}</MainTitle>
-                        <HistoryInfo dangerouslySetInnerHTML={{__html: recipe[0].history[lang]}}></HistoryInfo>
-                        <AllergyContainer>
-                            {recipe[0].contains && 
-                                <ContainsBox>
-                                    <BoxTitle>{recipe[0].containsLang[lang]}</BoxTitle>
-                                    <LabelWrapper>
-                                        {recipe[0].contains.map((label, i) => {
-                                            return (
-                                                <LabelContainer>
-                                                    <LabelImage src={`/allergyLabels/${label}.png`} />
-                                                    <AllergenName>
-                                                        {recipe[0].labels[i][lang]}
-                                                    </AllergenName>
-                                                </LabelContainer>
-                                            )
-                                        })}
-                                    </LabelWrapper>
-                                </ContainsBox>
-                            }
-                            {recipe[0].diet && 
-                                <DietBox>
-                                    <BoxTitle>{recipe[0].dietLang[lang]}</BoxTitle>
-                                    <LabelWrapper>
-                                        {recipe[0].diet.map((label, i) => {
-                                            return (
-                                                <LabelContainer>
-                                                    <LabelImage src={`/allergyLabels/${label}.png`} />
-                                                    <AllergenName>
-                                                        {recipe[0].dietLabels[i][lang]}
-                                                    </AllergenName>
-                                                </LabelContainer>
-                                            )
-                                        })}
-                                    </LabelWrapper>
-                                </DietBox>
-                            }
-                        </AllergyContainer>
-                    </InfoContainer>
+                    <RecipeInfo recipe={recipe[0]} />
                 </IntroSection>
                 <IntroSection>
                     <ImageContainer>
