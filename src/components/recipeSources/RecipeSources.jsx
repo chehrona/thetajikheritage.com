@@ -9,6 +9,7 @@ import { DropDownContainer,
          Reference,
          SubTitle,
          StyledUpIcon,
+         RefWrapper,
 } from "./recipeSourcesStyles";
 import { useSetLang } from "../../App";
 
@@ -25,16 +26,16 @@ export default function RecipeSources({ recipe }) {
                 </IconButton>
                 <Line></Line>
             </IconContainer>
-            {isDropdownOpen && 
-                <RefContainer>
+            <RefContainer open={isDropdownOpen}>
+                <RefWrapper>
                     <SubTitle>{recipe.referencesLang[lang]}</SubTitle>
                     {recipe.references[lang].map((source, i) => {
                         return (
-                            <Reference>{source}</Reference>
+                            <Reference key={i}>{source}</Reference>
                         )
                     })}
-                </RefContainer>
-            }
+                </RefWrapper>
+            </RefContainer>
         </DropDownContainer>
 
     )

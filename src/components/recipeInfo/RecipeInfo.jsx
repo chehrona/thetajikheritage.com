@@ -28,7 +28,7 @@ export default function RecipeInfo({ recipe }) {
                         <LabelWrapper>
                             {recipe.contains.map((label, i) => {
                                 return (
-                                    <LabelContainer>
+                                    <LabelContainer key={i}>
                                         <LabelImage src={`/allergyLabels/${label}.png`} />
                                         <AllergenName>
                                             {recipe.labels[i][lang]}
@@ -45,7 +45,7 @@ export default function RecipeInfo({ recipe }) {
                         <LabelWrapper>
                             {recipe.diet.map((label, i) => {
                                 return (
-                                    <LabelContainer>
+                                    <LabelContainer key={i}>
                                         <LabelImage src={`/allergyLabels/${label}.png`} />
                                         <AllergenName>
                                             {recipe.dietLabels[i][lang]}

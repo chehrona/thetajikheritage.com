@@ -37,10 +37,17 @@ export const StyledUpIcon = styled(ExpandLess)`
 export const RefContainer = styled.div`
     background: #eaeaea;
     margin-top: 0.8rem;
-    padding: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
     border-radius: 1rem;
+    height: ${({open}) => open ? "12rem" : "0rem"};
+    transition: all 0.5s linear 0s;
+    overflow-y: scroll;
+    display: block;
+`;
+
+export const RefWrapper = styled.div`
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 `;
 
 export const SubTitle = styled.div`

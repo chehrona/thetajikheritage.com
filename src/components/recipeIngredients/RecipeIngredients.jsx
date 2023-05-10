@@ -13,7 +13,7 @@ export default function RecipeIngredients( { recipe }) {
             <SubTitle>{recipe.ingredientsLang[lang]}</SubTitle>
             {recipe.ingredients[lang].map((piece, i) => {
                 return (
-                    <Ingredient dangerouslySetInnerHTML={{__html: piece}}></Ingredient>
+                    <Ingredient key={i} dangerouslySetInnerHTML={{__html: piece}}></Ingredient>
                 )
             })}
         </MainContainer>
