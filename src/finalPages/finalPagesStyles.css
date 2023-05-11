@@ -36,3 +36,15 @@
     visibility: visible;
     opacity: 1;
 }
+
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.5rem;
+    color: blue;
+    font-size: 0.75rem;
+}
+
+sub { 
+    top: 0.4rem; 
+}

@@ -15,19 +15,24 @@ module.exports.recipes = [
         mainImg: '/recipePics/kichiri.png',
         sound: '/recipeNames/shirchoy.mp3',
         history: {
-            us: `<span style='font-weight: bold; color: black;'>Shirchoy</span> is a meal prepared in various countries in 
-                Central Asia, including Tajikistan. The name "shirchoy" is derived from two Tajiki-Persian words: 
-                <span style='font-weight: bold; color: black;'>"shir,"</span> which means milk, and 
-                <span style='font-weight: bold; color: black;'>"choy"</span> - tea. Unlike the milk teas prepared in the West, 
-                such as English tea, Tajik milk tea is a substantial meal, which can be consumed as a breakfast or a light dinner. 
-                In addition to milk and tea, people add flatbread pieces, ghee or <div class="tooltip">sheep tail fat
-                <span class="tooltiptext" style='width: 17rem; margin-left: -10rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>, 
-                almond leaves, walnuts, and rose hip flowers. Depending on personal preference, sugar or salt, and sometimes even pepper is added. The salty version is known 
-                as <span style='font-weight: bold; color: black;'>"shürchoy"</span> ("shür" is derived from Tajiki-Persian - salty). 
-                The shirchoy ingredients vary based on the climate, such as the addition of ghee or even cream being more 
-                common among mountainous peoples, who need a high-calorie food to help them endure the harsh and cold weather. 
-                Therefore, shirchoy can be seen as a milk-based "soup" typically served in a bowl or on deep wooden plates. Urban 
-                Tajiks mainly consume it during winter, while mountain communities, such as the Pamiri people, enjoy it year-round.`,
+            us: `<span style='font-weight: bold; color: black;'>Shirchoy</span> is a traditional dish found in various Central Asian
+                countries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
+                <span style='font-weight: bold; color: black;'>"shir,"</span> meaning milk, and 
+                <span style='font-weight: bold; color: black;'>"choy,"</span>  which refers to tea.<sup>1</sup>
+                Unlike milk teas from the West like English tea, Tajik milk tea is more than just a beverage — it serves as a substantial 
+                meal typically enjoyed for breakfast or as a light dinner.<br>
+                The preparation of shirchoy involves the combination of milk and tea, but it doesn't stop there. Additional ingredients are added to enhance its flavor and texture. 
+                These may include pieces of flatbread, butter, ghee or <div class="tooltip">sheep tail fat
+                <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>, 
+                almond leaves, walnuts, and rose hip flowers.<sup>2</sup> Shirchoy is generally a savory dish, though in certain regions, 
+                a hint of pepper or even small amounts of <div class="tooltip">raw onion<span class="tooltiptext" style='width: 12rem; margin-left: -6rem;'>Only in Samarkand</span></div><sup>2</sup>
+                may be added, leading to its alternate name <span style='font-weight: bold; color: black;'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."<br>
+                The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often incorporate ghee
+                or cream into their shirchoy, providing them with higher-calorie sustenance to endure the harsh and cold weather. Consequently, shirchoy can be 
+                considered a milk-based "soup" traditionally served in bowls or deep wooden plates.<br>
+                Interestingly, despite being a liquid dish, shirchoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
+                and the remaining liquid is drunk from the bowl.<sup>3</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
+                primarily during the winter months, mountain communities such as the Pamiri people enjoy it year-round, owing to their high-altitude environment.<sup>2</sup>`,
             ru: `<span style='font-weight: bold; color: black;'>Ширчой</span> это блюдо, которое готовят в разных странах Центральной 
                 Азии, в том числе в Таджикистане. Название «ширчой» образовано от двух таджико-персидских слов: 
                 <span style='font-weight: bold; color: black;'>«шир»</span>, что означает молоко, и 
@@ -47,7 +52,7 @@ module.exports.recipes = [
                 <span style='font-weight: bold; color: black;'>"шир"</span> ва <span style='font-weight: bold; color: black;'>"чой"</span> гирифта 
                 шудааст. Нисбат ба ширчойҳое, ки махсусан дар кишварҳои Ғарб (масалан чойи англисӣ) омода мекунанд, ширчойи тоҷикӣ камтар фарқ 
                 мекунад. Ширчойи тоҷикӣ ин ғизои пурра аст, ки ҳамчун субҳона ва ё шоми сабук истеъмол карда мешавад. Ба ғайр аз ширу чой 
-                ба он порчаҳои нон, равғани зарди сӯхта ё ин ки равғани <div class="tooltip">дунбаи обкардашуда
+                ба он порчаҳои нон, равғани зарди сӯхта ё ин ки равғани <div class="tooltip">думбаи обкардашуда
                 <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Асосан дар Самарқанд, Бухоро, Фарғона ва вилояти Суғд</span></div>, 
                 барги бодом, чормағз ва гулҳои хуч (шиповник) меандозанд. Вобаста аз хости хонавода, шакар ё намак, ва баъзан мурч низ метавонанд илова кунанд. 
                 Намуди намакдораш бо номи 
