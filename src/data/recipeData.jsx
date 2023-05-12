@@ -83,13 +83,13 @@ module.exports.recipes = [
         directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: ''},
         referencesLang: {ru: 'Литература', us: 'References', tj: 'Адабиёт', kh: ''},
         references: {
-            us: ['Vozeh, Qori Rahmatullo. کانی لاززات و خونی نعمت [Source of pleasure and table spread of blessings]. Bukhara. 1880 - 1881.',
+            us: ['Vozeh, Qori Rahmatullo. کانی لاززات و خانی نعمت [Source of pleasure and table spread of blessings]. Bukhara. 1880 - 1881.',
                 'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. PhD diss., (Ahmadi Donish Institute of History, Archeology and Ethnography, 2019, pp.97 - 98).', 
                 'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, pp. 290, 1976.',
                 'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tadjikistan. LM Publishers, 2015, p. 599.',
                 'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Qarategin and Darvaz (Issue 2)]. Dushanbe, "Donish" publishing house, 1970, p. 256.'],
             ru: ["1. here", "2. here 2"],
-            tj: ['Возеҳ, Қорӣ Раҳматулло. کانی لاززات و خونی نعمت [Кони лаззат ва хони неъмат]. Бухоро. 1880 - 1881.', "2. here 2"],
+            tj: ['Возеҳ, Қорӣ Раҳматулло. کانی لاززات و خانی نعمت [Кони лаззат ва хони неъмат]. Бухоро. 1880 - 1881.', "2. here 2"],
             kh: ["1. here", "2. here 2"],
         },
         labels: [
