@@ -19,12 +19,13 @@ module.exports.recipes = [
                 countries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
                 <span style='font-weight: bold; color: black;'>"shir,"</span> meaning milk, and 
                 <span style='font-weight: bold; color: black;'>"choy,"</span>  which refers to tea.<sup>1</sup>
-                The specific regional or historical origins of shirchoy remain uncertain, although it is referenced in the 19th-century 
-                work <span style='font-style: italic; font-weight: bold'>"Kon-i lazzat va khon-i ne'mat"</span> by Tajik scholar Vozeh.<sup>1,2</sup> However, it is conceivable that the dish traces
-                its roots as far back as the mid-8th century, when tea was introduced to Central Asia from China.<sup>3</sup>
+                The specific regional or historical origins of shirchoy remain uncertain, although it is referenced by the 19th-century 
+                Tajik scholar Vozeh.<sup>1,2</sup> However, it is conceivable that the dish traces its roots as far back as the mid-8th 
+                century when tea was introduced to Central Asia from China.<sup>3</sup>
                 Additionally, the Pamiri Tajiks have a legendary account regarding the creation of the very first shirchoy:
-                <div style='font-style: italic; margin: 2rem;'>"One day, people came back to our village ... [and] brought leaves 
-                with them... We boiled a big pot of water and threw in all the tea, then invited the villagers to drink it. People tried it ..., 
+                <div style='font-style: italic; margin: 1rem; margin-left: 3rem; margin-right: 3rem;'>"One day, people came back 
+                to our village ... [and] brought leaves with them... We boiled a big pot of water and threw in all the tea, then invited 
+                the villagers to drink it. People tried it ..., 
                 but found it horrible [very bitter]. Later, people began to add [extra] things to it - milk, walnuts, dried apple, other 
                 things - and it slowly grew on them." <sup>4</sup></div>
                 Unlike milk teas from the West like English tea, Tajik milk tea is more than just a beverage — it serves as a substantial 
@@ -39,7 +40,7 @@ module.exports.recipes = [
                 or cream into their shirchoy, providing them with higher-calorie sustenance to endure the harsh and cold weather. Consequently, shirchoy can be 
                 considered a milk-based "soup" traditionally served in bowls or deep wooden plates.<br>
                 Interestingly, despite being a liquid dish, shirchoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
-                and the remaining liquid is drunk from the bowl.<sup>3</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
+                and the remaining liquid is drunk from the bowl.<sup>5</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
                 primarily during the winter months, mountain communities such as the Pamiri people enjoy it year-round, owing to their high-altitude environment.<sup>2</sup>`,
             ru: `<span style='font-weight: bold; color: black;'>Ширчой</span> это блюдо, которое готовят в разных странах Центральной 
                 Азии, в том числе в Таджикистане. Название «ширчой» образовано от двух таджико-персидских слов: 
@@ -82,9 +83,13 @@ module.exports.recipes = [
         directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: ''},
         referencesLang: {ru: 'Литература', us: 'References', tj: 'Адабиёт', kh: ''},
         references: {
-            us: ["1. here", "2. here 2"],
+            us: ['Vozeh, Qori Rahmatullo. کانی لاززات و خونی نعمت [Source of pleasure and table spread of blessings]. Bukhara. 1880 - 1881.',
+                'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. PhD diss., (Ahmadi Donish Institute of History, Archeology and Ethnography, 2019, pp.97 - 98).', 
+                'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, pp. 290, 1976.',
+                'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tadjikistan. LM Publishers, 2015, p. 599.',
+                'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Qarategin and Darvaz (Issue 2)]. Dushanbe, "Donish" publishing house, 1970, p. 256.'],
             ru: ["1. here", "2. here 2"],
-            tj: ["1. here", "2. here 2"],
+            tj: ['Возеҳ, Қорӣ Раҳматулло. کانی لاززات و خونی نعمت [Кони лаззат ва хони неъмат]. Бухоро. 1880 - 1881.', "2. here 2"],
             kh: ["1. here", "2. here 2"],
         },
         labels: [
