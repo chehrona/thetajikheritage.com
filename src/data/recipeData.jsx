@@ -15,25 +15,53 @@ module.exports.recipes = [
         mainImg: '/recipePics/kichiri.png',
         sound: '/recipeNames/shirchoy.mp3',
         history: {
-            us: `<span class='termSpan'>Shirchoy</span> is a traditional dish enjoyed in various Central Asian
+            us: `<span class='termSpan'>Shirchoy</span> is a traditional dish prepared in various Central Asian
                 countries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
                 <span class='termSpan'>"shir,"</span> meaning milk, and <span class='termSpan'>"choy,"</span>  which refers to tea.<sup>1</sup>
-                The specific regional or historical origins of shirchoy remain uncertain, although a detailed account of the dish is given by the 19th-century 
-                Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots as far back as the mid-8th 
-                century when tea was introduced to Central Asia from China.<sup>3</sup>
-                Additionally, the Pamiri Tajiks have a legendary account regarding the creation of the very first shirchoy:
+                The specific regional or historical origins of shirchoy remain uncertain. However, the most detailed account of the dish can be 
+                found in the writings of the 19th-century Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots 
+                as far back as the mid-8th century when tea was introduced to Central Asia from China.<sup>3</sup>
+                Additionally, the Pamiris have a legendary account regarding the creation of the very first shirchoy:
                 <div class='quoteContainer'><div class='quoteSymbol'></div>
                 <div class='quoteWrapper'>One day, people came back 
                 to our village ... [and] brought leaves with them... We boiled a big pot of water and threw in all the tea, then invited 
                 the villagers to drink it. People tried it ..., 
                 but found it horrible [very bitter]. Later, people began to add [extra] things to it - milk, walnuts, dried apple, other 
                 things - and it slowly grew on them.<sup style='font-style: normal'>4</sup></div></div>
-                Unlike milk teas from the West like English tea, Tajik milk tea is more than just a beverage — it serves as a substantial 
+                Unlike milk teas from the West, like English tea, Tajik milk tea is more than just a beverage — it serves as a substantial 
                 meal typically enjoyed for breakfast or as a light dinner.<br>
                 The preparation of shirchoy involves the combination of milk and tea, but it doesn't stop there. Additional ingredients are added to enhance its flavor and texture. 
-                These may include pieces of flatbread, butter, ghee or <div class="tooltip">sheep tail fat
-                <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>, 
-                almond leaves, walnuts, and rose hip flowers.<sup>2</sup> Shirchoy is generally a savory dish, though in certain regions, 
+                These may include pieces of flatbread (usually stale bread is repurposed), butter, ghee, dried apple slices, mulberry, almond leaves, walnuts, and rose hip flowers.<sup>2,4</sup>
+                Shirchoy can incorporate unconventional ingredients that are not typically associated with milk-based meals, including small amounts of pepper (seasoning), 
+                <div class="tooltip">raw onion slices<span class="tooltiptext" style='width: 12rem; margin-left: -6rem;'>Only in Samarkand</span></div>
+                or even <div class="tooltip">sheep tail fat
+                <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>.<sup>2</sup>
+                Also, shirchoy is occasionally known by different names that highlight additional ingredients beyond tea and milk. 
+                It is predominantly a salty dish, alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
+                In the region of Badakhshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghuz-choy"</span> is prepared, featuring ground walnuts as one
+                of its key ingredients.<sup>4</sup><br>
+                The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often incorporate ghee
+                or cream into their shirchoy, providing them with higher-calorie sustenance to endure the harsh and cold weather. Given the variety of ingredients in shirchoy, 
+                it can be regarded as a milk-based "soup" that is traditionally served in bowls or deep wooden plates.<br>
+                Interestingly, despite being a liquid dish, shirchoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
+                and the remaining liquid is drunk from the bowl.<sup>5</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
+                primarily during the winter months, mountain communities such as the Pamiri people enjoy it year-round, owing to their high-altitude environment.<sup>2</sup>`,
+            ru: `<span class='termSpan'>Ширчой</span> — традиционное блюдо, которое готовят в разных странах Центральной Азии, в том числе в Таджикистане. Его название «ширчой» происходит 
+                от сочетания двух таджикско-персидских слов: <span class='termSpan'>«шир»</span>, что означает молоко, и <span class='termSpan'>«чой»</span>, что означает чай.<sup>1</sup>
+                Конкретное региональное или историческое происхождение ширчоя остается неопределенным. Однако наиболее подробное описание блюда можно найти в трудах таджикского ученого XIX века Возеха.<sup>1,2</sup>
+                Можно предположить, что это блюдо что это блюдо начали готовить еще в середине VIII века, когда чай был завезен в Среднюю Азию из Китая.<sup>3</sup>
+                Кроме того, у памирцев есть легенда о создании самого первого ширчоя:
+                <div class='quoteContainer'><div class='quoteSymbol'></div><div class='quoteWrapper'>
+                Однажды люди вернулись в нашу деревню ... [и] принесли с собой листья ... Мы вскипятили большую кастрюлю с водой и бросили в нее весь чай, 
+                а затем пригласили жителей деревни пить его. Люди пробовали это..., но находили это ужасным [очень горьким]. Позже люди стали добавлять в него [дополнительные] вещи 
+                [ингредиенты] — молоко, грецкие орехи, сушеное яблоко, другие вещи — и оно им постепенно начало нравиться.<sup style='font-style: normal'>4</sup>
+                <div style='font-style: normal; font-size: 1.1rem;'>*Дословный перевод с английского.</div></div></div>
+                В отличие от чая с молоком с Запада, такого как английский чай, таджикский чай с молоком это больше, чем просто напиток — он служит сытной едой, которую обычно подают 
+                на завтрак или в качестве легкого ужина.<br>
+                Приготовление ширчоя предполагает сочетание молока и чая, но на этом не останавливается. Дополнительные ингредиенты добавляются для улучшения вкуса и текстуры. Это могут быть кусочки 
+                лепешек, сливочное масло, топленое масло или <div class="tooltip">курдючное сало
+                <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</span></div>, 
+                листья миндаля, грецкие орехи и цветки шиповника.<sup>2</sup> Shirchoy is generally a savory dish, though in certain regions, 
                 a hint of pepper or even small amounts of <div class="tooltip">raw onion<span class="tooltiptext" style='width: 12rem; margin-left: -6rem;'>Only in Samarkand</span></div><sup>2</sup>
                 may be added, leading to its alternate name <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."<br>
                 The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often incorporate ghee
@@ -42,19 +70,6 @@ module.exports.recipes = [
                 Interestingly, despite being a liquid dish, shirchoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
                 and the remaining liquid is drunk from the bowl.<sup>5</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
                 primarily during the winter months, mountain communities such as the Pamiri people enjoy it year-round, owing to their high-altitude environment.<sup>2</sup>`,
-            ru: `<span class='termSpan'>Ширчой</span> это блюдо, которое готовят в разных странах Центральной 
-                Азии, в том числе в Таджикистане. Название «ширчой» образовано от двух таджико-персидских слов: 
-                <span class='termSpan'>«шир»</span>, что означает молоко, и 
-                <span class='termSpan'>«чой»</span> — чай. В отличие от чаев с молоком, приготавливающихся на Западе, таких 
-                как английский чай, таджикский чай с молоком — это сытная еда, которую можно употреблять в качестве завтрака или легкого ужина. 
-                В дополнение к молоку и чаю добавляют кусочки лепёшек, топлёное сливочное или 
-                <div class="tooltip">курдючное <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</span></div>
-                масло, листья миндаля, грецкие орехи, и цветки шиповника. В зависимости от личных предпочтений можно добавить еще сахар или соль, а иногда и перец. Соленый вариант 
-                также известен как <span class='termSpan'>«шурчой»</span> («шур» происходит от таджико-персидского — соленый).  
-                Ингредиенты ширчоя варьируются в зависимости от климата, например, добавление топлёного масла или даже сливок более распространено 
-                среди горцев, которым нужна высококалорийная еда, чтобы выдержать суровый климат. Поэтому ширчой можно считать 
-                молочным «супом», который обычно подают в миске или на глубоких деревянных тарелках. Городское население потребляет его в основном 
-                зимой, тогда как горные общины, такие как памирцы, наслаждаются им круглый год.`,
             kh: `<span class='termSpan'>شیرچوی</span>`,
             tj: `<span class='termSpan'>Ширчой</span> таомест, ки дар кишварҳои мухталифи Осиёи Миёна ва ҳамчунин 
                 дар Тоҷикистон тайёр карда мешавад. Номи "ширчой" аз ду калимаи тоҷикӣ-форсии 
