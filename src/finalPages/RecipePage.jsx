@@ -17,6 +17,7 @@ import { PageContainer,
 import RecipeInfo from "../components/recipeInfo/RecipeInfo";
 import RecipeIngredients from "../components/recipeIngredients/RecipeIngredients";
 import RecipeSources from "../components/recipeSources/RecipeSources";
+import RecipeTabs from "../components/recipeTabs/RecipeTabs";
 
 export default function RecipePage() {
     const { id } = useParams(),
@@ -38,6 +39,7 @@ export default function RecipePage() {
                 </ImageContainer>
                 <RecipeInfo recipe={recipe[0]} />
                 <RecipeSources recipe={recipe[0]} />
+                <RecipeTabs recipe={recipe[0]} />
                 {/* <IntroSection> */}
                     {/* <RecipeIngredients recipe={recipe[0]} /> */}
                     {/* <InfoContainer>
