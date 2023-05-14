@@ -68,6 +68,7 @@ sub {
     margin-right: 0.6rem;
     margin-top: 0.13rem;
     filter: opacity(0.65);
+    margin-left: 1.5rem;
 }
 
 .quoteWrapper {
