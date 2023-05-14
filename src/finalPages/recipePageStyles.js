@@ -22,7 +22,9 @@ export const IntroSection = styled.div`
 export const ImageContainer = styled.div`
     width: 30rem;
     height: 45rem;
-    margin-right: 5rem;
+    margin-right: 3rem;
+    margin-bottom: 2.23rem;
+    float: left;
 `;
 
 export const InfoContainer = styled.div`

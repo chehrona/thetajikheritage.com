@@ -16,6 +16,7 @@ import { PageContainer,
 
 import RecipeInfo from "../components/recipeInfo/RecipeInfo";
 import RecipeIngredients from "../components/recipeIngredients/RecipeIngredients";
+import RecipeSources from "../components/recipeSources/RecipeSources";
 
 export default function RecipePage() {
     const { id } = useParams(),
@@ -26,20 +27,19 @@ export default function RecipePage() {
     if (recipe && !isMenuShown) {
         return (
             <PageContainer>
-                <IntroSection>
-                    <ImageContainer onMouseEnter={() => setPinHovered(true)} onMouseLeave={() => setPinHovered(false)}>
-                        {pinHovered && <a data-pin-do="buttonPin"
-                            href={`https://www.pinterest.com/pin/create/button/?url=http://www.thetajikheritage.com/cuisine/${recipe[0].id}/&media=https://www.thetajikheritage.com/recipePics/${recipe[0].mainImg}&description=${recipe[0].title}`}
-                            target={"_blank"}
-                            >
-                            <StyledPinIcon />
-                        </a>}
-                        <MainImage src={recipe[0].mainImg} />
-                    </ImageContainer>
-                    <RecipeInfo recipe={recipe[0]} />
-                </IntroSection>
-                <IntroSection>
-                    <RecipeIngredients recipe={recipe[0]} />
+                <ImageContainer onMouseEnter={() => setPinHovered(true)} onMouseLeave={() => setPinHovered(false)}>
+                    {pinHovered && <a data-pin-do="buttonPin"
+                        href={`https://www.pinterest.com/pin/create/button/?url=http://www.thetajikheritage.com/cuisine/${recipe[0].id}/&media=https://www.thetajikheritage.com/recipePics/${recipe[0].mainImg}&description=${recipe[0].title}`}
+                        target={"_blank"}
+                        >
+                        <StyledPinIcon />
+                    </a>}
+                    <MainImage src={recipe[0].mainImg} />
+                </ImageContainer>
+                <RecipeInfo recipe={recipe[0]} />
+                <RecipeSources recipe={recipe[0]} />
+                {/* <IntroSection> */}
+                    {/* <RecipeIngredients recipe={recipe[0]} /> */}
                     {/* <InfoContainer>
                         <SubTitle margin={"false"}>{recipe[0].directionsLang[lang]}</SubTitle>
                         <IngredientBox margin={"false"}>
@@ -50,7 +50,7 @@ export default function RecipePage() {
                             })}
                         </IngredientBox>
                     </InfoContainer> */}
-                </IntroSection>
+                {/* </IntroSection> */}
             </PageContainer>
         )
     }

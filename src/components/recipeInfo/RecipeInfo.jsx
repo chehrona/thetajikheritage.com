@@ -20,8 +20,7 @@ export default function RecipeInfo({ recipe }) {
         <InfoContainer>
             <MainTitle>{recipe.title[lang]}</MainTitle>
             <HistoryInfo dangerouslySetInnerHTML={{__html: recipe.history[lang]}}></HistoryInfo>
-            <RecipeSources recipe={recipe}/>
-            <AllergyContainer>
+            {/* <AllergyContainer>
                 {recipe.contains && 
                     <ContainsBox>
                         <BoxTitle>{recipe.containsLang[lang]}</BoxTitle>
@@ -56,7 +55,7 @@ export default function RecipeInfo({ recipe }) {
                         </LabelWrapper>
                     </DietBox>
                 }
-            </AllergyContainer>
+            </AllergyContainer> */}
         </InfoContainer>
     )
 }

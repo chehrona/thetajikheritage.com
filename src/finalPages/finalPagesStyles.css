@@ -48,3 +48,29 @@ sup, sub {
 sub { 
     top: 0.4rem; 
 }
+
+.termSpan {
+    font-weight: bold;
+    color: black;
+}
+
+.quoteContainer {
+    margin: 1rem;
+    display: flex;
+}
+
+.quoteSymbol {
+    background-image: url('./quotation.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 0.6rem;
+    margin-top: 0.13rem;
+    filter: opacity(0.65);
+}
+
+.quoteWrapper {
+    font-style: italic;
+    width: 80%;
+}

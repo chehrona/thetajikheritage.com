@@ -1,22 +1,20 @@
 import styled from "styled-components";
-import { ExpandMore } from "@mui/icons-material";
 
 export const InfoContainer = styled.div`
-    width: 45rem;
+    display: inline;
 `;
 
 export const MainTitle = styled.div`
     font-size: 5rem;
-    margin-top: -1rem;
     font-family: 'EB Garamond', serif;
     font-style: italic;
     font-weight: 500;
+    margin-bottom: 0.5rem;
 `;
 
 export const HistoryInfo = styled.div`
     font-size: 1.1rem;
     line-height: 1.7rem;
-    margin-top: 0.5rem;
     color: #212529;
 `;
 

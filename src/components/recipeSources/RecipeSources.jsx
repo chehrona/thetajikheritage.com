@@ -20,11 +20,11 @@ export default function RecipeSources({ recipe }) {
     return (
         <DropDownContainer>
             <IconContainer>
-                <Line></Line>
+                <Line right={true}></Line>
                 <IconButton onClick={() => setIsDropdownOpen(prevState => !prevState)}>
                     {isDropdownOpen ? <StyledUpIcon /> : <StyledDownIcon />}
                 </IconButton>
-                <Line></Line>
+                <Line right={false}></Line>
             </IconContainer>
             <RefContainer open={isDropdownOpen}>
                 <RefWrapper>

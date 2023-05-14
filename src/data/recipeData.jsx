@@ -15,19 +15,19 @@ module.exports.recipes = [
         mainImg: '/recipePics/kichiri.png',
         sound: '/recipeNames/shirchoy.mp3',
         history: {
-            us: `<span style='font-weight: bold; color: black;'>Shirchoy</span> is a traditional dish found in various Central Asian
+            us: `<span class='termSpan'>Shirchoy</span> is a traditional dish enjoyed in various Central Asian
                 countries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
-                <span style='font-weight: bold; color: black;'>"shir,"</span> meaning milk, and 
-                <span style='font-weight: bold; color: black;'>"choy,"</span>  which refers to tea.<sup>1</sup>
-                The specific regional or historical origins of shirchoy remain uncertain, although it is referenced by the 19th-century 
-                Tajik scholar Vozeh.<sup>1,2</sup> However, it is conceivable that the dish traces its roots as far back as the mid-8th 
+                <span class='termSpan'>"shir,"</span> meaning milk, and <span class='termSpan'>"choy,"</span>  which refers to tea.<sup>1</sup>
+                The specific regional or historical origins of shirchoy remain uncertain, although a detailed account of the dish is given by the 19th-century 
+                Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots as far back as the mid-8th 
                 century when tea was introduced to Central Asia from China.<sup>3</sup>
                 Additionally, the Pamiri Tajiks have a legendary account regarding the creation of the very first shirchoy:
-                <div style='font-style: italic; margin: 1rem; margin-left: 3rem; margin-right: 3rem;'>"One day, people came back 
+                <div class='quoteContainer'><div class='quoteSymbol'></div>
+                <div class='quoteWrapper'>One day, people came back 
                 to our village ... [and] brought leaves with them... We boiled a big pot of water and threw in all the tea, then invited 
                 the villagers to drink it. People tried it ..., 
                 but found it horrible [very bitter]. Later, people began to add [extra] things to it - milk, walnuts, dried apple, other 
-                things - and it slowly grew on them." <sup>4</sup></div>
+                things - and it slowly grew on them.<sup style='font-style: normal'>4</sup></div></div>
                 Unlike milk teas from the West like English tea, Tajik milk tea is more than just a beverage — it serves as a substantial 
                 meal typically enjoyed for breakfast or as a light dinner.<br>
                 The preparation of shirchoy involves the combination of milk and tea, but it doesn't stop there. Additional ingredients are added to enhance its flavor and texture. 
@@ -35,37 +35,37 @@ module.exports.recipes = [
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>, 
                 almond leaves, walnuts, and rose hip flowers.<sup>2</sup> Shirchoy is generally a savory dish, though in certain regions, 
                 a hint of pepper or even small amounts of <div class="tooltip">raw onion<span class="tooltiptext" style='width: 12rem; margin-left: -6rem;'>Only in Samarkand</span></div><sup>2</sup>
-                may be added, leading to its alternate name <span style='font-weight: bold; color: black;'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."<br>
+                may be added, leading to its alternate name <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."<br>
                 The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often incorporate ghee
                 or cream into their shirchoy, providing them with higher-calorie sustenance to endure the harsh and cold weather. Consequently, shirchoy can be 
                 considered a milk-based "soup" traditionally served in bowls or deep wooden plates.<br>
                 Interestingly, despite being a liquid dish, shirchoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
                 and the remaining liquid is drunk from the bowl.<sup>5</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
                 primarily during the winter months, mountain communities such as the Pamiri people enjoy it year-round, owing to their high-altitude environment.<sup>2</sup>`,
-            ru: `<span style='font-weight: bold; color: black;'>Ширчой</span> это блюдо, которое готовят в разных странах Центральной 
+            ru: `<span class='termSpan'>Ширчой</span> это блюдо, которое готовят в разных странах Центральной 
                 Азии, в том числе в Таджикистане. Название «ширчой» образовано от двух таджико-персидских слов: 
-                <span style='font-weight: bold; color: black;'>«шир»</span>, что означает молоко, и 
-                <span style='font-weight: bold; color: black;'>«чой»</span> — чай. В отличие от чаев с молоком, приготавливающихся на Западе, таких 
+                <span class='termSpan'>«шир»</span>, что означает молоко, и 
+                <span class='termSpan'>«чой»</span> — чай. В отличие от чаев с молоком, приготавливающихся на Западе, таких 
                 как английский чай, таджикский чай с молоком — это сытная еда, которую можно употреблять в качестве завтрака или легкого ужина. 
                 В дополнение к молоку и чаю добавляют кусочки лепёшек, топлёное сливочное или 
                 <div class="tooltip">курдючное <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</span></div>
                 масло, листья миндаля, грецкие орехи, и цветки шиповника. В зависимости от личных предпочтений можно добавить еще сахар или соль, а иногда и перец. Соленый вариант 
-                также известен как <span style='font-weight: bold; color: black;'>«шурчой»</span> («шур» происходит от таджико-персидского — соленый).  
+                также известен как <span class='termSpan'>«шурчой»</span> («шур» происходит от таджико-персидского — соленый).  
                 Ингредиенты ширчоя варьируются в зависимости от климата, например, добавление топлёного масла или даже сливок более распространено 
                 среди горцев, которым нужна высококалорийная еда, чтобы выдержать суровый климат. Поэтому ширчой можно считать 
                 молочным «супом», который обычно подают в миске или на глубоких деревянных тарелках. Городское население потребляет его в основном 
                 зимой, тогда как горные общины, такие как памирцы, наслаждаются им круглый год.`,
-            kh: `<span style='font-weight: bold; color: black;'>شیرچوی</span>`,
-            tj: `<span style='font-weight: bold; color: black;'>Ширчой</span> таомест, ки дар кишварҳои мухталифи Осиёи Миёна ва ҳамчунин 
+            kh: `<span class='termSpan'>شیرچوی</span>`,
+            tj: `<span class='termSpan'>Ширчой</span> таомест, ки дар кишварҳои мухталифи Осиёи Миёна ва ҳамчунин 
                 дар Тоҷикистон тайёр карда мешавад. Номи "ширчой" аз ду калимаи тоҷикӣ-форсии 
-                <span style='font-weight: bold; color: black;'>"шир"</span> ва <span style='font-weight: bold; color: black;'>"чой"</span> гирифта 
+                <span class='termSpan'>"шир"</span> ва <span class='termSpan'>"чой"</span> гирифта 
                 шудааст. Нисбат ба ширчойҳое, ки махсусан дар кишварҳои Ғарб (масалан чойи англисӣ) омода мекунанд, ширчойи тоҷикӣ камтар фарқ 
                 мекунад. Ширчойи тоҷикӣ ин ғизои пурра аст, ки ҳамчун субҳона ва ё шоми сабук истеъмол карда мешавад. Ба ғайр аз ширу чой 
                 ба он порчаҳои нон, равғани зарди сӯхта ё ин ки равғани <div class="tooltip">думбаи обкардашуда
                 <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Асосан дар Самарқанд, Бухоро, Фарғона ва вилояти Суғд</span></div>, 
                 барги бодом, чормағз ва гулҳои хуч (шиповник) меандозанд. Вобаста аз хости хонавода, шакар ё намак, ва баъзан мурч низ метавонанд илова кунанд. 
                 Намуди намакдораш бо номи 
-                <span style='font-weight: bold; color: black;'>"шӯрчой"</span> ҳам маъруф аст (аз вожаи тоҷикӣ-форсии шӯр). 
+                <span class='termSpan'>"шӯрчой"</span> ҳам маъруф аст (аз вожаи тоҷикӣ-форсии шӯр). 
                 Маҳсулоти ширчой аз обу ҳаво вобаста аст, масалан мардуми кӯҳистон бештар равған ё ҳатто қаймоқ илова мекунанд, 
                 чунки барои тобоварӣ ба обу ҳавои сард ба хӯрокҳои серкалория ниёз доранд. Аз ин рӯ, ширчойро "шӯрбо"-и ширӣ ҳисоб кардан 
                 мумкин аст ва онро асосан дар коса ё табақҳои чуқури чӯбӣ мекашанд. Аҳолии шаҳрӣ онро бисёртар дар фасли зимистон 
@@ -84,12 +84,17 @@ module.exports.recipes = [
         referencesLang: {ru: 'Литература', us: 'References', tj: 'Адабиёт', kh: ''},
         references: {
             us: ['Vozeh, Qori Rahmatullo. کانی لاززات و خانی نعمت [Source of pleasure and table spread of blessings]. Bukhara. 1880 - 1881.',
-                'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. PhD diss., (Ahmadi Donish Institute of History, Archeology and Ethnography, 2019, pp.97 - 98).', 
-                'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, pp. 290, 1976.',
+                'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. PhD dissertation, (A. Donish Institute of History, Archeology and Ethnography, 2019, pp. 97 - 98).', 
+                'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, p. 290, 1976.',
                 'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tadjikistan. LM Publishers, 2015, p. 599.',
-                'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Qarategin and Darvaz (Issue 2)]. Dushanbe, "Donish" publishing house, 1970, p. 256.'],
-            ru: ["1. here", "2. here 2"],
-            tj: ['Возеҳ, Қорӣ Раҳматулло. کانی لاززات و خانی نعمت [Кони лаззат ва хони неъмат]. Бухоро. 1880 - 1881.', "2. here 2"],
+                'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Karategin and Darvaz (Issue 2)]. Dushanbe, "Donish" publishing house, 1970, p. 256.'
+            ],
+            ru: ['Возех, Кори Рахматулло. کانی لاززات و خانی نعمت [Источник наслаждения и скатерть благ]. Бухара. 1880 - 1881.',
+                'Шовалиева, Мумина. "История кулинарной культуры таджикского народа". дис. канд. ист. наук, (Институт истории, археологии и этнографии им. А.Дониша, 2019, с. 97 - 98).',
+            ],
+            tj: ['Возеҳ, Қорӣ Раҳматулло. کانی لاززات و خانی نعمت [Кони лаззат ва хони неъмат]. Бухоро. 1880 - 1881.',
+                'ван Оуденҳовен, Фредерик ва Ҳайдар, Ҷамила. Бо дастони худ: ҷашни таъом ва зиндагӣ дар кӯҳистони Помири Афғонистон ва Тоҷикистон, 2015, с. 599.',
+            ],
             kh: ["1. here", "2. here 2"],
         },
         labels: [

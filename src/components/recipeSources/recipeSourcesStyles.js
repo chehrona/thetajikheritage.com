@@ -2,8 +2,7 @@ import styled from "styled-components";
 import { ExpandLess, ExpandMore } from "@mui/icons-material";
 
 export const DropDownContainer = styled.div`
-    position: absolute;
-    width: 45rem;
+    width: 100%;
 `;
 
 export const IconContainer = styled.div`
@@ -22,8 +21,8 @@ export const Line = styled.div`
     height: 0.1rem;
     width: 15rem;
     background: black;
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
+    margin-right: ${({right}) => right ? "0.3rem" : "0rem"};
+    margin-left: ${({right}) => right ? "0rem" : "0.3rem"};
 `;
 
 export const StyledDownIcon = styled(ExpandMore)`
@@ -36,9 +35,10 @@ export const StyledUpIcon = styled(ExpandLess)`
 
 export const RefContainer = styled.div`
     background: #eaeaea;
+    max-width: 100%;
     margin-top: 0.8rem;
     border-radius: 1rem;
-    height: ${({open}) => open ? "12rem" : "0rem"};
+    height: ${({open}) => open ? "15rem" : "0rem"};
     transition: all 0.5s linear 0s;
     overflow-y: scroll;
     display: block;

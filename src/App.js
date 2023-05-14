@@ -11,6 +11,7 @@ import SideNav from './components/sideNav/SideNav';
 import Menu from './components/menu/Menu';
 import { recipes } from './data/recipeData';
 import RecipePage from './finalPages/RecipePage';
+import Footer from './components/footer/Footer';
 
 const LangContext = createContext({
     lang: 'us',
@@ -48,6 +49,7 @@ function App() {
           <Route path="/history" element={<History />} />
           <Route path="/" element={<Home />} />
        </Routes>
+       <Footer />
     </LangContext.Provider>
   );
 }
