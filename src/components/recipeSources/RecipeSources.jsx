@@ -31,7 +31,7 @@ export default function RecipeSources({ recipe }) {
                     <SubTitle>{recipe.referencesLang[lang]}</SubTitle>
                     {recipe.references[lang].map((source, i) => {
                         return (
-                            <Reference key={i}>{i+1}. {source}</Reference>
+                            <Reference dangerouslySetInnerHTML={{__html: source}} key={i}></Reference>
                         )
                     })}
                 </RefWrapper>
