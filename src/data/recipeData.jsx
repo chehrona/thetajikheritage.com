@@ -81,7 +81,7 @@ module.exports.recipes = [
                 (миёнаҳои асри 8), тайёр карда мешавад. 
                 Илова бар ин, помириҳо дар бораи созиши аввалин ширчой ривояти афсонавӣ доранд: 
                 <div class='quoteContainer'><div class='quoteSymbol'></div><div class='quoteWrapper'>
-                Рӯзе одамон ба қишлоқи мо ... баргаштанд. Онҳо бо худ ин баргҳоро оварданд ва ҳамаро барои тамошо даъват карданд. Мы вскипятили большую кастрюлю с водой и бросили в нее весь чай, 
+                Рӯзе одамон ба қишлоқи мо ... баргаштанд. Онҳо бо худ ин баргҳоро оварданд ва ҳамаро барои тамошо даъват карданд. Мо дар як зарфи калон об ҷӯшонда большую кастрюлю с водой и бросили в нее весь чай, 
                 а затем пригласили жителей деревни пить его. Люди пробовали это..., но находили это ужасным [очень горьким]. Позже люди стали добавлять в него [дополнительные] вещи 
                 [ингредиенты] — молоко, грецкие орехи, сушёное яблоко, другие вещи — и оно им постепенно начало нравиться.<sup style='font-style: normal'>4</sup>
                 <div style='font-style: normal; font-size: 1.1rem;'>*Дословный перевод с английского.</div></div></div>
@@ -114,12 +114,12 @@ module.exports.recipes = [
             us: ['Vozeh, Qori Rahmatullo. کانی لاززات و خانی نعمت [Source of pleasure and table spread of blessings]. <span style="font-style: italic">In Tajiki-Persian w. Perso-Arabic script. </span>Bukhara. 1880 - 1881.',
                 'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. <span style="font-style: italic">In Russian. </span>PhD dissertation, (A. Donish Institute of History, Archeology and Ethnography, 2019, pp. 97 - 98).', 
                 'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, p. 290, 1976.',
-                'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tadjikistan. <span style="font-style: italic">In English, Tajiki- and Dari-Persian. </span>LM Publishers, 2015, p. 599.',
+                'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan. <span style="font-style: italic">In English, Tajiki- and Dari-Persian. </span>LM Publishers, 2015, p. 599.',
                 'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Karategin and Darvaz (Issue 2)]. <span style="font-style: italic">In Russian. </span>Dushanbe, "Donish" publishing house, 1970, p. 256.'
             ],
-            ru: ['Возех, Кори Рахматулло. کانی لاززات و خانی نعمت [Источник наслаждения и скатерть благ]. <span style="font-style: italic">На тадж. с арабо-персидским алфавитом </span>Бухара. 1880 - 1881.',
+            ru: ['Возех, Кори Рахматулло. کانی لاززات و خانی نعمت [Источник наслаждения и скатерть благ]. <span style="font-style: italic">На тадж. с арабо-персидским алфавитом. </span>Бухара. 1880 - 1881.',
                 'Шовалиева, Мумина. "История кулинарной культуры таджикского народа". Дис. канд. ист. наук, (Институт истории, археологии и этнографии им. А.Дониша, 2019, с. 97 - 98).',
-                'ван Оуденховен, Фредерик ва Хайдар, Джамила. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tadjikistan. <span style="font-style: italic">На анг, таджикско- и дари-персидском языках. </span>LM Publishers, 2015, с. 599.',
+                'ван Оуденховен, Фредерик и Хайдар, Джамила. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan [Своими руками: праздник еды и жизни в горах Памира Афганистана и Таджикистана]. <span style="font-style: italic">На анг, таджикско- и дари-персидском языках. </span>издательство LM Publishers, 2015, с. 599.',
                 'Кислякова, Н. A. и Писарчик, A. K. Таджики Каратегина и Дарваза (Вып. 2). Душанбе, издательство "Дониш", 1970, с. 256.'
             ],
             tj: ['Возеҳ, Қорӣ Раҳматулло. کانی لاززات و خانی نعمت [Кони лаззат ва хони неъмат]. <span style="font-style: italic">Ба забони тоҷикӣ бо хати форсӣ.</span> Бухоро. 1880 - 1881.',
