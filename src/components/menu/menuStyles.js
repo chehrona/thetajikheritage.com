@@ -43,7 +43,7 @@ export const LogoHalf = styled.img`
 export const PageNamesContainer = styled.div`
     width: 35%;
     position: absolute;
-    right: 0em;
+    right: 3em;
     top: 11rem;
     padding: 1em;
     padding-top: 0em;

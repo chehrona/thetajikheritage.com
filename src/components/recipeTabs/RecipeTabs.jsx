@@ -1,10 +1,12 @@
 import React from "react";
+import { useSetLang } from "../../App";
 import { MainContainer, InviteContainer } from "./recipeTabStyles";
 
 export default function RecipeTabs({ recipe }) {
+    const { lang } = useSetLang();
     return (
         <MainContainer>
-            <InviteContainer>Nerdy talk aside, let's make some {recipe?.id}!</InviteContainer>
+            <InviteContainer>{recipe?.invite[lang]}</InviteContainer>
         </MainContainer>
     )
 }
