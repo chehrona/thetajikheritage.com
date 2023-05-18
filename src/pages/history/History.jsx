@@ -5,12 +5,17 @@ import SideNav from '../../components/sideNav/SideNav';
 import { PageContainer } from './historyPageStyles';
 
 function History() {
-    const { isMenuShown } = useSetLang();
-  return (
-        <PageContainer>
-            History
-        </PageContainer>
-  );
+  const { isMenuShown } = useSetLang();
+
+  if (!isMenuShown) {
+    return (
+      <PageContainer>
+          History
+      </PageContainer>
+    );
+  } else {
+    return null;
+  }
 }
 
 export default History;

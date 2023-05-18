@@ -5,12 +5,17 @@ import SideNav from '../../components/sideNav/SideNav';
 import { PageContainer } from './artsPageStyles';
 
 function Arts() {
-    const { isMenuShown } = useSetLang();
-  return (
-        <PageContainer>
-            Arts
-        </PageContainer>
-  );
+  const { isMenuShown } = useSetLang();
+
+  if (!isMenuShown) {
+    return (
+      <PageContainer>
+          Arts
+      </PageContainer>
+    );
+  } else {
+    return null;
+  }
 }
 
 export default Arts;

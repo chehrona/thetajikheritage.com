@@ -5,12 +5,16 @@ import SideNav from '../../components/sideNav/SideNav';
 import { PageContainer } from './homePageStyles';
 
 function Home() {
-    const { isMenuShown } = useSetLang();
-  return (
-        <PageContainer>
-            Home
-        </PageContainer>
-  );
+  const { isMenuShown } = useSetLang();
+  if (!isMenuShown) {
+    return (
+      <PageContainer>
+          Home
+      </PageContainer>
+    );
+  } else {
+    return null;
+  }
 }
 
 export default Home;

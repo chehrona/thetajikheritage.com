@@ -1,11 +1,18 @@
+import { useSetLang } from '../../App';
 import { PageContainer } from './customsPageStyles';
 
 function Customs() {
-    return (
-        <PageContainer>
-            Customs
-        </PageContainer>
-    );
+    const { isMenuShown } = useSetLang();
+
+    if (!isMenuShown) {
+        return (
+          <PageContainer>
+              Language
+          </PageContainer>
+        );
+    } else {
+        return null;
+    }
 }
 
 export default Customs;
