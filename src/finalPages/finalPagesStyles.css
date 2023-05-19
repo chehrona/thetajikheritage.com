@@ -57,22 +57,24 @@ sub {
 .quoteContainer {
     margin: 1rem;
     display: flex;
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .quoteSymbol {
     background-image: url('./quotation.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 5rem;
-    width: 5rem;
-    margin-right: 0.8rem;
-    margin-top: 0.13rem;
-    filter: opacity(0.65);
-    margin-left: 1.5rem;
+    height: 7rem;
+    width: 7rem;
+    filter: opacity(0.25);
+    position: absolute;
 }
 
 .quoteWrapper {
+    margin-top: 1.3rem;
+    margin-left: 3rem;
     font-style: italic;
-    width: 80%;
     font-size: 1.2rem;
 }
