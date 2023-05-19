@@ -12,7 +12,7 @@ module.exports.recipes = [
         id: 'shirchoy',
         title: {us: 'Shirchoy', ru: 'Ширчой', tj: 'Ширчой', kh: 'شیرچوی'},
         subtitle: {us: 'Salted milk tea', ru: 'Солёный чай с молоком', tj: '', kh: ''},
-        mainImg: '/recipePics/kichiri.png',
+        mainImg: '/recipePics/shirchoy.jpeg',
         sound: '/recipeNames/shirchoy.mp3',
         history: {
             us: `<span class='termSpan'>Shirchoy</span> is a traditional dish prepared in various Central Asian
@@ -38,13 +38,13 @@ module.exports.recipes = [
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>.<sup>2</sup>
                 Also, shirchoy is occasionally known by different names that highlight additional ingredients beyond tea and milk. 
                 Since it is predominantly a salty dish, alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
-                In the region of Badakhshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghuz-choy"</span> is prepared, featuring ground roasted walnuts as one
-                of its key ingredients.<sup>4</sup><br>
+                In the region of Badakhshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzchoy"</span> is prepared, featuring ground roasted walnuts as one
+                of its key ingredients.<sup>4</sup> The name is derived from the Shughni word <span class='termSpan'>"ghüz" [ɣůz]</span> meaning "walnut".<sup>5</sup><br>
                 The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often incorporate ghee
                 or cream, providing them with higher-calorie sustenance to endure the harsh and cold weather. Given the variety of ingredients used in shirchoy, 
                 it can be classified as a milk-based "soup" mainly served in bowls or deep wooden plates.<br>
                 Interestingly, despite being a liquid dish, shirchoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
-                and the remaining liquid is drunk from the bowl.<sup>5</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
+                and the remaining liquid is drunk from the bowl.<sup>6</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
                 primarily during the winter months, mountain communities such as the Pamiri people enjoy it year-round and multiple times a day, owing to their high-altitude environment.<sup>2,4</sup>`,
             ru: `<span class='termSpan'>Ширчой</span> — традиционное блюдо, которое готовят в разных странах Центральной Азии, в том числе в Таджикистане. Его название «ширчой» происходит 
                 от сочетания двух таджикско-персидских слов: <span class='termSpan'>«шир»</span>, что означает молоко, и <span class='termSpan'>«чой»</span>, что означает чай.<sup>1</sup>
@@ -66,19 +66,21 @@ module.exports.recipes = [
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</span></div>.<sup>2</sup>
                 Кроме того, ширчой иногда известен под разными названиями, которые подчеркивают дополнительные ингредиенты, помимо чая и молока. Поскольку это преимущественно солёное 
                 блюдо, его также называют <span class='termSpan'>«шурчой»</span>, от таджикско-персидского слова, обозначающего солёный, «шур».
-                В Бадахшане готовят вкусный вариант ширчоя под названием <span class='termSpan'>«гуз-чой»</span>, одним из основных ингредиентов которого являются молотые жареные грецкие орехи.<sup>4</sup><br>
+                В Бадахшане готовят вкусный вариант ширчоя под названием <span class='termSpan'>«гузчой»</span>, одним из основных ингредиентов которого являются молотые жареные грецкие орехи.<sup>4</sup>
+                Название происходит от шугнанского слова <span class='termSpan'>«гуз» [ɣůz]</span>, означающего «грецкий орех».<sup>5</sup><br>
                 Конкретные ингредиенты ширчоя могут варьироваться в зависимости от местного климата и предпочтений. Например, горные общины часто используют топлёное масло или сливки, 
                 обеспечивая их более калорийной пищей, чтобы выдержать суровую и холодную погоду. Учитывая разнообразие ингредиентов, используемых в ширчое, его можно классифицировать как «суп» 
                 на молочной основе, который в основном подают в мисках или глубоких деревянных тарелках.<br>
                 Интересно, что несмотря на то, что ширчой является жидким блюдом, его традиционно едят руками. Кусочки хлеба, размоченные в молоке, едят руками, а оставшуюся жидкость выпивают 
-                из миски.<sup>5</sup> Таким образом, хлеб служит двойному назначению. В то время как городские таджики, наслаждаются ширчоем в основном в зимние месяцы, 
+                из миски.<sup>6</sup> Таким образом, хлеб служит двойному назначению. В то время как городские таджики, наслаждаются ширчоем в основном в зимние месяцы, 
                 горные общины, такие как памирцы, наслаждаются им круглый год и несколько раз в день из-за их высокогорной среды.<sup>2,4</sup>`,
             kh: `<span class='termSpan'>شیرچوی</span> غذایی است که در کشورهای مختلف آسیای مرکزی و همچنین در تاجیکستان آماده می شود
             `,
             tj: `<span class='termSpan'>Ширчой</span> таомест, ки дар кишварҳои мухталифи Осиёи Миёна ва ҳамчунин 
                 дар Тоҷикистон тайёр карда мешавад. Номи "ширчой" аз ду калимаи тоҷикӣ-форсии 
-                <span class='termSpan'>"шир"</span> ва <span class='termSpan'>"чой"</span> гирифта шудааст.<sup>1</sup> Замон ё макони аниқи пайдоиши ширчой номаълум боқӣ мемонад. Аммо пурратарин маълумот
-                оиди ин таомро дар навиштаҳои олими асри XIX-и тоҷик - Возеҳ, дарёфтан мумкин аст.<sup>1,2</sup> Шояд, ки ин ғизо аз давраҳое, ки чой ба Осиёи Марказӣ аз Чин ворид карда шуда буд 
+                <span class='termSpan'>"шир"</span> ва <span class='termSpan'>"чой"</span> гирифта шудааст.<sup>1</sup> Замон ё макони аниқи пайдоиши ширчой номаълум боқӣ мемонад. Аммо 
+                оиди ин таом пурратарин маълумотро
+                дар навиштаҳои олими асри XIX-и тоҷик - Возеҳ, дарёфтан мумкин аст.<sup>1,2</sup> Шояд, ки ин ғизо аз давраҳое, ки чой ба Осиёи Марказӣ аз Чин ворид карда шуда буд 
                 (миёнаҳои асри VIII), тайёр карда мешавад.<sup>3</sup> Илова бар ин, помириҳо дар бораи созиши аввалин ширчой ривояте доранд: 
                 <div class='quoteContainer'><div class='quoteSymbol'></div><div class='quoteWrapper'>
                 Рӯзе одамон ба қишлоқи мо ... баргаштанд. Онҳо бо худ ин баргҳоро оварданд ва ҳамаро барои тамошо даъват карданд. Мо дар як зарфи калон об ҷӯшонда,
@@ -95,12 +97,13 @@ module.exports.recipes = [
                 <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Асосан дар Самарқанд, Бухоро, Фарғона ва вилояти Суғд</span></div>, андохта мешаванд.
                 Инчунин, ширчой бо номҳои гуногун ҳам маъруф аст, ки онҳо аз яке аз маҳсулотҳои иловагиаш гирифта мешаванд. Азбаски ширчой одатан як хӯроки шӯр аст, 
                 яке аз номҳои дигараш <span class='termSpan'>"шӯрчой"</span> мебошад. Дар вилояти Бадахшон як намуди болаззати ширчой - <span class='termSpan'>"ғӯзширчой"</span> омода карда 
-                мешавад, ки яке аз қисмҳои асосии он чормағзи тафтдодашудаи кӯфта мебошад.<sup>4</sup><br>
+                мешавад, ки яке аз қисмҳои асосии он чормағзи тафтдодашудаи кӯфта мебошад.<sup>4</sup>
+                Номаш аз калимаи шуғнии <span class='termSpan'>"ғӯз" [ɣůz]</span> гирифта шудааст, ки маънояш "чормағз" мебошад.<sup>5</sup><br>
                 Таркиби ширчой аз обу ҳавои минтақа ва хоҳиши пазанда вобастагӣ дорад. Масалан, мардуми кӯҳистон аксар вақт ба он равған ё қаймоқ илова мекунанд, чунки 
                 барои тобоварӣ ба обу ҳавои сард ба хӯрокҳои серкалория ниёз доранд. Бо назардошти гуногунии маҳсулотҳое, ки дар ширчой истифода мешаванд, 
                 онро "шӯрбо"-и ширӣ ҳисоб кардан мумкин аст, ки асосан дар коса ё табақҳои чуқури чӯбӣ мекашанд.<br> 
                 Ҷолиб он аст, ки ширчой бо вуҷуди як хӯроки моеъ буданаш, онро одатан бо даст мехӯранд. Порчаҳои нони дар шир тар шударо бо 
-                даст гирифта истеъмол мекунанд ва моеъи боқимондаро аз коса менӯшанд.<sup>5</sup> Бо ин роҳ, нон ҳамчун асбоби хӯрокхурӣ ва ҳам калорияи иловагӣ хидмат мекунад. Аҳолии 
+                даст гирифта истеъмол мекунанд ва моеъи боқимондаро аз коса менӯшанд.<sup>6</sup> Бо ин роҳ, нон ҳамчун асбоби хӯрокхурӣ ва ҳам калорияи иловагӣ хидмат мекунад. Аҳолии 
                 шаҳрӣ ширчойро бисёртар дар фасли зимистон истеъмол мекунад, вале ҷамоаҳои кӯҳӣ, ба мисли помириҳо, аз сабаби муҳити баландкуҳиашон аз он тамоми сол ва дар 
                 як рӯз чанд маротиба лаззат мебаранд.<sup>2,4</sup>`
         },
@@ -120,16 +123,19 @@ module.exports.recipes = [
                 'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. <span style="font-style: italic">In Russian. </span>PhD dissertation, (A. Donish Institute of History, Archeology and Ethnography, 2019, pp. 97 - 98).', 
                 'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, p. 290, 1976.',
                 'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan. <span style="font-style: italic">In English, Tajiki- and Dari-Persian. </span>LM Publishers, 2015, p. 599.',
+                'Steblin-Kamenskiy, I.M. Очерки по истории лексики памирских языков. Названия культурных растений [Essays on the history of Pamiri languages. Names of cultivated plants]. <span style="font-style: italic">In Russian.</span> Moscow, "Nauka" publishing house, 1982, pp. 110 — 111.',
                 'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Karategin and Darvaz (Issue 2)]. <span style="font-style: italic">In Russian. </span>Dushanbe, "Donish" publishing house, 1970, p. 256.'
             ],
             ru: ['Возех, Кори Рахматулло. کانی لاززات و خانی نعمت [Источник наслаждения и скатерть благ]. <span style="font-style: italic">На тадж. с арабо-персидским алфавитом. </span>Бухара. 1880 - 1881.',
                 'Шовалиева, Мумина. "История кулинарной культуры таджикского народа". Дис. канд. ист. наук, (Институт истории, археологии и этнографии им. А.Дониша, 2019, с. 97 - 98).',
-                'ван Оуденховен, Фредерик и Хайдар, Джамила. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan [Своими руками: праздник еды и жизни в горах Памира Афганистана и Таджикистана]. <span style="font-style: italic">На анг, таджикско- и дари-персидском языках. </span>издательство LM Publishers, 2015, с. 599.',
+                'ван Оуденховен, Фредерик и Хайдар, Джамила. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan [Своими руками: праздник еды и жизни в Памирских горах Афганистана и Таджикистана]. <span style="font-style: italic">На анг, таджикско- и дари-персидском языках. </span>Издательство "LM Publishers", 2015, с. 599.',
+                'Стеблин-Каменский И.М. Очерки по истории лексики памирских языков. Названия культурных растений. Москва, издательство "Наука", 1982, с. 110 — 111.',
                 'Кислякова, Н. A. и Писарчик, A. K. Таджики Каратегина и Дарваза (Вып. 2). Душанбе, издательство "Дониш", 1970, с. 256.'
             ],
             tj: ['Возеҳ, Қорӣ Раҳматулло. کانی لاززات و خانی نعمت [Кони лаззат ва хони неъмат]. <span style="font-style: italic">Ба забони тоҷикӣ бо хати форсӣ.</span> Бухоро. 1880 - 1881.',
                 'Шовалиева, Мӯмина. "История кулинарной культуры таджикского народа" ["Таърихи маданияти хӯрокпазии халқи тоҷик"]. Диссертатсияи дараҷаи илмии доктори фалсафа, (Институти таърих, бостоншиносӣ ва мардумшиносии ба номи А. Дониш, 2019, с. 97 - 98).',
-                'ван Оуденҳовен, Фредерик ва Ҳайдар, Ҷамила. Бо дастони худ: ҷашни таъом ва зиндагӣ дар кӯҳистони Помири Афғонистон ва Тоҷикистон. <span style="font-style: italic">Ба забонҳои тоҷикӣ, дарӣ ва анг. </span>Нашриёти LM Publishers, 2015, с. 599.',
+                'ван Оуденҳовен, Фредерик ва Ҳайдар, Ҷамила. Бо дастони худ: ҷашни таъом ва зиндагӣ дар кӯҳистони Помири Афғонистон ва Тоҷикистон. <span style="font-style: italic">Ба забонҳои тоҷикӣ, дарӣ ва анг. </span>Нашриёти "LM Publishers", 2015, с. 599.',
+                'Стеблин-Каменский И.М. Очерки по истории лексики памирских языков. Названия культурных растений [Иншоҳо оид ба таърихи луғати забонҳои помирӣ. Номҳои растаниҳои киштшаванда]. Маскав, нашриёти "Наука", 1982, с. 110 — 111.',
                 'Кислякова, Н. A. ва Писарчик, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Тоҷикони Қаротегин ва Дарвоз (Ҷузъи 2)]. Душанбе, нашриёти "Дониш", 1970, с. 256.'
             ],
             kh: ['واضح٬ قاری رحمةالله', "2. here 2"],

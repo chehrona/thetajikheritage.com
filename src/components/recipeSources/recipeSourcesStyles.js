@@ -62,5 +62,17 @@ export const SubTitle = styled.div`
 export const Reference = styled.div`
     font-size: 1.1rem;
     line-height: 1.7rem;
-    margin-top: 0.5rem;
+`;
+
+export const RefBox = styled.div`
+    display: flex;
+    align-items: start;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+`;
+
+export const RefIndex = styled.div`
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
 `;

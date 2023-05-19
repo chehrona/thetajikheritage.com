@@ -10,6 +10,8 @@ import { DropDownContainer,
          SubTitle,
          StyledUpIcon,
          RefWrapper,
+         RefBox,
+         RefIndex
 } from "./recipeSourcesStyles";
 import { useSetLang } from "../../App";
 
@@ -31,7 +33,12 @@ export default function RecipeSources({ recipe }) {
                     <SubTitle>{recipe.referencesLang[lang]}</SubTitle>
                     {recipe.references[lang].map((source, i) => {
                         return (
-                            <Reference dangerouslySetInnerHTML={{__html: source}} key={i}></Reference>
+                            <RefBox>
+                                <RefIndex>
+                                    <div>{i + 1}.</div>
+                                </RefIndex>
+                                <Reference dangerouslySetInnerHTML={{__html: source}} key={i}></Reference>
+                            </RefBox>   
                         )
                     })}
                 </RefWrapper>
