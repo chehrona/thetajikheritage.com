@@ -59,7 +59,7 @@ sub {
     display: flex;
     position: relative;
     padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 5rem;
 }
 
 .quoteSymbol {
@@ -68,7 +68,7 @@ sub {
     background-repeat: no-repeat;
     height: 7rem;
     width: 7rem;
-    filter: opacity(0.25);
+    filter: opacity(0.2);
     position: absolute;
 }
 
