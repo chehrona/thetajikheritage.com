@@ -20,42 +20,6 @@ export default function RecipeInfo({ recipe }) {
         <InfoContainer>
             <MainTitle>{recipe.title[lang]}</MainTitle>
             <HistoryInfo dangerouslySetInnerHTML={{__html: recipe.history[lang]}}></HistoryInfo>
-            {/* <AllergyContainer>
-                {recipe.contains && 
-                    <ContainsBox>
-                        <BoxTitle>{recipe.containsLang[lang]}</BoxTitle>
-                        <LabelWrapper>
-                            {recipe.contains.map((label, i) => {
-                                return (
-                                    <LabelContainer key={i}>
-                                        <LabelImage src={`/allergyLabels/${label}.png`} />
-                                        <AllergenName>
-                                            {recipe.labels[i][lang]}
-                                        </AllergenName>
-                                    </LabelContainer>
-                                )
-                            })}
-                        </LabelWrapper>
-                    </ContainsBox>
-                }
-                {recipe.diet && 
-                    <DietBox>
-                        <BoxTitle>{recipe.dietLang[lang]}</BoxTitle>
-                        <LabelWrapper>
-                            {recipe.diet.map((label, i) => {
-                                return (
-                                    <LabelContainer key={i}>
-                                        <LabelImage src={`/allergyLabels/${label}.png`} />
-                                        <AllergenName>
-                                            {recipe.dietLabels[i][lang]}
-                                        </AllergenName>
-                                    </LabelContainer>
-                                )
-                            })}
-                        </LabelWrapper>
-                    </DietBox>
-                }
-            </AllergyContainer> */}
         </InfoContainer>
     )
 }

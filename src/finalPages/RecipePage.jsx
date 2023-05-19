@@ -18,6 +18,7 @@ import RecipeInfo from "../components/recipeInfo/RecipeInfo";
 import RecipeIngredients from "../components/recipeIngredients/RecipeIngredients";
 import RecipeSources from "../components/recipeSources/RecipeSources";
 import RecipeTabs from "../components/recipeTabs/RecipeTabs";
+import Allergy from "../components/allergy/Allergy";
 
 export default function RecipePage() {
     const { id } = useParams(),
@@ -41,7 +42,8 @@ export default function RecipePage() {
                 <RecipeSources recipe={recipe[0]} />
                 <RecipeTabs recipe={recipe[0]} />
                 {/* <IntroSection> */}
-                    {/* <RecipeIngredients recipe={recipe[0]} /> */}
+                <Allergy recipe={recipe[0]} />
+                <RecipeIngredients recipe={recipe[0]} />
                     {/* <InfoContainer>
                         <SubTitle margin={"false"}>{recipe[0].directionsLang[lang]}</SubTitle>
                         <IngredientBox margin={"false"}>
