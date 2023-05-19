@@ -37,8 +37,8 @@ module.exports.recipes = [
                 or even melted <div class="tooltip">sheep tail fat
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>.<sup>2</sup>
                 Also, shirchoy is occasionally known by different names that highlight additional ingredients beyond tea and milk. 
-                Since it is predominantly a salty dish, alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
-                In the region of Badakhshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzchoy"</span> is prepared, featuring ground roasted walnuts as one
+                Since it is predominantly a salty dish, it is alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
+                In the region of Badakhshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzchoy"</span> is prepared, featuring ground toasted walnuts as one
                 of its key ingredients.<sup>4</sup> The name is derived from the Shughni word <span class='termSpan'>"ghüz" [ɣůz]</span> meaning "walnut".<sup>5</sup><br>
                 The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often incorporate ghee
                 or cream, providing them with higher-calorie sustenance to endure the harsh and cold weather. Given the variety of ingredients used in shirchoy, 
