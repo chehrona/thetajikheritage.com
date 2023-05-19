@@ -11,7 +11,8 @@ import { HeaderContainer,
          StyledMenuIcon,
          Logo,
          TitleSpan,
-         StyledCloseIcon
+         StyledCloseIcon,
+         StyledLink
 } from "./headerStyles";
 
 export default function Header() {
@@ -24,7 +25,9 @@ export default function Header() {
     return (
         <HeaderContainer>
             <LogoWrapper>
-                <Logo src={logo}></Logo>
+                <StyledLink to={'/'}>
+                    <Logo src={logo}></Logo>
+                </StyledLink>
             </LogoWrapper>
             <TitleWrapper>
                 <Title>

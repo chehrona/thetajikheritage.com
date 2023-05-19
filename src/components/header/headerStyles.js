@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Close, Menu } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
+import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
     background: #000000;
@@ -71,3 +72,8 @@ export const Logo = styled.img`
     height: 100%;
     width: 100%;
 `;
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: inherit;
+`
