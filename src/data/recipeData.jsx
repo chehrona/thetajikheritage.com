@@ -18,7 +18,7 @@ module.exports.recipes = [
             us: `<span class='termSpan'>Shirchoy</span> is a traditional dish prepared in various Central Asian
                 countries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
                 <span class='termSpan'>"shir,"</span> meaning milk, and <span class='termSpan'>"choy,"</span>  which refers to tea.<sup>1</sup>
-                The specific regional or historical origins of shirchoy remain uncertain. However, the most detailed account of the dish can be 
+                The exact regional or historical origins of shirchoy remain uncertain. However, the most detailed account of the dish can be 
                 found in the writings of the 19th-century Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots 
                 as far back as the mid-8th century when tea was introduced to Central Asia from China.<sup>3</sup>
                 Additionally, the Pamiris have a legendary account regarding the creation of the very first shirchoy:
@@ -163,6 +163,11 @@ module.exports.recipes = [
             tj: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
             kh: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
         },
+        timeLang: {us: ["Total", "Prep", "Cook", "Print"], ru: ["Общее", "Подготовка", "Приготовление", "Распечатать"], tj: ["Ҳамагӣ", "Тайёрӣ", "Пухтупаз", "Чоп кунед"], kh: [""]},
+        time: {us: {total: "15 min", prep: "5 min", cook: "10 min"}, ru: {total: "15 мин", prep: "5 мин", cook: "10 мин"},
+              tj: {total: "15 дақ", prep: "5 дақ", cook: "10 дақ"}, kh: {total: "15 мин", prep: "5 мин", cook: "10 мин"}
+        },
+        servingLang: {us: "Servings", ru: "Порции", tj: "Портсия", kh: ""},
     },
     // {
     //     id: 'qurutob',

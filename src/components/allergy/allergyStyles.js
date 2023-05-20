@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const AllergyContainer = styled.div`
     display: flex;
-    margin-right: 5rem;
-    margin-bottom: 2rem;
+    margin-right: 3.5rem;
+    width: 100%;
+    justify-content: space-between;
 `;
 
 export const ContainsBox = styled.div`
@@ -19,7 +20,6 @@ export const DietBox = styled.div`
     border-radius: 1rem;
     padding: 0.8rem;
     padding-top: 0.5rem;
-    margin-left: 2rem;
     min-width: 7rem;
 `;
 

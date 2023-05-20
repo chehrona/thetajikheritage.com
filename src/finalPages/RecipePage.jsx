@@ -19,6 +19,7 @@ import RecipeSources from "../components/recipeSources/RecipeSources";
 import RecipeTabs from "../components/recipeTabs/RecipeTabs";
 import Allergy from "../components/allergy/Allergy";
 import Directions from "../components/directions/Directions";
+import Servings from "../components/servings/Servings";
 
 export default function RecipePage() {
     const { id } = useParams(),
@@ -47,6 +48,7 @@ export default function RecipePage() {
                         <RecipeIngredients recipe={recipe[0]} />
                     </IngredientContainer>
                     <InstructionContainer>
+                        <Servings recipe={recipe[0]} />
                         <Directions recipe={recipe[0]} />
                     </InstructionContainer>
                 </SubContainer>

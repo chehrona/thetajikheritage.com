@@ -3,7 +3,7 @@ import { ExpandLess, ExpandMore } from "@mui/icons-material";
 
 export const DropDownContainer = styled.div`
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 `;
 
 export const IconContainer = styled.div`
