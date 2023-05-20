@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainContainer = styled.div`
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 `;
 
 export const InviteContainer = styled.div`
