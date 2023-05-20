@@ -1,17 +1,9 @@
 import React from "react";
 import { useSetLang } from "../../App";
-import RecipeSources from "../recipeSources/RecipeSources";
-import { InfoContainer,
-         MainTitle,
-         HistoryInfo,
-         AllergyContainer,
-         ContainsBox,
-         BoxTitle,
-         LabelWrapper,
-         LabelContainer,
-         LabelImage,
-         AllergenName,
-         DietBox
+import { 
+    InfoContainer,
+    MainTitle,
+    HistoryInfo,
 } from "./recipeInfoStyles";
 
 export default function RecipeInfo({ recipe }) {

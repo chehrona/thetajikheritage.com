@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const AllergyContainer = styled.div`
     display: flex;
-    margin-top: 4.3rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
 `;
 
 export const ContainsBox = styled.div`

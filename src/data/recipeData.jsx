@@ -149,11 +149,11 @@ module.exports.recipes = [
         labels: [
             {us: 'Dairy', ru: 'Молоко', tj: 'Шир', kh: 'شیر'},
             {us: 'Gluten', ru: 'Клейковина', tj: 'Глютен', kh: 'گلوتن'},
-            {us: 'Nuts', ru: 'Орехи', tj: 'Чормағзҳо', kh: 'چارمغزحا'}
+            {us: 'Nuts', ru: 'Орехи', tj: 'Чормағз', kh: 'چارمغزحا'}
         ],
         ingredients: {
             us: ["3 cups milk", "2 Tbsps black tea", "1 loaf baguette", "&#189 cup chopped walnuts", "1 tsp ghee", "2 tsps sugar"],
-            ru: ["3 стакана молока", "2 c.л. чёрного чая", "1 лепёшка", "&#189 стакана измельченных грецких орехов", "1 ч.л. топлёного масла", "2 ч.л. cахара"],
+            ru: ["3 стакана молока", "2 c.л. чёрного чая", "1 лепёшка", "&#189 стакана грецких орехов", "1 ч.л. топлёного масла", "2 ч.л. cахара"],
             tj: ["3 стакан шир", "2 қошуқи калон чойи сиёҳ", "1-то нон", "&#189 стакан измельченных грецких орехов", "1 қошуқча равғани зард", "2 қошуқча шакар"],
             kh: ["3 стакана молока", "2 чёрного чая", ""],
         },
@@ -163,6 +163,7 @@ module.exports.recipes = [
             tj: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
             kh: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
         },
+        height: '33.2rem',
     },
     // {
     //     id: 'qurutob',

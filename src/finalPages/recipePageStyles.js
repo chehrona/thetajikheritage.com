@@ -38,3 +38,10 @@ export const StyledPinIcon = styled(Pinterest)`
     top: 13.5rem;
     font-size: 2em !important;
 `;
+
+export const InstructionContainer = styled.div`
+    display: flex;
+    align-items: start;
+    margin-top: 3rem;
+    height: ${({height}) => height};
+`;

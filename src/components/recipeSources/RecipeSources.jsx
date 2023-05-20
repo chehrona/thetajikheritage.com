@@ -33,11 +33,11 @@ export default function RecipeSources({ recipe }) {
                     <SubTitle>{recipe.referencesLang[lang]}</SubTitle>
                     {recipe.references[lang].map((source, i) => {
                         return (
-                            <RefBox>
+                            <RefBox key={i}>
                                 <RefIndex>
                                     <div>{i + 1}.</div>
                                 </RefIndex>
-                                <Reference dangerouslySetInnerHTML={{__html: source}} key={i}></Reference>
+                                <Reference dangerouslySetInnerHTML={{__html: source}}></Reference>
                             </RefBox>   
                         )
                     })}

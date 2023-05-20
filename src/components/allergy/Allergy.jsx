@@ -18,14 +18,14 @@ export default function Allergy({ recipe }) {
         <AllergyContainer>
             {recipe.contains && 
                 <ContainsBox>
-                    <BoxTitle>{recipe.containsLang[lang]}</BoxTitle>
+                    <BoxTitle>{recipe?.containsLang[lang]}</BoxTitle>
                     <LabelWrapper>
-                        {recipe.contains.map((label, i) => {
+                        {recipe?.contains?.map((label, i) => {
                             return (
                                 <LabelContainer key={i}>
                                     <LabelImage src={`/allergyLabels/${label}.png`} />
                                     <AllergenName>
-                                        {recipe.labels[i][lang]}
+                                        {recipe?.labels[i][lang]}
                                     </AllergenName>
                                 </LabelContainer>
                             )
@@ -35,14 +35,14 @@ export default function Allergy({ recipe }) {
             }
             {recipe.diet && 
                 <DietBox>
-                    <BoxTitle>{recipe.dietLang[lang]}</BoxTitle>
+                    <BoxTitle>{recipe?.dietLang[lang]}</BoxTitle>
                     <LabelWrapper>
-                        {recipe.diet.map((label, i) => {
+                        {recipe?.diet.map((label, i) => {
                             return (
                                 <LabelContainer key={i}>
                                     <LabelImage src={`/allergyLabels/${label}.png`} />
                                     <AllergenName>
-                                        {recipe.dietLabels[i][lang]}
+                                        {recipe?.dietLabels[i][lang]}
                                     </AllergenName>
                                 </LabelContainer>
                             )
