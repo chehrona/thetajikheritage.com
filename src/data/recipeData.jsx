@@ -38,7 +38,7 @@ module.exports.recipes = [
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>.<sup>2</sup>
                 Also, shirchoy is occasionally known by different names that highlight additional ingredients beyond tea and milk. 
                 Since it is predominantly a salty dish, it is alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
-                In the region of Badakhshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzchoy"</span> is prepared, featuring ground toasted walnuts as one
+                In the region of Badakhshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzshirchoy"</span> is prepared, featuring ground toasted walnuts as one
                 of its key ingredients.<sup>4</sup> The name is derived from the Shughni word <span class='termSpan'>"ghüz" [ɣůz]</span> meaning "walnut".<sup>5</sup><br>
                 The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often incorporate ghee
                 or cream, providing them with higher-calorie sustenance to endure the harsh and cold weather. Given the variety of ingredients used in shirchoy, 
@@ -66,7 +66,7 @@ module.exports.recipes = [
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</span></div>.<sup>2</sup>
                 Кроме того, ширчой иногда известен под разными названиями, которые подчеркивают дополнительные ингредиенты, помимо чая и молока. Поскольку это преимущественно солёное 
                 блюдо, его также называют <span class='termSpan'>«шурчой»</span>, от таджикско-персидского слова, обозначающего солёный, «шур».
-                В Бадахшане готовят вкусный вариант ширчоя под названием <span class='termSpan'>«гузчой»</span>, одним из основных ингредиентов которого являются молотые жареные грецкие орехи.<sup>4</sup>
+                В Бадахшане готовят вкусный вариант ширчоя под названием <span class='termSpan'>«гузширчой»</span>, одним из основных ингредиентов которого являются молотые жареные грецкие орехи.<sup>4</sup>
                 Название происходит от шугнанского слова <span class='termSpan'>«гуз» [ɣůz]</span>, означающего «грецкий орех».<sup>5</sup><br>
                 Конкретные ингредиенты ширчоя могут варьироваться в зависимости от местного климата и предпочтений. Например, горные общины часто используют топлёное масло или сливки, 
                 обеспечивая их более калорийной пищей, чтобы выдержать суровую и холодную погоду. Учитывая разнообразие ингредиентов, используемых в ширчое, его можно классифицировать как «суп» 
@@ -152,7 +152,7 @@ module.exports.recipes = [
             {us: 'Nuts', ru: 'Орехи', tj: 'Чормағз', kh: 'چارمغزحا'}
         ],
         ingredients: {
-            us: ["3 cups milk", "2 Tbsps black tea", "1 loaf baguette", "&#189 cup chopped walnuts", "1 tsp ghee", "2 tsps sugar"],
+            us: ["1&#189 cups (360 mL) milk", "1 cup (240 mL) water", "2 tsps black tea", "1 loaf baguette", "2 Tbsps walnuts", "1 tsp ghee or unsalted butter", "&#189 tsp salt"],
             ru: ["3 стакана молока", "2 c.л. чёрного чая", "1 лепёшка", "&#189 стакана грецких орехов", "1 ч.л. топлёного масла", "2 ч.л. cахара"],
             tj: ["3 стакан шир", "2 қошуқи калон чойи сиёҳ", "1-то нон", "&#189 стакан измельченных грецких орехов", "1 қошуқча равғани зард", "2 қошуқча шакар"],
             kh: ["3 стакана молока", "2 чёрного чая", ""],
@@ -163,7 +163,6 @@ module.exports.recipes = [
             tj: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
             kh: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
         },
-        height: '33.2rem',
     },
     // {
     //     id: 'qurutob',

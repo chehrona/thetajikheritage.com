@@ -1,17 +1,13 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-    width: 40%;
-`;
-
 export const MainContainer = styled.div`
     margin-right: 5rem;
     padding: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 2rem;
     border-radius: 1rem;
     background: #eaeaea;
-    height: 100%;
 `;
 
 export const SubTitle = styled.div`

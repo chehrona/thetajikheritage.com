@@ -40,8 +40,15 @@ export const StyledPinIcon = styled(Pinterest)`
 `;
 
 export const InstructionContainer = styled.div`
+    margin-top: 2rem;
+`;
+
+export const IngredientContainer = styled.div`
+    width: 40%;
+    height: 100%;
+`;
+
+export const SubContainer = styled.div`
     display: flex;
-    align-items: start;
     margin-top: 3rem;
-    height: ${({height}) => height};
 `;

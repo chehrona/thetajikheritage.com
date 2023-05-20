@@ -8,7 +8,9 @@ import {
     MainImage,
     ImageContainer,
     StyledPinIcon,
-    InstructionContainer
+    InstructionContainer,
+    IngredientContainer,
+    SubContainer
 } from "./recipePageStyles";
 
 import RecipeInfo from "../components/recipeInfo/RecipeInfo";
@@ -39,10 +41,15 @@ export default function RecipePage() {
                 <RecipeInfo recipe={recipe[0]} />
                 <RecipeSources recipe={recipe[0]} />
                 <RecipeTabs recipe={recipe[0]} />
-                <InstructionContainer height={recipe[0].height}>
-                    <RecipeIngredients recipe={recipe[0]} />
-                    <Directions recipe={recipe[0]} />
-                </InstructionContainer>
+                <SubContainer>
+                    <IngredientContainer>
+                        <Allergy recipe={recipe[0]} />
+                        <RecipeIngredients recipe={recipe[0]} />
+                    </IngredientContainer>
+                    <InstructionContainer>
+                        <Directions recipe={recipe[0]} />
+                    </InstructionContainer>
+                </SubContainer>
             </PageContainer>
         )
     }
