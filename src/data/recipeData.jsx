@@ -168,6 +168,10 @@ module.exports.recipes = [
               tj: {total: "15 дақ", prep: "5 дақ", cook: "10 дақ"}, kh: {total: "15 мин", prep: "5 мин", cook: "10 мин"}
         },
         servingLang: {us: "Servings", ru: "Порции", tj: "Портсия", kh: ""},
+        servingAlert: {us: ["Sorry, the serving amount cannot be less than 1", "Servings must be a number greater than 0"], 
+                    ru: ["К сожалению, количество порций не может быть меньше 1", "Количество порций должно быть больше 0"], 
+                    tj: ["Бубахшед, портсия набояд аз 1 камтар бошад", "Бубахшед, портсия бояд аз 0 зиёд бошад"], 
+                    kh: ["", ""]},
     },
     // {
     //     id: 'qurutob',

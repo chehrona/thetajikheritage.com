@@ -25,6 +25,7 @@ export default function RecipePage() {
     const { id } = useParams(),
           { isMenuShown } = useSetLang(),
           [pinHovered, setPinHovered] = useState(false),
+          [servings, setServings] = useState(1),
           recipe = recipes.filter((recipe) => recipe.id === id);
 
     if (recipe && !isMenuShown) {
@@ -48,7 +49,7 @@ export default function RecipePage() {
                         <RecipeIngredients recipe={recipe[0]} />
                     </IngredientContainer>
                     <InstructionContainer>
-                        <Servings recipe={recipe[0]} />
+                        <Servings recipe={recipe[0]} servings={servings} setServings={setServings}/>
                         <Directions recipe={recipe[0]} />
                     </InstructionContainer>
                 </SubContainer>

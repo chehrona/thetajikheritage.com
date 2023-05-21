@@ -1,6 +1,8 @@
 import { IconButton } from "@mui/material";
 import React from "react";
+import { useEffect } from "react";
 import { useSetLang } from "../../App";
+import Header from "../header/Header";
 import printIcon from "./printer.png";
 
 import {
@@ -17,18 +19,56 @@ import {
     PrintBox
 } from "./servingsStyles"
 
-export default function Servings({ recipe }) {
+export default function Servings({ recipe, servings, setServings }) {
     const { lang } = useSetLang();
+
+    useEffect(() => {
+        if (servings.length > 0 && !parseInt(servings)) {
+            setServings(1);
+            alert(recipe?.servingAlert[lang][1])
+        } 
+
+        if (servings.length > 0 && servings < 0) {
+            setServings(1);
+            alert(recipe?.servingAlert[lang][0]);
+        }
+    }, [servings]);
+
+    function printRecipe() {
+        window.print();
+    }
+
+    function reduceServings() {
+        let inputValue = servings;
+        if (inputValue > 1) {
+            inputValue = inputValue - 1;
+            setServings(inputValue);
+        } else {
+            alert(recipe?.servingAlert[lang]);
+        }
+    }
+
+    function increaseServings(e) {
+        let inputValue = servings;
+        inputValue = inputValue + 1;
+        setServings(inputValue);
+    }
+
+    function getServings(e) {
+        let inputValue = e.target.value;
+        setServings(inputValue);
+    }
+
     return (
         <MainContainer>
             <QuantityContainer>
                 <SubTitle>{recipe?.servingLang[lang]}</SubTitle>
                 <ServeContainer>
-                    <IconButton>
+                    <IconButton onClick={reduceServings}>
                         <StyledMinusIcon />
                     </IconButton>
-                    <ServeAmount>{}</ServeAmount>
-                    <IconButton>
+                    <ServeAmount value={servings} onChange={(e) => getServings(e)}/>
+                    <IconButton onClick={increaseServings}>
                         <StyledAddIcon />
                     </IconButton>
                 </ServeContainer>
@@ -47,7 +87,7 @@ export default function Servings({ recipe }) {
             </TotalContainer>
             <PrintContainer>
                 <SubTitle>{recipe?.timeLang[lang][3]}</SubTitle>
-                <IconButton style={{marginTop: "0.55rem"}}>
+                <IconButton style={{marginTop: "0.55rem"}} onClick={printRecipe}>
                     <PrintBox src={printIcon}></PrintBox>
                 </IconButton>
             </PrintContainer>
