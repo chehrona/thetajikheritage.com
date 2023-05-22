@@ -41,10 +41,10 @@ import SideNav from "../../components/sideNav/SideNav";
 
 export default function RecipePagePrint() {
     const { id } = useParams(),
+        recipe = recipes.filter((recipe) => recipe.id === id)[0],
         { lang, isPrint, setIsPrint } = useSetLang(),
-        [servings, setServings] = useState(1),
-        [showTop, setShowTop] = useState(true),
-        recipe = recipes.filter((recipe) => recipe.id === id)[0];
+        [servings, setServings] = useState(recipe?.startServing),
+        [showTop, setShowTop] = useState(true);
 
     useEffect(() => {
         setIsPrint(true);
