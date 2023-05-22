@@ -1,6 +1,5 @@
 import React from "react";
 import { useSetLang } from "../../App";
-import logo from './tajiks.svg';
 
 import { HeaderContainer,
          LogoWrapper,
@@ -26,7 +25,7 @@ export default function Header() {
         <HeaderContainer>
             <LogoWrapper>
                 <StyledLink to={'/'}>
-                    <Logo src={logo}></Logo>
+                    <Logo src={'/tajiks.svg'}></Logo>
                 </StyledLink>
             </LogoWrapper>
             <TitleWrapper>

@@ -1,5 +1,6 @@
 import { Add, Remove } from "@mui/icons-material";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const MainContainer = styled.div`
     display: flex;
@@ -74,4 +75,9 @@ export const PrintContainer = styled.div`
 
 export const PrintBox = styled.img`
     width: 1.8rem;
+`;
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: inherit;
 `;

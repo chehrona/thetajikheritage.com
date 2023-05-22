@@ -158,7 +158,7 @@ module.exports.recipes = [
             kh: ["3 стакана молока", "2 чёрного чая", ""],
         },
         directions: {
-            us: ["1. Boil the water in a pot over medium heat.", "2. Add the black tea leaves and simmer for 10-15 minutes, stirring occasionally.", "3. Strain the tea leaves and return the tea to the pot.", "5. Add the walnuts, milk, and any other spices and bring the mixture to a boil, stirring constantly.", "6. Add salt to taste.", "7. Simmer the tea for another 5 minutes, stirring occasionally."],
+            us: ["Boil the water in a pot over medium heat.", "Add the black tea leaves and simmer for 10-15 minutes, stirring occasionally.", "Strain the tea leaves and return the tea to the pot.", "Add the walnuts, milk, and any other spices and bring the mixture to a boil, stirring constantly.", "Add salt to taste.", "Simmer the tea for another 5 minutes, stirring occasionally."],
             ru: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
             tj: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
             kh: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
@@ -172,6 +172,8 @@ module.exports.recipes = [
                     ru: ["К сожалению, количество порций не может быть меньше 1", "Количество порций должно быть больше 0"], 
                     tj: ["Бубахшед, портсия набояд аз 1 камтар бошад", "Бубахшед, портсия бояд аз 0 зиёд бошад"], 
                     kh: ["", ""]},
+        serving: {us: "serv.", ru: "порц.", tj: "", kh: ""},
+        startServing: 2,
     },
     // {
     //     id: 'qurutob',

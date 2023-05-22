@@ -2,8 +2,6 @@ import { IconButton } from "@mui/material";
 import React from "react";
 import { useEffect } from "react";
 import { useSetLang } from "../../App";
-import Header from "../header/Header";
-import printIcon from "./printer.png";
 
 import {
     MainContainer,
@@ -16,7 +14,8 @@ import {
     TotalContainer,
     TimeBox,
     PrintContainer,
-    PrintBox
+    PrintBox,
+    StyledLink,
 } from "./servingsStyles"
 
 export default function Servings({ recipe, servings, setServings }) {
@@ -33,10 +32,6 @@ export default function Servings({ recipe, servings, setServings }) {
             alert(recipe?.servingAlert[lang][0]);
         }
     }, [servings]);
-
-    function printRecipe() {
-        window.print();
-    }
 
     function reduceServings() {
         let inputValue = servings;
@@ -87,9 +82,11 @@ export default function Servings({ recipe, servings, setServings }) {
             </TotalContainer>
             <PrintContainer>
                 <SubTitle>{recipe?.timeLang[lang][3]}</SubTitle>
-                <IconButton style={{marginTop: "0.55rem"}} onClick={printRecipe}>
-                    <PrintBox src={printIcon}></PrintBox>
-                </IconButton>
+                <StyledLink to={"/cuisine" + recipe.link + "/print"} target={"_blank"}>
+                    <IconButton style={{marginTop: "0.55rem"}}>
+                        <PrintBox src={'/printIcons/printer.png'}></PrintBox>
+                    </IconButton>
+                </StyledLink>
             </PrintContainer>
         </MainContainer>
     )

@@ -9,15 +9,17 @@ import History from './pages/history/History';
 import Header from './components/header/Header';
 import SideNav from './components/sideNav/SideNav';
 import Menu from './components/menu/Menu';
-import { recipes } from './data/recipeData';
-import RecipePage from './finalPages/RecipePage';
+import RecipePage from './finalPages/recipePage/RecipePage';
 import Footer from './components/footer/Footer';
+import RecipePagePrint from './finalPages/recipePage/RecipePagePrint';
 
 const LangContext = createContext({
     lang: 'us',
     setLang: () => {},
     isMenuShown: false,
     setIsMenuShown: () => {},
+    isPrint: false,
+    setIsPrint: () => {},
 });
 
 export function useSetLang() {
@@ -26,30 +28,33 @@ export function useSetLang() {
 
 function App() {
   const [lang, setLang] = useState('us'),
+        [isPrint, setIsPrint] = useState(false),
         [isMenuShown, setIsMenuShown] = useState(false);
 
   const value = useMemo(() => (
     {
       lang, setLang,
-      isMenuShown, setIsMenuShown
+      isMenuShown, setIsMenuShown,
+      isPrint, setIsPrint
     }
-  ), [lang, isMenuShown]);
+  ), [lang, isMenuShown, isPrint]);
 
   return (
     <LangContext.Provider value={value}>
-      <Header />
-      <SideNav />
+      {!isPrint && <Header />}
+      {!isPrint && <SideNav />}
       {isMenuShown && <Menu />}
         <Routes>
           <Route path="/arts" element={<Arts />} />
           <Route path="/customs" element={<Customs />} />
           <Route path="/cuisine/:id" element={<RecipePage />} />
+          <Route path="/cuisine/:id/print" element={<RecipePagePrint />} />
           <Route path="/cuisine" element={<Cuisine />} />
           <Route path="/language" element={<Language />} />
           <Route path="/history" element={<History />} />
           <Route path="/" element={<Home />} />
        </Routes>
-       <Footer />
+       {!isPrint && <Footer />}
     </LangContext.Provider>
   );
 }

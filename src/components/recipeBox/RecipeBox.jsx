@@ -12,8 +12,6 @@ import {
     RecipeSubtitle,
     RecipeNameBox,
     StyledIconButton,
-    StyledPinIcon,
-    CircleBorder
 } from "./recipeBoxStyles";
 
 export default function RecipeBox() {
