@@ -34,7 +34,8 @@ import {
     StepIndex,
     Header,
     Logo,
-    LogoWrapper
+    LogoWrapper,
+    StyledLink
 } from './recipePagePrintStyles'
 import { useEffect } from "react";
 import SideNav from "../../components/sideNav/SideNav";
@@ -42,7 +43,7 @@ import SideNav from "../../components/sideNav/SideNav";
 export default function RecipePagePrint() {
     const { id } = useParams(),
         recipe = recipes.filter((recipe) => recipe.id === id)[0],
-        { lang, isPrint, setIsPrint } = useSetLang(),
+        { lang, setIsPrint } = useSetLang(),
         [servings, setServings] = useState(recipe?.startServing),
         [showTop, setShowTop] = useState(true);
 
@@ -55,6 +56,7 @@ export default function RecipePagePrint() {
             window.print();
         }
         setShowTop(true);
+
     }, [showTop]);
 
     function reduceServings() {
@@ -82,7 +84,9 @@ export default function RecipePagePrint() {
         <MainContainer>
             <Header>
                 <LogoWrapper>
-                    <Logo src={'/tajiks.svg'}></Logo>
+                    <StyledLink to={'/'}>
+                        <Logo src={'/tajiks.svg'}></Logo>
+                    </StyledLink>
                 </LogoWrapper>
                 <Title>
                     <div>TAJIK</div>

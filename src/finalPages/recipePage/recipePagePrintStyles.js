@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Add, Remove } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 export const MainContainer = styled.div`
     margin-left: 1rem;
@@ -174,4 +175,9 @@ export const DirectionBox = styled.div`
 export const StepIndex = styled.div`
     margin-right: 0.5rem;
     line-height: 2rem;
+`;
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    color: inherit;
 `;

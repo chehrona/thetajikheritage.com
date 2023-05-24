@@ -1,4 +1,5 @@
 import { useSetLang } from '../../App';
+import PoetBox from '../../components/poetBox/PoetBox';
 import { PageContainer } from './languagePageStyles';
 
 function Language() {
@@ -7,7 +8,7 @@ function Language() {
   if (!isMenuShown) {
     return (
       <PageContainer>
-          Language
+          <PoetBox />
       </PageContainer>
     );
   } else {
