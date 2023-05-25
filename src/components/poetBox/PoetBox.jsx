@@ -20,7 +20,7 @@ export default function PoetBox() {
                                     <PoetNameBox>
                                         <PoetName>{poet?.name[lang][0]}</PoetName>
                                         <PoetName>{poet?.name[lang][1]}</PoetName>
-                                        <PoetDates>{poet?.years}</PoetDates>
+                                        <PoetDates>{poet?.years[lang]}</PoetDates>
                                     </PoetNameBox>
                                 </PoetImgContainer>
                                 <PoetInfoContainer>{poet?.desc[lang]}</PoetInfoContainer>
