@@ -52,6 +52,7 @@ export const PoetName = styled.div`
     font-size: 2.5rem;
     font-family: "EB Garamond", serif;
     font-style: italic;
+    text-shadow: 0rem 0rem 0.25rem black;
 `;
 
 export const PoetNameBox = styled.div`

@@ -25,4 +25,17 @@ module.exports.poets = [
         img: '/poetImages/Qanoat.png',
         link: '/poets/qanoat'
     },
+    {
+        id: 'safieva',
+        name: {us: ['Gulrukhsor', 'Safieva'], ru: ['Гулрухсор', 'Сафиева'], tj: ['Гулрухсор', 'Сафиева'], kh: ['گلرخسار', 'صفی‌اوا']},
+        years: '1947',
+        desc: {
+            us: 'Muminsho Qanoatov was a Tajik epic poet, writer, and politician.',
+            ru: 'Муминшо Каноатов был таджикским поэтом-эпиком, писателем и политиком.',
+            tj: 'Мӯъмин Қаноатов шоири достонӣ, нависанда ва сиёсатмадори тоҷик.',
+            kh: 'مومینشا قناعتاو شاعر، نویسنده و سیاستمدار تاجیک'
+        },
+        img: '/poetImages/Safieva.png',
+        link: '/poets/safieva'
+    },
 ];
