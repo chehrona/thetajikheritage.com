@@ -12,6 +12,7 @@ import Menu from './components/menu/Menu';
 import RecipePage from './finalPages/recipePage/RecipePage';
 import Footer from './components/footer/Footer';
 import RecipePagePrint from './finalPages/recipePage/RecipePagePrint';
+import PoetPage from './finalPages/poetPage/PoetPage';
 
 const LangContext = createContext({
     lang: 'us',
@@ -51,6 +52,7 @@ function App() {
           <Route path="/cuisine/:id/print" element={<RecipePagePrint />} />
           <Route path="/cuisine" element={<Cuisine />} />
           <Route path="/language" element={<Language />} />
+          <Route path="/language/poets/:id" element={<PoetPage />} />
           <Route path="/history" element={<History />} />
           <Route path="/" element={<Home />} />
        </Routes>

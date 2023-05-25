@@ -1,15 +1,34 @@
 import React from "react";
-import { PoetCard, PoetImage, PoetImgContainer, PoetName } from "./poetBoxStyles";
+import { useSetLang } from "../../App";
+import { poets } from "../../data/poetData";
+
+import { PoetBoxContainer, PoetCard, PoetImage, PoetDates, PoetImgContainer, PoetNameBox, PoetName, PoetInfoContainer, StyledLink } from "./poetBoxStyles";
+
 
 export default function PoetBox() {
-    return (
-        <PoetCard>
-            <PoetImgContainer>
-                <PoetImage src={'/poetImages/Ayni.png'} />
-                <PoetName>
-                    Sadriddin Ayni
-                </PoetName>
-            </PoetImgContainer>
-        </PoetCard>
-    );
+    const { lang, isMenuShown } = useSetLang();
+
+    if (!isMenuShown) {
+        return (
+            <PoetBoxContainer>
+                {poets?.map((poet, i) => {
+                    return (
+                        <StyledLink to={"/language" + poet?.link}>
+                            <PoetCard key={i}>
+                                <PoetImgContainer>
+                                    <PoetImage src={poet?.img} />
+                                    <PoetNameBox>
+                                        <PoetName>{poet?.name[lang][0]}</PoetName>
+                                        <PoetName>{poet?.name[lang][1]}</PoetName>
+                                        <PoetDates>{poet?.years}</PoetDates>
+                                    </PoetNameBox>
+                                </PoetImgContainer>
+                                <PoetInfoContainer>{poet?.desc[lang]}</PoetInfoContainer>
+                            </PoetCard>
+                        </StyledLink>
+                    )
+                })}
+            </PoetBoxContainer>
+        );
+    }
 }
