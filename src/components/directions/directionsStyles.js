@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-    padding: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 1rem 2rem 2rem 2rem;
     border-radius: 1rem;
     background: #eaeaea;
 `;
@@ -14,10 +12,6 @@ export const SubTitle =  styled.div`
     font-style: italic;
     font-weight: 500;
     margin-bottom: 2rem;
-`;
-
-export const DirectionBox = styled.div`
-    
 `;
 
 export const Direction = styled.div`
