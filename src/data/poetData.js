@@ -4,10 +4,10 @@ module.exports.poets = [
         name: {us: ['Sadriddin', 'Ayni'], ru: ['Садриддин', 'Айни'], tj: ['Садриддин', 'Айнӣ'], kh: ['صدرالدین', 'عینی']},
         years: {us: '1878 - 1954', ru: '1878 - 1954', tj: '1878 - 1954', kh: '۱۸۷۸ - ۱۹۵۴'},
         desc: {
-            us: 'Sadriddin Saidmurodzoda - a Tajik writer, reformer, scholar, and national hero. ',
-            ru: 'Садриддин Саидмуродзода был таджикским писателем, реформатором и ученым.',
-            tj: 'Садриддин Саидмуродзода нависанда, ислоҳотгар ва донишманди тоҷик.',
-            kh: '.صدرالدین سعیدمرودزاده نویسنده، مصلح و محقق تاجیک'
+            us: 'Sadriddin Saidmurodzoda - a Tajik writer, reformer, scholar, national hero, and father of contemporary Tajik literature.',
+            ru: 'Садриддин Саидмуродзода – таджикский писатель, реформатор, ученый, национальный герой, и основоположник современной таджикской литературы.',
+            tj: 'Садриддин Саидмуродзода нависандаи тоҷик, ислоҳталаб, донишманд, қаҳрамони миллӣ ва асосгузори адабиёти муосири тоҷик.',
+            kh: '.صدرالدین سعیدمرودزاده - نویسنده تاجیک، اصلاح طلب، دانشمند، قهرمان ملی و اساس گذار ادبیات معاصر تاجیک'
         },
         img: '/poetImages/Ayni.png',
         link: '/poets/ayni'
@@ -17,12 +17,12 @@ module.exports.poets = [
         name: {us: ['Loiq', 'Sherali'], ru: ['Лоик', 'Шерали'], tj: ['Лоиқ', 'Шералӣ'], kh: ['گلرخسار', 'صفی‌اوا']},
         years: {us: '1941 - 2000', ru: '1941 - 2000', tj: '1941 - 2000', kh: '۱۹۴۱ - ۲۰۰۰'},
         desc: {
-            us: 'Loiq Sherali - a poet, Iranologist and father of contemporary Tajik literature.',
+            us: 'Loiq Sherali - a lyric poet, translator, and Iranologist.',
             ru: 'Гулрухсор Сафиева – таджикская поэтесса и иранист.',
             tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
             kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
         },
-        img: '/poetImages/Safieva.png',
+        img: '/poetImages/Sherali.png',
         link: '/poets/safieva'
     },
     {
@@ -37,6 +37,19 @@ module.exports.poets = [
         },
         img: '/poetImages/Qanoat.png',
         link: '/poets/qanoat'
+    },
+    {
+        id: 'tursunzoda',
+        name: {us: ['Mirzo', 'Tursunzoda'], ru: ['Гулрухсор', 'Сафиева'], tj: ['Гулрухсор', 'Сафиева'], kh: ['گلرخسار', 'صفی‌اوا']},
+        years: {us: '1911 - 1977', ru: '1911 - 1977', tj: '1911 - 1977', kh: '۱۹۱۱ - ۱۹۷۷'},
+        desc: {
+            us: 'Mirzo Tursunzoda was a Tajik poet and Iranologist.',
+            ru: 'Гулрухсор Сафиева – таджикская поэтесса и иранист.',
+            tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
+            kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
+        },
+        img: '/poetImages/Tursunzoda.png',
+        link: '/poets/tursunzoda'
     },
     {
         id: 'safieva',
