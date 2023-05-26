@@ -70,7 +70,7 @@ export const PoetDates = styled.div`
 export const PoetInfoContainer = styled.div`
     position: absolute;
     left: 2rem;
-    bottom: 5rem;
+    bottom: 3rem;
     width: 20rem;
 `;
 
