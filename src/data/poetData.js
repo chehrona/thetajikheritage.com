@@ -23,7 +23,7 @@ module.exports.poets = [
             kh: '.لویق شرالی - شاعر غزل، ترجمان و ایران شناس تاجیک'
         },
         img: '/poetImages/Sherali.png',
-        link: '/poets/safieva'
+        link: '/poets/sherali'
     },
     {
         id: 'qanoat',
@@ -40,7 +40,7 @@ module.exports.poets = [
     },
     {
         id: 'tursunzoda',
-        name: {us: ['Mirzo', 'Tursunzoda'], ru: ['Гулрухсор', 'Сафиева'], tj: ['Гулрухсор', 'Сафиева'], kh: ['گلرخسار', 'صفی‌اوا']},
+        name: {us: ['Mirzo', 'Tursunzoda'], ru: ['Мирзо', 'Турсунзода'], tj: ['Мирзо', 'Турсунзода'], kh: ['میرزا', 'تورسون زاده']},
         years: {us: '1911 - 1977', ru: '1911 - 1977', tj: '1911 - 1977', kh: '۱۹۱۱ - ۱۹۷۷'},
         desc: {
             us: 'Mirzo Tursunzoda was a Tajik poet and Iranologist.',
