@@ -1,4 +1,4 @@
-import { useContext, createContext, useMemo, useState } from 'react';
+import { useContext, createContext, useMemo, useState, useEffect } from 'react';
 import Header from './components/header/Header';
 import SideNav from './components/sideNav/SideNav';
 import Menu from './components/menu/Menu';
@@ -30,6 +30,29 @@ function App() {
       isPrint, setIsPrint
     }
   ), [lang, isMenuShown, isPrint]);
+
+  function disableScroll() {
+    let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    
+    document.body.style.position = 'fixed';
+    document.body.style.top = -scrollPosition + 'px';
+  }
+  
+  function enableScroll() {
+    document.body.style.position = '';
+    document.body.style.top = '';
+    
+    let scrollPosition = parseInt(document.body.style.top, 10);
+    window.scrollTo(0, -scrollPosition);
+  }
+
+  useEffect(() => {
+    if (isMenuShown) {
+      disableScroll();
+    } else {
+      enableScroll();
+    }
+  }, [isMenuShown]);
 
   return (
     <LangContext.Provider value={value}>
