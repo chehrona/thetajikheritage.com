@@ -1,6 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
 import {useParams} from "react-router-dom";
-import { useSetLang } from "../../App";
 // import "./finalPagesStyles.css";
 import { poets } from "../../data/poetData";
 
@@ -11,10 +10,9 @@ import {
 
 export default function PoetPage() {
     const { id } = useParams(),
-          { isMenuShown } = useSetLang(),
-          poet = poets.filter((poet) => poet.id === id)[0];
+        poet = poets.filter((poet) => poet.id === id)[0];
 
-    if (poet && !isMenuShown) {
+    if (poet) {
         return (
             <PageContainer>
                 <MainImage src={poet?.img} />

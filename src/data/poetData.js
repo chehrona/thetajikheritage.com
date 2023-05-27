@@ -52,6 +52,19 @@ module.exports.poets = [
         link: '/poets/tursunzoda'
     },
     {
+        id: 'sobir',
+        name: {us: ['Bozor', 'Sobir'], ru: ['Бозор', 'Собир'], tj: ['Бозор', 'Собир'], kh: ['بازار', 'صابر']},
+        years: {us: '1938 - 2018', ru: '1938 - 2018', tj: '1938 - 2018', kh: '۱۹۳۸ - ۲۰۱۸'},
+        desc: {
+            us: 'Gulrukhsor Safieva is a Tajik poetess and Iranologist.',
+            ru: 'Гулрухсор Сафиева – таджикская поэтесса и иранист.',
+            tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
+            kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
+        },
+        img: '/poetImages/Sobir.png',
+        link: '/poets/sobir'
+    },
+    {
         id: 'safieva',
         name: {us: ['Gulrukhsor', 'Safieva'], ru: ['Гулрухсор', 'Сафиева'], tj: ['Гулрухсор', 'Сафиева'], kh: ['گلرخسار', 'صفی‌اوا']},
         years: {us: '1947', ru: '1947', tj: '1947', kh: '۱۹۴۷'},

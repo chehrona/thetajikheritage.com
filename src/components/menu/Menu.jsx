@@ -1,6 +1,6 @@
 import React from "react";
 import { useSetLang } from "../../App";
-import { pageInfo } from "../../data/pageNames"
+import { pageInfo } from "../../data/pageNames";
 
 import { MenuContainer,
         LogoContainer,
@@ -8,17 +8,15 @@ import { MenuContainer,
         PageName,
         LogoHalf,
         PageNamesContainer,
-        Background,
         PageDesc,
         StyledLink 
 } from "./menuStyles";
 
 export default function Menu() {
-    const { lang, setIsMenuShown } = useSetLang();
+    const { lang, setIsMenuShown, isMenuShown } = useSetLang();
 
-    return (
-        <MenuContainer>
-            <Background />
+    return (    
+        <MenuContainer open={isMenuShown}>
             <LogoContainer>
                 {/* <LogoHalf src="zarduzi.png"></LogoHalf> */}
                 <Logo src={'/tajiks.svg'}></Logo>
@@ -36,7 +34,6 @@ export default function Menu() {
                 })}
             </PageNamesContainer>
         </MenuContainer>
-
     )
 
 }

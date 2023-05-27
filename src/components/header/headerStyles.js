@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import { Close, Menu } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import { Link } from "react-router-dom";
@@ -11,6 +11,8 @@ export const HeaderContainer = styled.div`
     align-items: center;
     box-sizing: border-box;
     color: #D5D5D5;
+    position: relative;
+    z-index: 1000;
 `
 
 export const LogoWrapper = styled.div`

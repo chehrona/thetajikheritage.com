@@ -15,3 +15,7 @@ body {
 body * {
   box-sizing: border-box;
 }
+
+.transition {
+  background-color: red;
+}

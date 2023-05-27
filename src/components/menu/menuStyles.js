@@ -1,27 +1,51 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components/macro";
 import { Link } from "react-router-dom";
+
+const openAnimation = keyframes`
+    to {
+        transform: translateY(0%)
+    }
+`;
+
+const closeAnimation = keyframes`
+    from {
+        transform: translateY(0%)
+    }    
+    to {
+        transform: translateY(-100%)
+    }
+`;
+ 
+const fadeInAnimation = keyframes`
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+`
 
 export const MenuContainer = styled.div`
     width: 100%;
-    min-height: 100%;
     overflow: hidden;
     color: #D5D5D5;
     display: flex;
-    z-index: 1;
-`;
-
-export const Background = styled.div`
-    min-width: 100%;
-    min-height: calc(100vh - 7.95em);
     background: rgb(51 51 51);
+    height: calc(100vh - 8rem);
+    padding: 3rem;
+    transform: translateY(-100%);
+    justify-content: center;
+    animation-name: ${({open}) => (open && open !== null) && openAnimation};
+    animation-name: ${({open}) => (!open && open !== null)  && closeAnimation};
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    position: absolute;
+    z-index: 100;
 `;
 
 export const LogoContainer = styled.div`
-    padding-top: 2em;
     opacity: 0.5;
-    position: absolute;
-    left: 7em;
-    top: 9rem;
+    margin-right: 12%;
 `
 
 export const Logo = styled.img`
@@ -36,18 +60,17 @@ export const LogoHalf = styled.img`
     width: 44.5em;
     position: absolute;
     top: 11em;
-    z-index: 1;
     left: 5.25em;
 `;
 
 export const PageNamesContainer = styled.div`
     width: 35%;
-    position: absolute;
-    right: 3em;
-    top: 11rem;
     padding: 1em;
     padding-top: 0em;
     font-size: 2em;
+    animation: ${fadeInAnimation};
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
 `;
 
 export const MenuItem = styled.div`

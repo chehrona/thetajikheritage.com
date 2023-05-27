@@ -1,6 +1,5 @@
 import React from "react";
 import { useSetLang } from "../../App";
-import Allergy from "../allergy/Allergy";
 
 import { MainContainer,
          SubTitle,

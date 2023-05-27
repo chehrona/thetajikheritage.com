@@ -6,29 +6,26 @@ import { PoetBoxContainer, PoetCard, PoetImage, PoetDates, PoetImgContainer, Poe
 
 
 export default function PoetBox() {
-    const { lang, isMenuShown } = useSetLang();
-
-    if (!isMenuShown) {
-        return (
-            <PoetBoxContainer>
-                {poets?.map((poet, i) => {
-                    return (
-                        <StyledLink to={"/language" + poet?.link}>
-                            <PoetCard key={i}>
-                                <PoetImgContainer>
-                                    <PoetImage src={poet?.img} />
-                                    <PoetNameBox>
-                                        <PoetName>{poet?.name[lang][0]}</PoetName>
-                                        <PoetName>{poet?.name[lang][1]}</PoetName>
-                                        <PoetDates>{poet?.years[lang]}</PoetDates>
-                                    </PoetNameBox>
-                                </PoetImgContainer>
-                                <PoetInfoContainer>{poet?.desc[lang]}</PoetInfoContainer>
-                            </PoetCard>
-                        </StyledLink>
-                    )
-                })}
-            </PoetBoxContainer>
-        );
-    }
+    const { lang } = useSetLang();
+    return (
+        <PoetBoxContainer>
+            {poets?.map((poet, i) => {
+                return (
+                    <StyledLink to={"/language" + poet?.link}>
+                        <PoetCard key={i}>
+                            <PoetImgContainer>
+                                <PoetImage src={poet?.img} />
+                                <PoetNameBox>
+                                    <PoetName>{poet?.name[lang][0]}</PoetName>
+                                    <PoetName>{poet?.name[lang][1]}</PoetName>
+                                    <PoetDates>{poet?.years[lang]}</PoetDates>
+                                </PoetNameBox>
+                            </PoetImgContainer>
+                            <PoetInfoContainer>{poet?.desc[lang]}</PoetInfoContainer>
+                        </PoetCard>
+                    </StyledLink>
+                )
+            })}
+        </PoetBoxContainer>
+    );
 }

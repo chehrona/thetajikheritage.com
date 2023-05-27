@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import {useParams} from "react-router-dom";
-import { useSetLang } from "../../App";
 import "./finalPagesStyles.css";
 import { recipes } from "../../data/recipeData";
 import { 
@@ -23,12 +22,11 @@ import Servings from "../../components/servings/Servings";
 
 export default function RecipePage() {
     const { id } = useParams(),
-          { isMenuShown } = useSetLang(),
-          [pinHovered, setPinHovered] = useState(false),
-          recipe = recipes.filter((recipe) => recipe.id === id)[0],
-          [servings, setServings] = useState(recipe?.startServing);
+        [pinHovered, setPinHovered] = useState(false),
+        recipe = recipes.filter((recipe) => recipe.id === id)[0],
+        [servings, setServings] = useState(recipe?.startServing);
 
-    if (recipe && !isMenuShown) {
+    if (recipe) {
         return (
             <PageContainer>
                 <ImageContainer onMouseEnter={() => setPinHovered(true)} onMouseLeave={() => setPinHovered(false)}>

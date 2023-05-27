@@ -1,6 +1,5 @@
 import { IconButton } from "@mui/material";
 import styled from "styled-components";
-import mailIcon from "./icons/mail.png";
 
 export const SideNavContainer = styled.div`
     height: 14rem;
@@ -8,7 +7,7 @@ export const SideNavContainer = styled.div`
     position: fixed;
     left: 1rem;
     bottom: 0;
-    z-index: 2;
+    z-index: 1000;
 `;
 
 export const StyledIcon = styled.img`
