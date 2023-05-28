@@ -13,7 +13,7 @@ import {
     PoetNameContainer,
     PoetName,
     YearsContainer,
-    Year
+    Year,
 } from "./poetPageStyles";
 
 export default function PoetPage() {

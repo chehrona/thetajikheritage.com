@@ -4,6 +4,10 @@ import noise from "./noise.png";
 export const PageContainer = styled.div`
     box-sizing: border-box;
     min-height: 37rem;
+    box-shadow: 0 0 2rem grey;
+    margin: 2rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
 `;
 
 export const MainContainer = styled.div`
@@ -11,6 +15,17 @@ export const MainContainer = styled.div`
     background-image: url(${noise});
     display: flex;
     justify-content: space-between;
+
+    &:after {
+        content: "";
+        padding: 3rem;  
+        width: 84%;
+        background: white;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);
+        position: absolute;
+        top: 55.7rem;
+    }
 `;
 
 export const FadedImage = styled.img`
@@ -45,7 +60,7 @@ export const PoetName = styled.div`
 
 export const PoetNameContainer = styled.div`
     position: absolute;
-    left: 6rem;
+    left: 8rem;
     bottom: -5rem;
     display: flex;
 `;
@@ -55,7 +70,7 @@ export const YearsContainer = styled.div`
     font-size: 12rem;
     position: absolute;
     top: 12rem;
-    left: 15rem;
+    left: 15.5rem;
     opacity: 0.2;
     font-weight: bold;
 `;
