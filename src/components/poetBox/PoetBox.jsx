@@ -14,7 +14,7 @@ export default function PoetBox() {
                     <StyledLink to={"/language" + poet?.link}>
                         <PoetCard key={i}>
                             <PoetImgContainer>
-                                <PoetImage src={poet?.img} />
+                                <PoetImage src={poet?.img[0]} />
                                 <PoetNameBox>
                                     <PoetName>{poet?.name[lang][0]}</PoetName>
                                     <PoetName>{poet?.name[lang][1]}</PoetName>

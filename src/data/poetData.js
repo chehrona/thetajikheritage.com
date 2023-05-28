@@ -4,13 +4,19 @@ module.exports.poets = [
         name: {us: ['Sadriddin', 'Ayni'], ru: ['Садриддин', 'Айни'], tj: ['Садриддин', 'Айнӣ'], kh: ['صدرالدین', 'عینی']},
         years: {us: '1878 - 1954', ru: '1878 - 1954', tj: '1878 - 1954', kh: '۱۸۷۸ - ۱۹۵۴'},
         desc: {
-            us: 'Sadriddin Saidmurodzoda - a Tajik writer, reformer, scholar, national hero, and father of contemporary Tajik literature.',
+            us: 'Sadriddin Saidmurodzoda - a Tajik writer, reformer, scholar, national hero, and founder of contemporary Tajik literature.',
             ru: 'Садриддин Саидмуродзода – таджикский писатель, реформатор, ученый, национальный герой, и основоположник современной таджикской литературы.',
-            tj: 'Садриддин Саидмуродзода нависандаи тоҷик, ислоҳталаб, донишманд, қаҳрамони миллӣ ва асосгузори адабиёти муосири тоҷик.',
+            tj: 'Садриддин Саидмуродзода нависандаи тоҷик, ислоҳталаб, олим, қаҳрамони миллӣ ва асосгузори адабиёти муосири тоҷик.',
             kh: '.صدرالدین سعیدمرودزاده - نویسنده تاجیک، اصلاح طلب، دانشمند، قهرمان ملی و اساس گذار ادبیات معاصر تاجیک'
         },
-        img: '/poetImages/Ayni.png',
-        link: '/poets/ayni'
+        img: ['/poetImages/Ayni.png', '/poetImages/AyniFaded.png', ],
+        link: '/poets/ayni',
+        sections: {
+            us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
+            ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
+            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
+            kh: ["زندگینامه", "ایجدیت", "", "", ""]
+        }
     },
     {
         id: 'sherali',

@@ -29,7 +29,7 @@ export const PoetImgContainer = styled.div`
     height: 20rem;
     width: 15rem;
     border-radius: 9rem;
-    border: 0.15rem solid #335e78;
+    border: 0.15rem solid rgb(51, 94, 120);
     display: flex;
     justify-content: center;
     align-items: center;
