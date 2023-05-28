@@ -66,10 +66,10 @@ export const YearsContainer = styled.div`
     font-size: 12rem;
     position: absolute;
     top: 12rem;
-    left: 15.5rem;
+    left: 14rem;
     opacity: 0.2;
     font-weight: bold;
 `;
 export const Year = styled.div`
-    margin-left: 8rem;
+    margin-left: 9rem;
 `;

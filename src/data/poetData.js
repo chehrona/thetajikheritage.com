@@ -1,7 +1,7 @@
 module.exports.poets = [
     {
         id: 'ayni',
-        name: {us: ['Sadriddin', 'Ayni'], ru: ['Садриддин', 'Айни'], tj: ['Садриддин', 'Айнӣ'], kh: ['صدرالدین', 'عینی']},
+        name: {us: ['Sadriddin', 'Ayni'], ru: ['Садриддин', 'Айни'], tj: ['Садриддин', 'Айнӣ'], kh: ['عینی', 'صدرالدین']},
         years: {us: '1878 - 1954', ru: '1878 - 1954', tj: '1878 - 1954', kh: '۱۸۷۸ - ۱۹۵۴'},
         desc: {
             us: 'Sadriddin Saidmurodzoda - a Tajik writer, reformer, scholar, national hero, and founder of contemporary Tajik literature.',
@@ -9,7 +9,7 @@ module.exports.poets = [
             tj: 'Садриддин Саидмуродзода нависандаи тоҷик, ислоҳталаб, олим, қаҳрамони миллӣ ва асосгузори адабиёти муосири тоҷик.',
             kh: '.صدرالدین سعیدمرودزاده - نویسنده تاجیک، اصلاح طلب، دانشمند، قهرمان ملی و اساس گذار ادبیات معاصر تاجیک'
         },
-        img: ['/poetImages/Ayni.png', '/poetImages/AyniFaded.png', ],
+        img: ['/poetImages/ayni/Ayni.png', '/poetImages/ayni/AyniFaded.png', ],
         link: '/poets/ayni',
         sections: {
             us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
