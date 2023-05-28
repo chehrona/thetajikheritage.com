@@ -28,8 +28,14 @@ module.exports.poets = [
             tj: 'Лоиқ Шералӣ - шоири ғазалсаро, тарҷумон ва эроншиноси тоҷик.',
             kh: '.لویق شرالی - شاعر غزل، ترجمان و ایران شناس تاجیک'
         },
-        img: '/poetImages/Sherali.png',
-        link: '/poets/sherali'
+        img: ['/poetImages/Sherali.png', '/poetImages/SheraliFaded.png', ],
+        link: '/poets/sherali',
+        sections: {
+            us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
+            ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
+            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
+            kh: ["زندگینامه", "ایجدیت", "", "", ""]
+        }
     },
     {
         id: 'qanoat',
@@ -41,8 +47,14 @@ module.exports.poets = [
             tj: 'Мӯъминшо Қаноатов шоири достонсаро, нависанда ва сиёсатмадори тоҷик.',
             kh: '.مومینشا قناعتاو شاعر داستان، نویسنده و سیاستمدار تاجیک'
         },
-        img: '/poetImages/Qanoat.png',
-        link: '/poets/qanoat'
+        img: ['/poetImages/Qanoat.png', '/poetImages/QanoatFaded.png',],
+        link: '/poets/qanoat',
+        sections: {
+            us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
+            ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
+            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
+            kh: ["زندگینامه", "ایجدیت", "", "", ""]
+        }
     },
     {
         id: 'tursunzoda',
