@@ -5,7 +5,6 @@ import { useSetLang } from "../../App";
 import { poets } from "../../data/poetData";
 
 import { 
-    SecondSection,
     PageContainer,
     MainContainer,
     SectionTitle,
@@ -39,9 +38,7 @@ export default function PoetPage() {
                             <div>{(poet?.years[lang]).substring(7)}</div>
                         </YearsContainer>
                     </div>
-                    <SecondSection>
-                        <FadedImage src={poet?.img[1]}/>
-                    </SecondSection>
+                    <FadedImage src={poet?.img[1]}/>
                     <PoetNameContainer>
                         <PoetName color={true}>{poet?.name[lang][0]}</PoetName>
                         <PoetName>{poet?.name[lang][1]}</PoetName>

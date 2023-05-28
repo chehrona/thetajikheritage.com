@@ -13,9 +13,6 @@ export const MainContainer = styled.div`
     justify-content: space-between;
 `;
 
-export const SecondSection = styled.div`
-`;
-
 export const FadedImage = styled.img`
     width: 50rem;
     height: auto;
