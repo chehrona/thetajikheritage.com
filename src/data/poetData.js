@@ -16,6 +16,12 @@ module.exports.poets = [
             ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
             tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
             kh: ["زندگینامه", "ایجدیت", "", "", ""]
+        },
+        bio: {
+            us: "Sadriddin Ayni was a Tajik intellectual who wrote poetry, fiction, journalism, history, and a dictionary. He is regarded as Tajikistan's national poet and one of the most important writers in the country's history.",
+            ru: "He was born in a small village outside of Bukhara named Soktare",
+            tj: "He was born in a small village outside of Bukhara named Soktare",
+            kh: "He was born in a small village outside of Bukhara named Soktare",
         }
     },
     {
@@ -35,7 +41,7 @@ module.exports.poets = [
             ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
             tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
             kh: ["زندگینامه", "ایجدیت", "", "", ""]
-        }
+        },
     },
     {
         id: 'qanoat',
