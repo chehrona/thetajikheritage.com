@@ -31,7 +31,7 @@ export const SegmentContainer = styled.div`
     margin-left: 5rem;
     font-size: 1.5rem;
     width: 100%;
-    z-index: 1000;
+    z-index: 10;
     position: relative;
 `;
 
