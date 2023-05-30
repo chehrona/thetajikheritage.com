@@ -3,12 +3,12 @@ import {useParams} from "react-router-dom";
 import { useSetLang } from "../../App";
 import { poets } from "../../data/poetData";
 
-import PoetSectionOne from "../../components/poetSectionOne/PoetSectionOne"; 
-
 import { 
     PageContainer,
 } from "./poetPageStyles";
 import PoetBio from "../../components/poetBio/PoetBio";
+import PoetIntro from "../../components/poetIntro/PoetIntro";
+import PoetWorks from "../../components/poetWorks/PoetWorks";
 
 export default function PoetPage() {
     const { id } = useParams(),
@@ -17,8 +17,9 @@ export default function PoetPage() {
     if (poet) {
         return (
             <PageContainer>
-                <PoetSectionOne poet={poet} />
+                <PoetIntro poet={poet} />
                 <PoetBio poet={poet} />
+                <PoetWorks poet={poet} />
             </PageContainer>
         )
     }

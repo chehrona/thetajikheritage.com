@@ -10,9 +10,9 @@ import {
     PoetName,
     YearsContainer,
     Year,
-} from "./poetSectionOneStyles";
+} from "./poeIntroStyles";
 
-export default function PoetPage({ poet }) {
+export default function PoetIntro({ poet }) {
     const { lang } = useSetLang();
 
     return (

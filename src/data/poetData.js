@@ -22,6 +22,12 @@ module.exports.poets = [
             ru: "He was born in a small village outside of Bukhara named Soktare",
             tj: "He was born in a small village outside of Bukhara named Soktare",
             kh: "He was born in a small village outside of Bukhara named Soktare",
+        },
+        works: {
+            us: ["A Picture of Tajik Literature", "A History of the Bukhara Revolution", "The Bukhara Executioners", "Odina", "Dokhunda", "Slaves", "The Usurer’s Death", "Orphan", "Memoirs", "The Complete Works of Ayni", "Old School"],
+            ru: ["Образцы таджикской литературы", "История Бухарской революции", "Бухарские палачи", "Одина", "Дохунда", "Рабы", "Смерть ростовщика", "Сирота", "Воспоминания", "Собрание сочинений", "Старая школа"],
+            tj: ["Намунаи адабиёти тоҷик", "Таърихи инқилоби Бухоро", "Ҷаллодони Бухоро", "Одина", "Дохунда", "Ғуломон", "Марги судхур", "Ятим", "Ёддоштҳо", "Куллиёти Айнӣ", "Мактаби кӯҳна"],
+            kh: ["", "جلادان بخارا"]
         }
     },
     {

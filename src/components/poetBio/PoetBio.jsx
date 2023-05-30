@@ -11,6 +11,14 @@ export default function PoetBio({ poet }) {
     return (
         <MainContainer>
             {poet?.bio[lang]}
+            <div>eferfef</div>
+            <div>eferfef</div>
+            <div>eferfef</div>
+            <div>eferfef</div>
+            <div>eferfef</div>
+            <div>eferfef</div>
+            <div>eferfef</div>
+            <div>eferfef</div>
         </MainContainer>
     )
 }

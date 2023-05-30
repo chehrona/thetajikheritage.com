@@ -6,16 +6,18 @@ export const MainContainer = styled.div`
     background-image: url(${noise});
     display: flex;
     justify-content: space-between;
+    position: relative;
 
     &:after {
         content: "";
         padding: 3rem;  
-        width: 83.8%;
+        width: 100%;
         background: white;
-        -webkit-clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);
         position: absolute;
-        top: 52.2rem;
+        bottom: 0rem;
+        box-sizing: border-box;
     }
 `;
 
@@ -56,16 +58,16 @@ export const PoetName = styled.div`
 
 export const PoetNameContainer = styled.div`
     position: absolute;
-    left: 8rem;
-    bottom: -3rem;
+    left: 5rem;
+    bottom: 6rem;
     display: flex;
 `;
 
 export const YearsContainer = styled.div`
     color: white;
-    font-size: 12rem;
+    font-size: 10rem;
     position: absolute;
-    top: 12rem;
+    top: 4rem;
     left: 14rem;
     opacity: 0.2;
     font-weight: bold;
