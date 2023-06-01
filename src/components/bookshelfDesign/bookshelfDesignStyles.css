@@ -58,6 +58,7 @@
     height: var(--height);
     padding-bottom: 0.8rem;
     box-sizing: border-box;
+    margin-top: 3rem;
 }
   
 .book {
