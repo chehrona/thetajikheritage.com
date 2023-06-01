@@ -50,14 +50,14 @@ module.exports.poets = [
                 ],
             tj: [
                     [
-                        {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.jpeg"}, {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.jpeg"}, 
-                        {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/tjOdina.jpeg"},
+                        {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.png"}, {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.png"}, 
+                        {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/tjOdina.png"},
                         {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.png"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.png"}, 
                     ],
                     [
-                        {title: "Марги судхур", cover: "/bookCovers/ayni/tjUsurer.jpeg"}, {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
-                        {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.jpeg"}, {title: "Куллиёти Айнӣ", cover: "/bookCovers/ayni/tjComplete.png"}, 
-                        {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.jpeg"}
+                        {title: "Марги судхур", cover: "/bookCovers/ayni/tjUsurer.png"}, {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
+                        {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёти Айнӣ", cover: "/bookCovers/ayni/tjComplete.png"}, 
+                        {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png"}
                     ]
                 ],
             kh: [
