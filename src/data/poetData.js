@@ -26,25 +26,25 @@ module.exports.poets = [
         works: {
             us: [
                     [
-                        {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.jpeg"}, {title: "A History of the Bukhara Revolution", cover: ""}, 
+                        {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "A History of the Bukhara Revolution", cover: ""}, 
                         {title: "The Bukhara Executioners", cover: ""}, {title: "Odina", cover: ""}, 
-                        {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.jpeg"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
+                        {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
                     ],
                     [
-                        {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.jpeg"}, {title: "Orphan", cover: ""},
-                        {title: "Memoirs", cover: "/bookCovers/ayni/usMemoirs.jpeg"}, {title: "The Complete Works of Ayni", cover: ""},
+                        {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: ""},
+                        {title: "Memoirs", cover: "/bookCovers/ayni/usMemoirs.png"}, {title: "The Complete Works of Ayni", cover: ""},
                         {title: "Old School", cover: "/bookCovers/ayni/usOld.png"}
                     ]
             ],
             ru: [
                     [
                         {title: "Образцы таджикской литературы", cover: ""}, {title: "История Бухарской революции", cover: ""}, 
-                        {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.jpeg"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.jpeg"},
-                        {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.jpeg"}, {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.jpeg"}, 
+                        {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
+                        {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"}, {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png"}, 
                     ],
                     [
-                        {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.jpeg"}, {title: "Сирота", cover: ""},
-                        {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.jpeg"}, {title: "Собрание сочинений", cover: ""}, 
+                        {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png"}, {title: "Сирота", cover: ""},
+                        {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: ""}, 
                         {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"}
                     ]
                 ],
