@@ -24,10 +24,54 @@ module.exports.poets = [
             kh: "He was born in a small village outside of Bukhara named Soktare",
         },
         works: {
-            us: ["A Picture of Tajik Literature", "A History of the Bukhara Revolution", "The Bukhara Executioners", "Odina", "Dokhunda", "Slaves", "The Usurer’s Death", "Orphan", "Memoirs", "The Complete Works of Ayni", "Old School"],
-            ru: ["Образцы таджикской литературы", "История Бухарской революции", "Бухарские палачи", "Одина", "Дохунда", "Рабы", "Смерть ростовщика", "Сирота", "Воспоминания", "Собрание сочинений", "Старая школа"],
-            tj: ["Намунаи адабиёти тоҷик", "Таърихи инқилоби Бухоро", "Ҷаллодони Бухоро", "Одина", "Дохунда", "Ғуломон", "Марги судхур", "Ятим", "Ёддоштҳо", "Куллиёти Айнӣ", "Мактаби кӯҳна"],
-            kh: ["", "جلادان بخارا"]
+            us: [
+                    [
+                        {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.jpeg"}, {title: "A History of the Bukhara Revolution", cover: ""}, 
+                        {title: "The Bukhara Executioners", cover: ""}, {title: "Odina", cover: ""}, 
+                        {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.jpeg"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
+                    ],
+                    [
+                        {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.jpeg"}, {title: "Orphan", cover: ""},
+                        {title: "Memoirs", cover: "/bookCovers/ayni/usMemoirs.jpeg"}, {title: "The Complete Works of Ayni", cover: ""},
+                        {title: "Old School", cover: "/bookCovers/ayni/usOld.png"}
+                    ]
+            ],
+            ru: [
+                    [
+                        {title: "Образцы таджикской литературы", cover: ""}, {title: "История Бухарской революции", cover: ""}, 
+                        {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.jpeg"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.jpeg"},
+                        {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.jpeg"}, {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.jpeg"}, 
+                    ],
+                    [
+                        {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.jpeg"}, {title: "Сирота", cover: ""},
+                        {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.jpeg"}, {title: "Собрание сочинений", cover: ""}, 
+                        {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"}
+                    ]
+                ],
+            tj: [
+                    [
+                        {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.jpeg"}, {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.jpeg"}, 
+                        {title: "Ҷаллодони Бухоро", cover: ""}, {title: "Одина", cover: ""},
+                        {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.png"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.png"}, 
+                    ],
+                    [
+                        {title: "Марги судхур", cover: "/bookCovers/ayni/tjUsurer.jpeg"}, {title: "Ятим", cover: ""},
+                        {title: "Ёддоштҳо", cover: ""}, {title: "Куллиёти Айнӣ", cover: "/bookCovers/ayni/tjComplete.png"}, 
+                        {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.jpeg"}
+                    ]
+                ],
+            kh: [
+                    [
+                        {title: "Намунаи адабиёти тоҷик", cover: ""}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.jpeg"}, 
+                        {title: "جلادان بخارا", cover: "/bookCovers/ayni/khExec.jpeg"}, {title: "Одина", cover: ""},
+                        {title: "Дохунда", cover: ""}, {title: "Ғуломон", cover: ""}, 
+                    ],
+                    [
+                        {title: "Марги судхур", cover: "/bookCovers/ayni/khUsurer.jpeg"}, {title: "Ятим", cover: ""},
+                        {title: "یادداشت ها", cover: "/bookCovers/ayni/khMemoirs.jpeg"}, {title: "Куллиёти Айнӣ"}, 
+                        {title: "Мактаби кӯҳна", cover: ""}
+                    ]
+                ]
         }
     },
     {

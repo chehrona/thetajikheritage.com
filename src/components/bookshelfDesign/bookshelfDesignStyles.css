@@ -1,0 +1,83 @@
+:root {
+    --height: 200px;
+    --width: 100%;
+    --depth: 200px;
+    --color-shelf-back-panel: #a17941;
+    --color-shelf-bottom-panel: #795832;
+    --color-shelf-bottom-panel-front: #9b7d50;
+    --color-shelf-side-panel: #956e39;
+    --color-shelf-shadow: rgb(213, 213, 213);
+  }
+  
+.container {
+    width: 100%;
+    height: 15rem;
+    perspective: 45rem;
+    overflow: hidden;
+    background-color: #000;
+    position: absolute;
+    margin-bottom: 10rem;
+}
+  
+.cuboid {
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    transform-style: preserve-3d;
+}
+  
+.cuboid__face {
+    width: var(--width);
+    height: var(--height);
+    position: absolute;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    box-shadow: 0 1px 3px 0 white, 0 1px 2px -1px white;
+}
+  
+.cuboid__face--front {
+    background: transparent;
+}
+  
+.cuboid__face--bottom {
+    transform: translateZ(calc(var(--depth) * -0.5)) translateY(calc(var(--height) * 0.5)) rotateX(-90deg);
+    height: var(--depth);
+    background: rgb(213, 213, 213);
+}
+  
+.books-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 3rem;
+    position: relative;
+    height: var(--height);
+    padding-bottom: 0.8rem;
+    box-sizing: border-box;
+}
+  
+.book {
+    height: calc(var(--height) - 1rem);
+    width: 8rem;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 3px 0 black, 0 1px 2px -1px white;
+    border-radius: 0.4rem;
+    object-fit: cover;
+}
+  
+.floor-thickness {
+    height: 1rem;
+    width: 100%;
+    background: grey;
+    position: relative;
+    z-index: 10;
+    border-radius: 0.15rem;
+
+}

@@ -2,8 +2,6 @@ import styled from "styled-components/macro";
 
 export const MainContainer = styled.div`
     background: #000;
-    display: flex;
-    justify-content: space-between;
     height: 10rem;
     color: white;
     position: relative;
@@ -18,5 +16,10 @@ export const MainContainer = styled.div`
         position: absolute;
         top: 0rem;
         box-sizing: border-box;
+        z-index: 1000;
     }
+`;
+
+export const Gap = styled.div`
+    height: 5rem;
 `;
