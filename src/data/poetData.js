@@ -26,25 +26,25 @@ module.exports.poets = [
         works: {
             us: [
                     [
-                        {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "A History of the Bukhara Revolution", cover: ""}, 
-                        {title: "The Bukhara Executioners", cover: ""}, {title: "Odina", cover: ""}, 
+                        {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "A History of the Bukhara Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
+                        {title: "The Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png"}, {title: "Odina", cover: "/bookCovers/ayni/usOdina.png"}, 
                         {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
                     ],
                     [
-                        {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: ""},
-                        {title: "Memoirs", cover: "/bookCovers/ayni/usMemoirs.png"}, {title: "The Complete Works of Ayni", cover: ""},
+                        {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
+                        {title: "Memoirs", cover: "/bookCovers/ayni/usMemoirs.png"}, {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.png"},
                         {title: "Old School", cover: "/bookCovers/ayni/usOld.png"}
                     ]
             ],
             ru: [
                     [
-                        {title: "Образцы таджикской литературы", cover: ""}, {title: "История Бухарской революции", cover: ""}, 
+                        {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
                         {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
                         {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"}, {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png"}, 
                     ],
                     [
-                        {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png"}, {title: "Сирота", cover: ""},
-                        {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: ""}, 
+                        {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png"}, {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
+                        {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
                         {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"}
                     ]
                 ],
@@ -62,14 +62,14 @@ module.exports.poets = [
                 ],
             kh: [
                     [
-                        {title: "Намунаи адабиёти тоҷик", cover: ""}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.jpeg"}, 
-                        {title: "جلادان بخارا", cover: "/bookCovers/ayni/khExec.jpeg"}, {title: "Одина", cover: ""},
-                        {title: "Дохунда", cover: ""}, {title: "Ғуломон", cover: ""}, 
+                        {title: "نمونه ادبیات تاجیک", cover: "/bookCovers/ayni/khExample.png"}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.png"}, 
+                        {title: "جلادان بخارا", cover: "/bookCovers/ayni/khExec.png"}, {title: "ادینه", cover: "/bookCovers/ayni/khOdina.png"},
+                        {title: "داخونده", cover: "/bookCovers/ayni/khDokhunda.png"}, {title: "غلامان", cover: "/bookCovers/ayni/khSlaves.png"}, 
                     ],
                     [
-                        {title: "Марги судхур", cover: "/bookCovers/ayni/khUsurer.jpeg"}, {title: "Ятим", cover: ""},
-                        {title: "یادداشت ها", cover: "/bookCovers/ayni/khMemoirs.jpeg"}, {title: "Куллиёти Айнӣ"}, 
-                        {title: "Мактаби кӯҳна", cover: ""}
+                        {title: "مرگ سودخور", cover: "/bookCovers/ayni/khUsurer.png"}, {title: "یتیم", cover: "/bookCovers/ayni/khOrphan.png"},
+                        {title: "یادداشت ها", cover: "/bookCovers/ayni/khMemoirs.png"}, {title: "Куллиёти Айнӣ", cover: "/bookCovers/ayni/khHistory.png"}, 
+                        {title: "مکتبی کهنه", cover: ""}
                     ]
                 ]
         }
