@@ -1,9 +1,8 @@
 import styled from "styled-components/macro";
-import noise from "./noise.png";
 
 export const MainContainer = styled.div`
     background: #000;
-    background-image: url(${noise});
+    background-image: url(${'/noise.png'});
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -24,11 +23,11 @@ export const MainContainer = styled.div`
 export const FadedImage = styled.img`
     width: 45rem;
     height: auto;
-    box-shadow: 6rem 6rem 4rem 4rem black inset;
+    box-shadow: 6rem 6rem 2rem 4rem #00000087 inset;
+    border-radius: 5rem 0rem 0rem 5rem;
 `;
 
 export const SegmentContainer = styled.div`
-    color: white;
     margin: 5rem;
     margin-left: 5rem;
     font-size: 1.5rem;
@@ -37,11 +36,14 @@ export const SegmentContainer = styled.div`
     position: relative;
 `;
 
-export const SectionTitle = styled.div`
+export const SectionTitle = styled.a`
     line-height: 3rem;
-
+    color: #dedbdb;
+    text-decoration: none;
+    display: block;
+    
     &:hover {
-        text-shadow: 0rem 0rem 2rem white;
+        text-shadow: 0rem 0rem 2rem #dedbdb;
         font-size: 1.6rem;
         cursor: pointer;
     }
@@ -51,9 +53,11 @@ export const PoetName = styled.div`
     font-size: 8rem;
     font-weight: bold;
     font-style: italic;
-    color: ${({color}) => color ? "rgb(51, 94, 120)" : "white"};
-    margin-right: ${({color}) => color ? "2rem" : "0rem"};
+    color: ${({color}) => color === 'true' ? "transparent" : "#dedbdb"};
+    margin-right: ${({color}) => color === 'true' ? "2rem" : "0rem"};
     text-shadow: 0rem 0rem 5rem black;
+    -webkit-text-stroke-width: ${({color}) => color === 'true' && '0.22rem'};
+    -webkit-text-stroke-color: rgb(81 130 160);
 `;
 
 export const PoetNameContainer = styled.div`
@@ -64,12 +68,12 @@ export const PoetNameContainer = styled.div`
 `;
 
 export const YearsContainer = styled.div`
-    color: white;
+    color: #dedbdb;
     font-size: 10rem;
     position: absolute;
     top: 4rem;
     left: 14rem;
-    opacity: 0.2;
+    opacity: 0.25;
     font-weight: bold;
 `;
 export const Year = styled.div`

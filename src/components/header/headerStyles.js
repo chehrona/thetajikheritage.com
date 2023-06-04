@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
     background: #000000;
-    height: 8rem;
+    height: 6rem;
     width: 100%;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    color: #D5D5D5;
+    color: #dedbdb;
     position: relative;
     z-index: 1000;
 `
@@ -19,9 +19,9 @@ export const LogoWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 7.5rem;
-    width: 7.5rem;
-    margin: 1rem;
+    height: 5.5rem;
+    width: 5.5rem;
+    margin-left: 1rem;
 `;
 
 export const TitleWrapper = styled.div`
@@ -59,13 +59,13 @@ export const StyledIconButton = styled(IconButton)`
 `;
 
 export const StyledMenuIcon = styled(Menu)`
-    color: #D5D5D5;
+    color: #dedbdb;
     width: 3.5rem !important;
     height: 2.5rem !important;
 `;
 
 export const StyledCloseIcon = styled(Close)`
-    color: #D5D5D5;
+    color: #dedbdb;
     width: 3.5rem !important;
     height: 2.5rem !important;
 `;

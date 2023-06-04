@@ -16,12 +16,12 @@ export default function PoetIntro({ poet }) {
     const { lang } = useSetLang();
 
     return (
-        <MainContainer>
+        <MainContainer id='Biography'>
             <div>
                 <SegmentContainer>
                     {poet?.sections[lang].map((piece, i) => {
                         return (
-                            <SectionTitle key={i}>{piece}</SectionTitle>
+                            <SectionTitle key={i} href={`#${poet?.sections.us[i]}`}>{piece}</SectionTitle>
                         )
                     })}
                 </SegmentContainer>
@@ -32,7 +32,7 @@ export default function PoetIntro({ poet }) {
             </div>
             <FadedImage src={poet?.img[1]}/>
             <PoetNameContainer>
-                <PoetName color={true}>{poet?.name[lang][0]}</PoetName>
+                <PoetName color={'true'}>{poet?.name[lang][0]}</PoetName>
                 <PoetName>{poet?.name[lang][1]}</PoetName>
             </PoetNameContainer>
         </MainContainer>

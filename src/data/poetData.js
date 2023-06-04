@@ -24,53 +24,37 @@ module.exports.poets = [
             kh: "He was born in a small village outside of Bukhara named Soktare",
         },
         works: {
-            us: [
-                    [
-                        {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "A History of the Bukhara Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
-                        {title: "The Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png"}, {title: "Odina", cover: "/bookCovers/ayni/usOdina.png"}, 
-                        {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
-                    ],
-                    [
-                        {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
-                        {title: "Memoirs", cover: "/bookCovers/ayni/usMemoirs.png"}, {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.png"},
-                        {title: "Old School", cover: "/bookCovers/ayni/usOld.png"}
-                    ]
+            us: [   
+                    {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "A History of the Bukhara Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
+                    {title: "The Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png"}, {title: "Odina", cover: "/bookCovers/ayni/usOdina.png"}, 
+                    {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
+                    {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
+                    {title: "Reminiscences", cover: "/bookCovers/ayni/usMemoirs.png"}, {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.png"},
+                    {title: "Old School", cover: "/bookCovers/ayni/usOld.png"}
             ],
             ru: [
-                    [
-                        {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
-                        {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
-                        {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"}, {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png"}, 
-                    ],
-                    [
-                        {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png"}, {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
-                        {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
-                        {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"}
-                    ]
+                    {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
+                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
+                    {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"}, {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png"}, 
+                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png"}, {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
+                    {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
+                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"}
                 ],
             tj: [
-                    [
-                        {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.png"}, {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.png"}, 
-                        {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/tjOdina.png"},
-                        {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.png"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.png"}, 
-                    ],
-                    [
-                        {title: "Марги судхур", cover: "/bookCovers/ayni/tjUsurer.png"}, {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
-                        {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёти Айнӣ", cover: "/bookCovers/ayni/tjComplete.png"}, 
-                        {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png"}
-                    ]
+                    {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.png"}, {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.png"}, 
+                    {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/tjOdina.png"},
+                    {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.png"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.png"}, 
+                    {title: "Марги судхур", cover: "/bookCovers/ayni/tjUsurer.png"}, {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
+                    {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёти Айнӣ", cover: "/bookCovers/ayni/tjComplete.png"}, 
+                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png"}
                 ],
             kh: [
-                    [
-                        {title: "نمونه ادبیات تاجیک", cover: "/bookCovers/ayni/khExample.png"}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.png"}, 
-                        {title: "جلادان بخارا", cover: "/bookCovers/ayni/khExec.png"}, {title: "ادینه", cover: "/bookCovers/ayni/khOdina.png"},
-                        {title: "داخونده", cover: "/bookCovers/ayni/khDokhunda.png"}, {title: "غلامان", cover: "/bookCovers/ayni/khSlaves.png"}, 
-                    ],
-                    [
-                        {title: "مرگ سودخور", cover: "/bookCovers/ayni/khUsurer.png"}, {title: "یتیم", cover: "/bookCovers/ayni/khOrphan.png"},
-                        {title: "یادداشت ها", cover: "/bookCovers/ayni/khMemoirs.png"}, {title: "Куллиёти Айнӣ", cover: "/bookCovers/ayni/khHistory.png"}, 
-                        {title: "مکتبی کهنه", cover: ""}
-                    ]
+                    {title: "نمونه ادبیات تاجیک", cover: "/bookCovers/ayni/khExample.png"}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.png"}, 
+                    {title: "جلادان بخارا", cover: "/bookCovers/ayni/khExec.png"}, {title: "ادینه", cover: "/bookCovers/ayni/khOdina.png"},
+                    {title: "داخونده", cover: "/bookCovers/ayni/khDokhunda.png"}, {title: "غلامان", cover: "/bookCovers/ayni/khSlaves.png"}, 
+                    {title: "مرگ سودخور", cover: "/bookCovers/ayni/khUsurer.png"}, {title: "یتیم", cover: "/bookCovers/ayni/khOrphan.png"},
+                    {title: "یادداشت ها", cover: "/bookCovers/ayni/khMemoirs.png"}, {title: "Куллиёти Айнӣ", cover: "/bookCovers/ayni/khHistory.png"}, 
+                    {title: "مکتبی کهنه", cover: ""}
                 ]
         }
     },

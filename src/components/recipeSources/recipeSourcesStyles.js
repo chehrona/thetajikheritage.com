@@ -35,7 +35,7 @@ export const StyledUpIcon = styled(ExpandLess)`
 `;
 
 export const RefContainer = styled.div`
-    background: #eaeaea;
+    background: #dedbdb;
     max-width: 100%;
     margin-top: 0.8rem;
     border-radius: 1rem;

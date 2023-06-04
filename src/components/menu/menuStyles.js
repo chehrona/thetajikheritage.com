@@ -28,10 +28,10 @@ const fadeInAnimation = keyframes`
 export const MenuContainer = styled.div`
     width: 100%;
     overflow: hidden;
-    color: #D5D5D5;
+    color: #dedbdb;
     display: flex;
     background: rgb(51 51 51);
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 6rem);
     padding: 3rem;
     transform: translateY(-100%);
     justify-content: center;

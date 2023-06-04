@@ -32,7 +32,7 @@ export const InfoContainer = styled.div`
 `;
 
 export const StyledPinIcon = styled(Pinterest)`
-    color: #e60022;
+    color: #dedbdb;
     position: absolute;
     left: 5.5rem;
     top: 13.5rem;

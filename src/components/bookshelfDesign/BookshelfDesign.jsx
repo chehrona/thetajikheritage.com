@@ -1,24 +1,47 @@
-import React from "react";
-import "./bookshelfDesignStyles.css";
-import { useSetLang } from "../../App";
+import React, { useState } from "react";
+import Tooltip from "@mui/material/Tooltip";
+import {
+    Book,
+    BooksContainer,
+    Cuboid,
+    CuboidFace,
+    MainContainer,
+    Shelf,
+    BookWrapper,
+    Overlay,
+} from "./bookshelfDesignStyles";
 
 export default function BookshelfDesign({ work }) {
-    const { lang } = useSetLang();
+    const [overlay, setOverlay] = useState();
+
+    function handleBookAction(e) {
+        const bookIndex = e.target.getAttribute("data");
+        setOverlay(bookIndex);
+    }
     return (
         <section>
-            <div class="container">
-                <div class="cuboid">
-                <div class="cuboid__face cuboid__face--bottom"></div>
-                </div>
-            </div>
-            <div class="books-container">
+            <MainContainer>
+                <Cuboid>
+                    <CuboidFace />
+                </Cuboid>
+            </MainContainer>
+            <BooksContainer>
                 {work?.map((book, i) => {
                     return (
-                        <img class="book" key={i} src={book.cover} />
+                        <Tooltip key={i} title={book.title} placement="top" arrow>
+                            <span>
+                                <BookWrapper>
+                                    {overlay === i && <Overlay open={overlay === i}>
+                                        I am here!!!!!!!!!!!!!!
+                                    </Overlay>}
+                                    <Book data={i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
+                                </BookWrapper>
+                            </span>
+                        </Tooltip>
                     )
                 })}
-            </div>
-            <div class="floor-thickness"></div>
+            </BooksContainer>
+            <Shelf />
         </section>
     )
 }

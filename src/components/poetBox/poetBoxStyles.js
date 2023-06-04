@@ -16,7 +16,7 @@ export const PoetCard = styled.div`
     width: 23rem;
     cursor: pointer;
     background: #000;
-    color: rgb(213 213 213);
+    color: #dedbdb;
     position: relative;
 
     &:hover {
@@ -29,7 +29,7 @@ export const PoetImgContainer = styled.div`
     height: 20rem;
     width: 15rem;
     border-radius: 9rem;
-    border: 0.15rem solid rgb(51, 94, 120);
+    border: 0.15rem solid rgb(81 130 160);
     display: flex;
     justify-content: center;
     align-items: center;

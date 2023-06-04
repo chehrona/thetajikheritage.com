@@ -1,10 +1,12 @@
 import styled from "styled-components/macro";
+import Tooltip from "@mui/material/Tooltip";
 
 export const MainContainer = styled.div`
     background: #000;
     height: 10rem;
     color: white;
     position: relative;
+    background-image: url(${'/noise.png'});
 
     &:before {
         content: "";
@@ -16,10 +18,9 @@ export const MainContainer = styled.div`
         position: absolute;
         top: 0rem;
         box-sizing: border-box;
-        z-index: 1000;
     }
 `;
 
 export const Gap = styled.div`
-    height: 5rem;
+    height: 6rem;
 `;

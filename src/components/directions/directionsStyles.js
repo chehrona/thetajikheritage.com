@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
     padding: 1rem 2rem 2rem 2rem;
     border-radius: 1rem;
-    background: #eaeaea;
+    background: #dedbdb;
 `;
 
 export const SubTitle =  styled.div`

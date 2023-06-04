@@ -10,7 +10,7 @@ export const FooterContainer = styled.div`
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    color: #D5D5D5;
+    color: #dedbdb;
     justify-content: center;
 `;
 

@@ -4,7 +4,7 @@ export const MainContainer = styled.div`
     padding: 2rem;
     padding-top: 1rem;
     border-radius: 1rem;
-    background: #eaeaea;
+    background: #dedbdb;
     margin-top: 2rem;
 `;
 

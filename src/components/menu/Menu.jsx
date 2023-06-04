@@ -22,9 +22,9 @@ export default function Menu() {
                 <Logo src={'/tajiks.svg'}></Logo>
             </LogoContainer>
             <PageNamesContainer>
-                {pageInfo[lang]?.map((entry) => {
+                {pageInfo[lang]?.map((entry, i) => {
                     return (
-                        <StyledLink to={entry.link}>
+                        <StyledLink to={entry.link} key={i}>
                             <div onClick={() => setIsMenuShown(false)}>
                                 <PageName>{entry.title}</PageName>
                                 <PageDesc>{entry.desc}</PageDesc>

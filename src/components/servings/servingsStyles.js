@@ -17,7 +17,7 @@ export const QuantityContainer = styled.div`
 `;
 
 export const StyledAddIcon = styled(Add)`
-    background: #eaeaea;
+    background: #dedbdb;
     border-radius: 0.5rem;
     color: black;
     font-size: 2rem !important;
@@ -34,7 +34,7 @@ export const ServeAmount = styled.input`
 `;
 
 export const StyledMinusIcon = styled(Remove)`
-    background: #eaeaea;
+    background: #dedbdb;
     border-radius: 0.5rem;
     color: black;
     font-size: 2rem !important;

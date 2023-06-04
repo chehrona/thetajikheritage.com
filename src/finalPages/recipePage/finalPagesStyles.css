@@ -7,7 +7,7 @@
 .tooltip .tooltiptext {
     visibility: hidden;
     background-color: #555;
-    color: #fff;
+    color: #dedbdb;
     border-radius: 0.4rem;
     position: absolute;
     z-index: 10;
