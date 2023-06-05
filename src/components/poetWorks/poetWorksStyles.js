@@ -1,5 +1,4 @@
 import styled from "styled-components/macro";
-import Tooltip from "@mui/material/Tooltip";
 
 export const MainContainer = styled.div`
     background: #000;

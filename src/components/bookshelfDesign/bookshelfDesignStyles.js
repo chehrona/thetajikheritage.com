@@ -1,4 +1,6 @@
 import styled, { keyframes } from "styled-components/macro";
+import { Clear } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
 
 const openAnimation = keyframes`
     to {
@@ -66,6 +68,7 @@ export const BookWrapper = styled.div`
     width: 9rem;
     cursor: pointer;
     position: relative;
+    overflow: hidden;
 `;
   
 export const Book = styled.img`
@@ -91,14 +94,39 @@ export const Shelf = styled.div`
 
 export const Overlay = styled.div`
     width: 100%;
-    opacity: 0.7;
-    background: red;
+    background: rgb(0, 0, 0, 0.7);
     z-index: 1000;
-    // animation-name: ${({open}) => (open && open !== null) && openAnimation};
-    // animation-name: ${({open}) => (!open && open !== null)  && closeAnimation};
-    // animation-duration: 1s;
-    // animation-fill-mode: both;
+    animation-name: ${({open}) => (open && open !== null) && openAnimation};
+    animation-name: ${({open}) => (!open && open !== null)  && closeAnimation};
+    animation-duration: 1s;
+    animation-fill-mode: both;
     position: absolute;
-    top: 1.3rem;
+    top: 0rem;
+    height: 100%;
     border-radius: 0.4rem;
+    transform: translateY(-100%);
+`;
+
+export const StyledClearIcon = styled(Clear)`
+    color: #dedbdb;
+    margin: 0.2rem;
+    width: 2rem;
+    height: 2rem;
+`;
+
+export const CloseWrapper = styled.div`
+    display: flex;
+    justify-content: flex-end;
+`;
+
+export const ActionIcon = styled.img`
+    width: ${({ margin }) => margin === 'true' ? '3.5rem' : '4rem'};
+    margin-top: ${({ margin }) => margin === 'true' ? '2rem' : '0rem'};
+    height: auto;
+`;
+
+export const ActionWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    width: 100%;
 `;
