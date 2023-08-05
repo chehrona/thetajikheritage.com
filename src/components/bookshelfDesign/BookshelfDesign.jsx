@@ -18,7 +18,7 @@ import {
 export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay }) {
     function handleBookAction(e) {
         const bookIndex = e.target.getAttribute("data");
-        setOverlay(bookIndex);
+        setOverlay(parseInt(bookIndex));
     }
 
     return (
