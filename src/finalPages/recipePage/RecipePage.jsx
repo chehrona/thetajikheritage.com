@@ -2,6 +2,9 @@ import React, {useState} from "react";
 import {useParams} from "react-router-dom";
 import "./finalPagesStyles.css";
 import { recipes } from "../../data/recipeData";
+
+import { useSetLang } from "../../App";
+
 import { 
     PageContainer,
     MainImage,
@@ -22,6 +25,7 @@ import Servings from "../../components/servings/Servings";
 
 export default function RecipePage() {
     const { id } = useParams(),
+        { lang } = useSetLang(),
         [pinHovered, setPinHovered] = useState(false),
         recipe = recipes.filter((recipe) => recipe.id === id)[0],
         [servings, setServings] = useState(recipe?.startServing);
@@ -30,12 +34,14 @@ export default function RecipePage() {
         return (
             <PageContainer>
                 <ImageContainer onMouseEnter={() => setPinHovered(true)} onMouseLeave={() => setPinHovered(false)}>
-                    {pinHovered && <a data-pin-do="buttonPin"
-                        href={`https://www.pinterest.com/pin/create/button/?url=http://www.thetajikheritage.com/cuisine/${recipe?.id}/&media=https://www.thetajikheritage.com/recipePics/${recipe?.mainImg}&description=${recipe?.title}`}
+                    <a
+                        href={`https://www.pinterest.com/pin/create/button/?url=${recipe.pinUrl}&media=https://i.pinimg.com/736x/17/34/8e/17348e163a3212c06e61c41c4b22b87a.jpg&description=${recipe.pinDesc[lang]}`}
+                        data-pin-do="buttonBookmark"
+                        data-pin-custom="true"
                         target={"_blank"}
                         >
                         <StyledPinIcon />
-                    </a>}
+                    </a>
                     <MainImage src={recipe?.mainImg} />
                 </ImageContainer>
                 <RecipeInfo recipe={recipe} />

@@ -174,6 +174,14 @@ module.exports.recipes = [
                     kh: ["", ""]},
         serving: {us: "serv.", ru: "порц.", tj: "", kh: ""},
         startServing: 2,
+        pinUrl: 'https://www.thetajikheritage.com/cuisine/shirchoy/',
+        pinDesc: {
+            us: 'Shirchoy is a traditional dish prepared in Tajikistan',
+            ru: '',
+            tj: '',
+            kh: ''
+        },
+        pinMedia: 'https://i.pinimg.com/736x/17/34/8e/17348e163a3212c06e61c41c4b22b87a.jpg'
     },
     // {
     //     id: 'qurutob',

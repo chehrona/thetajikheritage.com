@@ -124,6 +124,25 @@ module.exports.poets = [
         }
     },
     {
+        id: 'ziyo',
+        name: {us: ['Sadri', 'Ziyo'], ru: ['Садри', 'Зиё'], tj: ['Садри', 'Зиё'], kh: ['صدری','ضیا']},
+        years: {us: '1865 - 1932', ru: '1865 - 1932', tj: '1865 - 1932', kh: '۱۸۶۵ - ۱۹۳۲'},
+        desc: {
+            us: 'Sadri Ziyo - a Tajik lyric poet, translator, and Iranologist.',
+            ru: 'Лоик Шерали - таджикский поэт-лирик, переводчик, и иранист.',
+            tj: 'Лоиқ Шералӣ - шоири ғазалсаро, тарҷумон ва эроншиноси тоҷик.',
+            kh: '.لویق شرالی - شاعر غزل، ترجمان و ایران شناس تاجیک'
+        },
+        img: ['/poetImages/Sherali.png', '/poetImages/SheraliFaded.png', ],
+        link: '/poets/sherali',
+        sections: {
+            us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
+            ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
+            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
+            kh: ["زندگینامه", "ایجدیت", "", "", ""]
+        },
+    },
+    {
         id: 'sherali',
         name: {us: ['Loiq', 'Sherali'], ru: ['Лоик', 'Шерали'], tj: ['Лоиқ', 'Шералӣ'], kh: ['گلرخسار', 'صفی‌اوا']},
         years: {us: '1941 - 2000', ru: '1941 - 2000', tj: '1941 - 2000', kh: '۱۹۴۱ - ۲۰۰۰'},
@@ -166,12 +185,12 @@ module.exports.poets = [
         name: {us: ['Mirzo', 'Tursunzoda'], ru: ['Мирзо', 'Турсунзода'], tj: ['Мирзо', 'Турсунзода'], kh: ['میرزا', 'تورسون زاده']},
         years: {us: '1911 - 1977', ru: '1911 - 1977', tj: '1911 - 1977', kh: '۱۹۱۱ - ۱۹۷۷'},
         desc: {
-            us: 'Mirzo Tursunzoda was a Tajik poet and Iranologist.',
-            ru: 'Гулрухсор Сафиева – таджикская поэтесса и иранист.',
-            tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
-            kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
+            us: 'Mirzo Tursunzoda - a Tajik poet, politician and Iranologist.',
+            ru: 'Мирзо Турсунзода – таджикский поэт, политик и иранист.',
+            tj: 'Мирзо Турсунзода - шоир, сиёсатмадор ва эроншиноси тоҷик.',
+            kh: '.میرزا تُرسون‌زاده - شاعر، سیاستمدار و ایران شناس تاجیک'
         },
-        img: '/poetImages/Tursunzoda.png',
+        img: ['/poetImages/Tursunzoda.png'],
         link: '/poets/tursunzoda'
     },
     {
@@ -184,7 +203,7 @@ module.exports.poets = [
             tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
             kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
         },
-        img: '/poetImages/Sobir.png',
+        img: ['/poetImages/Sobir.png'],
         link: '/poets/sobir'
     },
     {
@@ -197,7 +216,7 @@ module.exports.poets = [
             tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
             kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
         },
-        img: '/poetImages/Safieva.png',
+        img: ['/poetImages/Safieva.png'],
         link: '/poets/safieva'
     },
 ];

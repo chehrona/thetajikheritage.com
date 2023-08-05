@@ -24,7 +24,7 @@ module.exports.pageInfo = {
         {title: "هنر و صنعت", desc: "فرهنگ مادی", link: "/arts"},
         {title: "رسم و رسوم", desc: "میراث ناملموس", link: "/customs"},
         {title: "غذاها", desc: "خوراک‌پزی و هویت ملی", link: "/cuisine"},
-        {title: "زبان", desc: "صداهای گذشته و حال", link: "/language"},
+        {title: "زبان و ادبیات", desc: "صداهای گذشته و حال", link: "/language"},
         {title: "تاریخ", desc: "باستان، قرون وسطی و مدرن", link: "/history"},
     ]
 }

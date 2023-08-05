@@ -16,11 +16,11 @@ import {
 } from "./bookshelfDesignStyles";
 
 export default function BookshelfDesign({ work }) {
-    const [overlay, setOverlay] = useState(-1);
+    const [overlay, setOverlay] = useState();
 
     function handleBookAction(e) {
         const bookIndex = e.target.getAttribute("data");
-        setOverlay(parseInt(bookIndex));
+        setOverlay(bookIndex);
     }
     return (
         <section>
@@ -35,7 +35,7 @@ export default function BookshelfDesign({ work }) {
                         <Tooltip key={i} title={book.title} placement="top" arrow>
                             <span>
                                 <BookWrapper>
-                                    <Overlay open={overlay === i}>
+                                    <Overlay open={overlay === book.title}>
                                         <CloseWrapper>
                                             <StyledClearIcon onClick={() => setOverlay(null)}/>
                                         </CloseWrapper>
@@ -46,7 +46,7 @@ export default function BookshelfDesign({ work }) {
                                             <ActionIcon src={'/bookIcons/pdf.png'} margin={'true'}/>
                                         </ActionWrapper>
                                     </Overlay>
-                                    <Book data={i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
+                                    <Book data={book.title} src={book.cover} onClick={(e) => handleBookAction(e)}/>
                                 </BookWrapper>
                             </span>
                         </Tooltip>

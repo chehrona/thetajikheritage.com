@@ -23,7 +23,7 @@ const fadeInAnimation = keyframes`
     100% {
         opacity: 1;
     }
-`
+`;
 
 export const MenuContainer = styled.div`
     width: 100%;
