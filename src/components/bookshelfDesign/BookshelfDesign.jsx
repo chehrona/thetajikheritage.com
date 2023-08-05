@@ -15,13 +15,12 @@ import {
     ActionWrapper,
 } from "./bookshelfDesignStyles";
 
-export default function BookshelfDesign({ work }) {
-    const [overlay, setOverlay] = useState();
-
+export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay }) {
     function handleBookAction(e) {
         const bookIndex = e.target.getAttribute("data");
         setOverlay(bookIndex);
     }
+
     return (
         <section>
             <MainContainer>
@@ -35,7 +34,7 @@ export default function BookshelfDesign({ work }) {
                         <Tooltip key={i} title={book.title} placement="top" arrow>
                             <span>
                                 <BookWrapper>
-                                    <Overlay open={overlay === book.title}>
+                                    <Overlay open={overlay === shelfNum + i}>
                                         <CloseWrapper>
                                             <StyledClearIcon onClick={() => setOverlay(null)}/>
                                         </CloseWrapper>
@@ -46,7 +45,7 @@ export default function BookshelfDesign({ work }) {
                                             <ActionIcon src={'/bookIcons/pdf.png'} margin={'true'}/>
                                         </ActionWrapper>
                                     </Overlay>
-                                    <Book data={book.title} src={book.cover} onClick={(e) => handleBookAction(e)}/>
+                                    <Book data={shelfNum + i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
                                 </BookWrapper>
                             </span>
                         </Tooltip>

@@ -22,6 +22,7 @@ export const MainContainer = styled.div`
 
 export const FadedImage = styled.img`
     width: 45rem;
+    background-color: black;
     height: auto;
     box-shadow: 6rem 6rem 2rem 4rem #00000087 inset;
     border-radius: 5rem 0rem 0rem 5rem;
