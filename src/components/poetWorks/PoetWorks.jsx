@@ -5,7 +5,7 @@ import { Gap, MainContainer } from "./poetWorksStyles";
 
 export default function PoetWorks({ poet }) {
     const { lang } = useSetLang();
-    const [overlay, setOverlay] = useState(-1);
+    const [overlay, setOverlay] = useState(null);
     const numBooks = poet?.works[lang].length;
     const shelfNum = Math.ceil(numBooks/4);
 

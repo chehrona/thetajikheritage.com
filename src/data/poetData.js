@@ -106,12 +106,16 @@ module.exports.poets = [
                     {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"}
                 ],
             tj: [
-                    {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.png"}, {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.png"}, 
-                    {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/tjOdina.png"},
+                    {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.png", link: 'https://tinyurl.com/ew7j8ucr'},
+                    {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.png"}, 
+                    {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"},
+                    {title: "Одина", cover: "/bookCovers/ayni/tjOdina.png", link: 'https://tinyurl.com/2s3dvwje'},
                     {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.png"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.png"}, 
-                    {title: "Марги судхур", cover: "/bookCovers/ayni/tjUsurer.png"}, {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
+                    {title: "Марги судхур", cover: "/bookCovers/ayni/tjUsurer.png", link: 'https://tinyurl.com/mr4asxev'},
+                    {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
                     {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёт", cover: "/bookCovers/ayni/tjComplete.png"}, 
-                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png"}
+                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "https://tinyurl.com/2kpdsmt3"},
+                    {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "https://tinyurl.com/yr28xysr", view: ""}
                 ],
             kh: [
                     {title: "نمونه ادبیات تاجیک", cover: "/bookCovers/ayni/khExample.png"}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.png"}, 
