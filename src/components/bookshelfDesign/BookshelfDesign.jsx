@@ -16,8 +16,11 @@ import {
     CloseWrapper,
     ActionWrapper,
 } from "./bookshelfDesignStyles";
+import BookReader from "../bookReader/BookReader";
 
 export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay }) {
+    const [openBook, setOpenBook] = useState(false);
+
     function handleBookAction(e) {
         const bookIndex = e.target.getAttribute("data");
         setOverlay(parseInt(bookIndex));
@@ -33,6 +36,10 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
 
         setOverlay(null);
     };
+
+    function openReader() {
+        setOpenBook(true);
+    }
 
     return (
         <section>
@@ -52,7 +59,7 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
                                             <StyledClearIcon onClick={() => setOverlay(null)}/>
                                         </CloseWrapper>
                                         <ActionWrapper>
-                                            <ActionIcon src={'/bookIcons/smartphone.png'} />
+                                            <ActionIcon src={'/bookIcons/smartphone.png'} onClick={openReader} />
                                         </ActionWrapper>
                                         <ActionWrapper>
                                             <ActionIcon
@@ -72,6 +79,7 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
                 })}
             </BooksContainer>
             <Shelf />
+            {openBook && <BookReader book={work[overlay - shelfNum]} setOpenBook={setOpenBook} setOverlay={setOverlay} />}
         </section>
     )
 }

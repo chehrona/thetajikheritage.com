@@ -78,4 +78,4 @@ export const Logo = styled.img`
 export const StyledLink = styled(Link)`
     text-decoration: none;
     color: inherit;
-`
+`;

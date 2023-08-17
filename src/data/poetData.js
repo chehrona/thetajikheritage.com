@@ -95,7 +95,8 @@ module.exports.poets = [
                     {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
                     {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
                     {title: "Reminiscences", cover: "/bookCovers/ayni/usMemoirs.png"}, {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.png"},
-                    {title: "Old School", cover: "/bookCovers/ayni/usOld.png"}
+                    {title: "Old School", cover: "/bookCovers/ayni/usOld.png", link: ""},
+                    {title: "Ahmad: The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.png", link: ""},
             ],
             ru: [
                     {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
@@ -111,11 +112,11 @@ module.exports.poets = [
                     {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"},
                     {title: "Одина", cover: "/bookCovers/ayni/tjOdina.png", link: 'https://tinyurl.com/2s3dvwje'},
                     {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.png"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.png"}, 
-                    {title: "Марги судхур", cover: "/bookCovers/ayni/tjUsurer.png", link: 'https://tinyurl.com/mr4asxev'},
+                    {title: "Марги судхӯр", cover: "/bookCovers/ayni/tjUsurer.png", link: 'https://tinyurl.com/mr4asxev'},
                     {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
                     {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёт", cover: "/bookCovers/ayni/tjComplete.png"}, 
                     {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "https://tinyurl.com/2kpdsmt3"},
-                    {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "https://tinyurl.com/yr28xysr", view: ""}
+                    {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "https://tinyurl.com/28yrb4rw"}
                 ],
             kh: [
                     {title: "نمونه ادبیات تاجیک", cover: "/bookCovers/ayni/khExample.png"}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.png"}, 
