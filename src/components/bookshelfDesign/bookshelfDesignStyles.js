@@ -120,8 +120,8 @@ export const CloseWrapper = styled.div`
 `;
 
 export const ActionIcon = styled.img`
-    width: ${({ margin }) => margin === 'true' ? '3.5rem' : '4rem'};
-    margin-top: ${({ margin }) => margin === 'true' ? '2rem' : '0rem'};
+    width: 4rem;
+    margin-bottom: 4rem;
     height: auto;
 `;
 
@@ -129,4 +129,6 @@ export const ActionWrapper = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
+    align-items: center;
+    height: 100%;
 `;

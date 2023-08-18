@@ -26,17 +26,6 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
         setOverlay(parseInt(bookIndex));
     }
 
-    function handleDownload(e) {
-        const pdfExternalLink = e.target.getAttribute('data');
-        const fileName = e.target.getAttribute('name');
-        const a = document.createElement('a');
-        a.setAttribute('href', pdfExternalLink);
-        a.setAttribute('download', fileName);
-        a.click();
-
-        setOverlay(null);
-    };
-
     function openReader() {
         setOpenBook(true);
     }
@@ -60,15 +49,6 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
                                         </CloseWrapper>
                                         <ActionWrapper>
                                             <ActionIcon src={'/bookIcons/smartphone.png'} onClick={openReader} />
-                                        </ActionWrapper>
-                                        <ActionWrapper>
-                                            <ActionIcon
-                                                src={'/bookIcons/pdf.png'}
-                                                margin={'true'}
-                                                data={book.link}
-                                                name={book.title}
-                                                onClick={(e) => handleDownload(e)}
-                                            />
                                         </ActionWrapper>
                                     </Overlay>
                                     <Book data={shelfNum + i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
