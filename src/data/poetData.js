@@ -101,8 +101,10 @@ module.exports.poets = [
             ru: [
                     {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
                     {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
-                    {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"}, {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png"}, 
-                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png"}, {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
+                    {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"},
+                    {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "https://tinyurl.com/bdepufsz"}, 
+                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "https://tinyurl.com/6paku6hr"},
+                    {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
                     {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"}
                 ],
