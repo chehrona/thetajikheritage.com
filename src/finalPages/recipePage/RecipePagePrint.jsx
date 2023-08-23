@@ -38,7 +38,7 @@ import {
     StyledLink
 } from './recipePagePrintStyles'
 import { useEffect } from "react";
-import SideNav from "../../components/sideNav/SideNav";
+import SideNav from "../../components/common/sideNav/SideNav";
 
 export default function RecipePagePrint() {
     const { id } = useParams(),

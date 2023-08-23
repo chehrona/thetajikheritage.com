@@ -106,7 +106,8 @@ module.exports.poets = [
                     {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "https://tinyurl.com/6paku6hr"},
                     {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
-                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"}
+                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"},
+                    {title: "Ахмад — покоритель дивов", cover: "/bookCovers/ayni/ruAhmad.png"}
                 ],
             tj: [
                     {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.png", link: 'https://tinyurl.com/ew7j8ucr'},

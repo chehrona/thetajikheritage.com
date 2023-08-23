@@ -7,7 +7,7 @@ import {
     PageContainer,
 } from "./poetPageStyles";
 import PoetBio from "../../components/poetBio/PoetBio";
-import PoetIntro from "../../components/poetIntro/PoetIntro";
+import PoetIntro from "../../components/poet/poetIntro/PoetIntro";
 import PoetWorks from "../../components/poetWorks/PoetWorks";
 
 export default function PoetPage() {

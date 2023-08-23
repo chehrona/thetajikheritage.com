@@ -1,9 +1,9 @@
 import { useContext, createContext, useMemo, useState, useEffect } from 'react';
 import Header from './components/header/Header';
-import SideNav from './components/sideNav/SideNav';
-import Menu from './components/menu/Menu';
-import Footer from './components/footer/Footer';
-import AnimationRoutes from './components/animationRoutes/AnimationRoutes';
+import SideNav from './components/common/sideNav/SideNav';
+import Menu from './components/common/menu/Menu';
+import Footer from './components/common/footer/Footer';
+import AnimationRoutes from './components/common/animationRoutes/AnimationRoutes';
 
 const LangContext = createContext({
     lang: 'us',

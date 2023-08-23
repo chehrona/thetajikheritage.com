@@ -22,7 +22,7 @@ export const Title = styled.div`
 `;
 
 export const LogoWrapper = styled.div`
-    border-right: 0.1rem solid #000;
+    border-right: 0.1rem solid #0F0A00;
     height: 5rem;
     margin-right: 0.5rem;
 `;
@@ -57,7 +57,7 @@ export const InfoContainer = styled.div`
     padding-left: 5rem;
     padding-right: 5rem;
     padding-bottom: 1rem;
-    border-bottom: 0.1rem solid #000;
+    border-bottom: 0.1rem solid #0F0A00;
 `;
 
 export const IconBox = styled.div`
