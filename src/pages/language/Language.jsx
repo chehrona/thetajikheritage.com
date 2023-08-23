@@ -1,4 +1,4 @@
-import PoetBox from '../../components/poetBox/PoetBox';
+import PoetBox from '../../components/poet/poetBox/PoetBox';
 import { PageContainer } from './languagePageStyles';
 
 function Language() {

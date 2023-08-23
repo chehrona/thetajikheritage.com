@@ -15,7 +15,7 @@ export const PoetCard = styled.div`
     height: 35rem;
     width: 23rem;
     cursor: pointer;
-    background: #000;
+    background: #0F0A00;
     color: #ffffff;
     position: relative;
 

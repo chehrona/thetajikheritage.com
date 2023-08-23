@@ -1,6 +1,6 @@
 import React from "react";
-import { useSetLang } from "../../App";
-import { pageInfo } from "../../pages/pageNames";
+import { useSetLang } from "../../../App";
+import { pageInfo } from "./pageNames";
 
 import { MenuContainer,
         LogoContainer,

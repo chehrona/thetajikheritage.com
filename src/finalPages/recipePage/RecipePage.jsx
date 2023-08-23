@@ -15,13 +15,13 @@ import {
     SubContainer
 } from "./recipePageStyles";
 
-import RecipeInfo from "../../components/recipeInfo/RecipeInfo";
-import RecipeIngredients from "../../components/recipeIngredients/RecipeIngredients";
-import RecipeSources from "../../components/recipeSources/RecipeSources";
-import RecipeTabs from "../../components/recipeTabs/RecipeTabs";
-import Allergy from "../../components/allergy/Allergy";
-import Directions from "../../components/directions/Directions";
-import Servings from "../../components/servings/Servings";
+import RecipeInfo from "../../components/food/recipeInfo/RecipeInfo";
+import RecipeIngredients from "../../components/food/recipeIngredients/RecipeIngredients";
+import RecipeSources from "../../components/food/recipeSources/RecipeSources";
+import RecipeTabs from "../../components/food/recipeTabs/RecipeTabs";
+import Allergy from "../../components/food/allergy/Allergy";
+import Directions from "../../components/food/directions/Directions";
+import Servings from "../../components/food/servings/Servings";
 
 export default function RecipePage() {
     const { id } = useParams(),

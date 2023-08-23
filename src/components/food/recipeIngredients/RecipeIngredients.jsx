@@ -1,5 +1,5 @@
 import React from "react";
-import { useSetLang } from "../../App";
+import { useSetLang } from "../../../App";
 
 import { MainContainer,
          SubTitle,

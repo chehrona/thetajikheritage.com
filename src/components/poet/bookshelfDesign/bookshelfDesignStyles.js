@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components/macro";
 import { Clear } from "@mui/icons-material";
-import { IconButton } from "@mui/material";
+import { motion}  from "framer-motion";
 
 const openAnimation = keyframes`
     to {
@@ -59,6 +59,8 @@ export const BooksContainer = styled.div`
     height: 17rem;
     padding-bottom: 1rem;
     box-sizing: border-box;
+    cursor: none;
+    position: relative;
 `;
 
 export const BookWrapper = styled.div`
@@ -66,7 +68,6 @@ export const BookWrapper = styled.div`
     border-radius: 0.4rem;
     height: 13rem;
     width: 9rem;
-    cursor: pointer;
     position: relative;
     overflow: hidden;
 `;
@@ -131,4 +132,18 @@ export const ActionWrapper = styled.div`
     width: 100%;
     align-items: center;
     height: 100%;
+`;
+
+export const Cursor = styled(motion.div)`
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    top: 0rem;
+    left: 0rem;
+`;
+
+export const CursorImg = styled.img`
+    width: 100%;
+    height: 100%;
+    background: transparent;
 `;

@@ -1,7 +1,7 @@
 import { VolumeUp } from "@mui/icons-material";
 import React from "react";
-import { useSetLang } from "../../App";
-import { recipes } from "../../data/recipeData";
+import { useSetLang } from "../../../App";
+import { recipes } from "../../../data/recipeData";
 import { StyledLink } from "../recipeBox/recipeBoxStyles";
 
 import { 

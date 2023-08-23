@@ -12,9 +12,6 @@ export const FooterContainer = styled.div`
     box-sizing: border-box;
     color: #ffffff;
     justify-content: center;
-    position: absolute;
-    bottom: 0rem;
-    z-index: 10;
 `;
 
 export const StyledCopyrightIcon = styled(Copyright)`

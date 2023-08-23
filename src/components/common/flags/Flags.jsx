@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useSetLang } from "../../App";
+import { useSetLang } from "../../../App";
 import { langNames } from "./langNames";
 
 import { StyledFlag,

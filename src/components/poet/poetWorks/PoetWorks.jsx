@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { useSetLang } from "../../App";
+import { useSetLang } from "../../../App";
 import BookshelfDesign from "../bookshelfDesign/BookshelfDesign";
-import { Gap, MainContainer } from "./poetWorksStyles";
+import { Gap, LowerGap, MainContainer } from "./poetWorksStyles";
 
 export default function PoetWorks({ poet }) {
     const { lang } = useSetLang();
     const [overlay, setOverlay] = useState(null);
-    const numBooks = poet?.works[lang].length;
+
+    const numBooks = poet[lang].length;
     const shelfNum = Math.ceil(numBooks/4);
 
     function renderShelves(n){
@@ -16,7 +17,7 @@ export default function PoetWorks({ poet }) {
                             overlay={overlay}
                             setOverlay={setOverlay}
                             shelfNum={i * 4}
-                            work={poet.works[lang].slice(i * 4, (i + 1) * 4)}
+                            work={poet[lang].slice(i * 4, (i + 1) * 4)}
                         />);
         }
 
@@ -25,8 +26,9 @@ export default function PoetWorks({ poet }) {
 
     return (
         <MainContainer id='Works'>
-            <Gap></Gap>
+            <Gap />
             {renderShelves(shelfNum)}
+            <LowerGap />
         </MainContainer>
     )
 }

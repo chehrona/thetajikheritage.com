@@ -1,7 +1,7 @@
 import { IconButton } from "@mui/material";
 import React from "react";
 import { useEffect } from "react";
-import { useSetLang } from "../../App";
+import { useSetLang } from "../../../App";
 
 import {
     MainContainer,

@@ -1,5 +1,5 @@
 import React from "react";
-import { useSetLang } from "../../App";
+import { useSetLang } from "../../../App";
 
 import { 
     MainContainer,
@@ -9,7 +9,7 @@ export default function PoetBio({ poet }) {
     const { lang } = useSetLang();
 
     return (
-        <MainContainer>
+        <MainContainer id='Biography'>
             {poet?.bio[lang]}
         </MainContainer>
     )

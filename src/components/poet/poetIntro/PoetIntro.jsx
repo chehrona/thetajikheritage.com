@@ -16,7 +16,7 @@ export default function PoetIntro({ poet }) {
     const { lang } = useSetLang();
 
     return (
-        <MainContainer id='Biography'>
+        <MainContainer>
             <div>
                 <SegmentContainer>
                     {poet?.sections[lang].map((piece, i) => {

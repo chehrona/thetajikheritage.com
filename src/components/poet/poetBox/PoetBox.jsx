@@ -1,6 +1,6 @@
 import React from "react";
-import { useSetLang } from "../../App";
-import { poets } from "../../data/poetData";
+import { useSetLang } from "../../../App";
+import { poets } from "../../../data/poetData";
 
 import { PoetBoxContainer, PoetCard, PoetImage, PoetDates, PoetImgContainer, PoetNameBox, PoetName, PoetInfoContainer, StyledLink } from "./poetBoxStyles";
 

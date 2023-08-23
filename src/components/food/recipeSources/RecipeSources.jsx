@@ -13,7 +13,7 @@ import { DropDownContainer,
          RefBox,
          RefIndex
 } from "./recipeSourcesStyles";
-import { useSetLang } from "../../App";
+import { useSetLang } from "../../../App";
 
 export default function RecipeSources({ recipe }) {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);

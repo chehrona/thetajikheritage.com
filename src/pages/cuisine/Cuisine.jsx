@@ -1,4 +1,4 @@
-import RecipeBox from '../../components/recipeBox/RecipeBox';
+import RecipeBox from '../../components/food/recipeBox/RecipeBox';
 import { PageContainer } from './cuisinePageStyles';
 
 function Cuisine() {

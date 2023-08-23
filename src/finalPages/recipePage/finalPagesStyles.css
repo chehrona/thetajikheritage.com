@@ -78,3 +78,8 @@ sub {
     font-style: italic;
     font-size: 1.2rem;
 }
+
+.emptyLine {
+    height: 2rem;
+    width: 100%;
+}

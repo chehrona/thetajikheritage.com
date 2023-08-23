@@ -1,4 +1,3 @@
-import { useSetLang } from '../../App';
 import { PageContainer } from './historyPageStyles';
 
 function History() {

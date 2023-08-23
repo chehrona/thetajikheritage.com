@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import Tooltip from "@mui/material/Tooltip";
-import * as FileSaver from "file-saver";
+import React, { useState, useEffect } from "react";
 
 import {
     Book,
@@ -15,11 +13,36 @@ import {
     ActionIcon,
     CloseWrapper,
     ActionWrapper,
+    Cursor,
+    CursorImg,
 } from "./bookshelfDesignStyles";
 import BookReader from "../bookReader/BookReader";
 
 export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay }) {
     const [openBook, setOpenBook] = useState(false);
+    const [customCursor, setCustomCursor] = useState(false);
+    const [mousePosition, setMousePosition] = useState({
+        x: 0,
+        y: 0
+    });
+
+    const mouseMove = (e) => {
+        setMousePosition({
+            x: e.clientX,
+            y: e.clientY
+        });
+
+        return window.removeEventListener("mousemove", mouseMove);
+    };
+
+    window.addEventListener("mousemove", mouseMove);
+
+    const variants = {
+        default: {
+            x: mousePosition.x,
+            y: mousePosition.y
+        }
+    }
 
     function handleBookAction(e) {
         const bookIndex = e.target.getAttribute("data");
@@ -32,29 +55,33 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
 
     return (
         <section>
-            <MainContainer>
+            <MainContainer
+                onMouseLeave={() => setCustomCursor(false)}
+                onMouseEnter={() => setCustomCursor(true)}
+            >
                 <Cuboid>
                     <CuboidFace />
                 </Cuboid>
             </MainContainer>
             <BooksContainer>
+                {customCursor && 
+                    <Cursor variants={variants} animate="default">
+                        <CursorImg src="/cursor.svg" />
+                    </Cursor>
+                }
                 {work?.map((book, i) => {
                     return (
-                        <Tooltip key={i} title={book.title} placement="top" arrow>
-                            <span>
-                                <BookWrapper>
-                                    <Overlay open={overlay === shelfNum + i}>
-                                        <CloseWrapper>
-                                            <StyledClearIcon onClick={() => setOverlay(null)}/>
-                                        </CloseWrapper>
-                                        <ActionWrapper>
-                                            <ActionIcon src={'/bookIcons/smartphone.png'} onClick={openReader} />
-                                        </ActionWrapper>
-                                    </Overlay>
-                                    <Book data={shelfNum + i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
-                                </BookWrapper>
-                            </span>
-                        </Tooltip>
+                        <BookWrapper key={i}>
+                            <Overlay open={overlay === shelfNum + i}>
+                                <CloseWrapper>
+                                    <StyledClearIcon onClick={() => setOverlay(null)}/>
+                                </CloseWrapper>
+                                <ActionWrapper>
+                                    <ActionIcon src={'/bookIcons/smartphone.png'} onClick={openReader} />
+                                </ActionWrapper>
+                            </Overlay>
+                            <Book data={shelfNum + i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
+                        </BookWrapper>
                     )
                 })}
             </BooksContainer>

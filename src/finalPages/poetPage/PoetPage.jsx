@@ -6,9 +6,10 @@ import { poets } from "../../data/poetData";
 import { 
     PageContainer,
 } from "./poetPageStyles";
-import PoetBio from "../../components/poetBio/PoetBio";
+import PoetBio from "../../components/poet/poetBio/PoetBio";
 import PoetIntro from "../../components/poet/poetIntro/PoetIntro";
-import PoetWorks from "../../components/poetWorks/PoetWorks";
+import PoetWorks from "../../components/poet/poetWorks/PoetWorks";
+import PoetAwards from "../../components/poet/poetAwards/PoetAwards";
 
 export default function PoetPage() {
     const { id } = useParams(),
@@ -19,7 +20,8 @@ export default function PoetPage() {
             <PageContainer>
                 <PoetIntro poet={poet} />
                 <PoetBio poet={poet} />
-                <PoetWorks poet={poet} />
+                <PoetWorks poet={poet.works} />
+                <PoetAwards poet={poet.awards} />
             </PageContainer>
         )
     }
