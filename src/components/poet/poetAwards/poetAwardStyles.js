@@ -34,7 +34,7 @@ export const AwardCard = styled.div`
     align-items: start;
     background-color: transparent;
     perspective: 62.5rem;
-    box-shadow: -1px -0.25rem 0.3rem -0.3rem #0F0A00, 1px -2px 0.3rem -1px #0F0A00, 0rem 0.01rem 0.01rem #0F0A00;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem #0F0A00;
 `;
 
 export const InnerContainer = styled.div`
@@ -96,8 +96,8 @@ export const StyledIconButton = styled(IconButton)`
     width: 3rem;
     height: 3rem;
     bottom: ${({ dialog }) => !dialog && "1rem"};
-    top: ${({ dialog }) => dialog && "0rem"};
-    right: ${({ dialog }) => dialog && "0rem"};
+    top: ${({ dialog }) => dialog && "1.5rem"};
+    right: ${({ dialog }) => dialog && "1.6rem"};
 `;
 
 export const StyledInfoIcon = styled(Info)`
@@ -106,15 +106,18 @@ export const StyledInfoIcon = styled(Info)`
 `;
 
 export const StyledContent = styled(DialogContent)`
-    background: linear-gradient(90deg, rgba(15, 10, 0, 0.90), rgba(15, 10, 0, 0.95), rgba(15, 10, 0, 0.98), rgba(15,10,0,1) 65%);
     border-radius: 2rem;
+    position: relative;
+    padding: 0.001rem;
 `;
 
 export const InfoContainer = styled.div`
     height: 100%;
     width: 100%;
-    position: relative;
     border-radius: 2rem;
+    background: linear-gradient(90deg, rgba(15, 10, 0, 0.90), rgba(15, 10, 0, 0.95), rgba(15, 10, 0, 0.98), rgba(15,10,0,1) 65%);
+    box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
+    padding: 0.5rem;
 `;
 
 export const InfoTitle = styled.div`
@@ -143,11 +146,12 @@ export const Wrapper = styled.div`
 `;
 
 export const AwardImg = styled.img`
-    border: 0.15rem solid #bd9d52;
+    border: 0.08rem solid #bd9d52;
     background: #0F0A00;
     border-radius: 1rem;
     height: 15rem;
     width: 11rem;
     padding: 1rem;
-    box-shadow: -1px -0.25rem 0.3rem -0.3rem #000, 1px -2px 0.3rem -1px #000, 0rem 0.05rem 0.01rem #000;
+    box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
+    background-image: url(${'/noise.png'});
 `;
