@@ -106,7 +106,8 @@ export const StyledIconButton = styled(IconButton)`
 
 export const StyledInfoIcon = styled(Info)`
     color: #ffffff;
-    height: 2rem !important;
+    height: 2.3rem !important;
+    width: 2.3rem !important;
 `;
 
 export const StyledContent = styled(DialogContent)`

@@ -81,6 +81,11 @@ export default function PoetAwards({ poet }) {
                       boxShadow: 'none',
                     },
                 }}
+                BackdropProps={{
+                    style: {
+                        opacity: '0.5',
+                    },
+                }}
             >
                 <StyledContent>
                     <InfoContainer>
