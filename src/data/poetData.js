@@ -153,7 +153,7 @@ module.exports.poets = [
                             ӯ бо 50 000 рубли шӯравӣ (~USD 160,000-и ҳозира) мукофотонида шудааст.`
                     },
                     {
-                        title: "Ордени Байрақи Сурхи Меҳнат", years: [""], img: "/poetImages/ayni/labor.jpeg", 
+                        title: "Ордени Байрақи Сурхи Меҳнат", years: [""], img: "/poetImages/ayni/labor.png", 
                         desc: `Ҷоизаи умумишаҳрвандии Иттиҳоди Шӯравӣ ба онҳое, ки ба давлат ва ҷамъият дар соҳаи истеҳсолот, илм, 
                             маданият, адабиёт, санъат, маориф, нигаҳдории тандурустй ва дигар соҳаҳои фаъолияти меҳнатӣ хизматҳои 
                             бузург кардаанд, дода мешуд.
@@ -199,7 +199,7 @@ module.exports.poets = [
                             соответственно награды второй степени.`
                     },
                     {
-                        title: "Орден Трудового Красного Знамени", years: [""], img: "/poetImages/ayni/labor.jpeg", 
+                        title: "Орден Трудового Красного Знамени", years: [""], img: "/poetImages/ayni/labor.png", 
                         desc: `Общегражданская награда Советского Союза вручался за заслуги государству и обществу в области производства, 
                             науки, культуры, литературы, искусства, образования, здравоохранения и других областей трудовой деятельности.
                             <div class='emptyLine'></div>
@@ -243,7 +243,7 @@ module.exports.poets = [
                             соответственно степени награды.`
                     },
                     {
-                        title: "Орден Трудового Красного Знамени", years: [""], img: "/poetImages/ayni/labor.jpeg", 
+                        title: "Орден Трудового Красного Знамени", years: [""], img: "/poetImages/ayni/labor.png", 
                         desc: `Общегражданская награда Советского Союза вручался за заслуги государству и обществу в области производства, 
                             науки, культуры, литературы, искусства, образования, здравоохранения и других областей трудовой деятельности.
                             <div class='emptyLine'></div>
@@ -277,17 +277,17 @@ module.exports.poets = [
                             Ayni was awarded this order three times, but information about only one of them (from 1941) is available in open databases.`
                     },
                     {
-                        title: "Сталинская премия",
+                        title: "Stalin Prize",
                         years: ["1950"], img: "/poetImages/ayni/stalin.png", 
-                        desc: `Высшая государственная награда СССР, удостоевомая за выдающиеся достижения и заслуги в области 
-                            науки и техники, военного дела, литературы и искусства в 1940-1955 годах.
+                        desc: `The highest state award of the USSR, given between 1940-1955 for outstanding achievements and merits in science and 
+                            technology, military affairs, literature and art.
                             <div class='emptyLine'></div>
-                            Эта награда была вручена Айни в 1950 году за вклад в советскую литературу - направление художественная проза, 
-                            за книгу "Воспоминания". Помимо ордена он был награжден 50 000 советских рублей (~160 000 долларов сегодня) 
-                            соответственно награды второй степени.`
+                            In 1950, Ayni received this order for his contribution to Soviet literature (in fiction) for his book - "Memoirs". 
+                            The acknowledgment came with a prize of 50,000 Soviet rubles (~$160,000 today) – a recognition commensurate 
+                            with second-degree honors.`
                     },
                     {
-                        title: "Order of the Red Banner of Labor", years: [""], img: "/poetImages/ayni/labor.jpeg", 
+                        title: "Order of the Red Banner of Labor", years: [""], img: "/poetImages/ayni/labor.png", 
                         desc: `The general civil honor of the Soviet Union awarded for meritorious services to the state and society in 
                             the field of production, science, culture, literature, art, education, health care and other occupational fields.
                             <div class='emptyLine'></div>
@@ -295,20 +295,20 @@ module.exports.poets = [
                     },
                     {
                         title: "Hero of Tajikistan", years: ["1997"], img: "/poetImages/ayni/hero.png", 
-                        desc: `Высшее государственное звание Республики Таджикистан присуждаемое за заслуги перед государством и народом, 
-                            за воинский и трудовой героизм во имя свободы, независимости и развития Таджикистана.
+                        desc: `The highest state title of the Republic of Tajikistan awarded for services to the state and people, for 
+                            military and labor heroism in the name of freedom, independence and development of Tajikistan.
                             <div class='emptyLine'></div>
-                            Эту высокую честь он удостоился за заслуги в создании Советской Социалистической Республики Таджикистан и 
-                            за книги, освещающие национальную идентичность таджиков. В частности, его книга «Образцы таджикской литературы» 
-                            является показателем древней истории и культуры таджикского народа.`
+                            He was awarded for his merits in the creation of the Soviet Socialist Republic of Tajikistan 
+                            and for his books bringing together the Tajik national identity. In particular, his book “Samples of Tajik Literature” 
+                            served as a witness to the ancient history and culture of the Tajik people.`
                     },
                     {
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/uzbek.png",
-                        desc: `Орденом "За выдающиеся заслуги" награждаются граждане Республики Узбекистан и граждане иностранных государств за выдающиеся заслуги
-                            в развитии науки и техники, экономики и культуры, ценный вклад в развитие межгосударственного сотрудничества 
-                            и реализацию отечественных и зарубежных планов.
+                        desc: `The "Order of Outstanding Merit" is awarded to citizens of the Republic of Uzbekistan and citizens of 
+                            foreign countries for outstanding achievements in the development of science and technology, economy and culture, 
+                            a valuable contribution to the promotion of interstate cooperation and the implementation of domestic and foreign plans.
                             <div class='emptyLine'></div>
-                            С. Айни был награждён за вклад в узбекскую литературу.`
+                            S. Ayni was awarded for his contribution to Uzbek literature.`
                     },
                 ],
         }

@@ -6,10 +6,8 @@ import {
     MainContainer,
     AwardCard,
     Title, 
-    Subtitle,
     Image,
     Desc,
-    Gap,
     InnerContainer,
     Face,
     Year,
@@ -46,7 +44,6 @@ export default function PoetAwards({ poet }) {
 
     return (
         <MainContainer id="Awards">
-            <Gap />
             {poet[lang].map((award, i) => {
                 return (
                     <AwardCard key={i}>
@@ -56,7 +53,6 @@ export default function PoetAwards({ poet }) {
                             </Face>
                             <Face back={true}>
                                 <Title>{award.title}</Title>
-                                <Subtitle>{award.subtitle}</Subtitle>
                                 {award.years.map((year) => {
                                     return (
                                         <Year>{year}</Year>

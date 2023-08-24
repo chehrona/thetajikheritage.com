@@ -38,7 +38,7 @@ export default function SideNav() {
                     <StyledIcon src={mailIcon} rad={false} hovered={emailHovered}/>
                 </StyledIconButton>
             </a>
-            {/* <Divider /> */}
+            <Divider />
         </SideNavContainer>
     )
 }

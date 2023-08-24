@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSetLang } from "../../../App";
 import BookshelfDesign from "../bookshelfDesign/BookshelfDesign";
-import { Gap, LowerGap, MainContainer } from "./poetWorksStyles";
+import { MainContainer } from "./poetWorksStyles";
 
 export default function PoetWorks({ poet }) {
     const { lang } = useSetLang();
@@ -26,9 +26,7 @@ export default function PoetWorks({ poet }) {
 
     return (
         <MainContainer id='Works'>
-            <Gap />
             {renderShelves(shelfNum)}
-            <LowerGap />
         </MainContainer>
     )
 }

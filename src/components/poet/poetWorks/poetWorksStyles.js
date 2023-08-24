@@ -5,6 +5,8 @@ export const MainContainer = styled.div`
     color: white;
     position: relative;
     background-image: url(${'/noise.png'});
+    padding-bottom: 7.5rem;
+    padding-top: 6rem;
 
     &:before {
         content: "";
@@ -18,12 +20,4 @@ export const MainContainer = styled.div`
         top: 0rem;
         box-sizing: border-box;
     }
-`;
-
-export const Gap = styled.div`
-    height: 6rem;
-`;
-
-export const LowerGap = styled.div`
-    height: 6.5rem;
 `;

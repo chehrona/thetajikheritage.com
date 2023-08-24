@@ -10,6 +10,8 @@ export const MainContainer = styled.div`
     display: flex;
     justify-content: space-between;
     padding-bottom: 3rem;
+    padding-top: 2rem;
+    border-radius: 0rem 0rem 4rem 4rem;
 
     &:before {
         content: "";
@@ -26,8 +28,8 @@ export const MainContainer = styled.div`
 `;
 
 export const AwardCard = styled.div`
-    width: 9rem;
-    height: 13rem;
+    width: 10rem;
+    height: 14.1rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
@@ -35,6 +37,14 @@ export const AwardCard = styled.div`
     background-color: transparent;
     perspective: 62.5rem;
     box-shadow: 0rem 0rem 0.5rem 0.1rem #0F0A00;
+
+    &&&:first-child {
+        margin-left: 3rem;
+    }
+
+    &&&:last-child {
+        margin-right: 3rem;
+    }
 `;
 
 export const InnerContainer = styled.div`
@@ -59,21 +69,17 @@ export const Face = styled.div`
     transform: ${({ back }) => back && "rotateY(180deg)"};
     background: ${({ back }) => back ? "#504221d1" : "#0F0A00"};
     border-radius: 1rem;
+    padding: 0.8rem;
 `;
 
 export const Title = styled.div`
     text-align: center;
-    margin: 0.5rem;
-`;
-
-export const Subtitle = styled.div`
-    text-align: center;
-    margin: 0.5rem;
+    font-size: 1.2rem;
 `;
 
 export const Image = styled.img`
-    width: 5.5rem;
-    height: 9.2rem;
+    width: 100%;
+    height: 100%;
 `;
 
 export const Desc = styled.div`
@@ -81,10 +87,6 @@ export const Desc = styled.div`
     height: 100%;
     color: #dedbdb;
     line-height: 1.5rem;
-`;
-
-export const Gap = styled.div`
-    height: 10rem;
 `;
 
 export const Year = styled.div`
@@ -98,6 +100,8 @@ export const StyledIconButton = styled(IconButton)`
     bottom: ${({ dialog }) => !dialog && "1rem"};
     top: ${({ dialog }) => dialog && "1.5rem"};
     right: ${({ dialog }) => dialog && "1.6rem"};
+    left: ${({ dialog }) => !dialog && "50%"};
+    transform: ${({ dialog }) => !dialog && "translateX(-50%)"};
 `;
 
 export const StyledInfoIcon = styled(Info)`
@@ -131,8 +135,8 @@ export const InfoTitle = styled.div`
 
 export const StyledCloseIcon = styled(Close)`
     color: #bd9d52;
-    width: 3.5rem !important;
-    height: 2.5rem !important;
+    width: 3rem !important;
+    height: 2rem !important;
 `;
 
 export const BodyContainer = styled.div`

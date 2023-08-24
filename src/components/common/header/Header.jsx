@@ -25,7 +25,7 @@ export default function Header() {
     return (
         <HeaderContainer>
             <LogoWrapper>
-                <StyledLink to={'/'}>
+                <StyledLink to={'/'} onClick={() => setIsMenuShown(false)}>
                     <Logo src={'/tajiks.png'}></Logo>
                 </StyledLink>
             </LogoWrapper>
