@@ -197,6 +197,14 @@ module.exports.poets = [
                             открытых базах данных.`
                     },
                     {
+                        title: "Почетный Доктор ЛГУ", years: ["1948"], img: "/poetImages/ayni/phd.png", 
+                        desc: `Звание «Почетный Доктор ЛГУ (СПбГУ)» присваивается выдающимся деятелям науки, образования и культуры, 
+                            государственным и общественным деятелям, внесшим вклад в развитие международного научного, культурного, 
+                            экономического и политического сотрудничества.
+                            <div class='emptyLine'></div>
+                            Приказом учёного совета этого университета писателю было присвоено звание доктора филологических наук.`
+                    },
+                    {
                         title: "Сталинская премия",
                         years: ["1950"], img: "/poetImages/ayni/stalin.png", 
                         desc: `Высшая государственная награда СССР, удостоевомая за выдающиеся достижения и заслуги в области 
@@ -283,6 +291,14 @@ module.exports.poets = [
                             strengthening of peace in the Soviet state and society.
                             <div class='emptyLine'></div>
                             Ayni was awarded this order three times, but information about only one of them (from 1941) is available in open databases.`
+                    },
+                    {
+                        title: "Honorary doctorate from LSU", years: ["1948"], img: "/poetImages/ayni/phd.png", 
+                        desc: `The title of "Honorary Doctor of Leningrad State University (St. Petersburg State University)" is awarded to outstanding 
+                            figures in science, education and culture, statesmen and public figures who have contributed to the development of international 
+                            scientific, cultural, economic and political cooperation.
+                            <div class='emptyLine'></div>
+                            By order of the Board of Directors, the writer was awarded the Doctor of Philology degree.`
                     },
                     {
                         title: "Stalin Prize",
