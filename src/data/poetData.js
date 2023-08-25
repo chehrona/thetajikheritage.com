@@ -103,7 +103,7 @@ module.exports.poets = [
                     {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
                     {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"},
                     {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "https://tinyurl.com/bdepufsz"}, 
-                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "https://tinyurl.com/6paku6hr"},
+                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "https://tinyurl.com/mv55abdx"},
                     {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
                     {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png"},
@@ -140,6 +140,10 @@ module.exports.poets = [
                             <div class='emptyLine'></div>
                             Айнӣ се бор сазовори ин орден гаштааст, аммо маълумот танҳо дар бораи яктои онҳо (соли 1941) 
                             дар базаҳои кушод мавҷуд аст.`
+                    },
+                    {
+                        title: "Академики фахрии АФҶШСӮз", years: ["1943"], img: "/poetImages/ayni/academy.png", 
+                        desc: `С. Айнӣ соли 1943 аъзои фахрии Академияи Фанҳои Ҷумҳурии Шӯравии Сотсиалистии Ӯзбекистон гардид.`
                     },
                     {
                         title: "Доктори фахрии ДДЛ", years: ["1948"], img: "/poetImages/ayni/phd.png", 
@@ -195,6 +199,10 @@ module.exports.poets = [
                             <div class='emptyLine'></div>
                             Айни был награжден этим орденом трижды, но информация только об одном из них (1941 года) имеется в 
                             открытых базах данных.`
+                    },
+                    {
+                        title: "Почётный академик АНУзССР", years: ["1943"], img: "/poetImages/ayni/academy.png", 
+                        desc: `В 1943 году С. Айни стал почётным членом Академии наук Узбекской ССР.`
                     },
                     {
                         title: "Почетный Доктор ЛГУ", years: ["1948"], img: "/poetImages/ayni/phd.png", 
@@ -292,6 +300,10 @@ module.exports.poets = [
                             strengthening of peace in the Soviet state and society.
                             <div class='emptyLine'></div>
                             Ayni was awarded this order three times, but information about only one of them (from 1941) is available in open databases.`
+                    },
+                    {
+                        title: "Honorary Academician of the ASUzSSR", years: ["1943"], img: "/poetImages/ayni/academy.png", 
+                        desc: `In 1943, Ayni became an honorary member of the Academy of Sciences of the Uzbek Soviet Socialist Republic.`
                     },
                     {
                         title: "Honorary doctorate from LSU", years: ["1948"], img: "/poetImages/ayni/phd.png", 
