@@ -118,7 +118,7 @@ module.exports.poets = [
                     {title: "Марги судхӯр", cover: "/bookCovers/ayni/tjUsurer.png", link: 'https://tinyurl.com/mr4asxev'},
                     {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
                     {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёт", cover: "/bookCovers/ayni/tjComplete.png"}, 
-                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "https://tinyurl.com/5n9x3mep"},
+                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "https://tinyurl.com/5n6avuv9"},
                     {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "https://tinyurl.com/28yrb4rw"}
                 ],
             kh: [
@@ -198,7 +198,8 @@ module.exports.poets = [
                     },
                     {
                         title: "Почетный Доктор ЛГУ", years: ["1948"], img: "/poetImages/ayni/phd.png", 
-                        desc: `Звание «Почетный Доктор Ленинградского Государственного Университета (СПбГУ)» присваивается выдающимся деятелям науки, образования и культуры, 
+                        desc: `Звание «Почетный Доктор Ленинградского Государственного Университета (СПбГУ)» присваивается 
+                            выдающимся деятелям науки, образования и культуры, 
                             государственным и общественным деятелям, внесшим вклад в развитие международного научного, культурного, 
                             экономического и политического сотрудничества.
                             <div class='emptyLine'></div>
