@@ -118,7 +118,7 @@ module.exports.poets = [
                     {title: "Марги судхӯр", cover: "/bookCovers/ayni/tjUsurer.png", link: 'https://tinyurl.com/mr4asxev'},
                     {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
                     {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёт", cover: "/bookCovers/ayni/tjComplete.png"}, 
-                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "https://tinyurl.com/2kpdsmt3"},
+                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "https://tinyurl.com/5n9x3mep"},
                     {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "https://tinyurl.com/28yrb4rw"}
                 ],
             kh: [
