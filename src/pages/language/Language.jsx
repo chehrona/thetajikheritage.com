@@ -1,10 +1,10 @@
-import PoetBox from '../../components/poet/poetBox/PoetBox';
+import PoetCard from '../../components/poet/poetCard/PoetCard';
 import { PageContainer } from './languagePageStyles';
 
 function Language() {
   return (
     <PageContainer>
-        <PoetBox />
+        <PoetCard />
     </PageContainer>
   );
 }

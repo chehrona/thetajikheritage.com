@@ -1,32 +1,19 @@
 import React, { useState } from "react";
 import { useSetLang } from "../../../App";
-import { Zoom, Dialog } from '@mui/material';
+
+import AwardDialog from "../awardDialog/AwardDialog";
 
 import {
     MainContainer,
     AwardCard,
     Title, 
     Image,
-    Desc,
     InnerContainer,
     Face,
     Year,
     StyledIconButton,
     StyledInfoIcon,
-    InfoContainer,
-    StyledContent,
-    InfoTitle,
-    StyledCloseIcon,
-    BodyContainer,
-    AwardImg,
-    Wrapper
 } from "./poetAwardStyles";
-
-const Transition = ({ children, ...props }) => (
-    <Zoom {...props}>
-      {children}
-    </Zoom>
-);
 
 export default function PoetAwards({ poet }) {
     const { lang } = useSetLang();
@@ -38,12 +25,8 @@ export default function PoetAwards({ poet }) {
         setAwardInfo(award)
     }
 
-    function handleClose() {
-        setShowAwardInfo(false);
-    }
-
     return (
-        <MainContainer id="Awards">
+        <MainContainer id="awards">
             {poet[lang].map((award, i) => {
                 return (
                     <AwardCard key={i}>
@@ -66,44 +49,7 @@ export default function PoetAwards({ poet }) {
                     </AwardCard>
                 )})
             }
-            <Dialog
-                open={showAwardInfo}
-                fullWidth
-                maxWidth={"md"}
-                TransitionComponent={Transition}
-                TransitionProps={{
-                    in: showAwardInfo,
-                    easing: {enter: "linear", exit: "linear"}
-                }}
-                PaperProps={{
-                    style: {
-                      backgroundColor: 'transparent',
-                      boxShadow: 'none',
-                    },
-                }}
-                BackdropProps={{
-                    style: {
-                        opacity: '0.5',
-                    },
-                }}
-            >
-                <StyledContent>
-                    <InfoContainer>
-                        <InfoTitle>{awardInfo?.title}</InfoTitle>
-                        <StyledIconButton dialog={true} onClick={handleClose}>
-                            <StyledCloseIcon />
-                        </StyledIconButton>
-                        <BodyContainer>
-                            <Wrapper first={true}>
-                                <AwardImg src={awardInfo?.img} />
-                            </Wrapper>
-                            <Wrapper>
-                                <Desc dangerouslySetInnerHTML={{__html: awardInfo?.desc}} />
-                            </Wrapper>
-                        </BodyContainer>
-                    </InfoContainer>
-                </StyledContent>
-            </Dialog>
+            <AwardDialog awardInfo={awardInfo} showAwardInfo={showAwardInfo} setShowAwardInfo={setShowAwardInfo} />
         </MainContainer>
     )
 }

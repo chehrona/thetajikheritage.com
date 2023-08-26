@@ -9,7 +9,7 @@ export default function PoetBio({ poet }) {
     const { lang } = useSetLang();
 
     return (
-        <MainContainer id='Biography'>
+        <MainContainer id='biography'>
             {poet?.bio[lang]}
         </MainContainer>
     )

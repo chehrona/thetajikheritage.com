@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Info, Close } from "@mui/icons-material";
-import { IconButton, DialogContent } from "@mui/material";
+import { Info } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
 
 export const MainContainer = styled.div`
     background: #fcf6e9;
@@ -68,6 +68,7 @@ export const Face = styled.div`
     backface-visibility: hidden;
     transform: ${({ back }) => back && "rotateY(180deg)"};
     background: ${({ back }) => back ? "#504221d1" : "#0F0A00"};
+    background-image: ${({ back }) => back && "url(${'/noise.png'})"};
     border-radius: 1rem;
     padding: 0.8rem;
 `;
@@ -82,13 +83,6 @@ export const Image = styled.img`
     height: 100%;
 `;
 
-export const Desc = styled.div`
-    width: 100%;
-    height: 100%;
-    color: #dedbdb;
-    line-height: 1.5rem;
-`;
-
 export const Year = styled.div`
     font-size: 3rem;
 `;
@@ -97,66 +91,13 @@ export const StyledIconButton = styled(IconButton)`
     position: absolute !important;
     width: 3rem;
     height: 3rem;
-    bottom: ${({ dialog }) => !dialog && "1rem"};
-    top: ${({ dialog }) => dialog && "1.5rem"};
-    right: ${({ dialog }) => dialog && "1.6rem"};
-    left: ${({ dialog }) => !dialog && "50%"};
-    transform: ${({ dialog }) => !dialog && "translateX(-50%)"};
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
 `;
 
 export const StyledInfoIcon = styled(Info)`
     color: #ffffff;
     height: 2.3rem !important;
     width: 2.3rem !important;
-`;
-
-export const StyledContent = styled(DialogContent)`
-    border-radius: 2rem;
-    position: relative;
-    padding: 0.001rem;
-`;
-
-export const InfoContainer = styled.div`
-    height: 100%;
-    width: 100%;
-    border-radius: 2rem;
-    background: linear-gradient(90deg, rgba(15, 10, 0, 0.90), rgba(15, 10, 0, 0.95), rgba(15, 10, 0, 0.98), rgba(15,10,0,1) 65%);
-    box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
-    padding: 0.5rem;
-`;
-
-export const InfoTitle = styled.div`
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    font-style: italic;
-    font-size: 2rem;
-    font-family: 'EB Garamond', serif;
-`;
-
-export const StyledCloseIcon = styled(Close)`
-    color: #bd9d52;
-    width: 3rem !important;
-    height: 2rem !important;
-`;
-
-export const BodyContainer = styled.div`
-    display: flex;
-    margin: 1rem;
-`;
-
-export const Wrapper = styled.div`
-    width: ${({ first }) => first ? "25%" : "75%"};
-    height: 100%;
-`;
-
-export const AwardImg = styled.img`
-    border: 0.08rem solid #bd9d52;
-    background: #0F0A00;
-    border-radius: 1rem;
-    height: 15rem;
-    width: 11rem;
-    padding: 1rem;
-    box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
-    background-image: url(${'/noise.png'});
 `;

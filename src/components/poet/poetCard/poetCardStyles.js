@@ -9,7 +9,7 @@ export const PoetBoxContainer = styled.div`
     justify-content: space-between;
 `;
 
-export const PoetCard = styled.div`
+export const PoetCardWrapper = styled.div`
     border-radius: 0.7rem;
     margin-bottom: 7rem;
     height: 35rem;

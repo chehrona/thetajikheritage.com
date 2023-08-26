@@ -93,7 +93,7 @@ module.exports.poets = [
                     {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "A History of the Bukhara Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
                     {title: "The Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png"}, {title: "Odina", cover: "/bookCovers/ayni/usOdina.png"}, 
                     {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
-                    {title: "The Usurer’s Death", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
+                    {title: "Death of the Moneylender", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
                     {title: "Reminiscences", cover: "/bookCovers/ayni/usMemoirs.png"}, {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.png"},
                     {title: "Old School", cover: "/bookCovers/ayni/usOld.png", link: ""},
                     {title: "Ahmad: The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.png", link: ""},
@@ -129,6 +129,23 @@ module.exports.poets = [
                     {title: "یادداشت ها", cover: "/bookCovers/ayni/khMemoirs.png"}, {title: "کولیوت", cover: "/bookCovers/ayni/khHistory.png"}, 
                     {title: "مکتبی کهنه", cover: ""}
                 ]
+        },
+        movies: {
+            tj: [
+                    {
+                        title: 'Марги судхӯр', studio: "/poetMovies/ayni/tjFilm.png",
+                        img: "/poetMovies/ayni/moneylender.png",
+                        genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
+            ],
+            ru: [
+                {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.png", genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
+            ],
+            kh: [
+                {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.png", genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
+            ],
+            us: [
+                {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.png", genre: "Drama", year: "1967", link: "7M_li8nLgK4", desc: ""}
+            ],
         },
         awards: {
             tj: [

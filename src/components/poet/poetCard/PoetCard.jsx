@@ -2,17 +2,27 @@ import React from "react";
 import { useSetLang } from "../../../App";
 import { poets } from "../../../data/poetData";
 
-import { PoetBoxContainer, PoetCard, PoetImage, PoetDates, PoetImgContainer, PoetNameBox, PoetName, PoetInfoContainer, StyledLink } from "./poetBoxStyles";
+import {
+    PoetBoxContainer,
+    PoetCardWrapper,
+    PoetImage,
+    PoetDates,
+    PoetImgContainer,
+    PoetNameBox,
+    PoetName,
+    PoetInfoContainer,
+    StyledLink
+} from "./poetCardStyles";
 
 
-export default function PoetBox() {
+export default function PoetCard() {
     const { lang } = useSetLang();
     return (
         <PoetBoxContainer>
             {poets?.map((poet, i) => {
                 return (
                     <StyledLink to={"/language" + poet?.link}>
-                        <PoetCard key={i}>
+                        <PoetCardWrapper key={i}>
                             <PoetImgContainer>
                                 <PoetImage src={poet?.img[0]} />
                                 <PoetNameBox>
@@ -22,7 +32,7 @@ export default function PoetBox() {
                                 </PoetNameBox>
                             </PoetImgContainer>
                             <PoetInfoContainer>{poet?.desc[lang]}</PoetInfoContainer>
-                        </PoetCard>
+                        </PoetCardWrapper>
                     </StyledLink>
                 )
             })}
