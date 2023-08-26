@@ -17,8 +17,10 @@ import {
     StyledPlayIcon,
     Line,
     Direction,
-    DirBox
+    DirBox,
+    StyledFrame
 } from "./movieDialogStyles";
+import { useSetLang } from "../../../App";
 
 const Transition = ({ children, ...props }) => (
     <Zoom {...props}>
@@ -26,14 +28,20 @@ const Transition = ({ children, ...props }) => (
     </Zoom>
 );
 
+const ContentTransition = ({ children, ...props }) => (
+    <Slide direction="left" {...props}>
+      {children}
+    </Slide>
+)
+
 export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo }) {
     const [showVideo, setShowVideo] = useState(false);
+    const { lang } = useSetLang();
 
-    const ContentTransition = ({ children, ...props }) => (
-        <Slide direction="left" in={showVideo} {...props}>
-          {children}
-        </Slide>
-    )
+    function handleClose() {
+        setShowMovieInfo(false);
+        setShowVideo(false);
+    }
 
     return (
         <Dialog
@@ -62,8 +70,24 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
         >
             <StyledContent
                 Transition={ContentTransition}
+                TransitionProps={{
+                    in: showVideo,
+                    easing: {enter: "linear", exit: "linear"}
+                }}
             >
                 {showVideo ? (
+                    <InfoContainer>
+                        <StyledIconButton onClick={handleClose}>
+                            <StyledCloseIcon />
+                        </StyledIconButton>
+                        <StyledFrame
+                            src={`https://www.youtube.com/embed/${movieInfo?.link}?rel=0`} 
+                            fullWidth
+                            allowFullScreen
+                            frameBorder="0"
+                        />
+                    </InfoContainer>
+                ) : (
                     <InfoContainer>
                         <InnerBox>
                             <StudioName src={movieInfo?.studio}></StudioName>
@@ -75,7 +99,9 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                                 <InfoWrapper>{movieInfo?.duration}</InfoWrapper>
                             </ReleaseInfo>
                             <Desc>{movieInfo?.desc}</Desc>
-                            <Director>Director</Director>
+                            <Director>
+                                {lang === 'us' ? 'Director' : 'Режиссёр'}
+                            </Director>
                             <div>{movieInfo?.director}</div>
                         </InnerBox>
                         <InnerBox width={true}>
@@ -89,11 +115,11 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                         </StyledIconButton>
                         <DirBox>    
                             <Line />
-                            <Direction>Watch now</Direction>
+                            <Direction>
+                                {lang === 'ru' ? 'Смотреть' : (lang === 'tj' ? 'Тамошо' : 'Watch now')}
+                            </Direction>
                         </DirBox>
                     </InfoContainer>
-                ) : (
-                    <div>Hello</div>
                 )}
             </StyledContent>
         </Dialog>

@@ -119,7 +119,7 @@ export const Director = styled.div`
 export const DirBox = styled.div`
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: start;
     position: absolute;
     right: 4.65%;
     top: 23.44%;
@@ -137,4 +137,12 @@ export const Direction = styled.div`
     font-size: 1rem;
     color: #fcf6e9;
     font-family: 'EB Garamond', serif;
+`;
+
+export const StyledFrame = styled.iframe`
+    width: 100%;
+    border-radius: 2rem;
+    padding: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 `;

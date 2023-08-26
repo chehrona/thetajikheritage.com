@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components/macro";
+import styled, { keyframes } from "styled-components";
 import { Clear } from "@mui/icons-material";
 import { motion}  from "framer-motion";
 

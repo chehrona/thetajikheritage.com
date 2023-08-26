@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components/macro";
+import styled, { keyframes } from "styled-components";
 import { IconButton } from "@mui/material";
 import { ChevronRight } from "@mui/icons-material";
 

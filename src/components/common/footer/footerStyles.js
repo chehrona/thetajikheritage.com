@@ -1,5 +1,5 @@
 import { Copyright } from "@mui/icons-material";
-import styled from "styled-components/macro";
+import styled from "styled-components";
 
 
 export const FooterContainer = styled.div`
