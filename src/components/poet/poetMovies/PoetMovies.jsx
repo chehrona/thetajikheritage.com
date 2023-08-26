@@ -26,7 +26,11 @@ export default function PoetMovies({ poet }) {
                     </MovieCard>
                 )})
             }
-            <MovieDialog movieInfo={movieInfo} showMovieInfo={showMovieInfo} setShowMovieInfo={setShowMovieInfo} />
+            <MovieDialog
+                movieInfo={movieInfo}
+                showMovieInfo={showMovieInfo}
+                setShowMovieInfo={setShowMovieInfo}
+            />
         </MainContainer>
     );
 }

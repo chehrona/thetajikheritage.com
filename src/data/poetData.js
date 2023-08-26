@@ -134,18 +134,42 @@ module.exports.poets = [
             tj: [
                     {
                         title: 'Марги судхӯр', studio: "/poetMovies/ayni/tjFilm.png",
-                        img: "/poetMovies/ayni/moneylender.png",
-                        genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
-            ],
+                        img: "/poetMovies/ayni/moneylender.png", duration: "1с 25дақ",
+                        genre: "Драма", year: "1966", link: "7M_li8nLgK4", 
+                        desc: "Қиссаи Кори Ишкамбаро дар қалби Бухоро пайгирӣ кунед, ки ӯ дар ҷаҳони фиребу истисмор ва фирорҳои аҷиб моҳирона паймоиш мекунад. Ҳарчанд ӯ дар давраи бесарусомонии Ҷанги Якуми Ҷаҳонӣ ба воя мерасид, вақте ки торҳои манипуляцияи ӯ кушода мешавад, сарнавишти ӯ як гардиши сахт мегирад. Дар мутобикати ҷолиби романи Садриддин Айнӣ, филм тавозуни ҷолиби шавқовар ва ҷиддии худро нигоҳ дошт.",
+                        director: "Тоҳир Собиров"
+                    }
+                ],
             ru: [
-                {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.png", genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
-            ],
+                    {
+                        title: 'Смерть ростовщика', studio: "/poetMovies/ayni/tjFilm.png",
+                        img: "/poetMovies/ayni/moneylender.png", duration: "1ч 25мин",
+                        genre: "Драма", year: "1966", link: "7M_li8nLgK4", lang: "Русский",
+                        desc: `Проследите за историей Кори-Ишкамбы в самом сердце Бухары, где 
+                            он умело перемещается по миру обмана, эксплуатации и захватывающих побегов. 
+                            Несмотря на то, что он процветал во время хаоса Первой мировой войны, его судьба 
+                            принимает мрачный оборот, когда его паутина манипуляций распадается. В захватывающей 
+                            адаптации романа Садриддина Айни фильм сохранил большую часть ловкого баланса 
+                            веселья и серьёзности.`,
+                        director: "Тахир Сабиров"
+                    }
+                ],
             kh: [
                 {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.png", genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
             ],
             us: [
-                {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.png", genre: "Drama", year: "1967", link: "7M_li8nLgK4", desc: ""}
-            ],
+                    {
+                        title: 'Death of a Money Lender', studio: "/poetMovies/ayni/tjFilm.png",
+                        img: "/poetMovies/ayni/moneylender.png", duration: "1hr 25min",
+                        genre: "Drama", year: "1966", link: "7M_li8nLgK4", lang: "Russian",
+                        desc: `Follow Qori-Ishkamba's story to the heart of Bukhara, as he masterfully navigates the world of deception, 
+                            exploitation and thrilling escapes. Although thriving during the chaos of WWI, his fate takes a dark turn 
+                            as his web of manipulation unravels. 
+                            The movie preserved much of the captivating balance of amusement and seriousness in its gripping adaptation 
+                            of Sadriddin Ayni's novel.`,
+                        director: "Tohir Sobirov"
+                    }
+                ]
         },
         awards: {
             tj: [

@@ -1,60 +1,66 @@
 import styled from "styled-components";
-import { Info, Close } from "@mui/icons-material";
+import { Close, PlayArrow } from "@mui/icons-material";
 import { IconButton, DialogContent } from "@mui/material";
 
 export const Desc = styled.div`
     width: 100%;
-    height: 100%;
-    color: #dedbdb;
     line-height: 1.5rem;
+    text-align: justify;
+    margin-top: 1.5rem;
+    padding-right: 28%;
 `;
 
 export const StyledIconButton = styled(IconButton)`
     position: absolute !important;
-    width: 3rem;
-    height: 3rem;
-    top: 1.5rem;
-    right: 1.6rem;
-`;
+    width: ${({ play }) => play ? "5.5rem" : "3rem"};
+    height: ${({ play }) => play ? "5.5rem" : "3rem"};
+    top: ${({ play }) => play ? "7rem" : "1.5rem"};
+    background: ${({ play }) => play && "#504221d1 !important"};
+    right: ${({ play }) => play ? "16%" : "1.6rem"};
 
-export const StyledInfoIcon = styled(Info)`
-    color: #ffffff;
-    height: 2.3rem !important;
-    width: 2.3rem !important;
+    &:hover {
+        background: ${({ play }) => play && "#504221 !important"};
+    }
 `;
 
 export const StyledContent = styled(DialogContent)`
     border-radius: 2rem;
     position: relative;
     padding: 0.001rem;
+    height: 20rem;
+    color: #0F0A00;
 `;
 
 export const InfoContainer = styled.div`
     height: 100%;
-    width: 100%;
     border-radius: 2rem;
     background: #0F0A00;
     box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
-    padding: 0.5rem;
     display: flex;
 `;
 
 export const InnerBox = styled.div`
-    width: ${({ width }) => width ? "20%" : "80%"};
+    width: ${({ width }) => width ? "32%" : "68%"};
+    background: ${({ width }) => width ? "#0F0A00" : "#fcf6e9"};
+    position: ${({ width }) => width && "relative"};
+    border-radius: ${({ width }) => width ? "0rem 2.01rem 2.01rem 0rem" : "2.01rem 0rem 0rem 2.01rem"};
+    padding: 2rem;
 `;
 
 export const StudioName = styled.img`
     height: 3rem;
-    width: 7rem;
+    width: 5rem;
 `;
 
 export const InfoTitle = styled.div`
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    font-style: italic;
-    font-size: 2rem;
+    overflow-wrap: break-word;
+    font-style: bold;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    width: 30rem;
+    margin-top: -0.8rem;
     font-family: 'EB Garamond', serif;
+    text-shadow: 0.0625rem 0.0625rem 0.1875rem #504221e6;
 `;
 
 export const StyledCloseIcon = styled(Close)`
@@ -63,23 +69,72 @@ export const StyledCloseIcon = styled(Close)`
     height: 2rem !important;
 `;
 
-export const BodyContainer = styled.div`
-    display: flex;
-    margin: 1rem;
-`;
-
-export const Wrapper = styled.div`
-    width: ${({ first }) => first ? "25%" : "75%"};
-    height: 100%;
+export const StyledPlayIcon = styled(PlayArrow)`
+    color: #fcf6e9;
+    width: 3rem !important;
+    height: 3rem !important;
 `;
 
 export const MovieImg = styled.img`
-    border: 0.08rem solid #bd9d52;
-    background: #0F0A00;
-    border-radius: 1rem;
-    height: 15rem;
-    width: 11rem;
-    padding: 1rem;
+    height: 80%;
+    width: 28%;
     box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
-    background-image: url(${'/noise.png'});
+    position: absolute;
+    top: 10.25%;
+    left: 53%;
+`;
+
+export const ReleaseInfo = styled.div`
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 30rem;
+    justify-content: space-between;
+    padding-left: 2rem
+    padding-right: 2rem;
+`;
+
+export const InfoWrapper = styled.div`
+    border: ${({ genre }) => genre && '1px solid #0F0A00'};
+    box-shadow: ${({ genre }) => genre && '0rem 0rem 0.5rem 0.01rem #0F0A00'};
+    width: ${({ year }) => year ? '5rem' : '10rem'};
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+`;
+
+export const Director = styled.div`
+    width: 30rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'EB Garamond', serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+`;
+
+export const DirBox = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    right: 4.65%;
+    top: 23.44%;
+`;
+
+export const Line = styled.div`
+    width: 4rem;
+    background: #fcf6e9;
+    height: 0.05rem;
+    margin-right: 0.5rem;
+`;
+
+export const Direction = styled.div`
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #fcf6e9;
+    font-family: 'EB Garamond', serif;
 `;
