@@ -21,21 +21,21 @@ export const IconContainer = styled.div`
 export const Line = styled.div`
     height: 0.1rem;
     width: 15rem;
-    background: black;
+    background: #dedbdb;
     margin-right: ${({right}) => right ? "0.3rem" : "0rem"};
     margin-left: ${({right}) => right ? "0rem" : "0.3rem"};
 `;
 
 export const StyledDownIcon = styled(ExpandMore)`
-    color: black;
+    color: #dedbdb;
 `;
 
 export const StyledUpIcon = styled(ExpandLess)`
-    color: black;
+    color: #dedbdb;
 `;
 
 export const RefContainer = styled.div`
-    background: #dedbdb;
+    background: #fcf6e9;
     max-width: 100%;
     margin-top: 0.8rem;
     border-radius: 1rem;
@@ -43,6 +43,8 @@ export const RefContainer = styled.div`
     transition: all 0.5s linear 0s;
     overflow-y: scroll;
     display: block;
+    color: #0F0A00;
+    box-shadow: ${({open}) => open && '0rem 0rem 0.4rem 0.01rem #fcf6e9'};
 `;
 
 export const RefWrapper = styled.div`

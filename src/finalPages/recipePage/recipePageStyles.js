@@ -3,7 +3,14 @@ import { Pinterest } from "@mui/icons-material";
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
-    margin: 5rem;
+    min-height: 100vh;
+    box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
+    margin: 2rem 4.5rem 2rem 4.5rem;
+    background-color: #0F0A00;
+    color: #dedbdb;
+    border-radius: 4rem;
+    background-image: url(${'/noise.png'});
+    padding: 2rem;
 `;
 
 export const MainImage = styled.img`

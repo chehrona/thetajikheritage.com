@@ -28,22 +28,22 @@ export default function RecipeBox() {
                 {recipes?.map((recipe, i) => {
                     return (
                         <RecipeCard key={i}>
-                            <StyledLink to={"/cuisine" + recipe.link}>
+                            <StyledLink to={"/cuisine" + recipe?.link}>
                                 <RecipeImage
-                                    src={recipe.imageName}
+                                    src={recipe?.imageName}
                                 />
                             </StyledLink>
                             <RecipeNameBox>
                                 <RecipeTitle>
-                                    {recipe.title[lang]}
+                                    {recipe?.title[lang]}
                                 </RecipeTitle>
                                 <StyledIconButton onClick={(e) => toggleAudio(e)}>
-                                    <audio src={recipe.sound}></audio>
+                                    <audio src={recipe?.sound}></audio>
                                     <VolumeUp />
                                 </StyledIconButton>
                             </RecipeNameBox>
                             <RecipeSubtitle>
-                                {recipe.subtitle[lang]}
+                                {recipe?.subtitle[lang]}
                             </RecipeSubtitle>
                         </RecipeCard>
                     )

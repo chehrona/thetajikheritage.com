@@ -41,7 +41,7 @@ sup, sub {
     vertical-align: baseline;
     position: relative;
     top: -0.5rem;
-    color: blue;
+    color: #bd9d52;
     font-size: 0.75rem;
 }
 
@@ -51,7 +51,7 @@ sub {
 
 .termSpan {
     font-weight: bold;
-    color: black;
+    color: #bd9d52;
 }
 
 .quoteContainer {

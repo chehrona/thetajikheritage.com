@@ -51,10 +51,11 @@ export const RecipeImage = styled.img`
     border-radius: 0.7rem;
     width: 100%;
     height: 100%;
+    box-shadow: 0rem 0rem 0.3rem 0.5rem #fcf6e9;
 
     &:hover {
         border-radius: 1.5rem;
-        box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.5);
+        box-shadow: 0rem 0rem 0.3rem 0.5rem #fcf6e9;
     }
 `;
 

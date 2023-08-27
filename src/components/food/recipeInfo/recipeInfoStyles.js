@@ -10,10 +10,11 @@ export const MainTitle = styled.div`
     font-style: italic;
     font-weight: 500;
     margin-bottom: 0.5rem;
+    text-shadow: 0.0625rem 0.0625rem 0.1875rem #504221e6;
 `;
 
 export const HistoryInfo = styled.div`
     font-size: 1.1rem;
     line-height: 1.7rem;
-    color: #212529;
+    color: #dedbdb;
 `;

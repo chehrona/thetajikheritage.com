@@ -5,22 +5,25 @@ export const AllergyContainer = styled.div`
     margin-right: 3.5rem;
     width: 100%;
     justify-content: space-between;
+    color: #ffffff;
 `;
 
 export const ContainsBox = styled.div`
-    background: rgb(244 225 225);
+    background: #50422178;
     border-radius: 1rem;
     padding: 0.8rem;
     padding-top: 0.5rem;
     min-width: 7rem;
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #bd9d52;
 `;
 
 export const DietBox = styled.div`
-    background: rgb(225 244 244);
+    background: #50422178;
     border-radius: 1rem;
     padding: 0.8rem;
     padding-top: 0.5rem;
     min-width: 7rem;
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #bd9d52;
 `;
 
 export const LabelContainer = styled.div`
@@ -52,4 +55,5 @@ export const LabelImage = styled.img`
 
 export const AllergenName = styled.div`
     font-size: 0.85rem;
+    color: #dedbdb;
 `;

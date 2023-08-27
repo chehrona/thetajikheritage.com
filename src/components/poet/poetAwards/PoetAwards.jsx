@@ -26,10 +26,10 @@ export default function PoetAwards({ poet }) {
     }
 
     return (
-        <MainContainer id="awards">
+        <MainContainer id="Awards">
             {poet[lang].map((award, i) => {
                 return (
-                    <AwardCard key={i}>
+                    <AwardCard key={i} i={i}>
                         <InnerContainer>
                             <Face>
                                 <Image src={award.img} />

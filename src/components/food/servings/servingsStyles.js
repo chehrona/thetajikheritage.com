@@ -17,10 +17,11 @@ export const QuantityContainer = styled.div`
 `;
 
 export const StyledAddIcon = styled(Add)`
-    background: #dedbdb;
+    background: #fcf6e9;
     border-radius: 0.5rem;
     color: black;
     font-size: 2rem !important;
+    box-shadow: 0rem 0rem 0.25rem 0.01rem #fcf6e9;
 `;
 
 export const ServeAmount = styled.input`
@@ -34,10 +35,11 @@ export const ServeAmount = styled.input`
 `;
 
 export const StyledMinusIcon = styled(Remove)`
-    background: #dedbdb;
+    background: #fcf6e9;
     border-radius: 0.5rem;
     color: black;
     font-size: 2rem !important;
+    box-shadow: 0rem 0rem 0.25rem 0.01rem #fcf6e9;
 `;
 
 export const SubTitle = styled.div`
