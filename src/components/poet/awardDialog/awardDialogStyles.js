@@ -64,12 +64,11 @@ export const Wrapper = styled.div`
 `;
 
 export const AwardImg = styled.img`
-    border: 0.08rem solid #bd9d52;
-    background: #0F0A00;
     border-radius: 1rem;
     height: 15rem;
     width: 11rem;
     padding: 1rem;
-    box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
+    background: #0F0A00;
     background-image: url(${'/noise.png'});
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #bd9d52;
 `;
