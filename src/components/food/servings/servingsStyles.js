@@ -46,6 +46,7 @@ export const SubTitle = styled.div`
     margin-bottom: 0.8rem;
     font-weight: 600;
     font-size: 1.2rem;
+    color: #ffffff;
 `;
 
 export const ServeContainer = styled.div`

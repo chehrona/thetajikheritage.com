@@ -48,11 +48,11 @@ export default function Flags() {
                             <span><StyledFlag lang={'tj'} hovered={"true"}></StyledFlag></span>
                         </Tooltip> 
                     </StyledIconButton>}
-                    {lang !== 'kh' && <StyledIconButton data='kh' onClick={changeLang}>
+                    {/* {lang !== 'kh' && <StyledIconButton data='kh' onClick={changeLang}>
                         <Tooltip title={langNames['kh']} placement="right" arrow>
                             <span><StyledFlag lang={'kh'} hovered={"true"}></StyledFlag></span>
                         </Tooltip>  
-                    </StyledIconButton>}
+                    </StyledIconButton>} */}
                     {lang !== 'ru' && <StyledIconButton data='ru' onClick={changeLang}>
                         <Tooltip title={langNames['ru']} placement="right" arrow>
                             <span><StyledFlag lang={'ru'} hovered={"true"}></StyledFlag></span>
