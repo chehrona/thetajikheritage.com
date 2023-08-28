@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useRef } from "react";
+
 import {
     StyledDialog,
     StyledFrame,
@@ -10,14 +11,21 @@ import {
     Logo,
     IconWrapper,
     StyledIconButton,
-    StyledCloseIcon
+    StyledCloseIcon,
+    Loader
 } from "./bookReaderStyles";
 
 export default function BookReader({ book, setOpenBook, setOverlay }) {
-    
+    const [isMounted, setIsMounted] = useState(false);
+    const iframeRef = useRef(null);
+
     function closeReader() {
         setOpenBook(false);
         setOverlay(null);
+    }
+
+    function handleLoader() {
+        setIsMounted(true);
     }
 
     return (
@@ -37,7 +45,8 @@ export default function BookReader({ book, setOpenBook, setOverlay }) {
                     </StyledIconButton>
                 </IconWrapper>
             </Header>
-            <StyledFrame src={book.link}></StyledFrame>
+            <StyledFrame ref={iframeRef} src={book.link} onLoad={handleLoader}></StyledFrame>
+            {!isMounted && <Loader />}
         </StyledDialog>
     )
 }

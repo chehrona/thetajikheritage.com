@@ -85,7 +85,7 @@ export default function RecipePagePrint() {
             <Header>
                 <LogoWrapper>
                     <StyledLink to={'/'}>
-                        <Logo src={'/tajiks.svg'}></Logo>
+                        <Logo src={'/tajikPrint.png'}></Logo>
                     </StyledLink>
                 </LogoWrapper>
                 <Title>
@@ -110,7 +110,7 @@ export default function RecipePagePrint() {
                     <PrintContainer>
                         <div>{recipe?.timeLang[lang][3]}</div>
                         <IconButton onClick={() => setShowTop(false)}>
-                            <PrintBox src={'/printIcons/printer.png'}></PrintBox>
+                            <PrintBox src={'/printIcons/print.png'}></PrintBox>
                         </IconButton>
                     </PrintContainer>
                 </ServeBox>}

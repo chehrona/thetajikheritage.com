@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Zoom, Slide, Dialog } from '@mui/material';
+
+import { useSetLang } from "../../../App";
 
 import {
     Desc,
@@ -18,9 +20,9 @@ import {
     Line,
     Direction,
     DirBox,
-    StyledFrame
+    StyledFrame,
+    Loader
 } from "./movieDialogStyles";
-import { useSetLang } from "../../../App";
 
 const Transition = ({ children, ...props }) => (
     <Zoom {...props}>
@@ -36,7 +38,13 @@ const ContentTransition = ({ children, ...props }) => (
 
 export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo }) {
     const [showVideo, setShowVideo] = useState(false);
+    const [isMounted, setIsMounted] = useState(false);
+    const iframeRef = useRef(null);
     const { lang } = useSetLang();
+
+    function handleLoader() {
+        setIsMounted(true);
+    }
 
     function handleClose() {
         setShowMovieInfo(false);
@@ -85,7 +93,10 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                             fullWidth
                             allowFullScreen
                             frameBorder="0"
+                            ref={iframeRef}
+                            onLoad={handleLoader}
                         />
+                        {!isMounted && <Loader />}
                     </InfoContainer>
                 ) : (
                     <InfoContainer>

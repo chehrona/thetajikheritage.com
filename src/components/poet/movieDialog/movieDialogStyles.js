@@ -33,6 +33,7 @@ export const StyledContent = styled(DialogContent)`
 
 export const InfoContainer = styled.div`
     height: 100%;
+    width: 100%;
     border-radius: 2rem;
     background: #0F0A00;
     box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
@@ -145,4 +146,16 @@ export const StyledFrame = styled.iframe`
     padding: 5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+`;
+
+export const Loader = styled.div`
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #202020
+        url("/loader.svg") center
+        no-repeat;
+    z-index: 1;
+    border-radius: 2rem;
+    opacity: 0.7;
 `;

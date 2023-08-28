@@ -68,7 +68,7 @@ sub {
     background-repeat: no-repeat;
     height: 7rem;
     width: 7rem;
-    filter: opacity(0.4);
+    filter: opacity(0.35);
     position: absolute;
 }
 
