@@ -12,7 +12,9 @@ export const StyledFrame = styled.iframe`
     width: 100vw;
     height: 100vh;
     border: none;
-    background: #202020;
+    background: #202020
+        url("/loader.svg") center
+        no-repeat;
 `;
 
 export const Header = styled.div`
@@ -80,14 +82,4 @@ export const StyledCloseIcon = styled(Close)`
     color: #bd9d52;
     width: 3.5rem !important;
     height: 2.5rem !important;
-`;
-
-export const Loader = styled.div`
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    background: #202020
-        url("/loader.svg") center
-        no-repeat;
-    z-index: 1;
 `;
