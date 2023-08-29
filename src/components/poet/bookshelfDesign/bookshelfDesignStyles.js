@@ -97,6 +97,7 @@ export const Overlay = styled.div`
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
     z-index: 1000;
+    opacity: ${({ open }) => (!open || open === null) && '0'};
     animation-name: ${({open}) => (open && open !== null) && openAnimation};
     animation-name: ${({open}) => (!open && open !== null)  && closeAnimation};
     animation-duration: 1s;

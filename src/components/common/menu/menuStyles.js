@@ -35,8 +35,9 @@ export const MenuContainer = styled.div`
     padding: 3rem;
     transform: translateY(-100%);
     justify-content: center;
-    animation-name: ${({open}) => (open && open !== null) && openAnimation};
-    animation-name: ${({open}) => (!open && open !== null)  && closeAnimation};
+    animation-name: ${({ open }) => (open && open !== null) && openAnimation};
+    animation-name: ${({ open }) => (!open && open !== null)  && closeAnimation};
+    opacity: ${({ open }) => (!open && open !== null) && '0'};
     animation-duration: 1s;
     animation-fill-mode: both;
     position: absolute;

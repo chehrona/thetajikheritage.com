@@ -24,6 +24,7 @@ export const MainContainer = styled.div`
 
 export const FadedImage = styled.img`
     width: 45rem;
+    min-height: 50rem;
     background-color: #0F0A00;
     height: auto;
     box-shadow: 6rem 6rem 2rem 4rem #0F0A00 inset;
@@ -73,6 +74,7 @@ export const PoetNameContainer = styled.div`
 export const YearsContainer = styled.div`
     color: #dedbdb;
     font-size: 10rem;
+    min-height: 24rem;
     position: absolute;
     top: 4rem;
     left: 14rem;
