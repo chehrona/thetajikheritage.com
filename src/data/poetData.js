@@ -138,6 +138,28 @@ module.exports.poets = [
                         genre: "Драма", year: "1966", link: "7M_li8nLgK4", lang: "Русӣ",
                         desc: "Қиссаи Кори Ишкамбаро дар қалби Бухоро пайгирӣ кунед, ки ӯ дар ҷаҳони фиребу истисмор ва фирорҳои аҷиб моҳирона паймоиш мекунад. Ҳарчанд ӯ дар давраи бесарусомонии Ҷанги Якуми Ҷаҳонӣ ба воя мерасид, вақте ки торҳои манипуляцияи ӯ кушода мешавад, сарнавишти ӯ як гардиши сахт мегирад. Дар мутобикати ҷолиби романи Садриддин Айнӣ, филм тавозуни ҷолиби шавқовар ва ҷиддии худро нигоҳ дошт.",
                         director: "Тоҳир Собиров"
+                    },
+                    {
+                        title: 'Дохунда', studio: '/poetMovies/ayni/tjFilm.png',
+                        img: '/poetMovies/ayni/dokhunda.png', duration: '1с 14дақ',
+                        genre: 'Драма', year: '1956', link: "1diCkBdHJrk", lang: "Тоҷикӣ",
+                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
+                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
+                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
+                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
+                            Lenin's work, marking a significant turning point.`,
+                        director: "Бенсион (Борис) Кимёгаров"
+                    },
+                    {
+                        title: 'Сарояндаи Ватан', studio: '/poetMovies/ayni/tjFilm.png',
+                        img: '/poetMovies/ayni/saroyanda.png', duration: '43дақ',
+                        genre: 'Биографӣ', year: '1956', link: "chwCy5ciNaY", lang: "Тоҷикӣ",
+                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
+                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
+                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
+                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
+                            Lenin's work, marking a significant turning point.`,
+                        director: "Бенсион (Борис) Кимёгаров"
                     }
                 ],
             ru: [
@@ -152,6 +174,29 @@ module.exports.poets = [
                             адаптации романа Садриддина Айни фильм сохранил большую часть ловкого баланса 
                             веселья и серьёзности.`,
                         director: "Тахир Сабиров"
+                    },
+                    {
+                        title: 'Дохунда', studio: '/poetMovies/ayni/tjFilm.png',
+                        img: '/poetMovies/ayni/dokhunda.png', duration: '1ч 14мин',
+                        genre: 'Драма', year: '1956', link: "1diCkBdHJrk", lang: "Таджикский",
+                        desc: `Ёдгор, также известный как “Дохунда” (“Бедный”), унаследовал долг своего отца и ведет 
+                            жизнь в рабстве под управлением богатого человека Азимшаха. По совету кузнеца Абдуллы, 
+                            Ёдгор нашел убежище в горах, где он встретил Гульнор и влюбился в нее. Однако их роман 
+                            был прерван поимкой Азимшаха и Гульнор стала невольницей Азимшаха. Ёдгора продали в 
+                            солдаты в армию эмира и его жизнь изменилась после того, как он познакомился с работами 
+                            Ленина, который изменил его взгляды на жизнь.`,
+                        director: "Бенсион (Борис) Кимягаров"
+                    },
+                    {
+                        title: 'Певец родины', studio: '/poetMovies/ayni/tjFilm.png',
+                        img: '/poetMovies/ayni/saroyanda.png', duration: '43мин',
+                        genre: 'Биографический', year: '1956', link: "chwCy5ciNaY", lang: "Тоҷикӣ",
+                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
+                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
+                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
+                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
+                            Lenin's work, marking a significant turning point.`,
+                        director: "Бенсион (Борис) Кимёгаров"
                     }
                 ],
             kh: [
@@ -168,6 +213,28 @@ module.exports.poets = [
                             The movie preserved much of the captivating balance of amusement and seriousness in its gripping adaptation 
                             of Sadriddin Ayni's novel.`,
                         director: "Tohir Sobirov"
+                    },
+                    {
+                        title: 'Dokhunda', studio: '/poetMovies/ayni/tjFilm.png',
+                        img: '/poetMovies/ayni/dokhunda.png', duration: '1hr 14min',
+                        genre: 'Drama', year: '1956', link: "1diCkBdHJrk", lang: "Tajiki",
+                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
+                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
+                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
+                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
+                            Lenin's work, marking a significant turning point.`,
+                        director: "Bension (Boris) Kimyogarov"
+                    },
+                    {
+                        title: 'The Voice of the Homeland', studio: '/poetMovies/ayni/tjFilm.png',
+                        img: '/poetMovies/ayni/saroyanda.png', duration: '43min',
+                        genre: 'Biopic', year: '1956', link: "chwCy5ciNaY", lang: "Tajiki",
+                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
+                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
+                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
+                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
+                            Lenin's work, marking a significant turning point.`,
+                        director: "Бенсион (Борис) Кимёгаров"
                     }
                 ]
         },

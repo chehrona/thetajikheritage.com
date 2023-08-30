@@ -2,16 +2,6 @@ import styled, { keyframes } from "styled-components";
 import { Info } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 
-const fadeIn = keyframes`
-    from {
-        opacity: 0;
-    }
-    
-    to {
-        opacity: 1;
-    }
-`;
-
 export const MainContainer = styled.div`
     background: #fcf6e9;
     background-image: url(${'/noise.png'});
@@ -48,7 +38,6 @@ export const AwardCard = styled.div`
     perspective: 62.5rem;
     box-shadow: 0rem 0rem 0.5rem 0.1rem #0F0A00;
     transition: all 0.5s linear 0s;
-    animation-delay: ${({ i }) => i && `${i * 0.5}s`};
 
     &&&:first-child {
         margin-left: 3rem;

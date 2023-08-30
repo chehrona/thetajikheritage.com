@@ -29,7 +29,7 @@ export default function PoetAwards({ poet }) {
         <MainContainer id="Awards">
             {poet[lang].map((award, i) => {
                 return (
-                    <AwardCard key={i} i={i}>
+                    <AwardCard key={i}>
                         <InnerContainer>
                             <Face>
                                 <Image src={award.img} />

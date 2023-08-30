@@ -89,7 +89,8 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                             <StyledCloseIcon />
                         </StyledIconButton>
                         <StyledFrame
-                            src={`https://www.youtube.com/embed/${movieInfo?.link}?rel=0`} 
+                            src={`https://www.youtube.com/embed/${movieInfo?.link}?autoplay=1&rel=0`}
+                            allow='autoplay; encrypted-media'
                             fullWidth
                             allowFullScreen
                             frameBorder="0"
