@@ -15,7 +15,7 @@ export default function PoetMovies({ poet }) {
     }
 
     return (
-        <MainContainer id="movies">
+        <MainContainer id="Screen adaptations">
             {poet[lang].map((movie, i) => {
                 return (
                     <MovieCard key={i}>

@@ -11,6 +11,7 @@ const bounce = keyframes`
     }
     60% {
         transform: translateX(0.7rem);
+    }
 `;
 
 export const MainContainer = styled.div`
@@ -20,7 +21,8 @@ export const MainContainer = styled.div`
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    height: 27.5rem;
 
     &:before {
         content: "";
@@ -39,7 +41,7 @@ export const MainContainer = styled.div`
 export const MovieCard = styled.div`
     margin-bottom: 7rem;
     height: 21.15rem;
-    width: 15rem;
+    width: 14.95rem;
     cursor: pointer;
     position: relative;
     border-radius: 0.5rem;
@@ -67,7 +69,7 @@ export const StyledIconButton = styled(IconButton)`
     width: 3rem;
     height: 3rem;
     bottom: 1rem;
-    right: -2.3rem;
+    right: -2.6rem;
     transform: translateX(-50%);
     box-shadow: 0rem 0rem 0.6rem #000;
 `;

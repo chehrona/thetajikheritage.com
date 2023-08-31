@@ -50,7 +50,6 @@ export const InnerBox = styled.div`
 
 export const StudioName = styled.img`
     height: 3rem;
-    width: 5rem;
 `;
 
 export const InfoTitle = styled.div`
