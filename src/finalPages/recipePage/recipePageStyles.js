@@ -1,5 +1,17 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { Pinterest } from "@mui/icons-material";
+
+const slideUp = keyframes`
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    
+    }
+`;
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
@@ -18,6 +30,10 @@ export const MainImage = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: ${slideUp} 1s ease-in-out forwards;
 `;
 
 export const IntroSection = styled.div`

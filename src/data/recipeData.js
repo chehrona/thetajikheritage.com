@@ -119,20 +119,20 @@ module.exports.recipes = [
         directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: 'طرز آمادهکنی'},
         referencesLang: {ru: 'Литература', us: 'References', tj: 'Адабиёт', kh: ''},
         references: {
-            us: ['Vozeh, Qori Rahmatullo. کانی لاززات و خانی نعمت [Source of pleasure and table spread of blessings]. <span style="font-style: italic">In Tajiki-Persian w. Perso-Arabic script. </span>Bukhara. 1880 - 1881.',
+            us: ['Vozeh, Qori Rahmatullo. کان لذت و خان نعمت [Source of pleasure and table spread of blessings]. <span style="font-style: italic">In Tajiki-Persian w. Perso-Arabic script. </span>Bukhara. 1880 - 1881.',
                 'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. <span style="font-style: italic">In Russian. </span>PhD dissertation, (A. Donish Institute of History, Archeology and Ethnography, 2019, pp. 97 - 98).', 
                 'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, p. 290, 1976.',
                 'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan. <span style="font-style: italic">In English, Tajiki- and Dari-Persian. </span>LM Publishers, 2015, p. 599.',
                 'Steblin-Kamenskiy, I.M. Очерки по истории лексики памирских языков. Названия культурных растений [Essays on the history of Pamiri languages. Names of cultivated plants]. <span style="font-style: italic">In Russian.</span> Moscow, "Nauka" publishing house, 1982, pp. 110 — 111.',
                 'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Karategin and Darvaz (Issue 2)]. <span style="font-style: italic">In Russian. </span>Dushanbe, "Donish" publishing house, 1970, p. 256.'
             ],
-            ru: ['Возех, Кори Рахматулло. کانی لاززات و خانی نعمت [Источник наслаждения и скатерть благ]. <span style="font-style: italic">На тадж. с арабо-персидским алфавитом. </span>Бухара. 1880 - 1881.',
+            ru: ['Возех, Кори Рахматулло. کان لذت و خان نعمت [Источник наслаждения и скатерть благ]. <span style="font-style: italic">На тадж. с арабо-персидским алфавитом. </span>Бухара. 1880 - 1881.',
                 'Шовалиева, Мумина. "История кулинарной культуры таджикского народа". Дис. канд. ист. наук, (Институт истории, археологии и этнографии им. А.Дониша, 2019, с. 97 - 98).',
                 'ван Оуденховен, Фредерик и Хайдар, Джамила. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan [Своими руками: праздник еды и жизни в Памирских горах Афганистана и Таджикистана]. <span style="font-style: italic">На анг, таджикско- и дари-персидском языках. </span>Издательство "LM Publishers", 2015, с. 599.',
                 'Стеблин-Каменский И.М. Очерки по истории лексики памирских языков. Названия культурных растений. Москва, издательство "Наука", 1982, с. 110 — 111.',
                 'Кислякова, Н. A. и Писарчик, A. K. Таджики Каратегина и Дарваза (Вып. 2). Душанбе, издательство "Дониш", 1970, с. 256.'
             ],
-            tj: ['Возеҳ, Қорӣ Раҳматулло. کانی لاززات و خانی نعمت [Кони лаззат ва хони неъмат]. <span style="font-style: italic">Ба забони тоҷикӣ бо хатти форсӣ.</span> Бухоро. 1880 - 1881.',
+            tj: ['Возеҳ, Қорӣ Раҳматулло. کان لذت و خان نعمت [Кони лаззат ва хони неъмат]. <span style="font-style: italic">Ба забони тоҷикӣ бо хатти форсӣ.</span> Бухоро. 1880 - 1881.',
                 'Шовалиева, Мӯмина. "История кулинарной культуры таджикского народа" ["Таърихи маданияти хӯрокпазии халқи тоҷик"]. Диссертатсияи дараҷаи илмии доктори фалсафа, (Институти таърих, бостоншиносӣ ва мардумшиносии ба номи А. Дониш, 2019, с. 97 - 98).',
                 'ван Оуденҳовен, Фредерик ва Ҳайдар, Ҷамила. Бо дастони худ: ҷашни таъом ва зиндагӣ дар кӯҳистони Помири Афғонистон ва Тоҷикистон. <span style="font-style: italic">Ба забонҳои тоҷикӣ, дарӣ ва анг. </span>Нашриёти "LM Publishers", 2015, с. 599.',
                 'Стеблин-Каменский И.М. Очерки по истории лексики памирских языков. Названия культурных растений [Иншоҳо оид ба таърихи луғати забонҳои помирӣ. Номҳои растаниҳои киштшаванда]. Маскав, нашриёти "Наука", 1982, с. 110 — 111.',

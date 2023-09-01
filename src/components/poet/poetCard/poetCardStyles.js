@@ -1,5 +1,20 @@
 import { Link } from "react-router-dom";
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const slideOut = keyframes`
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+`;
 
 export const PoetBoxContainer = styled.div`
     margin: 5rem;
@@ -18,6 +33,9 @@ export const PoetCardWrapper = styled.div`
     background: #0F0A00;
     color: #ffffff;
     position: relative;
+    opacity: 0;
+    animation: ${slideOut} 2s ease-in-out forwards;
+    animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
     &:hover {
         border-radius: 1.5rem;

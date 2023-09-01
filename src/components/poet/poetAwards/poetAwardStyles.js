@@ -2,6 +2,21 @@ import styled, { keyframes } from "styled-components";
 import { Info } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 
+const slideOut = keyframes`
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+`;
+
 export const MainContainer = styled.div`
     background: #fcf6e9;
     background-image: url(${'/noise.png'});
@@ -37,7 +52,9 @@ export const AwardCard = styled.div`
     background-color: transparent;
     perspective: 62.5rem;
     box-shadow: 0rem 0rem 0.5rem 0.1rem #0F0A00;
-    transition: all 0.5s linear 0s;
+    opacity: 0;
+    animation: ${slideOut} 2s ease-in-out forwards;
+    animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
     &&&:first-child {
         margin-left: 3rem;

@@ -1,6 +1,21 @@
 import { IconButton } from "@mui/material";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const slideOut = keyframes`
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+`;
 
 export const RecipeBoxContainer = styled.div`
     margin: 5rem;
@@ -17,6 +32,9 @@ export const RecipeCard = styled.div`
     margin-bottom: 7rem;
     cursor: pointer;
     position: relative;
+    opacity: 0;
+    animation: ${slideOut} 2s ease-in-out forwards;
+    animation-delay: ${({ delay }) => delay ? delay : '0s'};
 `;
 
 export const RecipeNameBox = styled.div`

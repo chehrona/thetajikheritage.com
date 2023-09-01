@@ -27,7 +27,7 @@ export default function RecipeBox() {
             <RecipeBoxContainer>
                 {recipes?.map((recipe, i) => {
                     return (
-                        <RecipeCard key={i}>
+                        <RecipeCard key={i} delay={`${0.15*i}s`}>
                             <StyledLink to={"/cuisine" + recipe?.link}>
                                 <RecipeImage
                                     src={recipe?.imageName}

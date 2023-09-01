@@ -1,4 +1,40 @@
-import styled from "styled-components/macro";
+import styled, { keyframes } from "styled-components";
+
+const zoomIn = keyframes`
+    from {
+        transform: scale(1.5);
+    }
+    to {
+        transform: scale(1);
+    }
+`;
+
+const slideOut = keyframes`
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+`;
+
+const slideUp = keyframes`
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    
+    }
+`;
 
 export const MainContainer = styled.div`
     background: #0F0A00;
@@ -6,7 +42,8 @@ export const MainContainer = styled.div`
     display: flex;
     justify-content: space-between;
     position: relative;
-    border-radius: 4rem;
+    border-radius: 4rem 4rem 0rem 0rem;
+    overflow: hidden;
 
     &:after {
         content: "";
@@ -23,12 +60,16 @@ export const MainContainer = styled.div`
 `;
 
 export const FadedImage = styled.img`
-    width: 45rem;
+    width: 47rem;
     min-height: 50rem;
     background-color: #0F0A00;
     height: auto;
     box-shadow: 6rem 6rem 2rem 4rem #0F0A00 inset;
+    transform-origin: center;
     border-radius: 5rem 4rem 0rem 5rem;
+    animation: ${zoomIn} 0.5s ease-out;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 `;
 
 export const SegmentContainer = styled.div`
@@ -45,9 +86,19 @@ export const SectionTitle = styled.a`
     color: #dedbdb;
     text-decoration: none;
     display: block;
-    
+    overflow: hidden;
+`;
+
+export const TitleSpan = styled.span`
+    padding-left: 0.3rem;
+    display: block;
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: ${slideUp} 1s ease-in-out forwards;
+    animation-delay: ${({ delay }) => delay ? delay : '0s'};
+
     &:hover {
-        text-shadow: 0rem 0rem 2rem #dedbdb;
+        text-shadow: 0.1rem 0.1rem 1.5rem #dedbdb;
         font-size: 1.6rem;
         cursor: pointer;
     }
@@ -62,6 +113,10 @@ export const PoetName = styled.div`
     text-shadow: 0rem 0rem 5rem black;
     -webkit-text-stroke-width: ${({color}) => color === 'true' && '0.22rem'};
     -webkit-text-stroke-color: #bd9d52;
+    opacity: 0;
+    animation: ${slideOut} 1s ease-in-out forwards;
+    animation-delay: ${({ color }) => color ? '0s' : '0.1s'};
+
 `;
 
 export const PoetNameContainer = styled.div`
@@ -80,7 +135,16 @@ export const YearsContainer = styled.div`
     left: 14rem;
     opacity: 0.25;
     font-weight: bold;
+    z-index: 10;
 `;
+
 export const Year = styled.div`
     margin-left: 9rem;
+`;
+
+export const NumSpan = styled.span`
+    display: inline-block;
+    opacity: 0;
+    animation: ${slideOut} 1s ease-in-out forwards;
+    animation-delay: ${({ delay }) => delay ? delay : '0s'};
 `;

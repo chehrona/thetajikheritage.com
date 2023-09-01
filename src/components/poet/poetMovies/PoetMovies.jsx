@@ -15,10 +15,10 @@ export default function PoetMovies({ poet }) {
     }
 
     return (
-        <MainContainer id="Screen adaptations">
+        <MainContainer id="Films">
             {poet[lang].map((movie, i) => {
                 return (
-                    <MovieCard key={i}>
+                    <MovieCard key={i} delay={`${0.1*i}s`}>
                         <Image src={movie.img} />
                         <StyledIconButton onClick={(e) => handleMovieDialog(e, movie)}>
                             <StyledExpand />

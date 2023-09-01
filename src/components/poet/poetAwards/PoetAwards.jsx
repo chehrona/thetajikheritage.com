@@ -29,7 +29,7 @@ export default function PoetAwards({ poet }) {
         <MainContainer id="Awards">
             {poet[lang].map((award, i) => {
                 return (
-                    <AwardCard key={i}>
+                    <AwardCard key={i} delay={`${0.05*i}s`}>
                         <InnerContainer>
                             <Face>
                                 <Image src={award.img} />
