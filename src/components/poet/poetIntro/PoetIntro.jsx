@@ -26,7 +26,7 @@ export default function PoetIntro({ poet }) {
                     {poet?.sections[lang].map((piece, i) => {
                         return (
                             <SectionTitle key={i} href={`#${poet?.sections.us[i]}`}>
-                                <TitleSpan delay={`${0.05*i}s`}>{piece}</TitleSpan>
+                                <TitleSpan delay={`${0.03*i}s`}>{piece}</TitleSpan>
                             </SectionTitle>
                         )
                     })}
