@@ -33,7 +33,7 @@ export const MainImage = styled.img`
     display: block;
     opacity: 0;
     transform: translateY(-100%);
-    animation: ${slideUp} 1s ease-in-out forwards;
+    animation: ${slideUp} 0.5s ease-in-out forwards;
 `;
 
 export const IntroSection = styled.div`

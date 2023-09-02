@@ -62,7 +62,6 @@ export const MainContainer = styled.div`
 export const FadedImage = styled.img`
     width: 47rem;
     min-height: 50rem;
-    background-color: #0F0A00;
     height: auto;
     box-shadow: 6rem 6rem 2rem 4rem #0F0A00 inset;
     transform-origin: center;

@@ -34,7 +34,7 @@ export const PoetCardWrapper = styled.div`
     color: #ffffff;
     position: relative;
     opacity: 0;
-    animation: ${slideOut} 2s ease-in-out forwards;
+    animation: ${slideOut} 1s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
     &:hover {

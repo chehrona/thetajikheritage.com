@@ -27,7 +27,7 @@ export const MainTitle = styled.div`
     margin-bottom: 0.5rem;
     text-shadow: 0.0625rem 0.0625rem 0.0875rem #dedbdb;
     opacity: 0;
-    animation: ${slideOut} 2s ease-in-out forwards;
+    animation: ${slideOut} 0.5s ease-in-out forwards;
 `;
 
 export const HistoryInfo = styled.div`
@@ -35,6 +35,6 @@ export const HistoryInfo = styled.div`
     line-height: 1.7rem;
     color: #dedbdb;
     opacity: 0;
-    animation: ${slideOut} 2s ease-in-out forwards;
-    animation-delay: 0.3s;
+    animation: ${slideOut} 0.5s ease-in-out forwards;
+    animation-delay: 0.01s;
 `;

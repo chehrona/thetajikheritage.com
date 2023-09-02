@@ -9,7 +9,7 @@ module.exports.poets = [
             tj: 'Садриддин Саидмуродзода нависандаи тоҷик, ислоҳталаб, олим, қаҳрамони миллӣ ва асосгузори адабиёти муосири тоҷик.',
             kh: '.صدرالدین سعیدمرودزاده - نویسنده تاجیک، اصلاح طلب، دانشمند، قهرمان ملی و اساس گذار ادبیات معاصر تاجیک'
         },
-        img: ['/poetImages/ayni/Ayni.png', '/poetImages/ayni/AyniFaded.png', ],
+        img: ['/poetImages/ayni/Ayni.png', '/poetImages/ayni/AyniFaded.png'],
         link: '/poets/ayni',
         sections: {
             us: ["Biography", "Works", "Films", "Politics", "Awards"],
@@ -18,6 +18,58 @@ module.exports.poets = [
             kh: ["زندگینامه", "ایجدیت", "فیلم ها", "فعالیتی سیاسی", "جوایزها"]
         },
         bio: {
+            one: {
+                us: {
+                    year: 'April 15, 1878',
+                    img: '/poetImages/ayni/soktare.png',
+                    desc: `Sadriddin Saidmurodzoda was born in the village of Soktare, G’ijduvon district, 
+                        in the Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
+                        years among fellow farmers and local artisans. It was within this close-knit community 
+                        that he was introduced to the world of folk art, including tales, legends, songs, 
+                        anecdotes, and proverbs.<br>During his school years, as documented in his book "The Old School," 
+                        he didn't find much value in formal education. However, he had his initial exposure to the 
+                        poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<br>His father, 
+                        Said Murodkhoja, despite being a humble peasant, had a deep love for education and literature, 
+                        which he passed down to his children.`
+                },
+                ru: ['15 апреля 1878'],
+                tj: ['15 апрели 1878']
+            },
+            backdrops: ['/poetImages/ayni/kukaltosh.jpeg'],
+            two: {
+                us: [
+                        {
+                            year: '1889',
+                            image: '/poetImages/ayni/ayni1.png',
+                            desc: `A devastating plague swept through Bukhara and its neighboring areas, parting Ayni 
+                                from both his father and mother in a span of forty days. Despite these challenging circumstances, 
+                                Ayni's dream for knowledge led him to Bukhara at the age of 12.<br>However, it was an uphill battle 
+                                for economically disadvantaged individuals like him to access education within Bukhara's madrasas.
+                                In order to be able to pay for his room, which should have been free, as well as his daily living costs, 
+                                he was forced to take on various odd jobs. These roles ranged from serving as a janitor in the madrasa to 
+                                working as a cook, handling laundry tasks, and more.`
+                        },
+                        {
+                            year: '1896',
+                            image: '/poetImages/ayni/ayni2.png',
+                            desc: `A devastating plague swept through Bukhara and its neighboring areas, parting Ayni 
+                                from both his father and mother in a span of forty days.<br>Despite these challenging circumstances, 
+                                Ayni's dream for knowledge led him to Bukhara at the age of 12.<br>However, it was an uphill battle 
+                                for economically disadvantaged individuals like him to access education within Bukhara's madrasas.
+                                In order to be able to pay for his room, which should have been free, as well as his daily living costs, 
+                                he was forced to take on various odd jobs. These roles ranged from serving as a janitor in the madrasa to 
+                                working as a cook, handling laundry tasks, and more.`
+                        },
+                        {
+                            year: '1897-1898',
+                            image: '/poetImages/ayni/ayni3.png',
+                            desc: `During his time at the madrasa, he penned his initial poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli." 
+                                However, in 1895 he adopted the pseudonym "Ayni" and gained literary recognition under this name.`,
+                        }
+                ],
+                ru: ['15 апреля 1878'],
+                tj: ['15 апрели 1878']
+            },
             us: "Sadriddin Ayni was a Tajik intellectual who wrote poetry, fiction, journalism, history, and a dictionary. He is regarded as Tajikistan's national poet and one of the most important writers in the country's history.",
             ru: "He was born in a small village outside of Bukhara named Soktare",
             tj: `Айнӣ Садриддин Саидмуродзода 15 апрели соли 1878 дар деҳаи Соктареи ноҳияи Ғиждувони вилояти Бухоро аз оилаи деҳқони камбағал таваллуд ёфтааст. Айёми бачагиашро дар байни аҳли заҳматкаш — деҳқонон ва косибони деҳа мегузаронад. Ҳикояту афсонаҳои аҷоибу ғароиб, суруду таронаҳои дилчасп ва латифаю зарбулмасалҳои пурҳикмат, ки аз одамони хуштабъу заковатманд мешунид, ӯро ба олами сеҳрангези эҷодиёти бадеии халқ ошно менамояд. Ҳангоми мактабхониаш, ҳарчанд дар саводомӯзӣ баҳрае набурда бошад ҳам, аввалин бор бо баъзе намунаҳои ғазалиёти Ҳофиз, Соиб, Бедил ва дигар устодони назм шиносоӣ пайдо мекунад. Бо сабакҳои пандомӯзи падарм худ Саидмуродхоҷа, ки шахси маърифатдӯст ва мухлиси адабиёт буд, тарбият ёфта, аз хурдсоли дар дилаш нисбат ба илму дониш ва шеъру шоирӣ муҳаббат мепарварад. Пас аз вафоти падару модар, ба сахтиҳои зиндагӣ нигоҳ накарда, соли 1890 бо нияти таҳсил ба Бухоро меояд. Дар солҳои аввал ба сабаби муҳтоҷӣ ва тангдастӣ маҷбур мешавал. ки хизмати ҳуҷрадорони мадраса ва муллобачаҳои давлатмандро адо намуда, дар вақтҳои фароғат дарсхонӣ кунад. Роҳ ёфтан ба мухити илмӣ ва адабии Бухоро, алоқа пайдо карда бо зиёиёни равшанзамир ва махсусан шиносо шудан бо ақидаҳои маорифпарваронаи Аҳмади Дониш. (1827-1897) дар инкишофи фикрии ӯ таьсири муфид мебахшад. Пас аз хатми мадраса фаъолияти адабию ҷамъиятии худро ба мароми маорифпарварӣ марбут намуда, дар таъсиси мактабҳои усули нав ва ислоҳи таълиму тадрис ширкат мекунад. Ин иқдомоти ӯ дар натиҷаи алоқаманд гардидан бо ҳаракати ислоҳоталабонаи ҷадидӣ аз камбудиҳои ғоявӣ холӣ набуд» аммо бо вуҷуди ин дар ҳамон шароити истибдод ва таассуби динӣ як амалиёти мухолифи тартиботи аморат ба шумор мерафт.
@@ -274,7 +326,7 @@ module.exports.poets = [
         awards: {
             tj: [
                     {
-                        title: "Ордени Ленин", years: ["1941"], img: "/poetImages/ayni/lenin.png", 
+                        title: "Ордени Ленин", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
                         desc: `Мукофоти олии Иттиҳоди Шӯравӣ барои хизмати махсусан барҷаста дар ҳаракати инқилобӣ, 
                             фаъолияти меҳнатӣ, муҳофизати ватани сотсиалистӣ, инкишоф додани дӯстӣ ва ҳамкории байни 
                             халқҳо, мустаҳкам намудани сулҳ, дар назди Давлати Советӣ ва ҷамъият супорида мешуд.
@@ -283,11 +335,11 @@ module.exports.poets = [
                             дар базаҳои кушод мавҷуд аст.`
                     },
                     {
-                        title: "Академики фахрии АФҶШСӮз", years: ["1943"], img: "/poetImages/ayni/academy.png", 
+                        title: "Академики фахрии АФҶШСӮз", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
                         desc: `С. Айнӣ соли 1943 аъзои фахрии Академияи Фанҳои Ҷумҳурии Шӯравии Сотсиалистии Ӯзбекистон гардид.`
                     },
                     {
-                        title: "Доктори фахрии ДДЛ", years: ["1948"], img: "/poetImages/ayni/phd.png", 
+                        title: "Доктори фахрии ДДЛ", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
                         desc: `Унвони “Доктори фахрии Донишгоҳи давлатии Ленинград (Cанкт-Питербург)” ба арбобони барҷастаи 
                             илм, маориф ва фарҳанг, ходимони давлатӣ ва ҷамъиятӣ, ки дар рушди ҳамкориҳои байналмилалии илмӣ, 
                             фарҳангӣ, иқтисодӣ ва сиёсӣ саҳм гузоштаанд, дода мешавад.
@@ -296,7 +348,7 @@ module.exports.poets = [
                     },
                     {
                         title: "Ҷоизаи Сталин",
-                        years: ["1950"], img: "/poetImages/ayni/stalin.png", 
+                        years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
                         desc: `Яке аз унвонҳои олии ҳавасмандкунии шаҳрвандони Иттиҳоди Шӯравӣ буда, барои комёбиҳои 
                             барҷаста дар соҳаи илм ва техника, фанҳои ҳарбӣ, адабиёт ва санъат байни солҳои 1940-1955 
                             дода мешуд.
@@ -306,7 +358,7 @@ module.exports.poets = [
                             ӯ бо 50 000 рубли шӯравӣ (~USD 160,000-и ҳозира) мукофотонида шудааст.`
                     },
                     {
-                        title: "Ордени Байрақи Сурхи Меҳнат", years: [""], img: "/poetImages/ayni/labor.png", 
+                        title: "Ордени Байрақи Сурхи Меҳнат", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
                         desc: `Ҷоизаи умумишаҳрвандии Иттиҳоди Шӯравӣ ба онҳое, ки ба давлат ва ҷамъият дар соҳаи истеҳсолот, илм, 
                             маданият, адабиёт, санъат, маориф, нигаҳдории тандурустй ва дигар соҳаҳои фаъолияти меҳнатӣ хизматҳои 
                             бузург кардаанд, дода мешуд.
@@ -314,7 +366,7 @@ module.exports.poets = [
                             Устод Айнӣ сазовори ду ин ҷоиза гаштааст.`
                     },
                     {
-                        title: "Қаҳрамони Тоҷикистон", years: ["1997"], img: "/poetImages/ayni/hero.png", 
+                        title: "Қаҳрамони Тоҷикистон", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
                         desc: `Унвони олии давлатии Ҷумҳурии Тоҷикистон, ки барои хидматҳои шоиста дар назди давлат ва 
                             халқ, ки барои озодӣ, истиқлол ва рушди Тоҷикистон қаҳрамонии ҳарбӣ ва меҳнатӣ намудаанд, супорида мешавад.
                             <div class='emptyLine'></div>
@@ -323,7 +375,7 @@ module.exports.poets = [
                             «Намунаҳои адабиёти тоҷик»-и ӯ, нишонаи таъриху фарҳанги деринаи халқи тоҷик аст.`
                     },
                     {
-                        title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/uzbek.png",
+                        title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
                         desc: `Ордени "Хизати шоён" ба шаҳрвандони Ҷумҳурии Ӯзбекистон ва шаҳрвандони кишварҳои хориҷӣ барои хизматҳои бузург дар 
                             рушди илму техника, иқтисод ва фарҳанг, саҳми арзанда дар рушди ҳамкориҳои байнидавлатӣ ва татбиқи нақшаҳои 
                             дохилӣ ва хориҷӣ мукофотонида мешаванд.
@@ -333,7 +385,7 @@ module.exports.poets = [
                 ],
             ru: [
                     {
-                        title: "Орден Ленина", years: ["1941"], img: "/poetImages/ayni/lenin.png", 
+                        title: "Орден Ленина", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
                         desc: `Высшая награда Советского Союза присуждалась за выдающиеся заслуги в революционном движении, 
                             трудовую деятельность, защиту социалистической Родины, развитие дружбы и сотрудничества между народами, 
                             укрепление мира перед Советским государством и обществом.
@@ -342,11 +394,11 @@ module.exports.poets = [
                             открытых базах данных.`
                     },
                     {
-                        title: "Почётный академик АНУзССР", years: ["1943"], img: "/poetImages/ayni/academy.png", 
+                        title: "Почётный академик АНУзССР", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
                         desc: `В 1943 году С. Айни стал почётным членом Академии наук Узбекской ССР.`
                     },
                     {
-                        title: "Почетный Доктор ЛГУ", years: ["1948"], img: "/poetImages/ayni/phd.png", 
+                        title: "Почетный Доктор ЛГУ", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
                         desc: `Звание «Почетный Доктор Ленинградского Государственного Университета (СПбГУ)» присваивается 
                             выдающимся деятелям науки, образования и культуры, 
                             государственным и общественным деятелям, внесшим вклад в развитие международного научного, культурного, 
@@ -356,7 +408,7 @@ module.exports.poets = [
                     },
                     {
                         title: "Сталинская премия",
-                        years: ["1950"], img: "/poetImages/ayni/stalin.png", 
+                        years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
                         desc: `Высшая государственная награда СССР, удостоевомая за выдающиеся достижения и заслуги в области 
                             науки и техники, военного дела, литературы и искусства в 1940-1955 годах.
                             <div class='emptyLine'></div>
@@ -365,14 +417,14 @@ module.exports.poets = [
                             соответственно награды второй степени.`
                     },
                     {
-                        title: "Орден Трудового Красного Знамени", years: [""], img: "/poetImages/ayni/labor.png", 
+                        title: "Орден Трудового Красного Знамени", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
                         desc: `Общегражданская награда Советского Союза вручался за заслуги государству и обществу в области производства, 
                             науки, культуры, литературы, искусства, образования, здравоохранения и других областей трудовой деятельности.
                             <div class='emptyLine'></div>
                             Айни награждался этим орденом дважды.`
                     },
                     {
-                        title: "Герой Таджикистана", years: ["1997"], img: "/poetImages/ayni/hero.png", 
+                        title: "Герой Таджикистана", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
                         desc: `Высшее государственное звание Республики Таджикистан присуждаемое за заслуги перед государством и народом, 
                             за воинский и трудовой героизм во имя свободы, независимости и развития Таджикистана.
                             <div class='emptyLine'></div>
@@ -381,7 +433,7 @@ module.exports.poets = [
                             является показателем древней истории и культуры таджикского народа.`
                     },
                     {
-                        title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/uzbek.png",
+                        title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
                         desc: `Орденом "За выдающиеся заслуги" награждаются граждане Республики Узбекистан и граждане иностранных государств за выдающиеся заслуги
                             в развитии науки и техники, экономики и культуры, ценный вклад в развитие межгосударственного сотрудничества 
                             и реализацию отечественных и зарубежных планов.
@@ -409,7 +461,7 @@ module.exports.poets = [
                             соответственно степени награды.`
                     },
                     {
-                        title: "Орден Трудового Красного Знамени", years: [""], img: "/poetImages/ayni/labor.png", 
+                        title: "Орден Трудового Красного Знамени", years: ["?"], img: "/poetImages/ayni/labor.png", 
                         desc: `Общегражданская награда Советского Союза вручался за заслуги государству и обществу в области производства, 
                             науки, культуры, литературы, искусства, образования, здравоохранения и других областей трудовой деятельности.
                             <div class='emptyLine'></div>
@@ -435,7 +487,7 @@ module.exports.poets = [
                 ],
             us: [
                     {
-                        title: "Order of Lenin", years: ["1941"], img: "/poetImages/ayni/lenin.png", 
+                        title: "Order of Lenin", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
                         desc: `The highest civilian honor of the Soviet Union awarded for outstanding services in the revolutionary movement, 
                             labor activity, defense of the socialist Motherland, promotion of friendship and cooperation between peoples, 
                             strengthening of peace in the Soviet state and society.
@@ -443,11 +495,11 @@ module.exports.poets = [
                             Ayni was awarded this order three times, but information about only one of them (from 1941) is available in open databases.`
                     },
                     {
-                        title: "Honorary Academician of the ASUzSSR", years: ["1943"], img: "/poetImages/ayni/academy.png", 
+                        title: "Honorary Academician of the ASUzSSR", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
                         desc: `In 1943, Ayni became an honorary member of the Academy of Sciences of the Uzbek Soviet Socialist Republic.`
                     },
                     {
-                        title: "Honorary doctorate from LSU", years: ["1948"], img: "/poetImages/ayni/phd.png", 
+                        title: "Honorary doctorate from LSU", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
                         desc: `The title of "Honorary Doctor of Leningrad State University (St. Petersburg State University)" is awarded to outstanding 
                             figures in science, education and culture, statesmen and public figures who have contributed to the development of international 
                             scientific, cultural, economic and political cooperation.
@@ -456,7 +508,7 @@ module.exports.poets = [
                     },
                     {
                         title: "Stalin Prize",
-                        years: ["1950"], img: "/poetImages/ayni/stalin.png", 
+                        years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
                         desc: `The highest state award of the USSR, given between 1940-1955 for outstanding achievements and merits in science and 
                             technology, military affairs, literature and art.
                             <div class='emptyLine'></div>
@@ -465,14 +517,14 @@ module.exports.poets = [
                             with second-degree honors.`
                     },
                     {
-                        title: "Order of the Red Banner of Labor", years: [""], img: "/poetImages/ayni/labor.png", 
+                        title: "Order of the Red Banner of Labor", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
                         desc: `The general civil honor of the Soviet Union awarded for meritorious services to the state and society in 
                             the field of production, science, culture, literature, art, education, health care and other occupational fields.
                             <div class='emptyLine'></div>
                             Ayni received this order twice.`
                     },
                     {
-                        title: "Hero of Tajikistan", years: ["1997"], img: "/poetImages/ayni/hero.png", 
+                        title: "Hero of Tajikistan", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
                         desc: `The highest state title of the Republic of Tajikistan awarded for services to the state and people, for 
                             military and labor heroism in the name of freedom, independence and development of Tajikistan.
                             <div class='emptyLine'></div>
@@ -481,7 +533,7 @@ module.exports.poets = [
                             served as a witness to the ancient history and culture of the Tajik people.`
                     },
                     {
-                        title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/uzbek.png",
+                        title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
                         desc: `The "Order of Outstanding Merit" is awarded to citizens of the Republic of Uzbekistan and citizens of 
                             foreign countries for outstanding achievements in the development of science and technology, economy and culture, 
                             a valuable contribution to the promotion of interstate cooperation and the implementation of domestic and foreign plans.
