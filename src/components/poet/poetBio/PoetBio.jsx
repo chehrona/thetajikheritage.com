@@ -80,14 +80,14 @@ export default function PoetBio({ poet }) {
                 </Slides>
                 <NavBox>
                     <Line />
-                    <StyledIconButton onClick={moveUp}>
+                    <StyledIconButton onClick={moveUp} disabled={stackOrder[0] > stackOrder[1]}>
                         <Arrow>
                             <PlayArrow />
                         </Arrow>
                     </StyledIconButton>
                 </NavBox>
                 <NavBox bottom={true}>
-                    <StyledIconButton bottom={true} onClick={moveDown}>
+                    <StyledIconButton bottom={true} onClick={moveDown} disabled={stackOrder[1] + 1 === poet?.bio.two[lang].length}>
                         <Arrow>
                             <PlayArrow />
                         </Arrow>
