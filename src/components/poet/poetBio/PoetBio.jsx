@@ -25,19 +25,22 @@ import {
 
 export default function PoetBio({ poet }) {
     const { lang } = useSetLang();
-    let bioArray = poet?.bio.two[lang];
-    const [currentContainer, setCurrentContainer] = useState(0);
+    const [stackOrder, setStackOrder] = useState([poet?.bio.two[lang].length - 1, 0, 1]);
 
-    const nextContainer = () => {
-        setCurrentContainer((prevContainer) =>
-            (prevContainer + 1) % poet?.bio.two[lang].length
-        );
+    const moveUp = () => {
+        if (stackOrder.length > 1) {
+            const movedItem = stackOrder.pop();
+            stackOrder.unshift(movedItem);
+            setStackOrder([...stackOrder]);
+        }
     };
     
-    const previousContainer = () => {
-        setCurrentContainer((prevContainer) =>
-            (prevContainer - 1 + poet?.bio.two[lang].length) % poet?.bio.two[lang].length
-        );
+      const moveDown = () => {
+        if (stackOrder.length > 1) {
+            const movedItem = stackOrder.shift();
+            stackOrder.push(movedItem);
+            setStackOrder([...stackOrder]);
+        }
     };
 
     return (
@@ -56,33 +59,35 @@ export default function PoetBio({ poet }) {
                     <Backdrop backdrop={poet?.bio.backdrops[0]} />
                 </InnerOverlay>
                 <Slides>
-                    <SlideImg
-                        src={poet?.bio.two[lang][bioArray.length - 1].image}
-                    />
-                    <LineWrapper>
-                        <SlideImg
-                            src={poet?.bio.two[lang][currentContainer].image}
-                            show={true}
-                        />
-                        <div>
-                            <Year align={true}>{poet?.bio.two[lang][currentContainer].year}</Year>
-                            <Text dangerouslySetInnerHTML={{__html: poet?.bio.two[lang][currentContainer].desc}} />
-                        </div>
-                    </LineWrapper>
-                    <SlideImg
-                        src={poet?.bio.two[lang][1].image}
-                    />
+                {stackOrder.map((item, i) => (
+                    <>
+                        {i === 1 ? (
+                            <LineWrapper>
+                                <SlideImg
+                                    src={poet?.bio.two[lang][item].image}
+                                    show={true}
+                                />
+                                <div>
+                                    <Year align={true}>{poet?.bio.two[lang][item].year}</Year>
+                                    <Text dangerouslySetInnerHTML={{__html: poet?.bio.two[lang][item].desc}} />
+                                </div>
+                            </LineWrapper>
+                        ) : (
+                            <SlideImg src={poet?.bio.two[lang][item].image} />
+                        )}
+                    </>
+                ))}
                 </Slides>
                 <NavBox>
                     <Line />
-                    <StyledIconButton onClick={previousContainer}>
+                    <StyledIconButton onClick={moveUp}>
                         <Arrow>
                             <PlayArrow />
                         </Arrow>
                     </StyledIconButton>
                 </NavBox>
                 <NavBox bottom={true}>
-                    <StyledIconButton bottom={true} onClick={nextContainer}>
+                    <StyledIconButton bottom={true} onClick={moveDown}>
                         <Arrow>
                             <PlayArrow />
                         </Arrow>

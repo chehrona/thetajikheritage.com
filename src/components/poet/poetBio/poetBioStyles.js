@@ -79,12 +79,10 @@ export const Slides = styled.div`
 export const SlideImg = styled.img`
     width: 20rem;
     display: block;
-    filter: grayscale(1) ${({ show }) => show ? 'brightness(100%)': 'brightness(40%)'};
-    box-shadow: ${({ show }) => show && '-0.3rem 0rem 0.3rem -0.2rem #dedbdb, 0.3rem 0rem 0.3rem -0.2rem #dedbdb'};
+    filter: grayscale(1) ${({ show }) => show ? 'brightness(100%)': 'brightness(60%)'};
+    box-shadow: ${({ show }) => 
+        show ? '-0.3rem 0rem 0.3rem -0.2rem #dedbdb, 0.3rem 0rem 0.3rem -0.2rem #dedbdb' : '0rem 0rem 1rem 0.2rem #504221e6'};
     margin-right: 3rem;
-    position: relative;
-    top: ${({ y }) => y && `${y}rem`};
-    transition: all 0.5s;
 `;
 
 export const NavBox = styled.div`
