@@ -10,6 +10,7 @@ import {
     Desc,
     RightWrapper,
     Image,
+    ImageDesc,
     BoxTwo,
     Slides,
     SlideImg,
@@ -52,6 +53,7 @@ export default function PoetBio({ poet }) {
                 </LeftWrapper>
                 <RightWrapper>
                     <Image src={poet?.bio.one[lang].img}/>
+                    <ImageDesc>{poet?.bio.one[lang].imgDesc}</ImageDesc>
                 </RightWrapper>
             </BoxOne>
             <BoxTwo>

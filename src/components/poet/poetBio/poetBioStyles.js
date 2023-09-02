@@ -11,6 +11,7 @@ export const BoxOne = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 2rem;
 `;
 
 export const LeftWrapper = styled.div`
@@ -38,6 +39,13 @@ export const Image = styled.img`
     filter: grayscale(1);
 `;
 
+export const ImageDesc = styled.div`
+    margin-left: 2rem;
+    margin-top: -2rem;
+    font-size: 1rem;
+    font-style: italic;
+`;
+
 export const RightWrapper = styled.div`
     padding-right: 5rem;
     padding-top: 2rem;
@@ -49,6 +57,7 @@ export const BoxTwo = styled.div`
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-bottom: 3rem;
 `;
 
 export const InnerOverlay = styled.div`

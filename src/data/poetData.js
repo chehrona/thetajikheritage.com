@@ -22,6 +22,7 @@ module.exports.poets = [
                 us: {
                     year: 'April 15, 1878',
                     img: '/poetImages/ayni/soktare.png',
+                    imgDesc: 'Sadriddin Ayni museum in Soktare',
                     desc: `Sadriddin Saidmurodzoda was born in the village of Soktare, G’ijduvon district, 
                         in the Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
