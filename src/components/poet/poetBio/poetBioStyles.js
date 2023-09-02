@@ -34,12 +34,12 @@ export const Desc = styled.div`
 
 export const Image = styled.img`
     height: 100%;
-    width: 30rem;
+    width: 35rem;
     filter: grayscale(1);
 `;
 
 export const RightWrapper = styled.div`
-    padding-right: 3rem;
+    padding-right: 5rem;
     padding-top: 2rem;
 `;
 
@@ -80,8 +80,11 @@ export const SlideImg = styled.img`
     width: 20rem;
     display: block;
     filter: grayscale(1) ${({ show }) => show ? 'brightness(100%)': 'brightness(40%)'};
-    box-shadow: 0rem 0rem 0.5rem 0.1rem #504221;
+    box-shadow: ${({ show }) => show && '-0.3rem 0rem 0.3rem -0.2rem #dedbdb, 0.3rem 0rem 0.3rem -0.2rem #dedbdb'};
     margin-right: 3rem;
+    position: relative;
+    top: ${({ y }) => y && `${y}rem`};
+    transition: all 0.5s;
 `;
 
 export const NavBox = styled.div`
@@ -121,6 +124,10 @@ export const Arrow = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
+    }
 `;
 
 export const LineWrapper = styled.div`

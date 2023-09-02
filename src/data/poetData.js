@@ -51,18 +51,13 @@ module.exports.poets = [
                         },
                         {
                             year: '1896',
-                            image: '/poetImages/ayni/ayni2.png',
-                            desc: `A devastating plague swept through Bukhara and its neighboring areas, parting Ayni 
-                                from both his father and mother in a span of forty days.<br>Despite these challenging circumstances, 
-                                Ayni's dream for knowledge led him to Bukhara at the age of 12.<br>However, it was an uphill battle 
-                                for economically disadvantaged individuals like him to access education within Bukhara's madrasas.
-                                In order to be able to pay for his room, which should have been free, as well as his daily living costs, 
-                                he was forced to take on various odd jobs. These roles ranged from serving as a janitor in the madrasa to 
-                                working as a cook, handling laundry tasks, and more.`
+                            image: '/poetImages/ayni/ayni3.png',
+                            desc: `During his time at the madrasa, he penned his initial poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli." 
+                                However, in 1896 he adopted the pseudonym "Ayni" and gained literary recognition under this name.`,
                         },
                         {
                             year: '1897-1898',
-                            image: '/poetImages/ayni/ayni3.png',
+                            image: '/poetImages/ayni/ayni4.png',
                             desc: `During his time at the madrasa, he penned his initial poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli." 
                                 However, in 1895 he adopted the pseudonym "Ayni" and gained literary recognition under this name.`,
                         }

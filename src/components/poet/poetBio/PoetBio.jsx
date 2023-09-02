@@ -25,19 +25,20 @@ import {
 
 export default function PoetBio({ poet }) {
     const { lang } = useSetLang();
-    const [index, setIndex] = useState(1);
+    let bioArray = poet?.bio.two[lang];
+    const [currentContainer, setCurrentContainer] = useState(0);
 
-    function handleUp() {
-        if (index > 0) {
-            setIndex(index - 1);
-        }
-    }
-
-    function handleDown() {
-        if (index < poet?.bio.two[lang].length) {
-            setIndex(index + 1);
-        }
-    }
+    const nextContainer = () => {
+        setCurrentContainer((prevContainer) =>
+            (prevContainer + 1) % poet?.bio.two[lang].length
+        );
+    };
+    
+    const previousContainer = () => {
+        setCurrentContainer((prevContainer) =>
+            (prevContainer - 1 + poet?.bio.two[lang].length) % poet?.bio.two[lang].length
+        );
+    };
 
     return (
         <MainContainer id='Biography'>
@@ -55,30 +56,33 @@ export default function PoetBio({ poet }) {
                     <Backdrop backdrop={poet?.bio.backdrops[0]} />
                 </InnerOverlay>
                 <Slides>
-                    {poet?.bio.two[lang].map((entry, i) => {
-                        return (
-                            <LineWrapper>
-                                <SlideImg key={i} src={entry.image} show={index === i} />
-                                {index === i && 
-                                    <div>
-                                        <Year align={true}>{entry.year}</Year>
-                                        <Text dangerouslySetInnerHTML={{__html: entry.desc}} />
-                                    </div>
-                                }
-                            </LineWrapper>
-                        )
-                    })}
+                    <SlideImg
+                        src={poet?.bio.two[lang][bioArray.length - 1].image}
+                    />
+                    <LineWrapper>
+                        <SlideImg
+                            src={poet?.bio.two[lang][currentContainer].image}
+                            show={true}
+                        />
+                        <div>
+                            <Year align={true}>{poet?.bio.two[lang][currentContainer].year}</Year>
+                            <Text dangerouslySetInnerHTML={{__html: poet?.bio.two[lang][currentContainer].desc}} />
+                        </div>
+                    </LineWrapper>
+                    <SlideImg
+                        src={poet?.bio.two[lang][1].image}
+                    />
                 </Slides>
                 <NavBox>
                     <Line />
-                    <StyledIconButton onClick={handleUp}>
+                    <StyledIconButton onClick={previousContainer}>
                         <Arrow>
                             <PlayArrow />
                         </Arrow>
                     </StyledIconButton>
                 </NavBox>
                 <NavBox bottom={true}>
-                    <StyledIconButton bottom={true} onClick={handleDown}>
+                    <StyledIconButton bottom={true} onClick={nextContainer}>
                         <Arrow>
                             <PlayArrow />
                         </Arrow>
