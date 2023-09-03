@@ -83,3 +83,8 @@ sub {
     height: 2rem;
     width: 100%;
 }
+
+.space {
+    height: 0.5rem;
+    width: 100%;
+}

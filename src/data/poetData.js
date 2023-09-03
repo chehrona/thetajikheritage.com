@@ -18,37 +18,64 @@ module.exports.poets = [
             kh: ["زندگینامه", "ایجدیت", "فیلم ها", "فعالیتی سیاسی", "جوایزها"]
         },
         bio: {
+            backdrops: ['/poetImages/ayni/kukaltosh.png', '/poetImages/ayni/back.png'],
+            quote: '/poetImages/quote.svg',
             one: {
                 us: {
                     year: 'April 15, 1878',
                     img: '/poetImages/ayni/soktare.png',
                     imgDesc: 'Sadriddin Ayni museum in Soktare',
-                    desc: `Sadriddin Saidmurodzoda was born in the village of Soktare, G’ijduvon district, 
-                        in the Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
+                    desc: `Sadriddin Saidmurodzoda was born to Saidmurodkhoja and Zevaroy in the village of 
+                        Soktare, G’ijduvon district, 
+                        Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
                         that he was introduced to the world of folk art, including tales, legends, songs, 
-                        anecdotes, and proverbs.<br>During his school years, as documented in his book "The Old School," 
+                        anecdotes, and proverbs.
+                        <div class='space'></div>
+                        During his school years, as documented in his book "The Old School," 
                         he didn't find much value in formal education. However, he had his initial exposure to the 
-                        poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<br>His father, 
-                        Said Murodkhoja, despite being a humble peasant, had a deep love for education and literature, 
+                        poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
+                        His father despite being a humble peasant, had a deep love for education and literature, 
                         which he passed down to his children.`
                 },
-                ru: ['15 апреля 1878'],
+                ru: {
+                    year: '15 апреля 1878',
+                    img: '/poetImages/ayni/soktare.png',
+                    imgDesc: 'Музей имени Садриддина Айни в Соктаре',
+                    desc: `Sadriddin Saidmurodzoda was born to Saidmurodkhoja and Zevaroy in the village of 
+                        Soktare, G’ijduvon district, 
+                        Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
+                        years among fellow farmers and local artisans. It was within this close-knit community 
+                        that he was introduced to the world of folk art, including tales, legends, songs, 
+                        anecdotes, and proverbs.
+                        <div class='space'>
+                        During his school years, as documented in his book "The Old School," 
+                        he didn't find much value in formal education. However, he had his initial exposure to the 
+                        poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'>
+                        His father despite being a humble peasant, had a deep love for education and literature, 
+                        which he passed down to his children.`
+                },
                 tj: ['15 апрели 1878']
             },
-            backdrops: ['/poetImages/ayni/kukaltosh.jpeg'],
             two: {
                 us: [
                         {
                             year: '1889',
                             image: '/poetImages/ayni/ayni1.png',
-                            desc: `A devastating plague swept through Bukhara and its neighboring areas, parting Ayni 
-                                from both his father and mother in a span of forty days. Despite these challenging circumstances, 
-                                Ayni's dream for knowledge led him to Bukhara at the age of 12.<br>However, it was an uphill battle 
-                                for economically disadvantaged individuals like him to access education within Bukhara's madrasas.
-                                In order to be able to pay for his room, which should have been free, as well as his daily living costs, 
-                                he was forced to take on various odd jobs. These roles ranged from serving as a janitor in the madrasa to 
-                                working as a cook, handling laundry tasks, and more.`
+                            desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
+                                from both his father and mother in a span of forty days. He was left to take care of two younger
+                                siblings at the age of 12. Despite these challenging circumstances, 
+                                Ayni's dream for knowledge led him to Bukhara.`
+                        },
+                        {
+                            year: '1890',
+                            image: '/poetImages/ayni/ayni2.png',
+                            desc: `Sharifjon-makhdum helps him get into Mir-i Arab madrasa and secure a "hujra" - room there. 
+                            However, it was an uphill battle 
+                            for economically disadvantaged individuals like him to access education within Bukhara's madrasas.
+                            In order to be able to pay for his room, which should have been free, as well as his daily living costs, 
+                            he was forced to take on various odd jobs. These roles ranged from serving as a janitor in the madrasa to 
+                            working as a cook, handling laundry tasks, and more.`
                         },
                         {
                             year: '1896',
@@ -59,82 +86,78 @@ module.exports.poets = [
                         {
                             year: '1897-1898',
                             image: '/poetImages/ayni/ayni4.png',
-                            desc: `During his time at the madrasa, he penned his initial poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli." 
-                                However, in 1895 he adopted the pseudonym "Ayni" and gained literary recognition under this name.`,
+                            desc: `Qozi Mirzo Muhammadsharifi Sadr (Sadri Ziyo), approached Ayni and his fellow classmate Abduvahid Munzim
+                                with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication. 
+                                The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
+                                pushes him to start thinking about correcting these injustices and more in the Emirate of Bukhara.`,
+                        },
+                        {
+                            year: '1908',
+                            image: '/poetImages/ayni/ayni5.png',
+                            desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
+                                designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzari (street) Salohkhona, 
+                                with Persian as language of instruction, catering to the local Bukharan population.`,
+                        },
+                        {
+                            year: '1909',
+                            image: '/poetImages/ayni/ayni5.png',
+                            desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Quran" - rules for
+                                proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
+                                and "ضروريات دینیه" ("Zaruriyati deeniya" - "Religious essentials").`
+                        },
+                        {
+                            year: '1910',
+                            image: '/poetImages/ayni/ayni6.png',
+                            desc: `He became one of the early members of "Javonbukhoriyon"/"Yosh buxoroliklar" - "Young Bukharans", 
+                                a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.`,
                         }
-                ],
-                ru: ['15 апреля 1878'],
-                tj: ['15 апрели 1878']
+                    ],
+                },
+            three: {
+                us: {
+                    quote: `... I regret that most of my life was in ignorance, ... now my conscience prevents me from saying "it is not my fight."`,
+                    desc: `After leaving the madrasa, Ayni continues his involvement with the jadids, 
+                        resisting the old ways so deeply engrained among the Bukharan clergy.
+                        His "good deeds", however, were met with disapproval from the amir, 
+                        leading to his imprisonment and the harshest sentence of the time - 
+                        <span style='font-weight: bold;'>75 lashes</span>.
+                        <div class='space'></div>Eventually, he is liberated by the Russian 
+                        Revolutionary forces at the behest of the Young Bukharans. After enduring 
+                        <span style='font-weight: bold;'>52 days</span> in the hospital 
+                        and undergoing <span style='font-weight: bold;'>25 surgeries</span>, 
+                        he permanently moves to Samarkand.
+                        There, he dedicated himself to the revolutionary cause, wielding the 
+                        power of his pen, writing political articles and to 
+                        directly invite the nation for war against the amir.
+                        <br>Upon discovering Ayni's association with the Soviet forces, the 
+                        amir falsely accused his younger brother, 
+                        <span style='font-weight: bold;'>Sirojiddin</span>, in treason 
+                        and cruelly murdered him through suffocation. Ayni channeled his 
+                        grief into his literary work, "Marsiya."
+                        <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
+                        <span style='font-weight: bold;'>Muhiddinkhoja</span>, kidnapped his son and burned 
+                        his house to the ground.
+                        <div class='space'></div>These agonizing losses only fueled Ayni's 
+                        resolve, sharpening his pen and intensifying his determination to guide the country 
+                        towards liberation from such merciless rulers.`,
+                },
             },
-            us: "Sadriddin Ayni was a Tajik intellectual who wrote poetry, fiction, journalism, history, and a dictionary. He is regarded as Tajikistan's national poet and one of the most important writers in the country's history.",
-            ru: "He was born in a small village outside of Bukhara named Soktare",
-            tj: `Айнӣ Садриддин Саидмуродзода 15 апрели соли 1878 дар деҳаи Соктареи ноҳияи Ғиждувони вилояти Бухоро аз оилаи деҳқони камбағал таваллуд ёфтааст. Айёми бачагиашро дар байни аҳли заҳматкаш — деҳқонон ва косибони деҳа мегузаронад. Ҳикояту афсонаҳои аҷоибу ғароиб, суруду таронаҳои дилчасп ва латифаю зарбулмасалҳои пурҳикмат, ки аз одамони хуштабъу заковатманд мешунид, ӯро ба олами сеҳрангези эҷодиёти бадеии халқ ошно менамояд. Ҳангоми мактабхониаш, ҳарчанд дар саводомӯзӣ баҳрае набурда бошад ҳам, аввалин бор бо баъзе намунаҳои ғазалиёти Ҳофиз, Соиб, Бедил ва дигар устодони назм шиносоӣ пайдо мекунад. Бо сабакҳои пандомӯзи падарм худ Саидмуродхоҷа, ки шахси маърифатдӯст ва мухлиси адабиёт буд, тарбият ёфта, аз хурдсоли дар дилаш нисбат ба илму дониш ва шеъру шоирӣ муҳаббат мепарварад. Пас аз вафоти падару модар, ба сахтиҳои зиндагӣ нигоҳ накарда, соли 1890 бо нияти таҳсил ба Бухоро меояд. Дар солҳои аввал ба сабаби муҳтоҷӣ ва тангдастӣ маҷбур мешавал. ки хизмати ҳуҷрадорони мадраса ва муллобачаҳои давлатмандро адо намуда, дар вақтҳои фароғат дарсхонӣ кунад. Роҳ ёфтан ба мухити илмӣ ва адабии Бухоро, алоқа пайдо карда бо зиёиёни равшанзамир ва махсусан шиносо шудан бо ақидаҳои маорифпарваронаи Аҳмади Дониш. (1827-1897) дар инкишофи фикрии ӯ таьсири муфид мебахшад. Пас аз хатми мадраса фаъолияти адабию ҷамъиятии худро ба мароми маорифпарварӣ марбут намуда, дар таъсиси мактабҳои усули нав ва ислоҳи таълиму тадрис ширкат мекунад. Ин иқдомоти ӯ дар натиҷаи алоқаманд гардидан бо ҳаракати ислоҳоталабонаи ҷадидӣ аз камбудиҳои ғоявӣ холӣ набуд» аммо бо вуҷуди ин дар ҳамон шароити истибдод ва таассуби динӣ як амалиёти мухолифи тартиботи аморат ба шумор мерафт.
-                'Дар давраи ҷанги якуми ҷаҳон таъкиботи ҳукумати амирӣ қувват гирифта, бисёр одамони тараққихоҳ аз Бухоро фирор мекунанд. С.Айнӣ ҳам ба Қизилтеппа рафта, чанд вақт дар заводи пахта кор мекунад. Сипас ба тарафҳои Қарши, Самарқанд, Хуҷанд ва Фарғона сафар намуда, дар ҳама ҷо манзараҳои мудҳиши зулму истисмор ва аҳволи фоҷеи коргарону деҳқононро мушоҳида мекунад ва нафраташ ба сохти мавҷуда боз хам зиёдтар мегардад. Баъди баргаштан ба Бухоро дигар ба тарғиби мактаб ва маориф маҳдуд нашуда, беш аз пеш ба масъалаҳои сиёсӣ низ дахл менамояд. Моҳи апрели соли 1917, дар рӯзҳои ҳуҷуми қувваҳои иртиҷои, аз тарафи одамони амир дастгир шуда, бо 75 дарра дар сурати ваҳшиёна ҷазо мебинад. Ӯро дар ҳолати абгорӣ аскарони рус аз зиндон халос карда, ба Когон меоваранд. Қариб ду моҳ дар беморхона табобат ёфта, 3 июни ҳамон сол ба Самарқанд меравад ва он ҷоро истиқоматгоҳи доимии худ интихоб мекунад. Инқилоби Октябрро бо хушнудӣ пешвоз гирифта, аз рӯзҳои аввал ба хизмати он қамар мебандад ва дар сохтмони ҳаёти нави сотсиалистӣ фаъолона иштирок менамояд. Аз соли 1918 дар системаи маорифи халк ва дар нахустин матбуоти инқилобии тоҷик ва ӯзбек кор мекунад. Баъд аз ташкил ёфтани Республикаи Советии Халқии Бухоро муддате дар консулхона ва баъд дар идораи тиҷоратии он дар Самарқанд хизмат мснамояд. Аз соли 1926 дар Нашриёти давлатии Тоҷикистон вазифаи мушовир ва муҳаррири адабиро адо мекунад.
-            
-            Соли 1934 дар Анҷумани якуми Умумиттифоқии нависандагон иштирок намуда, узви раёсати Иттифоқи нависандагони СССР интихоб мешавад. Соли 1943 аъзои фахрии Академияи фанҳои Ӯзбекистон мегардад. Соли 1948 шӯрои илмии Университети давлатии Ленинград ба вай унвони доктори илми филологӣ медиҳад. Соли 1951 академик ва аввалин президенти Академияи илмҳои Тоҷикистон интихоб мешавад.
-            
-            Осори адабии у аз назм ва наср фароҳам омадааст. Нахустин шеърхҳояш бо тахаллусҳои «Мӯхтоҷӣ», «Ҷунунӣ» ва «Сифлӣ» ҳанӯз лар овони таҳсили мадраса гуфта шудаанд. Аз соли 1895 тахаллуси «Айнӣ»-ро қабул карда, бо ҳамин ном дар адабиёт машҳур мегардад.- Шеърҳои мадрасавии вай дар пайравии шоирони гузашта ва муосир иншо шуда, бештар ба кайфият ва зиндагонии давраи таҳсилаш алоқаманд буданд. Чанде аз ин қабил шеърҳояш дар тазкира ва баёзҳои он замон дохил шудаанд. Баъдтар дар ҷараёни фаъолияти маърифатпарварии худ шеърҳои таълимӣ мегӯяд. Китоби дарсии «Тазҳиб-ус-сибён» (1909-1917) ва манзумаи тамсилии «Кирмак ва парвона» (1917) дорои аҳамияти тарбиявӣ ва иҷтимоӣ буда, аз беҳтарин асарҳои пешазинқилобии ӯ ба шумор мераванд.
-            
-            Пас аз ғалабаи Инқилоби Октябр ҳаёт ва эҷодиёти худро бо тақдири халқи мубориз ва бунёдкори советӣ пайваста, аввалин намунаҳои назми инқилобии тоҷикро ба вуҷуд меоварад. Шеърҳои дар солҳои 1918-1921 навиштаи С.Айнӣ «Марши ҳуррият», «Ба шарафи Инқилоби Октябр», «Инқилоб», «Марши байналмилалӣ «Якуми Май» ва ғайра дар маҷаллаи «Шуълаи инқилоб», рӯзномаи «Меҳнаткашлар товуши» («Садои меҳнаткашон») чоп шуда, ба нахустин маҷмӯаи ӯ «Ахтари инқилоб» (Бухоро, 1923) дохил гардидааст.`,
-            
-            // `Дар ин солҳо вай оид ба мавзӯъҳои гуногуни сиёсӣ, иҷтимоӣ ва маданӣ бисёр мақолаҳои публитсистӣ навишта, моҳияти 
-            // воқеаҳои ҳаррӯзаи давраи инқилобро ба омма фаҳмонда медиҳад. Тадриҷан ӯ зарурати дар эҷоди бадеӣ тасвир намудани 
-            // образи қаҳрамонон ва бунёдкунандагони ҷамъияти сотсиалистиро ҳис карда ва дар адои ин вазифа насрро шакли мувофиқтар 
-            // дониста, ба насрнависӣ мегузарад ва аввалин шуда, очерк, ҳикоя ва повесту романро ба адабиётамон татбиқ намуда, 
-            // асосгузори насри реалистии тоҷик мегардад. Соли 1920 якумин повести худ «Ҷаллодони Бухоро»-ро навишта, бо санаду 
-            // далелҳои таърихӣ разолат ва фоҷеаҳои рӯзҳои вопасини аморатро фош мекунад. Пас аз ин, повести дигари худ «Саргузашти 
-            // як тоҷики камбағал ё ки Одина»-ро ба вуҷуд оварда, қисмҳои аввали онро солҳои 1924-1925 дар рӯзномаи «Овози тоҷик» чоп 
-            // мекунонад. Соли 1927 тамоми повест бо унвони «Одина» дар шакли китоби алоҳида иашр мешавад. Дар ин асар ҳаёти тоҷикони 
-            // кӯҳистони Бухорои Шарқӣ дар арафаи инқилоб тасвир ёфтааст. Соли 1930 якумин романи нависанда «Дохунда» аз чоп мебарояд, 
-            // ки лавҳаҳои зиндагонии пеш аз инқилоб, давраи он ва ҷангҳои ҳамватаниро фаро гирифта, муборизаи халқи тоҷикро дар роҳи 
-            // озодӣ ва сохтмони хости нав нишон медиҳад. Соли 1935 калонтарин романи С.Айнӣ «Ғуломон» нашр мегардад. Ин асарест, ки 
-            // ҳаёти беш аз садсолаи халқамонро инъикос намуда, дар бораи чӣ тавр аз ҳолати мазлумӣ ба зиндагонии саодатманлонаи 
-            // сотсиалистӣ расидани онхо нақл мекунад. С.Айнӣ ба воситаи ин повесту романҳои худ аввалин бор дар таърихи адабиётамон 
-            // оммаи меҳнаткашро қаҳрамони асосии адабиёт гардонд. Дар зарфи солҳои 1935-1940 боз якчанд асарҳои насрӣ, аз ҷумла 
-            // повестҳои «Мактаби куҳна», «Марги судхӯр» ва «Ятим»-ро эҷод менамояд. Дар давраи Ҷанги Бузурги Ватанӣ як силсила ҳикоя, 
-            // очеркҳои таърихӣ ва мақолаҳои публитсистӣ таълиф намуда, қалби ватандӯстонаи тоҷикро ба ҷушу хурӯш меорад ва адолати 
-            // // онҳоро ба муқобили фашизм меафзояд. Дар солҳои 1949-1954 асари чорҷилдаи тарҷумаиҳолии С.Айнӣ «Ёддоштҳо» ба табъ 
-            // мерасад, ки дар он муҳимтарин лаҳзаҳои таърихи ҳастии халқи тоҷик дар охирҳои асри XIX ва ибтидои асри XX инъикос ёфтааст. 
-            // Ин асар, ки ҳам дар баёни ҳақиқати зиндагӣ ва дар бар гирифтани хулосаҳои амиқи пурҳикмат ва ҳам дар нигоришоти бадеӣ ва 
-            // // офариниши образҳои мухталиф ба авҷи камол расидани маҳорати адабии нависандаро нишон медиҳад, на фақат дар эҷодиёти ӯ мавқеи 
-            // // марказиро ишғол намудааст. балки яке аз муваффақиятҳои ба назар намоёни адабиёти тоҷик дар солҳои пас аз ҷанг мебошад. Соли 1950 барои 
-            // ду ҷилди аввали «Ёддоштҳо» ба гирифтани Мукофоти давлатӣ мушарраф мегардад. Дар давраи шӯравӣ асосан ба насрнависӣ машғул 
-            // шуда бошад ҳам, шеъргӯиро тамоман тарк накарда, ҳар вақт дар рӯзномаҳои «Овози тоҷик», «Тоҷикистони сурх», маҷаллаи «Барои 
-            // адабиёти сотсиалистӣ» ва «Шарқи Сурх»> шеърҳои таблиғотӣ, қасида ва манзумаҳою достонҳои худро чоп мекунад. Намунаҳои осори 
-            // манзуми дар давраҳои гуногун навиштаи ӯ дар маҷмӯаҳои «Ёдгорӣ» (1935) ва «Ашъори мунтахаб» 11958) гирд оварда шудаанд. С.Айнӣ 
-            // дар баробари фаъолияти адабӣ бисёр асарҳои илмӣ низ таълиф намудааст. Чунончи, доир ба таърих ду рисолаи калон—«Таърихи амирони 
-            // манғитияи Бухоро» (Тошканд, 1923) ва "Материалҳо оид ба таърихи инқилоби Бухоро» (Москва, 1926) инчунин, якчанд мақола ва 
-            // очеркҳои таҳқиқотӣ навиштааст. Мақолаҳои у доир ба масъалаҳои забоншиноси дар солҳои бистум барои демократӣ кунонидани забони 
-            // адабии тоҷик ва инкишофи он роли муҳим бозидааст. Хизмати С.Айнӣ махсусан дар соҳаи адабиётшиносӣ хеле бузург аст. Адабиётшиносии 
-            // советии тоҷик таърихи худро бо нахустин асари тадқиқотии ӯ «Намунаи адабиёти тоҷик» (1926) оғоз менамояд. Рисолаҳои илмии вай дар 
-            // хусуси ҳаёт ва эҷодиёти Рӯдакӣ, Абӯалӣ ибни Сино, Саъдӣ, Навоӣ, Бедил, Восифӣ ва ғайра ҳануз аҳамияти худро гум накардаанд. Осори 
-            // адабӣ ва илмии С.Айнй дар куллиёти понздаҳҷилда гирд оварда шудааст. С.Айнӣ як қисми асарҳояшро ба забонхои ӯзбеки таълиф ва тарҷима 
-            // намуда, дар тараққиёти адабиёти советии ӯзбек низ саҳми худро гузоштааст. Муҳимтарини ин қабил асарҳояш дар маҷуаи шашҷилда ба 
-            // забони ӯзбекӣ дар Тошканд нашр шудааст. С.Айнӣ дар нашри осори гузаштвгон дар тарҷима ва таҳрири асарҳои тарҷимавии нависандагони 
-            // халқҳои бародар фаъолона иштирок намудааст. Тарҷимаи романи Ф. Дюшен «Қамар» (1927) ба қалами ӯ тааллуқ дорад. Аксарияти 
-            // таълифоти С.Айнӣ, хусусан асарҳои калони насриаш ба забони қариб ҳамаи халқҳои мамлакатамон ва бисёр забонҳои хориҷӣ тарҷума ва 
-            // чандин бор нашр гардидаанд. С.Айнӣ узви Комитети Иҷроияи Марказии Республикаи Советии Халқии Бухоро (1923), узви КИМ РСС 
-            // Тоҷикистон (1929), депутати Советии Олии СССР (1950-1954). депутати Советии Олии РСС Тоҷикистон (1947) ва борҳо депутати 
-            // советии шаҳрии Душанбе ва Самарқанд интихоб шудааст. Узви раёсати Иттифоқи нависандагони СССР (1934), Ходими хизматнишондодаи 
-            // илми Тоҷикистон (1940) мебошад. Барои хизматҳои адабӣ ва ҷамъиятиаш бо се ордени Ленин (1941), 1948. 1949), «Байрақи 
-            // Сурхи Меҳнат» (1953), ордени ҷумҳуриявии «Байрақи Сурхи Меҳнат» (1931) ва Ифтихорномаҳои Советии Олии Тоҷикистон ва 
-            // Ӯзбекистон мукофотонида шудааст. Дар солҳои 1935, 1949 ва 1953 ҷашни солгарди ҳаёт ва эҷодиёти ӯ бо тантана гузаронида мешавад. 
-            // Аз соли 1958 ҳар сол дар рузи таваллуди нависанда маҷлиси илмии «Солонаи Айнӣ» барпо шуда, маводи он дар маҷмуаи махсуси 
-            // «Ҷашнномаи Айнӣ» нашр мегардад. Бисёр деҳаю районҳо, кучаю хиёбонҳо, мактаб ва муассисаҳои маданию равшаннамой номи ӯро гирифтаанд. 
-            // Дар шаҳри Душанбе осорхонаи адабии С.Айнӣ ва шаҳри Самарқанд (дар ҷои ҳавлии нависанда) осорхонаи ёдгории С.Айнӣ ташкил гардидаанд. 
-            // Соли 1997 бо фармони Президенти Ҷумҳурии Тоҷикистон ба ӯ унвони аввалин Каҳрамони Тоҷикистон дода шудааст. Соли 1934 ба узвияти 
-            // Иттифоқи нависандагони СССР қабул шудааст. 15 июли соли 1954 дар шаҳри Душанбе вафот намуд. Рисола, мақолаҳои забонии С. Айнӣ 1. 
-            // Сарфу наҳви забони тоҷикӣ «Овози тоҷик», 16 августи 1926 2.Китобҳои тоҷикӣ «Овози тоҷик», 30 июн ва 5 июли 1926, «Овози тоҷик», 
-            // 27 июли 1926 6,9,17, 19 июни 1926 3. Дунёи нав ва алифбои нав, «Овози тоҷик», 5 сентбри 1927 4. Дар атрофи забони форсӣ ва тоҷикӣ, 
-            // «Раҳбари дониш», 1928, №4-5 5. Масъалаи таърихӣ дар гирди алифбои нави тоҷикӣ, «Раҳбари дониш», соли 1928, №10 6. Забони тоҷикӣ 
-            // «Раҳбари дониш», 1928, №11-12 7.Ҷавоби ман, «Овози тоҷик», 7 феврали 1929. 8. Забони «Шоҳнома» 9. Муносибаи забони «Шоҳнома» 
-            // ба забони тоҷикӣ, «Куллиёт» ҷ. 11, к.1. Душанбе, Нашриёти давлатии Тоҷикистон 1963. саҳ. 43-49 10. Забон, услуб ва санъати 
-            // шеърии Бедил, «Куллиёт» ҷ.11, к. 2, Душанбе, Ирфон, 1964, саҳ. 105-114. 11.Оид ба вазъияти забоншиносии тоҷик – Шарқи Сурх, 
-            // 1952, №6, саҳ. 3-8 12.Дар бораи китобҳои мактабии тоҷикон, «Куллиёт», ҷ. 9 Душанбе, Ирфон, 1969, саҳ, 200 13.Як-ду сухан аз тарафи 
-            // тартибдиҳанда, 5 июли 1938, Самарқанд, «Куллиёт», ҷ.12, Душанбе, Ирфон. 1976, саҳ. 18-21. 14.Омӯзиши ман аз Максим Горкий «Куллиёт», 
-            // ҷ. 9, Душанбе, Ирфон, 1976, саҳ. 238 15. Кори Тоҷикистон гул карданист 16. Дар бораи адабиёт ва китобҳои мактабии Тоҷикистон 17. Ба 
-            // муносибати эълони Ҷумҳурияти Мухтори Тоҷикистон «Куллиёт», ҷ. 9, Душанбе, Ирфон, 1976. саҳ. 214-220.`,
-            kh: "He was born in a small village outside of Bukhara named Soktare",
+            four: {
+                us: {
+                    year: '1930',
+                    desc: `He authored his debut novel, "Dokhunda," depicting the grueling 
+                        existence of commonfolk in the pre-revolutionary era, capturing the 
+                        turbulence of the revolution, the wartime horrors endured by his 
+                        compatriots, and culminating in a vivid portrayal of the Tajik 
+                        people's pursuit of freedom and a new life.`
+                }
+            },
+            five: {
+                us: {
+                    year: '1920',
+                    desc: `Salohatbegim`
+                }
+            }
         },
         works: {
             us: [   

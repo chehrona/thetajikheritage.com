@@ -7,11 +7,13 @@ export const MainContainer = styled.div`
     padding-bottom: 6rem;
 `;
 
+// Box one ****************************
 export const BoxOne = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 2rem;
+    color: #0F0A00;
 `;
 
 export const LeftWrapper = styled.div`
@@ -19,10 +21,11 @@ export const LeftWrapper = styled.div`
     padding-left: 5rem;
     padding-right: 3rem;
     padding-top: 2rem;
+    width: ${({ half }) => half ? '50%' : '60%'};
 `;
 
 export const Year = styled.div`
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-family: "EB Garamond", serif;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -31,11 +34,12 @@ export const Year = styled.div`
 
 export const Desc = styled.div`
     font-size: 1.1rem;
+    color: #333333;
 `;
 
 export const Image = styled.img`
     height: 100%;
-    width: 35rem;
+    width: 100%;
     filter: grayscale(1);
 `;
 
@@ -47,17 +51,21 @@ export const ImageDesc = styled.div`
 `;
 
 export const RightWrapper = styled.div`
-    padding-right: 5rem;
-    padding-top: 2rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    width: ${({ half }) => half ? '50%' : '40%'};
 `;
 
+// Box two ****************************
 export const BoxTwo = styled.div`
     margin-top: 6rem;
+    margin-bottom: 10rem;
+    color: #fcf6e9;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-bottom: 3rem;
+    text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 `;
 
 export const InnerOverlay = styled.div`
@@ -73,7 +81,7 @@ export const Backdrop = styled.div`
     height: 45rem;
     width: 100%;
     background-size: cover;
-    opacity: 0.15;
+    opacity: 0.3;
     filter: grayscale(1);
     background-image: ${({ backdrop }) => `url(${ backdrop })`};
 `;
@@ -104,13 +112,14 @@ export const NavBox = styled.div`
 `;
 
 export const Line = styled.div`
-    width: 0.0625rem;
-    height: 7rem;
-    background: #bd9d5282;
+    width: ${({ height }) => height ? '0.1rem' : '0.0625rem'};
+    height: ${({ height }) => height ? '10rem' : '7rem'};
+    background: #bd9d52;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: ${({ bottom }) => bottom && '0rem'};
+    top: ${({ top }) => top && '0rem'};
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -140,7 +149,7 @@ export const Arrow = styled.div`
 export const LineWrapper = styled.div`
     color: #dedbdb;
     display: flex;
-    align-items: start;
+    align-items: center;
     height: 20rem;
     width: 100%;
     padding-right: 3rem;
@@ -150,4 +159,104 @@ export const Text = styled.div`
     text-align: justify;
     font-size: 1.1rem;
     line-height: 1.5rem;
+`;
+
+// Box three ****************************
+export const BoxThree = styled.div`
+    margin-top: 3rem;
+    width: 100%;
+    position: relative;
+    min-height: 30rem;
+`;
+
+export const QuoteWrapper = styled.div`
+    border: 0.125rem solid #bd9d52;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+`;
+
+export const QuoteSymbol = styled.div`
+    height: 100%;
+    width: 100%;
+    color: #bd9d52;
+    transform: rotateZ(180deg);
+    background-image: url('/poetImages/quote.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+`;
+
+export const Quote = styled.div`
+    font-size: 2.2rem;
+    font-family: "EB Garamond", serif;
+    font-style: bold;
+    text-align: center;
+    position: absolute;
+    top: 1rem;
+    margin: 5rem;
+`;
+
+export const DescWrapper = styled.div`
+    column-count: 2;
+    column-gap: 3rem;
+    max-height: 30rem;
+    overflow: hidden;
+    color: #333333;
+    padding: 5rem;
+    position: absolute;
+    top: 9rem;
+    font-size: 1.1rem;
+    font-family: 'IBM Plex Serif', serif;
+`;
+
+// Box four *****************************
+export const BoxFour = styled.div`
+    min-height: 20rem;
+    width: 100%;
+    position: relative;
+    margin-top: 5rem;
+    color: #fcf6e9;
+`;
+
+export const YearBig = styled.div`
+    font-size: 5rem;
+    font-family: "EB Garamond", serif;
+    margin-bottom: 1rem;
+`;
+
+export const TextWrapper = styled.div`
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    color: #fcf6e9;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
+`;
+
+export const Dot = styled.div`
+    border-radius: 50%;
+    background: #bd9d52;
+    height: 0.4rem;
+    width: 0.4rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    ${({ bottom }) => bottom ? 'bottom: 10rem' : 'top: 10rem'};
+`;
+
+// Box five
+export const BoxFive = styled.div`
+    min-height: 20rem;
+    width: 100%;
+    position: relative;
+    color: #dedbdb;
 `;

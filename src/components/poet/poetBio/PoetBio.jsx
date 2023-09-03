@@ -1,102 +1,26 @@
 import React, { useState } from "react";
 import { useSetLang } from "../../../App";
-import { PlayArrow } from "@mui/icons-material";
+
+import FirstBox from "./FirstBox";
+import SecondBox from "./SecondBox";
+import ThirdBox from "./ThirdBox";
+import ForthBox from "./ForthBox";
+import FifthBox from "./FifthBox";
 
 import { 
     MainContainer,
-    BoxOne,
-    LeftWrapper,
-    Year,
-    Desc,
-    RightWrapper,
-    Image,
-    ImageDesc,
-    BoxTwo,
-    Slides,
-    SlideImg,
-    Backdrop,
-    NavBox,
-    Line,
-    StyledIconButton,
-    Arrow,
-    InnerOverlay,
-    LineWrapper,
-    Text
 } from "./poetBioStyles";
 
 export default function PoetBio({ poet }) {
     const { lang } = useSetLang();
-    const [stackOrder, setStackOrder] = useState([poet?.bio.two[lang].length - 1, 0, 1]);
-
-    const moveUp = () => {
-        if (stackOrder.length > 1) {
-            const movedItem = stackOrder.pop();
-            stackOrder.unshift(movedItem);
-            setStackOrder([...stackOrder]);
-        }
-    };
-    
-      const moveDown = () => {
-        if (stackOrder.length > 1) {
-            const movedItem = stackOrder.shift();
-            stackOrder.push(movedItem);
-            setStackOrder([...stackOrder]);
-        }
-    };
-
+ 
     return (
         <MainContainer id='Biography'>
-            <BoxOne>
-                <LeftWrapper>
-                    <Year>{poet?.bio.one[lang].year}</Year>
-                    <Desc dangerouslySetInnerHTML={{__html: poet?.bio.one[lang].desc}} />
-                </LeftWrapper>
-                <RightWrapper>
-                    <Image src={poet?.bio.one[lang].img}/>
-                    <ImageDesc>{poet?.bio.one[lang].imgDesc}</ImageDesc>
-                </RightWrapper>
-            </BoxOne>
-            <BoxTwo>
-                <InnerOverlay>
-                    <Backdrop backdrop={poet?.bio.backdrops[0]} />
-                </InnerOverlay>
-                <Slides>
-                {stackOrder.map((item, i) => (
-                    <>
-                        {i === 1 ? (
-                            <LineWrapper>
-                                <SlideImg
-                                    src={poet?.bio.two[lang][item].image}
-                                    show={true}
-                                />
-                                <div>
-                                    <Year align={true}>{poet?.bio.two[lang][item].year}</Year>
-                                    <Text dangerouslySetInnerHTML={{__html: poet?.bio.two[lang][item].desc}} />
-                                </div>
-                            </LineWrapper>
-                        ) : (
-                            <SlideImg src={poet?.bio.two[lang][item].image} />
-                        )}
-                    </>
-                ))}
-                </Slides>
-                <NavBox>
-                    <Line />
-                    <StyledIconButton onClick={moveUp} disabled={stackOrder[0] > stackOrder[1]}>
-                        <Arrow>
-                            <PlayArrow />
-                        </Arrow>
-                    </StyledIconButton>
-                </NavBox>
-                <NavBox bottom={true}>
-                    <StyledIconButton bottom={true} onClick={moveDown} disabled={stackOrder[1] + 1 === poet?.bio.two[lang].length}>
-                        <Arrow>
-                            <PlayArrow />
-                        </Arrow>
-                    </StyledIconButton>
-                    <Line bottom={true} />
-                </NavBox>
-            </BoxTwo>
+            <FirstBox poet={poet?.bio.one[lang]} />
+            <SecondBox poet={poet?.bio} />
+            <ThirdBox poet={poet?.bio} />
+            <ForthBox poet={poet?.bio} />
+            <FifthBox poet={poet?.bio} />
         </MainContainer>
     )
 }
