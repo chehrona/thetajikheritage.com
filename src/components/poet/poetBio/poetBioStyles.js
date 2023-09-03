@@ -20,14 +20,15 @@ export const LeftWrapper = styled.div`
     height: 100%;
     padding-left: 5rem;
     padding-right: 3rem;
-    padding-top: 2rem;
+    padding-top: ${({ half }) => half && '0rem'};
     width: ${({ half }) => half ? '50%' : '60%'};
+    position: relative;
+    border-bottom: ${({ half }) => half && '0.0625rem solid #bd9d52'};
 `;
 
 export const Year = styled.div`
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: "EB Garamond", serif;
-    font-weight: bold;
     margin-bottom: 1rem;
     text-align: ${({ align }) => align && 'center'};
 `;
@@ -51,8 +52,8 @@ export const ImageDesc = styled.div`
 `;
 
 export const RightWrapper = styled.div`
-    margin-right: 5rem;
-    margin-top: 2rem;
+    margin-right: ${({ half }) => half ? '0rem' : '5rem'};
+    margin-top:  ${({ half }) => half ? '0rem' : '2rem'};
     width: ${({ half }) => half ? '50%' : '40%'};
 `;
 
@@ -69,19 +70,19 @@ export const BoxTwo = styled.div`
 `;
 
 export const InnerOverlay = styled.div`
-    background: #0f0a00;
+    background: #333333;
     margin-top: 4rem;
-    height: 45rem;
+    height: ${({ four }) => four ? '30rem' : '40rem'};
     width: 100%;
     overflow: hidden;
     filter: grayscale(1);
 `;
 
 export const Backdrop = styled.div`
-    height: 45rem;
+    height: 100%;
     width: 100%;
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.2;
     filter: grayscale(1);
     background-image: ${({ backdrop }) => `url(${ backdrop })`};
 `;
@@ -89,17 +90,16 @@ export const Backdrop = styled.div`
 export const Slides = styled.div`
     position: absolute;
     left: 10%;
-    top: -3.2rem;
+    top: -4rem;
     z-index: 1;
 `;
 
 export const SlideImg = styled.img`
-    width: 20rem;
+    width: 18rem;
     display: block;
     filter: grayscale(1) ${({ show }) => show ? 'brightness(100%)': 'brightness(60%)'};
     box-shadow: ${({ show }) => 
         show ? '-0.3rem 0rem 0.3rem -0.2rem #dedbdb, 0.3rem 0rem 0.3rem -0.2rem #dedbdb' : '0rem 0rem 1rem 0.2rem #504221e6'};
-    margin-right: 3rem;
 `;
 
 export const NavBox = styled.div`
@@ -112,8 +112,8 @@ export const NavBox = styled.div`
 `;
 
 export const Line = styled.div`
-    width: ${({ height }) => height ? '0.1rem' : '0.0625rem'};
-    height: ${({ height }) => height ? '10rem' : '7rem'};
+    width: 0.0625rem;
+    height: 7rem;
     background: #bd9d52;
     position: absolute;
     left: 50%;
@@ -152,7 +152,11 @@ export const LineWrapper = styled.div`
     align-items: center;
     height: 20rem;
     width: 100%;
-    padding-right: 3rem;
+`;
+
+export const Info = styled.div`
+    padding-right: 7%;
+    padding-left: 7%;
 `;
 
 export const Text = styled.div`
@@ -223,13 +227,15 @@ export const BoxFour = styled.div`
 `;
 
 export const YearBig = styled.div`
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: "EB Garamond", serif;
     margin-bottom: 1rem;
+    text-align: ${({ align }) => align && 'center'};
+    color: ${({ color }) => color && '#bd9d52'};
 `;
 
 export const TextWrapper = styled.div`
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding-left: 5rem;
     padding-right: 5rem;
     text-align: center;
@@ -245,18 +251,38 @@ export const TextWrapper = styled.div`
 export const Dot = styled.div`
     border-radius: 50%;
     background: #bd9d52;
-    height: 0.4rem;
-    width: 0.4rem;
+    height: 0.3rem;
+    width: 0.3rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    ${({ bottom }) => bottom ? 'bottom: 10rem' : 'top: 10rem'};
+    ${({ bottom }) => bottom ? 'bottom: 7rem' : 'top: 7rem'};
 `;
 
-// Box five
+// Box five ********************************
 export const BoxFive = styled.div`
     min-height: 20rem;
     width: 100%;
-    position: relative;
-    color: #dedbdb;
+    color: #0F0A00;
+    display: flex;
+`;
+
+export const FamilyDesc = styled.div`
+    width: 100%;
+    height: 100%;
+    color: #333333;
+    margin-right: 3rem;
+    font-size: 1.1rem;
+    padding-bottom: 3rem;
+`;
+
+// Box six ********************************
+export const BoxSix = styled.div`
+    width: 100%;
+    text-align: center;
+    color: #0F0A00;
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    border-bottom: 0.0625rem solid #bd9d52;
 `;

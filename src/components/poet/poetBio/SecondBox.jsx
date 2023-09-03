@@ -14,7 +14,8 @@ import {
     Arrow,
     InnerOverlay,
     LineWrapper,
-    Text
+    Text,
+    Info
 } from "./poetBioStyles";
 
 export default function SecondBox({ poet }) {
@@ -43,24 +44,24 @@ export default function SecondBox({ poet }) {
                 <Backdrop backdrop={poet?.backdrops[0]} />
             </InnerOverlay>
             <Slides>
-            {stackOrder.map((item, i) => (
-                <>
-                    {i === 1 ? (
-                        <LineWrapper>
-                            <SlideImg
-                                src={poet?.two[lang][item].image}
-                                show={true}
-                            />
-                            <div>
-                                <Year align={true}>{poet?.two[lang][item].year}</Year>
-                                <Text dangerouslySetInnerHTML={{__html: poet?.two[lang][item].desc}} />
-                            </div>
-                        </LineWrapper>
-                    ) : (
-                        <SlideImg src={poet?.two[lang][item].image} />
-                    )}
-                </>
-            ))}
+                {stackOrder.map((item, i) => (
+                    <>
+                        {i === 1 ? (
+                            <LineWrapper>
+                                <SlideImg
+                                    src={poet?.two[lang][item].image}
+                                    show={true}
+                                />
+                                <Info>
+                                    <Year align={true}>{poet?.two[lang][item].year}</Year>
+                                    <Text dangerouslySetInnerHTML={{__html: poet?.two[lang][item].desc}} />
+                                </Info>
+                            </LineWrapper>
+                        ) : (
+                            <SlideImg src={poet?.two[lang][item].image} />
+                        )}
+                    </>
+                ))}
             </Slides>
             <NavBox>
                 <Line />

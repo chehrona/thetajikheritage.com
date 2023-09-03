@@ -10,6 +10,7 @@ import FifthBox from "./FifthBox";
 import { 
     MainContainer,
 } from "./poetBioStyles";
+import SixthBox from "./SixthBox";
 
 export default function PoetBio({ poet }) {
     const { lang } = useSetLang();
@@ -21,6 +22,7 @@ export default function PoetBio({ poet }) {
             <ThirdBox poet={poet?.bio} />
             <ForthBox poet={poet?.bio} />
             <FifthBox poet={poet?.bio} />
+            <SixthBox poet={poet?.bio.six[lang]} />
         </MainContainer>
     )
 }

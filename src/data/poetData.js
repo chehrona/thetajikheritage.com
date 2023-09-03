@@ -64,7 +64,7 @@ module.exports.poets = [
                             image: '/poetImages/ayni/ayni1.png',
                             desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
                                 from both his father and mother in a span of forty days. He was left to take care of two younger
-                                siblings at the age of 12. Despite these challenging circumstances, 
+                                siblings at the age of 12. Despite these challenges, 
                                 Ayni's dream for knowledge led him to Bukhara.`
                         },
                         {
@@ -125,21 +125,20 @@ module.exports.poets = [
                         Revolutionary forces at the behest of the Young Bukharans. After enduring 
                         <span style='font-weight: bold;'>52 days</span> in the hospital 
                         and undergoing <span style='font-weight: bold;'>25 surgeries</span>, 
-                        he permanently moves to Samarkand.
+                        he permanently moved to Samarkand.
                         There, he dedicated himself to the revolutionary cause, wielding the 
                         power of his pen, writing political articles and to 
-                        directly invite the nation for war against the amir.
-                        <br>Upon discovering Ayni's association with the Soviet forces, the 
+                        directly calling the nation for war against the amir.
+                        <br>Upon discovering Ayni's association with the Soviet forces,
                         amir falsely accused his younger brother, 
-                        <span style='font-weight: bold;'>Sirojiddin</span>, in treason 
-                        and cruelly murdered him through suffocation. Ayni channeled his 
+                        <span style='font-weight: bold;'>Sirojiddin</span>, of treason 
+                        and cruelly murdered him through suffocation. Ayni channelled his 
                         grief into his literary work, "Marsiya."
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
-                        <span style='font-weight: bold;'>Muhiddinkhoja</span>, kidnapped his son and burned 
-                        his house to the ground.
+                        <span style='font-weight: bold;'>Muhiddinkhoja</span> and kidnapped his son.
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
                         resolve, sharpening his pen and intensifying his determination to guide the country 
-                        towards liberation from such merciless rulers.`,
+                        toward liberation from such bloodthirsty rulers.`,
                 },
             },
             four: {
@@ -155,7 +154,34 @@ module.exports.poets = [
             five: {
                 us: {
                     year: '1920',
-                    desc: `Salohatbegim`
+                    image: '/poetImages/ayni/family.png',
+                    desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohatbegim</span>
+                        and they moved into her parents' home in Samarkand. 
+                        Despite Ayni's dire financial situation,
+                        Salohatbegim remained undeterred in her commitment to him. She dedicated herself to creating an 
+                        environment where his literary genius could flourish, a dedication that persisted until their final days.
+                        <div class='space'></div>
+                        They had four children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
+                        <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
+                        <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
+                        Remarkably, each of their children followed in Ayni's footsteps, pursuing academic careers in orientalism, 
+                        Iranology, and art history, respectively.
+                        <div class='space'></div>
+                        Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family and continues his grandfather's legacy through
+                        the Sadriddin Ayni Foundation.`
+                }
+            },
+            six: {
+                us: {
+                    year: '15 July 1954',
+                    desc: 'Ayni passed away at 4PM in his home, in Stalinabad (now Dushanbe) surrounded by friends, students, and family.'
+                }
+            },
+            seven: {
+                us: {
+                    desc: 'A life merged with the story of a nation',
+                    author: 'Mirzo Tursunzoda',
+                    images: ['/poetImages/ayni/']
                 }
             }
         },

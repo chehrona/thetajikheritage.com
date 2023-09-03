@@ -8,17 +8,17 @@ export default function ForthBox({ poet }) {
 
     return (
         <BoxFour>
-            <InnerOverlay>
+            <InnerOverlay four={true}>
                 <Backdrop backdrop={poet?.backdrops[1]} />
             </InnerOverlay>
-            <Line top={true} height={true}/>
+            <Line top={true} />
             <Dot />
             <TextWrapper>
                 <YearBig>{poet.four[lang].year}</YearBig>
                 {poet.four[lang].desc}
             </TextWrapper>
             <Dot bottom={true} />
-            <Line bottom={true} height={true} />
+            <Line bottom={true} />
         </BoxFour>
     )
 }

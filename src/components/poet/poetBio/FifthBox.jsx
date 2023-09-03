@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSetLang } from "../../../App";
 
-import { BoxFive, Line, YearBig, Backdrop, InnerOverlay, TextWrapper, Dot, LeftWrapper, RightWrapper, Image } from './poetBioStyles';
+import { BoxFive, YearBig, LeftWrapper, RightWrapper, Image, FamilyDesc } from './poetBioStyles';
 
 export default function FifthBox({ poet }) {
     const { lang } = useSetLang();
@@ -9,13 +9,13 @@ export default function FifthBox({ poet }) {
     return (
         <BoxFive>
             <LeftWrapper half={true}>
-                <TextWrapper>
-                    <YearBig>{poet.five[lang].year}</YearBig>
-                    {poet.five[lang].desc}
-                </TextWrapper>
+                <FamilyDesc>
+                    <YearBig align={true}>{poet.five[lang].year}</YearBig>
+                    <div dangerouslySetInnerHTML={{__html: poet.five[lang].desc}} />
+                </FamilyDesc>
             </LeftWrapper>
             <RightWrapper half={true}>
-                <Image src={poet.five[lang].img} />
+                <Image src={poet.five[lang].image} />
             </RightWrapper>
         </BoxFive>
     )
