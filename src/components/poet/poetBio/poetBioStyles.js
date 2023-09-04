@@ -135,7 +135,7 @@ export const Arrow = styled.div`
     color: #bd9d52;
     height: 100%;
     width: 100%;
-    border: 0.125rem solid #bd9d52;
+    border: 0.0625rem solid #bd9d52;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -152,6 +152,7 @@ export const LineWrapper = styled.div`
     align-items: center;
     height: 20rem;
     width: 100%;
+    transition: ease 1000ms;
 `;
 
 export const Info = styled.div`

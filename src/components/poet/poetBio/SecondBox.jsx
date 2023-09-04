@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useSetLang } from "../../../App";
 import { PlayArrow } from "@mui/icons-material";
 
@@ -20,21 +20,24 @@ import {
 
 export default function SecondBox({ poet }) {
     const { lang } = useSetLang();
-    const [stackOrder, setStackOrder] = useState([poet?.two[lang].length - 1, 0, 1]);
+    let newArr = [...poet?.two[lang]];
+    const lastItem = newArr.pop();
+    newArr.unshift(lastItem);
+    const [infoArr, setInfoArr] = useState([...newArr]);
 
     const moveUp = () => {
-        if (stackOrder.length > 1) {
-            const movedItem = stackOrder.pop();
-            stackOrder.unshift(movedItem);
-            setStackOrder([...stackOrder]);
+        if (infoArr.length > 1) {
+            const movedItem = infoArr.pop();
+            infoArr.unshift(movedItem);
+            setInfoArr([...infoArr]);
         }
     };
     
     const moveDown = () => {
-        if (stackOrder.length > 1) {
-            const movedItem = stackOrder.shift();
-            stackOrder.push(movedItem);
-            setStackOrder([...stackOrder]);
+        if (infoArr.length > 1) {
+            const movedItem = infoArr.shift();
+            infoArr.push(movedItem);
+            setInfoArr([...infoArr]);
         }
     };
 
@@ -44,35 +47,36 @@ export default function SecondBox({ poet }) {
                 <Backdrop backdrop={poet?.backdrops[0]} />
             </InnerOverlay>
             <Slides>
-                {stackOrder.map((item, i) => (
-                    <>
-                        {i === 1 ? (
-                            <LineWrapper>
-                                <SlideImg
-                                    src={poet?.two[lang][item].image}
-                                    show={true}
-                                />
-                                <Info>
-                                    <Year align={true}>{poet?.two[lang][item].year}</Year>
-                                    <Text dangerouslySetInnerHTML={{__html: poet?.two[lang][item].desc}} />
-                                </Info>
-                            </LineWrapper>
-                        ) : (
-                            <SlideImg src={poet?.two[lang][item].image} />
-                        )}
-                    </>
-                ))}
+                <SlideImg src={infoArr[0].image} />
+                <LineWrapper>
+                    <SlideImg
+                        src={infoArr[1]?.image}
+                        show={true}
+                    />
+                    <Info>
+                        <Year align={true}>{infoArr[1]?.year}</Year>
+                        <Text dangerouslySetInnerHTML={{__html: infoArr[1]?.desc}} />
+                    </Info>
+                </LineWrapper>
+                <SlideImg src={infoArr[2].image} />
             </Slides>
             <NavBox>
                 <Line />
-                <StyledIconButton onClick={moveUp} disabled={stackOrder[0] > stackOrder[1]}>
+                <StyledIconButton
+                    onClick={moveUp}
+                    disabled={infoArr[0] === poet?.two[lang][infoArr?.length - 1]}
+                >
                     <Arrow>
                         <PlayArrow />
                     </Arrow>
                 </StyledIconButton>
             </NavBox>
             <NavBox bottom={true}>
-                <StyledIconButton bottom={true} onClick={moveDown} disabled={stackOrder[1] + 1 === poet?.two[lang].length}>
+                <StyledIconButton
+                    bottom={true}
+                    onClick={moveDown}
+                    disabled={infoArr[1] === poet?.two[lang][infoArr?.length - 1]}
+                >
                     <Arrow>
                         <PlayArrow />
                     </Arrow>

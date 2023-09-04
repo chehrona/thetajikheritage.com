@@ -61,7 +61,7 @@ module.exports.poets = [
                 us: [
                         {
                             year: '1889',
-                            image: '/poetImages/ayni/ayni1.png',
+                            image: '/poetImages/ayni/slides/ayni1.png',
                             desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
                                 from both his father and mother in a span of forty days. He was left to take care of two younger
                                 siblings at the age of 12. Despite these challenges, 
@@ -69,7 +69,7 @@ module.exports.poets = [
                         },
                         {
                             year: '1890',
-                            image: '/poetImages/ayni/ayni2.png',
+                            image: '/poetImages/ayni/slides/ayni2.png',
                             desc: `Sharifjon-makhdum helps him get into Mir-i Arab madrasa and secure a "hujra" - room there. 
                             However, it was an uphill battle 
                             for economically disadvantaged individuals like him to access education within Bukhara's madrasas.
@@ -79,13 +79,13 @@ module.exports.poets = [
                         },
                         {
                             year: '1896',
-                            image: '/poetImages/ayni/ayni3.png',
+                            image: '/poetImages/ayni/slides/ayni3.png',
                             desc: `During his time at the madrasa, he penned his initial poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli." 
                                 However, in 1896 he adopted the pseudonym "Ayni" and gained literary recognition under this name.`,
                         },
                         {
                             year: '1897-1898',
-                            image: '/poetImages/ayni/ayni4.png',
+                            image: '/poetImages/ayni/slides/ayni4.png',
                             desc: `Qozi Mirzo Muhammadsharifi Sadr (Sadri Ziyo), approached Ayni and his fellow classmate Abduvahid Munzim
                                 with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication. 
                                 The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
@@ -93,21 +93,21 @@ module.exports.poets = [
                         },
                         {
                             year: '1908',
-                            image: '/poetImages/ayni/ayni5.png',
+                            image: '/poetImages/ayni/slides/ayni5.png',
                             desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
                                 designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzari (street) Salohkhona, 
                                 with Persian as language of instruction, catering to the local Bukharan population.`,
                         },
                         {
                             year: '1909',
-                            image: '/poetImages/ayni/ayni5.png',
+                            image: '/poetImages/ayni/slides/ayni6.png',
                             desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Quran" - rules for
                                 proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
                                 and "ضروريات دینیه" ("Zaruriyati deeniya" - "Religious essentials").`
                         },
                         {
                             year: '1910',
-                            image: '/poetImages/ayni/ayni6.png',
+                            image: '/poetImages/ayni/slides/ayni7.png',
                             desc: `He became one of the early members of "Javonbukhoriyon"/"Yosh buxoroliklar" - "Young Bukharans", 
                                 a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.`,
                         }
@@ -155,6 +155,7 @@ module.exports.poets = [
                 us: {
                     year: '1920',
                     image: '/poetImages/ayni/family.png',
+                    text: '',
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohatbegim</span>
                         and they moved into her parents' home in Samarkand. 
                         Despite Ayni's dire financial situation,
@@ -179,9 +180,17 @@ module.exports.poets = [
             },
             seven: {
                 us: {
-                    desc: 'His life is merged with the story of our nation',
+                    desc: 'His life is ... the story of our nation',
                     author: '- Mirzo Tursunzoda',
-                    images: ['/poetImages/ayni/']
+                    slides: [
+                        {img: '/poetImages/ayni/memory/ayni1.png', text: ''},
+                        {img: '/poetImages/ayni/memory/ayni2.png', text: ''},
+                        {img: '/poetImages/ayni/memory/ayni3.png', text: ''},
+                        {img: '/poetImages/ayni/memory/ayni4.png', text: ''},
+                        {img: '/poetImages/ayni/memory/ayni5.png', text: ''},
+                        {img: '/poetImages/ayni/memory/ayni6.png', text: ''},
+                        {img: '/poetImages/ayni/memory/ayni7.png', text: ''}
+                    ]
                 }
             }
         },
