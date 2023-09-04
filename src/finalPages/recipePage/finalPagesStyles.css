@@ -43,6 +43,7 @@ sup, sub {
     top: -0.5rem;
     color: #bd9d52;
     font-size: 0.75rem;
+    font-style: normal;
 }
 
 sub { 

@@ -24,24 +24,24 @@ module.exports.poets = [
                 us: {
                     year: 'April 15, 1878',
                     img: '/poetImages/ayni/soktare.png',
-                    imgDesc: 'Sadriddin Ayni museum in Soktare',
+                    imgDesc: 'Sadriddin Ayni museum in Soktare<sup>3</sup>',
                     desc: `Sadriddin Saidmurodzoda was born to Saidmurodkhoja and Zevaroy in the village of 
                         Soktare, G’ijduvon district, 
                         Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
                         that he was introduced to the world of folk art, including tales, legends, songs, 
-                        anecdotes, and proverbs.
+                        anecdotes, and proverbs.<sup>1</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
-                        he didn't find much value in formal education. However, he had his initial exposure to the 
+                        he didn't find much value in formal education.<sup>2</sup> However, he had his initial exposure to the 
                         poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
                         His father despite being a humble peasant, had a deep love for education and literature, 
-                        which he passed down to his children.`
+                        which he passed down to his children.<sup>1,2</sup>`
                 },
                 ru: {
                     year: '15 апреля 1878',
                     img: '/poetImages/ayni/soktare.png',
-                    imgDesc: 'Музей имени Садриддина Айни в Соктаре',
+                    imgDesc: 'Музей имени Садриддина Айни в Соктаре<sup>3</sup>',
                     desc: `Sadriddin Saidmurodzoda was born to Saidmurodkhoja and Zevaroy in the village of 
                         Soktare, G’ijduvon district, 
                         Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
@@ -65,12 +65,12 @@ module.exports.poets = [
                             desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
                                 from both his father and mother in a span of forty days. He was left to take care of two younger
                                 siblings at the age of 12. Despite these challenges, 
-                                Ayni's dream for knowledge led him to Bukhara.`
+                                Ayni's dream for knowledge led him to Bukhara.<sup>1</sup>`
                         },
                         {
                             year: '1890',
                             image: '/poetImages/ayni/slides/ayni2.png',
-                            desc: `Sharifjon-makhdum helps him get into Mir-i Arab madrasa and secure a "hujra" - room there. 
+                            desc: `Sharifjon-makhdum helps him get into Mir-i Arab madrasa and secure a "hujra" - room there.<sup>1</sup> 
                             However, it was an uphill battle 
                             for economically disadvantaged individuals like him to access education within Bukhara's madrasas.
                             In order to be able to pay for his room, which should have been free, as well as his daily living costs, 
@@ -108,7 +108,7 @@ module.exports.poets = [
                         {
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.png',
-                            desc: `He became one of the early members of "Javonbukhoriyon - جوان‌بخارائیان"/"Yosh buxoroliklar" - "Young Bukharans", 
+                            desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
                                 a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.`,
                         }
                     ],
@@ -135,7 +135,7 @@ module.exports.poets = [
                         and cruelly murdered him through suffocation. Ayni channelled his 
                         grief into his literary work, "Marsiya."
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
-                        <span style='font-weight: bold;'>Muhiddinkhoja</span> and kidnapped his son.
+                        <span style='font-weight: bold;'>Muhiddinkhoja</span> and kidnapped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
                         resolve, sharpening his pen and intensifying his determination to guide the country 
                         toward liberation from such bloodthirsty rulers.`,
@@ -160,7 +160,7 @@ module.exports.poets = [
                         and they moved into her parents' home in Samarkand. 
                         Despite Ayni's dire financial situation,
                         Salohatbegim remained undeterred in her commitment to him. She dedicated herself to creating an 
-                        environment where his literary genius could flourish, a dedication that persisted until their final days.
+                        environment where his literary genius could flourish, a dedication that persisted until their final days.<sup>1</sup>
                         <div class='space'></div>
                         They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
                         <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
@@ -175,7 +175,7 @@ module.exports.poets = [
             six: {
                 us: {
                     year: '15 July 1954',
-                    desc: 'Ayni passed away at 4PM in his home, in Stalinabad (now Dushanbe) surrounded by friends, students, and family'
+                    desc: 'Ayni passed away at 4PM in his home, in Stalinabad (now Dushanbe) surrounded by friends, students, and family<sup>1</sup>'
                 }
             },
             seven: {

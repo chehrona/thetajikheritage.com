@@ -11,7 +11,7 @@ export default function FirstBox({ poet }) {
             </LeftWrapper>
             <RightWrapper>
                 <Image src={poet?.img}/>
-                <ImageDesc>{poet?.imgDesc}</ImageDesc>
+                <ImageDesc dangerouslySetInnerHTML={{__html: poet?.imgDesc}} />
             </RightWrapper>
         </BoxOne>
     )
