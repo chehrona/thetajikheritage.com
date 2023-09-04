@@ -18,7 +18,7 @@ export const BoxOne = styled.div`
 
 export const LeftWrapper = styled.div`
     height: 100%;
-    padding-left: 5rem;
+    padding-left: ${({ half }) => half ? '3rem' : '5rem'};
     padding-right: 3rem;
     padding-top: ${({ half }) => half && '0rem'};
     width: ${({ half }) => half ? '50%' : '60%'};
@@ -274,7 +274,6 @@ export const FamilyDesc = styled.div`
     color: #333333;
     margin-right: 3rem;
     font-size: 1.1rem;
-    padding-bottom: 3rem;
 `;
 
 // Box six ********************************
