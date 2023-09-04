@@ -41,7 +41,7 @@ export const Desc = styled.div`
 export const Image = styled.img`
     height: 100%;
     width: 100%;
-    filter: grayscale(1);
+    filter: ${({ color }) => !color && 'grayscale(1)'};
 `;
 
 export const ImageDesc = styled.div`
@@ -270,7 +270,7 @@ export const BoxFive = styled.div`
 
 export const FamilyDesc = styled.div`
     width: 100%;
-    height: 100%;
+    height: 30rem;
     color: #333333;
     margin-right: 3rem;
     font-size: 1.1rem;
@@ -291,15 +291,19 @@ export const BoxSix = styled.div`
 export const BoxSeven = styled.div`
     width: 100%;
     display: flex;
+    min-height: 20rem;
 `;
 
 export const LeftContainer = styled.div`
     width: 50%;
     position: relative;
+    height: 100%;
 `;
 
 export const RightContainer = styled.div`
     width: 50%;
+    height: 30rem;
+    background: #0F0A00;
 `;
 
 export const Overlay = styled.div`

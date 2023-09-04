@@ -1,7 +1,17 @@
 import React from 'react';
 import { useSetLang } from "../../../App";
 
-import { BoxSeven, FinalQuote, LeftContainer, RightContainer, BackImg, FamilyDesc, Overlay, Author } from './poetBioStyles';
+import {
+    BoxSeven,
+    FinalQuote,
+    LeftContainer,
+    RightContainer,
+    BackImg,
+    Overlay,
+    Author,
+    Slideshow,
+    Image
+} from './poetBioStyles';
 
 export default function SeventhBox({ poet }) {
     const { lang } = useSetLang();
@@ -18,6 +28,7 @@ export default function SeventhBox({ poet }) {
                 </FinalQuote>
             </LeftContainer>
             <RightContainer>
+                <Image color={true} src={poet?.seven[lang].slides[0].img} />
             </RightContainer>
         </BoxSeven>
     )
