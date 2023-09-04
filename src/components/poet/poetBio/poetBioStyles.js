@@ -284,5 +284,60 @@ export const BoxSix = styled.div`
     font-size: 1.1rem;
     padding-top: 1.5rem;
     padding-bottom: 3rem;
-    border-bottom: 0.0625rem solid #bd9d52;
+`;
+
+// Box seven ********************************
+export const BoxSeven = styled.div`
+    width: 100%;
+    display: flex;
+`;
+
+export const LeftContainer = styled.div`
+    width: 50%;
+    position: relative;
+`;
+
+export const RightContainer = styled.div`
+    width: 50%;
+`;
+
+export const Overlay = styled.div`
+    background: #333333;
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+    filter: grayscale(1);
+`;
+
+export const BackImg = styled.div`
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.2;
+    filter: grayscale(1);
+    background-image: ${({ src }) => `url(${ src })`};
+`;
+
+export const FinalQuote = styled.div`
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    color: #bd9d52;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: "EB Garamond", serif;
+    transform: translate(-50%, -50%);
+    padding-right: 10%;
+    padding-left: 10%;
+    text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
+`;
+
+export const Author = styled.div`
+    color: #fcf6e9;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-family: 'IBM Plex Serif', serif;
+    text-align: end;
 `;

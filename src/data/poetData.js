@@ -18,7 +18,7 @@ module.exports.poets = [
             kh: ["زندگینامه", "ایجدیت", "فیلم ها", "فعالیتی سیاسی", "جوایزها"]
         },
         bio: {
-            backdrops: ['/poetImages/ayni/kukaltosh.png', '/poetImages/ayni/back.png'],
+            backdrops: ['/poetImages/ayni/kukaltosh.png', '/poetImages/ayni/back.png', '/poetImages/ayni/last.png'],
             quote: '/poetImages/quote.svg',
             one: {
                 us: {
@@ -115,7 +115,7 @@ module.exports.poets = [
                 },
             three: {
                 us: {
-                    quote: `... I regret that most of my life was in ignorance, ... now my conscience prevents me from saying "it is not my fight."`,
+                    quote: `... I regret that most of my life was in ignorance, ... now my conscience prevents me from saying "it is not my fight"`,
                     desc: `After leaving the madrasa, Ayni continues his involvement with the jadids, 
                         resisting the old ways so deeply engrained among the Bukharan clergy.
                         His "good deeds", however, were met with disapproval from the amir, 
@@ -174,13 +174,13 @@ module.exports.poets = [
             six: {
                 us: {
                     year: '15 July 1954',
-                    desc: 'Ayni passed away at 4PM in his home, in Stalinabad (now Dushanbe) surrounded by friends, students, and family.'
+                    desc: 'Ayni passed away at 4PM in his home, in Stalinabad (now Dushanbe) surrounded by friends, students, and family'
                 }
             },
             seven: {
                 us: {
-                    desc: 'A life merged with the story of a nation',
-                    author: 'Mirzo Tursunzoda',
+                    desc: 'His life is merged with the story of our nation',
+                    author: '- Mirzo Tursunzoda',
                     images: ['/poetImages/ayni/']
                 }
             }
