@@ -66,7 +66,7 @@ export default function SeventhBox({ poet }) {
                             <ArrowForwardIos />
                         </Arrow>
                     </StyledButton>}
-                <ImgInfo color={infoArr[0].color}>{infoArr[0].text}</ImgInfo>
+                <ImgInfo color={infoArr[0].color} dangerouslySetInnerHTML={{__html: infoArr[0].text}} />
             </RightContainer>
         </BoxSeven>
     )

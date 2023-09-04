@@ -183,13 +183,15 @@ module.exports.poets = [
                     desc: 'His life is ... the story of our nation',
                     author: '- Mirzo Tursunzoda',
                     slides: [
-                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Mausoleum of Sadriddin Ayni (1954 - 2015), Dushanbe, Tajikistan', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Mausoleum of Sadriddin Ayni, Dushanbe, Tajikistan', color: '#fcf6e9'},
-                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Sadriddin Ayni's resting place in Ayni Park, Dushanbe, Tajikistan", color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan', color: '#dedbdb'}
+                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Mausoleum of Sadriddin Ayni (1954 - 2017), Dushanbe, Tajikistan<sup>1</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan<sup>1</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Mausoleum of Sadriddin Ayni, Dushanbe, Tajikistan<sup>1</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Sadriddin Ayni's resting place in Ayni Park, Dushanbe, Tajikistan<sup>1</sup>", color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>1</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan<sup>1</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan<sup>1</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni8.png', text: 'Ayni district, Sogd province, Tajikistan<sup>1</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni9.png', text: '5 Somoni bill, Tajikistan<sup>1</sup>', color: '#bd9d52'}
                     ]
                 }
             }
@@ -595,6 +597,11 @@ module.exports.poets = [
                             S. Ayni was awarded for his contribution to Uzbek literature.`
                     },
                 ],
+        },
+        references: {
+            us: [
+            `Ayni, Kholida. "Зиндагиномаи Садриддин Айнӣ" [Biography of Sadriddin Ayni]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "Baloghat" publishing house, 2017, p.13.`
+            ]
         }
     },
     // {

@@ -8,3 +8,11 @@ export const PageContainer = styled.div`
     background-color: #fcf6e9;
     border-radius: 4rem;
 `;
+
+export const RefContainer = styled.div`
+    border-radius: 0rem 0rem 4rem 4rem;
+    background: #fcf6e9;
+    background-image: url(${'/noise.png'});
+    padding: 3rem;
+    padding-top: 0rem;
+`;

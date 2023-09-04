@@ -24,9 +24,8 @@ export const MainContainer = styled.div`
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     padding-top: 2rem;
-    border-radius: 0rem 0rem 4rem 4rem;
 
     &:before {
         content: "";

@@ -1,9 +1,17 @@
 import React, {useState} from "react";
 import {useParams} from "react-router-dom";
+import { useSetLang } from "../../App";
+
 import "./finalPagesStyles.css";
 import { recipes } from "../../data/recipeData";
 
-import { useSetLang } from "../../App";
+import RecipeInfo from "../../components/food/recipeInfo/RecipeInfo";
+import RecipeIngredients from "../../components/food/recipeIngredients/RecipeIngredients";
+import Sources from "../../components/common/recipeSources/Sources";
+import RecipeTabs from "../../components/food/recipeTabs/RecipeTabs";
+import Allergy from "../../components/food/allergy/Allergy";
+import Directions from "../../components/food/directions/Directions";
+import Servings from "../../components/food/servings/Servings";
 
 import { 
     PageContainer,
@@ -14,14 +22,6 @@ import {
     IngredientContainer,
     SubContainer
 } from "./recipePageStyles";
-
-import RecipeInfo from "../../components/food/recipeInfo/RecipeInfo";
-import RecipeIngredients from "../../components/food/recipeIngredients/RecipeIngredients";
-import RecipeSources from "../../components/food/recipeSources/RecipeSources";
-import RecipeTabs from "../../components/food/recipeTabs/RecipeTabs";
-import Allergy from "../../components/food/allergy/Allergy";
-import Directions from "../../components/food/directions/Directions";
-import Servings from "../../components/food/servings/Servings";
 
 export default function RecipePage() {
     const { id } = useParams(),
@@ -45,7 +45,13 @@ export default function RecipePage() {
                     <MainImage src={recipe?.mainImg} />
                 </ImageContainer>
                 <RecipeInfo recipe={recipe} />
-                <RecipeSources recipe={recipe} />
+                <Sources
+                    recipe={recipe}
+                    line={'#bd9d52'}
+                    color={'#0F0A00'}
+                    title={'#000'}
+                    background={'#fcf6e9'}
+                />
                 <RecipeTabs recipe={recipe} />
                 <SubContainer>
                     <IngredientContainer>

@@ -60,7 +60,7 @@ export const RightWrapper = styled.div`
 // Box two ****************************
 export const BoxTwo = styled.div`
     margin-top: 6rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8.5rem;
     color: #fcf6e9;
     display: flex;
     justify-content: space-between;
@@ -168,7 +168,6 @@ export const Text = styled.div`
 
 // Box three ****************************
 export const BoxThree = styled.div`
-    margin-top: 3rem;
     width: 100%;
     position: relative;
     min-height: 30rem;

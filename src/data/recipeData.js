@@ -117,7 +117,6 @@ module.exports.recipes = [
         ],
         ingredientsLang: {ru: 'Ингредиенты', us: 'Ingredients', tj: 'Маҳсулот', kh: 'محصولات'},
         directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: 'طرز آمادهکنی'},
-        referencesLang: {ru: 'Литература', us: 'References', tj: 'Адабиёт', kh: ''},
         references: {
             us: ['Vozeh, Qori Rahmatullo. کان لذت و خان نعمت [Source of pleasure and table spread of blessings]. <span style="font-style: italic">In Tajiki-Persian w. Perso-Arabic script. </span>Bukhara. 1880 - 1881.',
                 'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. <span style="font-style: italic">In Russian. </span>PhD dissertation, (A. Donish Institute of History, Archeology and Ethnography, 2019, pp. 97 - 98).', 

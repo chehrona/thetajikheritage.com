@@ -17,6 +17,7 @@ const slideOut = keyframes`
 
 export const InfoContainer = styled.div`
     display: inline;
+    margin-bottom: 0.8rem;
 `;
 
 export const MainTitle = styled.div`
