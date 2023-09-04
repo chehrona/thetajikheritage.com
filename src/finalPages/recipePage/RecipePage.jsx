@@ -46,7 +46,7 @@ export default function RecipePage() {
                 </ImageContainer>
                 <RecipeInfo recipe={recipe} />
                 <Sources
-                    recipe={recipe}
+                    data={recipe}
                     line={'#bd9d52'}
                     color={'#0F0A00'}
                     title={'#000'}

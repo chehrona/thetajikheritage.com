@@ -30,7 +30,7 @@ export default function PoetPage() {
                 <PoetAwards poet={poet.awards} />
                 <RefContainer>
                     <Sources
-                        recipe={poet}
+                        data={poet}
                         line={'#504221d1'}
                         color={'#dedbdb'}
                         title={'#fcf6e9'}

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BoxOne, LeftWrapper, Year, Desc, RightWrapper, Image, ImageDesc } from "./poetBioStyles";
+import { BoxOne, LeftWrapper, Year, Desc, RightWrapper, Image, ImgInfo } from "./poetBioStyles";
 
 export default function FirstBox({ poet }) {
     return (
@@ -11,7 +11,7 @@ export default function FirstBox({ poet }) {
             </LeftWrapper>
             <RightWrapper>
                 <Image src={poet?.img}/>
-                <ImageDesc dangerouslySetInnerHTML={{__html: poet?.imgDesc}} />
+                <ImgInfo color={'red'} dangerouslySetInnerHTML={{__html: poet?.imgDesc}} />
             </RightWrapper>
         </BoxOne>
     )

@@ -55,6 +55,7 @@ export const RightWrapper = styled.div`
     margin-right: ${({ half }) => half ? '0rem' : '5rem'};
     margin-top:  ${({ half }) => half ? '0rem' : '2rem'};
     width: ${({ half }) => half ? '50%' : '40%'};
+    position: relative;
 `;
 
 // Box two ****************************

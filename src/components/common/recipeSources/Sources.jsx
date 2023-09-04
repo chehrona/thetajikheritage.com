@@ -16,7 +16,7 @@ import { DropDownContainer,
          RefIndex
 } from "./sourceStyles";
 
-export default function Sources({recipe, line, color, title, background }) {
+export default function Sources({data, line, color, title, background }) {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const { lang } = useSetLang();
 
@@ -38,7 +38,7 @@ export default function Sources({recipe, line, color, title, background }) {
                     <SubTitle title={title}>
                         {lang === 'ru' ? 'Литература' : (lang === 'tj' ? 'Адабиёт' : 'References')}
                     </SubTitle>
-                    {recipe.references[lang].map((source, i) => {
+                    {data?.references[lang].map((source, i) => {
                         return (
                             <RefBox key={i}>
                                 <RefIndex>
