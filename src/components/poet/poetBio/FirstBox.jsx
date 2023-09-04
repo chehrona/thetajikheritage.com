@@ -11,7 +11,7 @@ export default function FirstBox({ poet }) {
             </LeftWrapper>
             <RightWrapper>
                 <Image src={poet?.img}/>
-                <ImgInfo color={'red'} dangerouslySetInnerHTML={{__html: poet?.imgDesc}} />
+                <ImgInfo color={'#0F0A00'} dangerouslySetInnerHTML={{__html: poet?.text}} />
             </RightWrapper>
         </BoxOne>
     )
