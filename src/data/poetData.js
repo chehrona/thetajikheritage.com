@@ -95,7 +95,7 @@ module.exports.poets = [
                             year: '1908',
                             image: '/poetImages/ayni/slides/ayni5.png',
                             desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
-                                designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzari (street) Salohkhona, 
+                                designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzar-i (street) Salohkhona, 
                                 with Persian as language of instruction, catering to the local Bukharan population.`,
                         },
                         {
@@ -103,12 +103,12 @@ module.exports.poets = [
                             image: '/poetImages/ayni/slides/ayni6.png',
                             desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Quran" - rules for
                                 proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
-                                and "ضروريات دینیه" ("Zaruriyati deeniya" - "Religious essentials").`
+                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").`
                         },
                         {
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.png',
-                            desc: `He became one of the early members of "Javonbukhoriyon"/"Yosh buxoroliklar" - "Young Bukharans", 
+                            desc: `He became one of the early members of "Javonbukhoriyon - جوان‌بخارائیان"/"Yosh buxoroliklar" - "Young Bukharans", 
                                 a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.`,
                         }
                     ],
@@ -162,7 +162,7 @@ module.exports.poets = [
                         Salohatbegim remained undeterred in her commitment to him. She dedicated herself to creating an 
                         environment where his literary genius could flourish, a dedication that persisted until their final days.
                         <div class='space'></div>
-                        They had four children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
+                        They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
                         <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
                         <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
                         Remarkably, each of their children followed in Ayni's footsteps, pursuing academic careers in orientalism, 
@@ -183,13 +183,13 @@ module.exports.poets = [
                     desc: 'His life is ... the story of our nation',
                     author: '- Mirzo Tursunzoda',
                     slides: [
-                        {img: '/poetImages/ayni/memory/ayni1.png', text: ''},
-                        {img: '/poetImages/ayni/memory/ayni2.png', text: ''},
-                        {img: '/poetImages/ayni/memory/ayni3.png', text: ''},
-                        {img: '/poetImages/ayni/memory/ayni4.png', text: ''},
-                        {img: '/poetImages/ayni/memory/ayni5.png', text: ''},
-                        {img: '/poetImages/ayni/memory/ayni6.png', text: ''},
-                        {img: '/poetImages/ayni/memory/ayni7.png', text: ''}
+                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Mausoleum of Sadriddin Ayni (1954 - 2015), Dushanbe, Tajikistan', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Mausoleum of Sadriddin Ayni, Dushanbe, Tajikistan', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Sadriddin Ayni's resting place in Ayni Park, Dushanbe, Tajikistan", color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan', color: '#dedbdb'}
                     ]
                 }
             }

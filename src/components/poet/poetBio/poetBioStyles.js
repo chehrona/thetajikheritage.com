@@ -4,7 +4,7 @@ import { IconButton } from '@mui/material';
 export const MainContainer = styled.div`
     background-image: url(${'/noise.png'});
     min-height: fit-content;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
 `;
 
 // Box one ****************************
@@ -41,7 +41,7 @@ export const Desc = styled.div`
 export const Image = styled.img`
     height: 100%;
     width: 100%;
-    filter: ${({ color }) => !color && 'grayscale(1)'};
+    filter: grayscale(1);
 `;
 
 export const ImageDesc = styled.div`
@@ -303,7 +303,10 @@ export const LeftContainer = styled.div`
 export const RightContainer = styled.div`
     width: 50%;
     height: 30rem;
-    background: #0F0A00;
+    background-image: ${({ src }) => `url(${ src })`};
+    background-size: cover;
+    transition: all 0.5s;
+    position: relative;
 `;
 
 export const Overlay = styled.div`
@@ -345,4 +348,30 @@ export const Author = styled.div`
     font-style: normal;
     font-family: 'IBM Plex Serif', serif;
     text-align: end;
+`;
+
+export const StyledButton = styled(IconButton)`
+    width: 3.5rem;
+    height: 3.5rem;
+    color: #bd9d52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.MuiButtonBase-root {
+        position: absolute;
+        ${({ left }) => left ? 'left: 0.5rem' : 'right: 0.5rem'};
+        top: 50%;
+        transform: translateY(-50%) ${({ left }) => left && 'rotate(-180deg)'};
+        z-index: 10;
+    }
+`;
+
+export const ImgInfo = styled.div`
+    position: absolute;
+    bottom: 0.5rem;
+    z-index: 10;
+    font-style: italic;
+    color: ${({ color }) => color && color};
+    right: 0.5rem;
 `;

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useSetLang } from "../../../App";
-import { PlayArrow } from "@mui/icons-material";
+import { ArrowForwardIos } from "@mui/icons-material";
 
 import { 
     Year,
@@ -67,7 +67,7 @@ export default function SecondBox({ poet }) {
                     disabled={infoArr[0] === poet?.two[lang][infoArr?.length - 1]}
                 >
                     <Arrow>
-                        <PlayArrow />
+                        <ArrowForwardIos />
                     </Arrow>
                 </StyledIconButton>
             </NavBox>
@@ -78,7 +78,7 @@ export default function SecondBox({ poet }) {
                     disabled={infoArr[1] === poet?.two[lang][infoArr?.length - 1]}
                 >
                     <Arrow>
-                        <PlayArrow />
+                        <ArrowForwardIos style={{marginLeft: '1px'}} />
                     </Arrow>
                 </StyledIconButton>
                 <Line bottom={true} />
