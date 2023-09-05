@@ -15,7 +15,7 @@ export default function ForthBox({ poet }) {
             <Dot />
             <TextWrapper>
                 <YearBig>{poet.four[lang].year}</YearBig>
-                {poet.four[lang].desc}
+                <div dangerouslySetInnerHTML={{__html: poet.four[lang].desc}} />
             </TextWrapper>
             <Dot bottom={true} />
             <Line bottom={true} />

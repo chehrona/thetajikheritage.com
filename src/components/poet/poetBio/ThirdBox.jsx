@@ -10,7 +10,7 @@ export default function ThirdBox({ poet }) {
             <QuoteWrapper>
                 <QuoteSymbol />
             </QuoteWrapper>
-            <Quote>{poet?.three[lang].quote}</Quote>
+            <Quote dangerouslySetInnerHTML={{__html: poet?.three[lang].quote}} />
             <DescWrapper dangerouslySetInnerHTML={{__html: poet?.three[lang].desc}} />
         </BoxThree>
     )
