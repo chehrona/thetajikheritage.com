@@ -106,7 +106,7 @@ module.exports.poets = [
                         {
                             year: '1909',
                             image: '/poetImages/ayni/slides/ayni6.png',
-                            desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Quran" - rules for
+                            desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
                                 proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
                                 and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
                         },
@@ -271,7 +271,7 @@ module.exports.poets = [
                         {img: '/poetImages/ayni/memory/ayni8.png', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan<sup>17</sup>', color: '#dedbdb'},
                         {img: '/poetImages/ayni/memory/ayni9.png', text: 'Ayni district, Sogd province, Tajikistan<sup>18</sup>', color: '#dedbdb'},
                         {img: '/poetImages/ayni/memory/ayni10.png', text: '5 Somoni bill, Tajik<span style="color: #bd9d52">istan</span><sup>19</sup>', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni11.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>20</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni11.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>20</sup>', color: '#fcf6e9'},
                     ]
                 }
             }
