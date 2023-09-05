@@ -373,4 +373,5 @@ export const ImgInfo = styled.div`
     font-style: italic;
     color: ${({ color }) => color && color};
     right: 0.5rem;
+    padding-left: 0.5rem;
 `;

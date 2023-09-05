@@ -50,7 +50,7 @@ export default function SeventhBox({ poet }) {
                 </Overlay>
                 <FinalQuote>
                     {poet?.seven[lang].desc}
-                    <Author>{poet?.seven[lang].author}</Author>
+                    <Author dangerouslySetInnerHTML={{__html: poet?.seven[lang].author}} />
                 </FinalQuote>
             </LeftContainer>
             <RightContainer src={infoArr[0].img} >

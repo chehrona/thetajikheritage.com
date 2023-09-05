@@ -24,36 +24,36 @@ module.exports.poets = [
                 us: {
                     year: 'April 15, 1878',
                     img: '/poetImages/ayni/soktare.png',
-                    text: 'Sadriddin Ayni museum in Soktare<sup>3</sup>',
+                    text: 'Sadriddin Ayni museum in Soktare<sup>4</sup>',
                     desc: `Sadriddin Saidmurodzoda was born to Saidmurodkhoja and Zevaroy in the village of 
                         Soktare, G’ijduvon district, 
-                        Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
+                        Emirate of Bukhara.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
                         that he was introduced to the world of folk art, including tales, legends, songs, 
-                        anecdotes, and proverbs.<sup>1</sup>
+                        anecdotes, and proverbs.<sup>2</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
-                        he didn't find much value in formal education.<sup>2</sup> However, he had his initial exposure to the 
+                        he didn't find much value in formal education. However, he had his initial exposure to the 
                         poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
                         His father despite being a humble peasant, had a deep love for education and literature, 
-                        which he passed down to his children.<sup>1,2</sup>`
+                        which he passed down to his children.<sup>2,3</sup>`
                 },
                 ru: {
                     year: '15 апреля 1878',
                     img: '/poetImages/ayni/soktare.png',
-                    imgDesc: 'Музей имени Садриддина Айни в Соктаре<sup>3</sup>',
+                    imgDesc: 'Музей имени Садриддина Айни в Соктаре<sup>4</sup>',
                     desc: `Sadriddin Saidmurodzoda was born to Saidmurodkhoja and Zevaroy in the village of 
                         Soktare, G’ijduvon district, 
-                        Emirate of Bukhara. Raised in a family of farmers, he spent most of his early 
+                        Emirate of Bukhara.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
                         that he was introduced to the world of folk art, including tales, legends, songs, 
-                        anecdotes, and proverbs.
-                        <div class='space'>
+                        anecdotes, and proverbs.<sup>2</sup>
+                        <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
                         he didn't find much value in formal education. However, he had his initial exposure to the 
-                        poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'>
+                        poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
                         His father despite being a humble peasant, had a deep love for education and literature, 
-                        which he passed down to his children.`
+                        which he passed down to his children.<sup>2,3</sup>`
                 },
                 tj: ['15 апрели 1878']
             },
@@ -65,57 +65,61 @@ module.exports.poets = [
                             desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
                                 from both his father and mother in a span of forty days. He was left to take care of two younger
                                 siblings at the age of 12. Despite these challenges, 
-                                Ayni's dream for knowledge led him to Bukhara.<sup>1</sup>`
+                                Ayni's dream for knowledge led him to Bukhara.<sup>2</sup>`
                         },
                         {
                             year: '1890',
                             image: '/poetImages/ayni/slides/ayni2.png',
-                            desc: `Sharifjon-makhdum helps him get into Mir-i Arab madrasa and secure a "hujra" - room there.<sup>1</sup> 
-                            However, it was an uphill battle 
-                            for economically disadvantaged individuals like him to access education within Bukhara's madrasas.
-                            In order to be able to pay for his room, which should have been free, as well as his daily living costs, 
-                            he was forced to take on various odd jobs. These roles ranged from serving as a janitor in the madrasa to 
-                            working as a cook, handling laundry tasks, and more.`
+                            desc: `He gets into Mir-i Arab madrasa and secures a "hujra" - room there with his brother.
+                            However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
+                            was quite difficult.
+                            In order to to pay for his room, which should have been free<sup>5</sup>, as well as his daily living costs, 
+                            he was forced to take on various odd jobs. These roles ranged from serving as a cleaner to 
+                            working as a cook, handling laundry tasks, and more.<sup>2</sup>`
                         },
                         {
                             year: '1896',
                             image: '/poetImages/ayni/slides/ayni3.png',
-                            desc: `During his time at the madrasa, he penned his initial poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli." 
-                                However, in 1896 he adopted the pseudonym "Ayni" and gained literary recognition under this name.`,
+                            desc: `During his time at the madrasa, the connected with people who shared a deep passion for 
+                                poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his initial 
+                                poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli."
+                                <div class='space'></div>
+                                However, in 1896 he adopted the pseudonym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
                         },
                         {
                             year: '1897-1898',
                             image: '/poetImages/ayni/slides/ayni4.png',
-                            desc: `Qozi Mirzo Muhammadsharifi Sadr (Sadri Ziyo), approached Ayni and his fellow classmate Abduvahid Munzim
-                                with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication. 
+                            desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow classmate Abduvohid Munzim
+                                with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication.
+                                <div class='space'></div>
                                 The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
-                                pushes him to start thinking about correcting these injustices and more in the Emirate of Bukhara.`,
+                                pushes him to start thinking about correcting these injustices and more in the Emirate of Bukhara.<sup>5</sup>`,
                         },
                         {
                             year: '1908',
                             image: '/poetImages/ayni/slides/ayni5.png',
                             desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
                                 designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzar-i (street) Salohkhona, 
-                                with Persian as language of instruction, catering to the local Bukharan population.`,
+                                with Persian as language of instruction, catering to the local Bukharan population.<sup>5</sup>`,
                         },
                         {
                             year: '1909',
                             image: '/poetImages/ayni/slides/ayni6.png',
                             desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Quran" - rules for
                                 proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
-                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").`
+                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
                         },
                         {
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.png',
                             desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
-                                a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.`,
+                                a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
                         }
                     ],
                 },
             three: {
                 us: {
-                    quote: `... I regret that most of my life was in ignorance, ... now my conscience prevents me from saying "it is not my fight"`,
+                    quote: `... I regret that most of my life was in ignorance, ... now my conscience prevents me from saying "it is not my fight"<sup>5</sup>`,
                     desc: `After leaving the madrasa, Ayni continues his involvement with the jadids, 
                         resisting the old ways so deeply engrained among the Bukharan clergy.
                         His "good deeds", however, were met with disapproval from the amir, 
@@ -148,14 +152,18 @@ module.exports.poets = [
                         existence of commonfolk in the pre-revolutionary era, capturing the 
                         turbulence of the revolution, the wartime horrors endured by his 
                         compatriots, and culminating in a vivid portrayal of the Tajik 
-                        people's pursuit of freedom and a new life.`
+                        people's pursuit of freedom and a new life.<sup>6</sup>`
                 }
             },
             five: {
                 us: {
                     year: '1920',
                     image: '/poetImages/ayni/family.png',
-                    text: '',
+                    imgDesc: {
+                        text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) 
+                        and Kamol Ayni. Circa 1949<sup>7</sup>`,
+                        color: '#fcf6e9'
+                    },
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohatbegim</span>
                         and they moved into her parents' home in Samarkand. 
                         Despite Ayni's dire financial situation,
@@ -168,8 +176,8 @@ module.exports.poets = [
                         Remarkably, each of their children followed in Ayni's footsteps, pursuing academic careers in orientalism, 
                         Iranology, and art history, respectively.
                         <div class='space'></div>
-                        Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family and continues his grandfather's legacy through
-                        the Sadriddin Ayni Foundation.`
+                        Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
+                        and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>8</sup>`
                 }
             },
             six: {
@@ -181,24 +189,24 @@ module.exports.poets = [
             seven: {
                 us: {
                     desc: 'His life is ... the story of our nation',
-                    author: '- Mirzo Tursunzoda',
+                    author: '- Mirzo Tursunzoda<sup>9</sup>',
                     slides: [
-                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Mausoleum of Sadriddin Ayni (1954 - 2017), Dushanbe, Tajikistan<sup>1</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan<sup>1</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Mausoleum of Sadriddin Ayni, Dushanbe, Tajikistan<sup>1</sup>', color: '#fcf6e9'},
-                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Sadriddin Ayni's resting place in Ayni Park, Dushanbe, Tajikistan<sup>1</sup>", color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>1</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan<sup>1</sup>', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan<sup>1</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni8.png', text: 'Ayni district, Sogd province, Tajikistan<sup>1</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni9.png', text: '5 Somoni bill, Tajikistan<sup>1</sup>', color: '#bd9d52'}
+                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Mausoleum of Sadriddin Ayni (1954 - 2017), Dushanbe, Tajikistan<sup>10</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan<sup>11</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Mausoleum of Sadriddin Ayni, Dushanbe, Tajikistan<sup>12</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Sadriddin Ayni's resting place in Ayni Park, Dushanbe, Tajikistan<sup>13</sup>", color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>14</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan<sup>15</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan<sup>16</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni8.png', text: 'Ayni district, Sogd province, Tajikistan<sup>17</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni9.png', text: '5 Somoni bill, Tajikistan<sup>18</sup>', color: '#bd9d52'}
                     ]
                 }
             }
         },
         works: {
             us: [   
-                    {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "A History of the Bukhara Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
+                    {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "History of the Bukhara Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
                     {title: "The Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png"}, {title: "Odina", cover: "/bookCovers/ayni/usOdina.png"}, 
                     {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
                     {title: "Death of the Moneylender", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
@@ -600,7 +608,14 @@ module.exports.poets = [
         },
         references: {
             us: [
-            `Ayni, Kholida. "Зиндагиномаи Садриддин Айнӣ" [Biography of Sadriddin Ayni]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "Baloghat" publishing house, 2017, p.13.`
+                {name: `Ayni, Kholida. "Зиндагиномаи Садриддин Айнӣ" [Biography of Sadriddin Ayni]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "Baloghat" publishing house, 2017, p.13.`, link: ''},
+                {name: `Ayni, Sadriddin. Мухтасари тарҷумаи ҳоли худам [Brief autobiography]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, 1958, pp. 28, 33, 47-48.`, link: ''},
+                {name: `Ayni, Sadriddin. Мактаби кӯҳна [Old School]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "Istiqbol" publishing house, 2010.`, link: ''},
+                {name: `Muhammadi, Farzon. "'Мактаби кӯҳна'. Гузориш аз зодгоҳи Садриддин Айнӣ" ["'Old School'. Report from the hometown of Sadriddin Ayni"]. <span style="font-style: italic">In Tajiki. </span>Radio-i Ozodi. Apr. 18, 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
+                {name: `Ayni, Sadriddin. Таърихи инқилоби Бухоро [History of the Bukhara Revolution]. <span style="font-style: italic">In Tajiki. </span> Dushanbe, "Adib" publishing house, 1987, pp. 7, 17, 25, 26, ?.`, link: ''},
+                {name: `Ayni, Sadriddin. ??? [Dokhunda]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "?" publishing house, 2010.`, link: ''},
+                {name: `Khamidullina, Aliya. "Легко ли быть внуком Садриддина Айни?" ["Is it easy to be Sadriddin Ayni's grandson?"] <span style="font-style: italic">In Russian. </span>Asia-Plus. Nov. 30, 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
+                {name: `Ayni, Sadriddin. Рабы [Slaves]. <span style="font-style: italic">In Russian. </span>Moscow, "Sovetskiy pisatel'" publishing house, 1975, p. 1.`, link: ''},
             ]
         }
     },

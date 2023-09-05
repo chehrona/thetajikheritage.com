@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useSetLang } from "../../../App";
 
 import { IconButton } from "@mui/material";
+import { OpenInNew } from '@mui/icons-material';
 
 import { DropDownContainer,
          IconContainer,
@@ -44,7 +45,10 @@ export default function Sources({data, line, color, title, background }) {
                                 <RefIndex>
                                     <div>{i + 1}.</div>
                                 </RefIndex>
-                                <Reference dangerouslySetInnerHTML={{__html: source}}></Reference>
+                                <Reference dangerouslySetInnerHTML={{__html: source?.name}} />
+                                <a href={source?.link} target="_blank">
+                                    <OpenInNew />
+                                </a>
                             </RefBox>   
                         )
                     })}
