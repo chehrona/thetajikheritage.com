@@ -1,18 +1,24 @@
-import React from "react";
+import React from 'react';
 
-import { BoxOne, LeftWrapper, Year, Desc, RightWrapper, Image, ImgInfo } from "./poetBioStyles";
+import {
+    BoxOne,
+    LeftContainer,
+    RightContainer,
+    ImgInfo,
+    Year,
+    Desc
+} from './poetBioStyles';
 
 export default function FirstBox({ poet }) {
     return (
         <BoxOne>
-            <LeftWrapper>
+            <LeftContainer>
                 <Year>{poet?.year}</Year>
                 <Desc dangerouslySetInnerHTML={{__html: poet?.desc}} />
-            </LeftWrapper>
-            <RightWrapper>
-                <Image src={poet?.img}/>
-                <ImgInfo color={'#0F0A00'} dangerouslySetInnerHTML={{__html: poet?.text}} />
-            </RightWrapper>
+            </LeftContainer>
+            <RightContainer src={poet?.slides.img} >
+                <ImgInfo color={poet?.slides.color} dangerouslySetInnerHTML={{__html: poet?.slides.text}} />
+            </RightContainer>
         </BoxOne>
     )
 }

@@ -23,8 +23,7 @@ module.exports.poets = [
             one: {
                 us: {
                     year: 'April 15, 1878',
-                    img: '/poetImages/ayni/soktare.png',
-                    text: 'Sadriddin Ayni museum in Soktare<sup>4</sup>',
+                    slides: {img: '/poetImages/ayni/soktare.png', text: 'Sadriddin Ayni museum in Soktare<sup>4</sup>'},
                     desc: `Sadriddin Saidmurodzoda was born to Saidmurodkhoja and Zevaroy in the village of 
                         Soktare, G’ijduvon district, 
                         Emirate of Bukhara.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
@@ -116,6 +115,64 @@ module.exports.poets = [
                                 a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
                         }
                     ],
+                ru: [
+                    {
+                        year: '1889',
+                        image: '/poetImages/ayni/slides/ayni1.png',
+                        desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
+                            from both his father and mother in a span of forty days. He was left to take care of two younger
+                            siblings at the age of 12. Despite these challenges, 
+                            Ayni's dream for knowledge led him to Bukhara.<sup>2</sup>`
+                    },
+                    {
+                        year: '1890',
+                        image: '/poetImages/ayni/slides/ayni2.png',
+                        desc: `He gets into Mir-i Arab madrasa and secures a "hujra" - room there with his brother.
+                        However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
+                        was quite difficult.
+                        In order to to pay for his room, which should have been free,<sup>5</sup> as well as his daily living costs, 
+                        he was forced to take on various odd jobs. These roles ranged from serving as a cleaner to 
+                        working as a cook, handling laundry tasks, and more.<sup>2</sup>`
+                    },
+                    {
+                        year: '1896',
+                        image: '/poetImages/ayni/slides/ayni3.png',
+                        desc: `During his time at the madrasa, the connected with people who shared a deep passion for 
+                            poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his initial 
+                            poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli."
+                            <div class='space'></div>
+                            However, in 1896 he adopted the pseudonym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
+                    },
+                    {
+                        year: '1897-1898',
+                        image: '/poetImages/ayni/slides/ayni4.png',
+                        desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow classmate Abduvohid Munzim
+                            with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication.
+                            <div class='space'></div>
+                            The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
+                            pushes him to start thinking about correcting these injustices and more in the Emirate of Bukhara.<sup>5</sup>`,
+                    },
+                    {
+                        year: '1908',
+                        image: '/poetImages/ayni/slides/ayni5.png',
+                        desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
+                            designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzar-i (street) Salohkhona, 
+                            with Persian as language of instruction, catering to the local Bukharan population.<sup>5</sup>`,
+                    },
+                    {
+                        year: '1909',
+                        image: '/poetImages/ayni/slides/ayni6.png',
+                        desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Quran" - rules for
+                            proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
+                            and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
+                    },
+                    {
+                        year: '1910',
+                        image: '/poetImages/ayni/slides/ayni7.png',
+                        desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
+                            a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
+                    }
+                ],
                 },
             three: {
                 us: {
@@ -158,12 +215,10 @@ module.exports.poets = [
             five: {
                 us: {
                     year: '1920',
-                    image: '/poetImages/ayni/family.png',
-                    imgDesc: {
-                        text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) 
-                        and Kamol Ayni. Circa 1949 <sup>8</sup>`,
-                        color: '#fcf6e9'
-                    },
+                    slides: [
+                        {img: '/poetImages/ayni/family.png', text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) 
+                        and Kamol Ayni. Circa 1949 <sup>8</sup>`, color: '#fcf6e9'},
+                    ],
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohatbegim</span>
                         and they moved into her parents' home in Samarkand. 
                         Despite Ayni's dire financial situation,
@@ -618,7 +673,7 @@ module.exports.poets = [
                 {name: `Khamidullina, Aliya. "Легко ли быть внуком Садриддина Айни?" ["Is it easy to be Sadriddin Ayni's grandson?"] <span style="font-style: italic">In Russian. </span>Asia-Plus. Nov. 30, 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
                 {name: `Abdullaev, Kamoludin. "Вот и «сказке» конец" ["Here is where the "fairytale" ends]. <span style="font-style: italic">In Russian. </span>Kamoludin Abdullaev, Historian from Tajikistan. Feb. 17, 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
                 {name: `Ayni, Sadriddin. Рабы [Slaves]. <span style="font-style: italic">In Russian. </span>Moscow, "Sovetskiy pisatel'" publishing house, 1975, p. 1.`, link: ''},
-                {name: `Habib, Said. "Душанбе - любовь моя, и боль моя" ["Dushanbe - my love and my pain"].<span style="font-style: italic">In Russian. </span>Nov. 19, 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
+                {name: `Habib, Said. "Душанбе - любовь моя, и боль моя" ["Dushanbe - my love, and my pain"].<span style="font-style: italic"> In Russian. </span>Nov. 19, 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
                 {name: `"Дом-музей Садриддина Айни" ["Sadriddin Ayni house-museum"]. <span style="font-style: italic">In Russian. </span>Sistema kul'turnikh koordinat.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
                 {name: `"Боғи ба номи Садриддин Айнӣ – гулгашти музайянест" ["The park named after Sadriddin Ayni is a prominent alley"].<span style="font-style: italic"> In Tajiki. </span>Tiroz. Apr. 1, 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
                 {name: `"Могила Садриддина Айни в парке в Душанбе" ["Sadriddin Ayni's grave in the park in Dushanbe"].<span style="font-style: italic"> In Russian. </span>Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},

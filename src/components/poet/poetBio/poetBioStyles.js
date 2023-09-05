@@ -12,18 +12,9 @@ export const BoxOne = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2rem;
+    padding: 1rem 5rem 1rem 5rem;
     color: #0F0A00;
-`;
-
-export const LeftWrapper = styled.div`
-    height: 100%;
-    padding-left: ${({ half }) => half ? '3rem' : '5rem'};
-    padding-right: 3rem;
-    padding-top: ${({ half }) => half && '0rem'};
-    width: ${({ half }) => half ? '50%' : '60%'};
-    position: relative;
-    border-bottom: ${({ half }) => half && '0.0625rem solid #bd9d52'};
+    gap: 3rem;
 `;
 
 export const Year = styled.div`
@@ -49,13 +40,6 @@ export const ImageDesc = styled.div`
     margin-top: -2rem;
     font-size: 1rem;
     font-style: italic;
-`;
-
-export const RightWrapper = styled.div`
-    margin-right: ${({ half }) => half ? '0rem' : '5rem'};
-    margin-top:  ${({ half }) => half ? '0rem' : '2rem'};
-    width: ${({ half }) => half ? '50%' : '40%'};
-    position: relative;
 `;
 
 // Box two ****************************
@@ -223,7 +207,6 @@ export const BoxFour = styled.div`
     min-height: 20rem;
     width: 100%;
     position: relative;
-    margin-top: 5rem;
     color: #fcf6e9;
 `;
 
@@ -272,8 +255,9 @@ export const FamilyDesc = styled.div`
     width: 100%;
     height: 30rem;
     color: #333333;
-    margin-right: 3rem;
+    padding: 0rem 3rem 3rem 3rem;
     font-size: 1.1rem;
+    border-bottom: 0.0625rem solid #bd9d52;
 `;
 
 // Box six ********************************

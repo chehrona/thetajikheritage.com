@@ -10,7 +10,6 @@ import {
     BackImg,
     Overlay,
     Author,
-    Image,
     StyledButton,
     Arrow,
     ImgInfo
@@ -37,8 +36,6 @@ export default function SeventhBox({ poet }) {
         }
     };
 
-    console.log(infoArr, 'array')
-
     return (
         <BoxSeven
             onMouseEnter={() => setHover(true)}
@@ -54,18 +51,18 @@ export default function SeventhBox({ poet }) {
                 </FinalQuote>
             </LeftContainer>
             <RightContainer src={infoArr[0].img} >
-                {hover && 
+                {hover && <>
                     <StyledButton left={true} onClick={movePrev}>
                         <Arrow>
                             <ArrowForwardIos style={{marginLeft: '1px'}}/>
                         </Arrow>
-                    </StyledButton>}
-                {hover && 
+                    </StyledButton>
                     <StyledButton onClick={moveNext}>
                         <Arrow>
                             <ArrowForwardIos />
                         </Arrow>
-                    </StyledButton>}
+                    </StyledButton>
+                </>}
                 <ImgInfo color={infoArr[0].color} dangerouslySetInnerHTML={{__html: infoArr[0].text}} />
             </RightContainer>
         </BoxSeven>
