@@ -46,9 +46,11 @@ export default function Sources({data, line, color, title, background }) {
                                     <div>{i + 1}.</div>
                                 </RefIndex>
                                 <Reference dangerouslySetInnerHTML={{__html: source?.name}} />
-                                <a href={source?.link} target="_blank">
-                                    <OpenInNew />
-                                </a>
+                                <span>
+                                    <a href={source?.link} target="_blank">
+                                        <OpenInNew />
+                                    </a>
+                                </span>
                             </RefBox>   
                         )
                     })}

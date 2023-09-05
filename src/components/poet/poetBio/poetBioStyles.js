@@ -164,7 +164,7 @@ export const Info = styled.div`
 export const Text = styled.div`
     text-align: justify;
     font-size: 1.1rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 `;
 
 // Box three ****************************

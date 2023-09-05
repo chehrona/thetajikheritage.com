@@ -35,7 +35,7 @@ module.exports.poets = [
                         During his school years, as documented in his book "The Old School," 
                         he didn't find much value in formal education. However, he had his initial exposure to the 
                         poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
-                        His father despite being a humble peasant, had a deep love for education and literature, 
+                        His father, despite being a humble peasant, had a deep love for education and literature, 
                         which he passed down to his children.<sup>2,3</sup>`
                 },
                 ru: {
@@ -73,7 +73,7 @@ module.exports.poets = [
                             desc: `He gets into Mir-i Arab madrasa and secures a "hujra" - room there with his brother.
                             However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
                             was quite difficult.
-                            In order to to pay for his room, which should have been free<sup>5</sup>, as well as his daily living costs, 
+                            In order to to pay for his room, which should have been free,<sup>5</sup> as well as his daily living costs, 
                             he was forced to take on various odd jobs. These roles ranged from serving as a cleaner to 
                             working as a cook, handling laundry tasks, and more.<sup>2</sup>`
                         },
@@ -161,7 +161,7 @@ module.exports.poets = [
                     image: '/poetImages/ayni/family.png',
                     imgDesc: {
                         text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) 
-                        and Kamol Ayni. Circa 1949<sup>7</sup>`,
+                        and Kamol Ayni. Circa 1949 <sup>8</sup>`,
                         color: '#fcf6e9'
                     },
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohatbegim</span>
@@ -177,7 +177,7 @@ module.exports.poets = [
                         Iranology, and art history, respectively.
                         <div class='space'></div>
                         Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
-                        and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>8</sup>`
+                        and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>7</sup>`
                 }
             },
             six: {
@@ -196,10 +196,11 @@ module.exports.poets = [
                         {img: '/poetImages/ayni/memory/ayni3.png', text: 'Mausoleum of Sadriddin Ayni, Dushanbe, Tajikistan<sup>12</sup>', color: '#fcf6e9'},
                         {img: '/poetImages/ayni/memory/ayni4.png', text: "Sadriddin Ayni's resting place in Ayni Park, Dushanbe, Tajikistan<sup>13</sup>", color: '#0F0A00'},
                         {img: '/poetImages/ayni/memory/ayni5.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>14</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan<sup>15</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan<sup>12</sup>', color: '#0F0A00'},
                         {img: '/poetImages/ayni/memory/ayni7.png', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan<sup>16</sup>', color: '#dedbdb'},
                         {img: '/poetImages/ayni/memory/ayni8.png', text: 'Ayni district, Sogd province, Tajikistan<sup>17</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni9.png', text: '5 Somoni bill, Tajikistan<sup>18</sup>', color: '#bd9d52'}
+                        {img: '/poetImages/ayni/memory/ayni9.png', text: '5 Somoni bill, Tajikistan<sup>18</sup>', color: '#bd9d52'},
+                        {img: '/poetImages/ayni/memory/ayni10.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>19</sup>', color: '#dedbdb'},
                     ]
                 }
             }
@@ -609,13 +610,22 @@ module.exports.poets = [
         references: {
             us: [
                 {name: `Ayni, Kholida. "Зиндагиномаи Садриддин Айнӣ" [Biography of Sadriddin Ayni]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "Baloghat" publishing house, 2017, p.13.`, link: ''},
-                {name: `Ayni, Sadriddin. Мухтасари тарҷумаи ҳоли худам [Brief autobiography]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, 1958, pp. 28, 33, 47-48.`, link: ''},
-                {name: `Ayni, Sadriddin. Мактаби кӯҳна [Old School]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "Istiqbol" publishing house, 2010.`, link: ''},
+                {name: `Ayni, Sadriddin. Мухтасари тарҷумаи ҳоли худам [My brief biography]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, 1958, pp. 28, 33, 47-48.`, link: ''},
+                {name: `Ayni, Sadriddin. Мактаби кӯҳна [The Old School]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "Istiqbol" publishing house, 2010.`, link: ''},
                 {name: `Muhammadi, Farzon. "'Мактаби кӯҳна'. Гузориш аз зодгоҳи Садриддин Айнӣ" ["'Old School'. Report from the hometown of Sadriddin Ayni"]. <span style="font-style: italic">In Tajiki. </span>Radio-i Ozodi. Apr. 18, 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
                 {name: `Ayni, Sadriddin. Таърихи инқилоби Бухоро [History of the Bukhara Revolution]. <span style="font-style: italic">In Tajiki. </span> Dushanbe, "Adib" publishing house, 1987, pp. 7, 17, 25, 26, ?.`, link: ''},
                 {name: `Ayni, Sadriddin. ??? [Dokhunda]. <span style="font-style: italic">In Tajiki. </span>Dushanbe, "?" publishing house, 2010.`, link: ''},
                 {name: `Khamidullina, Aliya. "Легко ли быть внуком Садриддина Айни?" ["Is it easy to be Sadriddin Ayni's grandson?"] <span style="font-style: italic">In Russian. </span>Asia-Plus. Nov. 30, 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
+                {name: `Abdullaev, Kamoludin. "Вот и «сказке» конец" ["Here is where the "fairytale" ends]. <span style="font-style: italic">In Russian. </span>Kamoludin Abdullaev, Historian from Tajikistan. Feb. 17, 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
                 {name: `Ayni, Sadriddin. Рабы [Slaves]. <span style="font-style: italic">In Russian. </span>Moscow, "Sovetskiy pisatel'" publishing house, 1975, p. 1.`, link: ''},
+                {name: `Habib, Said. "Душанбе - любовь моя, и боль моя" ["Dushanbe - my love and my pain"].<span style="font-style: italic">In Russian. </span>Nov. 19, 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
+                {name: `"Дом-музей Садриддина Айни" ["Sadriddin Ayni house-museum"]. <span style="font-style: italic">In Russian. </span>Sistema kul'turnikh koordinat.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
+                {name: `"Боғи ба номи Садриддин Айнӣ – гулгашти музайянест" ["The park named after Sadriddin Ayni is a prominent alley"].<span style="font-style: italic"> In Tajiki. </span>Tiroz. Apr. 1, 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
+                {name: `"Могила Садриддина Айни в парке в Душанбе" ["Sadriddin Ayni's grave in the park in Dushanbe"].<span style="font-style: italic"> In Russian. </span>Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
+                {name: `Qurbonova, Manizha. "'Теперь не стыдно показывать туристам'. К 140-летию Садриддина Айни в Душанбе отремонтировали его дом-музей". Apr. 13, 2017.`, link: 'https://asiaplustj.info/ru/news/tajikistan/society/20180413/v-chest-yubileya-sadriddina-aini-v-dushanbe-otremontirovali-ego-dom-muzei'},
+                {name: `Khashimov, Sher. "Embracing slow time in Tajikistan". New East Digital Archive. Jan. 31, 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
+                {name: `5 Somoni. Numista.`, link: 'https://en.numista.com/catalogue/note215569.html'},
+                {name: `House Museum of Sadriddin Ayni. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'}
             ]
         }
     },

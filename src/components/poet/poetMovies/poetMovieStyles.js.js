@@ -96,8 +96,5 @@ export const StyledExpand = styled(ChevronRight)`
     color: #dedbdb;
     height: 2rem !important;
     width: 2rem !important;
-
-    &:hover {
-        animation: ${bounce} 2s infinite;
-    }
+    animation: ${bounce} 2s infinite;
 `;
