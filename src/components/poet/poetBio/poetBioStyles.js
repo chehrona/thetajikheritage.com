@@ -29,19 +29,6 @@ export const Desc = styled.div`
     color: #333333;
 `;
 
-export const Image = styled.img`
-    height: 100%;
-    width: 100%;
-    filter: grayscale(1);
-`;
-
-export const ImageDesc = styled.div`
-    margin-left: 2rem;
-    margin-top: -2rem;
-    font-size: 1rem;
-    font-style: italic;
-`;
-
 // Box two ****************************
 export const BoxTwo = styled.div`
     margin-top: 6rem;
@@ -244,13 +231,6 @@ export const Dot = styled.div`
 `;
 
 // Box five ********************************
-export const BoxFive = styled.div`
-    min-height: 20rem;
-    width: 100%;
-    color: #0F0A00;
-    display: flex;
-`;
-
 export const FamilyDesc = styled.div`
     width: 100%;
     height: 30rem;
