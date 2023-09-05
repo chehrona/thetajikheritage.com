@@ -24,8 +24,7 @@ export const MainContainer = styled.div`
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
+    padding: 3rem 3rem 5rem 0rem;
 
     &:before {
         content: "";
@@ -57,10 +56,6 @@ export const AwardCard = styled.div`
 
     &&&:first-child {
         margin-left: 3rem;
-    }
-
-    &&&:last-child {
-        margin-right: 3rem;
     }
 `;
 

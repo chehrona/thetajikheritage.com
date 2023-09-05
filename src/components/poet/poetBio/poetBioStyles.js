@@ -12,7 +12,7 @@ export const BoxOne = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5rem 1rem 5rem;
+    padding: 0rem 4.3rem 1rem 5rem;
     color: #0F0A00;
     gap: 3rem;
 `;
@@ -332,10 +332,10 @@ export const StyledButton = styled(IconButton)`
 
 export const ImgInfo = styled.div`
     position: absolute;
-    bottom: 0.5rem;
     z-index: 10;
     font-style: italic;
-    color: ${({ color }) => color && color};
     right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 0.5rem;    
+    color: ${({ color }) => color && color};
+    bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
 `;

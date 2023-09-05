@@ -17,7 +17,10 @@ export default function FirstBox({ poet }) {
                 <Desc dangerouslySetInnerHTML={{__html: poet?.desc}} />
             </LeftContainer>
             <RightContainer src={poet?.slides.img} >
-                <ImgInfo color={poet?.slides.color} dangerouslySetInnerHTML={{__html: poet?.slides.text}} />
+                <ImgInfo
+                    up={true}
+                    color={poet?.slides.color} dangerouslySetInnerHTML={{__html: poet?.slides.text}} 
+                />
             </RightContainer>
         </BoxOne>
     )
