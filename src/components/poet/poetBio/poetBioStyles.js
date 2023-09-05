@@ -235,7 +235,7 @@ export const FamilyDesc = styled.div`
     width: 100%;
     height: 30rem;
     color: #333333;
-    padding: 0rem 3rem 3rem 3rem;
+    padding: 0rem 2.8rem 3rem 3rem;
     font-size: 1.1rem;
     border-bottom: 0.0625rem solid #bd9d52;
 `;
@@ -268,6 +268,7 @@ export const RightContainer = styled.div`
     height: 30rem;
     background-image: ${({ src }) => `url(${ src })`};
     background-size: cover;
+    background-position: center center;
     transition: all 0.5s;
     position: relative;
 `;
