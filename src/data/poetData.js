@@ -241,8 +241,8 @@ module.exports.poets = [
                     {
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.png',
-                        desc: `Адиб яке аз аввалин аъзоёни "Ҷавонбухориён - "جوان‌بخاراییان"/"Yosh buxoroliklar",
-                            ки ҷамъияти махфие, ки бахше аз ҷунбиши ҷадидӣ буд, ҷонибдори ислоҳот ва навсозии Осиёи Марказӣ буд.<sup>5</sup>`,
+                        desc: `Адиб яке аз аввалин аъзоёни ҷамъияти "Ҷавонбухориён - "جوان‌بخاراییان"/"Yosh buxoroliklar" мешавад. Ин
+                            ҷамъияти махфӣ, бахше аз ҳаракати ҷадидӣ буд, ки ҷонибдори ислоҳот ва навсозии Осиёи Марказӣ буд.<sup>5</sup>`,
                     }
                 ],
                 },
@@ -273,9 +273,74 @@ module.exports.poets = [
                         resolve, sharpening his pen and intensifying his determination to guide the country 
                         toward liberation from such bloodthirsty rulers.`,
                 },
+                ru: {
+                    quote: ``,
+                    desc: `Окончив медресе, Айни продолжает помогать джадидскому движению, 
+                    сопротивляясь старым обычаям, так глубоко укоренившимся среди бухарского духовенства.
+                    Однако его «добрые дела» были встречены неодобрением со стороны эмира.
+                    что привело к его тюремному заключению и самому суровому приговору того времени -
+                    <span style='font-weight:bold;'>75 ударов плетью</span>.
+                    <div class='space'></div>В конце концов, его освобождают русские
+                    Революционные силы по указке младобухарцев. После того, как вытерпел
+                    <span style='font-weight:bold;'>52 дня</span> в больнице
+                    и перенеся <span style='font-weight:bold;'>25 операций</span>, он навсегда переехал в Самарканд.
+                    Там он посвятил себя революционному делу, обладая
+                    силой своего пера, писать политические статьи и
+                    прямо призывая нацию к войне против эмира.
+                    <br>Обнаружив связь Айни с советскими войсками,
+                    амир ложно обвинил своего младшего брата,
+                    <span style='font-weight:bold;'>Сироджиддин</span>, об измене
+                    и жестоко убил его через удушье. Айни направил свой
+                    горе в свое литературное произведение «Марсия».
+                    <div class='space'></div>В 1922 году басмачи убили старшего брата Айни -
+                    <span style='font-weight:bold;'>Мухиддинходжа</span> и похитил его сына.<sup>1</sup>
+                    <div class='space'></div>Эти мучительные потери только укрепили позиции Айни.
+                    решимость, оттачивая свое перо и усиливая свою решимость руководить страной
+                    к освобождению от таких кровожадных правителей.`,
+                },
+                tj: {
+                    quote: `... барои умри дар ғафлат гузаштаамон худро маъзур донем ҳам, ҳоло ..., «ба ман чӣ?» гуфтанро виҷдонамон раво намедид.<sup>5</sup>`,
+                    desc: `Айнӣ пас аз хатми мадраса ҳамбастагии худро бо ҷадидон идома медиҳад ва
+                    ба тарзи кӯҳнаи ҷомеадорӣ, ки дар байни уламои Бухоро хеле мустаҳкам чой гирифта буд, муковимат нишон додан мегирад.
+                    Аммо корҳои "неки" ӯ ба амир писанд намеояд ва ӯро ба зиндон мепартоянд ва сахттарин ҷазои он - 
+                    <span style='font-weight: bold;'>75 чӯб</span> маҳкум мешавад.
+                    <div class='space'></div>Дар ниҳоят, ӯро қувваҳои инқилобии русҳо бо 
+                    хоҳиши Ҷавонбухориён озод мекунанд. 
+                    Пас аз <span style='font-weight: bold;'>52 рӯз</span> дар беморхона
+                    ва аз сар гузаронидани <span style='font-weight: bold;'>25 ҷарроҳӣ</span>, 
+                    доиман ба Самарқанд мекӯчад. Ӯ бо қалами худ ба манфиати инқилобиён хизмат намуда,
+                    мақолаҳои сиёсӣ менавишт ва миллатро бевосита ба зидди амир даъват мекард.
+                    <br>Бо ошкор шудани робитаи Айнӣ бо нерӯҳои шӯравӣ,
+                    амир бародари хурдии ӯ, <span style='font-weight: bold;'>Сироҷиддинро</span> 
+                    бардурӯғ айбдори хиёнат карда, ваҳшиёна дар зиндон буғӣ карда мекушад. 
+                    «Марсия»-и ҷонгудози худро ба ҳамин муносибат навиштааст.
+                    <div class='space'></div>
+                    Соли 1922 босмачиён бародари калонии Айнӣ - <span style='font-weight: bold;'>Муҳиддинхоҷаро</span> 
+                    қатл карда, писарашро дузда ба кӯҳҳои Нурато мебаранд.<sup>1</sup>
+                    <div class='space'></div>
+                    Ин дардҳои даҳшатноки қалбаш танҳо ба рӯҳияи Айнӣ мусоидат кард.
+                    азму иродаи кавй дошта, қаламашро тезу тунд ва азму иродаи худро дар рохи рохбарй ба мамлакат пурзур менамояд
+                    барои озод шудан аз чунин ҳокимони хунхор.`,
+                }
             },
             four: {
                 us: {
+                    year: '1930',
+                    desc: `He authored his debut novel, "Dokhunda," depicting the grueling 
+                        existence of commonfolk in the pre-revolutionary era, capturing the 
+                        turbulence of the revolution, the wartime horrors endured by his 
+                        compatriots, and culminating in a vivid portrayal of the Tajik 
+                        people's pursuit of freedom and a new life.<sup>6</sup>`
+                },
+                ru: {
+                    year: '1930',
+                    desc: `He authored his debut novel, "Dokhunda," depicting the grueling 
+                        existence of commonfolk in the pre-revolutionary era, capturing the 
+                        turbulence of the revolution, the wartime horrors endured by his 
+                        compatriots, and culminating in a vivid portrayal of the Tajik 
+                        people's pursuit of freedom and a new life.<sup>6</sup>`
+                },
+                tj: {
                     year: '1930',
                     desc: `He authored his debut novel, "Dokhunda," depicting the grueling 
                         existence of commonfolk in the pre-revolutionary era, capturing the 
@@ -318,12 +383,88 @@ module.exports.poets = [
                         <div class='space'></div>
                         Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
                         and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>8</sup>`
+                },
+                ru: {
+                    year: '1920',
+                    slides: [
+                        {
+                            img: '/poetImages/ayni/family/ayni1.png',
+                            text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) and Kamol Ayni. Circa 1949 <sup>7</sup>`,
+                            color: '#fcf6e9'
+                        },
+                        {
+                            img: '/poetImages/ayni/family/ayni2.png',
+                            text: `Ayni with his wife - Салохат <sup>9<sup>`,
+                            color: '#0F0A00'
+                        },
+                        {
+                            img: '/poetImages/ayni/family/ayni3.png',
+                            text: `Ayni with his son - Kamol <sup>4<sup>`,
+                            color: '#fcf6e9'
+                        }
+                    ],
+                    desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
+                        and they moved into her parents' home in Samarkand. 
+                        Despite Ayni's dire financial situation,
+                        Salohat remained undeterred in her commitment to him. She dedicated herself to creating an 
+                        environment where his literary genius could flourish, a dedication that persisted until their final days.<sup>1</sup>
+                        <div class='space'></div>
+                        They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
+                        <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
+                        <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
+                        Remarkably, each of their children followed in Ayni's footsteps, pursuing academic careers in orientalism, 
+                        philology, and Central Asian art history, respectively.<sup>7</sup>
+                        <div class='space'></div>
+                        Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
+                        and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>8</sup>`
+                },
+                tj: {
+                    year: '1920',
+                    slides: [
+                        {
+                            img: '/poetImages/ayni/family/ayni1.png',
+                            text: `Аз чап ба рост, нишаста: Лутфия, Садриддин, Холида; standing: Ҳамид Мансуров (Ayni's nephew) and Камол Айнӣ. Акси соли 1949 <sup>7</sup>`,
+                            color: '#fcf6e9'
+                        },
+                        {
+                            img: '/poetImages/ayni/family/ayni2.png',
+                            text: `Айнӣ бо ҳамсараш Салоҳат <sup>9<sup>`,
+                            color: '#0F0A00'
+                        },
+                        {
+                            img: '/poetImages/ayni/family/ayni3.png',
+                            text: `Айнӣ бо писараш Камол <sup>4<sup>`,
+                            color: '#fcf6e9'
+                        }
+                    ],
+                    desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
+                        and they moved into her parents' home in Samarkand. 
+                        Despite Ayni's dire financial situation,
+                        Salohat remained undeterred in her commitment to him. She dedicated herself to creating an 
+                        environment where his literary genius could flourish, a dedication that persisted until their final days.<sup>1</sup>
+                        <div class='space'></div>
+                        They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
+                        <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
+                        <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
+                        Remarkably, each of their children followed in Ayni's footsteps, pursuing academic careers in orientalism, 
+                        philology, and Central Asian art history, respectively.<sup>7</sup>
+                        <div class='space'></div>
+                        Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
+                        and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>8</sup>`
                 }
             },
             six: {
                 us: {
                     year: '15 July 1954',
                     desc: 'Ayni passed away at 4PM in his home, in Stalinabad (now Dushanbe) surrounded by friends, students, and family<sup>1</sup>'
+                },
+                ru: {
+                    year: '15 июля 1954 г.',
+                    desc: 'Айни скончался в 16:00 в своем доме в Сталинабаде (ныне Душанбе) в окружении друзей, студентов и семьи<sup>1</sup>'
+                },
+                tj: {
+                    year: '15 июли 1954',
+                    desc: 'Айнӣ соати 16:00 дар хонаи худ, дар Сталинобод (Душанбеи ҳозира) дар атрофи дӯстону шогирдон ва аҳли оилааш даргузашта аст<sup>1</sup>'
                 }
             },
             seven: {
@@ -342,6 +483,40 @@ module.exports.poets = [
                         {img: '/poetImages/ayni/memory/ayni9.png', text: 'Ayni district, Sogd province, Tajikistan<sup>18</sup>', color: '#dedbdb'},
                         {img: '/poetImages/ayni/memory/ayni10.png', text: '5 Somoni bill, Tajik<span style="color: #bd9d52">istan</span><sup>19</sup>', color: '#0F0A00'},
                         {img: '/poetImages/ayni/memory/ayni11.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>20</sup>', color: '#fcf6e9'},
+                    ]
+                },
+                ru: {
+                    desc: 'Его жизнь – это... история нашего народа',
+                    author: '- Мирзо Турсун-заде<sup>10</sup>',
+                    slides: [
+                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Мавзолей Садриддина Айни (1954 – 2017 гг.), Душанбе, Таджикистан<sup>11</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Памятник Садриддину Айни на проспекте Рудаки, Душанбе, Таджикистан<sup>12</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Мавзолей Садриддина Айни, Душанбе, Таджикистан<sup>13</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Могила Садриддина Айни в парке Айни, Душанбе, Таджикистан<sup>14</sup>", color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Дом-музей Садриддина Айни, Самарканд, Узбекистан<sup>15</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Памятник Садриддину Айни в парке Айни, Душанбе, Таджикистан<sup>13</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Музей имени Садриддина Айни, Соктаре, Узбекистан<sup>16</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni8.png', text: 'Дом-музей Садриддина Айни, Душанбе, Таджикистан<sup>17</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni9.png', text: 'Айнинский район, Согдийская область, Таджикистан<sup>18</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni10.png', text: 'Банкнота 5 сомони, Таджикис<span style="color: #bd9d52">тан</span><sup>19</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni11.png', text: 'Дом-музей Садриддина Айни, Самарканд, Узбекистан<sup>20</sup>', color: '#fcf6e9'},
+                    ]
+                },
+                tj: {
+                    desc: 'Зиндагии ӯ ... саргузашти миллати мост',
+                    author: '- Мирзо Турсунзода<sup>10</sup>',
+                    slides: [
+                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Мақбараи Садриддин Айнӣ (1954 - 2017), Душанбе, Тоҷикистон<sup>11</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Ҳайкали Садриддин Айнӣ дар хиёбони Рӯдакӣ, Душанбе, Тоҷикистон<sup>12</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Мақбараи Садриддин Айнӣ, Душанбе, Тоҷикистон<sup>13</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Оромгоҳи Садриддин Айнӣ дар парки Айнӣ, Душанбе, Тоҷикистон<sup>14</sup>", color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Хона-музейи Садриддин Айнӣ, Самарқанд, Ӯзбекистон<sup>15</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Ҳайкали Садриддин Айнӣ дар парки Айнӣ, Душанбе, Тоҷикистон<sup>13</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Осорхона ба номи Садриддин Айнӣ, Соктаре, Ӯзбекистон<sup>16</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni8.png', text: 'Хона-музейи Садриддин Айнӣ, Душанбе, Тоҷикистон<sup>17</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni9.png', text: 'Ноҳияи Айнӣ, вилояти Суғд, Тоҷикистон<sup>18</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni10.png', text: '5 сомонӣ, Тоҷик<span style="color: #bd9d52">истон</span><sup>19</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni11.png', text: 'Хона-музейи Садриддин Айнӣ, Самарқанд, Ӯзбекистон<sup>20</sup>', color: '#fcf6e9'},
                     ]
                 }
             }
@@ -750,7 +925,7 @@ module.exports.poets = [
         },
         references: {
             us: [
-                {name: `Ayni, Kholida. "Зиндагиномаи Садриддин Айнӣ" [Biography of Sadriddin Ayni]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, "Baloghat" publishing house, 2017, p.13.`, link: ''},
+                {name: `Ayni, Kholida. Зиндагиномаи Садриддин Айнӣ [Biography of Sadriddin Ayni]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, "Baloghat" publishing house, 2017, p.13.`, link: ''},
                 {name: `Ayni, Sadriddin. Мухтасари тарҷумаи ҳоли худам [My brief biography]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, 1958, pp. 28, 33, 47-48.`, link: ''},
                 {name: `Ayni, Sadriddin. Мактаби кӯҳна [The Old School]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, "Istiqbol" publishing house, 2010.`, link: ''},
                 {name: `"Садриддин Айнӣ" ["Sadriddin Ayni"].<span style="font-style: italic"> In Tajiki</span>. Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
@@ -770,6 +945,50 @@ module.exports.poets = [
                 {name: `Khashimov, Sher. "Embracing slow time in Tajikistan". New East Digital Archive. Jan. 31, 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
                 {name: `5 Somoni. Numista.`, link: 'https://en.numista.com/catalogue/note215569.html'},
                 {name: `House Museum of Sadriddin Ayni. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'}
+            ],
+            ru: [
+                {name: `Ayni, Kholida. Зиндагиномаи Садриддин Айнӣ [Биография Садриддина Айни]. <span style="font-style: italic">На тадж</span>. Душанбе, издательство "Балогат", 2017, с. 13.`, link: ''},
+                {name: `Айни, Садриддин. Мухтасари тарҷумаи ҳоли худам [Моя краткая биография]. <span style="font-style: italic">На тадж</span>. Душанбе, 1958, с. 28, 33, 47-48.`, link: ''},
+                {name: `Айни, Садриддин. Мактаби кӯҳна [Старая школа]. <span style="font-style: italic">На тадж.</span>. Душанбе, издательство "Истикбол", 2010.`, link: ''},
+                {name: `"Садриддин Айнӣ" ["Садриддин Айни"].<span style="font-style: italic"> На тадж</span>. Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
+                {name: `Айни, Садриддин. Таърихи инқилоби Бухоро [История Бухарской революции]. <span style="font-style: italic">На тадж</span>. Душанбе, издательство "Адиб", 1987, с. 7, 17, 25, 26, ?.`, link: ''},
+                {name: `Айни, Садриддин. ??? [Dokhunda]. <span style="font-style: italic">На тадж</span>. Душанбе, "?", 2010.`, link: ''},
+                {name: `Хабиб, Саид. "В семье Айни". Дзен. 18 января.`, link: 'https://dzen.ru/a/Y8fEsNMs1kvGwS-p'},
+                {name: `Хамидуллина, Алия. "Легко ли быть внуком Садриддина Айни?". Asia-Plus. Nov. 30, 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
+                {name: `Абдуллаев, Камолудин. "Вот и «сказке» конец". Kamoludin Abdullaev, Historian from Tajikistan. Feb. 17, 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
+                {name: `Айни, Садриддин. Рабы. Москва, "Советский писатель'", 1975, с. 1.`, link: ''},
+                {name: `"Командировка в Душанбе". LiveJournal. Mar. 30, 2013.`, link: 'https://storm100.livejournal.com/78250.html'},
+                {name: `Хабиб, Саид. "Душанбе - любовь моя, и боль моя". Nov. 19, 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
+                {name: `"Боғи ба номи Садриддин Айнӣ – гулгашти музайянест" ["The park named after Sadriddin Ayni is a prominent alley"].<span style="font-style: italic"> На тадж.</span>. Tiroz. Apr. 1, 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
+                {name: `"Могила Садриддина Айни в парке в Душанбе". Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
+                {name: `"Дом-музей Садриддина Айни". Система культурных координат.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
+                {name: `Мухаммади, Фарзон. "'Мактаби кӯҳна'. Гузориш аз зодгоҳи Садриддин Айнӣ" ["'Old School'. Report from the hometown of Sadriddin Ayni"]. <span style="font-style: italic">На тадж.</span>. Радиои Озодӣ. Apr. 18, 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
+                {name: `Qurbonova, Manizha. "'Теперь не стыдно показывать туристам'. К 140-летию Садриддина Айни в Душанбе отремонтировали его дом-музей". Asia-Plus. Apr. 13, 2017.`, link: 'https://asiaplustj.info/ru/news/tajikistan/society/20180413/v-chest-yubileya-sadriddina-aini-v-dushanbe-otremontirovali-ego-dom-muzei'},
+                {name: `Khashimov, Sher. "Embracing slow time in Tajikistan" ["Встречая медленное время в Таджикистане"]. <span style="font-style: italic">На англ</span>. New East Digital Archive. Jan. 31, 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
+                {name: `5 Somoni. Numista.`, link: 'https://en.numista.com/catalogue/note215569.html'},
+                {name: `House Museum of Sadriddin Ayni [Дом-музей Садриддина Айни]. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'}
+            ],
+            tj: [
+                {name: `Ayni, Kholida. Зиндагиномаи Садриддин Айнӣ. Душанбе, "Baloghat" publishing house, 2017, с. 13.`, link: ''},
+                {name: `Айни, Садриддин. Мухтасари тарҷумаи ҳоли худам [My brief biography]. Душанбе, 1958, с. 28, 33, 47-48.`, link: ''},
+                {name: `Айни, Садриддин. Мактаби кӯҳна [The Old School]. Душанбе, "Istiqbol" publishing house, 2010.`, link: ''},
+                {name: `"Садриддин Айнӣ" ["Sadriddin Ayni"].<span style="font-style: italic"> In Tajiki</span>. Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
+                {name: `Айни, Садриддин. Таърихи инқилоби Бухоро [History of the Bukhara Revolution]. Душанбе, "Adib" publishing house, 1987, с. 7, 17, 25, 26, ?.`, link: ''},
+                {name: `Айни, Садриддин. ??? [Dokhunda]. Душанбе, "?" publishing house, 2010.`, link: ''},
+                {name: `Ҳабиб, Саид. "В семье Айни" ["Дар оилаи Айнӣ"]. Dzen. Jan. 18.`, link: 'https://dzen.ru/a/Y8fEsNMs1kvGwS-p'},
+                {name: `Khamidullina, Aliya. "Легко ли быть внуком Садриддина Айни?" ["Is it easy to be Sadriddin Ayni's grandson?"] Asia-Plus. Nov. 30, 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
+                {name: `Abdullaev, Kamoludin. "Вот и «сказке» конец" ["Here is where the "fairytale" ends]. Kamoludin Abdullaev, Historian from Tajikistan. Feb. 17, 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
+                {name: `Айни, Садриддин. Рабы [Ғуломон]. Москва, "Sovetskiy pisatel'" publishing house, 1975, p. 1.`, link: ''},
+                {name: `"Командировка в Душанбе" ["Сафари корӣ дар Душанбе"]. LiveJournal. Mar. 30, 2013.`, link: 'https://storm100.livejournal.com/78250.html'},
+                {name: `Ҳабиб, Саид. "Душанбе - любовь моя, и боль моя" ["Душанбе - ишқи ман ва дарди ман"]. Nov. 19, 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
+                {name: `"Боғи ба номи Садриддин Айнӣ – гулгашти музайянест".<span style="font-style: italic"> In Tajiki</span>. Tiroz. Apr. 1, 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
+                {name: `"Могила Садриддина Айни в парке в Душанбе" ["Sadriddin Ayni's grave in the park in Душанбе"]. Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
+                {name: `"Дом-музей Садриддина Айни" ["Хона-музейи Садриддин Айнӣ"]. Система культурных координат.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
+                {name: `Muhammadi, Farzon. "'Мактаби кӯҳна'. Гузориш аз зодгоҳи Садриддин Айнӣ". Радиои Озодӣ. Apr. 18, 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
+                {name: `Qurbonova, Manizha. "'Теперь не стыдно показывать туристам'. К 140-летию Садриддина Айни в Душанбе отремонтировали его дом-музей" ["'Now it's not embarassing to show it to the tourists.' On the occasion of Sadriddin Ayni's 140th anniversary, his house-museum was renovated in Dushanbe"]. Asia-Plus. Apr. 13, 2017.`, link: 'https://asiaplustj.info/ru/news/tajikistan/society/20180413/v-chest-yubileya-sadriddina-aini-v-dushanbe-otremontirovali-ego-dom-muzei'},
+                {name: `Khashimov, Sher. "Embracing slow time in Tajikistan". New East Digital Archive. Jan. 31, 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
+                {name: `5 Somoni. Numista.`, link: 'https://en.numista.com/catalogue/note215569.html'},
+                {name: `House Museum of Sadriddin Ayni [Хона-музейи Садриддин Айнӣ]. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'}
             ]
         }
     },
