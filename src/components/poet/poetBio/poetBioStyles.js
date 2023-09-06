@@ -341,6 +341,7 @@ export const BoxSeven = styled.div`
     width: 100%;
     display: flex;
     min-height: 20rem;
+    flex-wrap: wrap;
 `;
 
 export const LeftContainer = styled.div`
@@ -364,7 +365,6 @@ export const RightContainer = styled.div`
 
     @media (max-width: 768px) { 
         width: 100%;
-        height: 22rem;
     }
 `;
 
@@ -436,6 +436,6 @@ export const ImgInfo = styled.div`
     bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
 
     @media (max-width: 768px) { 
-        bottom: ${({ up }) => up ? '0rem' : '0.5rem'};
+        bottom: ${({ up }) => up ? '2rem' : '0.5rem'};
     }
 `;
