@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {useParams} from "react-router-dom";
 import { poets } from "../../data/poetData";
-import request from "../../services/request";
 
 import { 
     PageContainer,
@@ -15,14 +14,10 @@ import PoetAwards from "../../components/poet/poetAwards/PoetAwards";
 import PoetMovies from "../../components/poet/poetMovies/PoetMovies";
 import Politics from "../../components/poet/politics/Politics";
 import Sources from "../../components/common/recipeSources/Sources";
-import useGoogle from "../../services/request";
 
 export default function PoetPage() {
     const { id } = useParams(),
         poet = poets.filter((poet) => poet.id === id)[0];
-    const google = useGoogle();
-
-    console.log(google);
 
     if (poet) {
         return (

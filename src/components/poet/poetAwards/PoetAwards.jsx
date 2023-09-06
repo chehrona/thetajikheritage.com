@@ -38,7 +38,7 @@ export default function PoetAwards({ poet }) {
                                 <Title>{award.title}</Title>
                                 {award.years.map((year) => {
                                     return (
-                                        <Year>{year}</Year>
+                                        <Year key={year}>{year}</Year>
                                     )
                                 })}
                                 <StyledIconButton onClick={(e) => handleAwardDialog(e, award)}>

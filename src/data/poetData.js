@@ -29,7 +29,7 @@ module.exports.poets = [
                         Soktare, G’ijduvon district, 
                         Emirate of Bukhara.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
-                        that he was introduced to the world of folk art, including tales, legends, songs, 
+                        that he was introduced to the world of folk literature, including tales, legends, songs, 
                         anecdotes, and proverbs.<sup>2</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
@@ -39,24 +39,37 @@ module.exports.poets = [
                         which he passed down to his children.<sup>2,3</sup>`
                 },
                 ru: {
-                    year: '15 апреля 1878',
-                    img: '/poetImages/ayni/soktare.png',
-                    imgDesc: 'Музей имени Садриддина Айни в Соктаре<sup>4</sup>',
-                    desc: `Sadriddin Saidmurodzoda was born to <span style='font-weight: bold;'>Saidmurodkhoja</span> 
-                        and <span style='font-weight: bold;'>Zevaroy</span> in the village of 
-                        Soktare, G’ijduvon district, 
-                        Emirate of Bukhara.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
-                        years among fellow farmers and local artisans. It was within this close-knit community 
-                        that he was introduced to the world of folk art, including tales, legends, songs, 
-                        anecdotes, and proverbs.<sup>2</sup>
+                    year: '15 апреля 1878 г.',
+                    slides: {img: '/poetImages/ayni/soktare.png', text: `Дом, где прошло детство Садриддина Айни в Соктаре<sup>4</sup>`},
+                    desc: `Садриддин Саидмуродзода родился в семье <span style='font-weight: bold;'>Саидмуродходжи</span>
+                        и <span style='font-weight: bold;'>Зеварой</span> в селе Соктаре Гиждуванского района Бухарского эмирата.<sup>1</sup> 
+                        Выросший в семье фермеров, он провел большую часть своих ранних лет среди фермеров и местных ремесленников. 
+                        Именно в этом сплоченном сообществе он знакомится с миром народной литературы, включающей сказки, 
+                        легенды, песни, анекдоты и пословицы.<sup>2</sup>
                         <div class='space'></div>
-                        During his school years, as documented in his book "The Old School," 
-                        he didn't find much value in formal education. However, he had his initial exposure to the 
-                        poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
-                        His father despite being a humble peasant, had a deep love for education and literature, 
-                        which he passed down to his children.<sup>2,3</sup>`
+                        В школьные годы, как описано в его книге «Старая школа», он не получил особой пользы от формального образования.
+                        Однако он познакомился с поэзией таких выдающихся мастеров, как Саади, Хафиз, Саиб, Бедиль и других.
+                        <div class='space'></div>
+                        Его отец, несмотря на то, что был скромным крестьянином, имел глубокую любовь к образованию и 
+                        литературе, которую он передал своим детям.<sup>2,3</sup>`
                 },
-                tj: ['15 апрели 1878']
+                tj: {
+                        year: '15 апрели 1878',
+                        slides: {img: '', text: ''},
+                        desc: `Садриддин Саидмуродзода дар хонаводаи <span style='font-weight: bold;'>Саидмуродхоҷа</span>
+                        ва <span style='font-weight: bold;'>Зеварой</span> дар деҳаи Соктари ноҳияи Ғиҷдувони Аморати 
+                        Бухоро ба дунё омадааст.<sup>1</sup>
+                        Чун аз оилаи кишоварз буд, бачагии худро дар байни деҳқонон ва ҳунармандони маҳаллӣ гузаронидааст. 
+                        Маҳз дар ҳамин ҷомеа бо олами адабиёти халқӣ, аз ҷумла афсонаҳо, ривоятҳо, сурудҳо,
+                        шухиҳо ва зарбулмасалҳо аз наздик шинос мешавад.<sup>2</sup>
+                        <div class='space'></div>
+                        Дар солҳои мактабхонӣ, чунон ки дар китоби худ «Мактаби кӯҳна» баён мекунад, аз таълими 
+                        расмӣ фоидаи зиёде намебинад. Аммо бори аввал бо ашъори устодони барҷаста, аз қабили Саъдӣ, 
+                        Ҳофиз, Соиб, Бедил ва дигарон ошно мешавад.
+                        <div class='space'></div>
+                        Падараш, бо вуҷуди деҳқони оддӣ буданаш, ба илму дониш меҳри беандоза дошт ва ин муҳаббатро 
+                        ба фарзандонаш низ мерос гузоштааст.<sup>2,3</sup>`
+                }
             },
             two: {
                 us: [
@@ -139,11 +152,11 @@ module.exports.poets = [
                     {
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.png',
-                        desc: `During his time at the madrasa, the connected with people who shared a deep passion for 
+                        desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
                             poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his initial 
                             poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli."
                             <div class='space'></div>
-                            However, in 1896 he adopted the pseudonym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
+                            However, in 1896, he adopted the pseudonym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
                     },
                     {
                         year: '1897-1898',
@@ -164,7 +177,7 @@ module.exports.poets = [
                     {
                         year: '1909',
                         image: '/poetImages/ayni/slides/ayni6.png',
-                        desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Quran" - rules for
+                        desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
                             proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
                             and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
                     },
@@ -173,6 +186,63 @@ module.exports.poets = [
                         image: '/poetImages/ayni/slides/ayni7.png',
                         desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
                             a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
+                    }
+                ],
+                tj: [
+                    {
+                        year: '1889',
+                        image: '/poetImages/ayni/slides/ayni1.png',
+                        desc: `Тамоми Бухоро ва атрофи онро вабое фаро мегирад, ки Айниро дар байни чил рӯз ҳам 
+                            аз падар ва ҳам аз модараш ҷудо мекунад. Ӯ дар синни 12-солагӣ, нигоҳубини ду бародари хурдияшро
+                            ба дӯш мегирад. Бо вуҷуди ин душвориҳо, орзуи илму шеър Айниро ба Бухоро меорад.<sup>2</sup>`
+                    },
+                    {
+                        year: '1890',
+                        image: '/poetImages/ayni/slides/ayni2.png',
+                        desc: `Ӯ таҳсилашро дар мадрасаи Мири Араб оғоз мекунад ва дар он ҷо бо бародараш як ҳуҷраеро иҷора мегирад. 
+                        Вале ба мадрасаҳои Бухоро дохил шудан ва дониш гирифтан барои Айнӣ барин камбағалони илмҷӯ хеле мушкил буд.
+                        Барои ёфтани пули ҳуҷра, ки бояд бепул мешуданд<sup>5</sup> ва рӯзгораш, маҷбур шуд гоҳ ҳамчун фарроши мадраса, 
+                        гоҳ ошпаз, гоҳ ҷомашӯй ва ё мардикор шуда кор кунад.<sup>2</sup>`
+                    },
+                    {
+                        year: '1896',
+                        image: '/poetImages/ayni/slides/ayni3.png',
+                        desc: `Дар вақти мадрасахониаш бо одамоне, ки ба шеъру адаб ишқ доштанду шоирӣ мекарданд ба сабаби наздикиаш
+                        бо Шарифҷон-махдум шинос ва ҳолдон мешавад. Вай шеърҳои аввалини худро бо тахаллусҳои "Мӯҳтоҷӣ", "Ҷунунӣ" ва "Сифлӣ"
+                        эъҷод мекунад.
+                        <div class='space'></div>
+                        Аммо соли 1896 тахаллуси «Айнӣ»-ро гирифта бо ин ном шӯҳрати адабӣ пайдо кард.<sup>2</sup>`,
+                    },
+                    {
+                        year: '1897-1898',
+                        image: '/poetImages/ayni/slides/ayni4.png',
+                        desc: `Қозӣ Мирзо Муҳаммадшарифи Садр (Садри Зиё) таҳрири пеш аз чоп шудани «Наводир ул-вақоеъ»-и 
+                        Аҳмади Донишро ба Айнӣ ва шарикдарсаш Абдувоҳиди Мунзим месупорад.
+                        <div class='space'></div>
+                        Дар ин китоб, Дониш дарсҳои бефоидаи мадрасаҳо ва рафтори худхоҳонаи ғайришариатии уламои Бухороро 
+                        ошкоро танқид кардааст. Пас аз хондани он, назари Айнӣ ба атрофиёнаш дигар мешавад ва 
+                        оиди ислоҳи ин беадолатиҳо дар аморати Бухоро андеша карданро оғоз мекунад.<sup>5</sup>`,
+                    },
+                    {
+                        year: '1908',
+                        image: '/poetImages/ayni/slides/ayni5.png',
+                        desc: `Якҷоя бо чор дӯсти наздикаш аввалин мактаби усули нав (ҷадида)-ро дар Бухоро мекушояд.
+                            Мактаб дар ҳавлии Мирзо Абдулвоҳид дар кӯчаи Салоҳхона ҷойгир мешавад ва бо забони форсӣ, 
+                            ба мардуми маҳаллии Бухороӣ дарсдиҳиро сар мекунад.<sup>5</sup>`,
+                    },
+                    {
+                        year: '1909',
+                        image: '/poetImages/ayni/slides/ayni6.png',
+                        desc: `Ӯ асарҳои аввалини худ, «ترتیل القرآن» («Тартил-ул-Қуръон» - қоидаҳои
+                            қироати дурусти Қуръон), "تهذیب الصبیان" ("Таҳзиб-ус-сибён" - "Тарбияи писарон/фарзандон")
+                            ва «ضروريات دینیه» («Зарурияти диния» - «Асосҳои динӣ»)-ро ҳамчун як қисми барномаи 
+                            таълимии мактаби нав менависад.<sup>5</sup>`
+                    },
+                    {
+                        year: '1910',
+                        image: '/poetImages/ayni/slides/ayni7.png',
+                        desc: `Адиб яке аз аввалин аъзоёни "Ҷавонбухориён - "جوان‌بخاراییان"/"Yosh buxoroliklar",
+                            ки ҷамъияти махфие, ки бахше аз ҷунбиши ҷадидӣ буд, ҷонибдори ислоҳот ва навсозии Осиёи Марказӣ буд.<sup>5</sup>`,
                     }
                 ],
                 },

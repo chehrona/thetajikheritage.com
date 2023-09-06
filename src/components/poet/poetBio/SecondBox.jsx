@@ -51,10 +51,10 @@ export default function SecondBox({ poet }) {
                 <LineWrapper>
                     <SlideImg
                         src={infoArr[1]?.image}
-                        show={true}
+                        show={1}
                     />
                     <Info>
-                        <Year align={true}>{infoArr[1]?.year}</Year>
+                        <Year align={1}>{infoArr[1]?.year}</Year>
                         <Text dangerouslySetInnerHTML={{__html: infoArr[1]?.desc}} />
                     </Info>
                 </LineWrapper>
@@ -71,9 +71,9 @@ export default function SecondBox({ poet }) {
                     </Arrow>
                 </StyledIconButton>
             </NavBox>
-            <NavBox bottom={true}>
+            <NavBox bottom={1}>
                 <StyledIconButton
-                    bottom={true}
+                    bottom={1}
                     onClick={moveDown}
                     disabled={infoArr[1] === poet?.two[lang][infoArr?.length - 1]}
                 >
@@ -81,7 +81,7 @@ export default function SecondBox({ poet }) {
                         <ArrowForwardIos style={{marginLeft: '1px'}} />
                     </Arrow>
                 </StyledIconButton>
-                <Line bottom={true} />
+                <Line bottom={1} />
             </NavBox>
         </BoxTwo>
     )

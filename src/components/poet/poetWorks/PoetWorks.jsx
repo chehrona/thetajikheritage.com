@@ -14,6 +14,7 @@ export default function PoetWorks({ poet }) {
         let shelves = [];
         for (let i = 0; i < n; i++) {
             shelves.push(<BookshelfDesign
+                            key={i}
                             overlay={overlay}
                             setOverlay={setOverlay}
                             shelfNum={i * 4}
