@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../components/common/deviceSizes/size";
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
@@ -8,7 +9,7 @@ export const PageContainer = styled.div`
     background-color: #fcf6e9;
     border-radius: 4rem;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         margin: 1.2rem 2rem 1.2rem 1.2em;
     }
 `;
@@ -20,7 +21,7 @@ export const RefContainer = styled.div`
     padding: 3rem;
     padding-top: 0rem;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         padding: 2rem;
         padding-top: 0rem;
     }

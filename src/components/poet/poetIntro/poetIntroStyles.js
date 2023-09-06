@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { device } from "../../common/deviceSizes/size";
 
 const zoomIn = keyframes`
     from {
@@ -45,6 +46,10 @@ export const MainContainer = styled.div`
     border-radius: 4rem 4rem 0rem 0rem;
     overflow: hidden;
 
+    @media (${device.tablet}) { 
+        border-radius: 2.5rem 2.5rem 0rem 0rem;
+    }
+
     &:after {
         content: "";
         padding: 3rem;  
@@ -69,6 +74,12 @@ export const FadedImage = styled.img`
     animation: ${zoomIn} 0.5s ease-out;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+
+    @media (${device.tablet}) { 
+        width: 32rem;
+        min-height: 28rem;
+        padding-bottom: 1rem;
+    }
 `;
 
 export const SegmentContainer = styled.div`
@@ -78,6 +89,11 @@ export const SegmentContainer = styled.div`
     width: 100%;
     z-index: 10;
     position: relative;
+
+    @media (${device.tablet}) { 
+        margin: 2rem;
+        font-size: 1.3rem;
+    }
 `;
 
 export const SectionTitle = styled.a`
@@ -86,6 +102,10 @@ export const SectionTitle = styled.a`
     text-decoration: none;
     display: block;
     overflow: hidden;
+
+    @media (${device.tablet}) { 
+        line-height: 2.5rem;
+    }
 `;
 
 export const TitleSpan = styled.span`
@@ -116,6 +136,10 @@ export const PoetName = styled.div`
     animation: ${slideOut} 1s ease-in-out forwards;
     animation-delay: ${({ color }) => color ? '0s' : '0.1s'};
 
+    @media (${device.tablet}) { 
+        font-size: 5.5rem;
+        text-shadow: 0rem 0rem 5rem black;
+    }
 `;
 
 export const PoetNameContainer = styled.div`
@@ -135,10 +159,20 @@ export const YearsContainer = styled.div`
     opacity: 0.25;
     font-weight: bold;
     z-index: 10;
+
+    @media (${device.tablet}) { 
+        font-size: 8rem;
+        top: 2rem;
+        left: 6rem;
+    }
 `;
 
 export const Year = styled.div`
     margin-left: 9rem;
+
+    @media (${device.tablet}) { 
+        margin-left: 4rem;
+    }
 `;
 
 export const NumSpan = styled.span`

@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
     min-height: fit-content;
     padding-bottom: 3rem;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
     
     }
 `;
@@ -22,7 +22,7 @@ export const BoxOne = styled.div`
     gap: 3rem;
     flex-wrap: wrap;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         padding: 0rem 2rem 0rem 2rem;
         gap: 0rem;
     }
@@ -34,7 +34,7 @@ export const Year = styled.div`
     margin-bottom: 1rem;
     text-align: ${({ align }) => align && 'center'};
 
-    @media (max-width: 768px) {
+    @media (${device.tablet}) {
         font-size: 2.5rem;
         margin-bottom: 0.5rem;
     }
@@ -44,7 +44,7 @@ export const Desc = styled.div`
     font-size: 1.1rem;
     color: #333333;
 
-    @media (max-width: 768px) {
+    @media (${device.tablet}) {
         font-size: 1rem;
     }
 `;
@@ -60,7 +60,7 @@ export const BoxTwo = styled.div`
     position: relative;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         margin-top: 3rem;
         margin-bottom: 5rem;
     }
@@ -74,7 +74,7 @@ export const InnerOverlay = styled.div`
     overflow: hidden;
     filter: grayscale(1);
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         height: ${({ four }) => four ? '20rem' : '35rem'};
     }   
 `;
@@ -94,7 +94,7 @@ export const Slides = styled.div`
     top: -4rem;
     z-index: 1;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         top: -0.1%;
     }
 `;
@@ -106,7 +106,7 @@ export const SlideImg = styled.img`
     box-shadow: ${({ show }) => 
         show ? '-0.3rem 0rem 0.3rem -0.2rem #dedbdb, 0.3rem 0rem 0.3rem -0.2rem #dedbdb' : '0rem 0rem 1rem 0.2rem #504221e6'};
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         width: 14rem;
     }
 `;
@@ -119,7 +119,7 @@ export const NavBox = styled.div`
     right: 0rem;
     z-index: 10;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         height: 8.5rem;
     }
 `;
@@ -134,7 +134,7 @@ export const Line = styled.div`
     bottom: ${({ bottom }) => bottom && '0rem'};
     top: ${({ top }) => top && '0rem'};
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         height: 5.5rem;
     }
 `;
@@ -147,7 +147,7 @@ export const StyledIconButton = styled(IconButton)`
     transform: translateX(-50%) ${({ bottom }) => bottom ? 'rotate(90deg)' : 'rotate(-90deg)'};
     ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 6.5rem'};
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 5rem'};
     }
 `;
@@ -175,7 +175,7 @@ export const LineWrapper = styled.div`
     width: 100%;
     transition: ease 1000ms;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         height: 15rem;
     }
 `;
@@ -184,7 +184,7 @@ export const Info = styled.div`
     padding-right: 7%;
     padding-left: 7%;
 
-    @media (max-width: 768px) {
+    @media (${device.tablet}) {
         padding-right: 2rem;
         padding-left: 2rem;
     }
@@ -195,9 +195,9 @@ export const Text = styled.div`
     font-size: 1.1rem;
     line-height: 1.8rem;
 
-    @media (max-width: 768px) {
+    @media (${device.tablet}) {
         font-size: 1rem;
-        line-height: 1.2rem;
+        line-height: 1.3rem;
     }
 `;
 
@@ -208,16 +208,18 @@ export const BoxThree = styled.div`
     min-height: 30rem;
 `;
 
+export const QuoteContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
 export const QuoteWrapper = styled.div`
     border: 0.125rem solid #bd9d52;
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
 
-    @media (max-width: 768px) {
+    @media (${device.tablet}) {
         width: 4rem;
         height: 4rem;
     }
@@ -239,14 +241,12 @@ export const Quote = styled.div`
     font-family: "EB Garamond", serif;
     font-style: bold;
     text-align: center;
-    position: absolute;
-    top: 1rem;
-    margin: 5rem;
+    margin: 2rem 5rem;
 
-    @media (max-width: 768px) {
+    @media (${device.tablet}) {
         font-size: 1.8rem;
         top: 1rem;
-        margin: 3.5rem;
+        margin: 1rem 3.5rem;
     }
 `;
 
@@ -256,15 +256,15 @@ export const DescWrapper = styled.div`
     max-height: 30rem;
     overflow: hidden;
     color: #333333;
-    padding: 5rem;
+    margin: 0rem 5rem;
     position: absolute;
     top: 9rem;
     font-size: 1.1rem;
     font-family: 'IBM Plex Serif', serif;
 
-    @media (max-width: 768px) {
+    @media (${device.tablet}) {
         column-count: 1;
-        padding: 3.5rem 2rem 2rem 2rem;
+        margin: 4rem 2rem 4rem 2rem;
         font-size: 1rem;
         max-height: 100%;
     }
@@ -285,7 +285,7 @@ export const YearBig = styled.div`
     text-align: ${({ align }) => align && 'center'};
     color: ${({ color }) => color && '#bd9d52'};
 
-    @media (max-width: 768px) {
+    @media (${device.tablet}) {
         font-size: 3.5rem;
         line-height: 1.5rem;
     }
@@ -349,7 +349,7 @@ export const LeftContainer = styled.div`
     position: relative;
     height: 100%;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         width: 100%;
     }
 `;
@@ -363,7 +363,7 @@ export const RightContainer = styled.div`
     transition: all 0.5s;
     position: relative;
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         width: 100%;
     }
 `;
@@ -435,7 +435,7 @@ export const ImgInfo = styled.div`
     color: ${({ color }) => color && color};
     bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
 
-    @media (max-width: 768px) { 
+    @media (${device.tablet}) { 
         bottom: ${({ up }) => up ? '2rem' : '0.5rem'};
     }
 `;
