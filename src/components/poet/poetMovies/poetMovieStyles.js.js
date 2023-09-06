@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { device } from "../../common/deviceSizes/size";
 import { IconButton } from "@mui/material";
 import { ChevronRight } from "@mui/icons-material";
 
@@ -34,10 +35,7 @@ export const MainContainer = styled.div`
     background-image: url(${'/noise.png'});
     color: white;
     position: relative;
-    display: flex;
-    justify-content: space-between;
     padding-top: 3rem;
-    height: 27.5rem;
 
     &:before {
         content: "";
@@ -53,6 +51,17 @@ export const MainContainer = styled.div`
     }
 `;
 
+export const MovieWrapper = styled.div`
+    padding: 0rem 3rem 0rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media (${device.tablet}) { 
+        padding: 0rem 2rem 0rem 2rem;
+    }
+`;
+
 export const MovieCard = styled.div`
     margin-bottom: 7rem;
     height: 21.15rem;
@@ -65,12 +74,8 @@ export const MovieCard = styled.div`
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
-    &&&:first-child {
-        margin-left: 3rem;
-    }
-
-    &&&:last-child {
-        margin-right: 3rem;
+    @media (${device.tablet}) { 
+        margin-bottom: 3rem;
     }
 `;
 

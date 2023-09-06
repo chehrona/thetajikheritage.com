@@ -14,7 +14,7 @@ import PoetWorks from "../../components/poet/poetWorks/PoetWorks";
 import PoetAwards from "../../components/poet/poetAwards/PoetAwards";
 import PoetMovies from "../../components/poet/poetMovies/PoetMovies";
 import Politics from "../../components/poet/politics/Politics";
-import Sources from "../../components/common/recipeSources/Sources";
+import Sources from "../../components/common/sources/Sources";
 
 export default function PoetPage() {
     const { id } = useParams(),

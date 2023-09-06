@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useSetLang } from "../../../App";
-import { MainContainer, MovieCard, Image, StyledIconButton, StyledExpand } from "./poetMovieStyles.js";
-
 import MovieDialog from "../movieDialog/MovieDialog";
+
+import { MainContainer, MovieCard, Image, StyledIconButton, StyledExpand, MovieWrapper } from "./poetMovieStyles.js";
 
 export default function PoetMovies({ poet }) {
     const { lang } = useSetLang();
@@ -16,16 +16,18 @@ export default function PoetMovies({ poet }) {
 
     return (
         <MainContainer id="Films">
-            {poet[lang].map((movie, i) => {
-                return (
-                    <MovieCard key={i} delay={`${0.1*i}s`}>
-                        <Image src={movie.img} />
-                        <StyledIconButton onClick={(e) => handleMovieDialog(e, movie)}>
-                            <StyledExpand />
-                        </StyledIconButton>
-                    </MovieCard>
-                )})
-            }
+            <MovieWrapper>
+                {poet[lang].map((movie, i) => {
+                    return (
+                        <MovieCard key={i} delay={`${0.1*i}s`}>
+                            <Image src={movie.img} />
+                            <StyledIconButton onClick={(e) => handleMovieDialog(e, movie)}>
+                                <StyledExpand />
+                            </StyledIconButton>
+                        </MovieCard>
+                    )})
+                }
+            </MovieWrapper>
             <MovieDialog
                 movieInfo={movieInfo}
                 showMovieInfo={showMovieInfo}

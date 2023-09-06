@@ -7,7 +7,7 @@ import { recipes } from "../../data/recipeData";
 
 import RecipeInfo from "../../components/food/recipeInfo/RecipeInfo";
 import RecipeIngredients from "../../components/food/recipeIngredients/RecipeIngredients";
-import Sources from "../../components/common/recipeSources/Sources";
+import Sources from "../../components/common/sources/Sources";
 import RecipeTabs from "../../components/food/recipeTabs/RecipeTabs";
 import Allergy from "../../components/food/allergy/Allergy";
 import Directions from "../../components/food/directions/Directions";

@@ -205,7 +205,11 @@ export const Text = styled.div`
 export const BoxThree = styled.div`
     width: 100%;
     position: relative;
-    min-height: 30rem;
+    padding: 0rem 5rem 0rem 5rem;
+
+    @media (${device.tablet}) {
+        padding: 0rem 2rem 0rem 2rem;
+    }
 `;
 
 export const QuoteContainer = styled.div`
@@ -241,12 +245,12 @@ export const Quote = styled.div`
     font-family: "EB Garamond", serif;
     font-style: bold;
     text-align: center;
-    margin: 2rem 5rem;
+    margin: 2rem 0rem;
 
     @media (${device.tablet}) {
         font-size: 1.8rem;
         top: 1rem;
-        margin: 1rem 3.5rem;
+        margin: 1rem 0rem;
     }
 `;
 
@@ -256,15 +260,10 @@ export const DescWrapper = styled.div`
     max-height: 30rem;
     overflow: hidden;
     color: #333333;
-    margin: 0rem 5rem;
-    position: absolute;
-    top: 9rem;
-    font-size: 1.1rem;
     font-family: 'IBM Plex Serif', serif;
 
     @media (${device.tablet}) {
         column-count: 1;
-        margin: 4rem 2rem 4rem 2rem;
         font-size: 1rem;
         max-height: 100%;
     }

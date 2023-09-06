@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { device } from "../../common/deviceSizes/size";
 import { Info } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 
@@ -22,9 +23,6 @@ export const MainContainer = styled.div`
     background-image: url(${'/noise.png'});
     color: white;
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem 3rem 5rem 0rem;
 
     &:before {
         content: "";
@@ -37,6 +35,17 @@ export const MainContainer = styled.div`
         position: absolute;
         top: -5.99rem;
         box-sizing: border-box;
+    }
+`;
+
+export const AwardWrapper = styled.div`
+    padding: 0rem 2rem 0rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media (${device.tablet}) { 
+        padding: 2rem 2rem 0rem 2rem;
     }
 `;
 
@@ -53,10 +62,6 @@ export const AwardCard = styled.div`
     opacity: 0;
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
-
-    &&&:first-child {
-        margin-left: 3rem;
-    }
 `;
 
 export const InnerContainer = styled.div`

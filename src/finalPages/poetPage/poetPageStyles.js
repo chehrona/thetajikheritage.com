@@ -23,6 +23,5 @@ export const RefContainer = styled.div`
 
     @media (${device.tablet}) { 
         padding: 2rem;
-        padding-top: 0rem;
     }
 `;
