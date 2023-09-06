@@ -8,10 +8,6 @@ export const PageContainer = styled.div`
     margin: 2rem 4.5rem 2rem 4.5rem;
     background-color: #fcf6e9;
     border-radius: 4rem;
-
-    @media (${device.tablet}) { 
-        margin: 1.2rem 2rem 1.2rem 1.2em;
-    }
 `;
 
 export const RefContainer = styled.div`
@@ -20,8 +16,4 @@ export const RefContainer = styled.div`
     background-image: url(${'/noise.png'});
     padding: 3rem;
     padding-top: 0rem;
-
-    @media (${device.tablet}) { 
-        padding: 2rem;
-    }
 `;

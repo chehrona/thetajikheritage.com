@@ -1,15 +1,10 @@
 import styled from "styled-components";
-import { device } from "../../common/deviceSizes/size";
 import { IconButton } from '@mui/material';
 
 export const MainContainer = styled.div`
     background-image: url(${'/noise.png'});
     min-height: fit-content;
     padding-bottom: 3rem;
-
-    @media (${device.tablet}) { 
-    
-    }
 `;
 
 // Box one ****************************
@@ -20,12 +15,6 @@ export const BoxOne = styled.div`
     padding: 0rem 4.3rem 1rem 5rem;
     color: #0F0A00;
     gap: 3rem;
-    flex-wrap: wrap;
-
-    @media (${device.tablet}) { 
-        padding: 0rem 2rem 0rem 2rem;
-        gap: 0rem;
-    }
 `;
 
 export const Year = styled.div`
@@ -33,20 +22,11 @@ export const Year = styled.div`
     font-family: "EB Garamond", serif;
     margin-bottom: 1rem;
     text-align: ${({ align }) => align && 'center'};
-
-    @media (${device.tablet}) {
-        font-size: 2.5rem;
-        margin-bottom: 0.5rem;
-    }
 `;
 
 export const Desc = styled.div`
     font-size: 1.1rem;
     color: #333333;
-
-    @media (${device.tablet}) {
-        font-size: 1rem;
-    }
 `;
 
 // Box two ****************************
@@ -59,11 +39,6 @@ export const BoxTwo = styled.div`
     align-items: center;
     position: relative;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
-
-    @media (${device.tablet}) { 
-        margin-top: 3rem;
-        margin-bottom: 5rem;
-    }
 `;
 
 export const InnerOverlay = styled.div`
@@ -73,10 +48,6 @@ export const InnerOverlay = styled.div`
     width: 100%;
     overflow: hidden;
     filter: grayscale(1);
-
-    @media (${device.tablet}) { 
-        height: ${({ four }) => four ? '20rem' : '35rem'};
-    }   
 `;
 
 export const Backdrop = styled.div`
@@ -90,13 +61,9 @@ export const Backdrop = styled.div`
 
 export const Slides = styled.div`
     position: absolute;
-    left: 5%;
+    left: 10%;
     top: -4rem;
     z-index: 1;
-
-    @media (${device.tablet}) { 
-        top: -0.1%;
-    }
 `;
 
 export const SlideImg = styled.img`
@@ -105,10 +72,6 @@ export const SlideImg = styled.img`
     filter: grayscale(1) ${({ show }) => show ? 'brightness(100%)': 'brightness(60%)'};
     box-shadow: ${({ show }) => 
         show ? '-0.3rem 0rem 0.3rem -0.2rem #dedbdb, 0.3rem 0rem 0.3rem -0.2rem #dedbdb' : '0rem 0rem 1rem 0.2rem #504221e6'};
-
-    @media (${device.tablet}) { 
-        width: 14rem;
-    }
 `;
 
 export const NavBox = styled.div`
@@ -118,10 +81,6 @@ export const NavBox = styled.div`
     ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 4rem'};
     right: 0rem;
     z-index: 10;
-
-    @media (${device.tablet}) { 
-        height: 8.5rem;
-    }
 `;
 
 export const Line = styled.div`
@@ -133,10 +92,6 @@ export const Line = styled.div`
     transform: translateX(-50%);
     bottom: ${({ bottom }) => bottom && '0rem'};
     top: ${({ top }) => top && '0rem'};
-
-    @media (${device.tablet}) { 
-        height: 5.5rem;
-    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -146,10 +101,6 @@ export const StyledIconButton = styled(IconButton)`
     left: 50%;
     transform: translateX(-50%) ${({ bottom }) => bottom ? 'rotate(90deg)' : 'rotate(-90deg)'};
     ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 6.5rem'};
-
-    @media (${device.tablet}) { 
-        ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 5rem'};
-    }
 `;
 
 export const Arrow = styled.div`
@@ -174,31 +125,17 @@ export const LineWrapper = styled.div`
     height: 20rem;
     width: 100%;
     transition: ease 1000ms;
-
-    @media (${device.tablet}) { 
-        height: 15rem;
-    }
 `;
 
 export const Info = styled.div`
     padding-right: 7%;
     padding-left: 7%;
-
-    @media (${device.tablet}) {
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
 `;
 
 export const Text = styled.div`
     text-align: justify;
     font-size: 1.1rem;
     line-height: 1.8rem;
-
-    @media (${device.tablet}) {
-        font-size: 1rem;
-        line-height: 1.3rem;
-    }
 `;
 
 // Box three ****************************
@@ -222,11 +159,9 @@ export const QuoteWrapper = styled.div`
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-
-    @media (${device.tablet}) {
-        width: 4rem;
-        height: 4rem;
-    }
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 `;
 
 export const QuoteSymbol = styled.div`
@@ -245,13 +180,9 @@ export const Quote = styled.div`
     font-family: "EB Garamond", serif;
     font-style: bold;
     text-align: center;
-    margin: 2rem 0rem;
-
-    @media (${device.tablet}) {
-        font-size: 1.8rem;
-        top: 1rem;
-        margin: 1rem 0rem;
-    }
+    position: absolute;
+    top: 1rem;
+    margin: 5rem;
 `;
 
 export const DescWrapper = styled.div`
@@ -261,12 +192,6 @@ export const DescWrapper = styled.div`
     overflow: hidden;
     color: #333333;
     font-family: 'IBM Plex Serif', serif;
-
-    @media (${device.tablet}) {
-        column-count: 1;
-        font-size: 1rem;
-        max-height: 100%;
-    }
 `;
 
 // Box four *****************************
@@ -283,11 +208,6 @@ export const YearBig = styled.div`
     margin-bottom: 1rem;
     text-align: ${({ align }) => align && 'center'};
     color: ${({ color }) => color && '#bd9d52'};
-
-    @media (${device.tablet}) {
-        font-size: 3.5rem;
-        line-height: 1.5rem;
-    }
 `;
 
 export const TextWrapper = styled.div`
@@ -347,10 +267,6 @@ export const LeftContainer = styled.div`
     width: 50%;
     position: relative;
     height: 100%;
-
-    @media (${device.tablet}) { 
-        width: 100%;
-    }
 `;
 
 export const RightContainer = styled.div`
@@ -361,10 +277,6 @@ export const RightContainer = styled.div`
     background-position: center center;
     transition: all 0.5s;
     position: relative;
-
-    @media (${device.tablet}) { 
-        width: 100%;
-    }
 `;
 
 export const Overlay = styled.div`
@@ -433,8 +345,4 @@ export const ImgInfo = styled.div`
     padding-left: 0.5rem;    
     color: ${({ color }) => color && color};
     bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
-
-    @media (${device.tablet}) { 
-        bottom: ${({ up }) => up ? '2rem' : '0.5rem'};
-    }
 `;
