@@ -149,11 +149,6 @@ export const BoxThree = styled.div`
     }
 `;
 
-export const QuoteContainer = styled.div`
-    display: flex;
-    justify-content: center;
-`;
-
 export const QuoteWrapper = styled.div`
     border: 0.125rem solid #bd9d52;
     border-radius: 50%;

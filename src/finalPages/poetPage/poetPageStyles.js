@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { device } from "../../components/common/deviceSizes/size";
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
