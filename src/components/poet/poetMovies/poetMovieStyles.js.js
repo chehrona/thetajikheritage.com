@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import { device } from "../../common/deviceSizes/size";
 import { IconButton } from "@mui/material";
 import { ChevronRight } from "@mui/icons-material";
 
@@ -56,10 +55,6 @@ export const MovieWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    @media (${device.tablet}) { 
-        padding: 0rem 2rem 0rem 2rem;
-    }
 `;
 
 export const MovieCard = styled.div`
@@ -73,10 +68,6 @@ export const MovieCard = styled.div`
     opacity: 0;
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
-
-    @media (${device.tablet}) { 
-        margin-bottom: 3rem;
-    }
 `;
 
 export const Image = styled.img`

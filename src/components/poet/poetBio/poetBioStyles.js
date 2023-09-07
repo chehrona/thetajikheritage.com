@@ -143,10 +143,6 @@ export const BoxThree = styled.div`
     width: 100%;
     position: relative;
     padding: 0rem 5rem 0rem 5rem;
-
-    @media (${device.tablet}) {
-        padding: 0rem 2rem 0rem 2rem;
-    }
 `;
 
 export const QuoteWrapper = styled.div`
@@ -344,8 +340,4 @@ export const ImgInfo = styled.div`
     padding-left: 0.5rem;    
     color: ${({ color }) => color && color};
     bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
-
-    @media (max-width: 768px) { 
-        bottom: ${({ up }) => up ? '0rem' : '0.5rem'};
-    }
 `;

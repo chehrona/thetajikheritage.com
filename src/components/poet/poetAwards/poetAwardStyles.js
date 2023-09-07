@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import { device } from "../../common/deviceSizes/size";
 import { Info } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 
@@ -43,10 +42,6 @@ export const AwardWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    @media (${device.tablet}) { 
-        padding: 2rem 2rem 0rem 2rem;
-    }
 `;
 
 export const AwardCard = styled.div`
