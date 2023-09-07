@@ -260,16 +260,14 @@ export const LeftContainer = styled.div`
 export const RightContainer = styled.div`
     width: 50%;
     height: 30rem;
-    background-image: ${({ src }) => `url(${ src })`};
-    background-size: cover;
+    background: #333333
+        url("/loader.svg") center
+        no-repeat;
+    background: ${({ src }) => `url(${ src })`};
+    background-size: ${({ src }) => src && 'cover'};
     background-position: center center;
     transition: all 0.5s;
     position: relative;
-
-    @media (max-width: 768px) { 
-        width: 100%;
-        height: 22rem;
-    }
 `;
 
 export const Overlay = styled.div`
