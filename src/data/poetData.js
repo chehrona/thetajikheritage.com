@@ -355,7 +355,7 @@ module.exports.poets = [
                     slides: [
                         {
                             img: '/poetImages/ayni/family/ayni1.png',
-                            text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) and Kamol Ayni. Circa 1949 <sup>7</sup>`,
+                            text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) and Kamol Ayni. From 1949 <sup>7</sup>`,
                             color: '#fcf6e9'
                         },
                         {
@@ -389,34 +389,34 @@ module.exports.poets = [
                     slides: [
                         {
                             img: '/poetImages/ayni/family/ayni1.png',
-                            text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) and Kamol Ayni. Circa 1949 <sup>7</sup>`,
+                            text: `Слева направо сидят: Лютфия, Садриддин, Холида; стоят: Хамид Мансуров (племянник Айни) и Камол Айни. С 1949 г. <sup>7</sup>`,
                             color: '#fcf6e9'
                         },
                         {
                             img: '/poetImages/ayni/family/ayni2.png',
-                            text: `Ayni with his wife - Салохат <sup>9<sup>`,
+                            text: `Айни с женой - Салохат <sup>9<sup>`,
                             color: '#0F0A00'
                         },
                         {
                             img: '/poetImages/ayni/family/ayni3.png',
-                            text: `Ayni with his son - Kamol <sup>4<sup>`,
+                            text: `Айни с сыном Камолом <sup>4<sup>`,
                             color: '#fcf6e9'
                         }
                     ],
-                    desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
-                        and they moved into her parents' home in Samarkand. 
-                        Despite Ayni's dire financial situation,
-                        Salohat remained undeterred in her commitment to him. She dedicated herself to creating an 
-                        environment where his literary genius could flourish, a dedication that persisted until their final days.<sup>1</sup>
+                    desc: `В октябре 1920 года Айни женится на <span style='font-weight:bold;'>Салохате</span>,
+                        и они переежают в дом ее родителей в Самарканде.
+                        Несмотря на финансовое положение Айни,
+                        Салохат оставалась непоколебимой в своей преданности ему. Она посвятила себя созданию
+                        среды, где мог процветать его литературный гений, и эта преданность длилась до их последних совместных дней<sup>1</sup>.
                         <div class='space'></div>
-                        They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
-                        <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
-                        <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
-                        Remarkably, each of their children followed in Ayni's footsteps, pursuing academic careers in orientalism, 
-                        philology, and Central Asian art history, respectively.<sup>7</sup>
+                        У них было трое детей: <span style='font-weight:bold;'>Камол</span> (г.р. 1928),
+                        <span style='font-weight:bold;'>Холида</span> (г.р. ?) и
+                        <span style='font-weight:bold;'>Лютфия</span> (г.р. 1934).
+                        Дети пошли по стопам Айни, сделав академические карьеры в сферах востоковедения,
+                        филологии и истории искусства Центральной Азии, соответственно<sup>7</sup>
                         <div class='space'></div>
-                        Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
-                        and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>8</sup>`
+                        На сегодняшний день внук Айни, <span style='font-weight:bold;'>Ирадж Айни</span>, 
+                        проживает в Душанбе со своей семьей, и продолжает наследие своего деда через Фонд Садриддина Айни<sup>8</sup>`
                 },
                 tj: {
                     year: '1920',
@@ -437,20 +437,23 @@ module.exports.poets = [
                             color: '#fcf6e9'
                         }
                     ],
-                    desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
-                        and they moved into her parents' home in Samarkand. 
-                        Despite Ayni's dire financial situation,
-                        Salohat remained undeterred in her commitment to him. She dedicated herself to creating an 
-                        environment where his literary genius could flourish, a dedication that persisted until their final days.<sup>1</sup>
+                    desc: `Моҳи октябри соли 1920 Айнӣ ба <span style='font-weight: bold;'>Салоҳат</span> 
+                        хонадор мешавад 
+                        ва онҳо ба хонаи модари Салоҳат дар Самарқанд мекӯчанд.
+                        Салоҳат ба камбағалии Айнӣ нигоҳ накарда аз хостгории ӯ 
+                        рӯй намегардонад, чунки мисли модараш ба одамони донишманд эҳтироми
+                        бепоён дошта буд. Аз рӯзҳои аввали зиндагиашон барои Айнӣ муҳите сохт, 
+                        ки дар он истеъдоди адабии ӯ тавонист ривоҷ ёбад ва то рӯзҳои охиринашон фидокори ин буд.<sup>1</sup>
                         <div class='space'></div>
-                        They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
-                        <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
-                        <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
-                        Remarkably, each of their children followed in Ayni's footsteps, pursuing academic careers in orientalism, 
-                        philology, and Central Asian art history, respectively.<sup>7</sup>
+                        Онҳо соҳиби се фарзанд буданд: <span style='font-weight: bold;'>Камол</span> (тав. 1928),
+                        <span style='font-weight: bold;'>Холида</span> (тав. ?), ва
+                        <span style='font-weight: bold;'>Лутфия</span> (тав. 1934).
+                        Ҳар як фарзандашон пайрави Айнӣ шуда, 
+                        дар соҳаҳои шарқшиносӣ, филология ва таърихи санъати Осиёи Миёна олиму академик шудаанд.<sup>7</sup>
                         <div class='space'></div>
-                        Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
-                        and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>8</sup>`
+                        Имрӯз набераи адиб, <span style='font-weight: bold;'>Ираҷ Айнӣ</span>,
+                        ҳамроҳи хонаводааш дар Душанбе зиндагӣ мекунад
+                        ва мероси бобояшро тавассути Фонди Садриддин Айнӣ идома медиҳад.<sup>8</sup>`
                 }
             },
             six: {

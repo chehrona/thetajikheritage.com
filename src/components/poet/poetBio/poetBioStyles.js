@@ -146,13 +146,15 @@ export const BoxThree = styled.div`
 `;
 
 export const QuoteWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
+export const QuoteOutline = styled.div`
     border: 0.125rem solid #bd9d52;
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
 `;
 
 export const QuoteSymbol = styled.div`
@@ -171,15 +173,12 @@ export const Quote = styled.div`
     font-family: "EB Garamond", serif;
     font-style: bold;
     text-align: center;
-    position: absolute;
-    top: 1rem;
-    margin: 5rem;
+    margin: 1rem 5rem 2rem 5rem;
 `;
 
 export const DescWrapper = styled.div`
     column-count: 2;
     column-gap: 3rem;
-    max-height: 30rem;
     overflow: hidden;
     color: #333333;
     font-family: 'IBM Plex Serif', serif;
@@ -242,8 +241,7 @@ export const BoxSix = styled.div`
     text-align: center;
     color: #0F0A00;
     font-size: 1.1rem;
-    padding-top: 1.5rem;
-    padding-bottom: 3rem;
+    padding: 1.5rem 3rem 3rem 3rem;
 `;
 
 // Box seven ********************************
