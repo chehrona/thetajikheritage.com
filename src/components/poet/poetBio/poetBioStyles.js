@@ -71,7 +71,7 @@ export const SlideImg = styled.img`
     display: block;
     filter: grayscale(1) ${({ show }) => show ? 'brightness(100%)': 'brightness(60%)'};
     box-shadow: ${({ show }) => 
-        show ? '-0.3rem 0rem 0.3rem -0.2rem #dedbdb, 0.3rem 0rem 0.3rem -0.2rem #dedbdb' : '0rem 0rem 1rem 0.2rem #504221e6'};
+        show ? '0rem 0rem 0.5rem 0.1rem #dedbdb' : '0rem 0rem 1rem 0.2rem #504221e6'};
 `;
 
 export const NavBox = styled.div`
