@@ -5,15 +5,21 @@ import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
     background: #0F0A00;
-    height: 6rem;
     width: 100%;
+`;
+
+export const HeaderInnerBox = styled.div`
+    background: #0F0A00;
+    height: 6rem;
     display: flex;
     align-items: center;
     box-sizing: border-box;
     color: #ffffff;
     position: relative;
     z-index: 1000;
-`
+    max-width: 1920px;
+    margin: 0 auto;
+`;
 
 export const LogoWrapper = styled.div`
     display: flex;

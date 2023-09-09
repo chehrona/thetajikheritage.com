@@ -22,6 +22,7 @@ export const InfoContainer = styled.div`
 
 export const MainTitle = styled.div`
     font-size: 5rem;
+    color: #ffffff;
     font-family: 'EB Garamond', serif;
     font-style: italic;
     font-weight: 500;

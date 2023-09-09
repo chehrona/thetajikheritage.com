@@ -1,11 +1,13 @@
 import React from "react";
-import { FooterContainer, StyledCopyrightIcon } from "./footerStyles";
+import { FooterContainer, FooterInnerContainer, StyledCopyrightIcon } from "./footerStyles";
 
 export default function Footer() {
     return (
         <FooterContainer>
-            <StyledCopyrightIcon />
-            2023 designed & built by The Tajik Heritage
+            <FooterInnerContainer> 
+                <StyledCopyrightIcon />
+                The Tajik Heritage 2023
+            </FooterInnerContainer>
         </FooterContainer>
     );
 }
