@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
     background-image: url(${'/noise.png'});
     min-height: fit-content;
     padding-bottom: 3rem;
+    background-color: #fcf6e9;
 `;
 
 // Box one ****************************
@@ -142,7 +143,7 @@ export const Text = styled.div`
 export const BoxThree = styled.div`
     width: 100%;
     position: relative;
-    padding: 0rem 5rem 0rem 5rem;
+    padding: 0rem 3rem 0rem 3rem;
 `;
 
 export const QuoteWrapper = styled.div`
@@ -173,7 +174,7 @@ export const Quote = styled.div`
     font-family: "EB Garamond", serif;
     font-style: bold;
     text-align: center;
-    margin: 1rem 5rem 2rem 5rem;
+    margin: 1rem 3rem 2rem 3rem;
 `;
 
 export const DescWrapper = styled.div`
@@ -182,6 +183,7 @@ export const DescWrapper = styled.div`
     overflow: hidden;
     color: #333333;
     font-family: 'IBM Plex Serif', serif;
+    font-size: 1.1rem;
 `;
 
 // Box four *****************************
@@ -202,8 +204,8 @@ export const YearBig = styled.div`
 
 export const TextWrapper = styled.div`
     font-size: 1.1rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     text-align: center;
     width: 100%;
     position: absolute;
@@ -264,7 +266,12 @@ export const RightContainer = styled.div`
         url("/loader.svg") center
         no-repeat;
     background: ${({ src }) => `url(${ src })`};
+<<<<<<< Updated upstream
     background-size: ${({ src }) => src && 'cover'};
+=======
+    background-size: ${({ src }) => src ? 'cover' : 'contain'};
+    background-repeat: no-repeat;
+>>>>>>> Stashed changes
     background-position: center center;
     transition: all 0.5s;
     position: relative;

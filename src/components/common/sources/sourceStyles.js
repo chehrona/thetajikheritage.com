@@ -4,6 +4,7 @@ import { ExpandLess, ExpandMore } from "@mui/icons-material";
 export const DropDownContainer = styled.div`
     width: 100%;
     margin-bottom: 2rem;
+    padding-top: 1rem;
 `;
 
 export const IconContainer = styled.div`
@@ -61,7 +62,7 @@ export const SubTitle = styled.div`
     color: ${({ title }) => title && title};
 `;
 
-export const Reference = styled.div`
+export const Reference = styled.span`
     font-size: 1.1rem;
     line-height: 1.7rem;
 `;
@@ -77,4 +78,13 @@ export const RefIndex = styled.div`
     display: flex;
     align-items: center;
     margin-right: 0.5rem;
+`;
+
+export const SourceLink = styled.a`
+    color: #bd9d52;
+    margin-left: 0.5rem;
+
+    &:link &:active {
+        color: #bd9d52;
+    }
 `;

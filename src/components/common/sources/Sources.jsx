@@ -4,17 +4,19 @@ import { useSetLang } from "../../../App";
 import { IconButton } from "@mui/material";
 import { OpenInNew } from '@mui/icons-material';
 
-import { DropDownContainer,
-         IconContainer,
-         Line,
-         StyledDownIcon,
-         RefContainer,
-         Reference,
-         SubTitle,
-         StyledUpIcon,
-         RefWrapper,
-         RefBox,
-         RefIndex
+import {
+    DropDownContainer,
+    IconContainer,
+    Line,
+    StyledDownIcon,
+    RefContainer,
+    Reference,
+    SubTitle,
+    StyledUpIcon,
+    RefWrapper,
+    RefBox,
+    RefIndex,
+    SourceLink
 } from "./sourceStyles";
 
 export default function Sources({data, line, color, title, background }) {
@@ -46,11 +48,11 @@ export default function Sources({data, line, color, title, background }) {
                                     <div>{i + 1}.</div>
                                 </RefIndex>
                                 <Reference dangerouslySetInnerHTML={{__html: source?.name}} />
-                                <span>
-                                    <a href={source?.link} target="_blank">
+                                {source?.link.length ? (
+                                    <SourceLink href={source?.link} target="_blank">
                                         <OpenInNew />
-                                    </a>
-                                </span>
+                                    </SourceLink>
+                                ) : null}
                             </RefBox>   
                         )
                     })}
