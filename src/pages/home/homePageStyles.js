@@ -2,8 +2,9 @@ import styled from "styled-components/macro";
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
-    min-height: 38.68rem;
-    height: 38.68rem;
+    height: 100%;
     display: flex;
-    background: linear-gradient(90deg, rgba(15, 10, 0, 0.90), rgba(15, 10, 0, 0.95), rgba(15, 10, 0, 0.98), rgba(15,10,0,1) 65%);
+    background: 
+        linear-gradient(90deg, rgba(189, 157, 82, 0.05), rgba(189, 157, 82, 0.07), rgba(189, 157, 82, 0.09), rgba(189, 157, 82, 0.11));
+    position: relative;
 `;

@@ -4,6 +4,7 @@ import { poets } from "../../data/poetData";
 
 import { 
     PageContainer,
+    PoetContainer,
     RefContainer
 } from "./poetPageStyles";
 
@@ -22,21 +23,23 @@ export default function PoetPage() {
     if (poet) {
         return (
             <PageContainer>
-                <PoetIntro poet={poet} />
-                <PoetBio poet={poet} />
-                <PoetWorks poet={poet.works} />
-                <PoetMovies poet={poet.movies} />
-                <Politics poet={poet} />
-                <PoetAwards poet={poet.awards} />
-                <RefContainer>
-                    <Sources
-                        data={poet}
-                        line={'#504221d1'}
-                        color={'#dedbdb'}
-                        title={'#fcf6e9'}
-                        background={'#0F0A00'}
-                    />
-                </RefContainer>
+                <PoetContainer>
+                    <PoetIntro poet={poet} />
+                    <PoetBio poet={poet} />
+                    <PoetWorks poet={poet.works} />
+                    <PoetMovies poet={poet.movies} />
+                    <Politics poet={poet} />
+                    <PoetAwards poet={poet.awards} />
+                    <RefContainer>
+                        <Sources
+                            data={poet}
+                            line={'#504221d1'}
+                            color={'#dedbdb'}
+                            title={'#fcf6e9'}
+                            background={'#0F0A00'}
+                        />
+                    </RefContainer>
+                </PoetContainer>
             </PageContainer>
         )
     }

@@ -53,7 +53,7 @@ export const AwardCard = styled.div`
     align-items: start;
     background-color: transparent;
     perspective: 62.5rem;
-    box-shadow: 0rem 0rem 0.5rem 0.1rem #0F0A00;
+    box-shadow: 0rem 0rem 0.5rem 0.1rem #504221;
     opacity: 0;
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};

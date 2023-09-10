@@ -1,13 +1,13 @@
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dotted #504221;
 }
   
 .tooltip .tooltiptext {
     visibility: hidden;
-    background-color: #555;
-    color: #dedbdb;
+    background-color: #504221;
+    color: #fcf6e9;
     border-radius: 0.4rem;
     position: absolute;
     z-index: 10;
@@ -29,7 +29,7 @@
     margin-left: -0.3rem;
     border-width: 0.3rem;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
+    border-color: #504221 transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
@@ -41,7 +41,7 @@ sup, sub {
     vertical-align: baseline;
     position: relative;
     top: -0.5rem;
-    color: #bd9d52;
+    color: #92793f;
     font-size: 0.75rem;
     font-style: normal;
     font-family: "IBM Plex Serif", serif;

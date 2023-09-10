@@ -9,21 +9,21 @@ export const AllergyContainer = styled.div`
 `;
 
 export const ContainsBox = styled.div`
-    background: #50422178;
+    background: #504221d1;
     border-radius: 1rem;
     padding: 0.8rem;
     padding-top: 0.5rem;
     min-width: 7rem;
-    box-shadow: 0rem 0rem 0.4rem 0.01rem #bd9d52;
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
 `;
 
 export const DietBox = styled.div`
-    background: #50422178;
+    background: #504221d1;
     border-radius: 1rem;
     padding: 0.8rem;
     padding-top: 0.5rem;
     min-width: 7rem;
-    box-shadow: 0rem 0rem 0.4rem 0.01rem #bd9d52;
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
 `;
 
 export const LabelContainer = styled.div`

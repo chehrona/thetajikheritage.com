@@ -18,8 +18,8 @@ const slideOut = keyframes`
 `;
 
 export const RecipeBoxContainer = styled.div`
-    margin: 5rem;
-    margin-top: 2rem;
+    margin: 4rem;
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
