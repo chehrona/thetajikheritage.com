@@ -19,7 +19,7 @@ module.exports.recipes = [
                 countries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
                 <span class='termSpan'>"shir,"</span> meaning milk, and <span class='termSpan'>"choy,"</span>  which refers to tea.<sup>1</sup>
                 The exact regional or historical origins of shirchoy remain uncertain. However, the most detailed account of the dish can be 
-                found in the writings of the 19th-century Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots 
+                found in the writings of the 19th—century Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots 
                 as far back as the mid-8th century when tea was introduced to Central Asia from China.<sup>3</sup>
                 Additionally, the Pamiris have a legendary account regarding the creation of the very first shirchoy:
                 <div class='quoteContainer'><div class='quoteSymbol'></div>
@@ -80,12 +80,12 @@ module.exports.recipes = [
                 дар Тоҷикистон тайёр карда мешавад. Номи "ширчой" аз ду калимаи тоҷикӣ-форсии 
                 <span class='termSpan'>"шир"</span> ва <span class='termSpan'>"чой"</span> гирифта шудааст.<sup>1</sup> Замон ё макони аниқи пайдоиши ширчой номаълум боқӣ мемонад. Аммо 
                 оиди ин таом пурратарин маълумотро
-                дар навиштаҳои олими асри XIX-и тоҷик - Возеҳ, дарёфтан мумкин аст.<sup>1,2</sup> Шояд, ки ин ғизо аз давраҳое, ки чой ба Осиёи Марказӣ аз Чин ворид карда шуда буд 
+                дар навиштаҳои олими асри XIX-и тоҷик — Возеҳ, дарёфтан мумкин аст.<sup>1,2</sup> Шояд, ки ин ғизо аз давраҳое, ки чой ба Осиёи Марказӣ аз Чин ворид карда шуда буд 
                 (миёнаҳои асри VIII), омода карда мешавад.<sup>3</sup> Илова бар ин, помириҳо дар бораи созиши аввалин ширчой ривояте доранд: 
                 <div class='quoteContainer'><div class='quoteSymbol'></div><div class='quoteWrapper'>
                 Рӯзе одамон ба қишлоқи мо ... баргаштанд. Онҳо бо худ ин баргҳоро оварданд ва ҳамаро барои тамошо даъват карданд. Мо дар як зарфи калон об ҷӯшонда,
                 ҳамаи баргҳои чойро дар он андохтем, сипас, ҳамаи сокинони деҳаро барои нӯшидани он даъват кардем. Мардум... онро ... чашида ... буданд, аммо 
-                онро қабеҳ [хеле талх] дарёфтанд. Баъдтар мардум ҳар чизеро ба он илова карданд - шир, чормағз, себи хушк, ва оҳиста - оҳиста ба он одат 
+                онро қабеҳ [хеле талх] дарёфтанд. Баъдтар мардум ҳар чизеро ба он илова карданд — шир, чормағз, себи хушк, ва оҳиста-оҳиста ба он одат 
                 карданд.<sup style='font-style: normal'>4</sup></div></div>
                 Ширчойи тоҷикӣ нисбат ба ширчойҳое, ки махсусан дар кишварҳои Ғарб (масалан чойи англисӣ) омода мекунанд, камтар фарқ мекунад. Ширчойи тоҷикӣ ин ғизои пурра аст, 
                 ки ҳамчун субҳона ва ё шоми сабук истеъмол карда мешавад.<br> Албатта, барои тайёр кардани ширчой, ширу чой кофӣ ҳастанд, 
@@ -96,7 +96,7 @@ module.exports.recipes = [
                 равғани <div class="tooltip">думбаи обкардашуда
                 <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Асосан дар Самарқанд, Бухоро, Фарғона ва вилояти Суғд</span></div>, андохта мешаванд.
                 Инчунин, ширчой бо номҳои гуногун ҳам маъруф аст, ки онҳо аз яке аз маҳсулотҳои иловагиаш гирифта мешаванд. Азбаски ширчой одатан як хӯроки шӯр аст, 
-                яке аз номҳои дигараш <span class='termSpan'>"шӯрчой"</span> мебошад. Дар вилояти Бадахшон як намуди болаззати ширчой - <span class='termSpan'>"ғӯзширчой"</span> омода карда 
+                яке аз номҳои дигараш <span class='termSpan'>"шӯрчой"</span> мебошад. Дар вилояти Бадахшон як намуди болаззати ширчой — <span class='termSpan'>"ғӯзширчой"</span> омода карда 
                 мешавад, ки яке аз қисмҳои асосии он чормағзи тафтдодашудаи кӯфта мебошад.<sup>4</sup>
                 Номаш аз калимаи шуғнии <span class='termSpan'>"ғӯз" [ɣůz]</span> гирифта шудааст, ки маънояш "чормағз" мебошад.<sup>5</sup><br>
                 Таркиби ширчой аз обу ҳавои минтақа ва хоҳиши пазанда вобастагӣ дорад. Масалан, мардуми кӯҳистон аксар вақт ба он равған ё қаймоқ илова мекунанд, чунки 
@@ -118,24 +118,27 @@ module.exports.recipes = [
         ingredientsLang: {ru: 'Ингредиенты', us: 'Ingredients', tj: 'Маҳсулот', kh: 'محصولات'},
         directionsLang: {ru: 'Приготовление', us: 'Directions', tj: 'Тарзи омодакунӣ', kh: 'طرز آمادهکنی'},
         references: {
-            us: ['Vozeh, Qori Rahmatullo. کان لذت و خان نعمت [Source of pleasure and table spread of blessings]. <span style="font-style: italic">In Tajiki-Persian w. Perso-Arabic script. </span>Bukhara. 1880 - 1881.',
-                'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. <span style="font-style: italic">In Russian. </span>PhD dissertation, (A. Donish Institute of History, Archeology and Ethnography, 2019, pp. 97 - 98).', 
-                'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, p. 290, 1976.',
-                'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan. <span style="font-style: italic">In English, Tajiki- and Dari-Persian. </span>LM Publishers, 2015, p. 599.',
-                'Steblin-Kamenskiy, I.M. Очерки по истории лексики памирских языков. Названия культурных растений [Essays on the history of Pamiri languages. Names of cultivated plants]. <span style="font-style: italic">In Russian.</span> Moscow, "Nauka" publishing house, 1982, pp. 110 — 111.',
-                'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Karategin and Darvaz (Issue 2)]. <span style="font-style: italic">In Russian. </span>Dushanbe, "Donish" publishing house, 1970, p. 256.'
+            us: [
+                    {name: 'Vozeh, Qori Rahmatullo. کان لذت و خان نعمت [Source of pleasure and table spread of blessings]. <span style="font-style: italic">In Tajiki-Persian w. Perso-Arabic script. </span>Bukhara. 1880 - 1881.', link: ""},
+                    {name: 'Shovalieva, Mumina. "История кулинарной культуры таджикского народа" ["The history of the culinary culture of the Tajik people"]. <span style="font-style: italic">In Russian. </span>PhD dissertation, (A. Donish Institute of History, Archeology and Ethnography, 2019, pp. 97 — 98).', link: ""},
+                    {name: 'N. Ershov, “Food”, Tajiks of Karategin and Darvas, Issue 3, p. 290, 1976.', link: ""},
+                    {name: 'van Oudenhoven, Frederik and Haider, Jamila. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan. <span style="font-style: italic">In English, Tajiki- and Dari-Persian. </span>LM Publishers, 2015, p. 599.', link: ""},
+                    {name: 'Steblin-Kamenskiy, I.M. Очерки по истории лексики памирских языков. Названия культурных растений [Essays on the history of Pamiri languages. Names of cultivated plants]. <span style="font-style: italic">In Russian.</span> Moscow, "Nauka" publishing house, 1982, pp. 110 — 111.', link: ""},
+                    {name: 'Kislyakova, N. A. and Pisarchik, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Tajiks of Karategin and Darvaz (Issue 2)]. <span style="font-style: italic">In Russian. </span>Dushanbe, "Donish" publishing house, 1970, p. 256.', link: ""}
             ],
-            ru: ['Возех, Кори Рахматулло. کان لذت و خان نعمت [Источник наслаждения и скатерть благ]. <span style="font-style: italic">На тадж. с арабо-персидским алфавитом. </span>Бухара. 1880 - 1881.',
-                'Шовалиева, Мумина. "История кулинарной культуры таджикского народа". Дис. канд. ист. наук, (Институт истории, археологии и этнографии им. А.Дониша, 2019, с. 97 - 98).',
-                'ван Оуденховен, Фредерик и Хайдар, Джамила. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan [Своими руками: праздник еды и жизни в Памирских горах Афганистана и Таджикистана]. <span style="font-style: italic">На анг, таджикско- и дари-персидском языках. </span>Издательство "LM Publishers", 2015, с. 599.',
-                'Стеблин-Каменский И.М. Очерки по истории лексики памирских языков. Названия культурных растений. Москва, издательство "Наука", 1982, с. 110 — 111.',
-                'Кислякова, Н. A. и Писарчик, A. K. Таджики Каратегина и Дарваза (Вып. 2). Душанбе, издательство "Дониш", 1970, с. 256.'
+            ru: [
+                    {name: 'Возех, Кори Рахматулло. کان لذت و خان نعمت [Источник наслаждения и скатерть благ]. <span style="font-style: italic">На тадж. с арабо-персидским алфавитом. </span>Бухара. 1880 - 1881.', link: ""},
+                    {name: 'Шовалиева, Мумина. "История кулинарной культуры таджикского народа". Дис. канд. ист. наук, (Институт истории, археологии и этнографии им. А.Дониша, 2019, с. 97 — 98).', link: ""},
+                    {name: 'ван Оуденховен, Фредерик и Хайдар, Джамила. With Our Own Hands: A Celebration of Food and Life in the Pamir Mountains of Afghanistan and Tajikistan [Своими руками: праздник еды и жизни в Памирских горах Афганистана и Таджикистана]. <span style="font-style: italic">На анг, таджикско- и дари-персидском языках. </span>Издательство "LM Publishers", 2015, с. 599.', link: ""},
+                    {name: 'Стеблин-Каменский И.М. Очерки по истории лексики памирских языков. Названия культурных растений. Москва, издательство "Наука", 1982, с. 110 — 111.', link: ""},
+                    {name: 'Кислякова, Н. A. и Писарчик, A. K. Таджики Каратегина и Дарваза (Вып. 2). Душанбе, издательство "Дониш", 1970, с. 256.', link: ""}
             ],
-            tj: ['Возеҳ, Қорӣ Раҳматулло. کان لذت و خان نعمت [Кони лаззат ва хони неъмат]. <span style="font-style: italic">Ба забони тоҷикӣ бо хати форсӣ.</span> Бухоро. 1880 - 1881.',
-                'Шовалиева, Мӯмина. "История кулинарной культуры таджикского народа" ["Таърихи маданияти хӯрокпазии халқи тоҷик"]. Диссертатсияи дараҷаи илмии доктори фалсафа, (Институти таърих, бостоншиносӣ ва мардумшиносии ба номи А. Дониш, 2019, с. 97 - 98).',
-                'ван Оуденҳовен, Фредерик ва Ҳайдар, Ҷамила. Бо дастони худ: ҷашни таъом ва зиндагӣ дар кӯҳистони Помири Афғонистон ва Тоҷикистон. <span style="font-style: italic">Ба забонҳои тоҷикӣ, дарӣ ва анг. </span>Нашриёти "LM Publishers", 2015, с. 599.',
-                'Стеблин-Каменский И.М. Очерки по истории лексики памирских языков. Названия культурных растений [Иншоҳо оид ба таърихи луғати забонҳои помирӣ. Номҳои растаниҳои киштшаванда]. Маскав, нашриёти "Наука", 1982, с. 110 — 111.',
-                'Кислякова, Н. A. ва Писарчик, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Тоҷикони Қаротегин ва Дарвоз (Ҷузъи 2)]. Душанбе, нашриёти "Дониш", 1970, с. 256.'
+            tj: [
+                    {name: 'Возеҳ, Қорӣ Раҳматулло. کان لذت و خان نعمت [Кони лаззат ва хони неъмат]. <span style="font-style: italic">Ба забони тоҷикӣ бо хати форсӣ.</span> Бухоро. 1880 - 1881.', link: ""},
+                    {name: 'Шовалиева, Мӯмина. "История кулинарной культуры таджикского народа" ["Таърихи маданияти хӯрокпазии халқи тоҷик"]. Диссертатсияи дараҷаи илмии доктори фалсафа, (Институти таърих, бостоншиносӣ ва мардумшиносии ба номи А. Дониш, 2019, с. 97 — 98).', link: ""},
+                    {name: 'ван Оуденҳовен, Фредерик ва Ҳайдар, Ҷамила. Бо дастони худ: ҷашни таъом ва зиндагӣ дар кӯҳистони Помири Афғонистон ва Тоҷикистон. <span style="font-style: italic">Ба забонҳои тоҷикӣ, дарӣ ва анг. </span>Нашриёти "LM Publishers", 2015, с. 599.', link: ""},
+                    {name: 'Стеблин-Каменский И.М. Очерки по истории лексики памирских языков. Названия культурных растений [Иншоҳо оид ба таърихи луғати забонҳои помирӣ. Номҳои растаниҳои киштшаванда]. Маскав, нашриёти "Наука", 1982, с. 110 — 111.', link: ""},
+                    {name: 'Кислякова, Н. A. ва Писарчик, A. K. Таджики Каратегина и Дарваза (Вып. 2) [Тоҷикони Қаротегин ва Дарвоз (Ҷузъи 2)]. Душанбе, нашриёти "Дониш", 1970, с. 256.', link: ""}
             ],
             kh: ['واضح٬ قاری رحمةالله', "2. here 2"],
         },

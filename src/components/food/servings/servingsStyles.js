@@ -17,11 +17,11 @@ export const QuantityContainer = styled.div`
 `;
 
 export const StyledAddIcon = styled(Add)`
-    background: #fcf6e9;
+    background: #504221d1;
     border-radius: 0.5rem;
-    color: black;
+    color: #fff;
     font-size: 2rem !important;
-    box-shadow: 0rem 0rem 0.25rem 0.01rem #fcf6e9;
+    box-shadow: 0rem 0rem 0.25rem 0.01rem #504221;
 `;
 
 export const ServeAmount = styled.input`
@@ -35,18 +35,18 @@ export const ServeAmount = styled.input`
 `;
 
 export const StyledMinusIcon = styled(Remove)`
-    background: #fcf6e9;
+    background: #504221d1;
     border-radius: 0.5rem;
-    color: black;
+    color: #fff;
     font-size: 2rem !important;
-    box-shadow: 0rem 0rem 0.25rem 0.01rem #fcf6e9;
+    box-shadow: 0rem 0rem 0.25rem 0.01rem #504221;
 `;
 
 export const SubTitle = styled.div`
     margin-bottom: 0.8rem;
     font-weight: 600;
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #000;
 `;
 
 export const ServeContainer = styled.div`

@@ -4,10 +4,10 @@ export const MainContainer = styled.div`
     padding: 2rem;
     padding-top: 1rem;
     border-radius: 1rem;
-    background: #fcf6e9;
+    background: #fff;
     margin-top: 2rem;
     color: black;
-    box-shadow: 0rem 0rem 0.4rem 0.01rem #fcf6e9;
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #92793f;
 `;
 
 export const SubTitle = styled.div`

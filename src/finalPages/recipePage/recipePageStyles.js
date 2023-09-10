@@ -15,11 +15,16 @@ const slideUp = keyframes`
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
-    min-height: 100vh;
+    min-height: 100vh; 
+    background-color: #000;
+    padding: 1rem;
+`;
+
+export const RecipeContainer = styled.div`
     box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
-    margin: 2rem 4.5rem 2rem 4.5rem;
-    background-color: #0F0A00;
-    color: #dedbdb;
+    margin: 1rem 3.5rem 1rem 3.5rem;
+    background-color: #fcf6e9;
+    color: #0F0A00;
     border-radius: 4rem;
     background-image: url(${'/noise.png'});
     padding: 2rem;
@@ -34,6 +39,7 @@ export const MainImage = styled.img`
     opacity: 0;
     transform: translateY(-100%);
     animation: ${slideUp} 0.5s ease-in-out forwards;
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
 `;
 
 export const IntroSection = styled.div`

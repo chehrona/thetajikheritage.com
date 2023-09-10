@@ -22,12 +22,12 @@ export const InfoContainer = styled.div`
 
 export const MainTitle = styled.div`
     font-size: 5rem;
-    color: #ffffff;
+    color: #000;
     font-family: 'EB Garamond', serif;
     font-style: italic;
     font-weight: 500;
     margin-bottom: 0.5rem;
-    text-shadow: 0.0625rem 0.0625rem 0.0875rem #dedbdb;
+    text-shadow: 0.0625rem 0.0625rem 0.0875rem #0F0A00;
     opacity: 0;
     animation: ${slideOut} 0.5s ease-in-out forwards;
 `;
@@ -35,7 +35,7 @@ export const MainTitle = styled.div`
 export const HistoryInfo = styled.div`
     font-size: 1.1rem;
     line-height: 1.7rem;
-    color: #dedbdb;
+    color: #0F0A00;
     opacity: 0;
     animation: ${slideOut} 0.5s ease-in-out forwards;
     animation-delay: 0.01s;

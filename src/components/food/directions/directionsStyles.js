@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
     padding: 1rem 2rem 2rem 2rem;
     border-radius: 1rem;
-    background: #fcf6e9;
+    background: #fff;
     color: black;
-    box-shadow: 0rem 0rem 0.4rem 0.01rem #fcf6e9;
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #92793f;
 `;
 
 export const SubTitle =  styled.div`

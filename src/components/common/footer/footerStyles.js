@@ -17,6 +17,8 @@ export const FooterInnerContainer = styled.div`
     justify-content: center;
     max-height: 4.23rem;
     min-height: 4.23rem;
+    position: relative;
+    z-index: 10;
 `;
 
 export const StyledCopyrightIcon = styled(Copyright)`
