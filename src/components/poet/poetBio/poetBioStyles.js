@@ -12,9 +12,13 @@ export const BoxOne = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 4.3rem 1rem 5rem;
+    padding: 0rem 3rem 1rem 3rem;
     color: #0F0A00;
     gap: 3rem;
+
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
 `;
 
 export const Year = styled.div`
@@ -255,19 +259,31 @@ export const LeftContainer = styled.div`
     width: 50%;
     position: relative;
     height: 100%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const RightContainer = styled.div`
     width: 50%;
     height: 30rem;
     background: #333333
-        url("/loader.svg") center
-        no-repeat;
+        url("/loader.svg") center no-repeat;
     background: ${({ src }) => `url(${ src })`};
-    background-size: ${({ src }) => src && 'cover'};
+    background-size: ${({ src }) => src && 'contain'};
+    background-repeat: no-repeat;
     background-position: center center;
     transition: all 0.5s;
     position: relative;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const Overlay = styled.div`

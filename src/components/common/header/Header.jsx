@@ -3,6 +3,7 @@ import { useSetLang } from "../../../App";
 
 import {
     HeaderContainer,
+    HeaderInnerBox,
     LogoWrapper,
     MenuWrapper,
     TitleWrapper,
@@ -24,22 +25,24 @@ export default function Header() {
 
     return (
         <HeaderContainer>
-            <LogoWrapper>
-                <StyledLink to={'/'} onClick={() => setIsMenuShown(false)}>
-                    <Logo src={'/tajiks.png'}></Logo>
-                </StyledLink>
-            </LogoWrapper>
-            <TitleWrapper>
-                <Title>
-                    <TitleSpan>THE TAJIKS:</TitleSpan>
-                    Iranians of the East
-                </Title>
-            </TitleWrapper>
-            <MenuWrapper>
-                <StyledIconButton onClick={showMenu}>
-                    {isMenuShown ? <StyledCloseIcon /> : <StyledMenuIcon />}
-                </StyledIconButton>
-            </MenuWrapper>
+            <HeaderInnerBox>
+                <LogoWrapper>
+                    <StyledLink to={'/'} onClick={() => setIsMenuShown(false)}>
+                        <Logo src={'/tajiks.png'}></Logo>
+                    </StyledLink>
+                </LogoWrapper>
+                <TitleWrapper>
+                    <Title>
+                        <TitleSpan>THE TAJIKS:</TitleSpan>
+                        Iranians of the East
+                    </Title>
+                </TitleWrapper>
+                <MenuWrapper>
+                    <StyledIconButton onClick={showMenu}>
+                        {isMenuShown ? <StyledCloseIcon /> : <StyledMenuIcon />}
+                    </StyledIconButton>
+                </MenuWrapper>
+            </HeaderInnerBox>
         </HeaderContainer>
     )
 } 

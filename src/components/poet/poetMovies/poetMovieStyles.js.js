@@ -64,7 +64,7 @@ export const MovieCard = styled.div`
     cursor: pointer;
     position: relative;
     border-radius: 0.5rem;
-    box-shadow: 0rem 0rem 0.6rem #504221d1;
+    box-shadow: 0rem 0rem 0.6rem #504221;
     opacity: 0;
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
@@ -79,7 +79,6 @@ export const Image = styled.img`
 export const StyledIconButton = styled(IconButton)`
     position: absolute !important;
     background: #0F0A00 !important;
-    background
     width: 3rem;
     height: 3rem;
     bottom: 1rem;
