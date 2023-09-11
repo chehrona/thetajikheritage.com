@@ -34,7 +34,7 @@ export const MainContainer = styled.div`
     background-image: url(${'/noise.png'});
     color: white;
     position: relative;
-    padding-top: 3rem;
+    padding: 3rem 0rem 3rem 0rem;
 
     &:before {
         content: "";
@@ -58,7 +58,6 @@ export const MovieWrapper = styled.div`
 `;
 
 export const MovieCard = styled.div`
-    margin-bottom: 7rem;
     height: 21.15rem;
     width: 14.95rem;
     cursor: pointer;

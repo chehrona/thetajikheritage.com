@@ -1,4 +1,6 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
+import { useSetLang } from "../../App";
+
 import { stepInfo } from "./helper"; 
 
 import {
@@ -10,9 +12,10 @@ import {
     Step,
     MiddleStep,
     IndicatorStep,
-    LargeTitle
+    TitleWrapper,
+    LargeTitle,
+    Desc
 } from "./homeStepperStyles";
-import { useSetLang } from "../../App";
 
 export default function HomeStepper() {
     const [currentStep, setCurrentStep] = useState(0);
@@ -56,7 +59,6 @@ export default function HomeStepper() {
         setVisibleSteps(visibleStepsArray);
     }, [currentStep, stepInfo]);
 
-
     return (
         <MainContainer>
             <Indicator>
@@ -66,12 +68,13 @@ export default function HomeStepper() {
             <NumLine />
             <StepperBox ref={containerRef}>
                 <Step>{visibleSteps[0]?.num}</Step>
-                <MiddleStep>
+                <TitleWrapper>
                     <LargeTitle>{visibleSteps[0]?.text[lang]}</LargeTitle>
-                </MiddleStep>
+                </TitleWrapper>
                 <Step bottom={true}>{visibleSteps[2]?.num}</Step>
             </StepperBox>
             <NumLine bottom={true} />
+            <Desc dangerouslySetInnerHTML={{__html: visibleSteps[0]?.desc[lang]}}></Desc>
         </MainContainer>
     );
 }

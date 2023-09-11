@@ -4,6 +4,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
     background: #0F0A00;
     width: 100%;
+    position: absolute;
 `;
 
 export const FooterInnerContainer = styled.div`

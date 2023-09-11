@@ -45,43 +45,50 @@ export const NumLine = styled.div`
     position: absolute;
     ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
     width: 0.05rem;
-    height: 10%;
+    height: 15%;
     left: 13.5%;
 `;
 
 export const StepperBox = styled.div`
     position: relative;
-    top: 12%;
-    left: 0rem;
+    top: 16%;
+    left: 11%;
     width: 100%;
-    height: 76%;
+    height: 68%;
 `;
 
 export const Step = styled.div`
     font-size: 1.2rem;
-    color: #ffffffb2;
+    color: #dedbdbb2;
     font-family: 'EB Garamond', serif;
     position: absolute;
-    left: 30%;
-    transform: translateX(-50%);
+    left: 18%;
     ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
 `;
 
-export const MiddleStep = styled.div`
-
+export const TitleWrapper = styled.div`
+    position: absolute;
+    top: 10%;
+    left: 10%;
 `;
 
 export const LargeTitle = styled.div`
-    font-size: 10vw;
-    position: absolute;
-    left: 70%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    font-size: 9vw;
     font-family: 'EB Garamond', serif;
     font-weight: bold;
     color: #ffffffb2;
     text-shadow: 1rem 0rem 0rem #504221;
     overflow-wrap: break-word;
-    width: 45vw;
+    width: 45rem;
     text-transform: uppercase;
+    line-height: 8.5vw;
+`;
+
+export const Desc = styled.div`
+    color: #dedbdb;
+    font-size: 1rem;
+    width: 30%;
+    position: absolute;
+    bottom: 5%;
+    left: 17%;
 `;
