@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSetLang } from "../../../App";
 import { ArrowForwardIos } from "@mui/icons-material";
 
@@ -18,6 +18,10 @@ export default function FifthBox({ poet }) {
     const [infoArr, setInfoArr] = useState([...poet?.five[lang].slides]);
     const [hover, setHover] = useState(false);
 
+    useEffect(() => {
+        setInfoArr([...poet?.five[lang].slides]);
+    }, [lang]);
+
     const movePrev = () => {
         if (infoArr.length > 1) {
             const movedItem = infoArr.pop();
@@ -33,6 +37,8 @@ export default function FifthBox({ poet }) {
             setInfoArr([...infoArr]);
         }
     };
+
+    console.log(infoArr[0], "description")
 
     return (
         <BoxSeven

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useSetLang } from "../../../App";
 import { ArrowForwardIos } from "@mui/icons-material";
 
@@ -19,6 +19,10 @@ export default function SeventhBox({ poet }) {
     const { lang } = useSetLang();
     const [infoArr, setInfoArr] = useState([...poet?.seven[lang].slides]);
     const [hover, setHover] = useState(false);
+
+    useEffect(() => {
+        setInfoArr([...poet?.seven[lang].slides]);
+    }, [lang]);
 
     const movePrev = () => {
         if (infoArr.length > 1) {

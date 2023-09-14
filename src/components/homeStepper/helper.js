@@ -14,7 +14,7 @@ export const stepInfo = [
                 many as old as the Eastern Iranian civilization itself.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' style='color: #bd9d52;'>EXPLORE</a>`,
+                <a href='/arts' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
             ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>
@@ -22,8 +22,15 @@ export const stepInfo = [
                 искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
-            tj: ``
+                <a href='/arts' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
+            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+                ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
+                <div class='space'></div>
+                Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                ки бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                <div class='space'></div>
+                <div class='space'></div>
+                <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         }
     },
     {
