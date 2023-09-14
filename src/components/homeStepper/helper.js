@@ -3,8 +3,42 @@ export const stepInfo = [
         num: "01",
         text: {
             us: "CRAFTS",
-            ru: "ИСКУССТВА",
+            ru: "РЕМЕСЛА",
             tj: "Санъат"
+        },
+        desc: {
+            us: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
+                of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
+                <div class='space'></div>
+                There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
+                many as old as the Eastern Iranian civilization itself.
+                <div class='space'></div>
+                <div class='space'></div>
+                <a href='/arts' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+            ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
+                наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
+                <div class='space'></div>
+                Среди таджиков до сих пор сохранилось около 500 уникальных видов 
+                искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                <div class='space'></div>
+                <div class='space'></div>
+                <a href='/arts' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
+            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+                ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
+                <div class='space'></div>
+                Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                <div class='space'></div>
+                <div class='space'></div>
+                <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+        }
+    },
+    {
+        num: "02",
+        text: {
+            us: "Customs",
+            ru: "Обычаи",
+            tj: "Расму оин"
         },
         desc: {
             us: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
@@ -23,30 +57,22 @@ export const stepInfo = [
                 <div class='space'></div>
                 <div class='space'></div>
                 <a href='/arts' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
-            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
                 ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
                 <div class='space'></div>
                 Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                ки бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                 <div class='space'></div>
                 <div class='space'></div>
                 <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         }
     },
     {
-        num: "02",
-        text: {
-            us: ["Cus", "toms"],
-            ru: ["Обы", "чаи"],
-            tj: ["Расму", "одатҳо"]
-        }
-    },
-    {
         num: "03",
         text: {
-            us: ["Cui", "sine"],
-            ru: ["Кухня"],
-            tj: ["Ғизо", "ҳо"]
+            us: "Cuisine",
+            ru: "Кухня",
+            tj: "Ғизоҳо"
         }
     },
     {
