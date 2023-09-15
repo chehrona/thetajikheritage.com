@@ -77,7 +77,7 @@ export const TitleWrapper = styled.div`
 
 export const LargeTitle = styled.div`
     font-size: ${({ fontSize }) => fontSize && `${fontSize}rem`};
-    transition: font-size 0.1s ease-in-out;
+    opacity: ${({ fontSize }) => fontSize ? "1" : "0"};
     font-family: 'EB Garamond', serif;
     font-weight: bold;
     color: #ffffffb2;
@@ -85,6 +85,7 @@ export const LargeTitle = styled.div`
     overflow-wrap: break-word;
     width: 45rem;
     text-transform: uppercase;
+    line-height: 9.5rem;
 `;
 
 export const Desc = styled.div`

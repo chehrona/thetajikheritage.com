@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { stepInfo } from "../../components/homeStepper/helper";
-import { useSetLang } from "../../App";
 
 import HomeStepper from '../../components/homeStepper/HomeStepper';
 import ImageBall from '../../components/imageBall/ImageBall';
@@ -13,23 +12,6 @@ function Home() {
     newArr.unshift(lastItem);
     const [visibleSteps, setVisibleSteps] = useState([...newArr]);
     const parentRef = useRef(null);
-    const [fontSize, setFontSize] = useState();
-    const { lang } = useSetLang();
-
-
-    useEffect(() => {
-        let baseFont = 7.8;
-        const length = visibleSteps[1].text[lang]?.length;
-        if (length > 18) {
-            baseFont = (length/24) * 7.8;
-        } else if (length > 14) {
-            baseFont = (length/21.18) * 7.8;
-        } else if (length <= 7) {
-            baseFont = 9.2;
-        }
-
-        setFontSize(baseFont);
-    }, [lang, visibleSteps]);
 
     useEffect(() => {
         const container = parentRef.current;
@@ -59,7 +41,7 @@ function Home() {
 
     return (
         <PageContainer ref={parentRef}>
-            <HomeStepper fontSize={fontSize} visibleSteps={visibleSteps} />
+            <HomeStepper visibleSteps={visibleSteps} />
             <ImageBall outerSpheres={visibleSteps[1].outer} innerSpheres={visibleSteps[1].inner} />
         </PageContainer>
     );

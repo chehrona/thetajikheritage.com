@@ -17,7 +17,7 @@ import {
     Desc
 } from "./homeStepperStyles";
 
-export default function HomeStepper({ fontSize, visibleSteps }) {
+export default function HomeStepper({ visibleSteps }) {
     const containerRef = useRef(null);
     const { lang } = useSetLang();
 
@@ -31,7 +31,7 @@ export default function HomeStepper({ fontSize, visibleSteps }) {
             <StepperBox ref={containerRef}>
                 <Step>{visibleSteps[0]?.num}</Step>
                 <TitleWrapper>
-                    <LargeTitle fontSize={fontSize}>{visibleSteps[1]?.text[lang]}</LargeTitle>
+                    <LargeTitle fontSize={visibleSteps[1]?.text[lang].font}>{visibleSteps[1]?.text[lang].text}</LargeTitle>
                 </TitleWrapper>
                 <Step bottom={true}>{visibleSteps[2]?.num}</Step>
             </StepperBox>
