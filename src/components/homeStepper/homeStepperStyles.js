@@ -52,7 +52,7 @@ export const NumLine = styled.div`
 export const StepperBox = styled.div`
     position: relative;
     top: 16%;
-    left: 11%;
+    left: 10.7%;
     width: 100%;
     height: 68%;
 `;
