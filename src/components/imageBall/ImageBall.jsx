@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { innerSpheres, outerSpheres } from './helper';
 
 import { Border, HomeImage, MainContainer } from "./imageBallStyles";
 

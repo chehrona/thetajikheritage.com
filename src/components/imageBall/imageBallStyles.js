@@ -29,7 +29,7 @@ export const Border = styled.div`
     top: ${({ top }) => top && top};
     right: ${({ right }) => right && right};
     opacity: ${({ opacity }) => opacity && opacity};
-    border: ${({ border }) => border ? "0.0625rem solid #bd9d52" : "none"};
+    border: 0.0625rem solid #bd9d52;
     z-index: 10;
 `;
 
