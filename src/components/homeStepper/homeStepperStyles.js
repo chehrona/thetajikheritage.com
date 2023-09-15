@@ -70,10 +70,14 @@ export const TitleWrapper = styled.div`
     position: absolute;
     top: 10%;
     left: 10%;
+    height: 65%;
+    display: flex;
+    align-items: center;
 `;
 
 export const LargeTitle = styled.div`
-    font-size: 9vw;
+    font-size: ${({ fontSize }) => fontSize && `${fontSize}rem`};
+    transition: font-size 0.1s ease-in-out;
     font-family: 'EB Garamond', serif;
     font-weight: bold;
     color: #ffffffb2;
@@ -81,7 +85,6 @@ export const LargeTitle = styled.div`
     overflow-wrap: break-word;
     width: 45rem;
     text-transform: uppercase;
-    line-height: 8.5vw;
 `;
 
 export const Desc = styled.div`

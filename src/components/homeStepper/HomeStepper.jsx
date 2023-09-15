@@ -18,49 +18,57 @@ import {
 } from "./homeStepperStyles";
 
 export default function HomeStepper() {
-    const [currentStep, setCurrentStep] = useState(0);
-    const [visibleSteps, setVisibleSteps] = useState([]);
+    let newArr = [...stepInfo];
+    const lastItem = newArr.pop();
+    newArr.unshift(lastItem);
+    const [visibleSteps, setVisibleSteps] = useState([...newArr]);
+    const [fontSize, setFontSize] = useState();
     const containerRef = useRef(null);
+    const parentRef = useRef(null);
     const { lang } = useSetLang();
 
-    const stepsPerPage = 3;
+    useEffect(() => {
+        let baseFont = 7.8;
+        const length = visibleSteps[1].text[lang]?.length;
+        if (length > 18) {
+            baseFont = (length/24) * 7.8;
+        } else if (length > 14) {
+            baseFont = (length/21.18) * 7.8;
+        } else if (length <= 7) {
+            baseFont = 9.2;
+        }
+
+        setFontSize(baseFont);
+    }, [lang, visibleSteps]);
 
     useEffect(() => {
-        const container = containerRef.current;
-
-        const handleScroll = () => {
-        const scrollDirection = container.scrollTop > currentStep * container.clientHeight ? 'down' : 'up';
-
-        if (scrollDirection === 'down' && currentStep + stepsPerPage < stepInfo.length) {
-            setCurrentStep((prevStep) => prevStep + 1);
-        } else if (scrollDirection === 'up' && currentStep > 0) {
-            setCurrentStep((prevStep) => prevStep - 1);
-        }
+        const container = parentRef.current;
+    
+        const handleWheel = (e) => {
+            if (e.deltaY < 0) {
+                if (visibleSteps.length > 1) {
+                    const movedItem = visibleSteps.pop();
+                    visibleSteps.unshift(movedItem);
+                    setVisibleSteps([...visibleSteps]);
+                }
+            } else if (e.deltaY > 0) {
+                if (visibleSteps.length > 1) {
+                    const movedItem = visibleSteps.shift();
+                    visibleSteps.push(movedItem);
+                    setVisibleSteps([...visibleSteps]);
+                }
+            }
         };
-
-        container.addEventListener('scroll', handleScroll);
-
+    
+        container.addEventListener('wheel', handleWheel);
+    
         return () => {
-        container.removeEventListener('scroll', handleScroll);
+          container.removeEventListener('wheel', handleWheel);
         };
-    }, [currentStep, stepInfo]);
-
-    useEffect(() => {
-        const startIndex = currentStep;
-        const endIndex = Math.min(currentStep + stepsPerPage, stepInfo.length);
-        const visibleStepsArray = [];
-
-        for (let i = startIndex; i < endIndex; i++) {
-        if (i < stepInfo.length) {
-            visibleStepsArray.push(stepInfo[i]);
-        }
-        }
-
-        setVisibleSteps(visibleStepsArray);
-    }, [currentStep, stepInfo]);
+    }, []);
 
     return (
-        <MainContainer>
+        <MainContainer ref={parentRef}>
             <Indicator>
                 <SemiCircle />
                 <IndicatorStep>{visibleSteps[1]?.num}</IndicatorStep>
@@ -69,12 +77,12 @@ export default function HomeStepper() {
             <StepperBox ref={containerRef}>
                 <Step>{visibleSteps[0]?.num}</Step>
                 <TitleWrapper>
-                    <LargeTitle>{visibleSteps[0]?.text[lang]}</LargeTitle>
+                    <LargeTitle fontSize={fontSize}>{visibleSteps[1]?.text[lang]}</LargeTitle>
                 </TitleWrapper>
                 <Step bottom={true}>{visibleSteps[2]?.num}</Step>
             </StepperBox>
             <NumLine bottom={true} />
-            <Desc dangerouslySetInnerHTML={{__html: visibleSteps[0]?.desc[lang]}}></Desc>
+            <Desc dangerouslySetInnerHTML={{__html: visibleSteps[1]?.desc[lang]}}></Desc>
         </MainContainer>
     );
 }
