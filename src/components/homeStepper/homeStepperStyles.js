@@ -85,13 +85,14 @@ export const LargeTitle = styled.div`
     overflow-wrap: break-word;
     width: 45rem;
     text-transform: uppercase;
-    line-height: 9.5rem;
+    line-height: ${({ fontSize }) => fontSize && `${fontSize - 1}rem`};
 `;
 
 export const Desc = styled.div`
     color: #dedbdb;
     font-size: 1rem;
-    width: 30%;
+    margin-top: 2rem;
+    width: 38%;
     position: absolute;
     bottom: 5%;
     left: 17%;

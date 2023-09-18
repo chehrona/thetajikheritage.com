@@ -31,11 +31,30 @@ function Home() {
                 }
             }
         };
-    
+
+        const handleKeyDown = (e) => {
+            if (e.keyCode === 38) {
+                if (visibleSteps.length > 1) {
+                    const movedItem = visibleSteps.pop();
+                    visibleSteps.unshift(movedItem);
+                    setVisibleSteps([...visibleSteps]);
+                }
+            } else if (e.keyCode === 40) {
+                if (visibleSteps.length > 1) {
+                    const movedItem = visibleSteps.shift();
+                    visibleSteps.push(movedItem);
+                    setVisibleSteps([...visibleSteps]);
+                }
+            }
+        }
+
+
+        document.addEventListener('keydown', handleKeyDown);
         container.addEventListener('wheel', handleWheel);
     
         return () => {
-          container.removeEventListener('wheel', handleWheel);
+            document.removeEventListener('keydown', handleKeyDown);
+            container.removeEventListener('wheel', handleWheel);
         };
     }, []);
 

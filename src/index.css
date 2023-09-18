@@ -4,23 +4,35 @@ html {
   font-size: 16px;
 }
 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { 
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
+    html {
+        font-size: 15px;
+    }
+}
+
 body {
-  background: #0F0A00;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  font-family: 'IBM Plex Serif', serif;
-  overflow-y: scroll;
+    background: #0F0A00;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'IBM Plex Serif', serif;
+    overflow-y: scroll;
 }
 
 body * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .content-container {
-  position: relative; 
-  max-width: 1440px;
-  min-height: calc(100vh - 10.23rem);
-  height: calc(100vh - 10.23rem);
-  margin: 0 auto;
+    position: relative; 
+    max-width: 1440px;
+    min-height: calc(100vh - 10.23rem);
+    height: calc(100vh - 10.23rem);
+    margin: 0 auto;
 }

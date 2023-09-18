@@ -77,14 +77,14 @@ export const stepInfo = [
                 <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
-            {size: 16, top: "-0.5rem", right: "32rem"},
-            {size: 12, bottom: "2rem", right: "28rem"},
-            {size: 30, top: "12rem", right: "0rem"}
+            {size: 16, top: "0.5rem", right: "36rem"},
+            {size: 12, bottom: "1.5rem", right: "29.5rem"},
+            {size: 30, top: "6rem", right: "0rem"}
         ],
         inner: [
-            {size: 15, top: "1rem", right: "32.5rem", img: "/homeImages/custom3.png"},
-            {size: 11, bottom: "2.5rem", right: "30rem", img: "/homeImages/custom2.png"},
-            {size: 29, top: "12rem", right: "1rem", img: "/homeImages/custom1.png"}
+            {size: 15, top: "0.3rem", right: "35.7rem", img: "/homeImages/custom3.png"},
+            {size: 11, bottom: "2rem", right: "30rem", img: "/homeImages/custom2.png"},
+            {size: 29, top: "6rem", right: "1rem", img: "/homeImages/custom1.png"}
         ],
     },
     {
@@ -165,14 +165,14 @@ export const stepInfo = [
                 <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
-            {size: 16, top: "2rem", right: "5rem"},
-            {size: 12, top: "0rem", right: "35rem"},
-            {size: 30, bottom: "-1rem", right: "4rem"}
+            {size: 16, top: "1.8rem", right: "2rem"},
+            {size: 12, top: "0rem", right: "40rem"},
+            {size: 30, bottom: "-1rem", right: "9.5rem"}
         ],
         inner: [
-            {size: 15, top: "1.5rem", right: "6rem", img: "/homeImages/lang3.png"},
-            {size: 11, top: "0.5rem", left: "23rem", img: "/homeImages/lang2.png"},
-            {size: 29, bottom: "-0.5rem", right: "4.5rem", img: "/homeImages/lang1.png"}
+            {size: 15, top: "1rem", right: "3rem", img: "/homeImages/lang3.png"},
+            {size: 11, top: "0.5rem", right: "41rem", img: "/homeImages/lang2.png"},
+            {size: 29, bottom: "-0.5rem", right: "10rem", img: "/homeImages/lang1.png"}
         ],
     },
     {
