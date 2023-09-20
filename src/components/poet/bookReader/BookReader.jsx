@@ -37,7 +37,7 @@ export default function BookReader({ book, setOpenBook, setOverlay }) {
                     </StyledIconButton>
                 </IconWrapper>
             </Header>
-            <StyledFrame src={book.link}></StyledFrame>
+            <StyledFrame src={`https://drive.google.com/file/d/${book?.cover}/preview`}></StyledFrame>
         </StyledDialog>
     )
 }
