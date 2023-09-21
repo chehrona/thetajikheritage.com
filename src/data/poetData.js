@@ -526,7 +526,8 @@ module.exports.poets = [
         },
         works: {
             us: [   
-                    {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "History of the Bukhara Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
+                    {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"},
+                    {title: "History of the Bukharan Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
                     {title: "Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png"}, {title: "Odina", cover: "/bookCovers/ayni/usOdina.png"}, 
                     {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
                     {title: "Death of the Moneylender", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
