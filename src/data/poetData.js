@@ -542,7 +542,7 @@ module.exports.poets = [
                     {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "https://tinyurl.com/mv55abdx"},
                     {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
-                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1ST-1VLWzVFKzhZTVScg536jbrxSGFhlT"},
+                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "https://tinyurl.com/mu446x45"},
                     {title: "Ахмад — покоритель дивов", cover: "/bookCovers/ayni/ruAhmad.png"}
                 ],
             tj: [
@@ -554,7 +554,7 @@ module.exports.poets = [
                     {title: "Марги судхӯр", cover: "/bookCovers/ayni/tjUsurer.png", link: 'https://tinyurl.com/mr4asxev'},
                     {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
                     {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёт", cover: "/bookCovers/ayni/tjComplete.png"}, 
-                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "16JWFgNMcztoX3EgXWVdXdV7p7AE9h2s5"},
+                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "https://tinyurl.com/yp5jfejf"},
                     {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "https://tinyurl.com/28yrb4rw"}
                 ],
             kh: [
