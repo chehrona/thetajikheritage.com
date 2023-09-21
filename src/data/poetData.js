@@ -539,7 +539,7 @@ module.exports.poets = [
                     {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
                     {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"},
                     {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "17sLG3xU1jaG4c_9-n6MbcI4cM4fqv88F"}, 
-                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "https://tinyurl.com/mv55abdx"},
+                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "1WHlYzyfLihYruu2XnqN7pi5l-mKFKLcZ"},
                     {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
                     {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1ST-1VLWzVFKzhZTVScg536jbrxSGFhlT"},
