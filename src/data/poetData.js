@@ -527,12 +527,12 @@ module.exports.poets = [
         works: {
             us: [   
                     {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png"}, {title: "History of the Bukhara Revolution", cover: "/bookCovers/ayni/usHistory.png"}, 
-                    {title: "The Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png"}, {title: "Odina", cover: "/bookCovers/ayni/usOdina.png"}, 
+                    {title: "Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png"}, {title: "Odina", cover: "/bookCovers/ayni/usOdina.png"}, 
                     {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png"}, {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png"}, 
                     {title: "Death of the Moneylender", cover: "/bookCovers/ayni/usUsurer.png"}, {title: "Orphan", cover: "/bookCovers/ayni/usOrphan.png"},
                     {title: "Reminiscences", cover: "/bookCovers/ayni/usMemoirs.png"}, {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.png"},
                     {title: "Old School", cover: "/bookCovers/ayni/usOld.png", link: ""},
-                    {title: "Ahmad: The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.png", link: ""},
+                    {title: "Ahmad - The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.png", link: ""},
             ],
             ru: [
                     {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
