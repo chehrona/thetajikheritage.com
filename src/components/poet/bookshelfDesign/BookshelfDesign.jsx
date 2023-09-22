@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import BookReader from "../bookReader/BookReader";
+import { Tooltip } from "@mui/material";
 
 import {
     Book,
@@ -16,7 +18,6 @@ import {
     Cursor,
     CursorImg,
 } from "./bookshelfDesignStyles";
-import BookReader from "../bookReader/BookReader";
 
 export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay }) {
     const [openBook, setOpenBook] = useState(false);
@@ -71,17 +72,21 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
                 }
                 {work?.map((book, i) => {
                     return (
-                        <BookWrapper key={i}>
-                            <Overlay open={overlay === shelfNum + i}>
-                                <CloseWrapper>
-                                    <StyledClearIcon onClick={() => setOverlay(null)}/>
-                                </CloseWrapper>
-                                <ActionWrapper>
-                                    <ActionIcon src={'/bookIcons/smartphone.png'} onClick={openReader} />
-                                </ActionWrapper>
-                            </Overlay>
-                            <Book data={shelfNum + i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
-                        </BookWrapper>
+                        <Tooltip title={book.title} placement="top" arrow={true} key={i}>
+                            <span>
+                                <BookWrapper>
+                                    <Overlay open={overlay === shelfNum + i}>
+                                        <CloseWrapper>
+                                            <StyledClearIcon onClick={() => setOverlay(null)}/>
+                                        </CloseWrapper>
+                                        <ActionWrapper>
+                                            <ActionIcon src={'/bookIcons/smartphone.png'} onClick={openReader} />
+                                        </ActionWrapper>
+                                    </Overlay>
+                                    <Book data={shelfNum + i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
+                                </BookWrapper>
+                            </span>
+                        </Tooltip>
                     )
                 })}
             </BooksContainer>

@@ -536,12 +536,14 @@ module.exports.poets = [
                     {title: "Ahmad - The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.png", link: ""},
             ],
             ru: [
-                    {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
-                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
+                    {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, 
+                    {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
+                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png", link: "17xpNi4nRPT4Sj9XkkI6wP2ZCewCty80X"},
+                    {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
                     {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"},
                     {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "1fu9EiIEVAkkqEh1YC0JBKzv6sda1tS5Z"}, 
                     {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "1FQvPuzwKUEgjwLL2rvLT1MzuGPNmaD0U"},
-                    {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
+                    {title: "Ятим", cover: "/bookCovers/ayni/ruOrphan.png"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
                     {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1CTy1yeNjCrlVlq5mQzvNkBBhVaprGSy5"},
                     {title: "Ахмад — покоритель дивов", cover: "/bookCovers/ayni/ruAhmad.png", link: "1bipZsWxqUjBomme8VTsw_mOVp6gG-Dy-"}
