@@ -540,10 +540,10 @@ module.exports.poets = [
                     {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png"}, {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
                     {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"},
                     {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "1fu9EiIEVAkkqEh1YC0JBKzv6sda1tS5Z"}, 
-                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "1WHlYzyfLihYruu2XnqN7pi5l-mKFKLcZ"},
+                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "1FQvPuzwKUEgjwLL2rvLT1MzuGPNmaD0U"},
                     {title: "Сирота", cover: "/bookCovers/ayni/ruOrphan.png"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
-                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1ST-1VLWzVFKzhZTVScg536jbrxSGFhlT"},
+                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1CTy1yeNjCrlVlq5mQzvNkBBhVaprGSy5"},
                     {title: "Ахмад — покоритель дивов", cover: "/bookCovers/ayni/ruAhmad.png"}
                 ],
             tj: [
@@ -556,7 +556,7 @@ module.exports.poets = [
                     {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
                     {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёт", cover: "/bookCovers/ayni/tjComplete.png"}, 
                     {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "1ZaRiT-epFoiKlfQNCJfQql2V8ED7wvrY"},
-                    {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "https://tinyurl.com/28yrb4rw"}
+                    {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "1GBQCwPTPy_70o1jYjA_aRSNtX58LVDV9"}
                 ],
             kh: [
                     {title: "نمونه ادبیات تاجیک", cover: "/bookCovers/ayni/khExample.png"}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.png"}, 
