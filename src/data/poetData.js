@@ -538,7 +538,7 @@ module.exports.poets = [
             ru: [
                     {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png"}, 
                     {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png"}, 
-                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png", link: "17xpNi4nRPT4Sj9XkkI6wP2ZCewCty80X"},
+                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png", link: "18Za2STYio8wj6q7JpJAjAeAEh5nG3pSM"},
                     {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png"},
                     {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"},
                     {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "1fu9EiIEVAkkqEh1YC0JBKzv6sda1tS5Z"}, 
