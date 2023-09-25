@@ -543,7 +543,7 @@ module.exports.poets = [
                     {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png"},
                     {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "1fu9EiIEVAkkqEh1YC0JBKzv6sda1tS5Z"}, 
                     {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "1FQvPuzwKUEgjwLL2rvLT1MzuGPNmaD0U"},
-                    {title: "Ятим", cover: "/bookCovers/ayni/ruOrphan.png"},
+                    {title: "Ятим", cover: "/bookCovers/ayni/ruOrphan.png", link: "1GPq7NDUA21V-lzKlnkOs7Cl_ezWMPisx"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png"}, {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png"}, 
                     {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1CTy1yeNjCrlVlq5mQzvNkBBhVaprGSy5"},
                     {title: "Ахмад — покоритель дивов", cover: "/bookCovers/ayni/ruAhmad.png", link: "1bipZsWxqUjBomme8VTsw_mOVp6gG-Dy-"}
