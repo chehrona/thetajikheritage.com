@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import { Border, HomeImage, MainContainer } from "./imageBallStyles";
 
 export default function ImageBall({ outerSpheres, innerSpheres }) {
-    console.log(outerSpheres, innerSpheres)
     return (
         <MainContainer>
             {outerSpheres?.map((ball) => {
