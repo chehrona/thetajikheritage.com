@@ -18,9 +18,11 @@ import {
     Cursor,
     CursorImg,
 } from "./bookshelfDesignStyles";
+import BookDialog from "../bookDialog/BookDialog";
 
 export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay }) {
     const [openBook, setOpenBook] = useState(false);
+    const [bookDialog, setBookDialog] = useState(null);
     const [customCursor, setCustomCursor] = useState(false);
     const [mousePosition, setMousePosition] = useState({
         x: 0,
@@ -51,7 +53,11 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
     }
 
     function openReader() {
-        setOpenBook(true);
+        if (work[overlay - shelfNum]?.msg) {
+            setBookDialog(true);
+        } else {
+            setOpenBook(true);
+        }
     }
 
     return (
@@ -91,6 +97,7 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
                 })}
             </BooksContainer>
             <Shelf />
+            {bookDialog && <BookDialog msg={work[overlay - shelfNum]?.msg} bookDialog={true} setBookDialog={setBookDialog} setOverlay={setOverlay} />}
             {openBook && <BookReader book={work[overlay - shelfNum]} setOpenBook={setOpenBook} setOverlay={setOverlay} />}
         </section>
     )

@@ -1,5 +1,6 @@
 import React from "react";
 import { Zoom, Dialog } from '@mui/material';
+import { useSetLang } from "../../../App";
 
 import {
     Desc,
@@ -9,9 +10,7 @@ import {
     InfoTitle,
     StyledCloseIcon,
     BodyContainer,
-    AwardImg,
-    Wrapper
-} from "./awardDialogStyles";
+} from "./bookDialogStyles";
 
 const Transition = ({ children, ...props }) => (
     <Zoom {...props}>
@@ -19,19 +18,22 @@ const Transition = ({ children, ...props }) => (
     </Zoom>
 );
 
-export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo }) {
+export default function BookDialog({ msg, setBookDialog, bookDialog, setOverlay }) {
+    const { lang } = useSetLang();
+
     function handleClose() {
-        setShowAwardInfo(false);
+        setBookDialog(false);
+        setOverlay(null);
     }
 
     return (
         <Dialog
-            open={showAwardInfo}
+            open={bookDialog}
             fullWidth
-            maxWidth={"md"}
+            maxWidth={"sm"}
             TransitionComponent={Transition}
             TransitionProps={{
-                in: showAwardInfo,
+                in: bookDialog,
                 easing: {enter: "linear", exit: "linear"}
             }}
             PaperProps={{
@@ -42,7 +44,7 @@ export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo
             }}
             BackdropProps={{
                 style: {
-                    background: '#fcf6e9',
+                    background: '#0F0A00',
                     backgroundImage: "url('/noise.png')",
                     opacity: '0.3'
                 },
@@ -50,17 +52,14 @@ export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo
         >
             <StyledContent>
                 <InfoContainer>
-                    <InfoTitle>{awardInfo?.title}</InfoTitle>
+                    <InfoTitle>
+                        {lang === "us" ? "Apologies!" : (lang === "ru" ? "Извините!" : "Бубахшед!")}
+                    </InfoTitle>
                     <StyledIconButton onClick={handleClose}>
                         <StyledCloseIcon />
                     </StyledIconButton>
                     <BodyContainer>
-                        <Wrapper first={true}>
-                            <AwardImg src={awardInfo?.img} />
-                        </Wrapper>
-                        <Wrapper>
-                            <Desc dangerouslySetInnerHTML={{__html: awardInfo?.desc}} />
-                        </Wrapper>
+                        <Desc>{msg}</Desc>
                     </BodyContainer>
                 </InfoContainer>
             </StyledContent>

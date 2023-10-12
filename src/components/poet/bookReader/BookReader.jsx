@@ -29,7 +29,7 @@ export default function BookReader({ book, setOpenBook, setOverlay }) {
                     </StyledLink>
                 </LogoWrapper>
                 <TitleWrapper>
-                    <Title>{book.title}</Title>
+                    <Title>{book?.title}</Title>
                 </TitleWrapper>
                 <IconWrapper>
                     <StyledIconButton onClick={closeReader}>
@@ -37,7 +37,7 @@ export default function BookReader({ book, setOpenBook, setOverlay }) {
                     </StyledIconButton>
                 </IconWrapper>
             </Header>
-            <StyledFrame src={`https://drive.google.com/file/d/${book.link}/preview`}></StyledFrame>
+            <StyledFrame src={`https://drive.google.com/file/d/${book?.link}/preview`}></StyledFrame>
         </StyledDialog>
     )
 }

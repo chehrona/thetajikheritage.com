@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import { Info, Close } from "@mui/icons-material";
+import { Close } from "@mui/icons-material";
 import { IconButton, DialogContent } from "@mui/material";
 
 export const Desc = styled.div`
     width: 100%;
     height: 100%;
-    color: #dedbdb;
+    color: #0F0A00;
     line-height: 1.5rem;
+    text-align: center;
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -18,7 +19,7 @@ export const StyledIconButton = styled(IconButton)`
 `;
 
 export const StyledContent = styled(DialogContent)`
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     position: relative;
     padding: 0.001rem;
 `;
@@ -26,14 +27,14 @@ export const StyledContent = styled(DialogContent)`
 export const InfoContainer = styled.div`
     height: 100%;
     width: 100%;
-    border-radius: 2rem;
-    background: #000;
+    border-radius: 1.5rem;
+    background: #fcf6e9;
     box-shadow: 0rem 0rem 0.3rem 0rem #0F0A00;
     padding: 0.5rem;
 `;
 
 export const InfoTitle = styled.div`
-    color: #ffffff;
+    color: #000000;
     display: flex;
     justify-content: center;
     font-style: italic;
@@ -50,19 +51,4 @@ export const StyledCloseIcon = styled(Close)`
 export const BodyContainer = styled.div`
     display: flex;
     margin: 1rem;
-`;
-
-export const Wrapper = styled.div`
-    width: ${({ first }) => first ? "25%" : "75%"};
-    height: 100%;
-`;
-
-export const AwardImg = styled.img`
-    border-radius: 1rem;
-    height: 15rem;
-    width: 11rem;
-    padding: 1rem;
-    background: #0F0A00;
-    background-image: url(${'/noise.png'});
-    box-shadow: 0rem 0rem 0.4rem 0.01rem #bd9d52;
 `;
