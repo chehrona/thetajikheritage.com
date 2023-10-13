@@ -93,7 +93,6 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                             allow='autoplay; encrypted-media'
                             fullWidth
                             allowFullScreen
-                            frameBorder="0"
                             ref={iframeRef}
                             onLoad={handleLoader}
                         />

@@ -542,7 +542,7 @@ module.exports.poets = [
             ru: [
                     {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png", msg: "Это сборник стихов и доступен только на таджикском языке."}, 
                     {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png", msg: "В настоящее время книга доступна только на таджикском языке. Пожалуйста, зайдите позже."}, 
-                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png", link: "1O3hJ4zUaXMnNQzFXbMk4IIWmu3uoeMmK"},
+                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png", link: "1Q-CpVr_sM3aCPkjGAEjwIowCccJCvwZO"},
                     {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png", link: "1DJ5LivDDyRpKMpK7AuCGjY7KVVMic0GR"},
                     {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."},
                     {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "1A17vzLFRbj_5u0Rj5vXk0nAII7bTPzxX"}, 
