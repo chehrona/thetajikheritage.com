@@ -550,7 +550,7 @@ module.exports.poets = [
                     {title: "Ятим", cover: "/bookCovers/ayni/ruOrphan.png", link: "1Z-cnEcNolnybnohce6SHYk9IzaG1CdXT"},
                     {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."}, 
                     {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."}, 
-                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1aZBIlpGTiWFH7GYUpn8IiKFDjw7L6M1b"},
+                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1-a8FzbVZxFcY89YCQpJ0Gg4vux_rNWrb"},
                     {title: "Ахмад — покоритель дивов", cover: "/bookCovers/ayni/ruAhmad.png", link: "1bipZsWxqUjBomme8VTsw_mOVp6gG-Dy-"}
                 ],
             tj: [
