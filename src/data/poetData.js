@@ -555,7 +555,7 @@ module.exports.poets = [
                 ],
             tj: [
                     {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.png", link: 'https://tinyurl.com/ew7j8ucr'},
-                    {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.png"}, 
+                    {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.png", link: "1d7qBDSB-8_Q0eyu0t_93ShW_Fea1-npm"}, 
                     {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"},
                     {title: "Одина", cover: "/bookCovers/ayni/tjOdina.png", link: 'https://tinyurl.com/2s3dvwje'},
                     {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.png"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.png"}, 
