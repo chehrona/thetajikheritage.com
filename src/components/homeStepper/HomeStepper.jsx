@@ -14,7 +14,8 @@ import {
     IndicatorStep,
     TitleWrapper,
     LargeTitle,
-    Desc
+    Desc,
+    OtherSteps
 } from "./homeStepperStyles";
 
 export default function HomeStepper({ visibleSteps }) {
@@ -27,16 +28,18 @@ export default function HomeStepper({ visibleSteps }) {
                 <SemiCircle />
                 <IndicatorStep>{visibleSteps[1]?.num}</IndicatorStep>
             </Indicator>
-            <NumLine />
-            <StepperBox ref={containerRef}>
+            <OtherSteps>
+                <NumLine />
                 <Step>{visibleSteps[0]?.num}</Step>
+                <Step bottom={true}>{visibleSteps[2]?.num}</Step>
+                <NumLine bottom={true} />
+            </OtherSteps>
+            <StepperBox ref={containerRef}>
                 <TitleWrapper>
                     <LargeTitle fontSize={visibleSteps[1]?.text[lang].font}>{visibleSteps[1]?.text[lang].text}</LargeTitle>
                 </TitleWrapper>
-                <Step bottom={true}>{visibleSteps[2]?.num}</Step>
+                <Desc dangerouslySetInnerHTML={{__html: visibleSteps[1]?.desc[lang]}}></Desc>
             </StepperBox>
-            <NumLine bottom={true} />
-            <Desc dangerouslySetInnerHTML={{__html: visibleSteps[1]?.desc[lang]}}></Desc>
         </MainContainer>
     );
 }

@@ -31,7 +31,7 @@ export const PoetCardWrapper = styled.div`
     width: 23rem;
     cursor: pointer;
     background: #0F0A00;
-    color: #ffffff;
+    color: #fcf6e9;
     position: relative;
     opacity: 0;
     animation: ${slideOut} 1s ease-in-out forwards;

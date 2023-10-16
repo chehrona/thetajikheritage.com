@@ -42,11 +42,10 @@ export const IndicatorStep = styled.div`
 
 export const NumLine = styled.div`
     background: #bd9d52;
+    width: 0.05rem;
+    height: 5rem;
     position: absolute;
     ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
-    width: 0.05rem;
-    height: 15%;
-    left: 13.5%;
 `;
 
 export const StepperBox = styled.div`
@@ -62,8 +61,9 @@ export const Step = styled.div`
     color: #dedbdbb2;
     font-family: 'EB Garamond', serif;
     position: absolute;
-    left: 18%;
-    ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
+    left: 50%;
+    transform: translateX(-50%);
+    ${({ bottom }) => bottom ? "bottom: 5.5rem" : "top: 5.5rem"};
 `;
 
 export const TitleWrapper = styled.div`
@@ -92,8 +92,14 @@ export const Desc = styled.div`
     color: #dedbdb;
     font-size: 1rem;
     margin-top: 2rem;
-    width: 38%;
+    width: 70%;
     position: absolute;
-    bottom: 5%;
-    left: 17%;
+    bottom: -15%;
+    left: 35%;
+`;
+
+export const OtherSteps = styled.div`
+    position: absolute;
+    left: 18%;
+    height: 100%;
 `;

@@ -33,13 +33,13 @@ export const stepInfo = [
                 <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
-            {size: 16, bottom: "-2rem", right: "26rem"},
-            {size: 12, bottom: "2rem", right: "7.7rem"},
+            {size: 16, bottom: "-2rem", right: "23rem"},
+            {size: 12, bottom: "8rem", right: "7.7rem"},
             {size: 30, top: "-6.2rem", right: "-3rem"}
         ],
         inner: [
-            {size: 15, bottom: "-1.5rem", right: "26.5rem", img: "/homeImages/craft3.png"},
-            {size: 11, bottom: "2.5rem", right: "7.2rem", img: "/homeImages/craft2.png"},
+            {size: 15, bottom: "-1.5rem", right: "23.5rem", img: "/homeImages/craft3.png"},
+            {size: 11, bottom: "8.5rem", right: "7.2rem", img: "/homeImages/craft2.png"},
             {size: 29, top: "-5.5rem", right: "-1.2rem", img: "/homeImages/craft1.png"}
         ],
     },
@@ -51,14 +51,15 @@ export const stepInfo = [
             tj: {text: "Расму оин", font: 9}
         },
         desc: {
-            us: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
-                of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
+            us: `Our languages, whether belonging to the Western or Eastern Iranian language continua, 
+                lie at the core of our identity and have been detrimental for our survival.
                 <div class='space'></div>
-                There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
-                many as old as the Eastern Iranian civilization itself.
+                They encapsulate our unique worldviews, our ancestral wisdom, our stories, and our songs.
+                Our languages stand as a testament to our resilience, functioning as a bridge that 
+                connects us to our past and present - defining who we are.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                <a href='/languages' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
             ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>
@@ -78,13 +79,13 @@ export const stepInfo = [
         },
         outer: [
             {size: 16, top: "0.5rem", right: "36rem"},
-            {size: 12, bottom: "1.5rem", right: "29.5rem"},
-            {size: 30, top: "6rem", right: "0rem"}
+            {size: 12, bottom: "1.5rem", right: "24.5rem"},
+            {size: 30, top: "6rem", right: "0.5rem"}
         ],
         inner: [
             {size: 15, top: "0.3rem", right: "35.7rem", img: "/homeImages/custom3.png"},
-            {size: 11, bottom: "2rem", right: "30rem", img: "/homeImages/custom2.png"},
-            {size: 29, top: "6rem", right: "1rem", img: "/homeImages/custom1.png"}
+            {size: 11, bottom: "2rem", right: "25rem", img: "/homeImages/custom2.png"},
+            {size: 29, top: "6rem", right: "1.5rem", img: "/homeImages/custom1.png"}
         ],
     },
     {
@@ -139,14 +140,15 @@ export const stepInfo = [
             tj: {text: "Забон & адабиёт", font: 9.2}
         },
         desc: {
-            us: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
-                of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
+            us: `Our languages, whether belonging to the Western or Eastern Iranian language continua, 
+                lie at the core of our identity and have been detrimental for our survival.
                 <div class='space'></div>
-                There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
-                many as old as the Eastern Iranian civilization itself.
+                They encapsulate our unique worldviews, our ancestral wisdom, our stories, and our songs.
+                Our languages stand as a testament to our resilience, serving as a bridge that 
+                connects us to our past and our present - defining who Tajiks are.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                <a href='/languages' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
             ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>

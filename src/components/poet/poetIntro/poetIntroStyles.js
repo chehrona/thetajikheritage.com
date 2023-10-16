@@ -80,7 +80,7 @@ export const SegmentContainer = styled.div`
     position: relative;
 `;
 
-export const SectionTitle = styled.a`
+export const SectionTitle = styled.div`
     line-height: 3rem;
     color: #dedbdb;
     text-decoration: none;

@@ -14,7 +14,7 @@ import {
     NumSpan
 } from "./poetIntroStyles";
 
-export default function PoetIntro({ poet }) {
+export default function PoetIntro({ poet, scrollToView }) {
     const { lang } = useSetLang();
     const yearOne = poet?.years[lang][0].split('');
     const yearTwo = poet?.years[lang][1].split('');
@@ -25,8 +25,8 @@ export default function PoetIntro({ poet }) {
                 <SegmentContainer>
                     {poet?.sections[lang].map((piece, i) => {
                         return (
-                            <SectionTitle key={i} href={`#${poet?.sections.us[i]}`}>
-                                <TitleSpan delay={`${0.03*i}s`}>{piece}</TitleSpan>
+                            <SectionTitle key={i} onClick={(e) => scrollToView(e)}>
+                                <TitleSpan delay={`${0.03*i}s`} data={`#${poet?.sections.us[i]}`}>{piece}</TitleSpan>
                             </SectionTitle>
                         )
                     })}

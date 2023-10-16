@@ -1,5 +1,5 @@
 import React from "react";
-import {useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { poets } from "../../data/poetData";
 
 import { 
@@ -20,11 +20,20 @@ export default function PoetPage() {
     const { id } = useParams(),
         poet = poets.filter((poet) => poet.id === id)[0];
 
+    const scrollToView = (e) => {
+        e.preventDefault();
+        const target = e.target.getAttribute("data");
+        window.scrollTo({
+            top: document.querySelector(target).offsetTop,
+            behavior: "smooth",
+        });
+    }
+
     if (poet) {
         return (
             <PageContainer>
                 <PoetContainer>
-                    <PoetIntro poet={poet} />
+                    <PoetIntro poet={poet} scrollToView={scrollToView} />
                     <PoetBio poet={poet} />
                     <PoetWorks poet={poet.works} />
                     <PoetMovies poet={poet.movies} />
