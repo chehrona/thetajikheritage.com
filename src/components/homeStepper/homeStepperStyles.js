@@ -87,13 +87,15 @@ export const LargeTitle = styled.div`
     width: 45rem;
     text-transform: uppercase;
     line-height: ${({ fontSize }) => fontSize && `${fontSize - 1}rem`};
+    padding-top: 2rem;
 `;
 
 export const Desc = styled.div`
     color: #dedbdb;
     font-size: 1rem;
-    width: 30%;
+    width: 40%;
     margin-left: 11%;
+    padding-bottom: 2rem;
     position: relative;
     z-index: 2;
 `;
