@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
+import React, { useRef } from "react";
 import { useSetLang } from "../../App";
 
 import { stepInfo } from "./helper"; 
@@ -10,13 +10,14 @@ import {
     NumLine,
     StepperBox,
     Step,
-    MiddleStep,
     IndicatorStep,
     TitleWrapper,
     LargeTitle,
     Desc,
     OtherSteps,
-    StepperContainer
+    StepperContainer,
+    HideBox,
+    Overlay
 } from "./homeStepperStyles";
 
 export default function HomeStepper({ visibleSteps }) {
@@ -30,10 +31,12 @@ export default function HomeStepper({ visibleSteps }) {
                 <IndicatorStep>{visibleSteps[1]?.num}</IndicatorStep>
             </Indicator>
             <OtherSteps>
-                <NumLine />
-                <Step>{visibleSteps[0]?.num}</Step>
-                <Step bottom={true}>{visibleSteps[2]?.num}</Step>
-                <NumLine bottom={true} />
+                <HideBox>
+                    <Overlay>
+                        <NumLine />
+                        <Step>{visibleSteps[0]?.num}</Step>
+                    </Overlay>
+                </HideBox>
             </OtherSteps>
             <StepperContainer>
                 {stepInfo.map((step) => {
@@ -47,6 +50,14 @@ export default function HomeStepper({ visibleSteps }) {
                     );
                 })}
             </StepperContainer>
+            <OtherSteps>
+                <HideBox bottom={1}>
+                    <Overlay>
+                        <Step>{visibleSteps[2]?.num}</Step>
+                        <NumLine />
+                    </Overlay>
+                </HideBox>
+            </OtherSteps>
         </MainContainer>
     );
 }

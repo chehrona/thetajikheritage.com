@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
     width: 100%;
     height: 100%;
-    overflow-y: scroll;
+    overflow: hidden;
 `;
 
 export const Indicator = styled.div`
@@ -43,34 +43,31 @@ export const IndicatorStep = styled.div`
 export const NumLine = styled.div`
     background: #bd9d52;
     width: 0.05rem;
-    height: 5rem;
-    position: absolute;
-    ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
+    height: 5rem;   
+    margin-left: 0.56%; 
 `;
 
 export const StepperContainer = styled.div`
-    position: absolute;
-    top: 16%;
-    left: 10%;
-    height: 100%;
+    height: 90%;
     width: 100%;
     overflow: scroll;
+    padding-left: 10%;
+
+    &::-webkit-scrollbar {
+        display: none;
+        scrollbar-width: none;
+    }
 `;
 
 export const StepperBox = styled.div`
     width: 100%;
     height: 100%;
-    position: relative;
 `;
 
 export const Step = styled.div`
     font-size: 1.2rem;
     color: #dedbdbb2;
     font-family: 'EB Garamond', serif;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    ${({ bottom }) => bottom ? "bottom: 5.5rem" : "top: 5.5rem"};
 `;
 
 export const TitleWrapper = styled.div`
@@ -95,15 +92,30 @@ export const LargeTitle = styled.div`
 export const Desc = styled.div`
     color: #dedbdb;
     font-size: 1rem;
-    margin-top: 2rem;
     width: 30%;
-    position: absolute;
-    bottom: 22%;
-    left: 11%;
+    margin-left: 11%;
+    position: relative;
+    z-index: 2;
 `;
 
 export const OtherSteps = styled.div`
-    position: absolute;
-    left: 18%;
+    position: relative;
+    width: 100%;
+    height: 10%;
+`;
+
+export const Overlay = styled.div`
+    width: 100%;
+    padding-left: 17.3%;
     height: 100%;
+    background: 
+        linear-gradient(90deg, rgba(189, 157, 82, 0.05), rgba(189, 157, 82, 0.07), rgba(189, 157, 82, 0.09), rgba(189, 157, 82, 0.11));
+`;
+
+export const HideBox = styled.div`
+    background-color: #0F0A00;
+    width: 100%;
+    position: absolute;
+    bottom: ${({ bottom }) => bottom && "4.2rem"};
+    z-index: 1;
 `;
