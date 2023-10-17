@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-    width: 45%;
+    width: 100%;
     height: 100%;
-    margin-right: 5%;
+    overflow-y: scroll;
 `;
 
 export const Indicator = styled.div`
@@ -48,12 +48,19 @@ export const NumLine = styled.div`
     ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
 `;
 
-export const StepperBox = styled.div`
-    position: relative;
+export const StepperContainer = styled.div`
+    position: absolute;
     top: 16%;
-    left: 10.7%;
+    left: 10%;
+    height: 100%;
     width: 100%;
-    height: 68%;
+    overflow: scroll;
+`;
+
+export const StepperBox = styled.div`
+    width: 100%;
+    height: 100%;
+    position: relative;
 `;
 
 export const Step = styled.div`
@@ -67,9 +74,6 @@ export const Step = styled.div`
 `;
 
 export const TitleWrapper = styled.div`
-    position: absolute;
-    top: 10%;
-    left: 10%;
     height: 65%;
     display: flex;
     align-items: center;
@@ -92,10 +96,10 @@ export const Desc = styled.div`
     color: #dedbdb;
     font-size: 1rem;
     margin-top: 2rem;
-    width: 70%;
+    width: 30%;
     position: absolute;
-    bottom: -15%;
-    left: 35%;
+    bottom: 22%;
+    left: 11%;
 `;
 
 export const OtherSteps = styled.div`

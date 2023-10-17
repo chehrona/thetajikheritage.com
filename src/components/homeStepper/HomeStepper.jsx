@@ -15,7 +15,8 @@ import {
     TitleWrapper,
     LargeTitle,
     Desc,
-    OtherSteps
+    OtherSteps,
+    StepperContainer
 } from "./homeStepperStyles";
 
 export default function HomeStepper({ visibleSteps }) {
@@ -34,12 +35,18 @@ export default function HomeStepper({ visibleSteps }) {
                 <Step bottom={true}>{visibleSteps[2]?.num}</Step>
                 <NumLine bottom={true} />
             </OtherSteps>
-            <StepperBox ref={containerRef}>
-                <TitleWrapper>
-                    <LargeTitle fontSize={visibleSteps[1]?.text[lang].font}>{visibleSteps[1]?.text[lang].text}</LargeTitle>
-                </TitleWrapper>
-                <Desc dangerouslySetInnerHTML={{__html: visibleSteps[1]?.desc[lang]}}></Desc>
-            </StepperBox>
+            <StepperContainer>
+                {stepInfo.map((step) => {
+                    return (
+                        <StepperBox>
+                            <TitleWrapper>
+                                <LargeTitle fontSize={step?.text[lang].font}>{step?.text[lang].text}</LargeTitle>
+                            </TitleWrapper>
+                            <Desc dangerouslySetInnerHTML={{__html: step?.desc[lang]}}></Desc>
+                        </StepperBox>
+                    );
+                })}
+            </StepperContainer>
         </MainContainer>
     );
 }

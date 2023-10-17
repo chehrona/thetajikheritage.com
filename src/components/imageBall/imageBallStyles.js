@@ -14,9 +14,7 @@ const shrink = keyframes`
 `;
 
 export const MainContainer = styled.div`
-    width: 50%;
     height: 100%;
-    overflow: auto;
 `;
 
 export const Border = styled.div`
