@@ -72,7 +72,6 @@ export default function HomeStepper() {
         document.addEventListener('keydown', handleKeyDown);
 
         return () => {
-            containerRef.current.removeEventListener('scroll', handleScroll);
             document.removeEventListener('keydown', handleKeyDown);
         };
     }, []);
