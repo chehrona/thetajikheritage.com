@@ -167,12 +167,12 @@ export const stepInfo = [
                 <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
-            {size: 16, top: "1.8rem", right: "2rem"},
+            {size: 16, top: "1.2rem", right: "1rem"},
             {size: 12, top: "0rem", right: "40rem"},
             {size: 30, bottom: "-1rem", right: "9.5rem"}
         ],
         inner: [
-            {size: 15, top: "1rem", right: "3rem", img: "/homeImages/lang3.png"},
+            {size: 15, top: "0.4rem", right: "2rem", img: "/homeImages/lang3.png"},
             {size: 11, top: "0.5rem", right: "41rem", img: "/homeImages/lang2.png"},
             {size: 29, bottom: "-0.5rem", right: "10rem", img: "/homeImages/lang1.png"}
         ],

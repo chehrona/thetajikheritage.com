@@ -5,7 +5,6 @@ import { stepInfo } from "./helper";
 
 import {
     MainContainer,
-    Indicator,
     SemiCircle,
     NumLine,
     StepperBox,
@@ -16,8 +15,6 @@ import {
     Desc,
     OtherSteps,
     StepperContainer,
-    HideBox,
-    Overlay
 } from "./homeStepperStyles";
 
 export default function HomeStepper({ containerRef, divRefs, opacities }) {
@@ -26,12 +23,8 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
         <MainContainer>
                 <SemiCircle />
             <OtherSteps>
-                <HideBox>
-                    <Overlay>
-                        <NumLine />
-                        {/* <Step>{visibleSteps[0]?.num}</Step> */}
-                    </Overlay>
-                </HideBox>
+                <NumLine />
+                {/* <Step>{visibleSteps[0]?.num}</Step> */}
             </OtherSteps>
             <StepperContainer ref={containerRef}>
                 {stepInfo.map((step, i) => {
@@ -52,13 +45,9 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                     );
                 })}
             </StepperContainer>
-            <OtherSteps>
-                <HideBox bottom={1}>
-                    <Overlay>
-                        {/* <Step>{visibleSteps[2]?.num}</Step> */}
-                        <NumLine />
-                    </Overlay>
-                </HideBox>
+            <OtherSteps bottom={1}>
+                {/* <Step>{visibleSteps[2]?.num}</Step> */}
+                <NumLine />
             </OtherSteps>
         </MainContainer>
     );

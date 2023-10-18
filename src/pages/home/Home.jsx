@@ -30,7 +30,7 @@ function Home() {
                 if (divBottom < containerTop || divTop > containerBottom) {
                     return 0;
                 } else {
-                    const opacity = 1 - (Math.abs(containerTop - divTop) / containerRect.height);
+                    const opacity = 1 - (Math.abs(containerTop - divTop) / (0.8 * containerRect.height));
                     return opacity;
                 }
             });

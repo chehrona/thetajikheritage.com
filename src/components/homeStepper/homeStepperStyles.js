@@ -42,7 +42,7 @@ export const NumLine = styled.div`
     background: #bd9d52;
     width: 0.05rem;
     height: 5rem;   
-    margin-left: 0.56%; 
+    margin-left: 0.56%;
 `;
 
 export const StepperContainer = styled.div`
@@ -98,7 +98,6 @@ export const Desc = styled.div`
     font-size: 1rem;
     width: 40%;
     margin-left: 11%;
-    padding-bottom: 2rem;
     position: relative;
     z-index: 3;
 `;
@@ -107,20 +106,6 @@ export const OtherSteps = styled.div`
     position: relative;
     width: 100%;
     height: 10%;
-`;
-
-export const Overlay = styled.div`
-    width: 100%;
     padding-left: 15.3%;
-    height: 100%;
-    background: 
-        linear-gradient(90deg, rgba(189, 157, 82, 0.05), rgba(189, 157, 82, 0.07), rgba(189, 157, 82, 0.09), rgba(189, 157, 82, 0.11));
-`;
-
-export const HideBox = styled.div`
-    background-color: #0F0A00;
-    width: 100%;
-    position: relative;
     bottom: ${({ bottom }) => bottom && "5.43rem"};
-    z-index: 1;
 `;
