@@ -6,17 +6,11 @@ export const MainContainer = styled.div`
     overflow: hidden;
 `;
 
-export const Indicator = styled.div`
+export const SemiCircle = styled.div`
     position: absolute;
     left: -1.5rem;
     top: 50%;
     transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-export const SemiCircle = styled.div`
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
@@ -37,7 +31,10 @@ export const IndicatorStep = styled.div`
     font-size: 1.5rem;
     color: #ffffff;
     font-family: 'EB Garamond', serif;
-    margin-left: 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2rem;
 `;
 
 export const NumLine = styled.div`
@@ -52,6 +49,8 @@ export const StepperContainer = styled.div`
     width: 100%;
     overflow: scroll;
     padding-left: 10%;
+    /* scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory; */
 
     &::-webkit-scrollbar {
         display: none;
@@ -62,6 +61,9 @@ export const StepperContainer = styled.div`
 export const StepperBox = styled.div`
     width: 100%;
     height: 100%;
+    display: flex;
+    /* scroll-snap-align: start; */
+    opacity: ${({ opacity }) => opacity && opacity};
 `;
 
 export const Step = styled.div`
@@ -97,7 +99,7 @@ export const Desc = styled.div`
     margin-left: 11%;
     padding-bottom: 2rem;
     position: relative;
-    z-index: 2;
+    z-index: 3;
 `;
 
 export const OtherSteps = styled.div`
@@ -108,7 +110,7 @@ export const OtherSteps = styled.div`
 
 export const Overlay = styled.div`
     width: 100%;
-    padding-left: 17.3%;
+    padding-left: 15.3%;
     height: 100%;
     background: 
         linear-gradient(90deg, rgba(189, 157, 82, 0.05), rgba(189, 157, 82, 0.07), rgba(189, 157, 82, 0.09), rgba(189, 157, 82, 0.11));
