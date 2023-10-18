@@ -34,12 +34,12 @@ export const stepInfo = [
         },
         outer: [
             {size: 16, bottom: "-2rem", right: "23rem"},
-            {size: 12, bottom: "8rem", right: "7.7rem"},
+            {size: 12, bottom: "5rem", right: "7.7rem"},
             {size: 30, top: "-6.2rem", right: "-3rem"}
         ],
         inner: [
             {size: 15, bottom: "-1.5rem", right: "23.5rem", img: "/homeImages/craft3.png"},
-            {size: 11, bottom: "8.5rem", right: "7.2rem", img: "/homeImages/craft2.png"},
+            {size: 11, bottom: "5.5rem", right: "7.2rem", img: "/homeImages/craft2.png"},
             {size: 29, top: "-5.5rem", right: "-1.2rem", img: "/homeImages/craft1.png"}
         ],
     },
@@ -78,13 +78,13 @@ export const stepInfo = [
                 <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
-            {size: 16, top: "0.5rem", right: "36rem"},
-            {size: 12, bottom: "1.5rem", right: "24.5rem"},
+            {size: 16, top: "-0.5rem", right: "32rem"},
+            {size: 12, bottom: "1rem", right: "27.5rem"},
             {size: 30, top: "6rem", right: "0.5rem"}
         ],
         inner: [
-            {size: 15, top: "0.3rem", right: "35.7rem", img: "/homeImages/custom3.png"},
-            {size: 11, bottom: "2rem", right: "25rem", img: "/homeImages/custom2.png"},
+            {size: 15, top: "-0.3rem", right: "31.7rem", img: "/homeImages/custom3.png"},
+            {size: 11, bottom: "1.5rem", right: "28rem", img: "/homeImages/custom2.png"},
             {size: 29, top: "6rem", right: "1.5rem", img: "/homeImages/custom1.png"}
         ],
     },
@@ -217,7 +217,7 @@ export const stepInfo = [
         ],
         inner: [
             {size: 15, top: "1.5rem", right: "6rem", img: "/homeImages/history3.png"},
-            {size: 11, top: "0.5rem", left: "23rem", img: "/homeImages/history2.png"},
+            {size: 11, top: "0.5rem", right: "23rem", img: "/homeImages/history2.png"},
             {size: 29, bottom: "-0.5rem", right: "4.5rem", img: "/homeImages/history1.png"}
         ],
     },

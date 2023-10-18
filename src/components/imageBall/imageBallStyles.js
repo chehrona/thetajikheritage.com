@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from "styled-components/macro";
 
 const shrink = keyframes`
   from {
@@ -15,26 +15,40 @@ const shrink = keyframes`
 
 export const MainContainer = styled.div`
     height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0rem;
+    pointer-events: none;
+`;
+
+export const SphereBox = styled.div`
+    position: relative;
+    height: 100%;
+    width: 100%;
 `;
 
 export const Border = styled.div`
     background-color: transparent;
     border-radius: 50%;
     position: absolute;
+    opacity: ${({ opacity }) => opacity && opacity};
+    transform: scale(${({ opacity }) => opacity && opacity});
     width: ${({ size }) => size && `${size}rem`};
     height: ${({ size }) => size && `${size}rem`};
     bottom: ${({ bottom }) => bottom && bottom};
     top: ${({ top }) => top && top};
     right: ${({ right }) => right && right};
-    opacity: ${({ opacity }) => opacity && opacity};
     border: 0.0625rem solid #bd9d52;
-    z-index: 10;
+    z-index: 1000;
+    will-change: transform;
 `;
 
 export const HomeImage = styled.img`
     position: absolute;
     object-fit: contain;
     border-radius: 50%;
+    transform: scale(${({ opacity }) => opacity && opacity});
     width: ${({ size }) => size && `${size}rem`};
     height: ${({ size }) => size && `${size}rem`};
     box-shadow: 0rem 0rem 0.5rem 0.25rem #504221;
@@ -42,5 +56,6 @@ export const HomeImage = styled.img`
     opacity: ${({ opacity }) => opacity && opacity};
     top: ${({ top }) => top && top};
     right: ${({ right }) => right && right};
-    z-index: 1;
+    z-index: 100;
+    will-change: transform;
 `;
