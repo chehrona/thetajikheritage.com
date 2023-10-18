@@ -4,6 +4,7 @@ export const MainContainer = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+    position: relative;
 `;
 
 export const SemiCircle = styled.div`
@@ -119,7 +120,7 @@ export const Overlay = styled.div`
 export const HideBox = styled.div`
     background-color: #0F0A00;
     width: 100%;
-    position: absolute;
-    bottom: ${({ bottom }) => bottom && "4.2rem"};
+    position: relative;
+    bottom: ${({ bottom }) => bottom && "5.43rem"};
     z-index: 1;
 `;
