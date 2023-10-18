@@ -1,5 +1,6 @@
 import { VolumeUp } from "@mui/icons-material";
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from 'react-router-dom';
 import { useSetLang } from "../../../App";
 import { recipes } from "../../../data/recipeData";
 import { StyledLink } from "../recipeBox/recipeBoxStyles";
@@ -15,7 +16,14 @@ import {
 } from "./recipeBoxStyles";
 
 export default function RecipeBox() {
-    const { lang, isMenuShown } = useSetLang();
+    const { lang, isMenuShown, setLang } = useSetLang();
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.search.length) {
+            setLang(location.search.substring(1));
+        }
+    }, []);
 
     function toggleAudio(e) {
         const audioFile = e.currentTarget.children[0];

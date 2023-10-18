@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
     height: 100%;
     overflow: hidden;
     position: relative;
+    z-index: 1;
 `;
 
 export const SemiCircle = styled.div`
@@ -99,7 +100,6 @@ export const Desc = styled.div`
     width: 40%;
     margin-left: 11%;
     position: relative;
-    z-index: 3;
 `;
 
 export const OtherSteps = styled.div`

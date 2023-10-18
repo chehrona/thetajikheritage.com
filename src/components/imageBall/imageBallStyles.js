@@ -17,9 +17,7 @@ export const MainContainer = styled.div`
     height: 100%;
     width: 100%;
     position: absolute;
-    z-index: 1;
     top: 0rem;
-    pointer-events: none;
 `;
 
 export const SphereBox = styled.div`

@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import { useLocation } from 'react-router-dom';
+
 import { useSetLang } from "../../../App";
 import { poets } from "../../../data/poetData";
 
@@ -14,9 +17,16 @@ import {
     StyledLink
 } from "./poetCardStyles";
 
-
 export default function PoetCard() {
-    const { lang } = useSetLang();
+    const location = useLocation();
+    const { lang, setLang } = useSetLang();
+
+    useEffect(() => {
+        if (location.search.length) {
+            setLang(location.search.substring(1));
+        }
+    }, []);
+
     return (
         <PoetBoxContainer>
             {poets?.map((poet, i) => {

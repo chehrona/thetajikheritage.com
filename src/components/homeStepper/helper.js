@@ -14,7 +14,9 @@ export const stepInfo = [
                 many as old as the Eastern Iranian civilization itself.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                <a href='/arts' target='_blank' style='color: #bd9d52;'>
+                    <div style='height: 20%;'>EXPLORE</div>
+                </a>`,
             ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>
@@ -22,7 +24,9 @@ export const stepInfo = [
                 искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
+                <a href='/arts?ru' target='_blank' style='color: #bd9d52;'>
+                    <div style='height: 20%;'>УЗНАТЬ БОЛЬШЕ</div>
+                </a>`,
             tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
                 ки бо тарзи зиндагӣ, фарҳанг ва асотири тоҷикон печида аст.
                 <div class='space'></div>
@@ -30,7 +34,9 @@ export const stepInfo = [
                 ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+                <a href='/arts?tj' target='_blank' style='color: #bd9d52;'>
+                    <div style='height: 20%;'>БИСЁРТАР ОМӮЗЕД</div>
+                </a>`
         },
         outer: [
             {size: 16, bottom: "-2rem", right: "23rem"},
@@ -59,7 +65,7 @@ export const stepInfo = [
                 connects us to our past and present - defining who we are.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/languages' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                <a href='/customs' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
             ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>
@@ -67,7 +73,7 @@ export const stepInfo = [
                 искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
+                <a href='/customs?ru' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
             tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
                 ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
                 <div class='space'></div>
@@ -75,7 +81,7 @@ export const stepInfo = [
                 ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+                <a href='/customs?tj' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
             {size: 16, top: "-0.5rem", right: "32rem"},
@@ -103,7 +109,7 @@ export const stepInfo = [
                 many as old as the Eastern Iranian civilization itself.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                <a href='/cuisine' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
             ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>
@@ -111,7 +117,7 @@ export const stepInfo = [
                 искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
+                <a href='/cuisine?ru' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
             tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
                 ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
                 <div class='space'></div>
@@ -119,7 +125,7 @@ export const stepInfo = [
                 ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+                <a href='/cuisine?tj' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
             {size: 16, top: "-0.5rem", right: "32rem"},
@@ -148,7 +154,7 @@ export const stepInfo = [
                 connects us to our past and our present - defining who Tajiks are.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/languages' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                <a href='/language' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
             ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>
@@ -156,7 +162,7 @@ export const stepInfo = [
                 искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
+                <a href='/language?ru' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
             tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
                 ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
                 <div class='space'></div>
@@ -164,7 +170,7 @@ export const stepInfo = [
                 ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+                <a href='/language?tj' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
             {size: 16, top: "1.2rem", right: "1rem"},
@@ -192,7 +198,7 @@ export const stepInfo = [
                 many as old as the Eastern Iranian civilization itself.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                <a href='/history' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
             ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>
@@ -200,7 +206,7 @@ export const stepInfo = [
                 искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
+                <a href='/history?ru' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
             tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
                 ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
                 <div class='space'></div>
@@ -208,7 +214,7 @@ export const stepInfo = [
                 ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                 <div class='space'></div>
                 <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+                <a href='/history?tj' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
         },
         outer: [
             {size: 16, top: "2rem", right: "5rem"},
