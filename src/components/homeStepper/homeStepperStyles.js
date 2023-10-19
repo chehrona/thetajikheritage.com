@@ -78,7 +78,9 @@ export const Step = styled.div`
 export const TitleWrapper = styled.div`
     height: 65%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
 `;
 
 export const LargeTitle = styled.div`
@@ -98,8 +100,8 @@ export const LargeTitle = styled.div`
 export const Desc = styled.div`
     color: #dedbdb;
     font-size: 1rem;
-    width: 43%;
-    margin-left: 8%;
+    width: 40%;
+    margin-left: 10%;
     position: relative;
 `;
 
