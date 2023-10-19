@@ -38,28 +38,7 @@ function Home() {
             setOpacities(newOpacities);
         }
 
-        const handleKeyDown = (e) => {
-            if (e.keyCode === 38) {
-                if (visibleSteps.length > 1) {
-                    const movedItem = visibleSteps.pop();
-                    visibleSteps.unshift(movedItem);
-                    setVisibleSteps([...visibleSteps]);
-                }
-            } else if (e.keyCode === 40) {
-                if (visibleSteps.length > 1) {
-                    const movedItem = visibleSteps.shift();
-                    visibleSteps.push(movedItem);
-                    setVisibleSteps([...visibleSteps]);
-                }
-            }
-        }
-
         containerRef.current.addEventListener('scroll', handleScroll);
-        document.addEventListener('keydown', handleKeyDown);
-
-        return () => {
-            document.removeEventListener('keydown', handleKeyDown);
-        };
     }, []);
 
     return (
