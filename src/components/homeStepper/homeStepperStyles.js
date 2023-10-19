@@ -42,12 +42,12 @@ export const IndicatorStep = styled.div`
 export const NumLine = styled.div`
     background: #bd9d52;
     width: 0.05rem;
-    height: 5rem;   
-    margin-left: 0.56%;
+    height: 5rem;
+    margin-left: 0.5%;
 `;
 
 export const StepperContainer = styled.div`
-    height: 90%;
+    height: 100%;
     width: 100%;
     overflow: scroll;
     padding-left: 10%;
@@ -72,6 +72,7 @@ export const Step = styled.div`
     font-size: 1.2rem;
     color: #dedbdbb2;
     font-family: 'EB Garamond', serif;
+    transition: 500ms ease-in-out;
 `;
 
 export const TitleWrapper = styled.div`
@@ -97,15 +98,18 @@ export const LargeTitle = styled.div`
 export const Desc = styled.div`
     color: #dedbdb;
     font-size: 1rem;
-    width: 40%;
-    margin-left: 11%;
+    width: 43%;
+    margin-left: 8%;
     position: relative;
 `;
 
 export const OtherSteps = styled.div`
-    position: relative;
-    width: 100%;
-    height: 10%;
-    padding-left: 15.3%;
-    bottom: ${({ bottom }) => bottom && "5.43rem"};
+    position: absolute;
+    width: 3%;
+    height: 12%;
+    margin-left: 13%;
+    bottom: ${({ bottom }) => bottom && "0rem"};
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;

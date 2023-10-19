@@ -19,12 +19,42 @@ import {
 
 export default function HomeStepper({ containerRef, divRefs, opacities }) {
     const { lang } = useSetLang();
+    const [visibleStepIndex, setVisibleStepIndex] = useState(0);
+
+    useEffect(() => {
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.7,
+        };
+      
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setVisibleStepIndex(index);
+                    }
+                });
+            },
+            options
+        );
+      
+        const stepElements = Array.from(containerRef.current.children);
+        stepElements.forEach((element) => {
+            observer.observe(element);
+        });
+      
+        return () => {
+            observer.disconnect();
+        };
+      }, [divRefs]);      
+
     return (
         <MainContainer>
                 <SemiCircle />
             <OtherSteps>
                 <NumLine />
-                {/* <Step>{visibleSteps[0]?.num}</Step> */}
+                <Step>{stepInfo[visibleStepIndex - 1]?.num || stepInfo[stepInfo.length - 1]?.num}</Step>
             </OtherSteps>
             <StepperContainer ref={containerRef}>
                 {stepInfo.map((step, i) => {
@@ -46,7 +76,7 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                 })}
             </StepperContainer>
             <OtherSteps bottom={1}>
-                {/* <Step>{visibleSteps[2]?.num}</Step> */}
+                <Step>{stepInfo[visibleStepIndex + 1]?.num || stepInfo[0]?.num}</Step>
                 <NumLine />
             </OtherSteps>
         </MainContainer>

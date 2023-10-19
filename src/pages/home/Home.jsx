@@ -4,17 +4,13 @@ import { stepInfo } from "../../components/homeStepper/helper";
 import HomeStepper from '../../components/homeStepper/HomeStepper';
 import ImageBall from '../../components/imageBall/ImageBall';
 
-import { InnerContainer, PageContainer, SphereTest } from './homePageStyles';
+import { InnerContainer, PageContainer } from './homePageStyles';
 
 function Home() {
     const parentRef = useRef(null);
     const containerRef = useRef(null);
     const divRefs = [useRef(null), useRef(null), useRef(null), useRef(null), useRef(null)];
     const [opacities, setOpacities] = useState([1, 0, 0, 0, 0]);
-    let newArr = [...stepInfo];
-    const lastItem = newArr.pop();
-    newArr.unshift(lastItem);
-    const [visibleSteps, setVisibleSteps] = useState([...newArr]);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -39,6 +35,7 @@ function Home() {
         }
 
         containerRef.current.addEventListener('scroll', handleScroll);
+
     }, []);
 
     return (
