@@ -55,15 +55,15 @@ function App() {
   }, [isMenuShown]);
 
   return (
-    <LangContext.Provider value={value}>
-      <div className='content-container'>
-        {!isPrint && <Header />}
-        {!isPrint && <SideNav />}
-        <Menu />
-        <AnimationRoutes />
-        {!isPrint && <Footer />}
-      </div>
-    </LangContext.Provider>
+      <LangContext.Provider value={value}>
+          <div className='content-container'>
+              {!isPrint && <Header />}
+              {!isPrint && <SideNav />}
+              <Menu />
+              <AnimationRoutes />
+              {!isPrint && <Footer />}
+          </div>
+      </LangContext.Provider>
   );
 }
 

@@ -2,7 +2,6 @@ import styled from "styled-components/macro";
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
-    height: 100%;
     background-color: #0F0A00;
     overflow: hidden;
 `;

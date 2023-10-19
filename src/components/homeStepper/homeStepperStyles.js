@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainContainer = styled.div`
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 10.23rem);
     overflow: hidden;
     position: relative;
     z-index: 1;

@@ -1,17 +1,4 @@
-import styled, { keyframes } from "styled-components/macro";
-
-const shrink = keyframes`
-  from {
-    top: 0;
-    left: 0;
-    transform: scale(1);
-  }
-  to {
-    top: 350px;
-    left: 350px;
-    transform: scale(0);
-  }
-`;
+import styled from "styled-components/macro";
 
 export const MainContainer = styled.div`
     height: 100%;
