@@ -38,7 +38,6 @@ export const Border = styled.div`
     top: ${({ top }) => top && top};
     right: ${({ right }) => right && right};
     border: 0.0625rem solid #bd9d52;
-    z-index: 1000;
     will-change: transform;
 `;
 
@@ -54,6 +53,5 @@ export const HomeImage = styled.img`
     opacity: ${({ opacity }) => opacity && opacity};
     top: ${({ top }) => top && top};
     right: ${({ right }) => right && right};
-    z-index: 100;
     will-change: transform;
 `;

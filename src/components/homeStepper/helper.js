@@ -174,13 +174,13 @@ export const stepInfo = [
         },
         outer: [
             {size: 16, top: "1.2rem", right: "1rem"},
-            {size: 12, top: "0rem", right: "40rem"},
-            {size: 30, bottom: "-1rem", right: "9.5rem"}
+            {size: 12, top: "4rem", right: "27rem"},
+            {size: 30, bottom: "-5rem", right: "9.5rem"}
         ],
         inner: [
             {size: 15, top: "0.4rem", right: "2rem", img: "/homeImages/lang3.png"},
-            {size: 11, top: "0.5rem", right: "41rem", img: "/homeImages/lang2.png"},
-            {size: 29, bottom: "-0.5rem", right: "10rem", img: "/homeImages/lang1.png"}
+            {size: 11, top: "4.5rem", right: "28.5rem", img: "/homeImages/lang2.png"},
+            {size: 29, bottom: "-4.5rem", right: "10rem", img: "/homeImages/lang1.png"}
         ],
     },
     {
