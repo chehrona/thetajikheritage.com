@@ -7,6 +7,7 @@ export const MainContainer = styled.div`
     background-image: url(${'/noise.png'});
     padding-bottom: 7.5rem;
     padding-top: 6rem;
+    padding: 6rem 0rem 9rem 0rem;
 
     &:before {
         content: "";

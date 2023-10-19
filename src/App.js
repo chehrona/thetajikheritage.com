@@ -56,13 +56,13 @@ function App() {
 
   return (
     <LangContext.Provider value={value}>
-      {!isPrint && <Header />}
       <div className='content-container'>
+        {!isPrint && <Header />}
         {!isPrint && <SideNav />}
         <Menu />
         <AnimationRoutes />
+        {!isPrint && <Footer />}
       </div>
-      {!isPrint && <Footer />}
     </LangContext.Provider>
   );
 }
