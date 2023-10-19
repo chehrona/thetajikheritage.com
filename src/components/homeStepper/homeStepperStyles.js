@@ -42,7 +42,7 @@ export const IndicatorStep = styled.div`
 export const NumLine = styled.div`
     background: #bd9d52;
     width: 0.05rem;
-    height: 5rem;
+    height: 8.5rem;
     margin-left: 0.5%;
 `;
 
@@ -106,10 +106,11 @@ export const Desc = styled.div`
 export const OtherSteps = styled.div`
     position: absolute;
     width: 3%;
-    height: 12%;
+    height: 20%;
     margin-left: 13%;
     bottom: ${({ bottom }) => bottom && "0rem"};
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
 `;
