@@ -162,33 +162,39 @@ export const stepInfo = [
             tj: {text: "Забон & адабиёт", font: 9.2, margin: "3rem"}
         },
         desc: {
-            us: `The languages spoken by the Tajik peoples, whether belonging to the Western or 
-                Eastern Iranian language continua, 
-                lie at the core of their identity and have been detrimental for their survival.
-                <div class='space'></div>
-                They encapsulate their unique worldviews, their ancestral wisdom, 
-                their stories, and their songs.
-                These languages stand as a testament of resilience, serving as a bridge 
-                connecting the past and the present - defining who Tajiks are.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/language' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
-            ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                <div class='space'></div>
-                В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
-                искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/language?ru' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
-            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
-                <div class='space'></div>
-                Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/language?tj' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+            us: {
+                    text: `The languages spoken by the Tajik peoples, whether belonging to the Western or 
+                    Eastern Iranian language continua, 
+                    lie at the core of their identity and have been detrimental for their survival.
+                    <div class='space'></div>
+                    They encapsulate their unique worldviews, their ancestral wisdom, 
+                    their stories, and their songs.
+                    These languages stand as a testament of resilience, serving as a bridge 
+                    connecting the past and the present - defining who Tajiks are.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/language"
+                },
+            ru: {
+                    text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
+                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
+                    <div class='space'></div>
+                    В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
+                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/language?ru"
+                },
+            tj: {
+                    text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+                    ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
+                    <div class='space'></div>
+                    Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                    ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/language?tj"
+                }
         },
         outer: [
             {size: 16, top: "1.2rem", right: "1rem"},
