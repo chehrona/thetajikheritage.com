@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
@@ -42,7 +43,7 @@ export const IndicatorStep = styled.div`
 export const NumLine = styled.div`
     background: #bd9d52;
     width: 0.05rem;
-    height: 8.5rem;
+    height: 8rem;
     margin-left: 0.5%;
 `;
 
@@ -94,7 +95,7 @@ export const LargeTitle = styled.div`
     width: 45rem;
     text-transform: uppercase;
     line-height: ${({ fontSize }) => fontSize && `${fontSize - 1}rem`};
-    padding-top: 2rem;
+    padding-top: 1rem;
 `;
 
 export const Desc = styled.div`
@@ -103,6 +104,7 @@ export const Desc = styled.div`
     width: 40%;
     margin-left: 10%;
     position: relative;
+    margin-top: ${({ margin }) => margin && margin};
 `;
 
 export const OtherSteps = styled.div`
@@ -110,9 +112,47 @@ export const OtherSteps = styled.div`
     width: 3%;
     height: 20%;
     margin-left: 13%;
-    bottom: ${({ bottom }) => bottom && "0rem"};
+    ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+`;
+
+export const StyledButton = styled.div`
+    color: #bd9d52;
+    height: 20%;
+    width: ${({ width }) => width && width};
+    font-weight: 500;
+    padding-bottom: 0.25rem;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: ${({ width }) => width && width};
+        height: 0.1rem;
+        bottom: 0;
+        left: 0;
+        background-color: #ffffff;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover::before {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    &:hover {
+        border-right: 0.1rem solid #ffffff;
+    }
+`;
+
+export const DescText = styled.div`
+
+`;
+
+export const Link = styled.a`
+    text-decoration: none;
 `;

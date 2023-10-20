@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSetLang } from "../../App";
 
 import { stepInfo } from "./helper"; 
@@ -15,6 +15,9 @@ import {
     Desc,
     OtherSteps,
     StepperContainer,
+    StyledButton,
+    DescText,
+    Link
 } from "./homeStepperStyles";
 
 export default function HomeStepper({ containerRef, divRefs, opacities }) {
@@ -69,7 +72,18 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                                 <TitleWrapper>
                                     <LargeTitle fontSize={step?.text[lang].font}>{step?.text[lang].text}</LargeTitle>
                                 </TitleWrapper>
-                                <Desc dangerouslySetInnerHTML={{__html: step?.desc[lang]}}></Desc>
+                                <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin}>
+                                    <DescText
+                                        dangerouslySetInnerHTML={{__html: step?.desc[lang].text}}
+                                    />
+                                    <Link href={step?.desc[lang].link} target="_blank">
+                                        <StyledButton
+                                            width={lang === 'ru' ? '27%' : (lang === 'tj' ? '30%' : '17%')}
+                                        >
+                                            {lang === 'ru' ? 'УЗНАТЬ БОЛЬШЕ' : (lang === 'tj' ? 'БИСЁРТАР ОМӮЗЕД' : 'EXPLORE')}
+                                        </StyledButton>
+                                    </Link>
+                                </Desc>
                             </div>
                         </StepperBox>
                     );

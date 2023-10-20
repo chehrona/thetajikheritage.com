@@ -53,7 +53,7 @@ export default function BookDialog({ msg, setBookDialog, bookDialog, setOverlay 
             <StyledContent>
                 <InfoContainer>
                     <InfoTitle>
-                        {lang === "us" ? "Apologies!" : (lang === "ru" ? "Извините!" : "Бубахшед!")}
+                         "us" ? "Apologies!" : (lang === "ru" ? "Извините!" : "Бубахшед!")}
                     </InfoTitle>
                     <StyledIconButton onClick={handleClose}>
                         <StyledCloseIcon />

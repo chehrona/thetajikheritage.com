@@ -2,41 +2,44 @@ export const stepInfo = [
     {
         num: "01",
         text: {
-            us: {text: "Arts & crafts", font: 10},
+            us: {text: "Arts & crafts", font: 10, margin: "2rem"},
             ru: {text: "Искусства & ремесла", font: 7.1},
-            tj: {text: "Санъат & ҳунар", font: 9.5}
+            tj: {text: "Санъат & ҳунар", font: 9.5, margin: "2rem"}
         },
         desc: {
-            us: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
-                of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
-                <div class='space'></div>
-                There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
-                many as old as the Eastern Iranian civilization itself.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/arts' target='_blank' style='color: #bd9d52;'>
-                    <div style='height: 20%;'>EXPLORE</div>
-                </a>`,
-            ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                <div class='space'></div>
-                Среди таджиков до сих пор сохранилось около 500 уникальных видов 
-                искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/arts?ru' target='_blank' style='color: #bd9d52;'>
-                    <div style='height: 20%;'>УЗНАТЬ БОЛЬШЕ</div>
-                </a>`,
-            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                ки бо тарзи зиндагӣ, фарҳанг ва асотири тоҷикон печида аст.
-                <div class='space'></div>
-                Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/arts?tj' target='_blank' style='color: #bd9d52;'>
-                    <div style='height: 20%;'>БИСЁРТАР ОМӮЗЕД</div>
-                </a>`
+            us: 
+                {
+                    text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
+                    of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
+                    <div class='space'></div>
+                    There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
+                    many as old as the Eastern Iranian civilization itself.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: '/arts'
+                },
+            ru: 
+                {
+                    text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
+                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
+                    <div class='space'></div>
+                    Среди таджиков до сих пор сохранилось около 500 уникальных видов 
+                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: '/arts?ru'
+                },
+            tj: 
+                {
+                    text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+                    ки бо тарзи зиндагӣ, фарҳанг ва асотири тоҷикон печида аст.
+                    <div class='space'></div>
+                    Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                    ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: '/arts?tj'
+                },
         },
         outer: [
             {size: 16, bottom: "-2rem", right: "23rem"},
@@ -54,34 +57,41 @@ export const stepInfo = [
         text: {
             us: {text: "Customs", font: 9.3},
             ru: {text: "Обычаи", font: 9.5},
-            tj: {text: "Расму оин", font: 9}
+            tj: {text: "Расму оин", font: 9, margin: "2rem"}
         },
         desc: {
-            us: `Our languages, whether belonging to the Western or Eastern Iranian language continua, 
-                lie at the core of our identity and have been detrimental for our survival.
-                <div class='space'></div>
-                They encapsulate our unique worldviews, our ancestral wisdom, our stories, and our songs.
-                Our languages stand as a testament to our resilience, functioning as a bridge that 
-                connects us to our past and present - defining who we are.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/customs' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
-            ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                <div class='space'></div>
-                В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
-                искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/customs?ru' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
-            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
-                <div class='space'></div>
-                Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/customs?tj' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+            us: 
+                {
+                    text: `Our languages, whether belonging to the Western or Eastern Iranian language continua, 
+                    lie at the core of our identity and have been detrimental for our survival.
+                    <div class='space'></div>
+                    They encapsulate our unique worldviews, our ancestral wisdom, our stories, and our songs.
+                    Our languages stand as a testament to our resilience, functioning as a bridge that 
+                    connects us to our past and present - defining who we are.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/customs"
+                },
+            ru:  {
+                    text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
+                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
+                    <div class='space'></div>
+                    В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
+                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/customs?ru"
+                },
+            tj: {
+                    text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+                    ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
+                    <div class='space'></div>
+                    Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                    ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/customs?tj",
+                },
         },
         outer: [
             {size: 16, top: "-0.5rem", right: "32rem"},
@@ -102,30 +112,36 @@ export const stepInfo = [
             tj: {text: "Ғизоҳо", font: 10.7}
         },
         desc: {
-            us: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
+            us: {
+                text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
                 of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
                 <div class='space'></div>
                 There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
                 many as old as the Eastern Iranian civilization itself.
                 <div class='space'></div>
-                <div class='space'></div>
-                <a href='/cuisine' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
-            ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
+                <div class='space'></div>`,
+                link: "/cuisine"
+            },
+            ru: {
+                text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                 наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                 <div class='space'></div>
                 В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
                 искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                 <div class='space'></div>
-                <div class='space'></div>
-                <a href='/cuisine?ru' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
-            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
-                <div class='space'></div>
-                Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/cuisine?tj' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+                <div class='space'></div>`,
+                link: "/cuisine?ru"
+            },
+            tj: {
+                    text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+                    ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
+                    <div class='space'></div>
+                    Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                    ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/cuisine?tj"
+                }
         },
         outer: [
             {size: 16, top: "-0.5rem", right: "32rem"},
@@ -143,15 +159,17 @@ export const stepInfo = [
         text: {
             us: {text: "Language & literature", font: 6.8},
             ru: {text: "Язык & литература", font: 6.8},
-            tj: {text: "Забон & адабиёт", font: 9.2}
+            tj: {text: "Забон & адабиёт", font: 9.2, margin: "3rem"}
         },
         desc: {
-            us: `Our languages, whether belonging to the Western or Eastern Iranian language continua, 
-                lie at the core of our identity and have been detrimental for our survival.
+            us: `The languages spoken by the Tajik peoples, whether belonging to the Western or 
+                Eastern Iranian language continua, 
+                lie at the core of their identity and have been detrimental for their survival.
                 <div class='space'></div>
-                They encapsulate our unique worldviews, our ancestral wisdom, our stories, and our songs.
-                Our languages stand as a testament to our resilience, serving as a bridge that 
-                connects us to our past and our present - defining who Tajiks are.
+                They encapsulate their unique worldviews, their ancestral wisdom, 
+                their stories, and their songs.
+                These languages stand as a testament of resilience, serving as a bridge 
+                connecting the past and the present - defining who Tajiks are.
                 <div class='space'></div>
                 <div class='space'></div>
                 <a href='/language' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
@@ -175,7 +193,7 @@ export const stepInfo = [
         outer: [
             {size: 16, top: "1.2rem", right: "1rem"},
             {size: 12, top: "4rem", right: "27rem"},
-            {size: 30, bottom: "-5rem", right: "9.5rem"}
+            {size: 30, bottom: "-5rem", right: "9.5rem"},
         ],
         inner: [
             {size: 15, top: "0.4rem", right: "2rem", img: "/homeImages/lang3.png"},
@@ -191,40 +209,47 @@ export const stepInfo = [
             tj: {text: "Таърих", font: 10.7}
         },
         desc: {
-            us: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
-                of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
-                <div class='space'></div>
-                There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
-                many as old as the Eastern Iranian civilization itself.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/history' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
-            ru: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                <div class='space'></div>
-                В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
-                искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
-                <div class='space'></div>
-                <div class='space'></div>
-                <a href='/history?ru' target='_blank' style='color: #bd9d52;'>УЗНАТЬ БОЛЬШЕ</a>`,
-            tj: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+            us: {
+                    text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
+                    of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
+                    <div class='space'></div>
+                    There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
+                    many as old as the Eastern Iranian civilization itself.
+                    <div class='space'></div>
+                    <div class='space'></div>
+                    <a href='/history' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                    link: "/history"
+                },
+            ru: {
+                    text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
+                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
+                    <div class='space'></div>
+                    В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
+                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/history?ru"
+                },
+            tj: {
+                text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
                 ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
                 <div class='space'></div>
                 Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
                 ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                 <div class='space'></div>
-                <div class='space'></div>
-                <a href='/history?tj' target='_blank' style='color: #bd9d52;'>БИСЁРТАР ОМӮЗЕД</a>`
+                <div class='space'></div>`,
+                link: "/history?tj"
+            }
         },
         outer: [
-            {size: 16, top: "2rem", right: "5rem"},
-            {size: 12, top: "0rem", right: "35rem"},
-            {size: 30, bottom: "-1rem", right: "4rem"}
+            {size: 16, top: "-3rem", right: "60rem"},
+            {size: 12, top: "1rem", right: "7rem"},
+            {size: 30, bottom: "-1rem", right: "8rem"}
         ],
         inner: [
-            {size: 15, top: "1.5rem", right: "6rem", img: "/homeImages/history3.png"},
-            {size: 11, top: "0.5rem", right: "23rem", img: "/homeImages/history2.png"},
-            {size: 29, bottom: "-0.5rem", right: "4.5rem", img: "/homeImages/history1.png"}
+            {size: 15, top: "-2.5rem", right: "62rem", img: "/homeImages/history3.png"},
+            {size: 11, top: "1.5rem", right: "6rem", img: "/homeImages/history2.png"},
+            {size: 29, bottom: "-0.5rem", right: "8.5rem", img: "/homeImages/history1.png"}
         ],
     },
 ];

@@ -22,7 +22,7 @@ export const PageContainer = styled.div`
 
 export const RecipeContainer = styled.div`
     box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
-    margin: 1rem 3.5rem 1rem 3.5rem;
+    margin: 1rem 3.5rem 1.5rem 3.5rem;
     background-color: #fcf6e9;
     color: #0F0A00;
     border-radius: 4rem;
