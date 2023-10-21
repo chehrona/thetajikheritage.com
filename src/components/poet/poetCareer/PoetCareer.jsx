@@ -10,8 +10,9 @@ import {
     Line,
     InfoContainer,
     InfoWrapper,
-    DescWrapper,
-    ButtonWrapper,
+    Desc,
+    Footer,
+    Body,
     Step, 
     StyledIconButton,
     Image
@@ -49,14 +50,18 @@ export default function PoetCareer({ points }) {
                 </UnitWrapper>
                 <InfoContainer>
                     <InfoWrapper>
-                        <DescWrapper />
-                        <ButtonWrapper />
+                        <Body>
+                            <Image />
+                            <Desc />
+                        </Body>
+                        <Footer />
                     </InfoWrapper>
                     <InfoWrapper main={1}>
-                        <DescWrapper>
-                            <Image />
-                        </DescWrapper>
-                        <ButtonWrapper>
+                        <Body>
+                            <Image src={points?.images[currentIndex]} />
+                            <Desc></Desc>
+                        </Body>
+                        <Footer>
                             <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 0}>
                                 <ArrowForwardIos />
                             </StyledIconButton>
@@ -64,11 +69,12 @@ export default function PoetCareer({ points }) {
                             <StyledIconButton onClick={handleNext} disabled={currentIndex === points?.years.length - 1}>
                                 <ArrowForwardIos />
                             </StyledIconButton>
-                        </ButtonWrapper>
+                        </Footer>
                     </InfoWrapper>
                     <InfoWrapper>
-                        <DescWrapper />
-                        <ButtonWrapper />
+                        <Desc>
+                            <Footer />
+                        </Desc>
                     </InfoWrapper>
                 </InfoContainer>
             </YearSlider>

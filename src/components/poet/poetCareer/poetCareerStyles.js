@@ -64,7 +64,6 @@ export const Line = styled.div`
 `;
 
 export const InfoContainer = styled.div`
-    background-color: red;
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
@@ -73,20 +72,30 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     height: 25rem;
     width: ${({ main }) => main ? "70%" : "10%"};
-    background-color: yellow;
+    background: #fcf6e9;
+    border-radius: 1rem;
 `;
 
-export const DescWrapper = styled.div`
-    height: 90%;
+export const Desc = styled.div`
+    width: 60%;
+    height: 100%;
+    border-radius: 1rem;
+`;
+
+export const Body = styled.div`
+    display: flex;
     width: 100%;
+    height: 90%;
 `;
 
-export const ButtonWrapper = styled.div`
+export const Footer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10%;
     width: 100%;
+    background: #fcf6e9;
+    border-radius: 0rem 0rem 1rem 1rem;
 `;
 
 export const Step = styled.div`
@@ -103,9 +112,14 @@ export const StyledIconButton = styled(IconButton)`
     height: 2rem;
     width: 2rem;
     transform: ${({ left }) => left && 'rotate(180deg)'};
+
+    svg {
+        fill: #bd9d52;
+    }
 `;
 
 export const Image = styled.img`
     height: 100%;
-    width: 50%;
+    width: 40%;
+    border-radius: 1rem;
 `;
