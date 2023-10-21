@@ -26,6 +26,7 @@ export const Border = styled.div`
     right: ${({ right }) => right && right};
     border: 0.0625rem solid #bd9d52;
     will-change: transform;
+    z-index: 1;
 `;
 
 export const HomeImage = styled.img`

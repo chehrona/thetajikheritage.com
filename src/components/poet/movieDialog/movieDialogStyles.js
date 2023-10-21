@@ -90,7 +90,7 @@ export const ReleaseInfo = styled.div`
     height: 4rem;
     width: 30rem;
     justify-content: space-between;
-    padding-left: 2rem
+    padding-left: 2rem;
     padding-right: 2rem;
 `;
 

@@ -222,8 +222,7 @@ export const stepInfo = [
                     There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
                     many as old as the Eastern Iranian civilization itself.
                     <div class='space'></div>
-                    <div class='space'></div>
-                    <a href='/history' target='_blank' style='color: #bd9d52;'>EXPLORE</a>`,
+                    <div class='space'></div>`,
                     link: "/history"
                 },
             ru: {
@@ -248,14 +247,14 @@ export const stepInfo = [
             }
         },
         outer: [
-            {size: 16, top: "-3rem", right: "60rem"},
+            {size: 16, top: "-3rem", right: "50rem"},
             {size: 12, top: "1rem", right: "7rem"},
-            {size: 30, bottom: "-1rem", right: "8rem"}
+            {size: 30, bottom: "-1rem", right: "6rem"}
         ],
         inner: [
-            {size: 15, top: "-2.5rem", right: "62rem", img: "/homeImages/history3.png"},
+            {size: 15, top: "-2.5rem", right: "52rem", img: "/homeImages/history3.png"},
             {size: 11, top: "1.5rem", right: "6rem", img: "/homeImages/history2.png"},
-            {size: 29, bottom: "-0.5rem", right: "8.5rem", img: "/homeImages/history1.png"}
+            {size: 29, bottom: "-0.5rem", right: "6.5rem", img: "/homeImages/history1.png"}
         ],
     },
 ];

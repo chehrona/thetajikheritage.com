@@ -12,9 +12,9 @@ module.exports.poets = [
         img: ['/poetImages/ayni/Ayni.png', '/poetImages/ayni/AyniFaded.png'],
         link: '/poets/ayni',
         sections: {
-            us: ["Biography", "Works", "Films", "Politics", "Awards"],
-            ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
-            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
+            us: ["Biography", "Works", "Films", "Career", "Awards"],
+            ru: ["Биография", "Произведения", "Экранизации", "Деятельность", "Награды"],
+            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти корӣ", "Ҷоизаҳо"],
             kh: ["زندگینامه", "ایجدیت", "فیلم ها", "فعالیتی سیاسی", "جوایزها"]
         },
         bio: {
@@ -277,23 +277,23 @@ module.exports.poets = [
                     quote: ``,
                     desc: `Окончив медресе, Айни продолжает помогать джадидскому движению, 
                     сопротивляясь старым обычаям, так глубоко укоренившимся среди бухарского духовенства.
-                    Однако его «добрые дела» были встречены неодобрением со стороны эмира.
+                    Однако его «добрые дела» были встречены неодобрением со стороны эмира,
                     что привело к его тюремному заключению и самому суровому приговору того времени -
                     <span style='font-weight:bold;'>75 ударов плетью</span>.
                     <div class='space'></div>В конце концов, его освобождают русские
-                    Революционные силы по указке младобухарцев. После того, как вытерпел
+                    Революционные силы по прозьбе младобухарцев. После
                     <span style='font-weight:bold;'>52 дня</span> в больнице
-                    и перенеся <span style='font-weight:bold;'>25 операций</span>, он навсегда переехал в Самарканд.
-                    Там он посвятил себя революционному делу, обладая
-                    силой своего пера, писать политические статьи и
-                    прямо призывая нацию к войне против эмира.
-                    <br>Обнаружив связь Айни с советскими войсками,
-                    амир ложно обвинил своего младшего брата,
-                    <span style='font-weight:bold;'>Сироджиддин</span>, об измене
-                    и жестоко убил его через удушье. Айни направил свой
+                    и <span style='font-weight:bold;'>25 операций</span>, он навсегда переежает в Самарканд.
+                    Там он посвящает себя революционному делу, пользуясь
+                    силой своего пера, пишет политические статьи и
+                    прямо призывает соотечественников восстать против эмира.
+                    <br>Поскольку Айни был известным джадидом,
+                    амир ложно обвиняет его младшего брата,
+                    <span style='font-weight:bold;'>Сироджиддина</span>, об измене
+                    и жестоко казнит его через удушье. Айни направил свое
                     горе в свое литературное произведение «Марсия».
-                    <div class='space'></div>В 1922 году басмачи убили старшего брата Айни -
-                    <span style='font-weight:bold;'>Мухиддинходжа</span> и похитил его сына.<sup>1</sup>
+                    <div class='space'></div>В 1922 году басмачи убивают старшего брата Айни -
+                    <span style='font-weight:bold;'>Мухиддинходжа</span> и похищают его сына.<sup>1</sup>
                     <div class='space'></div>Эти мучительные потери только укрепили позиции Айни.
                     решимость, оттачивая свое перо и усиливая свою решимость руководить страной
                     к освобождению от таких кровожадных правителей.`,
@@ -321,32 +321,6 @@ module.exports.poets = [
                     Ин дардҳои даҳшатноки қалбаш танҳо ба рӯҳияи Айнӣ мусоидат кард.
                     азму иродаи кавй дошта, қаламашро тезу тунд ва азму иродаи худро дар рохи рохбарй ба мамлакат пурзур менамояд
                     барои озод шудан аз чунин ҳокимони хунхор.`,
-                }
-            },
-            four: {
-                us: {
-                    year: '1930',
-                    desc: `He authored his debut novel, "Dokhunda," depicting the grueling 
-                        existence of commonfolk in the pre-revolutionary era, capturing the 
-                        turbulence of the revolution, the wartime horrors endured by his 
-                        compatriots, and culminating in a vivid portrayal of the Tajik 
-                        people's pursuit of freedom and a new life.<sup>6</sup>`
-                },
-                ru: {
-                    year: '1930',
-                    desc: `He authored his debut novel, "Dokhunda," depicting the grueling 
-                        existence of commonfolk in the pre-revolutionary era, capturing the 
-                        turbulence of the revolution, the wartime horrors endured by his 
-                        compatriots, and culminating in a vivid portrayal of the Tajik 
-                        people's pursuit of freedom and a new life.<sup>6</sup>`
-                },
-                tj: {
-                    year: '1930',
-                    desc: `He authored his debut novel, "Dokhunda," depicting the grueling 
-                        existence of commonfolk in the pre-revolutionary era, capturing the 
-                        turbulence of the revolution, the wartime horrors endured by his 
-                        compatriots, and culminating in a vivid portrayal of the Tajik 
-                        people's pursuit of freedom and a new life.<sup>6</sup>`
                 }
             },
             five: {
@@ -714,6 +688,15 @@ module.exports.poets = [
                         director: "Бенсион (Борис) Кимёгаров"
                     }
                 ]
+        },
+        career: {
+            years: [1920, 1924, 1930, 1934, 1937, 1940, 1950, 1951],
+            images: [],
+            text: {
+                tj: `Hello`,
+                ru: `Hello`,
+                us: `Hey`,
+            }
         },
         awards: {
             tj: [

@@ -147,7 +147,7 @@ export const Text = styled.div`
 export const BoxThree = styled.div`
     width: 100%;
     position: relative;
-    padding: 0rem 3rem 0rem 3rem;
+    padding: 0rem 3rem 3rem 3rem;
 `;
 
 export const QuoteWrapper = styled.div`
@@ -190,14 +190,6 @@ export const DescWrapper = styled.div`
     font-size: 1.1rem;
 `;
 
-// Box four *****************************
-export const BoxFour = styled.div`
-    min-height: 20rem;
-    width: 100%;
-    position: relative;
-    color: #fcf6e9;
-`;
-
 export const YearBig = styled.div`
     font-size: 4.5rem;
     font-family: "EB Garamond", serif;
@@ -220,17 +212,6 @@ export const TextWrapper = styled.div`
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 `;
 
-export const Dot = styled.div`
-    border-radius: 50%;
-    background: #bd9d52;
-    height: 0.3rem;
-    width: 0.3rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    ${({ bottom }) => bottom ? 'bottom: 7rem' : 'top: 7rem'};
-`;
-
 // Box five ********************************
 export const FamilyDesc = styled.div`
     width: 100%;
@@ -239,6 +220,13 @@ export const FamilyDesc = styled.div`
     padding: 0rem 2.8rem 3rem 3rem;
     font-size: 1.1rem;
     border-bottom: 0.0625rem solid #bd9d52;
+    border-top: 0.0625rem solid #bd9d52;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+        scrollbar-width: none;
+    }
 `;
 
 // Box six ********************************

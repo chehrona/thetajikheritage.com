@@ -13,21 +13,25 @@ import PoetIntro from "../../components/poet/poetIntro/PoetIntro";
 import PoetWorks from "../../components/poet/poetWorks/PoetWorks";
 import PoetAwards from "../../components/poet/poetAwards/PoetAwards";
 import PoetMovies from "../../components/poet/poetMovies/PoetMovies";
-import Politics from "../../components/poet/politics/Politics";
 import Sources from "../../components/common/sources/Sources";
+import PoetCareer from "../../components/poet/poetCareer/PoetCareer";
 
 export default function PoetPage() {
     const { id } = useParams(),
         poet = poets.filter((poet) => poet.id === id)[0];
 
-    const scrollToView = (e) => {
-        e.preventDefault();
-        const target = e.target.getAttribute("data");
-        window.scrollTo({
-            top: document.querySelector(target).offsetTop,
-            behavior: "smooth",
-        });
-    }
+        const scrollToView = (e) => {
+            e.preventDefault();
+            const target = e.target.getAttribute("data");
+            const parent = document.querySelector(".content-container");
+            
+            if (parent) {
+                parent.scrollTo({
+                    top: document.querySelector(target).offsetTop,
+                    behavior: "smooth",
+                });
+            }
+        };
 
     if (poet) {
         return (
@@ -37,7 +41,7 @@ export default function PoetPage() {
                     <PoetBio poet={poet} />
                     <PoetWorks poet={poet.works} />
                     <PoetMovies poet={poet.movies} />
-                    <Politics poet={poet} />
+                    <PoetCareer points={poet.career} />
                     <PoetAwards poet={poet.awards} />
                     <RefContainer>
                         <Sources
