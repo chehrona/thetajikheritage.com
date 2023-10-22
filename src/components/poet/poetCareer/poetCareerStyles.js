@@ -74,6 +74,7 @@ export const InfoWrapper = styled.div`
     width: ${({ main }) => main ? "70%" : "10%"};
     background: #fcf6e9;
     border-radius: 1rem;
+    display: flex;
 `;
 
 export const Desc = styled.div`
@@ -116,10 +117,19 @@ export const StyledIconButton = styled(IconButton)`
     svg {
         fill: #bd9d52;
     }
+
+
+    &:disabled {
+        svg {
+            fill: lightgray;
+        }
+    }
 `;
 
 export const Image = styled.img`
     height: 100%;
-    width: 40%;
-    border-radius: 1rem;
+    width: 35%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    transition: 100ms ease-in-out;
 `;

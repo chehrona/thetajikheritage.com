@@ -690,8 +690,8 @@ module.exports.poets = [
                 ]
         },
         career: {
-            years: [1920, 1924, 1930, 1934, 1937, 1940, 1950, 1951],
-            images: ["/poetImages/ayni/career/ayni1.jpeg"],
+            years: ["1923", "1920-1940", 1930, 1934, 1937, 1940, 1950, 1951],
+            images: ["/poetImages/ayni/career/ayni1.png", "/poetImages/ayni/career/ayni2.png"],
             text: {
                 tj: `Hello`,
                 ru: `Hello`,

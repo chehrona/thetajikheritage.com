@@ -57,24 +57,25 @@ export default function PoetCareer({ points }) {
                         <Footer />
                     </InfoWrapper>
                     <InfoWrapper main={1}>
-                        <Body>
-                            <Image src={points?.images[currentIndex]} />
-                            <Desc></Desc>
-                        </Body>
-                        <Footer>
-                            <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 0}>
-                                <ArrowForwardIos />
-                            </StyledIconButton>
-                            <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
-                            <StyledIconButton onClick={handleNext} disabled={currentIndex === points?.years.length - 1}>
-                                <ArrowForwardIos />
-                            </StyledIconButton>
-                        </Footer>
+                        <Image src={points?.images[currentIndex]} />
+                        <Desc>
+                            <Footer>
+                                <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 0}>
+                                    <ArrowForwardIos />
+                                </StyledIconButton>
+                                <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
+                                <StyledIconButton onClick={handleNext} disabled={currentIndex === points?.years.length - 1}>
+                                    <ArrowForwardIos />
+                                </StyledIconButton>
+                            </Footer>
+                        </Desc>
                     </InfoWrapper>
                     <InfoWrapper>
-                        <Desc>
-                            <Footer />
-                        </Desc>
+                        <Body>
+                            <Image />
+                            <Desc />
+                        </Body>
+                        <Footer />
                     </InfoWrapper>
                 </InfoContainer>
             </YearSlider>
