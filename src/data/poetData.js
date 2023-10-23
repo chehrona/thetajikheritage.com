@@ -248,7 +248,7 @@ module.exports.poets = [
                 },
             three: {
                 us: {
-                    quote: `... I regret that most of my life was in ignorance, ... now my conscience prevents me from saying "it is not my fight"<sup>5</sup>`,
+                    quote: `... although we regret that we spent our lives in ignorance, ... now our conscience does not allow us to say: “what does it matter to me?”<sup>5</sup>`,
                     desc: `After leaving the madrasa, Ayni continues his involvement with the jadids, 
                         resisting the old ways so deeply engrained among the Bukharan clergy.
                         His "good deeds", however, were met with disapproval from the amir, 
@@ -274,7 +274,7 @@ module.exports.poets = [
                         toward liberation from such bloodthirsty rulers.`,
                 },
                 ru: {
-                    quote: ``,
+                    quote: `... хоть нам и жаль, что мы провели жизнь в неведении, ... теперь наша совесть не позволяет нам сказать: «мне-то что?»<sup>5</sup>`,
                     desc: `Окончив медресе, Айни продолжает помогать джадидскому движению, 
                     сопротивляясь старым обычаям, так глубоко укоренившимся среди бухарского духовенства.
                     Однако его «добрые дела» были встречены неодобрением со стороны эмира,
@@ -690,23 +690,77 @@ module.exports.poets = [
                 ]
         },
         career: {
-            years: ["1920-1940", "1923", "1930", "1934", "1937", "1940", "1950", "1951"],
-            images: ["/poetImages/ayni/career/ayni2.png", "/poetImages/ayni/career/ayni1.png",],
+            years: ["1920-1940", "1923", "1934", "1951"],
+            images: [
+                "/poetImages/ayni/career/ayni4.png",
+                "/poetImages/ayni/career/ayni1.png",
+                "/poetImages/ayni/career/ayni2.png",
+                "/poetImages/ayni/career/ayni3.png",
+                "/poetImages/ayni/career/ayni4.png",
+                "/poetImages/ayni/career/ayni1.png",
+            ],
             text: {
-                tj: `Hello`,
-                ru: `Hello`,
-                us: [
+                tj: [
+                        `Hello`,
+                    ],
+                ru: [
+                        `«В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
+                        Он занимал эту должность до своей кончины в 1954 году».`,
+                        `В 1920 го&shyду Ай&shyни на&shyпи&shyсал свое пер&shyвое круп&shyное про&shyиз&shyве&shyде&shyние 
+                        «Бу&shyхарс&shyкие па&shyла&shyчи». За&shyтем в 1924 го&shyду он 
+                        на&shyписал рас&shyсказ «Оди&shyна», за ко&shyто&shyрым по&shyсле&shyдо&shyвал по&shyвесть «До&shyхун&shyда» (на&shyпи&shyсан&shyный 
+                        меж&shyду 1927 и 1928 го&shyда&shyми, но опуб&shyли&shyко&shyван&shyный в 1930 го&shyду). 
+                        Ро&shyман «Ра&shyбы» вы&shyшел в 1934 го&shyду, а его са&shyмое об&shyшир&shyное про&shyиз&shyве&shyде&shyние 
+                        «Вос&shyпо&shyми&shyна&shyния» бы&shyло опуб&shyли&shyко&shyва&shyно в 1940 го&shyду.
+                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*Об&shyлож&shyка кни&shyги «Бу&shyхарс&shyкие па&shyла&shyчи», 
+                        из&shyдан&shyной в 1937 го&shyду, на 
+                        тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей</div>`,
+                        `Он был назначен консультантом консульства недавно соз&shyдан&shyной Бухарской Республики в Самарканде, чему способствовал 
+                        Абдулкодир Мухиддинов. Од&shyна&shyко вско&shyре консуль&shyство за&shyкры&shyва&shyет&shyся, и Айни был назначен 
+                        ру&shyко&shyво&shyди&shyте&shyлем от&shyде&shyла Бух&shyгос&shyтор&shyга (эко&shyно&shyми&shyчес&shyкий 
+                        со&shyвет Бу&shyхарской На&shyрод&shyной Со&shyветской Рес&shyпублики) в Самарканде, еще раз при содействии А. Му&shyхид&shyди&shyно&shyва.`,
+                        `Ай&shyни со&shyста&shyвил «Шах&shyнаме» Фир&shyдоу&shyси с на&shyме&shyре&shyни&shyем транс&shyли&shyте&shyри&shyро&shyвать 
+                        его в но&shyвую тад&shyжик&shyскую пись&shyмен&shyность, сна&shyча&shyла на ла&shyти&shyни&shyцу, 
+                        а за&shyтем на ки&shyрил&shyли&shyцу. Он так&shyже тща&shyтель&shyно соб&shyрал био&shyгра&shyфии и про&shyиз&shyве&shyдения многочисленных 
+                        уче&shyных и по&shyэтов, таких как «Шейх&shyур&shyаис Абу&shyали Си&shyна» 
+                        (Авиценна), «Шейх Мус&shyли&shyхид&shyдин Саади Ши&shyрази», «Ус&shyтад Ру&shyдаки», «Камаль-и Худ&shyжан&shyди», «Али&shyшер На&shyвои», «Зай&shyнуд&shyдин 
+                        Мах&shyмуд-и Ва&shyси&shyфи» и дру&shyгие.`,
+                        `«В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
+                        Он занимал эту должность до своей кончины в 1954 году».`,
+                        `В 1920 году Айни написал свое первое крупное литературное произведение «Бухарские палачи». Затем в 1924 году он 
+                        написал рассказ «Одина», за которым последовал повесть «Дохунда» (написанный между 1927 и 1928 годами, но опубликованный в 1930 году). 
+                        Роман «Рабы» вышел в 1934 году, а его самое обширное литературное произведение «Воспоминания» было опубликовано в 1940 году.
+                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*Обложка книги «Бухарские палачи», изданной в 1937 году, на 
+                        таджикском языке, написанной латиницей</div>`,
+                    ],
+                    us: [
+                        `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
+                        He continued to hold this position until his passing.`,
+                        `In 1920, Ayni penned his first major literary work, "The Bu&shykhara Executioners." Then, he wrote 
+                        the short sto&shyry "Odina" in 1924, followed by the no&shyvel "Do&shykhun&shyda" (written between 1927 and 1928, but published 
+                        in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Reminiscences," was published 
+                        in 1940.
+                        <div class='emptyLine'></div>
+                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*The cover of "The Bukhara Executioners" 
+                        published in 1937 in Tajiki-Persian written in the Latin script</div>`,
+                        `He was appointed a consultant to the newly established Republic of Bukhara's consulate in Samarkand, 
+                        faci&shyli&shyta&shyted through the support of Abdul&shyqo&shydir Mu&shyhiddinov. However, the consulate closes soon after, and Ayni was 
+                        subsequently appointed to over&shysee a de&shypart&shyment within Bukh&shygos&shytorg (the Economic Council of the Bukharan People's 
+                        Soviet Republic) in Samarkand, once more with the assistance of A. Muhiddinov.`,
+                        `Ayni compiled Ferdowsi's "Shāhnāmeh" with the intention of transliterating it into 
+                        the new Tajik script, first in Latin and later in Cyrillic. He also me&shyti&shycu&shylous&shyly compiled biographies and 
+                        works of numerous scholars and poets, such as "Sheikh-ur-rais Abu Ali Sinā" (Avicenna), "Sheikh 
+                        Muslihiddin Saadi Shirazi," "Ustad Rudaki," "Kamal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e 
+                        Wa&shysi&shyfi," and others.`,
+                        `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
+                        He continued to hold this position until his passing in 1954.`,
                         `In 1920, Ayni penned his first major literary work, "The Bukhara Executioners." Then, he wrote 
                         the short story "Odina" in 1924, followed by the novel "Dokhunda" (written between 1927 and 1928, but published 
                         in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Reminiscences," was published 
                         in 1940.
                         <div class='emptyLine'></div>
-                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>The cover of "The Bukhara Executioners" 
+                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*The cover of "The Bukhara Executioners" 
                         published in 1937 in Tajiki-Persian written in the Latin script</div>`,
-                        `He was appointed a consultant to the newly established Republic of Bukhara's consulate in Samarkand, 
-                        facilitated through the support of Abdulqodir Muhiddinov. However, the consulate closes soon after, and Ayni was 
-                        subsequently appointed to oversee a department within Bukhgostorg (the Economic Council of the Bukharan People's 
-                        Soviet Republic) in Samarkand, once more with the assistance of A. Muhiddinov.`,
                     ]
             }
         },

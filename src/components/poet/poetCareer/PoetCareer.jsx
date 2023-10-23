@@ -30,7 +30,7 @@ export default function PoetCareer({ points }) {
         const parentWidth = parentRef?.current?.getBoundingClientRect().width;
 
         // Same concept as centering div's with position absolute
-        setTranslate((parentWidth/2) - 400);
+        setTranslate(parentWidth/2 - 1250);
     }, []);
 
     const handleNext = () => {
@@ -64,18 +64,18 @@ export default function PoetCareer({ points }) {
                 </UnitWrapper>
                 <InfoContainer ref={parentRef}>
                     <InfoInnerContainer>
-                        {points?.years?.map((point, i) => {
+                        {points?.images?.map((img, i) => {
                             return (
                                 <InfoWrapper translate={translate}>
-                                    <Image src={points?.images[i]} />
+                                    <Image src={img} />
                                     <DescWrapper>
                                         <Desc dangerouslySetInnerHTML={{__html: points?.text[lang][i]}} />
                                         <Footer>
-                                            <StyledIconButton left={1} onClick={handlePrev}>
+                                            <StyledIconButton left={1} onClick={handlePrev} disabled={i === 1}>
                                                 <ArrowForwardIos />
                                             </StyledIconButton>
                                             <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
-                                            <StyledIconButton onClick={handleNext}>
+                                            <StyledIconButton onClick={handleNext} disabled={i === points?.years?.length}>
                                                 <ArrowForwardIos />
                                             </StyledIconButton>
                                         </Footer>

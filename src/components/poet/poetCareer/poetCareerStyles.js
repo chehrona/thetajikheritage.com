@@ -24,7 +24,7 @@ export const MainContainer = styled.div`
 
 export const YearSlider = styled.div`
     padding: 2rem 5rem 2rem 5rem;
-    height: 40rem;
+    height: 36rem;
 `;
 
 export const UnitWrapper = styled.div`
@@ -35,7 +35,6 @@ export const UnitWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* overflow-x: scroll; */
 `;
 
 export const YearWrapper = styled.div`
@@ -69,7 +68,6 @@ export const InfoContainer = styled.div`
     overflow: hidden;
     position: relative;
     height: 25rem;
-    background-color: red;
 `;
 
 export const InfoInnerContainer = styled.div`
@@ -101,12 +99,6 @@ export const Desc = styled.div`
     font-size: 1.2rem;
     line-height: 2rem;
     text-align: justify;
-`;
-
-export const Body = styled.div`
-    display: flex;
-    width: 100%;
-    height: 90%;
 `;
 
 export const Footer = styled.div`
@@ -154,4 +146,5 @@ export const Image = styled.img`
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     transition: 100ms ease-in-out;
+    background-color: grey;
 `;
