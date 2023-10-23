@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { ArrowForwardIos } from "@mui/icons-material";
 import { useSetLang } from "../../../App";
 
@@ -13,26 +13,39 @@ import {
     InfoWrapper,
     DescWrapper,
     Footer,
-    Body,
     Step, 
     StyledIconButton,
     Image,
-    Desc
+    Desc,
+    InfoInnerContainer
 } from "./poetCareerStyles";
 
 export default function PoetCareer({ points }) {
     const { lang } = useSetLang();
+    const parentRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [translate, setTranslate] = useState(0);
+
+    useEffect(() => {
+        const parentWidth = parentRef?.current?.getBoundingClientRect().width;
+
+        // Same concept as centering div's with position absolute
+        setTranslate((parentWidth/2) - 400);
+    }, []);
 
     const handleNext = () => {
-        if (currentIndex < points?.years?.length - 1) {
-            setCurrentIndex(prevState => prevState + 1)
+        if (currentIndex < points?.years?.length - 1) {            
+
+            setCurrentIndex(prevState => prevState + 1);            
+            setTranslate(prevState => prevState - 850);
         }
     }
 
     const handlePrev = () => {
         if (currentIndex > 0) {
-            setCurrentIndex(prevState => prevState - 1)
+
+            setCurrentIndex(prevState => prevState - 1);
+            setTranslate(prevState => prevState + 850);
         }
     }
 
@@ -49,36 +62,28 @@ export default function PoetCareer({ points }) {
                         );
                     })}
                 </UnitWrapper>
-                <InfoContainer>
-                    <InfoWrapper>
-                        <Body>
-                            <Image />
-                            <DescWrapper />
-                        </Body>
-                        <Footer />
-                    </InfoWrapper>
-                    <InfoWrapper main={1}>
-                        <Image src={points?.images[currentIndex]} />
-                        <DescWrapper>
-                            <Desc dangerouslySetInnerHTML={{__html: points?.text[lang][currentIndex]}} />
-                            <Footer>
-                                <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 0}>
-                                    <ArrowForwardIos />
-                                </StyledIconButton>
-                                <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
-                                <StyledIconButton onClick={handleNext} disabled={currentIndex === points?.years.length - 1}>
-                                    <ArrowForwardIos />
-                                </StyledIconButton>
-                            </Footer>
-                        </DescWrapper>
-                    </InfoWrapper>
-                    <InfoWrapper>
-                        <Body>
-                            <Image />
-                            <DescWrapper />
-                        </Body>
-                        <Footer />
-                    </InfoWrapper>
+                <InfoContainer ref={parentRef}>
+                    <InfoInnerContainer>
+                        {points?.years?.map((point, i) => {
+                            return (
+                                <InfoWrapper translate={translate}>
+                                    <Image src={points?.images[i]} />
+                                    <DescWrapper>
+                                        <Desc dangerouslySetInnerHTML={{__html: points?.text[lang][i]}} />
+                                        <Footer>
+                                            <StyledIconButton left={1} onClick={handlePrev}>
+                                                <ArrowForwardIos />
+                                            </StyledIconButton>
+                                            <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
+                                            <StyledIconButton onClick={handleNext}>
+                                                <ArrowForwardIos />
+                                            </StyledIconButton>
+                                        </Footer>
+                                    </DescWrapper>
+                                </InfoWrapper>
+                            );
+                        })}
+                    </InfoInnerContainer>
                 </InfoContainer>
             </YearSlider>
         </MainContainer>
