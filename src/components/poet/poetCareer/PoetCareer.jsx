@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { ArrowForwardIos } from "@mui/icons-material";
+import { useSetLang } from "../../../App";
 
 import { 
     MainContainer,
@@ -10,15 +11,17 @@ import {
     Line,
     InfoContainer,
     InfoWrapper,
-    Desc,
+    DescWrapper,
     Footer,
     Body,
     Step, 
     StyledIconButton,
-    Image
+    Image,
+    Desc
 } from "./poetCareerStyles";
 
 export default function PoetCareer({ points }) {
+    const { lang } = useSetLang();
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handleNext = () => {
@@ -32,8 +35,6 @@ export default function PoetCareer({ points }) {
             setCurrentIndex(prevState => prevState - 1)
         }
     }
-
-    console.log(currentIndex, "index")
 
     return (
         <MainContainer id='Career'>
@@ -52,13 +53,14 @@ export default function PoetCareer({ points }) {
                     <InfoWrapper>
                         <Body>
                             <Image />
-                            <Desc />
+                            <DescWrapper />
                         </Body>
                         <Footer />
                     </InfoWrapper>
                     <InfoWrapper main={1}>
                         <Image src={points?.images[currentIndex]} />
-                        <Desc>
+                        <DescWrapper>
+                            <Desc dangerouslySetInnerHTML={{__html: points?.text[lang][currentIndex]}} />
                             <Footer>
                                 <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 0}>
                                     <ArrowForwardIos />
@@ -68,12 +70,12 @@ export default function PoetCareer({ points }) {
                                     <ArrowForwardIos />
                                 </StyledIconButton>
                             </Footer>
-                        </Desc>
+                        </DescWrapper>
                     </InfoWrapper>
                     <InfoWrapper>
                         <Body>
                             <Image />
-                            <Desc />
+                            <DescWrapper />
                         </Body>
                         <Footer />
                     </InfoWrapper>

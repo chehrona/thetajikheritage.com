@@ -695,7 +695,19 @@ module.exports.poets = [
             text: {
                 tj: `Hello`,
                 ru: `Hello`,
-                us: `Hey`,
+                us: [
+                        `He was appointed a consultant to the newly established Republic of Bukhara's consulate in Samarkand, 
+                        facilitated through the support of Abdulqodir Muhiddinov. However, the consulate closes soon after, and Ayni was 
+                        subsequently appointed to oversee a department within Bukhgostorg (the Economic Council of the Bukharan People's 
+                        Soviet Republic) in Samarkand, once more with the assistance of A. Muhiddinov.`,
+                        `In 1920, Ayni penned his first major literary work, "The Bukhara Executioners." Then, he wrote 
+                        the short story "Odina" in 1924, followed by the novel "Dokhunda" (written between 1927 and 1928, but published 
+                        in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Reminiscences," was published 
+                        in 1940.
+                        <div class='emptyLine'></div>
+                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>The cover of "The Bukhara Executioners" 
+                        published in 1937 in Tajiki-Persian written in the Latin script</div>`
+                    ]
             }
         },
         awards: {

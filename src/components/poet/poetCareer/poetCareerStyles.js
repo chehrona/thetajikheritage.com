@@ -77,10 +77,18 @@ export const InfoWrapper = styled.div`
     display: flex;
 `;
 
-export const Desc = styled.div`
-    width: 60%;
+export const DescWrapper = styled.div`
+    width: 65%;
     height: 100%;
     border-radius: 1rem;
+    position: relative;
+`;
+
+export const Desc = styled.div`
+    padding: 2rem 3rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: justify;
 `;
 
 export const Body = styled.div`
@@ -93,10 +101,12 @@ export const Footer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%;
     width: 100%;
     background: #fcf6e9;
     border-radius: 0rem 0rem 1rem 1rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 0rem;
 `;
 
 export const Step = styled.div`
