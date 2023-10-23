@@ -690,23 +690,23 @@ module.exports.poets = [
                 ]
         },
         career: {
-            years: ["1923", "1920-1940", 1930, 1934, 1937, 1940, 1950, 1951],
-            images: ["/poetImages/ayni/career/ayni1.png", "/poetImages/ayni/career/ayni2.png"],
+            years: ["1920-1940", "1923", 1930, 1934, 1937, 1940, 1950, 1951],
+            images: ["/poetImages/ayni/career/ayni2.png", "/poetImages/ayni/career/ayni1.png",],
             text: {
                 tj: `Hello`,
                 ru: `Hello`,
                 us: [
-                        `He was appointed a consultant to the newly established Republic of Bukhara's consulate in Samarkand, 
-                        facilitated through the support of Abdulqodir Muhiddinov. However, the consulate closes soon after, and Ayni was 
-                        subsequently appointed to oversee a department within Bukhgostorg (the Economic Council of the Bukharan People's 
-                        Soviet Republic) in Samarkand, once more with the assistance of A. Muhiddinov.`,
                         `In 1920, Ayni penned his first major literary work, "The Bukhara Executioners." Then, he wrote 
                         the short story "Odina" in 1924, followed by the novel "Dokhunda" (written between 1927 and 1928, but published 
                         in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Reminiscences," was published 
                         in 1940.
                         <div class='emptyLine'></div>
                         <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>The cover of "The Bukhara Executioners" 
-                        published in 1937 in Tajiki-Persian written in the Latin script</div>`
+                        published in 1937 in Tajiki-Persian written in the Latin script</div>`,
+                        `He was appointed a consultant to the newly established Republic of Bukhara's consulate in Samarkand, 
+                        facilitated through the support of Abdulqodir Muhiddinov. However, the consulate closes soon after, and Ayni was 
+                        subsequently appointed to oversee a department within Bukhgostorg (the Economic Council of the Bukharan People's 
+                        Soviet Republic) in Samarkand, once more with the assistance of A. Muhiddinov.`,
                     ]
             }
         },
