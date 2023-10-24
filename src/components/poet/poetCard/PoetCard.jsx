@@ -31,8 +31,8 @@ export default function PoetCard() {
         <PoetBoxContainer>
             {poets?.map((poet, i) => {
                 return (
-                    <StyledLink to={"/language" + poet?.link}>
-                        <PoetCardWrapper key={i} delay={`${0.01*i}s`}>
+                    <StyledLink key={i} to={"/language" + poet?.link}>
+                        <PoetCardWrapper delay={`${0.01*i}s`}>
                             <PoetImgContainer>
                                 <PoetImage loading="lazy" src={poet?.img[0]} />
                                 <PoetNameBox>

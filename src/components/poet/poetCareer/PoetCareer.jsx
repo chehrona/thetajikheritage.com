@@ -56,7 +56,7 @@ export default function PoetCareer({ points }) {
                     <Line />
                     {points?.years?.map((point, i) => {
                         return (
-                            <YearWrapper size={i === currentIndex}>
+                            <YearWrapper key={i + 1} size={i === currentIndex}>
                                 <Year show={i !== currentIndex}>{point}</Year>
                             </YearWrapper>   
                         );
@@ -66,8 +66,8 @@ export default function PoetCareer({ points }) {
                     <InfoInnerContainer>
                         {points?.images?.map((img, i) => {
                             return (
-                                <InfoWrapper translate={translate}>
-                                    <Image loading="lazy" src={img} />
+                                <InfoWrapper key={img + i} translate={translate}>
+                                    <Image src={img} />
                                     <DescWrapper>
                                         <Desc dangerouslySetInnerHTML={{__html: points?.text[lang][i]}} />
                                         <Footer>

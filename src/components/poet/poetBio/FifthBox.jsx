@@ -38,8 +38,6 @@ export default function FifthBox({ poet }) {
         }
     };
 
-    console.log(infoArr[0], "description")
-
     return (
         <BoxSeven
             onMouseEnter={() => setHover(true)}
