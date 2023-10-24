@@ -728,10 +728,11 @@ module.exports.poets = [
                         <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*Об&shyлож&shyка кни&shyги «Бу&shyхарс&shyкие па&shyла&shyчи», 
                         из&shyдан&shyной в 1937 го&shyду, на 
                         тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей</div>`,
-                        `Он был назначен консультантом консульства недавно соз&shyдан&shyной Бухарской Республики в Самарканде, чему способствовал 
-                        Абдулкодир Мухиддинов. Од&shyна&shyко вско&shyре консуль&shyство зак&shyры&shyва&shyет&shyся, и Айни был назначен 
+                        `Он был назначен консультантом кон&shyсуль&shyства недавно соз&shyдан&shyной Бу&shyхар&shyской Рес&shyпублики в Са&shyмар&shyканде, 
+                        чему способствовал 
+                        Аб&shyдул&shyкодир Му&shyхид&shyдинов. Од&shyна&shyко вско&shyре консуль&shyство зак&shyры&shyва&shyет&shyся, и Айни был назначен 
                         ру&shyко&shyво&shyди&shyте&shyлем от&shyде&shyла Бух&shyгос&shyтор&shyга (эко&shyно&shyми&shyчес&shyкий 
-                        со&shyвет Бу&shyхарской На&shyрод&shyной Со&shyветской Рес&shyпублики) в Самарканде, еще раз при содействии А. Му&shyхид&shyди&shyно&shyва.`,
+                        со&shyвет Бу&shyхар&shyской На&shyрод&shyной Со&shyветской Рес&shyпублики) в Са&shyмар&shyканде, еще раз при со&shyдей&shyствии А. Му&shyхид&shyди&shyно&shyва.`,
                         `Ай&shyни со&shyста&shyвил «Шах&shyнаме» Фир&shyдоу&shyси с на&shyме&shyре&shyни&shyем транс&shyли&shyте&shyри&shyро&shyвать 
                         его в но&shyвую тад&shyжик&shyскую пись&shyмен&shyность, сна&shyча&shyла на ла&shyти&shyни&shyцу, 
                         а за&shyтем на ки&shyрил&shyли&shyцу. Он так&shyже тща&shyтель&shyно соб&shyрал био&shyгра&shyфии и про&shyиз&shyве&shyдения многочисленных 
