@@ -328,17 +328,17 @@ module.exports.poets = [
                     year: '1920',
                     slides: [
                         {
-                            img: '/poetImages/ayni/family/ayni1.png',
+                            img: '/poetImages/ayni/family/ayni1.jpeg',
                             text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) and Kamol Ayni. From 1949 <sup>7</sup>`,
                             color: '#fcf6e9'
                         },
                         {
-                            img: '/poetImages/ayni/family/ayni2.png',
+                            img: '/poetImages/ayni/family/ayni2.jpeg',
                             text: `Ayni with his wife - Salohat <sup>9<sup>`,
                             color: '#0F0A00'
                         },
                         {
-                            img: '/poetImages/ayni/family/ayni3.png',
+                            img: '/poetImages/ayni/family/ayni3.jpeg',
                             text: `Ayni with his son - Kamol <sup>4<sup>`,
                             color: '#fcf6e9'
                         }
@@ -362,17 +362,17 @@ module.exports.poets = [
                     year: '1920',
                     slides: [
                         {
-                            img: '/poetImages/ayni/family/ayni1.png',
+                            img: '/poetImages/ayni/family/ayni1.jpeg',
                             text: `Слева направо сидят: Лютфия, Садриддин, Холида; стоят: Хамид Мансуров (племянник Айни) и Камол Айни. С 1949 г. <sup>7</sup>`,
                             color: '#fcf6e9'
                         },
                         {
-                            img: '/poetImages/ayni/family/ayni2.png',
+                            img: '/poetImages/ayni/family/ayni2.jpeg',
                             text: `Айни с женой - Салохат <sup>9<sup>`,
                             color: '#0F0A00'
                         },
                         {
-                            img: '/poetImages/ayni/family/ayni3.png',
+                            img: '/poetImages/ayni/family/ayni3.jpeg',
                             text: `Айни с сыном Камолом <sup>4<sup>`,
                             color: '#fcf6e9'
                         }
@@ -396,17 +396,17 @@ module.exports.poets = [
                     year: '1920',
                     slides: [
                         {
-                            img: '/poetImages/ayni/family/ayni1.png',
+                            img: '/poetImages/ayni/family/ayni1.jpeg',
                             text: `Аз чап ба рост, нишастаанд: Лутфия, Садриддин, Холида; рост истодаанд: Ҳамид Мансуров (ҷияни Айнӣ) ва Камол Айнӣ. Акси соли 1949 <sup>7</sup>`,
                             color: '#fcf6e9'
                         },
                         {
-                            img: '/poetImages/ayni/family/ayni2.png',
+                            img: '/poetImages/ayni/family/ayni2.jpeg',
                             text: `Айнӣ бо ҳамсараш Салоҳат <sup>9<sup>`,
                             color: '#0F0A00'
                         },
                         {
-                            img: '/poetImages/ayni/family/ayni3.png',
+                            img: '/poetImages/ayni/family/ayni3.jpeg',
                             text: `Айнӣ бо писараш Камол <sup>4<sup>`,
                             color: '#fcf6e9'
                         }
