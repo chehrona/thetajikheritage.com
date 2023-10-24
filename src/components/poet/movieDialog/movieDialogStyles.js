@@ -7,21 +7,30 @@ export const Desc = styled.div`
     line-height: 1.5rem;
     text-align: justify;
     margin-top: 1.5rem;
-    padding-right: 28%;
+    padding-right: 25%;
 `;
 
 export const StyledIconButton = styled(IconButton)`
-    position: absolute !important;
-    width: ${({ play }) => play ? "5.5rem" : "3rem"};
-    height: ${({ play }) => play ? "5.5rem" : "3rem"};
-    top: ${({ play }) => play ? "7rem" : "1.5rem"};
-    background: ${({ play }) => play && "#504221d1 !important"};
-    right: ${({ play }) => play ? "16%" : "1.6rem"};
+    width: 5.5rem;
+    height: 5.5rem;
 
-    &:hover {
-        background: ${({ play }) => play && "#504221 !important"};
+    &.MuiIconButton-root {
+        background: #504221d1;
+
+        &:hover {
+            background: #504221;
+        }
     }
 `;
+
+export const StyledCloseButton = styled(IconButton)`
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    top: 0.25rem;
+    right: 0.3rem;
+`;
+
 
 export const StyledContent = styled(DialogContent)`
     border-radius: 2rem;
@@ -41,7 +50,7 @@ export const InfoContainer = styled.div`
 `;
 
 export const InnerBox = styled.div`
-    width: ${({ width }) => width ? "32%" : "68%"};
+    width: ${({ width }) => width ? "35%" : "65%"};
     background: ${({ width }) => width ? "#0F0A00" : "#fcf6e9"};
     position: ${({ width }) => width && "relative"};
     border-radius: ${({ width }) => width ? "0rem 2.01rem 2.01rem 0rem" : "2.01rem 0rem 0rem 2.01rem"};
@@ -76,12 +85,13 @@ export const StyledPlayIcon = styled(PlayArrow)`
 `;
 
 export const MovieImg = styled.img`
-    height: 80%;
-    width: 28%;
+    height: 85%;
+    width: auto;
     box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
     position: absolute;
-    top: 10.25%;
-    left: 53%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
 `;
 
 export const ReleaseInfo = styled.div`
@@ -89,8 +99,7 @@ export const ReleaseInfo = styled.div`
     align-items: center;
     height: 4rem;
     width: 30rem;
-    justify-content: space-between;
-    padding-left: 2rem;
+    justify-content: space-around;
     padding-right: 2rem;
 `;
 
@@ -121,15 +130,15 @@ export const DirBox = styled.div`
     align-items: center;
     justify-content: start;
     position: absolute;
-    right: 4.65%;
-    top: 23.44%;
+    right: 9%;
+    top: 15%;
 `;
 
 export const Line = styled.div`
     width: 4rem;
     background: #fcf6e9;
     height: 0.05rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
 `;
 
 export const Direction = styled.div`

@@ -44,13 +44,13 @@ module.exports.poets = [
                     desc: `Садриддин Саидмуродзода родился в семье <span style='font-weight: bold;'>Саидмуродходжи</span>
                         и <span style='font-weight: bold;'>Зеварой</span> в селе Соктаре Гиждуванского района Бухарского эмирата.<sup>1</sup> 
                         Выросший в семье крестьян, он провел большую часть своих ранних лет среди крестьян и местных ремесленников. 
-                        Именно в этом сплоченном сообществе он знакомится с миром народной литературы, включающей сказки, 
+                        Именно в этом спло&shyченном сообществе он знакомится с миром народной ли&shyте&shyра&shyту&shyры, включающей сказки, 
                         легенды, песни, анекдоты и пословицы.<sup>2</sup>
                         <div class='space'></div>
-                        В школьные годы, как описано в его книге «Старая школа», он не получил особой пользы от формального образования.
-                        Однако он познакомился с поэзией таких выдающихся мастеров, как Саади, Хафиз, Саиб, Бедиль и других.
+                        В школьные годы, как описано в его книге «Старая школа», он не по&shyлучил особой пользы от формального образования.
+                        Однако он позна&shyкомился с поэзией таких выдающихся мастеров, как Саади, Ха&shyфиз, Саиб, Бедиль и других.
                         <div class='space'></div>
-                        Его отец, несмотря на то, что был скромным крестьянином, имел глубокую любовь к образованию и 
+                        Его отец, несмотря на то, что был скромным крестьянином, имел глу&shyбокую любовь к образованию и 
                         литературе, которую он передал своим детям.<sup>2,3</sup>`
                 },
                 tj: {
@@ -257,7 +257,7 @@ module.exports.poets = [
                         <div class='space'></div>Eventually, he is liberated by the Russian 
                         Revolutionary forces at the behest of the Young Bukharans. After enduring 
                         <span style='font-weight: bold;'>52 days</span> in the hospital 
-                        and undergoing <span style='font-weight: bold;'>25 surgeries</span>, 
+                        and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
                         he permanently moved to Samarkand.
                         There, he dedicated himself to the revolutionary cause, wielding the 
                         power of his pen, writing political articles and to 
@@ -268,30 +268,30 @@ module.exports.poets = [
                         and cruelly murdered him through suffocation. Ayni channelled his 
                         grief into his literary work, "Marsiya."
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
-                        <span style='font-weight: bold;'>Muhiddinkhoja</span> and kidnapped his son.<sup>1</sup>
+                        <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kidnapped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
                         resolve, sharpening his pen and intensifying his determination to guide the country 
                         toward liberation from such bloodthirsty rulers.`,
                 },
                 ru: {
                     quote: `... хоть нам и жаль, что мы провели жизнь в неведении, ... теперь наша совесть не позволяет нам сказать: «мне-то что?»<sup>5</sup>`,
-                    desc: `Окончив медресе, Айни продолжает помогать джадидскому движению, 
-                    сопротивляясь старым обычаям, так глубоко укоренившимся среди бухарского духовенства.
+                    desc: `Окончив медресе, Айни продолжает помогать джадидскому дви&shyже&shyнию, 
+                    сопротивляясь старым обычаям, так глубоко уко&shyре&shyнив&shyшим&shyся среди бухарского духовенства.
                     Однако его «добрые дела» были встречены неодобрением со стороны эмира,
-                    что привело к его тюремному заключению и самому суровому приговору того времени -
-                    <span style='font-weight:bold;'>75 ударов плетью</span>.
+                    что привело к его тю&shyрем&shyно&shyму заключению и самому суровому приговору того времени -
+                    <span style='font-weight:bold;'>75 уда&shyров плетью</span>.
                     <div class='space'></div>В конце концов, его освобождают русские
                     Революционные силы по прозьбе младобухарцев. После
                     <span style='font-weight:bold;'>52 дня</span> в больнице
                     и <span style='font-weight:bold;'>25 операций</span>, он навсегда переежает в Самарканд.
-                    Там он посвящает себя революционному делу, пользуясь
+                    Там он посвящает себя ре&shyво&shyлю&shyци&shyон&shyно&shyму делу, пользуясь
                     силой своего пера, пишет политические статьи и
                     прямо призывает соотечественников восстать против эмира.
-                    <br>Поскольку Айни был известным джадидом,
+                    <br>По&shyсколь&shyку Айни был известным джадидом,
                     амир ложно обвиняет его младшего брата,
                     <span style='font-weight:bold;'>Сироджиддина</span>, об измене
-                    и жестоко казнит его через удушье. Айни направил свое
-                    горе в свое литературное произведение «Марсия».
+                    и жестоко казнит его че&shyрез удушье. Айни направил свое
+                    горе в свое литературное про&shyиз&shyве&shyдение «Марсия».
                     <div class='space'></div>В 1922 году басмачи убивают старшего брата Айни -
                     <span style='font-weight:bold;'>Мухиддинходжа</span> и похищают его сына.<sup>1</sup>
                     <div class='space'></div>Эти мучительные потери только укрепили позиции Айни.
@@ -344,7 +344,7 @@ module.exports.poets = [
                         }
                     ],
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
-                        and they moved into her parents' home in Samarkand. 
+                        and they moved into her pa&shyrents' home in Sa&shymarkand. 
                         Despite Ayni's dire financial situation,
                         Salohat remained undeterred in her commitment to him. She dedicated herself to creating an 
                         environment where his literary genius could flourish, a dedication that persisted until their final days.<sup>1</sup>
@@ -379,8 +379,8 @@ module.exports.poets = [
                     ],
                     desc: `В октябре 1920 года Айни женится на <span style='font-weight:bold;'>Салохате</span>,
                         и они переежают в дом ее родителей в Самарканде.
-                        Несмотря на финансовое положение Айни,
-                        Салохат оставалась непоколебимой в своей преданности ему. Она посвятила себя созданию
+                        Несмотря на финансовое по&shyло&shyже&shyние Айни,
+                        Са&shyло&shyхат оставалась непоколебимой в своей преданности ему. Она посвятила себя созданию
                         среды, где мог процветать его литературный гений, и эта преданность длилась до их последних совместных дней<sup>1</sup>.
                         <div class='space'></div>
                         У них было трое детей: <span style='font-weight:bold;'>Камол</span> (г.р. 1928),
@@ -390,7 +390,7 @@ module.exports.poets = [
                         филологии и истории искусства Центральной Азии, соответственно<sup>7</sup>
                         <div class='space'></div>
                         На сегодняшний день внук Айни, <span style='font-weight:bold;'>Ирадж Айни</span>, 
-                        проживает в Душанбе со своей семьей, и продолжает наследие своего деда через Фонд Садриддина Айни<sup>8</sup>`
+                        про&shyжи&shyвает в Ду&shyшан&shyбе со своей семьей, и продолжает наследие своего деда через Фонд Садриддина Айни<sup>8</sup>`
                 },
                 tj: {
                     year: '1920',
@@ -751,27 +751,29 @@ module.exports.poets = [
                         `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
                         He continued to hold this position until his passing.`,
                         `In 1920, Ayni penned his first major literary work, "The Bu&shykhara Executioners." Then, he wrote 
-                        the short sto&shyry "Odina" in 1924, followed by the no&shyvel "Do&shykhun&shyda" (written between 1927 and 1928, but published 
-                        in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Reminiscences," was published 
+                        the short sto&shyry "Odi&shyna" in 1924, followed by the no&shyvel "Do&shykhun&shyda" (written between 1927 and 1928, but published 
+                        in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Re&shymi&shyniscences," was pub&shylished 
                         in 1940.
                         <div class='emptyLine'></div>
                         <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*The cover of "The Bukhara Executioners" 
                         published in 1937 in Tajiki-Persian written in the Latin script</div>`,
                         `He was appointed a consultant to the newly established Republic of Bukhara's consulate in Samarkand, 
-                        faci&shyli&shyta&shyted through the support of Abdul&shyqo&shydir Mu&shyhiddinov. However, the consulate closes soon after, and Ayni was 
-                        subsequently appointed to over&shysee a de&shypart&shyment within Bukh&shygos&shytorg (the Economic Council of the Bukharan People's 
+                        faci&shyli&shyta&shyted through the support of Abdul&shyqo&shydir Mu&shyhiddinov. How&shyever, the consulate closes soon after, and Ayni was 
+                        subsequently appointed to over&shysee a de&shypart&shyment with&shyin Bukh&shygos&shytorg (the Economic Council of the Bukharan People's 
                         Soviet Republic) in Samarkand, once more with the assistance of A. Muhiddinov.`,
-                        `Ayni compiled Ferdowsi's "Shāhnāmeh" with the intention of transliterating it into 
-                        the new Tajik script, first in Latin and later in Cyrillic. He also me&shyti&shycu&shylous&shyly compiled biographies and 
-                        works of numerous scholars and poets, such as "Sheikh-ur-rais Abu Ali Sinā" (Avicenna), "Sheikh 
-                        Muslihiddin Saadi Shirazi," "Ustad Rudaki," "Kamal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e 
+                        `Ayni compiled Ferdowsi's "Shāhnāmeh" with the in&shyten&shytion of trans&shyliterating it into 
+                        the new Tajik script, first in Latin and later in Cyrillic. He also me&shyti&shycu&shylous&shyly com&shypiled biographies and 
+                        works of numerous scholars and poets, such as "Sheikh-ur-rais Abu Ali Sinā" (Avi&shycen&shyna), "Sheikh 
+                        Muslihiddin Saadi Shirazi," "Ustad Ru&shyda&shyki," "Ka&shymal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e 
                         Wa&shysi&shyfi," and others.`,
-                        `A state law banned the Arabic script for writing, affec&shyting the Ta&shyjik language tra&shydi&shytionally written in the Perso-Arabic script. 
-                        This led to the sys&shyte&shymatic destruction of Arabic-script books. In response, Sadriddin Ayni 
-                        collabo&shyra&shyted with prominent So&shyviet Ira&shyno&shylo&shygists, in&shyclu&shyding Bertels, Semyonov, and Freiman, to collect and transliterate Persian 
-                        books in&shyto Cy&shyril&shylic. He was accused of being an "enemy of the nation," and almost perished in Stalin's Great Purge.`,
-                        `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
-                        He continued to hold this position until his passing in 1954.`,
+                        `A state law banned the Arabic script for writing, affec&shyting the Ta&shyjik language tra&shydi&shytionally written in the 
+                        Per&shyso-Arabic script. 
+                        This led to the sys&shyte&shymatic de&shystruc&shytion of Arabic-script books. In response, Sad&shyrid&shydin Ayni 
+                        collabo&shyra&shyted with prominent So&shyviet Ira&shyno&shylo&shygists, in&shyclu&shyding Bertels, Semyonov, and Freiman, 
+                        to col&shylect and trans&shyli&shyte&shyrate Per&shysian 
+                        books in&shyto Cy&shyril&shylic. He was ac&shycused of be&shying an "ene&shymy of the nation," and almost perished in Stalin's Great Purge.`,
+                        `In 1951, the Academy of Sciences of Tajik SSR was foun&shyded, with Sadriddin Ayni appointed as its in&shyau&shygu&shyral pre&shysi&shydent. 
+                        He held this position until his passing in 1954.`,
                         `In 1920, Ayni penned his first major literary work, "The Bukhara Executioners." Then, he wrote 
                         the short story "Odina" in 1924, followed by the novel "Dokhunda" (written between 1927 and 1928, but published 
                         in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Reminiscences," was published 

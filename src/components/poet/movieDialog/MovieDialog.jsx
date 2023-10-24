@@ -10,6 +10,7 @@ import {
     StyledContent,
     InfoTitle,
     StyledCloseIcon,
+    StyledCloseButton,
     Director,
     MovieImg,
     InnerBox,
@@ -101,11 +102,11 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                 ) : (
                     <InfoContainer>
                         <InnerBox>
-                            <StudioName loading="lazy" src={movieInfo?.studio}></StudioName>
+                            <StudioName src={movieInfo?.studio}></StudioName>
                             <InfoTitle>{movieInfo?.title}</InfoTitle>
                             <ReleaseInfo>
-                                <InfoWrapper year={true}>{movieInfo?.year}</InfoWrapper>
-                                <InfoWrapper genre={true}>{movieInfo?.lang}</InfoWrapper>
+                                <InfoWrapper year={1}>{movieInfo?.year}</InfoWrapper>
+                                <InfoWrapper genre={1}>{movieInfo?.lang}</InfoWrapper>
                                 <InfoWrapper>{movieInfo?.genre}</InfoWrapper>
                                 <InfoWrapper>{movieInfo?.duration}</InfoWrapper>
                             </ReleaseInfo>
@@ -115,16 +116,16 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                             </Director>
                             <div>{movieInfo?.director}</div>
                         </InnerBox>
-                        <InnerBox width={true}>
+                        <InnerBox width={1}>
                         </InnerBox>
-                        <MovieImg loading="lazy" src={movieInfo?.img} />
-                        <StyledIconButton onClick={() => setShowMovieInfo(false)}>
+                        <MovieImg src={movieInfo?.img} />
+                        <StyledCloseButton onClick={() => setShowMovieInfo(false)}>
                             <StyledCloseIcon />
-                        </StyledIconButton>
-                        <StyledIconButton play={true} onClick={() => setShowVideo(true)}>
-                            <StyledPlayIcon />
-                        </StyledIconButton>
-                        <DirBox>    
+                        </StyledCloseButton>
+                        <DirBox>
+                            <StyledIconButton onClick={() => setShowVideo(true)}>
+                                <StyledPlayIcon />
+                            </StyledIconButton>    
                             <Line />
                             <Direction>
                                 {lang === 'ru' ? 'Смотреть' : (lang === 'tj' ? 'Тамошо' : 'Watch now')}
