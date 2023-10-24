@@ -75,7 +75,7 @@ module.exports.poets = [
                 us: [
                         {
                             year: '1889',
-                            image: '/poetImages/ayni/slides/ayni1.png',
+                            image: '/poetImages/ayni/slides/ayni1.jpeg',
                             desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
                                 from both his father and mother in a span of forty days. He was left to take care of two younger
                                 siblings at the age of 12. Despite these challenges, 
@@ -83,7 +83,7 @@ module.exports.poets = [
                         },
                         {
                             year: '1890',
-                            image: '/poetImages/ayni/slides/ayni2.png',
+                            image: '/poetImages/ayni/slides/ayni2.jpeg',
                             desc: `He gets into Mir-i Arab madrasa and secures a "hujra" - room there with his brother.
                             However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
                             was quite difficult.
@@ -93,7 +93,7 @@ module.exports.poets = [
                         },
                         {
                             year: '1896',
-                            image: '/poetImages/ayni/slides/ayni3.png',
+                            image: '/poetImages/ayni/slides/ayni3.jpeg',
                             desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
                                 poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his initial 
                                 poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli."
@@ -102,7 +102,7 @@ module.exports.poets = [
                         },
                         {
                             year: '1897-1898',
-                            image: '/poetImages/ayni/slides/ayni4.png',
+                            image: '/poetImages/ayni/slides/ayni4.jpeg',
                             desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow classmate Abduvohid Munzim
                                 with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication.
                                 <div class='space'></div>
@@ -111,21 +111,21 @@ module.exports.poets = [
                         },
                         {
                             year: '1908',
-                            image: '/poetImages/ayni/slides/ayni5.png',
+                            image: '/poetImages/ayni/slides/ayni5.jpeg',
                             desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
                                 designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzar-i (street) Salohkhona, 
                                 with Persian as language of instruction, catering to the local Bukharan population.<sup>5</sup>`,
                         },
                         {
                             year: '1909',
-                            image: '/poetImages/ayni/slides/ayni6.png',
+                            image: '/poetImages/ayni/slides/ayni6.jpeg',
                             desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
                                 proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
                                 and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
                         },
                         {
                             year: '1910',
-                            image: '/poetImages/ayni/slides/ayni7.png',
+                            image: '/poetImages/ayni/slides/ayni7.jpeg',
                             desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
                                 a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
                         }
@@ -133,7 +133,7 @@ module.exports.poets = [
                 ru: [
                     {
                         year: '1889',
-                        image: '/poetImages/ayni/slides/ayni1.png',
+                        image: '/poetImages/ayni/slides/ayni1.jpeg',
                         desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
                             from both his father and mother in a span of forty days. He was left to take care of two younger
                             siblings at the age of 12. Despite these challenges, 
@@ -141,7 +141,7 @@ module.exports.poets = [
                     },
                     {
                         year: '1890',
-                        image: '/poetImages/ayni/slides/ayni2.png',
+                        image: '/poetImages/ayni/slides/ayni2.jpeg',
                         desc: `He gets into Mir-i Arab madrasa and secures a "hujra" - room there with his brother.
                         However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
                         was quite difficult.
@@ -151,7 +151,7 @@ module.exports.poets = [
                     },
                     {
                         year: '1896',
-                        image: '/poetImages/ayni/slides/ayni3.png',
+                        image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
                             poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his initial 
                             poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli."
@@ -160,7 +160,7 @@ module.exports.poets = [
                     },
                     {
                         year: '1897-1898',
-                        image: '/poetImages/ayni/slides/ayni4.png',
+                        image: '/poetImages/ayni/slides/ayni4.jpeg',
                         desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow classmate Abduvohid Munzim
                             with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication.
                             <div class='space'></div>
@@ -169,21 +169,21 @@ module.exports.poets = [
                     },
                     {
                         year: '1908',
-                        image: '/poetImages/ayni/slides/ayni5.png',
+                        image: '/poetImages/ayni/slides/ayni5.jpeg',
                         desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
                             designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzar-i (street) Salohkhona, 
                             with Persian as language of instruction, catering to the local Bukharan population.<sup>5</sup>`,
                     },
                     {
                         year: '1909',
-                        image: '/poetImages/ayni/slides/ayni6.png',
+                        image: '/poetImages/ayni/slides/ayni6.jpeg',
                         desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
                             proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
                             and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
                     },
                     {
                         year: '1910',
-                        image: '/poetImages/ayni/slides/ayni7.png',
+                        image: '/poetImages/ayni/slides/ayni7.jpeg',
                         desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
                             a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
                     }
@@ -191,14 +191,14 @@ module.exports.poets = [
                 tj: [
                     {
                         year: '1889',
-                        image: '/poetImages/ayni/slides/ayni1.png',
+                        image: '/poetImages/ayni/slides/ayni1.jpeg',
                         desc: `Тамоми Бухоро ва атрофи онро вабое фаро мегирад, ки Айниро дар байни чил рӯз ҳам 
                             аз падар ва ҳам аз модараш ҷудо мекунад. Ӯ дар синни 12-солагӣ, нигоҳубини ду бародари хурдияшро
                             ба дӯш мегирад. Бо вуҷуди ин душвориҳо, орзуи илму шеър Айниро ба Бухоро меорад.<sup>2</sup>`
                     },
                     {
                         year: '1890',
-                        image: '/poetImages/ayni/slides/ayni2.png',
+                        image: '/poetImages/ayni/slides/ayni2.jpeg',
                         desc: `Ӯ таҳсилашро дар мадрасаи Мири Араб оғоз мекунад ва дар он ҷо бо бародараш як ҳуҷраеро иҷора мегирад. 
                         Вале ба мадрасаҳои Бухоро дохил шудан ва дониш гирифтан барои Айнӣ барин камбағалони илмҷӯ хеле мушкил буд.
                         Барои ёфтани пули ҳуҷра, ки бояд бепул мешуданд<sup>5</sup> ва рӯзгораш, маҷбур шуд гоҳ ҳамчун фарроши мадраса, 
@@ -206,7 +206,7 @@ module.exports.poets = [
                     },
                     {
                         year: '1896',
-                        image: '/poetImages/ayni/slides/ayni3.png',
+                        image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `Дар вақти мадрасахониаш бо одамоне, ки ба шеъру адаб ишқ доштанду шоирӣ мекарданд ба сабаби наздикиаш
                         бо Шарифҷон-махдум шинос ва ҳолдон мешавад. Вай шеърҳои аввалини худро бо тахаллусҳои "Мӯҳтоҷӣ", "Ҷунунӣ" ва "Сифлӣ"
                         эъҷод мекунад.
@@ -215,7 +215,7 @@ module.exports.poets = [
                     },
                     {
                         year: '1897-1898',
-                        image: '/poetImages/ayni/slides/ayni4.png',
+                        image: '/poetImages/ayni/slides/ayni4.jpeg',
                         desc: `Қозӣ Мирзо Муҳаммадшарифи Садр (Садри Зиё) таҳрири пеш аз чоп шудани «Наводир ул-вақоеъ»-и 
                         Аҳмади Донишро ба Айнӣ ва шарикдарсаш Абдувоҳиди Мунзим месупорад.
                         <div class='space'></div>
@@ -225,14 +225,14 @@ module.exports.poets = [
                     },
                     {
                         year: '1908',
-                        image: '/poetImages/ayni/slides/ayni5.png',
+                        image: '/poetImages/ayni/slides/ayni5.jpeg',
                         desc: `Якҷоя бо чор дӯсти наздикаш аввалин мактаби усули нав (ҷадида)-ро дар Бухоро мекушояд.
                             Мактаб дар ҳавлии Мирзо Абдулвоҳид дар кӯчаи Салоҳхона ҷойгир мешавад ва бо забони форсӣ, 
                             ба мардуми маҳаллии Бухороӣ дарсдиҳиро сар мекунад.<sup>5</sup>`,
                     },
                     {
                         year: '1909',
-                        image: '/poetImages/ayni/slides/ayni6.png',
+                        image: '/poetImages/ayni/slides/ayni6.jpeg',
                         desc: `Ӯ асарҳои аввалини худ, «ترتیل القرآن» («Тартил-ул-Қуръон» - қоидаҳои
                             қироати дурусти Қуръон), "تهذیب الصبیان" ("Таҳзиб-ус-сибён" - "Тарбияи писарон/фарзандон")
                             ва «ضروريات دینیه» («Зарурияти диния» - «Асосҳои динӣ»)-ро ҳамчун як қисми барномаи 
@@ -240,7 +240,7 @@ module.exports.poets = [
                     },
                     {
                         year: '1910',
-                        image: '/poetImages/ayni/slides/ayni7.png',
+                        image: '/poetImages/ayni/slides/ayni7.jpeg',
                         desc: `Адиб яке аз аввалин аъзоёни ҷамъияти "Ҷавонбухориён - "جوان‌بخاراییان"/"Yosh buxoroliklar" мешавад. Ин
                             ҷамъияти махфӣ, бахше аз ҳаракати ҷадидӣ буд, ки ҷонибдори ислоҳот ва навсозии Осиёи Марказӣ буд.<sup>5</sup>`,
                     }
