@@ -25,7 +25,7 @@ export default function BookReader({ book, setOpenBook, setOverlay }) {
             <Header>
                 <LogoWrapper>
                     <StyledLink to={'/'}>
-                        <Logo src={'/tajiks.png'}></Logo>
+                        <Logo loading="lazy" src={'/tajiks.png'}></Logo>
                     </StyledLink>
                 </LogoWrapper>
                 <TitleWrapper>

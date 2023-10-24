@@ -119,7 +119,7 @@ export default function RecipePagePrint() {
             </PrintHeader>
             <PrintBodyContainer>
                 <LeftSection>
-                    <PrintImage src={recipe?.mainImg} />
+                    <PrintImage loading="lazy" src={recipe?.mainImg} />
                     <div>
                         <BoxTitle>{recipe.ingredientsLang[lang]}</BoxTitle>
                         {recipe?.ingredients[lang].map((entry, i) => {

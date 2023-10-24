@@ -22,6 +22,7 @@ export default function ImageBall({ entry, opacities, index }) {
             {entry.inner?.map((ball, i) => {
                 return (
                     <HomeImage
+                        loading="lazy"
                         key={ball.size}
                         src={ball.img}
                         size={ball.size}

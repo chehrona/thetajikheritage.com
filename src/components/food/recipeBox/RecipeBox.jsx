@@ -37,9 +37,7 @@ export default function RecipeBox() {
                     return (
                         <RecipeCard key={i} delay={`${0.01*i}s`}>
                             <StyledLink to={"/cuisine" + recipe?.link}>
-                                <RecipeImage
-                                    src={recipe?.imageName}
-                                />
+                                <RecipeImage loading="lazy" src={recipe?.imageName} />
                             </StyledLink>
                             <RecipeNameBox>
                                 <RecipeTitle>

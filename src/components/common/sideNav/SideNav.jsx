@@ -21,7 +21,7 @@ export default function SideNav() {
                 <StyledIconButton 
                     onMouseEnter={() => setPinHovered("true")}
                     onMouseLeave={() => setPinHovered("false")}>
-                    <StyledIcon src={pinIcon} rad={true} hovered={pinHovered}/>
+                    <StyledIcon loading="lazy" src={pinIcon} rad={true} hovered={pinHovered}/>
                 </StyledIconButton>
             </a>
             <a href='https://www.instagram.com/tajik_heritage/' rel="noreferrer" target={'_blank'}>

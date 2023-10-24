@@ -16,7 +16,7 @@ export default function FirstBox({ poet }) {
                 <Year>{poet?.year}</Year>
                 <Desc dangerouslySetInnerHTML={{__html: poet?.desc}} />
             </LeftContainer>
-            <RightContainer src={poet?.slides.img} >
+            <RightContainer loading="lazy" src={poet?.slides.img} >
                 <ImgInfo
                     up={true}
                     color={poet?.slides.color} dangerouslySetInnerHTML={{__html: poet?.slides.text}} 

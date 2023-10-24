@@ -302,7 +302,7 @@ module.exports.poets = [
                     quote: `... барои умри дар ғафлат гузаштаамон худро маъзур донем ҳам, ҳоло ..., «ба ман чӣ?» гуфтанро виҷдонамон раво намедид.<sup>5</sup>`,
                     desc: `Айнӣ пас аз хатми мадраса ҳамбастагии худро бо ҷадидон идома медиҳад ва
                     ба тарзи кӯҳнаи ҷомеадорӣ, ки дар байни уламои Бухоро хеле мустаҳкам ҷой гирифта буд, муқовимат нишон додан мегирад.
-                    Аммо корҳои "нек"-и ӯ ба амир писанд намеояд ва ӯро ба зиндон мепартоянд ва сахттарин ҷазои он давра - 
+                    Аммо корҳои "нек"-и ӯ ба амир писанд намеояд ва ӯро ба зиндон мепартоянд ва ба сахттарин ҷазои он давра - 
                     <span style='font-weight: bold;'>75 чӯб</span> маҳкум мешавад.
                     <div class='space'></div>Дар ниҳоят, ӯро қувваҳои инқилобии русҳо бо 
                     хоҳиши Ҷавонбухориён озод мекунанд. 
@@ -690,22 +690,35 @@ module.exports.poets = [
                 ]
         },
         career: {
-            years: ["1920-1940", "1923", "1934", "1951"],
+            years: ["1920-1940", "1923", "1934", "1935", "1951"],
             images: [
                 "/poetImages/ayni/career/ayni4.png",
                 "/poetImages/ayni/career/ayni1.png",
                 "/poetImages/ayni/career/ayni2.png",
                 "/poetImages/ayni/career/ayni3.png",
                 "/poetImages/ayni/career/ayni4.png",
+                "/poetImages/ayni/career/ayni5.png",
                 "/poetImages/ayni/career/ayni1.png",
             ],
             text: {
                 tj: [
-                        `Hello`,
+                        `Соли 1951 Ака&shyде&shyми&shyяи Фан&shyҳои РСС То&shyҷи&shyкис&shyтон таъ&shyсис до&shyда шу&shyда, 
+                        Сад&shyрид&shyдин Ай&shyнӣ пре&shyзи&shyден&shyти яку&shyми он таъ&shyин гар&shyдид. 
+                        Ӯ ин ва&shyзи&shyфа&shyро то со&shyли 1954 дар ӯҳ&shyда дошт.`,
+                        `Со&shyли 1920, ав&shyва&shyлин аса&shyри ка&shyло&shyни ада&shyбии Ай&shyнӣ — «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро» 
+                        нашр шу&shyда&shyаст. Баъд, по&shyвес&shyти «Оди&shyна» дар со&shyли 1924 ва ро&shyма&shyни «До&shyхун&shyда» (бай&shyни 
+                        сол&shyҳои 1927 ва 1928 на&shyвиш&shyта шу&shyда, со&shyли 1930 нашр шу&shyда&shyаст)
+                        ба хо&shyнан&shyда&shyгон даст&shyрас шу&shyда&shyаст. Аса&shyри «Ғу&shyло&shyмон» со&shyли 1934 ба табъ ра&shyси&shyда, 
+                        гус&shyтур&shyда&shyта&shyрин эъ&shyҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.
+                        <div class='emptyLine'></div>
+                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
+                        ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст</div>`,
+                        `Айнӣ консултанти консулхонаи Ҷумҳурии Бухорои навтаъсис дар Самарқанд таъйин мешавад, ки ин бо ёрии Абдулқодир Муҳиддинов сурат гирифта буд.
+                        Аммо консулхона дере нагузашта баста мешавад ва Айнӣ боз бо кӯмаки А.Муҳиддинов бори дигар ба шуъбаи Бухгосторг (Совети хоҷагии халқи Шӯравии Бухоро) дар Самарқанд таъин шуд.`,
                     ],
                 ru: [
-                        `«В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
-                        Он занимал эту должность до своей кончины в 1954 году».`,
+                        `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
+                        Он занимал эту должность до своей кончины в 1954 году.`,
                         `В 1920 го&shyду Ай&shyни на&shyпи&shyсал свое пер&shyвое круп&shyное про&shyиз&shyве&shyде&shyние 
                         «Бу&shyхарс&shyкие па&shyла&shyчи». За&shyтем в 1924 го&shyду он 
                         на&shyписал рас&shyсказ «Оди&shyна», за ко&shyто&shyрым по&shyсле&shyдо&shyвал по&shyвесть «До&shyхун&shyда» (на&shyпи&shyсан&shyный 
@@ -725,8 +738,8 @@ module.exports.poets = [
                         уче&shyных и по&shyэтов, таких как «Шейх&shyур&shyаис Абу&shyали Си&shyна» 
                         (Авиценна), «Шейх Мус&shyли&shyхид&shyдин Саади Ши&shyрази», «Ус&shyтад Ру&shyдаки», «Камаль-и Худ&shyжан&shyди», «Али&shyшер На&shyвои», «Зай&shyнуд&shyдин 
                         Мах&shyмуд-и Ва&shyси&shyфи» и дру&shyгие.`,
-                        `«В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
-                        Он занимал эту должность до своей кончины в 1954 году».`,
+                        `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
+                        Он занимал эту должность до своей кончины в 1954 году.`,
                         `В 1920 году Айни написал свое первое крупное литературное произведение «Бухарские палачи». Затем в 1924 году он 
                         написал рассказ «Одина», за которым последовал повесть «Дохунда» (написанный между 1927 и 1928 годами, но опубликованный в 1930 году). 
                         Роман «Рабы» вышел в 1934 году, а его самое обширное литературное произведение «Воспоминания» было опубликовано в 1940 году.
@@ -752,6 +765,10 @@ module.exports.poets = [
                         works of numerous scholars and poets, such as "Sheikh-ur-rais Abu Ali Sinā" (Avicenna), "Sheikh 
                         Muslihiddin Saadi Shirazi," "Ustad Rudaki," "Kamal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e 
                         Wa&shysi&shyfi," and others.`,
+                        `A state law banned the Arabic script for writing, affec&shyting the Ta&shyjik language tra&shydi&shytionally written in the Perso-Arabic script. 
+                        This led to the sys&shyte&shymatic destruction of Arabic-script books. In response, Sadriddin Ayni 
+                        collabo&shyra&shyted with prominent So&shyviet Ira&shyno&shylo&shygists, in&shyclu&shyding Bertels, Semyonov, and Freiman, to collect and transliterate Persian 
+                        books in&shyto Cy&shyril&shylic. He was accused of being an "enemy of the nation," and almost perished in Stalin's Great Purge.`,
                         `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
                         He continued to hold this position until his passing in 1954.`,
                         `In 1920, Ayni penned his first major literary work, "The Bukhara Executioners." Then, he wrote 
@@ -785,7 +802,7 @@ module.exports.poets = [
                             илм, маориф ва фарҳанг, ходимони давлатӣ ва ҷамъиятӣ, ки дар рушди ҳамкориҳои байналмилалии илмӣ, 
                             фарҳангӣ, иқтисодӣ ва сиёсӣ саҳм гузоштаанд, дода мешавад.
                             <div class='emptyLine'></div>
-                            Бо фармони шӯрои илмии ин донишгоҳ ба адиб унвони доктори илми филологӣ дода шудааст.`
+                            Бо фармони шӯрои илмии ин донишгоҳ, ба адиб унвони доктори илми филологӣ дода шудааст.`
                     },
                     {
                         title: "Ҷоизаи Сталин",
@@ -801,7 +818,7 @@ module.exports.poets = [
                     {
                         title: "Ордени Байрақи Сурхи Меҳнат", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
                         desc: `Ҷоизаи умумишаҳрвандии Иттиҳоди Шӯравӣ ба онҳое, ки ба давлат ва ҷамъият дар соҳаи истеҳсолот, илм, 
-                            маданият, адабиёт, санъат, маориф, нигаҳдории тандурустй ва дигар соҳаҳои фаъолияти меҳнатӣ хизматҳои 
+                            маданият, адабиёт, санъат, маориф, нигаҳдории тандурустӣ ва дигар соҳаҳои фаъолияти меҳнатӣ хизматҳои 
                             бузург кардаанд, дода мешуд.
                             <div class='emptyLine'></div>
                             Устод Айнӣ сазовори ду ин ҷоиза гаштааст.`

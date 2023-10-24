@@ -34,7 +34,7 @@ export default function PoetCard() {
                     <StyledLink to={"/language" + poet?.link}>
                         <PoetCardWrapper key={i} delay={`${0.01*i}s`}>
                             <PoetImgContainer>
-                                <PoetImage src={poet?.img[0]} />
+                                <PoetImage loading="lazy" src={poet?.img[0]} />
                                 <PoetNameBox>
                                     <PoetName>{poet?.name[lang][0]}</PoetName>
                                     <PoetName>{poet?.name[lang][1]}</PoetName>

@@ -101,7 +101,7 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                 ) : (
                     <InfoContainer>
                         <InnerBox>
-                            <StudioName src={movieInfo?.studio}></StudioName>
+                            <StudioName loading="lazy" src={movieInfo?.studio}></StudioName>
                             <InfoTitle>{movieInfo?.title}</InfoTitle>
                             <ReleaseInfo>
                                 <InfoWrapper year={true}>{movieInfo?.year}</InfoWrapper>
@@ -117,7 +117,7 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                         </InnerBox>
                         <InnerBox width={true}>
                         </InnerBox>
-                        <MovieImg src={movieInfo?.img} />
+                        <MovieImg loading="lazy" src={movieInfo?.img} />
                         <StyledIconButton onClick={() => setShowMovieInfo(false)}>
                             <StyledCloseIcon />
                         </StyledIconButton>

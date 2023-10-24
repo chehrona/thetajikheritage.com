@@ -132,7 +132,6 @@ export const StyledIconButton = styled(IconButton)`
         fill: #bd9d52;
     }
 
-
     &:disabled {
         svg {
             fill: lightgray;
@@ -146,5 +145,7 @@ export const Image = styled.img`
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     transition: 100ms ease-in-out;
-    background-color: grey;
+    background: grey
+        url("/loader.svg") center
+        no-repeat;
 `;

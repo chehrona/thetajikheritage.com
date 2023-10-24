@@ -84,7 +84,7 @@ export default function Servings({ recipe, servings, setServings }) {
                 <SubTitle>{recipe?.timeLang[lang][3]}</SubTitle>
                 <StyledLink to={"/cuisine" + recipe.link + "/print"} target={"_blank"}>
                     <IconButton style={{marginTop: "0.55rem"}}>
-                        <PrintBox src={'/printIcons/printer.png'}></PrintBox>
+                        <PrintBox loading="lazy" src={'/printIcons/printer.png'}></PrintBox>
                     </IconButton>
                 </StyledLink>
             </PrintContainer>

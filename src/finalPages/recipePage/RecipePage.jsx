@@ -44,7 +44,7 @@ export default function RecipePage() {
                             >
                             <StyledPinIcon />
                         </a>
-                        <MainImage src={recipe?.mainImg} />
+                        <MainImage loading="lazy" src={recipe?.mainImg} />
                     </ImageContainer>
                     <RecipeInfo recipe={recipe} />
                     <Sources

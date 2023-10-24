@@ -56,7 +56,7 @@ export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo
                     </StyledIconButton>
                     <BodyContainer>
                         <Wrapper first={true}>
-                            <AwardImg src={awardInfo?.img} />
+                            <AwardImg loading="lazy" src={awardInfo?.img} />
                         </Wrapper>
                         <Wrapper>
                             <Desc dangerouslySetInnerHTML={{__html: awardInfo?.desc}} />

@@ -89,7 +89,7 @@ export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay })
                                             <ActionIcon src={'/bookIcons/smartphone.png'} onClick={openReader} />
                                         </ActionWrapper>
                                     </Overlay>
-                                    <Book data={shelfNum + i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
+                                    <Book loading="lazy" data={shelfNum + i} src={book.cover} onClick={(e) => handleBookAction(e)}/>
                                 </BookWrapper>
                             </span>
                         </Tooltip>

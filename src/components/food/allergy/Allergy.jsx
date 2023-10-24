@@ -23,7 +23,7 @@ export default function Allergy({ recipe }) {
                         {recipe?.contains?.map((label, i) => {
                             return (
                                 <LabelContainer key={i}>
-                                    <LabelImage src={`/allergyLabels/${label}.png`} />
+                                    <LabelImage loading="lazy" src={`/allergyLabels/${label}.png`} />
                                     <AllergenName>
                                         {recipe?.labels[i][lang]}
                                     </AllergenName>
@@ -40,7 +40,7 @@ export default function Allergy({ recipe }) {
                         {recipe?.diet.map((label, i) => {
                             return (
                                 <LabelContainer key={i}>
-                                    <LabelImage src={`/allergyLabels/${label}.png`} />
+                                    <LabelImage loading="lazy" src={`/allergyLabels/${label}.png`} />
                                     <AllergenName>
                                         {recipe?.dietLabels[i][lang]}
                                     </AllergenName>

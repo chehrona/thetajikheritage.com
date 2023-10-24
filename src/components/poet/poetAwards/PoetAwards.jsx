@@ -34,7 +34,7 @@ export default function PoetAwards({ poet }) {
                         <AwardCard key={i} delay={`${0.05*i}s`}>
                             <InnerContainer>
                                 <Face>
-                                    <Image src={award.img} />
+                                    <Image loading="lazy" src={award.img} />
                                 </Face>
                                 <Face back={true}>
                                     <Title>{award.title}</Title>

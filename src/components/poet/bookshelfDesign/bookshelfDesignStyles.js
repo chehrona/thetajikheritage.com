@@ -75,12 +75,14 @@ export const BookWrapper = styled.div`
 export const Book = styled.img`
     width: 100%;
     height: 100%;
-    background: #dedbdb;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0.4rem;
     object-fit: cover;
+    background: #0F0A00
+        url("/loader.svg") center
+        no-repeat;
 `;
 
 export const Shelf = styled.div`

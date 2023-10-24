@@ -19,7 +19,7 @@ export default function Menu() {
         <MenuContainer open={isMenuShown}>
             <LogoContainer>
                 {/* <LogoHalf src="zarduzi.png"></LogoHalf> */}
-                <Logo src={'/tajiks.png'}></Logo>
+                <Logo loading="lazy" src={'/tajiks.png'}></Logo>
             </LogoContainer>
             <PageNamesContainer>
                 {pageInfo[lang]?.map((entry, i) => {

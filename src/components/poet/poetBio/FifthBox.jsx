@@ -51,7 +51,7 @@ export default function FifthBox({ poet }) {
                     <div dangerouslySetInnerHTML={{__html: poet?.five[lang].desc}}></div>
                 </FamilyDesc>
             </LeftContainer>
-            <RightContainer src={infoArr[0].img} >
+            <RightContainer loading="lazy" src={infoArr[0].img} >
                 {hover && <>
                     <StyledButton left={true} onClick={movePrev}>
                         <Arrow>

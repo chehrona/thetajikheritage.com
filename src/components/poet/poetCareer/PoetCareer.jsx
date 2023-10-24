@@ -67,7 +67,7 @@ export default function PoetCareer({ points }) {
                         {points?.images?.map((img, i) => {
                             return (
                                 <InfoWrapper translate={translate}>
-                                    <Image src={img} />
+                                    <Image loading="lazy" src={img} />
                                     <DescWrapper>
                                         <Desc dangerouslySetInnerHTML={{__html: points?.text[lang][i]}} />
                                         <Footer>

@@ -64,7 +64,9 @@ export const PoetImage = styled.img`
     width: 13.5rem;
     margin: 0.3rem;
     box-shadow: 0rem 0rem 1rem rgba(189, 157, 82, 0.8);
-    background-color: #0F0A00;
+    background: #0F0A00
+        url("/loader.svg") center
+        no-repeat;
 `;
 
 export const PoetName = styled.div`
