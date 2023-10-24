@@ -18,7 +18,7 @@ module.exports.poets = [
             kh: ["زندگینامه", "ایجدیت", "فیلم ها", "فعالیتی سیاسی", "جوایزها"]
         },
         bio: {
-            backdrops: ['/poetImages/ayni/kukaltosh.png', '/poetImages/ayni/back.png', '/poetImages/ayni/last.jpeg'],
+            backdrops: ['/poetImages/ayni/kukaltosh.jpeg', '/poetImages/ayni/back.png', '/poetImages/ayni/last.jpeg'],
             quote: '/poetImages/quote.svg',
             one: {
                 us: {
