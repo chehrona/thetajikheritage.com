@@ -18,7 +18,7 @@ module.exports.poets = [
             kh: ["زندگینامه", "ایجدیت", "فیلم ها", "فعالیتی سیاسی", "جوایزها"]
         },
         bio: {
-            backdrops: ['/poetImages/ayni/kukaltosh.png', '/poetImages/ayni/back.png', '/poetImages/ayni/last.png'],
+            backdrops: ['/poetImages/ayni/kukaltosh.png', '/poetImages/ayni/back.png', '/poetImages/ayni/last.jpeg'],
             quote: '/poetImages/quote.svg',
             one: {
                 us: {
@@ -449,102 +449,102 @@ module.exports.poets = [
                     desc: 'His life is ... the story of our nation',
                     author: '- Mirzo Tursunzoda<sup>10</sup>',
                     slides: [
-                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Mausoleum of Sadriddin Ayni (1954 - 2017), Dushanbe, Tajikistan<sup>11</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan<sup>12</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Mausoleum of Sadriddin Ayni, Dushanbe, Tajikistan<sup>13</sup>', color: '#fcf6e9'},
-                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Sadriddin Ayni's resting place in Ayni Park, Dushanbe, Tajikistan<sup>14</sup>", color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>15</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan<sup>13</sup>', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Sadriddin Ayni museum, Soktare, Uzbekistan<sup>16</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni8.png', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan<sup>17</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni9.png', text: 'Ayni district, Sogd province, Tajikistan<sup>18</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni10.png', text: '5 Somoni bill, Tajik<span style="color: #bd9d52">istan</span><sup>19</sup>', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni11.png', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>20</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Mausoleum of Sadriddin Ayni (1954 - 2017), Dushanbe, Tajikistan<sup>11</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan<sup>12</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni3.jpeg', text: 'Mausoleum of Sadriddin Ayni, Dushanbe, Tajikistan<sup>13</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni4.jpeg', text: "Sadriddin Ayni's resting place in Ayni Park, Dushanbe, Tajikistan<sup>14</sup>", color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni5.jpeg', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>15</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni6.jpeg', text: 'Sadriddin Ayni monument in Ayni Park, Dushanbe, Tajikistan<sup>13</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni7.jpeg', text: 'Sadriddin Ayni museum, Soktare, Uzbekistan<sup>16</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni8.jpeg', text: 'Sadriddin Ayni house-museum, Dushanbe, Tajikistan<sup>17</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni9.jpeg', text: 'Ayni district, Sogd province, Tajikistan<sup>18</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni10.jpeg', text: '5 Somoni bill, Tajik<span style="color: #bd9d52">istan</span><sup>19</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni11.jpeg', text: 'Sadriddin Ayni house-museum, Samarkand, Uzbekistan<sup>20</sup>', color: '#fcf6e9'},
                     ]
                 },
                 ru: {
                     desc: 'Его жизнь – это... история нашего народа',
                     author: '- Мирзо Турсун-заде<sup>10</sup>',
                     slides: [
-                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Мавзолей Садриддина Айни (1954 – 2017 гг.), Душанбе, Таджикистан<sup>11</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Памятник Садриддину Айни на проспекте Рудаки, Душанбе, Таджикистан<sup>12</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Мавзолей Садриддина Айни, Душанбе, Таджикистан<sup>13</sup>', color: '#fcf6e9'},
-                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Могила Садриддина Айни в парке Айни, Душанбе, Таджикистан<sup>14</sup>", color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Дом-музей Садриддина Айни, Самарканд, Узбекистан<sup>15</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Памятник Садриддину Айни в парке Айни, Душанбе, Таджикистан<sup>13</sup>', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Музей имени Садриддина Айни, Соктаре, Узбекистан<sup>16</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni8.png', text: 'Дом-музей Садриддина Айни, Душанбе, Таджикистан<sup>17</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni9.png', text: 'Айнинский район, Согдийская область, Таджикистан<sup>18</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni10.png', text: 'Банкнота 5 сомони, Таджикис<span style="color: #bd9d52">тан</span><sup>19</sup>', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni11.png', text: 'Дом-музей Садриддина Айни, Самарканд, Узбекистан<sup>20</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Мавзолей Садриддина Айни (1954 – 2017 гг.), Душанбе, Таджикистан<sup>11</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Памятник Садриддину Айни на проспекте Рудаки, Душанбе, Таджикистан<sup>12</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni3.jpeg', text: 'Мавзолей Садриддина Айни, Душанбе, Таджикистан<sup>13</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni4.jpeg', text: "Могила Садриддина Айни в парке Айни, Душанбе, Таджикистан<sup>14</sup>", color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni5.jpeg', text: 'Дом-музей Садриддина Айни, Самарканд, Узбекистан<sup>15</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni6.jpeg', text: 'Памятник Садриддину Айни в парке Айни, Душанбе, Таджикистан<sup>13</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni7.jpeg', text: 'Музей имени Садриддина Айни, Соктаре, Узбекистан<sup>16</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni8.jpeg', text: 'Дом-музей Садриддина Айни, Душанбе, Таджикистан<sup>17</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni9.jpeg', text: 'Айнинский район, Согдийская область, Таджикистан<sup>18</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni10.jpeg', text: 'Банкнота 5 сомони, Таджикис<span style="color: #bd9d52">тан</span><sup>19</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni11.jpeg', text: 'Дом-музей Садриддина Айни, Самарканд, Узбекистан<sup>20</sup>', color: '#fcf6e9'},
                     ]
                 },
                 tj: {
                     desc: 'Зиндагии ӯ ... саргузашти миллати мост',
                     author: '- Мирзо Турсунзода<sup>10</sup>',
                     slides: [
-                        {img: '/poetImages/ayni/memory/ayni1.png', text: 'Мақбараи Садриддин Айнӣ (1954 - 2017), Душанбе, Тоҷикистон<sup>11</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni2.png', text: 'Ҳайкали Садриддин Айнӣ дар хиёбони Рӯдакӣ, Душанбе, Тоҷикистон<sup>12</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni3.png', text: 'Мақбараи Садриддин Айнӣ, Душанбе, Тоҷикистон<sup>13</sup>', color: '#fcf6e9'},
-                        {img: '/poetImages/ayni/memory/ayni4.png', text: "Оромгоҳи Садриддин Айнӣ дар парки Айнӣ, Душанбе, Тоҷикистон<sup>14</sup>", color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni5.png', text: 'Хона-музейи Садриддин Айнӣ, Самарқанд, Ӯзбекистон<sup>15</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni6.png', text: 'Ҳайкали Садриддин Айнӣ дар парки Айнӣ, Душанбе, Тоҷикистон<sup>13</sup>', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni7.png', text: 'Осорхона ба номи Садриддин Айнӣ, Соктаре, Ӯзбекистон<sup>16</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni8.png', text: 'Хона-музейи Садриддин Айнӣ, Душанбе, Тоҷикистон<sup>17</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni9.png', text: 'Ноҳияи Айнӣ, вилояти Суғд, Тоҷикистон<sup>18</sup>', color: '#dedbdb'},
-                        {img: '/poetImages/ayni/memory/ayni10.png', text: '5 сомонӣ, Тоҷикис<span style="color: #bd9d52">тон</span><sup>19</sup>', color: '#0F0A00'},
-                        {img: '/poetImages/ayni/memory/ayni11.png', text: 'Хона-музейи Садриддин Айнӣ, Самарқанд, Ӯзбекистон<sup>20</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Мақбараи Садриддин Айнӣ (1954 - 2017), Душанбе, Тоҷикистон<sup>11</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Ҳайкали Садриддин Айнӣ дар хиёбони Рӯдакӣ, Душанбе, Тоҷикистон<sup>12</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni3.jpeg', text: 'Мақбараи Садриддин Айнӣ, Душанбе, Тоҷикистон<sup>13</sup>', color: '#fcf6e9'},
+                        {img: '/poetImages/ayni/memory/ayni4.jpeg', text: "Оромгоҳи Садриддин Айнӣ дар парки Айнӣ, Душанбе, Тоҷикистон<sup>14</sup>", color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni5.jpeg', text: 'Хона-музейи Садриддин Айнӣ, Самарқанд, Ӯзбекистон<sup>15</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni6.jpeg', text: 'Ҳайкали Садриддин Айнӣ дар парки Айнӣ, Душанбе, Тоҷикистон<sup>13</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni7.jpeg', text: 'Осорхона ба номи Садриддин Айнӣ, Соктаре, Ӯзбекистон<sup>16</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni8.jpeg', text: 'Хона-музейи Садриддин Айнӣ, Душанбе, Тоҷикистон<sup>17</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni9.jpeg', text: 'Ноҳияи Айнӣ, вилояти Суғд, Тоҷикистон<sup>18</sup>', color: '#dedbdb'},
+                        {img: '/poetImages/ayni/memory/ayni10.jpeg', text: '5 сомонӣ, Тоҷикис<span style="color: #bd9d52">тон</span><sup>19</sup>', color: '#0F0A00'},
+                        {img: '/poetImages/ayni/memory/ayni11.jpeg', text: 'Хона-музейи Садриддин Айнӣ, Самарқанд, Ӯзбекистон<sup>20</sup>', color: '#fcf6e9'},
                     ]
                 }
             }
         },
         works: {
             us: [   
-                    {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.png", msg: "This is a poetry book and is only available in Tajik."},
-                    {title: "History of the Bukharan Revolution", cover: "/bookCovers/ayni/usHistory.png", msg: "Currently, the book is only available in Tajik. Please check back later in case it has been translated."}, 
-                    {title: "Bukhara Executioners", cover: "/bookCovers/ayni/usExec.png", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
-                    {title: "Odina", cover: "/bookCovers/ayni/usOdina.png", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."}, 
-                    {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.png", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
-                    {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.png", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."}, 
-                    {title: "Death of the Moneylender", cover: "/bookCovers/ayni/usUsurer.png", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
-                    {title: "Yatim", cover: "/bookCovers/ayni/usOrphan.png", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
-                    {title: "Reminiscences", cover: "/bookCovers/ayni/usMemoirs.png"},
-                    {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.png", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
-                    {title: "Old School", cover: "/bookCovers/ayni/usOld.png", link: ""},
-                    {title: "Ahmad - The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.png", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.jpeg", msg: "This is a poetry book and is only available in Tajik."},
+                    {title: "History of the Bukharan Revolution", cover: "/bookCovers/ayni/usHistory.jpeg", msg: "Currently, the book is only available in Tajik. Please check back later in case it has been translated."}, 
+                    {title: "Bukhara Executioners", cover: "/bookCovers/ayni/usExec.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Odina", cover: "/bookCovers/ayni/usOdina.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."}, 
+                    {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."}, 
+                    {title: "Death of the Moneylender", cover: "/bookCovers/ayni/usUsurer.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Yatim", cover: "/bookCovers/ayni/usOrphan.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Reminiscences", cover: "/bookCovers/ayni/usMemoirs.jpeg"},
+                    {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Old School", cover: "/bookCovers/ayni/usOld.jpeg", link: ""},
+                    {title: "Ahmad - The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
             ],
             ru: [
-                    {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.png", msg: "Это сборник стихов и доступен только на таджикском языке."}, 
-                    {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.png", msg: "В настоящее время книга доступна только на таджикском языке. Пожалуйста, зайдите позже."}, 
-                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.png", link: "1Q-CpVr_sM3aCPkjGAEjwIowCccJCvwZO"},
-                    {title: "Одина", cover: "/bookCovers/ayni/ruOdina.png", link: "1DJ5LivDDyRpKMpK7AuCGjY7KVVMic0GR"},
-                    {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.png", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."},
-                    {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.png", link: "1A17vzLFRbj_5u0Rj5vXk0nAII7bTPzxX"}, 
-                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.png", link: "1liV2qKaotbcm_WE9dD7kY7HFauNCJTt1"},
-                    {title: "Ятим", cover: "/bookCovers/ayni/ruOrphan.png", link: "1Z-cnEcNolnybnohce6SHYk9IzaG1CdXT"},
-                    {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.png", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."}, 
-                    {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.png", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."}, 
-                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.png", link: "1-a8FzbVZxFcY89YCQpJ0Gg4vux_rNWrb"},
-                    {title: "Ахмад — покоритель дивов", cover: "/bookCovers/ayni/ruAhmad.png", link: "1bipZsWxqUjBomme8VTsw_mOVp6gG-Dy-"}
+                    {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.jpeg", msg: "Это сборник стихов и доступен только на таджикском языке."}, 
+                    {title: "История Бухарской революции", cover: "/bookCovers/ayni/ruHistory.jpeg", msg: "В настоящее время книга доступна только на таджикском языке. Пожалуйста, зайдите позже."}, 
+                    {title: "Бухарские палачи", cover: "/bookCovers/ayni/ruExec.jpeg", link: "1Q-CpVr_sM3aCPkjGAEjwIowCccJCvwZO"},
+                    {title: "Одина", cover: "/bookCovers/ayni/ruOdina.jpeg", link: "1DJ5LivDDyRpKMpK7AuCGjY7KVVMic0GR"},
+                    {title: "Дохунда", cover: "/bookCovers/ayni/ruDokhunda.jpeg", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."},
+                    {title: "Рабы", cover: "/bookCovers/ayni/ruSlaves.jpeg", link: "1A17vzLFRbj_5u0Rj5vXk0nAII7bTPzxX"}, 
+                    {title: "Смерть ростовщика", cover: "/bookCovers/ayni/ruUsurer.jpeg", link: "1liV2qKaotbcm_WE9dD7kY7HFauNCJTt1"},
+                    {title: "Ятим", cover: "/bookCovers/ayni/ruOrphan.jpeg", link: "1Z-cnEcNolnybnohce6SHYk9IzaG1CdXT"},
+                    {title: "Воспоминания", cover: "/bookCovers/ayni/ruMemoirs.jpeg", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."}, 
+                    {title: "Собрание сочинений", cover: "/bookCovers/ayni/ruComplete.jpeg", msg: "В настоящее время книга доступна только на таджикском языке. Начат процесс перевода книги. Пожалуйста, зайдите позже."}, 
+                    {title: "Старая школа", cover: "/bookCovers/ayni/ruOld.jpeg", link: "1-a8FzbVZxFcY89YCQpJ0Gg4vux_rNWrb"},
+                    {title: "Ахмад — покоритель дивов", cover: "/bookCovers/ayni/ruAhmad.jpeg", link: "1bipZsWxqUjBomme8VTsw_mOVp6gG-Dy-"}
                 ],
             tj: [
-                    {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.png", link: 'https://tinyurl.com/ew7j8ucr'},
-                    {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.png", link: "1d7qBDSB-8_Q0eyu0t_93ShW_Fea1-npm"}, 
-                    {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.png"},
-                    {title: "Одина", cover: "/bookCovers/ayni/tjOdina.png", link: 'https://tinyurl.com/2s3dvwje'},
-                    {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.png"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.png"}, 
-                    {title: "Марги судхӯр", cover: "/bookCovers/ayni/tjUsurer.png", link: 'https://tinyurl.com/mr4asxev'},
-                    {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.png"},
-                    {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.png"}, {title: "Куллиёт", cover: "/bookCovers/ayni/tjComplete.png"}, 
-                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.png", link: "12xemoXBWDUQkRqS2inrej9KuurNuOndi"},
-                    {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.png", link: "1GBQCwPTPy_70o1jYjA_aRSNtX58LVDV9"}
+                    {title: "Намунаи адабиёти тоҷик", cover: "/bookCovers/ayni/tjExample.jpeg", link: 'https://tinyurl.com/ew7j8ucr'},
+                    {title: "Таърихи инқилоби Бухоро", cover: "/bookCovers/ayni/tjHistory.jpeg", link: "1d7qBDSB-8_Q0eyu0t_93ShW_Fea1-npm"}, 
+                    {title: "Ҷаллодони Бухоро", cover: "/bookCovers/ayni/tjExec.jpeg"},
+                    {title: "Одина", cover: "/bookCovers/ayni/tjOdina.jpeg", link: 'https://tinyurl.com/2s3dvwje'},
+                    {title: "Дохунда", cover: "/bookCovers/ayni/tjDokhunda.jpeg"}, {title: "Ғуломон", cover: "/bookCovers/ayni/tjSlaves.jpeg"}, 
+                    {title: "Марги судхӯр", cover: "/bookCovers/ayni/tjUsurer.jpeg", link: 'https://tinyurl.com/mr4asxev'},
+                    {title: "Ятим", cover: "/bookCovers/ayni/tjOrphan.jpeg"},
+                    {title: "Ёддоштҳо", cover: "/bookCovers/ayni/tjMemoirs.jpeg"}, {title: "Куллиёт", cover: "/bookCovers/ayni/tjComplete.jpeg"}, 
+                    {title: "Мактаби кӯҳна", cover: "/bookCovers/ayni/tjOld.jpeg", link: "12xemoXBWDUQkRqS2inrej9KuurNuOndi"},
+                    {title: "Аҳмади девбанд", cover: "/bookCovers/ayni/tjAhmad.jpeg", link: "1GBQCwPTPy_70o1jYjA_aRSNtX58LVDV9"}
                 ],
             kh: [
-                    {title: "نمونه ادبیات تاجیک", cover: "/bookCovers/ayni/khExample.png"}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.png"}, 
-                    {title: "جلادان بخارا", cover: "/bookCovers/ayni/khExec.png"}, {title: "ادینه", cover: "/bookCovers/ayni/khOdina.png"},
-                    {title: "داخونده", cover: "/bookCovers/ayni/khDokhunda.png"}, {title: "غلامان", cover: "/bookCovers/ayni/khSlaves.png"}, 
-                    {title: "مرگ سودخور", cover: "/bookCovers/ayni/khUsurer.png"}, {title: "یتیم", cover: "/bookCovers/ayni/khOrphan.png"},
-                    {title: "یادداشت ها", cover: "/bookCovers/ayni/khMemoirs.png"}, {title: "کولیوت", cover: "/bookCovers/ayni/khHistory.png"}, 
+                    {title: "نمونه ادبیات تاجیک", cover: "/bookCovers/ayni/khExample.jpeg"}, {title: "تاریخ انقلاب بخارا", cover: "/bookCovers/ayni/khHistory.jpeg"}, 
+                    {title: "جلادان بخارا", cover: "/bookCovers/ayni/khExec.jpeg"}, {title: "ادینه", cover: "/bookCovers/ayni/khOdina.jpeg"},
+                    {title: "داخونده", cover: "/bookCovers/ayni/khDokhunda.jpeg"}, {title: "غلامان", cover: "/bookCovers/ayni/khSlaves.jpeg"}, 
+                    {title: "مرگ سودخور", cover: "/bookCovers/ayni/khUsurer.jpeg"}, {title: "یتیم", cover: "/bookCovers/ayni/khOrphan.jpeg"},
+                    {title: "یادداشت ها", cover: "/bookCovers/ayni/khMemoirs.jpeg"}, {title: "کولیوت", cover: "/bookCovers/ayni/khHistory.jpeg"}, 
                     {title: "مکتبی کهنه", cover: ""}
                 ]
         },
@@ -552,14 +552,14 @@ module.exports.poets = [
             tj: [
                     {
                         title: 'Марги судхӯр', studio: "/poetMovies/ayni/tjFilm.png",
-                        img: "/poetMovies/ayni/moneylender.png", duration: "1с 25дақ",
+                        img: "/poetMovies/ayni/moneylender.jpeg", duration: "1с 25дақ",
                         genre: "Драма", year: "1966", link: "7M_li8nLgK4", lang: "Русӣ",
                         desc: "Қиссаи Кори Ишкамбаро дар қалби Бухоро пайгирӣ кунед, ки ӯ дар ҷаҳони фиребу истисмор ва фирорҳои аҷиб моҳирона паймоиш мекунад. Ҳарчанд ӯ дар давраи бесарусомонии Ҷанги Якуми Ҷаҳонӣ ба воя мерасид, вақте ки торҳои манипуляцияи ӯ кушода мешавад, сарнавишти ӯ як гардиши сахт мегирад. Дар мутобикати ҷолиби романи Садриддин Айнӣ, филм тавозуни ҷолиби шавқовар ва ҷиддии худро нигоҳ дошт.",
                         director: "Тоҳир Собиров"
                     },
                     {
                         title: 'Дохунда', studio: '/poetMovies/ayni/tjFilm.png',
-                        img: '/poetMovies/ayni/dokhunda.png', duration: '1с 14дақ',
+                        img: '/poetMovies/ayni/dokhunda.jpeg', duration: '1с 14дақ',
                         genre: 'Драма', year: '1956', link: "1diCkBdHJrk", lang: "Тоҷикӣ",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
                             man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
@@ -570,7 +570,7 @@ module.exports.poets = [
                     },
                     {
                         title: 'Сарояндаи Ватан', studio: '/poetMovies/ayni/tjFilm.png',
-                        img: '/poetMovies/ayni/saroyanda.png', duration: '43дақ',
+                        img: '/poetMovies/ayni/saroyanda.jpeg', duration: '43дақ',
                         genre: 'Биографӣ', year: '1949', link: "chwCy5ciNaY", lang: "Тоҷикӣ",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
                             man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
@@ -581,7 +581,7 @@ module.exports.poets = [
                     },
                     {
                         title: 'Садриддин Айнӣ', studio: '/poetMovies/ayni/ministry.png',
-                        img: '/poetMovies/ayni/life.png', duration: '20дақ',
+                        img: '/poetMovies/ayni/life.jpeg', duration: '20дақ',
                         genre: 'Биографӣ', year: '1975', link: "wbPlNiM5BYk", lang: "Тоҷикӣ",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
                             man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
@@ -594,7 +594,7 @@ module.exports.poets = [
             ru: [
                     {
                         title: 'Смерть ростовщика', studio: "/poetMovies/ayni/tjFilm.png",
-                        img: "/poetMovies/ayni/moneylender.png", duration: "1ч 25мин",
+                        img: "/poetMovies/ayni/moneylender.jpeg", duration: "1ч 25мин",
                         genre: "Драма", year: "1966", link: "7M_li8nLgK4", lang: "Русский",
                         desc: `Проследите за историей Кори-Ишкамбы в самом сердце Бухары, где 
                             он умело перемещается по миру обмана, эксплуатации и захватывающих побегов. 
@@ -606,7 +606,7 @@ module.exports.poets = [
                     },
                     {
                         title: 'Дохунда', studio: '/poetMovies/ayni/tjFilm.png',
-                        img: '/poetMovies/ayni/dokhunda.png', duration: '1ч 14мин',
+                        img: '/poetMovies/ayni/dokhunda.jpeg', duration: '1ч 14мин',
                         genre: 'Драма', year: '1956', link: "1diCkBdHJrk", lang: "Таджикский",
                         desc: `Ёдгор, также известный как “Дохунда” (“Бедный”), унаследовал долг своего отца и ведет 
                             жизнь в рабстве под управлением богатого человека Азимшаха. По совету кузнеца Абдуллы, 
@@ -618,7 +618,7 @@ module.exports.poets = [
                     },
                     {
                         title: 'Певец родины', studio: '/poetMovies/ayni/tjFilm.png',
-                        img: '/poetMovies/ayni/saroyanda.png', duration: '43мин',
+                        img: '/poetMovies/ayni/saroyanda.jpeg', duration: '43мин',
                         genre: 'Биографический', year: '1956', link: "chwCy5ciNaY", lang: "Таджикский",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
                             man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
@@ -629,7 +629,7 @@ module.exports.poets = [
                     },
                     {
                         title: 'Садриддин Айни', studio: '/poetMovies/ayni/ministry.png',
-                        img: '/poetMovies/ayni/life.png', duration: '20дақ',
+                        img: '/poetMovies/ayni/life.jpeg', duration: '20дақ',
                         genre: 'Биографический', year: '1975', link: "wbPlNiM5BYk", lang: "Таджикский",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
                             man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
@@ -640,12 +640,12 @@ module.exports.poets = [
                     }
                 ],
             kh: [
-                {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.png", genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
+                {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.jpeg", genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
             ],
             us: [
                     {
                         title: 'Death of a Money Lender', studio: "/poetMovies/ayni/tjFilm.png",
-                        img: "/poetMovies/ayni/moneylender.png", duration: "1hr 25min",
+                        img: "/poetMovies/ayni/moneylender.jpeg", duration: "1hr 25min",
                         genre: "Drama", year: "1966", link: "7M_li8nLgK4", lang: "Russian",
                         desc: `Follow Qori-Ishkamba's story to the heart of Bukhara, as he masterfully navigates the world of deception, 
                             exploitation and thrilling escapes. Although thriving during the chaos of WWI, his fate takes a dark turn 
@@ -656,7 +656,7 @@ module.exports.poets = [
                     },
                     {
                         title: 'Dokhunda', studio: '/poetMovies/ayni/tjFilm.png',
-                        img: '/poetMovies/ayni/dokhunda.png', duration: '1hr 14min',
+                        img: '/poetMovies/ayni/dokhunda.jpeg', duration: '1hr 14min',
                         genre: 'Drama', year: '1956', link: "1diCkBdHJrk", lang: "Tajiki",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
                             man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
@@ -667,7 +667,7 @@ module.exports.poets = [
                     },
                     {
                         title: 'The Voice of the Homeland', studio: '/poetMovies/ayni/tjFilm.png',
-                        img: '/poetMovies/ayni/saroyanda.png', duration: '43min',
+                        img: '/poetMovies/ayni/saroyanda.jpeg', duration: '43min',
                         genre: 'Biopic', year: '1956', link: "chwCy5ciNaY", lang: "Tajiki",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
                             man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
@@ -678,7 +678,7 @@ module.exports.poets = [
                     },
                     {
                         title: 'Sadriddin Ayni', studio: '/poetMovies/ayni/ministry.png',
-                        img: '/poetMovies/ayni/life.png', duration: '20дақ',
+                        img: '/poetMovies/ayni/life.jpeg', duration: '20дақ',
                         genre: 'Biopic', year: '1975', link: "wbPlNiM5BYk", lang: "Tajiki",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
                             man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
