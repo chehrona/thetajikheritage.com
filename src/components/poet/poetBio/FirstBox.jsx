@@ -18,7 +18,7 @@ export default function FirstBox({ poet }) {
             </LeftContainer>
             <RightContainer src={poet?.slides.img} first={1}>
                 <ImgInfo
-                    up={true}
+                    up={1}
                     color={poet?.slides.color} dangerouslySetInnerHTML={{__html: poet?.slides.text}} 
                 />
             </RightContainer>

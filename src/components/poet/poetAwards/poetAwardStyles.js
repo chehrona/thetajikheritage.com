@@ -45,8 +45,8 @@ export const AwardWrapper = styled.div`
     justify-content: space-between;
 
     @media (max-width: 768px) {
-        padding: 0rem 3rem 0rem 3rem;
-        gap: 1rem;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        gap: 1.5rem;
     }
 `;
 

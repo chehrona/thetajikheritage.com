@@ -59,6 +59,7 @@ export const MovieWrapper = styled.div`
     @media (max-width: 768px) {
         display: column;
         gap: 2rem;
+        padding: 0rem 3rem 0rem 1.5rem;
     }
 `;
 
@@ -76,7 +77,6 @@ export const MovieCard = styled.div`
     @media (max-width: 768px) {
         height: 17.15rem;
         width: 11.95rem;
-        gap: 1rem;
     }
 `;
 

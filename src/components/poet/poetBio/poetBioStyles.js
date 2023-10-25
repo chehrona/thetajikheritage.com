@@ -18,12 +18,13 @@ export const BoxOne = styled.div`
     gap: 3rem;
 
     @media (max-width: 768px) {
+        padding: 0rem 1.5rem 1rem 1.5rem;
         flex-wrap: wrap;
     }
 `;
 
 export const Year = styled.div`
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: "EB Garamond", serif;
     margin-bottom: 1rem;
     text-align: ${({ align }) => align && 'center'};
@@ -32,6 +33,10 @@ export const Year = styled.div`
 export const Desc = styled.div`
     font-size: 1.1rem;
     color: #333333;
+
+    @media (max-width: 768px) {
+        font-size: 1.25rem;
+    }
 `;
 
 // Box two ****************************
@@ -150,7 +155,7 @@ export const BoxThree = styled.div`
     padding: 0rem 3rem 3rem 3rem;
 
     @media (max-width: 768px) {
-        padding: 2rem 2rem 3rem 3rem;
+        padding: 2rem 2rem 1.5rem 1.5rem;
     }
 `;
 
@@ -164,6 +169,11 @@ export const QuoteOutline = styled.div`
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
+
+    @media (max-width: 768px) {
+        width: 6rem;
+        height: 6rem;
+    }
 `;
 
 export const QuoteSymbol = styled.div`
@@ -186,8 +196,8 @@ export const Quote = styled.div`
 
     @media (max-width: 768px) {
         margin: 0.5rem 0rem 1rem 0rem;
-        font-size: 1.8rem;
-        line-height: 2rem;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
     }
 `;
 
@@ -201,6 +211,7 @@ export const DescWrapper = styled.div`
 
     @media (max-width: 768px) {
         column-count: 1;
+        font-size: 1.3rem;
     }
 `;
 
@@ -210,6 +221,10 @@ export const YearBig = styled.div`
     margin-bottom: 1rem;
     text-align: ${({ align }) => align && 'center'};
     color: ${({ color }) => color && '#bd9d52'};
+
+    @media (max-width: 768px) {
+        margin-bottom: ${({ align }) => align && '0rem'};
+    }
 `;
 
 export const TextWrapper = styled.div`
@@ -241,6 +256,12 @@ export const FamilyDesc = styled.div`
         display: none;
         scrollbar-width: none;
     }
+
+    @media (max-width: 768px) {
+        font-size: 1.3rem;
+        padding: 0rem 1.5rem 1.5rem 1.5rem;
+        height: auto;
+    }
 `;
 
 // Box six ********************************
@@ -250,6 +271,12 @@ export const BoxSix = styled.div`
     color: #0F0A00;
     font-size: 1.1rem;
     padding: 1.5rem 3rem 3rem 3rem;
+
+    @media (max-width: 768px) {
+        padding: 1.5rem;
+        padding-bottom: 2.1rem;
+        font-size: 1.3rem;
+    }
 `;
 
 // Box seven ********************************
@@ -270,6 +297,7 @@ export const LeftContainer = styled.div`
 
     @media (max-width: 768px) {
         width: 100%;
+        height: ${({ first }) => first ? '15rem': 'auto'};
     }
 `;
 
@@ -285,9 +313,9 @@ export const RightContainer = styled.div`
     position: relative;
 
     @media (max-width: 768px) {
-        margin-top: ${({ first }) => first && '-2.5rem'};
+        margin-top: ${({ first }) => first && '-2rem'};
         width: 100%;
-        height: 15rem;
+        height: ${({ first }) => first ? '17rem': '23rem'};
     }
 `;
 
@@ -334,6 +362,10 @@ export const Author = styled.div`
     font-style: normal;
     font-family: 'IBM Plex Serif', serif;
     text-align: end;
+
+    @media (max-width: 768px) {
+        font-size: 1.25rem;
+    }
 `;
 
 export const StyledButton = styled(IconButton)`
@@ -357,12 +389,17 @@ export const ImgInfo = styled.div`
     position: absolute;
     z-index: 10;
     font-style: italic;
-    right: 0.5rem;
-    padding-left: 0.5rem;    
+    right: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;        
     color: ${({ color }) => color && color};
     bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
+    text-align: left;
 
     @media (max-width: 768px) {
-        bottom: -0.5rem;
+        bottom: ${({ up }) => up ? '-1rem' : '0.5rem'};
+        font-size: 1.25rem;
+        line-height: 1.3rem;
+        width: 100%;
     }
 `;

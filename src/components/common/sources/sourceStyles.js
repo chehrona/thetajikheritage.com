@@ -5,6 +5,10 @@ export const DropDownContainer = styled.div`
     width: 100%;
     margin-bottom: 2rem;
     padding-top: 1rem;
+
+    @media (max-width: 768px) {
+        padding-top: 0rem;
+    }
 `;
 
 export const IconContainer = styled.div`
@@ -39,7 +43,7 @@ export const RefContainer = styled.div`
     max-width: 100%;
     margin-top: 0.8rem;
     border-radius: 1rem;
-    height: ${({open}) => open ? "15rem" : "0rem"};
+    height: ${({ open }) => open ? "15rem" : "0rem"};
     transition: all 0.5s linear 0s;
     overflow-y: scroll;
     display: block;
@@ -51,6 +55,10 @@ export const RefWrapper = styled.div`
     margin: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
+
+    @media (max-width: 768px) {
+        margin: 1rem;
+    }
 `;
 
 export const SubTitle = styled.div`
@@ -60,11 +68,20 @@ export const SubTitle = styled.div`
     font-weight: 500;
     margin-bottom: 1rem;
     color: ${({ title }) => title && title};
+
+    @media (max-width: 768px) {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
 `;
 
 export const Reference = styled.span`
     font-size: 1.1rem;
     line-height: 1.7rem;
+
+    @media (max-width: 768px) {
+        font-size: 1.3rem;
+    }
 `;
 
 export const RefBox = styled.div`
@@ -72,6 +89,10 @@ export const RefBox = styled.div`
     align-items: start;
     font-size: 1.1rem;
     line-height: 1.7rem;
+
+    @media (max-width: 768px) {
+        font-size: 1.3rem;
+    }
 `;
 
 export const RefIndex = styled.div`

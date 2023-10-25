@@ -250,22 +250,22 @@ module.exports.poets = [
                 us: {
                     quote: `... although we regret that we spent our lives in ignorance, ... now our conscience does not allow us to say: “what does it matter to me?”<sup>5</sup>`,
                     desc: `After leaving the madrasa, Ayni continues his in&shyvolvement with the jadids, 
-                        resisting the old ways so deeply engrained among the Bukharan clergy.
+                        resisting the old ways so deeply engrained among the Bukha&shyran clergy.
                         His "good deeds", however, were met with disapproval from the amir, 
                         leading to his imprisonment and the harshest sentence of the time - 
                         <span style='font-weight: bold;'>75 lashes</span>.
                         <div class='space'></div>Eventually, he is liberated by the Russian 
                         Re&shyvo&shylu&shytionary forces at the behest of the Young Bukharans. After enduring 
-                        <span style='font-weight: bold;'>52 days</span> in the hospital 
+                        <span style='font-weight: bold;'>52 days</span> in the hos&shypital 
                         and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
-                        he permanently moved to Sa&shymar&shykand.
-                        There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wielding the 
+                        he perma&shynently moved to Sa&shymar&shykand.
+                        There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wiel&shyding the 
                         power of his pen, writing political articles and to 
                         directly calling the nation for war against the amir.
                         <br>Upon discovering Ayni's association with the Soviet forces,
-                        amir falsely accused his younger brother, 
+                        amir falsely accused his youn&shyger brother, 
                         <span style='font-weight: bold;'>Sirojiddin</span>, of treason 
-                        and cruelly murdered him through suffocation. Ayni channelled his 
+                        and cruelly murdered him through suffocation. Ayni chan&shynelled his 
                         grief into his literary work, "Marsiya."
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
                         <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kidnapped his son.<sup>1</sup>
@@ -275,15 +275,15 @@ module.exports.poets = [
                 },
                 ru: {
                     quote: `... хоть нам и жаль, что мы провели жизнь в неведении, ... теперь наша совесть не позволяет нам сказать: «мне-то что?»<sup>5</sup>`,
-                    desc: `Окончив медресе, Айни продолжает помогать джа&shyдидскому дви&shyже&shyнию, 
-                    сопротивляясь старым обычаям, так глубоко уко&shyре&shyнив&shyшим&shyся среди бу&shyхар&shyского духовенства.
+                    desc: `Окон&shyчив мед&shyресе, Айни продолжает по&shyмо&shyгать джа&shyдидскому дви&shyже&shyнию, 
+                    сопротив&shyля&shyясь старым обычаям, так глубоко уко&shyре&shyнив&shyшим&shyся среди бу&shyхар&shyского духовенства.
                     Однако его «добрые дела» были встречены неодобрением со стороны эмира,
-                    что привело к его тю&shyрем&shyно&shyму заключению и са&shyмому суровому приговору того времени -
+                    что при&shyве&shyло к его тю&shyрем&shyно&shyму заключению и са&shyмо&shyму суровому приговору того времени -
                     <span style='font-weight:bold;'>75 уда&shyров плетью</span>.
                     <div class='space'></div>В конце концов, его освобождают русские
-                    Ре&shyво&shyлю&shyци&shyон&shyные силы по прозьбе младобухарцев. После
+                    Ре&shyво&shyлю&shyци&shyон&shyные силы по прозьбе мла&shyдо&shyбу&shyхарцев. После
                     <span style='font-weight:bold;'>52 дня</span> в больнице
-                    и <span style='font-weight:bold;'>25 операций</span>, он навсегда пе&shyре&shyежает в Самарканд.
+                    и <span style='font-weight:bold;'>25 опе&shyра&shyций</span>, он навсегда пе&shyре&shyежает в Са&shyмар&shyканд.
                     Там он посвящает себя ре&shyво&shyлю&shyци&shyон&shyно&shyму делу, пользуясь
                     силой своего пера, пишет политические статьи и
                     прямо призывает соотечественников восстать против эмира.
@@ -344,15 +344,15 @@ module.exports.poets = [
                         }
                     ],
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
-                        and they moved into her pa&shyrents' home in Sa&shymarkand. 
-                        Despite Ayni's dire financial situation,
-                        Salohat remained undeterred in her commitment to him. She dedicated herself to creating an 
+                        and they moved into her pa&shyrents' home in Sa&shymar&shykand. 
+                        Despite Ayni's dire financial si&shytu&shyation,
+                        Salohat remained undeterred in her com&shymit&shyment to him. She dedicated herself to creating an 
                         environment where his literary genius could flourish, a dedication that persisted until their final days.<sup>1</sup>
                         <div class='space'></div>
                         They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
                         <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
                         <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
-                        Remarkably, each of their children followed in Ayni's footsteps, pursuing academic careers in orientalism, 
+                        Re&shymar&shykab&shyly, each of their children followed in Ayni's footsteps, pursuing academic careers in orien&shytalism, 
                         philology, and Central Asian art history, respectively.<sup>7</sup>
                         <div class='space'></div>
                         Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
