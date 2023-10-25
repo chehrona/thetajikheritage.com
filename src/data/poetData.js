@@ -259,7 +259,7 @@ module.exports.poets = [
                         <span style='font-weight: bold;'>52 days</span> in the hospital 
                         and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
                         he permanently moved to Samarkand.
-                        There, he dedicated himself to the revolutionary cause, wielding the 
+                        There, he de&shydi&shyca&shyted himself to the revolutionary cause, wielding the 
                         power of his pen, writing political articles and to 
                         directly calling the nation for war against the amir.
                         <br>Upon discovering Ayni's association with the Soviet forces,
