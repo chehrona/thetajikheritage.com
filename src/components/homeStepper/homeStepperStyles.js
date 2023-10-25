@@ -1,4 +1,3 @@
-import { Button } from "@mui/material";
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
@@ -52,8 +51,6 @@ export const StepperContainer = styled.div`
     width: 100%;
     overflow: scroll;
     padding-left: 10%;
-    /* scroll-snap-type: mandatory;
-    scroll-snap-type: y mandatory; */
 
     &::-webkit-scrollbar {
         display: none;
@@ -65,7 +62,6 @@ export const StepperBox = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    /* scroll-snap-align: start; */
     opacity: ${({ opacity }) => opacity && opacity};
 `;
 
@@ -100,7 +96,7 @@ export const LargeTitle = styled.div`
 
 export const Desc = styled.div`
     color: #dedbdb;
-    font-size: 1rem;
+    font-size: 1.1rem;
     width: 40%;
     margin-left: 10%;
     position: relative;

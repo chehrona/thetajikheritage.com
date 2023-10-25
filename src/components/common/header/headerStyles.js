@@ -19,6 +19,10 @@ export const HeaderInnerBox = styled.div`
     z-index: 1000;
     max-width: 1920px;
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+        height: 5rem;
+    }
 `;
 
 export const LogoWrapper = styled.div`
@@ -28,6 +32,10 @@ export const LogoWrapper = styled.div`
     height: 5.5rem;
     width: 5.5rem;
     margin-left: 1rem;
+
+    @media (max-width: 768px) {
+        margin-left: 0.5rem;
+    }
 `;
 
 export const TitleWrapper = styled.div`
@@ -36,6 +44,10 @@ export const TitleWrapper = styled.div`
     justify-content: center;
     font-size: 2rem;
     font-family: 'EB Garamond', serif;
+
+    @media (max-width: 768px) {
+        font-size: 1.5rem;
+    }
 `;
 
 export const Title = styled.div`
@@ -57,6 +69,11 @@ export const MenuWrapper = styled.div`
     margin-left: 1rem;
     height: 4rem;
     width: 6rem;
+
+    @media (max-width: 768px) {
+        width: 4rem;
+        margin-left: 0rem;
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`

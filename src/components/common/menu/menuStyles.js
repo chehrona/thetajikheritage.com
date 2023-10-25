@@ -41,11 +41,20 @@ export const MenuContainer = styled.div`
     animation-fill-mode: both;
     position: absolute;
     z-index: 100;
+    height: calc(100vh - 6rem);
+
+    @media (max-width: 768px) {
+        height: calc(100vh - 5rem);
+    }
 `;
 
 export const LogoContainer = styled.div`
     opacity: 0.5;
     margin-right: 12%;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
 
 export const Logo = styled.img`
@@ -72,6 +81,10 @@ export const PageNamesContainer = styled.div`
     animation: ${fadeInAnimation};
     animation-fill-mode: forwards;
     animation-delay: 2s;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const MenuItem = styled.div`

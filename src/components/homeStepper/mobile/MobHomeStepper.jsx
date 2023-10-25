@@ -24,36 +24,11 @@ export default function MobHomeStepper({ containerRef, divRefs, opacities }) {
     const [visibleStepIndex, setVisibleStepIndex] = useState(0);
 
     useEffect(() => {
-        const options = {
-            root: null,
-            rootMargin: '0px',
-            threshold: 0.7,
-        };
-      
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach((entry, index) => {
-                    if (entry.isIntersecting) {
-                        setVisibleStepIndex(index);
-                    }
-                });
-            },
-            options
-        );
-      
-        const stepElements = Array.from(containerRef.current.children);
-        stepElements.forEach((element) => {
-            observer.observe(element);
-        });
-      
-        return () => {
-            observer.disconnect();
-        };
-      }, [divRefs]);
+        setVisibleStepIndex(opacities.indexOf(1));
+      }, [opacities]);
     
     return (
         <MainContainer>
-                {/* <SemiCircle/> */}
             <StepperContainer ref={containerRef}>
                 {stepInfo.map((step, i) => {
                     return (
@@ -62,7 +37,6 @@ export default function MobHomeStepper({ containerRef, divRefs, opacities }) {
                             ref={divRefs[i]}
                             opacity={opacities[i]}
                         >
-                            {/* <IndicatorStep>{step?.num}</IndicatorStep> */}
                             <div>
                                 <TitleWrapper>
                                     <LargeTitle fontSize={step?.text[lang].font?.m}>{step?.text[lang].text}</LargeTitle>

@@ -15,7 +15,7 @@ const LangContext = createContext({
 });
 
 export function useSetLang() {
-  return useContext(LangContext);
+    return useContext(LangContext);
 }
 
 function App() {
@@ -25,33 +25,18 @@ function App() {
 
   const value = useMemo(() => (
     {
-      lang, setLang,
-      isMenuShown, setIsMenuShown,
-      isPrint, setIsPrint
+        lang, setLang,
+        isMenuShown, setIsMenuShown,
+        isPrint, setIsPrint
     }
   ), [lang, isMenuShown, isPrint]);
 
-  function disableScroll() {
-    let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
-    
-    document.body.style.position = 'fixed';
-    document.body.style.top = -scrollPosition + 'px';
-  }
-  
-  function enableScroll() {
-    document.body.style.position = '';
-    document.body.style.top = '';
-    
-    let scrollPosition = parseInt(document.body.style.top, 10);
-    window.scrollTo(0, -scrollPosition);
-  }
-
   useEffect(() => {
-    if (isMenuShown) {
-      disableScroll();
-    } else {
-      enableScroll();
-    }
+      if (isMenuShown) {
+          document.querySelector('.content-container').style.overflowY = 'hidden';
+      } else {
+          document.querySelector('.content-container').style.overflowY = 'scroll';
+      }
   }, [isMenuShown]);
 
   return (

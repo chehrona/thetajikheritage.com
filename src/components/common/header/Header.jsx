@@ -28,7 +28,7 @@ export default function Header() {
             <HeaderInnerBox>
                 <LogoWrapper>
                     <StyledLink to={'/'} onClick={() => setIsMenuShown(false)}>
-                        <Logo loading="lazy" src={'/tajiks.png'}></Logo>
+                        <Logo src={'/tajiks.png'}></Logo>
                     </StyledLink>
                 </LogoWrapper>
                 <TitleWrapper>
