@@ -24,16 +24,16 @@ module.exports.poets = [
                 us: {
                     year: 'April 15, 1878',
                     slides: {img: '/poetImages/ayni/soktare.png', text: `Sadriddin Ayni's childhood home in Soktare<sup>4</sup>`},
-                    desc: `Sadriddin Saidmurodzoda was born to <span style='font-weight: bold;'>Saidmurodkhoja</span>
+                    desc: `Sadriddin Saidmurodzoda was born to <span style='font-weight: bold;'>Sa&shyid&shymu&shyrod&shykho&shyja</span>
                         and <span style='font-weight: bold;'>Zevaroy</span> in the village of 
-                        Soktare, G’ijduvon district, 
+                        Soktare, G’ij&shydu&shyvon district, 
                         Emirate of Bukhara.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
                         that he was introduced to the world of folk literature, including tales, legends, songs, 
                         anecdotes, and proverbs.<sup>2</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
-                        he didn't find much value in formal education. However, he had his initial exposure to the 
+                        he didn't find much value in for&shymal education. However, he had his initial exposure to the 
                         poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
                         His father, despite being a humble peasant, had a deep love for education and literature, 
                         which he passed down to his children.<sup>2,3</sup>`
@@ -41,16 +41,16 @@ module.exports.poets = [
                 ru: {
                     year: '15 апреля 1878 г.',
                     slides: {img: '/poetImages/ayni/soktare.png', text: `Дом, где прошло детство Садриддина Айни в Соктаре<sup>4</sup>`},
-                    desc: `Садриддин Саидмуродзода родился в семье <span style='font-weight: bold;'>Саидмуродходжи</span>
-                        и <span style='font-weight: bold;'>Зеварой</span> в селе Соктаре Гиждуванского района Бухарского эмирата.<sup>1</sup> 
-                        Выросший в семье крестьян, он провел большую часть своих ранних лет среди крестьян и местных ремесленников. 
-                        Именно в этом спло&shyченном сообществе он знакомится с миром народной ли&shyте&shyра&shyту&shyры, включающей сказки, 
-                        легенды, песни, анекдоты и пословицы.<sup>2</sup>
+                    desc: `Садриддин Саидмуродзода родился в семье <span style='font-weight: bold;'>Саид&shyму&shyрод&shyходжи</span>
+                        и <span style='font-weight: bold;'>Зеварой</span> в селе Соктаре Гиж&shyду&shyванского района Бухарского эмирата.<sup>1</sup> 
+                        Вы&shyрос&shyший в семье крестьян, он провел большую часть своих ранних лет среди крестьян и мест&shyных ре&shyмес&shyленников. 
+                        Именно в этом спло&shyченном со&shyоб&shyществе он знакомится с миром народной ли&shyте&shyра&shyту&shyры, включающей сказки, 
+                        легенды, песни, анек&shyдоты и пословицы.<sup>2</sup>
                         <div class='space'></div>
-                        В школьные годы, как описано в его книге «Старая школа», он не по&shyлучил особой пользы от формального образования.
-                        Однако он позна&shyкомился с поэзией таких выдающихся мастеров, как Саади, Ха&shyфиз, Саиб, Бедиль и других.
+                        В школьные годы, как описано в его книге «Ста&shyрая шко&shyла», он не по&shyлучил особой пользы от фор&shyмального образования.
+                        Однако он позна&shyко&shyмил&shyся с поэзией таких выдающихся мастеров, как Саади, Ха&shyфиз, Саиб, Бедиль и других.
                         <div class='space'></div>
-                        Его отец, несмотря на то, что был скромным крестьянином, имел глу&shyбокую любовь к образованию и 
+                        Его отец, несмотря на то, что был скромным крестьянином, имел глу&shyбокую любовь к об&shyра&shyзо&shyва&shyнию и 
                         литературе, которую он передал своим детям.<sup>2,3</sup>`
                 },
                 tj: {
@@ -249,17 +249,17 @@ module.exports.poets = [
             three: {
                 us: {
                     quote: `... although we regret that we spent our lives in ignorance, ... now our conscience does not allow us to say: “what does it matter to me?”<sup>5</sup>`,
-                    desc: `After leaving the madrasa, Ayni continues his involvement with the jadids, 
+                    desc: `After leaving the madrasa, Ayni continues his in&shyvolvement with the jadids, 
                         resisting the old ways so deeply engrained among the Bukharan clergy.
                         His "good deeds", however, were met with disapproval from the amir, 
                         leading to his imprisonment and the harshest sentence of the time - 
                         <span style='font-weight: bold;'>75 lashes</span>.
                         <div class='space'></div>Eventually, he is liberated by the Russian 
-                        Revolutionary forces at the behest of the Young Bukharans. After enduring 
+                        Re&shyvo&shylu&shytionary forces at the behest of the Young Bukharans. After enduring 
                         <span style='font-weight: bold;'>52 days</span> in the hospital 
                         and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
-                        he permanently moved to Samarkand.
-                        There, he de&shydi&shyca&shyted himself to the revolutionary cause, wielding the 
+                        he permanently moved to Sa&shymar&shykand.
+                        There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wielding the 
                         power of his pen, writing political articles and to 
                         directly calling the nation for war against the amir.
                         <br>Upon discovering Ayni's association with the Soviet forces,
@@ -270,33 +270,33 @@ module.exports.poets = [
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
                         <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kidnapped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
-                        resolve, sharpening his pen and intensifying his determination to guide the country 
+                        resolve, sharpening his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
                         toward liberation from such bloodthirsty rulers.`,
                 },
                 ru: {
                     quote: `... хоть нам и жаль, что мы провели жизнь в неведении, ... теперь наша совесть не позволяет нам сказать: «мне-то что?»<sup>5</sup>`,
-                    desc: `Окончив медресе, Айни продолжает помогать джадидскому дви&shyже&shyнию, 
-                    сопротивляясь старым обычаям, так глубоко уко&shyре&shyнив&shyшим&shyся среди бухарского духовенства.
+                    desc: `Окончив медресе, Айни продолжает помогать джа&shyдидскому дви&shyже&shyнию, 
+                    сопротивляясь старым обычаям, так глубоко уко&shyре&shyнив&shyшим&shyся среди бу&shyхар&shyского духовенства.
                     Однако его «добрые дела» были встречены неодобрением со стороны эмира,
-                    что привело к его тю&shyрем&shyно&shyму заключению и самому суровому приговору того времени -
+                    что привело к его тю&shyрем&shyно&shyму заключению и са&shyмому суровому приговору того времени -
                     <span style='font-weight:bold;'>75 уда&shyров плетью</span>.
                     <div class='space'></div>В конце концов, его освобождают русские
-                    Революционные силы по прозьбе младобухарцев. После
+                    Ре&shyво&shyлю&shyци&shyон&shyные силы по прозьбе младобухарцев. После
                     <span style='font-weight:bold;'>52 дня</span> в больнице
-                    и <span style='font-weight:bold;'>25 операций</span>, он навсегда переежает в Самарканд.
+                    и <span style='font-weight:bold;'>25 операций</span>, он навсегда пе&shyре&shyежает в Самарканд.
                     Там он посвящает себя ре&shyво&shyлю&shyци&shyон&shyно&shyму делу, пользуясь
                     силой своего пера, пишет политические статьи и
                     прямо призывает соотечественников восстать против эмира.
                     <br>По&shyсколь&shyку Айни был известным джадидом,
                     амир ложно обвиняет его младшего брата,
-                    <span style='font-weight:bold;'>Сироджиддина</span>, об измене
+                    <span style='font-weight:bold;'>Си&shyро&shyджид&shyдина</span>, об измене
                     и жестоко казнит его че&shyрез удушье. Айни направил свое
-                    горе в свое литературное про&shyиз&shyве&shyдение «Марсия».
+                    горе в свое ли&shyте&shyра&shyтур&shyное про&shyиз&shyве&shyдение «Марсия».
                     <div class='space'></div>В 1922 году басмачи убивают старшего брата Айни -
                     <span style='font-weight:bold;'>Мухиддинходжа</span> и похищают его сына.<sup>1</sup>
-                    <div class='space'></div>Эти мучительные потери только укрепили позиции Айни.
-                    решимость, оттачивая свое перо и усиливая свою решимость руководить страной
-                    к освобождению от таких кровожадных правителей.`,
+                    <div class='space'></div>Эти мучительные потери только укрепили по&shyзи&shyции Айни.
+                    решимость, оттачивая свое перо и уси&shyли&shyвая свою решимость руководить страной
+                    к ос&shyво&shyбождению от таких кровожадных правителей.`,
                 },
                 tj: {
                     quote: `... барои умри дар ғафлат гузаштаамон худро маъзур донем ҳам, ҳоло ..., «ба ман чӣ?» гуфтанро виҷдонамон раво намедид.<sup>5</sup>`,

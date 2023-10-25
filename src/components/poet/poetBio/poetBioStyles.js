@@ -148,6 +148,10 @@ export const BoxThree = styled.div`
     width: 100%;
     position: relative;
     padding: 0rem 3rem 3rem 3rem;
+
+    @media (max-width: 768px) {
+        padding: 2rem 2rem 3rem 3rem;
+    }
 `;
 
 export const QuoteWrapper = styled.div`
@@ -179,6 +183,11 @@ export const Quote = styled.div`
     font-style: bold;
     text-align: center;
     margin: 1rem 3rem 2rem 3rem;
+
+    @media (max-width: 768px) {
+        margin: 0.5rem 0rem 1rem 0rem;
+        font-size: 1.8rem;
+    }
 `;
 
 export const DescWrapper = styled.div`
@@ -188,6 +197,10 @@ export const DescWrapper = styled.div`
     color: #333333;
     font-family: 'IBM Plex Serif', serif;
     font-size: 1.1rem;
+
+    @media (max-width: 768px) {
+        column-count: 1;
+    }
 `;
 
 export const YearBig = styled.div`
@@ -243,6 +256,10 @@ export const BoxSeven = styled.div`
     width: 100%;
     display: flex;
     min-height: 20rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+    }
 `;
 
 export const LeftContainer = styled.div`
@@ -267,11 +284,9 @@ export const RightContainer = styled.div`
     position: relative;
 
     @media (max-width: 768px) {
+        margin-top: ${({ first }) => first && '-2.5rem'};
         width: 100%;
-    }
-
-    @media (max-width: 768px) {
-        width: 100%;
+        height: 15rem;
     }
 `;
 
@@ -341,4 +356,8 @@ export const ImgInfo = styled.div`
     padding-left: 0.5rem;    
     color: ${({ color }) => color && color};
     bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
+
+    @media (max-width: 768px) {
+        bottom: -0.5rem;
+    }
 `;

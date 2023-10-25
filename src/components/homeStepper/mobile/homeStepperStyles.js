@@ -137,8 +137,8 @@ export const Link = styled.a`
 
 export const ImageSemiCircle = styled.img`
     position: absolute;
-    bottom: -5.5rem;
-    right: -5rem;
+    bottom: -9.5rem;
+    right: -6rem;
     border-radius: 50%;
     width: 35rem;
     height: 35rem;

@@ -5,6 +5,11 @@ export const PageContainer = styled.div`
     min-height: 100vh;
     background-color: white;
     padding: 1rem;
+    
+    @media (max-width: 768px) {
+        margin: 0rem;
+        padding: 0rem;
+    }
 `;
 
 export const PoetContainer = styled.div`
@@ -12,6 +17,11 @@ export const PoetContainer = styled.div`
     border-radius: 4rem;
     margin: 1rem 3.5rem 1.5rem 3.5rem;
     background: #fcf6e9;
+
+    @media (max-width: 768px) {
+        margin: 0rem;
+        border-radius: 0rem;
+    }
 `;
 
 export const RefContainer = styled.div`
@@ -20,4 +30,9 @@ export const RefContainer = styled.div`
     background-image: url(${'/noise.png'});
     padding: 3rem;
     padding-top: 0rem;
+
+    @media (max-width: 768px) {
+        border-radius: 0rem 0rem 2rem 2rem;
+        padding: 1rem;
+    }
 `;

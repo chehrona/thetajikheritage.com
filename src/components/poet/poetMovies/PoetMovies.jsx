@@ -20,7 +20,7 @@ export default function PoetMovies({ poet }) {
                 {poet[lang].map((movie, i) => {
                     return (
                         <MovieCard key={i} delay={`${0.1*i}s`}>
-                            <Image loading="lazy" src={movie.img} />
+                            <Image src={movie.img} />
                             <StyledIconButton onClick={(e) => handleMovieDialog(e, movie)}>
                                 <StyledExpand />
                             </StyledIconButton>

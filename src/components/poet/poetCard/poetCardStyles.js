@@ -22,6 +22,11 @@ export const PoetBoxContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        margin: 3rem;
+        margin-top: 2rem;
+    }
 `;
 
 export const PoetCardWrapper = styled.div`
@@ -41,6 +46,13 @@ export const PoetCardWrapper = styled.div`
         border-radius: 1.5rem;
         box-shadow: 0rem 0rem 0.6rem #504221d1;
     }
+
+    @media (max-width: 768px) {
+        border-radius: 0.7rem;
+        margin-bottom: 3.5rem;
+        height: 17.5rem;
+        width: 12.5rem;
+    }
 `;
 
 export const PoetImgContainer = styled.div`
@@ -56,6 +68,11 @@ export const PoetImgContainer = styled.div`
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+
+    @media (max-width: 768px) {
+        height: 11rem;
+        width: 8.5rem;
+    }
 `;
 
 export const PoetImage = styled.img`
@@ -67,6 +84,13 @@ export const PoetImage = styled.img`
     background: #0F0A00
         url("/loader.svg") center
         no-repeat;
+
+    @media (max-width: 768px) {
+        border-radius: 4.5rem;
+        height: 10.25rem;
+        width: 7.75rem;
+        margin: 0.15rem;
+    }
 `;
 
 export const PoetName = styled.div`
@@ -74,6 +98,10 @@ export const PoetName = styled.div`
     font-family: "EB Garamond", serif;
     font-style: italic;
     text-shadow: 0rem 0rem 0.25rem black;
+
+    @media (max-width: 768px) {
+        font-size: 1.75rem;
+    }
 `;
 
 export const PoetNameBox = styled.div`
@@ -81,11 +109,22 @@ export const PoetNameBox = styled.div`
     top: 15.8rem;
     line-height: 2.5rem;
     left: -2rem;
+
+    @media (max-width: 768px) {
+        top: 8.5rem;
+        line-height: 1.7rem;
+        left: -1rem;
+    }
 `;
 
 export const PoetDates = styled.div`
     font-size: 1rem;
     font-family: 'IBM Plex Serif', serif;
+
+    @media (max-width: 768px) {
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
+    }
 `;
 
 export const PoetInfoContainer = styled.div`
@@ -93,6 +132,10 @@ export const PoetInfoContainer = styled.div`
     left: 2rem;
     bottom: 3rem;
     width: 20rem;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const StyledLink = styled(Link)`

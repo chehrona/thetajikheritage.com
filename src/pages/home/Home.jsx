@@ -10,7 +10,7 @@ import MobHomeStepper from "../../components/homeStepper/mobile/MobHomeStepper";
 import { InnerContainer, PageContainer } from './homePageStyles';
 
 function Home() {
-    const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
     const containerRef = useRef(null);
     const divRefs = [useRef(null), useRef(null), useRef(null), useRef(null), useRef(null)];
     const [opacities, setOpacities] = useState([1, 0, 0, 0, 0]);
