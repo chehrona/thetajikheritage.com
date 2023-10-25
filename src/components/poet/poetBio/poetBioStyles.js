@@ -187,6 +187,7 @@ export const Quote = styled.div`
     @media (max-width: 768px) {
         margin: 0.5rem 0rem 1rem 0rem;
         font-size: 1.8rem;
+        line-height: 2rem;
     }
 `;
 
@@ -321,6 +322,10 @@ export const FinalQuote = styled.div`
     padding-right: 10%;
     padding-left: 10%;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
+
+    @media (max-width: 768px) {
+        line-height: 2.5rem;
+    }
 `;
 
 export const Author = styled.div`

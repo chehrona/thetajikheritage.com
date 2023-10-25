@@ -123,10 +123,10 @@ export const PoetName = styled.div`
     font-size: 8rem;
     font-weight: bold;
     font-style: italic;
-    color: ${({color}) => color === 'true' ? "transparent" : "#dedbdb"};
-    margin-right: ${({color}) => color === 'true' ? "2rem" : "0rem"};
+    color: ${({ color }) => color ? "transparent" : "#dedbdb"};
+    margin-right: ${({ color }) => color ? "2rem" : "0rem"};
     text-shadow: 0rem 0rem 5rem black;
-    -webkit-text-stroke-width: ${({color}) => color === 'true' && '0.22rem'};
+    -webkit-text-stroke-width: ${({ color }) => color && '0.22rem'};
     -webkit-text-stroke-color: #bd9d52;
     opacity: 0;
     animation: ${slideOut} 1s ease-in-out forwards;
@@ -134,7 +134,8 @@ export const PoetName = styled.div`
 
     @media (max-width: 768px) {
         font-size: 5rem;
-        overflow-wrap: break-word;
+        text-align: ${({ color }) => color ? "right" : "left"};
+        line-height: 5.2rem;
     }
 `;
 
@@ -146,6 +147,7 @@ export const PoetNameContainer = styled.div`
 
     @media (max-width: 768px) {
         left: 2rem;
+        display: block;
     }
 `;
 
@@ -161,7 +163,7 @@ export const YearsContainer = styled.div`
     z-index: 10;
 
     @media (max-width: 768px) {
-        font-size: 5rem;
+        font-size: 4.2rem;
         min-height: 12rem;
         position: absolute;
         top: 2rem;
@@ -175,7 +177,7 @@ export const Year = styled.div`
 
     @media (max-width: 768px) {
         margin-left: 0rem;
-        margin-right: 1.5rem;
+        margin-right: 2.5rem;
     }
 `;
 
