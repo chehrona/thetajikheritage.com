@@ -33,7 +33,7 @@ export const MainContainer = styled.div`
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);
         position: absolute;
-        top: -5.99rem;
+        top: -5.98rem;
         box-sizing: border-box;
     }
 `;
