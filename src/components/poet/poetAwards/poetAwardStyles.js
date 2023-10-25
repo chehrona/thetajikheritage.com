@@ -94,6 +94,10 @@ export const Face = styled.div`
     background-image: ${({ back }) => back && "url(${'/noise.png'})"};
     border-radius: 1rem;
     padding: 0.8rem;
+
+    @media (max-width: 768px) {
+        padding: 0.4rem;
+    }
 `;
 
 export const Title = styled.div`
@@ -114,7 +118,7 @@ export const Year = styled.div`
     font-size: 3rem;
 
     @media (max-width: 768px) {
-       font-size: 2rem;        
+       font-size: 1.7rem;        
     }
 `;
 
