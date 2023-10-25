@@ -43,6 +43,11 @@ export const AwardWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        padding: 0rem 3rem 0rem 3rem;
+        gap: 1rem;
+    }
 `;
 
 export const AwardCard = styled.div`
@@ -58,6 +63,11 @@ export const AwardCard = styled.div`
     opacity: 0;
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
+
+    @media (max-width: 768px) {
+        width: 8rem;
+        height: 11.1rem;        
+    }
 `;
 
 export const InnerContainer = styled.div`
@@ -89,6 +99,10 @@ export const Face = styled.div`
 export const Title = styled.div`
     text-align: center;
     font-size: 1.2rem;
+
+    @media (max-width: 768px) {
+       font-size: 1rem;        
+    }
 `;
 
 export const Image = styled.img`
@@ -98,6 +112,10 @@ export const Image = styled.img`
 
 export const Year = styled.div`
     font-size: 3rem;
+
+    @media (max-width: 768px) {
+       font-size: 2rem;        
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -107,6 +125,11 @@ export const StyledIconButton = styled(IconButton)`
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
+
+    @media (max-width: 768px) {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 `;
 
 export const StyledInfoIcon = styled(Info)`

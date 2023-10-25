@@ -26,12 +26,12 @@ const slideOut = keyframes`
 
 const slideUp = keyframes`
     0% {
-      transform: translateY(100%);
-      opacity: 0;
+        transform: translateY(100%);
+        opacity: 0;
     }
     100% {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     
     }
 `;
@@ -57,6 +57,11 @@ export const MainContainer = styled.div`
         bottom: -0.01rem;
         box-sizing: border-box;
     }
+    
+    @media (max-width: 768px) {
+        border-radius: 0rem;
+        flex-direction: column-reverse;
+    }
 `;
 
 export const FadedImage = styled.img`
@@ -69,6 +74,13 @@ export const FadedImage = styled.img`
     animation: ${zoomIn} 0.5s ease-out;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        min-height: 25rem;
+        border-radius: 2.5rem 2rem 0rem 2.5rem;
+        margin-left: -12%;
+    }
 `;
 
 export const SegmentContainer = styled.div`
@@ -78,6 +90,10 @@ export const SegmentContainer = styled.div`
     width: 100%;
     z-index: 10;
     position: relative;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const SectionTitle = styled.div`
@@ -116,6 +132,10 @@ export const PoetName = styled.div`
     animation: ${slideOut} 1s ease-in-out forwards;
     animation-delay: ${({ color }) => color ? '0s' : '0.1s'};
 
+    @media (max-width: 768px) {
+        font-size: 5rem;
+        overflow-wrap: break-word;
+    }
 `;
 
 export const PoetNameContainer = styled.div`
@@ -123,6 +143,10 @@ export const PoetNameContainer = styled.div`
     left: 5rem;
     bottom: 6rem;
     display: flex;
+
+    @media (max-width: 768px) {
+        left: 2rem;
+    }
 `;
 
 export const YearsContainer = styled.div`
@@ -135,10 +159,24 @@ export const YearsContainer = styled.div`
     opacity: 0.25;
     font-weight: bold;
     z-index: 10;
+
+    @media (max-width: 768px) {
+        font-size: 5rem;
+        min-height: 12rem;
+        position: absolute;
+        top: 2rem;
+        right: 0.5rem;
+        text-align: right;
+    }
 `;
 
 export const Year = styled.div`
     margin-left: 9rem;
+
+    @media (max-width: 768px) {
+        margin-left: 0rem;
+        margin-right: 1.5rem;
+    }
 `;
 
 export const NumSpan = styled.span`

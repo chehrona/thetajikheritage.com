@@ -1,13 +1,16 @@
 import React, { useState, useEffect, useRef } from "react";
+import { useMediaQuery } from 'react-responsive';
+
 import { stepInfo } from "../../components/homeStepper/helper";
 
 import HomeStepper from '../../components/homeStepper/HomeStepper';
 import ImageBall from '../../components/imageBall/ImageBall';
+import MobHomeStepper from "../../components/homeStepper/mobile/MobHomeStepper";
 
 import { InnerContainer, PageContainer } from './homePageStyles';
 
 function Home() {
-    const parentRef = useRef(null);
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
     const containerRef = useRef(null);
     const divRefs = [useRef(null), useRef(null), useRef(null), useRef(null), useRef(null)];
     const [opacities, setOpacities] = useState([1, 0, 0, 0, 0]);
@@ -40,13 +43,19 @@ function Home() {
 
     return (
         <PageContainer>
-            <InnerContainer ref={parentRef}>
-                <HomeStepper containerRef={containerRef} divRefs={divRefs} opacities={opacities} />
-                {stepInfo?.map((entry, i) => {
-                    return (
-                        <ImageBall key={i} entry={entry} index={i} opacities={opacities} />
-                    );
-                })}
+            <InnerContainer>
+                {isMobile ?
+                    <MobHomeStepper containerRef={containerRef} divRefs={divRefs} opacities={opacities} />
+                : (
+                    <>
+                        <HomeStepper containerRef={containerRef} divRefs={divRefs} opacities={opacities} />
+                        {stepInfo?.map((entry, i) => {
+                                return (
+                                    <ImageBall key={i} entry={entry} index={i} opacities={opacities} />
+                                );
+                        })}
+                    </>
+                )}
             </InnerContainer>
         </PageContainer>
     );

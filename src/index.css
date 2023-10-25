@@ -16,6 +16,12 @@ html {
     }
 }
 
+@media screen and (max-width: 768px) {
+  html {
+      font-size: 12px;
+  }
+}
+
 body {
     background: white;
     margin: 0;

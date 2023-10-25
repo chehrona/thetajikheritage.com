@@ -154,7 +154,12 @@ module.exports.recipes = [
             {us: 'Nuts', ru: 'Орехи', tj: 'Чормағз', kh: 'چارمغزحا'}
         ],
         ingredients: {
-            us: ["1&#189 cups (360 mL) milk", "1 cup (240 mL) water", "2 tsps black tea", "1 loaf baguette", "2 Tbsps walnuts", "1 tsp ghee or unsalted butter", "&#189 tsp salt"],
+            us: [
+                    {amount: 1.5, unit: "cups", item: "milk"},
+                    {amount: 1, unit: "cup", item: "water"},
+                    {amount: 2, unit: "tsps", item: "black tea"},
+                    {amount: 1.5, unit: "cups", item: "milk"},
+                ],
             ru: ["3 стакана молока", "2 c.л. чёрного чая", "1 лепёшка", "&#189 стакана грецких орехов", "1 ч.л. топлёного масла", "2 ч.л. cахара"],
             tj: ["3 стакан шир", "2 қошуқи калон чойи сиёҳ", "1-то нон", "&#189 стакан измельченных грецких орехов", "1 қошуқча равғани зард", "2 қошуқча шакар"],
             kh: ["3 стакана молока", "2 чёрного чая", ""],

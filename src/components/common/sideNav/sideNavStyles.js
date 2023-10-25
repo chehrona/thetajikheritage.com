@@ -8,6 +8,10 @@ export const SideNavContainer = styled.div`
     left: 1rem;
     bottom: 0;
     z-index: 1000;
+
+    @media (max-width: 768px) {
+        left: 0.25rem;
+    }
 `;
 
 export const StyledIcon = styled.img`

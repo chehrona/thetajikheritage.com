@@ -55,6 +55,11 @@ export const MovieWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        display: column;
+        gap: 2rem;
+    }
 `;
 
 export const MovieCard = styled.div`
@@ -67,6 +72,12 @@ export const MovieCard = styled.div`
     opacity: 0;
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
+
+    @media (max-width: 768px) {
+        height: 17.15rem;
+        width: 11.95rem;
+        gap: 1rem;
+    }
 `;
 
 export const Image = styled.img`
@@ -84,6 +95,11 @@ export const StyledIconButton = styled(IconButton)`
     right: -2.6rem;
     transform: translateX(-50%);
     box-shadow: 0rem 0rem 0.6rem #000;
+
+    @media (max-width: 768px) {
+        bottom: 0.5rem;
+        right: -3rem;
+    }
 `;
 
 export const StyledExpand = styled(ChevronRight)`
