@@ -94,12 +94,12 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, top: "-0.5rem", right: "32rem"},
+            {size: 16, top: "-3rem", right: "34rem"},
             {size: 12, bottom: "1rem", right: "27.5rem"},
             {size: 30, top: "6rem", right: "0.5rem"}
         ],
         inner: [
-            {size: 15, top: "-0.3rem", right: "31.7rem", img: "/homeImages/custom3.png"},
+            {size: 15, top: "-3.5rem", right: "34.7rem", img: "/homeImages/custom3.png"},
             {size: 11, bottom: "1.5rem", right: "28rem", img: "/homeImages/custom2.png"},
             {size: 29, top: "6rem", right: "1.5rem", img: "/homeImages/custom1.png"}
         ],
@@ -145,13 +145,13 @@ export const stepInfo = [
         },
         outer: [
             {size: 16, top: "-0.5rem", right: "32rem"},
-            {size: 12, bottom: "2rem", right: "28rem"},
+            {size: 12, top: "1.5rem", right: "87.5%"},
             {size: 30, top: "12rem", right: "0rem"}
         ],
         inner: [
-            {size: 15, top: "1rem", right: "32.5rem", img: "/homeImages/custom3.png"},
-            {size: 11, bottom: "2.5rem", right: "30rem", img: "/homeImages/custom2.png"},
-            {size: 29, top: "12rem", right: "1rem", img: "/homeImages/custom1.png"}
+            {size: 15, top: "1rem", right: "32.5rem", img: "/homeImages/cuisine3.png"},
+            {size: 11, top: "2rem", right: "88%", img: "/homeImages/cuisine2.png"},
+            {size: 29, top: "12rem", right: "1rem", img: "/homeImages/cuisine1.png"}
         ],
     },
     {
@@ -247,14 +247,14 @@ export const stepInfo = [
             }
         },
         outer: [
-            {size: 16, top: "-3rem", right: "50rem"},
-            {size: 12, top: "1rem", right: "7rem"},
-            {size: 30, bottom: "-1rem", right: "6rem"}
+            {size: 16, top: "1rem", right: "23rem"},
+            {size: 12, top: "-1.5rem", right: "50rem"},
+            {size: 30, bottom: "-5rem", right: "3rem"}
         ],
         inner: [
-            {size: 15, top: "-2.5rem", right: "52rem", img: "/homeImages/history3.png"},
-            {size: 11, top: "1.5rem", right: "6rem", img: "/homeImages/history2.png"},
-            {size: 29, bottom: "-0.5rem", right: "6.5rem", img: "/homeImages/history1.png"}
+            {size: 15, top: "1.5rem", right: "23.5rem", img: "/homeImages/history3.png"},
+            {size: 11, top: "0.5rem", right: "52rem", img: "/homeImages/history2.png"},
+            {size: 29, bottom: "-3.5rem", right: "1.5rem", img: "/homeImages/history1.png"}
         ],
     },
 ];

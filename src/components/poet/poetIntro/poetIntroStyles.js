@@ -63,7 +63,7 @@ export const FadedImage = styled.img`
     width: 47rem;
     min-height: 50rem;
     height: auto;
-    box-shadow: 6rem 6rem 2rem 4rem #0F0A00 inset;
+    background: #0F0A00;
     transform-origin: center;
     border-radius: 5rem 4rem 0rem 5rem;
     animation: ${zoomIn} 0.5s ease-out;

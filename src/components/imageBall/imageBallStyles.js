@@ -14,7 +14,6 @@ export const SphereBox = styled.div`
 `;
 
 export const Border = styled.div`
-    background-color: transparent;
     border-radius: 50%;
     position: absolute;
     opacity: ${({ opacity }) => opacity && opacity};
@@ -42,4 +41,5 @@ export const HomeImage = styled.img`
     top: ${({ top }) => top && top};
     right: ${({ right }) => right && right};
     will-change: transform;
+    z-index: 0;
 `;
