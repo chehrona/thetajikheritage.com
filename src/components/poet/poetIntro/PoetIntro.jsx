@@ -46,7 +46,7 @@ export default function PoetIntro({ poet, scrollToView }) {
             </div>
             <FadedImage src={poet?.img[1]} />
             <PoetNameContainer>
-                <PoetName color={'true'}>{poet?.name[lang][0]}</PoetName>
+                <PoetName color={1}>{poet?.name[lang][0]}</PoetName>
                 <PoetName>{poet?.name[lang][1]}</PoetName>
             </PoetNameContainer>
         </MainContainer>
