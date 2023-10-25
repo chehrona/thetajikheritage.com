@@ -2,9 +2,9 @@ export const stepInfo = [
     {
         num: "01",
         text: {
-            us: {text: "Arts & crafts", font: 10, margin: "2rem"},
-            ru: {text: "Искусства & ремесла", font: 7.1},
-            tj: {text: "Санъат & ҳунар", font: 9.5, margin: "2rem"}
+            us: {text: "Arts & crafts", font: {d: 10, m: 6.7, p: 8}, margin: {d: 2, m: 1}},
+            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.1, p: 6}},
+            tj: {text: "Санъат & ҳунар", font: {d: 9.5, m: 5.4, p: 8}, margin: {d: 2, m: 0}}
         },
         desc: {
             us: 
@@ -55,9 +55,9 @@ export const stepInfo = [
     {
         num: "02",
         text: {
-            us: {text: "Customs", font: 9.3},
-            ru: {text: "Обычаи", font: 9.5},
-            tj: {text: "Расму оин", font: 9, margin: "2rem"}
+            us: {text: "Customs", font: {d: 9.3, m: 5.5, p: 7.3}},
+            ru: {text: "Обычаи", font: {d: 9.5, m: 5.8, p: 7.3}},
+            tj: {text: "Расму оин", font: {d: 9, m: 7.5, p: 7.3}, margin: {d: 2, m: 0}}
         },
         desc: {
             us: 
@@ -107,9 +107,9 @@ export const stepInfo = [
     {
         num: "03",
         text: {
-            us: {text: "Cuisine", font: 11},
-            ru: {text: "Кухня", font: 11.7},
-            tj: {text: "Ғизоҳо", font: 10.7}
+            us: {text: "Cuisine", font: {d: 11, m: 6.5, p: 7.3}},
+            ru: {text: "Кухня", font: {d: 11.7, m: 7.2, p: 7.3}},
+            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.3, p: 7.3}}
         },
         desc: {
             us: {

@@ -31,7 +31,6 @@ export const MenuContainer = styled.div`
     color: #bd9d52;
     display: flex;
     background: rgb(51 51 51);
-    height: 100vh;
     padding: 3rem;
     transform: translateY(-100%);
     justify-content: center;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { useSetLang } from "../../App";
+import { useSetLang } from "../../../App";
 
-import { stepInfo } from "./helper"; 
+import { stepInfo } from "../helper"; 
 
 import {
     MainContainer,
@@ -13,13 +13,13 @@ import {
     TitleWrapper,
     LargeTitle,
     Desc,
-    OtherSteps,
     StepperContainer,
     StyledButton,
-    Link
+    Link,
+    ImageSemiCircle
 } from "./homeStepperStyles";
 
-export default function HomeStepper({ containerRef, divRefs, opacities }) {
+export default function MobHomeStepper({ containerRef, divRefs, opacities }) {
     const { lang } = useSetLang();
     const [visibleStepIndex, setVisibleStepIndex] = useState(0);
 
@@ -49,15 +49,11 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
         return () => {
             observer.disconnect();
         };
-      }, [divRefs]);      
-
+      }, [divRefs]);
+    
     return (
         <MainContainer>
-                <SemiCircle />
-            <OtherSteps>
-                <NumLine />
-                <Step>{stepInfo[visibleStepIndex - 1]?.num || stepInfo[stepInfo.length - 1]?.num}</Step>
-            </OtherSteps>
+                {/* <SemiCircle/> */}
             <StepperContainer ref={containerRef}>
                 {stepInfo.map((step, i) => {
                     return (
@@ -66,18 +62,18 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                             ref={divRefs[i]}
                             opacity={opacities[i]}
                         >
-                            <IndicatorStep>{step?.num}</IndicatorStep>
+                            {/* <IndicatorStep>{step?.num}</IndicatorStep> */}
                             <div>
                                 <TitleWrapper>
-                                    <LargeTitle fontSize={step?.text[lang].font?.d}>{step?.text[lang].text}</LargeTitle>
+                                    <LargeTitle fontSize={step?.text[lang].font?.m}>{step?.text[lang].text}</LargeTitle>
                                 </TitleWrapper>
-                                <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin?.d}>
+                                <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin?.m}>
                                     <div
                                         dangerouslySetInnerHTML={{__html: step?.desc[lang].text}}
                                     />
                                     <Link href={step?.desc[lang].link} target="_blank">
                                         <StyledButton
-                                            width={lang === 'ru' ? '27%' : (lang === 'tj' ? '30%' : '17%')}
+                                            width={lang === 'ru' ? '40%' : (lang === 'tj' ? '45%' : '21%')}
                                         >
                                             {lang === 'ru' ? 'УЗНАТЬ БОЛЬШЕ' : (lang === 'tj' ? 'БИСЁРТАР ОМӮЗЕД' : 'EXPLORE')}
                                         </StyledButton>
@@ -87,11 +83,8 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                         </StepperBox>
                     );
                 })}
+                <ImageSemiCircle src={stepInfo[visibleStepIndex]?.inner[2].img} />
             </StepperContainer>
-            <OtherSteps bottom={1}>
-                <Step>{stepInfo[visibleStepIndex + 1]?.num || stepInfo[0]?.num}</Step>
-                <NumLine />
-            </OtherSteps>
         </MainContainer>
     );
 }

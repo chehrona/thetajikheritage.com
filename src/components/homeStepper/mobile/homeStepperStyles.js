@@ -51,9 +51,9 @@ export const StepperContainer = styled.div`
     height: 100%;
     width: 100%;
     overflow: scroll;
-    padding-left: 10%;
-    /* scroll-snap-type: mandatory;
-    scroll-snap-type: y mandatory; */
+    padding: 1rem;
+    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
 
     &::-webkit-scrollbar {
         display: none;
@@ -65,7 +65,7 @@ export const StepperBox = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    /* scroll-snap-align: start; */
+    scroll-snap-align: start;
     opacity: ${({ opacity }) => opacity && opacity};
 `;
 
@@ -77,7 +77,8 @@ export const Step = styled.div`
 `;
 
 export const TitleWrapper = styled.div`
-    height: 65%;
+    max-height: 25%;
+    min-height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,17 +93,19 @@ export const LargeTitle = styled.div`
     color: #ffffffb2;
     text-shadow: 1rem 0rem 0rem #504221;
     overflow-wrap: break-word;
-    width: 45rem;
+    width: 100%;
     text-transform: uppercase;
-    line-height: ${({ fontSize }) => fontSize && `${fontSize - 1}rem`};
-    padding-top: 1rem;
+    line-height: ${({ fontSize }) => fontSize && `${fontSize - 0.5}rem`};
+    padding: 1rem;
+    padding-left: 2.5rem;
 `;
 
 export const Desc = styled.div`
     color: #dedbdb;
-    font-size: 1rem;
-    width: 40%;
-    margin-left: 10%;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1rem;
+    padding-left: 2.5rem;
     position: relative;
     margin-top: ${({ margin }) => margin && `${margin}rem`};
 `;
@@ -125,30 +128,24 @@ export const StyledButton = styled.div`
     width: ${({ width }) => width && width};
     font-weight: 500;
     padding-bottom: 0.25rem;
-
-    &::before {
-        content: '';
-        position: absolute;
-        width: ${({ width }) => width && width};
-        height: 0.1rem;
-        bottom: 0;
-        left: 0;
-        background-color: #ffffff;
-        transform: scaleX(0);
-        transform-origin: bottom right;
-        transition: transform 0.3s ease-in-out;
-    }
-
-    &:hover::before {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-    }
-
-    &:hover {
-        border-right: 0.1rem solid #ffffff;
-    }
+    border-right: 0.1rem solid #ffffff;
+    border-bottom: 0.1rem solid #ffffff;
 `;
 
 export const Link = styled.a`
     text-decoration: none;
+`;
+
+export const ImageSemiCircle = styled.img`
+    position: absolute;
+    bottom: -5.5rem;
+    right: -5rem;
+    border-radius: 50%;
+    width: 35rem;
+    height: 35rem;
+    padding: 0.5rem;
+    border: 0.0625rem solid #bd9d52;
+    z-index: -1;
+    opacity: 0.5;
+    transition: 500ms ease-in-out;
 `;

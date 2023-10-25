@@ -11,6 +11,12 @@ export const SphereBox = styled.div`
     position: relative;
     height: 100%;
     width: 100%;
+    position: absolute;
+    top: 0rem;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const Border = styled.div`

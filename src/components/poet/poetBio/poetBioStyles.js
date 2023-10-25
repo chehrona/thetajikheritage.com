@@ -258,9 +258,8 @@ export const LeftContainer = styled.div`
 export const RightContainer = styled.div`
     width: 50%;
     height: 30rem;
-    background: #333333
-        url("/loader.svg") center no-repeat;
-    background: ${({ src }) => `url(${ src })`};
+    background: #333333;
+    background: ${({ src }) => src ? `url(${ src })` : 'url("/loader.svg")'};
     background-size: ${({ src }) => src ? 'cover' : 'contain'};
     background-repeat: no-repeat;
     background-position: center center;
