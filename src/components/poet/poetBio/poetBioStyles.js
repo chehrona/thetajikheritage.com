@@ -335,7 +335,9 @@ export const RightContainer = styled.div`
         height: ${({ first }) => first ? '17rem': '23rem'};
         overflow-x: scroll;
         width: 100%;
+        height: 100%;
         background: none;
+        display: flex;
     }
 `;
 
