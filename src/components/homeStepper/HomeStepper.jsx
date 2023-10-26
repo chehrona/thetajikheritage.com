@@ -77,7 +77,7 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                                     />
                                     <Link href={step?.desc[lang].link} target="_blank">
                                         <StyledButton
-                                            width={lang === 'ru' ? '27%' : (lang === 'tj' ? '30%' : '17%')}
+                                            width={lang === 'ru' ? '30%' : (lang === 'tj' ? '33%' : '17%')}
                                         >
                                             {lang === 'ru' ? 'УЗНАТЬ БОЛЬШЕ' : (lang === 'tj' ? 'БИСЁРТАР ОМӮЗЕД' : 'EXPLORE')}
                                         </StyledButton>

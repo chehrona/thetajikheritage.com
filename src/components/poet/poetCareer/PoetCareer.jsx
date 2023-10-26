@@ -35,7 +35,6 @@ export default function PoetCareer({ points }) {
 
     const handleNext = () => {
         if (currentIndex < points?.years?.length - 1) {            
-
             setCurrentIndex(prevState => prevState + 1);            
             setTranslate(prevState => prevState - 850);
         }
@@ -43,7 +42,6 @@ export default function PoetCareer({ points }) {
 
     const handlePrev = () => {
         if (currentIndex > 0) {
-
             setCurrentIndex(prevState => prevState - 1);
             setTranslate(prevState => prevState + 850);
         }

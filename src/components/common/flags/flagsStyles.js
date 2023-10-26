@@ -10,23 +10,36 @@ export const FlagWrapper = styled.div`
     width: 2.4rem;
     cursor: pointer;
     margin-bottom: 0.4rem;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 1rem;
+    z-index: 1000;
+
+    @media (max-width: 768px) {
+        right: 1rem;
+    }
 `;
 
 export const StyledFlag = styled.div`
-    width: 1.25rem;
+    width: 1.5rem;
     border-radius: 50%;
-    height: 1.25rem;
-    filter: ${({hovered}) => hovered === "true" ? 'grayscale(0%)': 'grayscale(100%)'};
+    height: 1.5rem;
+    box-shadow: 0.05rem 0.05rem 0.8rem 0.05rem #0F0A00b2;
     background-size: 100%;
     background-image: ${({lang}) => lang === "kh" ? `url(${khorLogo})` :
                                     lang === "us" ? `url(${usLogo})` :
                                     lang === "ru" ? `url(${ruLogo})` :
                                     `url(${tjLogo})`};
+
+    @media (max-width: 768px) {
+        height: 2rem;
+        width: 2rem;
+    }
 `;
 
 export const FlagDropdown = styled.div`
     position: absolute;
-    bottom: 14rem;
+    bottom: 2rem;
     left: 0rem;
     margin: 0 auto;
 `;
