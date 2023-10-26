@@ -259,7 +259,7 @@ module.exports.poets = [
                         <span style='font-weight: bold;'>52 days</span> in the hos&shypital 
                         and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
                         he perma&shynently moved to Sa&shymar&shykand.
-                        There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wiel&shyding the 
+                        There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wield&shying the 
                         power of his pen, writing political articles and to 
                         directly calling the nation for war against the amir.
                         <br>Upon discovering Ayni's association with the Soviet forces,
@@ -706,7 +706,7 @@ module.exports.poets = [
                         ба хо&shyнан&shyда&shyгон даст&shyрас шу&shyда&shyаст. Аса&shyри «Ғу&shyло&shyмон» со&shyли 1934 ба табъ ра&shyси&shyда, 
                         гус&shyтур&shyда&shyта&shyрин эъ&shyҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.
                         <div class='emptyLine'></div>
-                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
+                        <div class='imgDesc'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
                         ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст</div>`,
                         `Айнӣ консултанти консулхонаи Ҷумҳурии Бухорои навтаъсис дар Самарқанд таъйин мешавад, ки ин бо ёрии Абдулқодир Муҳиддинов сурат гирифта буд.
                         Аммо консулхона дере нагузашта баста мешавад ва Айнӣ боз бо кӯмаки А.Муҳиддинов бори дигар ба шуъбаи Бухгосторг (Совети хоҷагии халқи Шӯравии Бухоро) дар Самарқанд таъин шуд.`,
@@ -720,7 +720,7 @@ module.exports.poets = [
                         меж&shyду 1927 и 1928 го&shyда&shyми, но опуб&shyли&shyко&shyван&shyный в 1930 го&shyду). 
                         Ро&shyман «Ра&shyбы» вы&shyшел в 1934 го&shyду, а его са&shyмое об&shyшир&shyное про&shyиз&shyве&shyде&shyние 
                         «Вос&shyпо&shyми&shyна&shyния» бы&shyло опуб&shyли&shyко&shyва&shyно в 1940 го&shyду.
-                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*Об&shyлож&shyка кни&shyги «Бу&shyхарс&shyкие па&shyла&shyчи», 
+                        <div class='imgDesc'>*Об&shyлож&shyка кни&shyги «Бу&shyхарс&shyкие па&shyла&shyчи», 
                         из&shyдан&shyной в 1937 го&shyду, на 
                         тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей</div>`,
                         `Он был назначен консультантом кон&shyсуль&shyства недавно соз&shyдан&shyной Бу&shyхар&shyской Рес&shyпублики в Са&shyмар&shyканде, 
@@ -739,42 +739,45 @@ module.exports.poets = [
                         `В 1920 году Айни написал свое первое крупное литературное произведение «Бухарские палачи». Затем в 1924 году он 
                         написал рассказ «Одина», за которым последовал повесть «Дохунда» (написанный между 1927 и 1928 годами, но опубликованный в 1930 году). 
                         Роман «Рабы» вышел в 1934 году, а его самое обширное литературное произведение «Воспоминания» было опубликовано в 1940 году.
-                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*Обложка книги «Бухарские палачи», изданной в 1937 году, на 
+                        <div class='imgDesc'>*Обложка книги «Бухарские палачи», изданной в 1937 году, на 
                         таджикском языке, написанной латиницей</div>`,
                     ],
                     us: [
                         `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
                         He continued to hold this position until his passing.`,
-                        `In 1920, Ayni penned his first major literary work, "The Bu&shykhara Executioners." Then, he wrote 
-                        the short sto&shyry "Odi&shyna" in 1924, followed by the no&shyvel "Do&shykhun&shyda" (written between 1927 and 1928, but published 
-                        in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Re&shymi&shyniscences," was pub&shylished 
-                        in 1940.
+                        `In 1920, Ayni penned his first ma&shyjor li&shyte&shyra&shyry work, "The Bu&shykhara Ex&shyec&shyu&shytion&shyers." Then, 
+                        he wrote the short sto&shyry "O&shydi&shyna" in 1924, fol&shylowed by the no&shyvel "Do&shykhun&shyda" (writ&shyten 
+                        be&shytween 1927 and 1928, but pub&shylished in 1930). "The Slaves" was re&shyleased in 1934, and his most ex&shytensive 
+                        work, "Re&shymi&shynis&shycen&shyes," was pub&shylished in 1940.
                         <div class='emptyLine'></div>
-                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*The cover of "The Bukhara Executioners" 
-                        published in 1937 in Tajiki-Persian written in the Latin script</div>`,
-                        `He was appointed a consultant to the newly established Republic of Bukhara's consulate in Samarkand, 
-                        faci&shyli&shyta&shyted through the support of Abdul&shyqo&shydir Mu&shyhiddinov. How&shyever, the consulate closes soon after, and Ayni was 
-                        subsequently appointed to over&shysee a de&shypart&shyment with&shyin Bukh&shygos&shytorg (the Economic Council of the Bukharan People's 
-                        Soviet Republic) in Samarkand, once more with the assistance of A. Muhiddinov.`,
-                        `Ayni compiled Ferdowsi's "Shāhnāmeh" with the in&shyten&shytion of trans&shyliterating it into 
-                        the new Tajik script, first in Latin and later in Cyrillic. He also me&shyti&shycu&shylous&shyly com&shypiled biographies and 
-                        works of numerous scholars and poets, such as "Sheikh-ur-rais Abu Ali Sinā" (Avi&shycen&shyna), "Sheikh 
-                        Muslihiddin Saadi Shirazi," "Ustad Ru&shyda&shyki," "Ka&shymal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e 
-                        Wa&shysi&shyfi," and others.`,
-                        `A state law banned the Arabic script for writing, affec&shyting the Ta&shyjik language tra&shydi&shytionally written in the 
-                        Per&shyso-Arabic script. 
-                        This led to the sys&shyte&shymatic de&shystruc&shytion of Arabic-script books. In response, Sad&shyrid&shydin Ayni 
-                        collabo&shyra&shyted with prominent So&shyviet Ira&shyno&shylo&shygists, in&shyclu&shyding Bertels, Semyonov, and Freiman, 
-                        to col&shylect and trans&shyli&shyte&shyrate Per&shysian 
-                        books in&shyto Cy&shyril&shylic. He was ac&shycused of be&shying an "ene&shymy of the nation," and almost perished in Stalin's Great Purge.`,
-                        `In 1951, the Academy of Sciences of Tajik SSR was foun&shyded, with Sadriddin Ayni appointed as its in&shyau&shygu&shyral pre&shysi&shydent. 
-                        He held this position until his passing in 1954.`,
-                        `In 1920, Ayni penned his first major literary work, "The Bukhara Executioners." Then, he wrote 
-                        the short story "Odina" in 1924, followed by the novel "Dokhunda" (written between 1927 and 1928, but published 
-                        in 1930). "The Slaves" was released in 1934, and his most extensive literary work, "Reminiscences," was published 
-                        in 1940.
+                        <div class='imgDesc'>*The cover of "The Bukhara Executioners" 
+                        pub&shylished in 1937 in Ta&shyji&shyki-Persian writ&shyten in the La&shytin script</div>`,
+                        `He was ap&shypoin&shyted a con&shysul&shytant to the new&shyly es&shytab&shylished Re&shypub&shylic of Bu&shykha&shyra's 
+                        con&shysu&shylate in Sa&shymar&shykand, fa&shyci&shyli&shyta&shyted through the sup&shyport of Ab&shydul&shyqo&shydir 
+                        Mu&shyhid&shydinov. How&shye&shyver, the con&shysu&shylate clo&shyses soon af&shyter, and Ay&shyni was 
+                        sub&shyseq&shyuent&shyly ap&shypoin&shyted to o&shyver&shysee a de&shypart&shyment with&shyin Bukh&shygostorg 
+                        (the Eco&shyno&shymic Coun&shycil of the Bu&shykh&shyaran Peo&shyple's So&shyviet Re&shypub&shylic) in Sa&shymar&shykand, 
+                        once more with the as&shysist&shyance of A. Mu&shyhid&shydinov.`,
+                        `Ay&shyni com&shypiled Fer&shydow&shysi's "Shāh&shynā&shymeh" with the in&shyten&shytion of trans&shyli&shyte&shyrat&shying
+                        it into the new Ta&shyjik script, first in La&shytin and la&shyter in Cy&shyril&shylic. He al&shyso me&shyt&shycu&shylous&shyly 
+                        com&shypiled bi&shyog&shyra&shyphies and works of nu&shym&shyer&shyous scho&shylars and po&shyets, such as "Sheikh-ur-rais 
+                        Abu Ali Si&shyna" (Avi&shycen&shyna), "Sheikh Mus&shyli&shyhid&shydin Sa&shyadi Shi&shyra&shyzi," "Us&shytad Ru&shydaki," 
+                        "Ka&shymal-e 
+                        Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e Wa&shysi&shyfi," and oth&shyers.`,
+                        `A state law banned the Ara&shybic script for writ&shying, af&shyfect&shying the Tajik lang&shyuage tra&shydi&shytion&shyal&shyly 
+                        writ&shyten in the Per&shyso-Ara&shybic script. This led to the sys&shytem&shyatic de&shystruc&shytion of Ar&shyabic-script books. 
+                        In re&shysponse, Sad&shyrid&shydin Ay&shyni col&shylab&shyor&shyated with prom&shyin&shyent So&shyviet Ira&shyno&shylog&shyists, 
+                        in&shyclu&shyd&shying Bertels, Se&shym&shyyonov, and Frei&shym&shyan, to col&shylect and trans&shylit&shyer&shyate Per&shysian 
+                        books in&shyto Cy&shyril&shylic. He was ac&shycus&shyed of be&shying an "en&shyemy of the na&shytion," and al&shymost per&shyished 
+                        in Stal&shyin's Great Purge.`,
+                        `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its in&shyau&shygu&shyral pre&shysi&shydent. 
+                        He held this po&shysition until his passing in 1954.`,
+                        `In 1920, Ayni penned his first ma&shyjor li&shyte&shyra&shyry work, "The Bu&shykhara Ex&shyec&shyu&shytion&shyers." Then, 
+                        he wrote the short sto&shyry "O&shydi&shyna" in 1924, fol&shylowed by the no&shyvel "Do&shykhun&shyda" (writ&shyten 
+                        be&shytween 1927 and 1928, but pub&shylished in 1930). "The Slaves" was re&shyleased in 1934, and his most ex&shytensive 
+                        work, "Re&shymi&shynis&shycen&shyes," was pub&shylished in 1940.
                         <div class='emptyLine'></div>
-                        <div style='font-size: 1rem; line-height: 1.1rem; font-style: italic;'>*The cover of "The Bukhara Executioners" 
+                        <div class='imgDesc'>*The cover of "The Bukhara Executioners" 
                         published in 1937 in Tajiki-Persian written in the Latin script</div>`,
                     ]
             }

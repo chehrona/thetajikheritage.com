@@ -25,6 +25,10 @@ export const MainContainer = styled.div`
 export const YearSlider = styled.div`
     padding: 2rem 5rem 2rem 5rem;
     height: 36rem;
+
+    @media (max-width: 768px) {
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    }
 `;
 
 export const UnitWrapper = styled.div`
@@ -38,14 +42,14 @@ export const UnitWrapper = styled.div`
 `;
 
 export const YearWrapper = styled.div`
-    width: ${({ size }) => size ? "fit-content" : "0rem"};
-    height: ${({ size }) => size ? "fit-content" : "0rem"};
+    z-index: 1;
     background: #0F0A00;
     border-radius: 1.5rem;
-    border: ${({ size }) => size ? "0.15rem" : "0.5rem"} solid #bd9d52;
     position: relative;
     background-image: url(${'/noise.png'});
-    z-index: 1;
+    width: ${({ size }) => size ? "fit-content" : "0rem"};
+    height: ${({ size }) => size ? "fit-content" : "0rem"};
+    border: ${({ size }) => size ? "0.15rem" : "0.5rem"} solid #bd9d52;
 `;
 
 export const Year = styled.div`
@@ -68,12 +72,20 @@ export const InfoContainer = styled.div`
     overflow: hidden;
     position: relative;
     height: 25rem;
+
+    @media (max-width: 768px) {
+        height: 30rem;
+    }
 `;
 
 export const InfoInnerContainer = styled.div`
     position: absolute;
     display: flex;
     gap: 50px;
+
+    @media (max-width: 768px) {
+        gap: 30px;
+    }
 `;
 
 export const InfoWrapper = styled.div`
@@ -85,6 +97,13 @@ export const InfoWrapper = styled.div`
     display: flex;
     transition: all 0.5s;
     transform: translateX(${({ translate }) => `${translate}px`});
+
+    @media (max-width: 768px) {
+        display: block;
+        height: 30rem;
+        min-width: calc(100vw - 3rem);
+        max-width: calc(100vw - 3rem);
+    }
 `;
 
 export const DescWrapper = styled.div`
@@ -92,6 +111,10 @@ export const DescWrapper = styled.div`
     height: 100%;
     border-radius: 1rem;
     position: relative;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const Desc = styled.div`
@@ -99,6 +122,15 @@ export const Desc = styled.div`
     font-size: 1.1rem;
     line-height: 2rem;
     text-align: justify;
+
+    @media (max-width: 768px) {
+        padding: 1.5rem;
+        font-size: 1.3rem;
+
+        .imgDesc {
+            display: none;
+        }
+    }
 `;
 
 export const Footer = styled.div`
@@ -121,6 +153,10 @@ export const Step = styled.div`
     justify-content: center;
     font-size: 1.5rem;
     font-family: "EB Garamond", serif;
+
+    @media (max-width: 768px) {
+        font-size: 2rem;
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -137,6 +173,15 @@ export const StyledIconButton = styled(IconButton)`
             fill: lightgray;
         }
     }
+
+    @media (max-width: 768px) {
+        height: 4rem;
+        width: 4rem;
+
+        svg {
+            font-size: 2rem;
+        }
+    }
 `;
 
 export const Image = styled.img`
@@ -148,4 +193,8 @@ export const Image = styled.img`
     background: grey
         url("/loader.svg") center
         no-repeat;
+    
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
