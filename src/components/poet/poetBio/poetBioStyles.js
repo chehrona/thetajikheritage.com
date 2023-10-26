@@ -282,6 +282,31 @@ export const FamilyDesc = styled.div`
     }
 `;
 
+export const ImageContainer = styled.div`
+    height: 23rem;
+    overflow-x: scroll;
+    display: flex;
+`;
+
+export const ImageWrapper = styled.div`
+    width: 100%;
+    height: 100%;
+    position: relative;
+`;
+
+export const Img = styled.img`
+    width: 100vw;
+    height: 100%;
+    transition: all 0.5s;
+`;
+
+export const ButtonWrapper = styled.div`
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+`;
+
 // Box six ********************************
 export const BoxSix = styled.div`
     width: 100%;
@@ -323,7 +348,7 @@ export const RightContainer = styled.div`
     width: 50%;
     height: 30rem;
     background: #333333;
-    background: ${({ src }) => src ? `url(${ src })` : 'url("/loader.svg")'};
+    background: ${({ src }) => src ? `url(${ src })` : ''};
     background-size: ${({ src }) => src ? 'cover' : 'contain'};
     background-repeat: no-repeat;
     background-position: center center;
@@ -331,13 +356,9 @@ export const RightContainer = styled.div`
     position: relative;
 
     @media (max-width: 768px) {
+        width: 100%;
         margin-top: ${({ first }) => first && '-2rem'};
         height: ${({ first }) => first ? '17rem': '23rem'};
-        overflow-x: scroll;
-        width: 100%;
-        height: 100%;
-        background: none;
-        display: flex;
     }
 `;
 
@@ -373,10 +394,10 @@ export const FinalQuote = styled.div`
     color: #bd9d52;
     font-size: 2.5rem;
     font-style: italic;
-    font-family: "EB Garamond", serif;
-    transform: translate(-50%, -50%);
     padding-right: 10%;
     padding-left: 10%;
+    font-family: "EB Garamond", serif;
+    transform: translate(-50%, -50%);
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 
     @media (max-width: 768px) {
@@ -388,8 +409,8 @@ export const Author = styled.div`
     color: #fcf6e9;
     font-size: 1.1rem;
     font-style: normal;
-    font-family: 'IBM Plex Serif', serif;
     text-align: end;
+    font-family: 'IBM Plex Serif', serif;
 
     @media (max-width: 768px) {
         font-size: 1.25rem;
@@ -406,10 +427,15 @@ export const StyledButton = styled(IconButton)`
 
     &.MuiButtonBase-root {
         position: absolute;
-        ${({ left }) => left ? 'left: 0.5rem' : 'right: 0.5rem'};
         top: 50%;
-        transform: translateY(-50%) ${({ left }) => left && 'rotate(-180deg)'};
         z-index: 10;
+        ${({ left }) => left ? 'left: 0.5rem' : 'right: 0.5rem'};
+        transform: translateY(-50%) ${({ left }) => left && 'rotate(-180deg)'};
+    }
+
+    @media (max-width: 768px) {
+        width: 5rem;
+        height: 5rem;
     }
 `;
 
@@ -417,17 +443,18 @@ export const ImgInfo = styled.div`
     position: absolute;
     z-index: 10;
     font-style: italic;
-    right: 0rem;
+    width: 100%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;        
-    color: ${({ color }) => color && color};
-    bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
     text-align: left;
+    color: ${({ up }) => up ? '#0F0A00' : '#fcf6e9'};
+    bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
+    background-color: ${({ up }) => up ? 'transparent' : '#262626b2'};
 
     @media (max-width: 768px) {
-        bottom: ${({ up }) => up ? '-1rem' : '0.5rem'};
         font-size: 1.25rem;
         line-height: 1.3rem;
         width: 100%;
+        bottom: ${({ up }) => up ? '-1rem' : '0.5rem'};
     }
 `;

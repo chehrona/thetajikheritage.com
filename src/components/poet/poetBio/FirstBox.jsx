@@ -19,7 +19,7 @@ export default function FirstBox({ poet }) {
             <RightContainer src={poet?.slides.img} first={1}>
                 <ImgInfo
                     up={1}
-                    color={poet?.slides.color} dangerouslySetInnerHTML={{__html: poet?.slides.text}} 
+                    dangerouslySetInnerHTML={{__html: poet?.slides.text}} 
                 />
             </RightContainer>
         </BoxOne>

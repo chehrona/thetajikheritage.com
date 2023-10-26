@@ -266,7 +266,7 @@ module.exports.poets = [
                         amir falsely accused his youn&shyger brother, 
                         <span style='font-weight: bold;'>Sirojiddin</span>, of treason 
                         and cruelly murdered him through suffocation. Ayni chan&shynelled his 
-                        grief into his literary work, "Marsiya."
+                        grief into his literary work, "Mar&shysiya."
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
                         <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynapped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
@@ -332,17 +332,14 @@ module.exports.poets = [
                         {
                             img: '/poetImages/ayni/family/ayni1.jpeg',
                             text: `Left to right, seated: Lutfiya, Sadriddin, Kholida; standing: Hamid Mansurov (Ayni's nephew) and Kamol Ayni. From 1949 <sup>7</sup>`,
-                            color: '#fcf6e9'
                         },
                         {
                             img: '/poetImages/ayni/family/ayni2.jpeg',
                             text: `Ayni with his wife - Salohat <sup>9<sup>`,
-                            color: '#0F0A00'
                         },
                         {
                             img: '/poetImages/ayni/family/ayni3.jpeg',
                             text: `Ayni with his son - Kamol <sup>4<sup>`,
-                            color: '#fcf6e9'
                         }
                     ],
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
@@ -366,17 +363,14 @@ module.exports.poets = [
                         {
                             img: '/poetImages/ayni/family/ayni1.jpeg',
                             text: `Слева направо сидят: Лютфия, Садриддин, Холида; стоят: Хамид Мансуров (племянник Айни) и Камол Айни. С 1949 г. <sup>7</sup>`,
-                            color: '#fcf6e9'
                         },
                         {
                             img: '/poetImages/ayni/family/ayni2.jpeg',
                             text: `Айни с женой - Салохат <sup>9<sup>`,
-                            color: '#0F0A00'
                         },
                         {
                             img: '/poetImages/ayni/family/ayni3.jpeg',
                             text: `Айни с сыном Камолом <sup>4<sup>`,
-                            color: '#fcf6e9'
                         }
                     ],
                     desc: `В октябре 1920 года Айни женится на <span style='font-weight:bold;'>Салохате</span>,
@@ -402,17 +396,14 @@ module.exports.poets = [
                         {
                             img: '/poetImages/ayni/family/ayni1.jpeg',
                             text: `Аз чап ба рост, нишастаанд: Лутфия, Садриддин, Холида; рост истодаанд: Ҳамид Мансуров (ҷияни Айнӣ) ва Камол Айнӣ. Акси соли 1949 <sup>7</sup>`,
-                            color: '#fcf6e9'
                         },
                         {
                             img: '/poetImages/ayni/family/ayni2.jpeg',
                             text: `Айнӣ бо ҳамсараш Салоҳат <sup>9<sup>`,
-                            color: '#0F0A00'
                         },
                         {
                             img: '/poetImages/ayni/family/ayni3.jpeg',
                             text: `Айнӣ бо писараш Камол <sup>4<sup>`,
-                            color: '#fcf6e9'
                         }
                     ],
                     desc: `Моҳи октябри соли 1920 Айнӣ ба <span style='font-weight: bold;'>Салоҳат</span> 
