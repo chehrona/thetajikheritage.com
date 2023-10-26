@@ -17,8 +17,10 @@ export default function Footer() {
     return (
         <FooterContainer>
             <FooterInnerContainer>
-                <StyledCopyrightIcon />
-                <Text>The Tajik Heritage 2023</Text>
+                <Text>
+                    <StyledCopyrightIcon />
+                    The Tajik Heritage 2023
+                </Text>
                 <SocialsWrapper>
                     <a href='https://www.pinterest.ca/tajik_heritage/' rel="noreferrer" target={'_blank'}>
                         <StyledIconButton>

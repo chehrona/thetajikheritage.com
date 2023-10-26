@@ -30,20 +30,37 @@ export const Text = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: 768px) {
+        margin-left: -15%;
+        font-size: 1.3rem;
+    }
 `;
 
 export const SocialsWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    right: 1rem;
+    flex-direction: row;
+    gap: 0.5rem;
+
+    @media (max-width: 768px) {
+        gap: 0rem;
+        right: 0rem;
+    }
 `;
 
 export const StyledIcon = styled.img`
-    width: 1.20rem;
-    filter: brightness(150%);
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: brightness(150%) grayscale(100%);
     border-radius: ${({rad}) => rad ? '100%': '0%'};
-    height: 1.20rem;
-    filter: ${({hovered}) => hovered === "true" ? 'grayscale(0%)': 'grayscale(100%)'};
+
+    &:hover {
+        filter: grayscale(0%);
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`

@@ -11,12 +11,12 @@ export const FlagWrapper = styled.div`
     cursor: pointer;
     margin-bottom: 0.4rem;
     position: fixed;
-    right: 0.5rem;
+    left: 0.5rem;
     bottom: 1rem;
     z-index: 1000;
 
     @media (max-width: 768px) {
-        right: 1rem;
+        left: 0rem;
     }
 `;
 

@@ -89,12 +89,12 @@ export default function SeventhBox({ poet }) {
                     <Author dangerouslySetInnerHTML={{__html: poet?.seven[lang].author}} />
                 </FinalQuote>
             </LeftContainer>
-            <RightContainer
-                src={infoArr[currentIndex]?.img}
-                onTouchStart={handleTouchStart}
-                onTouchMove={handleTouchMove}
-                onTouchEnd={handleTouchEnd}
-            >
+            <RightContainer>
+                {poet?.seven[lang]?.slides.map((entry, i) => {
+                    return (
+                        <img src={entry?.img} />
+                    )
+                })}
                 {!isMobile &&                     
                     <span>
                         <StyledButton left={true} onClick={movePrev}>

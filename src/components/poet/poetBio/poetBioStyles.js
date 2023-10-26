@@ -332,8 +332,10 @@ export const RightContainer = styled.div`
 
     @media (max-width: 768px) {
         margin-top: ${({ first }) => first && '-2rem'};
-        width: 100%;
         height: ${({ first }) => first ? '17rem': '23rem'};
+        overflow-x: scroll;
+        width: 100%;
+        background: none;
     }
 `;
 
