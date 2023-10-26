@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useSetLang } from "../../../App";
 import { useMediaQuery } from 'react-responsive';
 
@@ -21,83 +21,66 @@ import {
 
 export default function FifthBox({ poet }) {
     const { lang } = useSetLang();
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const parentRef = useRef(null);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [screenSize, setScreenSize] = useState(0);
+    const [translate, setTranslate] = useState(0);
     const [infoArr, setInfoArr] = useState([...poet?.five[lang].slides]);
-    const [hover, setHover] = useState(false);
+
+    useEffect(() => {
+        const parentWidth = parentRef?.current?.getBoundingClientRect().width;
+
+        setScreenSize(parentWidth);
+    }, []);
 
     useEffect(() => {
         setInfoArr([...poet?.five[lang].slides]);
     }, [lang]);
 
     const movePrev = () => {
-        if (infoArr.length > 1) {
-            const movedItem = infoArr.pop();
-            infoArr.unshift(movedItem);
-            setInfoArr([...infoArr]);
+        if (currentIndex > 0) {
+            setCurrentIndex(prevState => prevState - 1);
+            setTranslate(prevState => prevState + screenSize);
         }
     };
     
     const moveNext = () => {
-        if (infoArr.length > 1) {
-            const movedItem = infoArr.shift();
-            infoArr.push(movedItem);
-            setInfoArr([...infoArr]);
+        if (currentIndex < infoArr?.length - 1) {            
+            setCurrentIndex(prevState => prevState + 1);
+            setTranslate(prevState => prevState - screenSize);
         }
     };
 
     return (
-        <BoxSeven
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
-        >
+        <BoxSeven>
             <LeftContainer>
                 <FamilyDesc>
                     <YearBig align={true}>{poet?.five[lang].year}</YearBig>
                     <div dangerouslySetInnerHTML={{__html: poet?.five[lang].desc}}></div>
                 </FamilyDesc>
             </LeftContainer>
-            <RightContainer src={isMobile ? '' : infoArr[0].img}>
-                {isMobile ? 
-                    (<ImageContainer>
-                        {infoArr?.map((entry, i) => {
-                            return (
-                                <ImageWrapper>
-                                    <Img src={entry?.img} />
-                                    <ImgInfo dangerouslySetInnerHTML={{__html: entry?.text}} />
-                                </ImageWrapper>
-                            )
-                        })}
-                        <ButtonWrapper>
-                            <StyledButton left={true} onClick={movePrev}>
-                                <Arrow>
-                                    <ArrowForwardIos style={{marginLeft: '1px'}}/>
-                                </Arrow>
-                            </StyledButton>
-                            <StyledButton onClick={moveNext}>
-                                <Arrow>
-                                    <ArrowForwardIos />
-                                </Arrow>
-                            </StyledButton>
-                        </ButtonWrapper>
-                    </ImageContainer>
-                ) : (<>
-                        {hover && 
-                            <ButtonWrapper>
-                                <StyledButton left={true} onClick={movePrev}>
-                                    <Arrow>
-                                        <ArrowForwardIos style={{marginLeft: '1px'}}/>
-                                    </Arrow>
-                                </StyledButton>
-                                <StyledButton onClick={moveNext}>
-                                    <Arrow>
-                                        <ArrowForwardIos />
-                                    </Arrow>
-                                </StyledButton>
-                            </ButtonWrapper>
-                        }
-                        <ImgInfo dangerouslySetInnerHTML={{__html: infoArr[0].text}} />
-                    </>)
-                }
+            <RightContainer ref={parentRef}>
+                <ImageContainer>
+                    {infoArr?.map((entry, i) => {
+                        return (
+                            <ImageWrapper src={entry?.img} width={screenSize} translate={translate}>
+                                <ImgInfo dangerouslySetInnerHTML={{__html: entry?.text}} />
+                            </ImageWrapper>
+                        )
+                    })}
+                </ImageContainer>
+                <ButtonWrapper>
+                    <StyledButton left={true} onClick={movePrev}>
+                        <Arrow>
+                            <ArrowForwardIos style={{marginLeft: '1px'}}/>
+                        </Arrow>
+                    </StyledButton>
+                    <StyledButton onClick={moveNext}>
+                        <Arrow>
+                            <ArrowForwardIos />
+                        </Arrow>
+                    </StyledButton>
+                </ButtonWrapper>
             </RightContainer>
         </BoxSeven>
     )

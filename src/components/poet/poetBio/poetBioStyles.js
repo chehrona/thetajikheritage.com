@@ -283,21 +283,26 @@ export const FamilyDesc = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-    height: 23rem;
-    overflow-x: scroll;
+    position: absolute;
     display: flex;
 `;
 
 export const ImageWrapper = styled.div`
-    width: 100%;
-    height: 100%;
-    position: relative;
-`;
-
-export const Img = styled.img`
-    width: 100vw;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     transition: all 0.5s;
+    position: relative;
+    height: 30rem;
+    transition: all 0.5s;
+    min-width: ${({ width }) => width && `${width}px`};
+    max-width: ${({ width }) => width && `${width}px`};;
+    background: ${({ src }) => src ? `url(${ src })` : ''};
+    transform: translateX(${({ translate }) => `${translate}px`});
+    background-size: ${({ src }) => src && 'cover'};
+
+    @media (max-width: 768px) {
+        height: 23rem;
+    }
 `;
 
 export const ButtonWrapper = styled.div`
@@ -354,6 +359,7 @@ export const RightContainer = styled.div`
     background-position: center center;
     transition: all 0.5s;
     position: relative;
+    overflow: hidden;
 
     @media (max-width: 768px) {
         width: 100%;

@@ -83,8 +83,8 @@ export const InfoWrapper = styled.div`
     background: #fcf6e9;
     border-radius: 1rem;
     display: flex;
-    transform: translateX(${({ translate }) => `${translate}px`});
     transition: all 0.5s;
+    transform: translateX(${({ translate }) => `${translate}px`});
 `;
 
 export const DescWrapper = styled.div`
