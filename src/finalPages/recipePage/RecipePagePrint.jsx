@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useSetLang } from "../../App";
-import { recipes } from "../../data/recipeData";
 import { useParams } from "react-router-dom";
+
+import { recipes } from "../../data/recipeData";
+
 import { IconButton } from "@mui/material";
 
 import {
@@ -37,8 +39,6 @@ import {
     LogoWrapper,
     StyledLink
 } from './recipePagePrintStyles'
-import { useEffect } from "react";
-import SideNav from "../../components/common/sideNav/SideNav";
 
 export default function RecipePagePrint() {
     const { id } = useParams(),
@@ -163,7 +163,7 @@ export default function RecipePagePrint() {
                     </div>
                 </RightSection>
             </PrintBodyContainer>
-            {showTop && <SideNav />}
+            {/* {showTop && <SideNav />} */}
         </MainContainer>
     )
 }

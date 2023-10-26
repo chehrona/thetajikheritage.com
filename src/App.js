@@ -1,6 +1,5 @@
 import { useContext, createContext, useMemo, useState, useEffect } from 'react';
 import Header from "./components/common/header/Header";
-import SideNav from "./components/common/sideNav/SideNav";
 import Menu from './components/common/menu/Menu';
 import Footer from './components/common/footer/Footer';
 import AnimationRoutes from './components/common/animationRoutes/AnimationRoutes';

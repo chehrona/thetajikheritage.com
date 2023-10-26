@@ -1,5 +1,6 @@
 import { Copyright } from "@mui/icons-material";
 import styled from "styled-components";
+import { IconButton } from "@mui/material";
 
 export const FooterContainer = styled.div`
     background: #0F0A00;
@@ -23,4 +24,28 @@ export const FooterInnerContainer = styled.div`
 
 export const StyledCopyrightIcon = styled(Copyright)`
     margin-right: 0.5rem;
+`;
+
+export const Text = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const SocialsWrapper = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const StyledIcon = styled.img`
+    width: 1.20rem;
+    filter: brightness(150%);
+    border-radius: ${({rad}) => rad ? '100%': '0%'};
+    height: 1.20rem;
+    filter: ${({hovered}) => hovered === "true" ? 'grayscale(0%)': 'grayscale(100%)'};
+`;
+
+export const StyledIconButton = styled(IconButton)`
+    padding: 0.6rem !important;
 `;
