@@ -20,6 +20,10 @@ export const MainContainer = styled.div`
         top: -0.03rem;
         box-sizing: border-box;
     }
+
+    @media (max-width: 768px) {
+        padding-top: 7rem;
+    }
 `;
 
 export const YearSlider = styled.div`
