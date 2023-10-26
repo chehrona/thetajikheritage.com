@@ -1,22 +1,20 @@
 import React, { useState } from "react";
 import { useSetLang } from "../../../App";
 import { langNames } from "./langNames";
+import { Tooltip } from "@mui/material";
 
 import { StyledFlag,
          FlagWrapper,
          FlagDropdown,
          StyledIconButton
 } from "./flagsStyles";
-import { Tooltip } from "@mui/material";
 
 export default function Flags() {
     const [showLangMenu, setShowLangMenu] = useState(false),
-          [hovered, setHovered] = useState("false"),
-          { lang, setLang } = useSetLang();
+        { lang, setLang } = useSetLang();
 
     function showLangOptions() {
         setShowLangMenu(true);
-        setHovered("true")
     }
 
     function changeLang(e) {
@@ -24,28 +22,25 @@ export default function Flags() {
 
         setLang(iconTitle);
         setShowLangMenu(false);
-        setHovered("false");
     }
 
     return (
         <FlagWrapper>
-            <StyledIconButton
-                onMouseEnter={showLangOptions}
-                onMouseLeave={() => setHovered("false")}>
+            <StyledIconButton onMouseEnter={showLangOptions}>
                 <Tooltip title={langNames[lang]} placement="right" arrow>
-                    <span><StyledFlag lang={lang} hovered={hovered}></StyledFlag></span>
+                    <span><StyledFlag lang={lang}></StyledFlag></span>
                 </Tooltip> 
             </StyledIconButton>
             {showLangMenu &&
-                <FlagDropdown onMouseLeave={() => setHovered("false")}>
+                <FlagDropdown>
                     {lang !== 'us' && <StyledIconButton data='us' onClick={changeLang}>
                         <Tooltip title={langNames['us']} placement="right" arrow>
-                            <span><StyledFlag lang={'us'} hovered={"true"}></StyledFlag></span>
+                            <span><StyledFlag lang={'us'}></StyledFlag></span>
                         </Tooltip> 
                     </StyledIconButton>}
                     {lang !== 'tj' && <StyledIconButton data='tj' onClick={changeLang}>
                         <Tooltip title={langNames['tj']} placement="right" arrow>
-                            <span><StyledFlag lang={'tj'} hovered={"true"}></StyledFlag></span>
+                            <span><StyledFlag lang={'tj'}></StyledFlag></span>
                         </Tooltip> 
                     </StyledIconButton>}
                     {/* {lang !== 'kh' && <StyledIconButton data='kh' onClick={changeLang}>
@@ -55,7 +50,7 @@ export default function Flags() {
                     </StyledIconButton>} */}
                     {lang !== 'ru' && <StyledIconButton data='ru' onClick={changeLang}>
                         <Tooltip title={langNames['ru']} placement="right" arrow>
-                            <span><StyledFlag lang={'ru'} hovered={"true"}></StyledFlag></span>
+                            <span><StyledFlag lang={'ru'}></StyledFlag></span>
                         </Tooltip> 
                     </StyledIconButton>}
                 </FlagDropdown>}

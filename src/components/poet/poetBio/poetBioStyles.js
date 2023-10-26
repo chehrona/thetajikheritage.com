@@ -6,6 +6,24 @@ export const MainContainer = styled.div`
     min-height: fit-content;
     padding-bottom: 3rem;
     background-color: #fcf6e9;
+
+    @media (max-width: 768px) {
+        position: relative;
+        padding-bottom: 0rem;
+
+        &:after {
+            content: "";
+            padding: 3rem;  
+            width: 100%;
+            background: #0F0A00;
+            background-image: url(${'/noise.png'});
+            -webkit-clip-path: polygon(100% 0, 0% 100%, 0% 100%, 100% 100%);
+            clip-path: polygon(100% 0, 0% 100%, 0% 100%, 100% 100%);
+            position: absolute;
+            bottom: 0rem;
+            box-sizing: border-box;
+        }
+    }
 `;
 
 // Box one ****************************
@@ -297,7 +315,7 @@ export const LeftContainer = styled.div`
 
     @media (max-width: 768px) {
         width: 100%;
-        height: ${({ first }) => first ? '15rem': 'auto'};
+        height: ${({ first, seven }) => first ? '15rem': (seven ? '30rem': 'auto')};
     }
 `;
 
@@ -331,9 +349,15 @@ export const BackImg = styled.div`
     height: 100%;
     width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     opacity: 0.2;
     filter: grayscale(1);
     background-image: ${({ src }) => `url(${ src })`};
+
+    @media (max-width: 768px) {
+        margin-top: -3rem;
+    }
 `;
 
 export const FinalQuote = styled.div`

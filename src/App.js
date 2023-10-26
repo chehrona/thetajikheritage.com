@@ -4,6 +4,7 @@ import SideNav from "./components/common/sideNav/SideNav";
 import Menu from './components/common/menu/Menu';
 import Footer from './components/common/footer/Footer';
 import AnimationRoutes from './components/common/animationRoutes/AnimationRoutes';
+import Flags from './components/common/flags/Flags';
 
 const LangContext = createContext({
     lang: 'us',
@@ -19,31 +20,31 @@ export function useSetLang() {
 }
 
 function App() {
-  const [lang, setLang] = useState('us'),
-        [isPrint, setIsPrint] = useState(false),
-        [isMenuShown, setIsMenuShown] = useState(null);
+    const [lang, setLang] = useState('us'),
+            [isPrint, setIsPrint] = useState(false),
+            [isMenuShown, setIsMenuShown] = useState(null);
 
-  const value = useMemo(() => (
-    {
-        lang, setLang,
-        isMenuShown, setIsMenuShown,
-        isPrint, setIsPrint
+    const value = useMemo(() => (
+        {
+            lang, setLang,
+            isMenuShown, setIsMenuShown,
+            isPrint, setIsPrint
+        }
+    ), [lang, isMenuShown, isPrint]);
+
+    useEffect(() => {
+    if (isMenuShown) {
+        document.querySelector('.content-container').style.overflowY = 'hidden';
+    } else {
+        document.querySelector('.content-container').style.overflowY = 'scroll';
     }
-  ), [lang, isMenuShown, isPrint]);
-
-  useEffect(() => {
-      if (isMenuShown) {
-          document.querySelector('.content-container').style.overflowY = 'hidden';
-      } else {
-          document.querySelector('.content-container').style.overflowY = 'scroll';
-      }
-  }, [isMenuShown]);
+    }, [isMenuShown]);
 
   return (
       <LangContext.Provider value={value}>
           <div className='content-container'>
               {!isPrint && <Header />}
-              {!isPrint && <SideNav />}
+              {!isPrint && <Flags />}
               <Menu />
               <AnimationRoutes />
               {!isPrint && <Footer />}

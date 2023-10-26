@@ -5,7 +5,6 @@ export const MainContainer = styled.div`
     color: white;
     position: relative;
     background-image: url(${'/noise.png'});
-    padding-bottom: 7.5rem;
     padding: 6rem 0rem 9rem 0rem;
 
     &:before {
@@ -19,5 +18,13 @@ export const MainContainer = styled.div`
         position: absolute;
         top: -0.01rem;
         box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+        padding-top: 1rem;
+
+        &:before {
+            display: none;
+        }
     }
 `;
