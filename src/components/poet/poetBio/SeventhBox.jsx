@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useSetLang } from "../../../App";
 import { ArrowForwardIos } from "@mui/icons-material";
 
@@ -12,39 +12,46 @@ import {
     Author,
     StyledButton,
     Arrow,
-    ImgInfo
+    ImgInfo,
+    ImageWrapper,
+    ImageContainer,
+    ButtonWrapper
 } from './poetBioStyles';
 
 export default function SeventhBox({ poet }) {
     const { lang } = useSetLang();
+    const parentRef = useRef(null);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [screenSize, setScreenSize] = useState(0);
+    const [translate, setTranslate] = useState(0);
     const [infoArr, setInfoArr] = useState([...poet?.seven[lang].slides]);
-    const [hover, setHover] = useState(false);
+
+    useEffect(() => {
+        const parentWidth = parentRef?.current?.getBoundingClientRect().width;
+
+        setScreenSize(parentWidth);
+    }, []);
 
     useEffect(() => {
         setInfoArr([...poet?.seven[lang].slides]);
     }, [lang]);
 
     const movePrev = () => {
-        if (infoArr.length > 1) {
-            const movedItem = infoArr.pop();
-            infoArr.unshift(movedItem);
-            setInfoArr([...infoArr]);
+        if (currentIndex > 0) {
+            setCurrentIndex(prevState => prevState - 1);
+            setTranslate(prevState => prevState + screenSize);
         }
     };
     
     const moveNext = () => {
-        if (infoArr.length > 1) {
-            const movedItem = infoArr.shift();
-            infoArr.push(movedItem);
-            setInfoArr([...infoArr]);
+        if (currentIndex < infoArr?.length - 1) {            
+            setCurrentIndex(prevState => prevState + 1);
+            setTranslate(prevState => prevState - screenSize);
         }
     };
 
     return (
-        <BoxSeven
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
-        >
+        <BoxSeven>
             <LeftContainer>
                 <Overlay>
                     <BackImg src={poet.backdrops[2]} />
@@ -54,20 +61,28 @@ export default function SeventhBox({ poet }) {
                     <Author dangerouslySetInnerHTML={{__html: poet?.seven[lang].author}} />
                 </FinalQuote>
             </LeftContainer>
-            <RightContainer src={infoArr[0].img} >
-                {hover && <>
-                    <StyledButton left={true} onClick={movePrev}>
+            <RightContainer ref={parentRef}>
+                <ImageContainer>
+                    {infoArr?.map((entry, i) => {
+                        return (
+                            <ImageWrapper src={entry?.img} width={screenSize} translate={translate}>
+                                <ImgInfo dangerouslySetInnerHTML={{__html: entry?.text}} />
+                            </ImageWrapper>
+                        )
+                    })}
+                </ImageContainer>
+                <ButtonWrapper>
+                    <StyledButton left={true} onClick={movePrev} disabled={currentIndex === 0}>
                         <Arrow>
                             <ArrowForwardIos style={{marginLeft: '1px'}}/>
                         </Arrow>
                     </StyledButton>
-                    <StyledButton onClick={moveNext}>
+                    <StyledButton onClick={moveNext} disabled={currentIndex === infoArr?.length - 1}>
                         <Arrow>
                             <ArrowForwardIos />
                         </Arrow>
                     </StyledButton>
-                </>}
-                <ImgInfo color={infoArr[0].color} dangerouslySetInnerHTML={{__html: infoArr[0].text}} />
+                </ButtonWrapper>
             </RightContainer>
         </BoxSeven>
     )

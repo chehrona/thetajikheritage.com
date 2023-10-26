@@ -16,7 +16,6 @@ import {
     ImageContainer,
     ImageWrapper,
     ButtonWrapper,
-    Img
 } from './poetBioStyles';
 
 export default function FifthBox({ poet }) {
@@ -70,12 +69,12 @@ export default function FifthBox({ poet }) {
                     })}
                 </ImageContainer>
                 <ButtonWrapper>
-                    <StyledButton left={true} onClick={movePrev}>
+                    <StyledButton left={true} onClick={movePrev} disabled={currentIndex === 0}>
                         <Arrow>
                             <ArrowForwardIos style={{marginLeft: '1px'}}/>
                         </Arrow>
                     </StyledButton>
-                    <StyledButton onClick={moveNext}>
+                    <StyledButton onClick={moveNext} disabled={currentIndex === infoArr?.length - 1}>
                         <Arrow>
                             <ArrowForwardIos />
                         </Arrow>

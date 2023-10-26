@@ -439,6 +439,10 @@ export const StyledButton = styled(IconButton)`
         transform: translateY(-50%) ${({ left }) => left && 'rotate(-180deg)'};
     }
 
+    &:disabled {
+        display: none;
+    }
+
     @media (max-width: 768px) {
         width: 5rem;
         height: 5rem;
@@ -450,12 +454,11 @@ export const ImgInfo = styled.div`
     z-index: 10;
     font-style: italic;
     width: 100%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;        
     text-align: left;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     color: ${({ up }) => up ? '#0F0A00' : '#fcf6e9'};
     bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
-    background-color: ${({ up }) => up ? 'transparent' : '#262626b2'};
+    background-color: ${({ up }) => up ? 'transparent' : '#26262680'};
 
     @media (max-width: 768px) {
         font-size: 1.25rem;
