@@ -21,6 +21,7 @@ export const PoetContainer = styled.div`
     @media (max-width: 768px) {
         margin: 0rem;
         border-radius: 0rem;
+        box-shadow: 0rem 0rem 0rem 0rem;
     }
 `;
 
@@ -33,6 +34,6 @@ export const RefContainer = styled.div`
 
     @media (max-width: 768px) {
         border-radius: 0rem 0rem 2rem 2rem;
-        padding: 1rem;
+        padding: 0rem 1rem 1rem 1rem;
     }
 `;

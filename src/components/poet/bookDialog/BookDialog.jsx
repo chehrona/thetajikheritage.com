@@ -1,6 +1,8 @@
 import React from "react";
 import { Zoom, Dialog } from '@mui/material';
 import { useSetLang } from "../../../App";
+import { useMediaQuery } from 'react-responsive';
+
 
 import {
     Desc,
@@ -20,6 +22,7 @@ const Transition = ({ children, ...props }) => (
 
 export default function BookDialog({ msg, setBookDialog, bookDialog, setOverlay }) {
     const { lang } = useSetLang();
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
 
     function handleClose() {
         setBookDialog(false);
@@ -30,7 +33,7 @@ export default function BookDialog({ msg, setBookDialog, bookDialog, setOverlay 
         <Dialog
             open={bookDialog}
             fullWidth
-            maxWidth={"sm"}
+            maxWidth={isMobile ? "xl" : "sm"}
             TransitionComponent={Transition}
             TransitionProps={{
                 in: bookDialog,

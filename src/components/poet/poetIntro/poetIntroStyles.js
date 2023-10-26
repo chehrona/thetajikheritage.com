@@ -61,6 +61,19 @@ export const MainContainer = styled.div`
     @media (max-width: 768px) {
         border-radius: 0rem;
         flex-direction: column-reverse;
+
+        &:after {
+            content: "";
+            padding: 3rem;  
+            width: 100%;
+            background: #fcf6e9;
+            background-image: url(${'/noise.png'});
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);
+            position: absolute;
+            bottom: -0.01rem;
+            box-sizing: border-box;
+        }
     }
 `;
 
@@ -113,7 +126,7 @@ export const TitleSpan = styled.span`
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
     &:hover {
-        text-shadow: 0.1rem 0.1rem 1.5rem #dedbdb;
+        text-shadow: 0.1rem 1rem 2rem #dedbdb;
         font-size: 1.6rem;
         cursor: pointer;
     }
@@ -136,6 +149,7 @@ export const PoetName = styled.div`
         font-size: 5rem;
         text-align: ${({ color }) => color ? "right" : "left"};
         line-height: 5.2rem;
+        text-shadow: 0rem 0rem 3rem black;
     }
 `;
 

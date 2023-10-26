@@ -16,6 +16,11 @@ export const StyledIconButton = styled(IconButton)`
     height: 3rem;
     top: 1.5rem;
     right: 1.6rem;
+
+    @media (max-width: 768px) {
+        width: 4rem;
+        height: 4rem;
+    }
 `;
 
 export const StyledContent = styled(DialogContent)`

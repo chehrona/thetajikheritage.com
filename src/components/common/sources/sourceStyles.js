@@ -8,6 +8,7 @@ export const DropDownContainer = styled.div`
 
     @media (max-width: 768px) {
         padding-top: 0rem;
+        margin-bottom: 3rem;
     }
 `;
 
@@ -43,12 +44,16 @@ export const RefContainer = styled.div`
     max-width: 100%;
     margin-top: 0.8rem;
     border-radius: 1rem;
-    height: ${({ open }) => open ? "15rem" : "0rem"};
     transition: all 0.5s linear 0s;
     overflow-y: scroll;
     display: block;
     color: ${({ color }) => color && color};
+    height: ${({ open }) => open ? "15rem" : "0rem"};
     box-shadow: ${({ open, background }) => open && `0rem 0rem 0.4rem 0.01rem ${background}`};
+
+    @media (max-width: 768px) {
+        height: ${({ open }) => open ? "30rem" : "0rem"};
+    }
 `;
 
 export const RefWrapper = styled.div`

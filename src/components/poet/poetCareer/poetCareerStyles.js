@@ -88,6 +88,7 @@ export const InfoInnerContainer = styled.div`
     gap: 50px;
 
     @media (max-width: 768px) {
+        position: relative;
         gap: 30px;
     }
 `;
@@ -107,6 +108,7 @@ export const InfoWrapper = styled.div`
         height: 30rem;
         min-width: calc(100vw - 3rem);
         max-width: calc(100vw - 3rem);
+        height: 29rem;
     }
 `;
 
@@ -147,6 +149,12 @@ export const Footer = styled.div`
     position: absolute;
     bottom: 0.5rem;
     right: 0rem;
+
+    @media (max-width: 768px) {
+        width: calc(100vw - 3rem);
+        right: auto;
+        bottom: 0rem;
+    }
 `;
 
 export const Step = styled.div`

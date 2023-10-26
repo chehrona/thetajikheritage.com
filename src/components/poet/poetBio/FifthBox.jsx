@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useSetLang } from "../../../App";
-import { useMediaQuery } from 'react-responsive';
 
 import { ArrowForwardIos } from "@mui/icons-material";
 
@@ -62,7 +61,7 @@ export default function FifthBox({ poet }) {
                 <ImageContainer>
                     {infoArr?.map((entry, i) => {
                         return (
-                            <ImageWrapper src={entry?.img} width={screenSize} translate={translate}>
+                            <ImageWrapper key={i + 'b'} src={entry?.img} width={screenSize} translate={translate}>
                                 <ImgInfo dangerouslySetInnerHTML={{__html: entry?.text}} />
                             </ImageWrapper>
                         )

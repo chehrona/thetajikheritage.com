@@ -1,5 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { useMediaQuery } from 'react-responsive';
+
 import { poets } from "../../data/poetData";
 
 import { 
@@ -15,10 +17,12 @@ import PoetAwards from "../../components/poet/poetAwards/PoetAwards";
 import PoetMovies from "../../components/poet/poetMovies/PoetMovies";
 import Sources from "../../components/common/sources/Sources";
 import PoetCareer from "../../components/poet/poetCareer/PoetCareer";
+import SectionOptions from "../../components/poet/sectionOptions/SectionOptions";
 
 export default function PoetPage() {
-    const { id } = useParams(),
-        poet = poets.filter((poet) => poet.id === id)[0];
+    const { id } = useParams();
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const poet = poets.filter((poet) => poet.id === id)[0];
 
         const scrollToView = (e) => {
             e.preventDefault();
@@ -38,6 +42,7 @@ export default function PoetPage() {
             <PageContainer>
                 <PoetContainer>
                     <PoetIntro poet={poet} scrollToView={scrollToView} />
+                    {isMobile && <SectionOptions poet={poet} scrollToView={scrollToView} />}
                     <PoetBio poet={poet} />
                     <PoetWorks poet={poet.works} />
                     <PoetMovies poet={poet.movies} />

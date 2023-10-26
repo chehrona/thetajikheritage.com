@@ -65,7 +65,7 @@ export default function SeventhBox({ poet }) {
                 <ImageContainer>
                     {infoArr?.map((entry, i) => {
                         return (
-                            <ImageWrapper src={entry?.img} width={screenSize} translate={translate}>
+                            <ImageWrapper key={i + 'a'} src={entry?.img} width={screenSize} translate={translate}>
                                 <ImgInfo dangerouslySetInnerHTML={{__html: entry?.text}} />
                             </ImageWrapper>
                         )
