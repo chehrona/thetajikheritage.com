@@ -20,7 +20,7 @@ export const MainContainer = styled.div`
             -webkit-clip-path: polygon(100% 0, 0% 100%, 0% 100%, 100% 100%);
             clip-path: polygon(100% 0, 0% 100%, 0% 100%, 100% 100%);
             position: absolute;
-            bottom: 0rem;
+            bottom: 1rem;
             box-sizing: border-box;
         }
     }

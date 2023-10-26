@@ -22,6 +22,7 @@ export const MainContainer = styled.div`
 
     @media (max-width: 768px) {
         padding-top: 1rem;
+        margin-top: -1rem;
 
         &:before {
             display: none;

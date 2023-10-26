@@ -29,8 +29,8 @@ module.exports.poets = [
                         Soktare, G’ij&shydu&shyvon district, 
                         Emirate of Bukhara.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
-                        that he was introduced to the world of folk literature, including tales, legends, songs, 
-                        anecdotes, and proverbs.<sup>2</sup>
+                        that he was introduced to the world of folk literature, in&shyclud&shying tales, legends, songs, 
+                        anecdotes, and pro&shyverbs.<sup>2</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
                         he didn't find much value in for&shymal education. However, he had his initial exposure to the 
@@ -57,17 +57,17 @@ module.exports.poets = [
                         year: '15 апрели 1878',
                         slides: {img: '/poetImages/ayni/soktare.png', text: `Хонаи бачагии Садриддин Айнӣ дар Соктаре<sup>4</sup>`},
                         desc: `Садриддин Саидмуродзода дар хонаводаи <span style='font-weight: bold;'>Саидмуродхоҷа</span>
-                        ва <span style='font-weight: bold;'>Зеварой</span> дар деҳаи Соктареи ноҳияи Ғиҷдувони Аморати 
+                        ва <span style='font-weight: bold;'>Зеварой</span> дар деҳаи Сок&shyта&shyреи ноҳияи Ғиҷдувони Аморати 
                         Бухоро ба дунё омадааст.<sup>1</sup>
-                        Чун аз оилаи кишоварз буд, бачагии худро дар байни деҳқонон ва ҳунармандони маҳаллӣ гузаронидааст. 
+                        Чун аз оилаи кишоварз буд, бачагии худро дар байни деҳқонон ва ҳунармандони ма&shyҳаллӣ гузаронидааст. 
                         Маҳз дар ҳамин ҷомеа бо олами адабиёти халқӣ, аз ҷумла афсонаҳо, ривоятҳо, сурудҳо,
                         шӯхиҳо ва зарбулмасалҳо аз наздик шинос мешавад.<sup>2</sup>
                         <div class='space'></div>
                         Дар солҳои мактабхонӣ, чунон ки дар китоби худ «Мактаби кӯҳна» баён мекунад, аз таълими 
-                        расмӣ фоидаи зиёде намебинад. Аммо бори аввал бо ашъори устодони барҷаста, аз қабили Саъдӣ, 
-                        Ҳофиз, Соиб, Бедил ва дигарон ошно мешавад.
+                        расмӣ фоидаи зиёде намебинад. Аммо бори ав&shyвал бо ашъори устодони барҷаста, аз қабили Саъ&shyдӣ, 
+                        Ҳо&shyфиз, Со&shyиб, Бе&shyдил ва дигарон ошно мешавад.
                         <div class='space'></div>
-                        Падараш, бо вуҷуди деҳқони оддӣ буданаш, ба илму дониш меҳри беандоза дошт ва ин муҳаббатро 
+                        Падараш, бо вуҷуди деҳқони оддӣ буданаш, ба илму дониш меҳри беандоза дошт ва ин му&shyҳаб&shyбат&shyро 
                         ба фарзандонаш низ мерос гузоштааст.<sup>2,3</sup>`
                 }
             },
@@ -265,8 +265,8 @@ module.exports.poets = [
                         <br>Upon discovering Ayni's association with the Soviet forces,
                         amir falsely accused his youn&shyger brother, 
                         <span style='font-weight: bold;'>Sirojiddin</span>, of treason 
-                        and cruelly murdered him through suffocation. Ayni chan&shynelled his 
-                        grief into his literary work, "Mar&shysiya."
+                        and cruelly murdered him through suffocation. Ayni chan&shynel&shyled his 
+                        grief into his literary work, "Mar&shysi&shyya."
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
                         <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynapped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
@@ -313,9 +313,9 @@ module.exports.poets = [
                     доиман ба Самар&shyқанд мекӯчад. Ӯ бо қалами худ ба ман&shyфи&shyа&shyти инқилобиён хизмат намуда,
                     мақолаҳои сиёсӣ менавишт ва миллатро бевосита ба зидди амир даъват мекард.
                     <br>Бо ошкор шудани робитаи Айнӣ бо нерӯҳои шӯравӣ,
-                    амир бародари хурдии ӯ, <span style='font-weight: bold;'>Сироҷиддинро</span> 
+                    амир бародари хурдии ӯ, <span style='font-weight: bold;'>Си&shyро&shyҷид&shyдин&shyро</span> 
                     бардурӯғ айбдори хиёнат карда, ваҳшиёна дар зиндон буғӣ кар&shyда мекушад. 
-                    «Марсия»-и ҷонгудози худро ба ҳамин муносибат навиштааст.
+                    «Марсия»-и ҷонгудози худро ба ҳамин му&shyно&shyсибат навиштааст.
                     <div class='space'></div>
                     Соли 1922 босмачиён бародари калонии Ай&shyнӣ - <span style='font-weight: bold;'>Муҳиддинхоҷаро</span> 
                     қатл карда, писа&shyраш&shyро дуздида ба кӯҳҳои Нурато меба&shyранд.<sup>1</sup>
@@ -708,8 +708,10 @@ module.exports.poets = [
                         <div class='emptyLine'></div>
                         <div class='imgDesc'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
                         ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст</div>`,
-                        `Айнӣ консултанти консулхонаи Ҷумҳурии Бухорои навтаъсис дар Самарқанд таъйин мешавад, ки ин бо ёрии Абдулқодир Муҳиддинов сурат гирифта буд.
-                        Аммо консулхона дере нагузашта баста мешавад ва Айнӣ боз бо кӯмаки А.Муҳиддинов бори дигар ба шуъбаи Бухгосторг (Совети хоҷагии халқи Шӯравии Бухоро) дар Самарқанд таъин шуд.`,
+                        `Ай&shyнӣ кон&shyсул&shyтан&shyти кон&shyсул&shyхо&shyнаи Ҷум&shyҳу&shyрии Бу&shyхо&shyрои нав&shyтаъ&shyсис дар 
+                        Са&shyмар&shyқанд таъйин ме&shyша&shyвад, ки ин бо ёрии Аб&shyдул&shyқо&shyдир Му&shyҳид&shyди&shyнов су&shyрат ги&shyриф&shyта буд.
+                        Ам&shyмо кон&shyсул&shyхо&shyна де&shyре на&shyгу&shyзаш&shyта бас&shyта ме&shyша&shyвад ва Ай&shyнӣ боз бо 
+                        кӯ&shyма&shyки А.Му&shyҳид&shyди&shyнов бо&shyри ди&shyгар ба шӯъ&shyбаи Бух&shyгос&shyторг (Совети хоҷагии халқи Шӯравии Бухоро) дар Самарқанд таъин шуд.`,
                     ],
                 ru: [
                         `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
