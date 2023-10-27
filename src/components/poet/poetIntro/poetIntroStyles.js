@@ -133,24 +133,37 @@ export const TitleSpan = styled.span`
 `;
 
 export const PoetName = styled.div`
+    opacity: 0;
+    color: #dedbdb;
     font-size: 8rem;
     font-weight: bold;
     font-style: italic;
-    opacity: 0;
+    animation-delay: 0.1s;
     text-shadow: 0rem 0rem 5rem black;
     -webkit-text-stroke-color: #bd9d52;
     animation: ${slideOut} 1s ease-in-out forwards;
-    animation-delay: ${({ color }) => color ? '0s' : '0.1s'};
-    color: ${({ color }) => color ? "transparent" : "#dedbdb"};
-    margin-right: ${({ color }) => color ? "2rem" : "0rem"};
+
+    ${({ color }) => color && `
+        animation-delay: 0s;
+        color: transparent;
+        margin-right: 2rem;
+        -webkit-text-stroke-width: 0.22rem;
+    `}
 
     @media (max-width: 768px) {
         font-size: 5rem;
         line-height: 5.2rem;
+        text-align: left;
+        color: transparent;
         text-shadow: 0rem 0rem 2rem black;
-        text-align: ${({ color }) => color ? "right" : "left"};
-        color: ${({ color }) => color ? "#dedbdb" : "transparent"};
-        -webkit-text-stroke-width: ${({ color }) => !color && '0.22rem'};
+        -webkit-text-stroke-width: 0.22rem;
+
+        ${({ color }) => color && `
+            color: #dedbdb;
+            text-align: right;
+            margin-right: 2rem;
+            -webkit-text-stroke-color: transparent;
+        `}
     }
 `;
 

@@ -66,7 +66,6 @@ export const MenuWrapper = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-left: 1rem;
     height: 4rem;
     width: 6rem;
 

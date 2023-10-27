@@ -59,16 +59,16 @@ module.exports.poets = [
                         desc: `Садриддин Саидмуродзода дар хонаводаи <span style='font-weight: bold;'>Саидмуродхоҷа</span>
                         ва <span style='font-weight: bold;'>Зеварой</span> дар деҳаи Сок&shyта&shyреи ноҳияи Ғиҷдувони Аморати 
                         Бухоро ба дунё омадааст.<sup>1</sup>
-                        Чун аз оилаи кишоварз буд, бачагии худро дар байни деҳқонон ва ҳунармандони ма&shyҳаллӣ гузаронидааст. 
+                        Чун аз оилаи кишоварз буд, бачагии худро дар байни деҳқонон ва ҳу&shyнар&shyман&shyдо&shyни ма&shyҳаллӣ гузаронидааст. 
                         Маҳз дар ҳамин ҷомеа бо олами адабиёти халқӣ, аз ҷумла афсонаҳо, ривоятҳо, сурудҳо,
-                        шӯхиҳо ва зарбулмасалҳо аз наздик шинос мешавад.<sup>2</sup>
+                        шӯ&shyхи&shyҳо ва зарбулмасалҳо аз наздик шинос ме&shyша&shyвад.<sup>2</sup>
                         <div class='space'></div>
-                        Дар солҳои мактабхонӣ, чунон ки дар китоби худ «Мактаби кӯҳна» баён мекунад, аз таълими 
-                        расмӣ фоидаи зиёде намебинад. Аммо бори ав&shyвал бо ашъори устодони барҷаста, аз қабили Саъ&shyдӣ, 
+                        Дар солҳои мактабхонӣ, чунон ки дар ки&shyто&shyби худ «Мактаби кӯҳна» баён мекунад, аз таъ&shyли&shyми 
+                        рас&shyмӣ фоидаи зиёде намебинад. Аммо бори ав&shyвал бо ашъори устодони бар&shyҷас&shyта, аз қабили Саъ&shyдӣ, 
                         Ҳо&shyфиз, Со&shyиб, Бе&shyдил ва дигарон ошно ме&shyшавад.
                         <div class='space'></div>
                         Падараш, бо вуҷуди деҳқони оддӣ буданаш, ба илму дониш меҳри беандоза дошт ва ин му&shyҳаб&shyбат&shyро 
-                        ба фарзандонаш низ мерос гузоштааст.<sup>2,3</sup>`
+                        ба фарзандонаш низ мерос гу&shyзош&shyта&shyаст.<sup>2,3</sup>`
                 }
             },
             two: {
@@ -76,7 +76,7 @@ module.exports.poets = [
                         {
                             year: '1889',
                             image: '/poetImages/ayni/slides/ayni1.jpeg',
-                            desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, part&shying Ayni 
+                            desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, part&shying Ay&shyni 
                                 from both his father and mother in a span of for&shyty days. He was left to take care of two younger
                                 siblings at the age of 12. Despite these challenges, 
                                 Ayni's dream for knowledge led him to Bukhara.<sup>2</sup>`
@@ -95,16 +95,16 @@ module.exports.poets = [
                             year: '1896',
                             image: '/poetImages/ayni/slides/ayni3.jpeg',
                             desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
-                                poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his initial 
-                                poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli."
+                                po&shyet&shyry and literature, thanks to his association with Sharifjon-makhdum. He penned his ini&shytial 
+                                poems using pseudonyms like "Muh&shytoji," "Jununi," and "Sifli."
                                 <div class='space'></div>
                                 However, in 1896, he adopted the pseudonym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
                         },
                         {
                             year: '1897-1898',
                             image: '/poetImages/ayni/slides/ayni4.jpeg',
-                            desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow classmate Abduvohid Munzim
-                                with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication.
+                            desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow class&shymate Abduvohid Munzim
+                                with a request to edit Ahmad Donish's "Navāder al-vaqāye" for pub&shyli&shyca&shytion.
                                 <div class='space'></div>
                                 The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
                                 pushes him to start thinking about correcting these injustices and more in the Emirate of Bukhara.<sup>5</sup>`,
@@ -112,22 +112,23 @@ module.exports.poets = [
                         {
                             year: '1908',
                             image: '/poetImages/ayni/slides/ayni5.jpeg',
-                            desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
-                                designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzar-i (street) Salohkhona, 
-                                with Persian as language of instruction, catering to the local Bukharan population.<sup>5</sup>`,
+                            desc: `Together with four of his close friends, he pioneered the establishment of the first "ja&shydid"-style school in Bukhara, 
+                                designed to in&shytro&shyduce new teaching methods. The school found its home in Mirza Abdulvohid's re&shysi&shydence in guzar-i (street) 
+                                Salokhkhona, 
+                                with Ta&shyji&shyki-Per&shysian as language of instruction, ca&shyter&shying to the local Bukharan population.<sup>5</sup>`,
                         },
                         {
                             year: '1909',
                             image: '/poetImages/ayni/slides/ayni6.jpeg',
                             desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
-                                proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
-                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
+                                proper re&shyci&shyta&shytion of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
+                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essen&shytials").<sup>5</sup>`
                         },
                         {
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.jpeg',
-                            desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" - "Young Bukharans", 
-                                a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
+                            desc: `He became one of the early members of "Ja&shyvon&shybu&shykho&shyri&shyyon - "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" - "Young Bukharans", 
+                                a secret society, which was part of the jadidist movement, ad&shyvo&shycat&shying for reforms and modernization of Cen&shytral Asia.<sup>5</sup>`,
                         }
                     ],
                 ru: [
@@ -192,34 +193,35 @@ module.exports.poets = [
                     {
                         year: '1889',
                         image: '/poetImages/ayni/slides/ayni1.jpeg',
-                        desc: `Тамоми Бухоро ва атрофи онро вабое фаро мегирад, ки Айниро дар байни чил рӯз ҳам 
-                            аз падар ва ҳам аз модараш ҷудо мекунад. Ӯ дар синни 12-солагӣ, нигоҳубини ду бародари хурдияшро
-                            ба дӯш мегирад. Бо вуҷуди ин душвориҳо, орзуи илму шеър Айниро ба Бухоро меорад.<sup>2</sup>`
+                        desc: `Тамоми Бухоро ва атрофи онро вабое фаро ме&shyги&shyрад, ки Айниро дар байни чил рӯз ҳам 
+                            аз падар ва ҳам аз модараш ҷудо мекунад. Ӯ дар синни 12-солагӣ, нигоҳубини ду 
+                            ба&shyро&shyда&shyри хурдияшро
+                            ба дӯш мегирад. Бо вуҷуди ин душвориҳо, орзуи илму шеър Ай&shyни&shyро ба Бухоро меорад.<sup>2</sup>`
                     },
                     {
                         year: '1890',
                         image: '/poetImages/ayni/slides/ayni2.jpeg',
-                        desc: `Ӯ таҳсилашро дар мадрасаи Мири Араб оғоз мекунад ва дар он ҷо бо бародараш як ҳуҷраеро иҷора мегирад. 
+                        desc: `Ӯ таҳсилашро дар мадрасаи Мири Араб оғоз мекунад ва дар он ҷо бо бародараш як ҳуҷ&shyра&shyе&shyро иҷора мегирад. 
                         Вале ба мадрасаҳои Бухоро дохил шудан ва дониш гирифтан барои Айнӣ барин камбағалони илмҷӯ хеле мушкил буд.
-                        Барои ёфтани пули ҳуҷра, ки бояд бепул мешуданд<sup>5</sup> ва рӯзгораш, маҷбур шуд гоҳ ҳамчун фарроши мадраса, 
-                        гоҳ ошпаз, гоҳ ҷомашӯй ва ё мардикор шуда кор кунад.<sup>2</sup>`
+                        Барои ёфтани пули ҳуҷра, ки бояд бепул мешуданд<sup>5</sup> ва рӯз&shyго&shyраш, маҷбур шуд гоҳ ҳамчун фарроши мадраса, 
+                        гоҳ ош&shyпаз, гоҳ ҷомашӯй ва ё мардикор шуда кор ку&shyнад.<sup>2</sup>`
                     },
                     {
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
-                        desc: `Дар вақти мадрасахониаш бо одамоне, ки ба шеъру адаб ишқ доштанду шоирӣ мекарданд ба сабаби наздикиаш
-                        бо Шарифҷон-махдум шинос ва ҳолдон мешавад. Вай шеърҳои аввалини худро бо тахаллусҳои "Мӯҳтоҷӣ", "Ҷунунӣ" ва "Сифлӣ"
-                        эъҷод мекунад.
+                        desc: `Дар вақти мадрасахониаш бо одамоне, ки ба шеъру адаб ишқ доштанду шоирӣ ме&shyкар&shyданд ба сабаби наздикиаш
+                        бо Ша&shyриф&shyҷон-мах&shyдум шинос ва ҳолдон мешавад. Вай шеър&shyҳои аввалини худро бо тахаллусҳои "Мӯҳтоҷӣ", "Ҷунунӣ" ва "Сиф&shyлӣ"
+                        эъҷод ме&shyку&shyнад.
                         <div class='space'></div>
-                        Аммо соли 1896 тахаллуси «Айнӣ»-ро гирифта бо ин ном шӯҳрати адабӣ пайдо кард.<sup>2</sup>`,
+                        Аммо соли 1896 тахаллуси «Айнӣ»-ро ги&shyриф&shyта бо ин ном шӯҳрати адабӣ пайдо кард.<sup>2</sup>`,
                     },
                     {
                         year: '1897-1898',
                         image: '/poetImages/ayni/slides/ayni4.jpeg',
                         desc: `Қозӣ Мирзо Муҳаммадшарифи Садр (Садри Зиё) таҳрири пеш аз чоп шудани «Наводир ул-вақоеъ»-и 
-                        Аҳмади Донишро ба Айнӣ ва шарикдарсаш Абдувоҳиди Мунзим месупорад.
+                        Аҳмади Донишро ба Айнӣ ва шарикдарсаш Абдувоҳиди Мунзим ме&shyсу&shyпо&shyрад.
                         <div class='space'></div>
-                        Дар ин китоб, Дониш дарсҳои бефоидаи мадрасаҳо ва рафтори худхоҳонаи ғайришариатии уламои Бухороро 
+                        Дар ин китоб, Дониш дарсҳои бефоидаи мадрасаҳо ва рафтори худхоҳонаи ғай&shyри&shyша&shyри&shyа&shyтии уламои Бухороро 
                         ошкоро танқид кардааст. Пас аз хондани он, назари Айнӣ ба атрофиёнаш дигар мешавад ва 
                         оиди ислоҳи ин беадолатиҳо дар аморати Бухоро андеша карданро оғоз мекунад.<sup>5</sup>`,
                     },

@@ -95,10 +95,10 @@ export const Backdrop = styled.div`
 `;
 
 export const Slides = styled.div`
-    position: absolute;
     left: 10%;
     top: 0rem;
     z-index: 1;
+    position: absolute;
     pointer-events: none;
 
     @media (max-width: 768px) {
@@ -129,10 +129,10 @@ export const NavBox = styled.div`
 `;
 
 export const NavWrapper = styled.div`
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     position: relative;
 
     @media (max-width: 768px) {
@@ -213,10 +213,14 @@ export const Info = styled.div`
 
 export const Text = styled.div`
     text-align: justify;
+    word-wrap: break-word;
+    word-break: break-word;
     line-height: 1.8rem;
 
     @media (max-width: 768px) {
         font-size: 1.35rem;
+        overflow-y: scroll;
+        margin-bottom: 2rem;
     }
 `;
 
@@ -243,7 +247,7 @@ export const BoxThree = styled.div`
     padding: 0rem 3rem 3rem 3rem;
 
     @media (max-width: 768px) {
-        padding: 2rem 2rem 1.5rem 1.5rem;
+        padding: 2rem 1.5rem 2rem 1.5rem;
     }
 `;
 
