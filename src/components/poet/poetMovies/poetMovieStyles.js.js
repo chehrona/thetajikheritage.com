@@ -87,14 +87,17 @@ export const Image = styled.img`
 `;
 
 export const StyledIconButton = styled(IconButton)`
-    position: absolute !important;
-    background: #0F0A00 !important;
     width: 3rem;
     height: 3rem;
     bottom: 1rem;
     right: -2.6rem;
     transform: translateX(-50%);
     box-shadow: 0rem 0rem 0.6rem #000;
+
+    &.MuiIconButton-root {
+        position: absolute;
+        background: #0F0A00;
+    }
 
     @media (max-width: 768px) {
         bottom: 0.5rem;

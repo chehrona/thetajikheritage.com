@@ -46,7 +46,10 @@ export const RecipeNameBox = styled.div`
 
 export const StyledIconButton = styled(IconButton)`
     width: 2.5rem;
-    margin-top: 0.3rem !important;
+
+    &.MuiIconButton-root {
+        margin-top: 0.3rem;
+    }
 
     &:hover {
         color: #59a959;

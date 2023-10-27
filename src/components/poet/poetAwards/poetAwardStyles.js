@@ -46,7 +46,7 @@ export const AwardWrapper = styled.div`
 
     @media (max-width: 768px) {
         padding: 0rem 1.5rem 0rem 1.5rem;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 `;
 
@@ -65,8 +65,8 @@ export const AwardCard = styled.div`
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
     @media (max-width: 768px) {
-        width: 8rem;
-        height: 11.1rem;        
+        width: 9rem;
+        height: 12.69rem;        
     }
 `;
 
@@ -103,10 +103,6 @@ export const Face = styled.div`
 export const Title = styled.div`
     text-align: center;
     font-size: 1.2rem;
-
-    @media (max-width: 768px) {
-       font-size: 1rem;        
-    }
 `;
 
 export const Image = styled.img`
@@ -118,21 +114,24 @@ export const Year = styled.div`
     font-size: 3rem;
 
     @media (max-width: 768px) {
-       font-size: 1.7rem;        
+       font-size: 2rem;        
     }
 `;
 
 export const StyledIconButton = styled(IconButton)`
-    position: absolute !important;
     width: 3rem;
     height: 3rem;
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
 
+    &.MuiIconButton-root {
+        position: absolute;
+    }
+
     @media (max-width: 768px) {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
     }
 `;
 
@@ -143,5 +142,11 @@ export const StyledInfoIcon = styled(Info)`
         height: 2.3rem;
         width: 2.3rem;
     }
-    
+
+    @media (max-width: 768px) {
+        &.MuiSvgIcon-root {
+            height: 3rem;
+            width: 3rem;
+        }
+    }
 `;

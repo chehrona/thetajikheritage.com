@@ -16,11 +16,14 @@ export const Desc = styled.div`
 `;
 
 export const StyledIconButton = styled(IconButton)`
-    position: absolute !important;
     width: 2rem;
     height: 2rem;
     top: 1.5rem;
     right: 1.6rem;
+
+    &.MuiIconButton-root {
+        position: absolute;
+    }
 
     @media (max-width: 768px) {
         top: 0rem;
