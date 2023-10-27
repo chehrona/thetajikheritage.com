@@ -95,6 +95,7 @@ export const BodyContainer = styled.div`
 
     @media (max-width: 768px) {
         display: block;
+        min-height: 15.5rem;
     }
 `;
 
