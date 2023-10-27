@@ -207,7 +207,7 @@ export const Info = styled.div`
     margin-bottom: 3rem;
 
     @media (max-width: 768px) {
-        padding: 1rem 1.5rem 1.5rem 1.5rem;
+        padding: 0.5rem 1.5rem 1.5rem 1.5rem;
     }
 `;
 
