@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useSetLang } from "../../../App";
 import { ArrowForwardIos } from "@mui/icons-material";
 
@@ -15,7 +15,8 @@ import {
     InnerOverlay,
     LineWrapper,
     Text,
-    Info
+    Info,
+    NavWrapper
 } from "./poetBioStyles";
 
 export default function SecondBox({ poet }) {
@@ -24,6 +25,10 @@ export default function SecondBox({ poet }) {
     const lastItem = newArr.pop();
     newArr.unshift(lastItem);
     const [infoArr, setInfoArr] = useState([...newArr]);
+
+    useEffect(() => {
+        setInfoArr([...poet?.two[lang]]);
+    }, [lang]);
 
     const moveUp = () => {
         if (infoArr.length > 1) {
@@ -54,34 +59,42 @@ export default function SecondBox({ poet }) {
                         show={1}
                     />
                     <Info>
-                        <Year align={1}>{infoArr[1]?.year}</Year>
+                        <Year>{infoArr[1]?.year}</Year>
                         <Text dangerouslySetInnerHTML={{__html: infoArr[1]?.desc}} />
                     </Info>
                 </LineWrapper>
                 <SlideImg src={infoArr[2].image} />
             </Slides>
             <NavBox>
-                <Line />
-                <StyledIconButton
-                    onClick={moveUp}
-                    disabled={infoArr[0] === poet?.two[lang][infoArr?.length - 1]}
-                >
-                    <Arrow>
-                        <ArrowForwardIos />
-                    </Arrow>
-                </StyledIconButton>
+                <div style={{minWidth: '10%'}} />
+                <div style={{minWidth: '18rem'}} />
+                <NavWrapper>
+                    <Line />
+                    <StyledIconButton
+                        onClick={moveUp}
+                        disabled={infoArr[1] === poet?.two[lang][0]}
+                    >
+                        <Arrow>
+                            <ArrowForwardIos />
+                        </Arrow>
+                    </StyledIconButton>
+                </NavWrapper>
             </NavBox>
             <NavBox bottom={1}>
-                <StyledIconButton
-                    bottom={1}
-                    onClick={moveDown}
-                    disabled={infoArr[1] === poet?.two[lang][infoArr?.length - 1]}
-                >
-                    <Arrow>
-                        <ArrowForwardIos style={{marginLeft: '1px'}} />
-                    </Arrow>
-                </StyledIconButton>
-                <Line bottom={1} />
+                <div style={{minWidth: '10%'}} />
+                <div style={{minWidth: '18rem'}} />
+                <NavWrapper>
+                    <StyledIconButton
+                        bottom={1}
+                        onClick={moveDown}
+                        disabled={infoArr[ 1] === poet?.two[lang][infoArr?.length - 1]}
+                    >
+                        <Arrow>
+                            <ArrowForwardIos />
+                        </Arrow>
+                    </StyledIconButton>
+                    <Line />
+                </NavWrapper>
             </NavBox>
         </BoxTwo>
     )

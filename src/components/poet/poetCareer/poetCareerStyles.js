@@ -27,7 +27,7 @@ export const MainContainer = styled.div`
 `;
 
 export const YearSlider = styled.div`
-    padding: 2rem 5rem 2rem 5rem;
+    padding: 2rem 3rem 2rem 3rem;
     height: 36rem;
 
     @media (max-width: 768px) {
@@ -51,9 +51,16 @@ export const YearWrapper = styled.div`
     border-radius: 1.5rem;
     position: relative;
     background-image: url(${'/noise.png'});
-    width: ${({ size }) => size ? "fit-content" : "0rem"};
-    height: ${({ size }) => size ? "fit-content" : "0rem"};
-    border: ${({ size }) => size ? "0.15rem" : "0.5rem"} solid #bd9d52;
+    width: 0rem;
+    height: 0rem;
+    border: 0.5rem solid #bd9d52;
+
+    ${({ size }) => size && `
+        padding: 0rem 0.5rem;
+        width: fit-content;
+        height: fit-content;
+        border: 0.15rem solid #bd9d52;
+    `}
 `;
 
 export const Year = styled.div`

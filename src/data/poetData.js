@@ -76,8 +76,8 @@ module.exports.poets = [
                         {
                             year: '1889',
                             image: '/poetImages/ayni/slides/ayni1.jpeg',
-                            desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
-                                from both his father and mother in a span of forty days. He was left to take care of two younger
+                            desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, part&shying Ayni 
+                                from both his father and mother in a span of for&shyty days. He was left to take care of two younger
                                 siblings at the age of 12. Despite these challenges, 
                                 Ayni's dream for knowledge led him to Bukhara.<sup>2</sup>`
                         },
@@ -126,7 +126,7 @@ module.exports.poets = [
                         {
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.jpeg',
-                            desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
+                            desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" - "Young Bukharans", 
                                 a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
                         }
                     ],
@@ -300,10 +300,10 @@ module.exports.poets = [
                 },
                 tj: {
                     quote: `... барои умри дар ғафлат гузаштаамон худро маъзур донем ҳам, ҳоло ..., «ба ман чӣ?» гуфтанро виҷдонамон раво намедид.<sup>5</sup>`,
-                    desc: `Айнӣ пас аз хатми мадраса ҳамбастагии худ&shyро бо ҷадидон идома медиҳад ва
+                    desc: `Айнӣ пас аз хатми мадраса ҳамбастагии худ&shyро бо ҷадидон идома ме&shyди&shyҳад ва
                     ба тар&shyзи кӯҳнаи ҷомеадорӣ, ки дар байни ула&shyмои Бухоро хеле мустаҳкам ҷой гирифта буд, 
                     му&shyқо&shyви&shyмат нишон додан меги&shyрад.
-                    Аммо корҳои "нек"-и ӯ ба амир писанд намеояд ва ӯро ба зиндон мепар&shyто&shyянд ва ба 
+                    Аммо корҳои "нек"-и ӯ ба амир писанд намеояд ва ӯро ба зиндон ме&shyпар&shyто&shyянд ва ба 
                     сахт&shyта&shyрин ҷазои он давра - 
                     <span style='font-weight: bold;'>75 чӯб</span> маҳкум ме&shyша&shyвад.
                     <div class='space'></div>Дар ниҳоят, ӯро қувваҳои инқилобии русҳо бо 

@@ -39,7 +39,7 @@ export const MainContainer = styled.div`
 `;
 
 export const AwardWrapper = styled.div`
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 0rem 3rem 0rem 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

@@ -46,8 +46,7 @@ export const BoxOne = styled.div`
 export const Year = styled.div`
     font-size: 3.5rem;
     font-family: "EB Garamond", serif;
-    margin-bottom: 1rem;
-    text-align: ${({ align }) => align && 'center'};
+    margin-bottom: 0.5rem;
 `;
 
 export const Desc = styled.div`
@@ -56,23 +55,23 @@ export const Desc = styled.div`
 
 // Box two ****************************
 export const BoxTwo = styled.div`
-    margin-top: 6rem;
-    margin-bottom: 8.5rem;
+    margin-top: 1rem;
+    margin-bottom: 9rem;
     color: #fcf6e9;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: relative;
+    justify-content: space-between;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 `;
 
 export const InnerOverlay = styled.div`
     background: #333333;
-    margin-top: 4rem;
-    height: ${({ four }) => four ? '30rem' : '40rem'};
+    margin-top: 8rem;
     width: 100%;
     overflow: hidden;
     filter: grayscale(1);
+    height: ${({ four }) => four ? '30rem' : '40rem'};
 `;
 
 export const Backdrop = styled.div`
@@ -87,8 +86,9 @@ export const Backdrop = styled.div`
 export const Slides = styled.div`
     position: absolute;
     left: 10%;
-    top: -4rem;
+    top: 0rem;
     z-index: 1;
+    pointer-events: none;
 `;
 
 export const SlideImg = styled.img`
@@ -100,32 +100,37 @@ export const SlideImg = styled.img`
 `;
 
 export const NavBox = styled.div`
-    width: 65%;
+    width: 100%;
     height: 10rem;
     position: absolute;
-    ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 4rem'};
+    ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 8rem'};
     right: 0rem;
-    z-index: 10;
+    display: flex;
+`;
+
+export const NavWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
 `;
 
 export const Line = styled.div`
     width: 0.0625rem;
     height: 7rem;
     background: #bd9d52;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: ${({ bottom }) => bottom && '0rem'};
-    top: ${({ top }) => top && '0rem'};
 `;
 
 export const StyledIconButton = styled(IconButton)`
     width: 3.5rem;
     height: 3.5rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%) ${({ bottom }) => bottom ? 'rotate(90deg)' : 'rotate(-90deg)'};
-    ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 6.5rem'};
+
+    &.MuiIconButton-root {
+        transform: ${({ bottom }) => bottom ? 'rotate(90deg)' : 'rotate(-90deg)'};
+        margin-bottom: ${({ bottom }) => bottom && '-0.5rem'};
+        margin-top: ${({ bottom }) => !bottom && '-0.5rem'};
+    }
 `;
 
 export const Arrow = styled.div`
@@ -146,15 +151,19 @@ export const Arrow = styled.div`
 export const LineWrapper = styled.div`
     color: #dedbdb;
     display: flex;
-    align-items: center;
     height: 20rem;
     width: 100%;
     transition: ease 1000ms;
+    align-items: center;
 `;
 
 export const Info = styled.div`
-    padding-right: 7%;
-    padding-left: 7%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
 `;
 
 export const Text = styled.div`
