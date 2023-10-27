@@ -24,8 +24,7 @@ export const PoetBoxContainer = styled.div`
     justify-content: space-between;
 
     @media (max-width: 768px) {
-        margin: 3rem;
-        margin-top: 2rem;
+        margin: 1rem 3.2rem 3.2rem 3.2rem;
     }
 `;
 
@@ -49,8 +48,8 @@ export const PoetCardWrapper = styled.div`
 
     @media (max-width: 768px) {
         border-radius: 0.7rem;
-        margin-bottom: 3.5rem;
-        height: 17.5rem;
+        margin-bottom: 1rem;
+        height: 19.025rem;
         width: 12.5rem;
     }
 `;
@@ -70,8 +69,8 @@ export const PoetImgContainer = styled.div`
     transform: translateX(-50%);
 
     @media (max-width: 768px) {
-        height: 11rem;
-        width: 8.5rem;
+        height: 12rem;
+        width: 9rem;
     }
 `;
 
@@ -87,8 +86,8 @@ export const PoetImage = styled.img`
 
     @media (max-width: 768px) {
         border-radius: 4.5rem;
-        height: 10.25rem;
-        width: 7.75rem;
+        height: 11rem;
+        width: 8rem;
         margin: 0.15rem;
     }
 `;
@@ -100,7 +99,7 @@ export const PoetName = styled.div`
     text-shadow: 0rem 0rem 0.25rem black;
 
     @media (max-width: 768px) {
-        font-size: 1.75rem;
+        font-size: 2.2rem;
     }
 `;
 
@@ -111,9 +110,9 @@ export const PoetNameBox = styled.div`
     left: -2rem;
 
     @media (max-width: 768px) {
-        top: 8.5rem;
+        top: 9rem;
         line-height: 1.7rem;
-        left: -1rem;
+        left: -0.5rem;
     }
 `;
 
@@ -122,8 +121,8 @@ export const PoetDates = styled.div`
     font-family: 'IBM Plex Serif', serif;
 
     @media (max-width: 768px) {
-        font-size: 0.85rem;
-        margin-top: 0.5rem;
+        font-size: 1.25rem;
+        margin-top: 1rem;
     }
 `;
 
