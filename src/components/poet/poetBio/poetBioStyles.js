@@ -6,10 +6,12 @@ export const MainContainer = styled.div`
     min-height: fit-content;
     padding-bottom: 3rem;
     background-color: #fcf6e9;
+    font-size: 1.1rem;
 
     @media (max-width: 768px) {
         position: relative;
         padding-bottom: 0rem;
+        font-size: 1.3rem;
 
         &:after {
             content: "";
@@ -49,12 +51,7 @@ export const Year = styled.div`
 `;
 
 export const Desc = styled.div`
-    font-size: 1.1rem;
     color: #333333;
-
-    @media (max-width: 768px) {
-        font-size: 1.25rem;
-    }
 `;
 
 // Box two ****************************
@@ -162,7 +159,6 @@ export const Info = styled.div`
 
 export const Text = styled.div`
     text-align: justify;
-    font-size: 1.1rem;
     line-height: 1.8rem;
 `;
 
@@ -225,11 +221,9 @@ export const DescWrapper = styled.div`
     overflow: hidden;
     color: #333333;
     font-family: 'IBM Plex Serif', serif;
-    font-size: 1.1rem;
 
     @media (max-width: 768px) {
         column-count: 1;
-        font-size: 1.3rem;
     }
 `;
 
@@ -246,7 +240,6 @@ export const YearBig = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-    font-size: 1.1rem;
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: center;
@@ -265,7 +258,6 @@ export const FamilyDesc = styled.div`
     height: 30rem;
     color: #333333;
     padding: 0rem 2.8rem 3rem 3rem;
-    font-size: 1.1rem;
     border-bottom: 0.0625rem solid #bd9d52;
     border-top: 0.0625rem solid #bd9d52;
     overflow-y: scroll;
@@ -276,7 +268,6 @@ export const FamilyDesc = styled.div`
     }
 
     @media (max-width: 768px) {
-        font-size: 1.3rem;
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         height: auto;
     }
@@ -314,7 +305,6 @@ export const ButtonWrapper = styled.div`
     @media (max-width: 768px) {
         padding: 1.5rem;
         padding-bottom: 2.1rem;
-        font-size: 1.3rem;
     }
 `;
 
@@ -323,13 +313,11 @@ export const BoxSix = styled.div`
     width: 100%;
     text-align: center;
     color: #0F0A00;
-    font-size: 1.1rem;
     padding: 1.5rem 3rem 3rem 3rem;
 
     @media (max-width: 768px) {
         padding: 1.5rem;
         padding-bottom: 2.1rem;
-        font-size: 1.3rem;
     }
 `;
 
@@ -404,7 +392,7 @@ export const FinalQuote = styled.div`
     left: 50%;
     top: 50%;
     color: #bd9d52;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-style: italic;
     padding-right: 10%;
     padding-left: 10%;
@@ -413,19 +401,20 @@ export const FinalQuote = styled.div`
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 
     @media (max-width: 768px) {
-        line-height: 2.5rem;
+        line-height: 2.8rem;
+        font-size: 2.5rem;
     }
 `;
 
 export const Author = styled.div`
-    color: #fcf6e9;
+     color: #fcf6e9;
     font-size: 1.1rem;
     font-style: normal;
     text-align: end;
     font-family: 'IBM Plex Serif', serif;
 
     @media (max-width: 768px) {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
     }
 `;
 

@@ -30,10 +30,11 @@ export const MenuContainer = styled.div`
     overflow: hidden;
     color: #bd9d52;
     display: flex;
-    background: rgb(51 51 51);
     padding: 3rem;
-    transform: translateY(-100%);
     justify-content: center;
+    background: rgb(51 51 51);
+    height: calc(100vh - 6rem);
+    transform: translateY(-100%);
     animation-name: ${({ open }) => (open && open !== null) && openAnimation};
     animation-name: ${({ open }) => (!open && open !== null)  && closeAnimation};
     opacity: ${({ open }) => (!open && open !== null) && '0'};
@@ -41,10 +42,9 @@ export const MenuContainer = styled.div`
     animation-fill-mode: both;
     position: absolute;
     z-index: 100;
-    height: calc(100vh - 6rem);
 
     @media (max-width: 768px) {
-        height: calc(100vh - 5rem);
+        height: calc(100svh - 5rem);
     }
 `;
 
@@ -84,6 +84,8 @@ export const PageNamesContainer = styled.div`
 
     @media (max-width: 768px) {
         width: 100%;
+        padding: 0rem;
+        align-items: center;
     }
 `;
 
