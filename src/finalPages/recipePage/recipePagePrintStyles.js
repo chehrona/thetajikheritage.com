@@ -90,7 +90,10 @@ export const StyledAddIcon = styled(Add)`
     background: #dedbdb;
     border-radius: 0.5rem;
     color: black;
-    font-size: 2rem !important;
+    
+    &.MuiSvgIcon-root {
+        font-size: 2rem;
+    }
 `;
 
 export const ServeAmount = styled.input`
@@ -107,7 +110,10 @@ export const StyledMinusIcon = styled(Remove)`
     background: #dedbdb;
     border-radius: 0.5rem;
     color: black;
-    font-size: 2rem !important;
+
+    &.MuiSvgIcon-root {
+        font-size: 2rem;
+    }
 `;
 
 export const ServeContainer = styled.div`

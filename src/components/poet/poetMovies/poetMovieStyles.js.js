@@ -104,7 +104,10 @@ export const StyledIconButton = styled(IconButton)`
 
 export const StyledExpand = styled(ChevronRight)`
     color: #dedbdb;
-    height: 2rem !important;
-    width: 2rem !important;
     animation: ${bounce} 2s infinite;
+
+    &.MuiSvgIcon-root {
+        height: 2rem;
+        width: 2rem;
+    }
 `;

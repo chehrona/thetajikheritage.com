@@ -65,7 +65,10 @@ export const StyledPinIcon = styled(Pinterest)`
     position: absolute;
     left: 5.5rem;
     top: 13.5rem;
-    font-size: 2em !important;
+
+    &.MuiSvgIcon-root {
+        font-size: 2em;
+    }
 `;
 
 export const InstructionContainer = styled.div`

@@ -3,7 +3,6 @@ import { Zoom, Dialog } from '@mui/material';
 import { useSetLang } from "../../../App";
 import { useMediaQuery } from 'react-responsive';
 
-
 import {
     Desc,
     StyledIconButton,
@@ -16,7 +15,7 @@ import {
 
 const Transition = ({ children, ...props }) => (
     <Zoom {...props}>
-      {children}
+        {children}
     </Zoom>
 );
 
@@ -33,7 +32,7 @@ export default function BookDialog({ msg, setBookDialog, bookDialog, setOverlay 
         <Dialog
             open={bookDialog}
             fullWidth
-            maxWidth={isMobile ? "xl" : "sm"}
+            maxWidth="sm"
             TransitionComponent={Transition}
             TransitionProps={{
                 in: bookDialog,
@@ -43,13 +42,16 @@ export default function BookDialog({ msg, setBookDialog, bookDialog, setOverlay 
                 style: {
                     backgroundColor: 'transparent',
                     boxShadow: 'none',
+                    margin: isMobile && '0rem',
+                    width: isMobile && 'calc(100vw - 3rem)',
+                    maxWidth: isMobile && 'calc(100vw - 3rem)'
                 },
             }}
             BackdropProps={{
                 style: {
                     background: '#0F0A00',
                     backgroundImage: "url('/noise.png')",
-                    opacity: '0.3'
+                    opacity: '0.3',
                 },
             }}
         >

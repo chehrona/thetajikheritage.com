@@ -45,5 +45,7 @@ export const FlagDropdown = styled.div`
 `;
 
 export const StyledIconButton = styled(IconButton)`
-    padding: 0.6rem !important;
+    &.MuiIconButton-root {
+        padding: 0.6rem;    
+    }
 `;

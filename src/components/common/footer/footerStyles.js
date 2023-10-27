@@ -32,7 +32,7 @@ export const Text = styled.div`
     justify-content: center;
 
     @media (max-width: 768px) {
-        margin-left: -15%;
+        margin-left: -0%;
         font-size: 1.3rem;
     }
 `;
@@ -64,5 +64,7 @@ export const StyledIcon = styled.img`
 `;
 
 export const StyledIconButton = styled(IconButton)`
-    padding: 0.6rem !important;
+     &.MuiIconButton-root {
+        padding: 0.6rem;    
+    }
 `;

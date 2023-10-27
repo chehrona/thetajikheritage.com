@@ -80,6 +80,9 @@ export const StyledIconButton = styled(IconButton)`
 
 export const StyledCloseIcon = styled(Close)`
     color: #bd9d52;
-    width: 3.5rem !important;
-    height: 2.5rem !important;
+
+    &.MuiSvgIcon-root {
+        height: 3.5rem;
+        width: 2.5rem;
+    }
 `;

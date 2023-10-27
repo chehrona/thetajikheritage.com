@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { Zoom, Slide, Dialog } from '@mui/material';
 
 import { useSetLang } from "../../../App";
+import { useMediaQuery } from 'react-responsive';
 
 import {
     Desc,
@@ -22,26 +23,31 @@ import {
     Direction,
     DirBox,
     StyledFrame,
-    Loader
+    Loader,
+    SlideUp,
+    SlideDown,
+    StyledArrowButton
 } from "./movieDialogStyles";
 
 const Transition = ({ children, ...props }) => (
     <Zoom {...props}>
-      {children}
+        {children}
     </Zoom>
 );
 
 const ContentTransition = ({ children, ...props }) => (
     <Slide direction="left" {...props}>
-      {children}
+        {children}
     </Slide>
 )
 
 export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo }) {
     const [showVideo, setShowVideo] = useState(false);
     const [isMounted, setIsMounted] = useState(false);
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
     const iframeRef = useRef(null);
     const { lang } = useSetLang();
+    const [fullSize, setFullSize] = useState(0);
 
     function handleLoader() {
         setIsMounted(true);
@@ -52,11 +58,15 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
         setShowVideo(false);
     }
 
+    function handleExpand() {
+        setFullSize(prevState => !prevState);
+    }
+
     return (
         <Dialog
             open={showMovieInfo}
             fullWidth
-            maxWidth={"xl"}
+            maxWidth={"lg"}
             TransitionComponent={Transition}
             TransitionProps={{
                 in: showMovieInfo,
@@ -66,7 +76,10 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                 style: {
                     backgroundColor: 'transparent',
                     boxShadow: 'none',
-                    height: '80%'
+                    height: isMobile ? '100%' : '80%',
+                    margin: isMobile && '0rem',
+                    width: isMobile && 'calc(100vw - 3rem)',
+                    maxWidth: isMobile && 'calc(100vw - 3rem)'
                 },
             }}
             BackdropProps={{
@@ -100,28 +113,31 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                         {!isMounted && <Loader />}
                     </InfoContainer>
                 ) : (
-                    <InfoContainer>
-                        <InnerBox>
+                    <InfoContainer expand={fullSize}>
+                        <StyledCloseButton onClick={() => setShowMovieInfo(false)}>
+                            <StyledCloseIcon />
+                        </StyledCloseButton>
+                        <InnerBox expand={fullSize}>
+                            {isMobile && 
+                                <StyledArrowButton arrow={1} onClick={handleExpand}>
+                                    {fullSize ? <SlideDown /> : <SlideUp />}
+                                </StyledArrowButton>
+                            }
                             <StudioName src={movieInfo?.studio}></StudioName>
                             <InfoTitle>{movieInfo?.title}</InfoTitle>
                             <ReleaseInfo>
                                 <InfoWrapper year={1}>{movieInfo?.year}</InfoWrapper>
-                                <InfoWrapper genre={1}>{movieInfo?.lang}</InfoWrapper>
+                                <InfoWrapper>{movieInfo?.lang}</InfoWrapper>
                                 <InfoWrapper>{movieInfo?.genre}</InfoWrapper>
                                 <InfoWrapper>{movieInfo?.duration}</InfoWrapper>
                             </ReleaseInfo>
-                            <Desc>{movieInfo?.desc}</Desc>
+                            <Desc expand={fullSize}>{movieInfo?.desc}</Desc>
                             <Director>
                                 {lang === 'us' ? 'Director' : 'Режиссёр'}
                             </Director>
                             <div>{movieInfo?.director}</div>
                         </InnerBox>
-                        <InnerBox width={1}>
-                        </InnerBox>
                         <MovieImg src={movieInfo?.img} />
-                        <StyledCloseButton onClick={() => setShowMovieInfo(false)}>
-                            <StyledCloseIcon />
-                        </StyledCloseButton>
                         <DirBox>
                             <StyledIconButton onClick={() => setShowVideo(true)}>
                                 <StyledPlayIcon />

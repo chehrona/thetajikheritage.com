@@ -20,8 +20,11 @@ export const StyledAddIcon = styled(Add)`
     background: #504221d1;
     border-radius: 0.5rem;
     color: #fff;
-    font-size: 2rem !important;
     box-shadow: 0rem 0rem 0.25rem 0.01rem #504221;
+
+    &.MuiSvgIcon-root {
+        font-size: 2rem;
+    }
 `;
 
 export const ServeAmount = styled.input`
@@ -38,8 +41,11 @@ export const StyledMinusIcon = styled(Remove)`
     background: #504221d1;
     border-radius: 0.5rem;
     color: #fff;
-    font-size: 2rem !important;
     box-shadow: 0rem 0rem 0.25rem 0.01rem #504221;
+
+    &.MuiSvgIcon-root {
+        font-size: 2rem;
+    }
 `;
 
 export const SubTitle = styled.div`

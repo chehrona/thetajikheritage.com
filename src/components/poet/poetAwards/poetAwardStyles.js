@@ -138,6 +138,10 @@ export const StyledIconButton = styled(IconButton)`
 
 export const StyledInfoIcon = styled(Info)`
     color: #ffffff;
-    height: 2.3rem !important;
-    width: 2.3rem !important;
+
+    &.MuiSvgIcon-root {
+        height: 2.3rem;
+        width: 2.3rem;
+    }
+    
 `;

@@ -8,6 +8,11 @@ export const Desc = styled.div`
     color: #0F0A00;
     line-height: 1.5rem;
     text-align: center;
+
+    @media (max-width: 768px) {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -18,8 +23,8 @@ export const StyledIconButton = styled(IconButton)`
     right: 1.6rem;
 
     @media (max-width: 768px) {
-        width: 4rem;
-        height: 4rem;
+        top: 0rem;
+        right: 0rem;
     }
 `;
 
@@ -27,6 +32,12 @@ export const StyledContent = styled(DialogContent)`
     border-radius: 1.5rem;
     position: relative;
     padding: 0.001rem;
+
+    @media (max-width: 768px) {
+        &.MuiDialogContent-root {
+            padding: 0rem;
+        }
+    }
 `;
 
 export const InfoContainer = styled.div`
@@ -45,12 +56,19 @@ export const InfoTitle = styled.div`
     font-style: italic;
     font-size: 2rem;
     font-family: 'EB Garamond', serif;
+
+    @media (max-width: 768px) {
+        font-size: 2.5rem;
+    }
 `;
 
 export const StyledCloseIcon = styled(Close)`
     color: #bd9d52;
-    width: 3rem !important;
-    height: 2rem !important;
+
+    &.MuiSvgIcon-root {
+        height: 3rem;
+        width: 2rem;
+    }
 `;
 
 export const BodyContainer = styled.div`

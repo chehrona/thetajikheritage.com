@@ -84,14 +84,20 @@ export const StyledIconButton = styled(IconButton)`
 
 export const StyledMenuIcon = styled(Menu)`
     color: #bd9d52;    
-    width: 3.5rem !important;
-    height: 2.5rem !important;
+
+    &.MuiSvgIcon-root {
+        width: 3.5rem;
+        height: 2.5rem;
+    }
 `;
 
 export const StyledCloseIcon = styled(Close)`
     color: #bd9d52;
-    width: 3.5rem !important;
-    height: 2.5rem !important;
+    
+    &.MuiSvgIcon-root {
+        width: 3.5rem;
+        height: 2.5rem;
+    }
 `;
 
 export const Logo = styled.img`

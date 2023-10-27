@@ -43,8 +43,11 @@ export const InfoTitle = styled.div`
 
 export const StyledCloseIcon = styled(Close)`
     color: #bd9d52;
-    width: 3rem !important;
-    height: 2rem !important;
+
+    &.MuiSvgIcon-root {
+        height: 3rem;
+        width: 2rem;
+    }
 `;
 
 export const BodyContainer = styled.div`
