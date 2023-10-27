@@ -105,11 +105,11 @@ export default function PoetCareer({ points }) {
                         })}
                         {isMobile ? 
                             <Footer>
-                                <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 1}>
+                                <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 0}>
                                     <ArrowForwardIos />
                                 </StyledIconButton>
                                 <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
-                                <StyledIconButton onClick={handleNext} disabled={currentIndex === points?.years?.length}>
+                                <StyledIconButton onClick={handleNext} disabled={currentIndex === points?.years?.length - 1}>
                                     <ArrowForwardIos />
                                 </StyledIconButton>
                             </Footer>
