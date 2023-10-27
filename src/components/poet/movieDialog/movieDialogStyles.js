@@ -87,13 +87,10 @@ export const StyledContent = styled(DialogContent)`
 
     &.MuiDialogContent-root {
         padding: 0rem;
+        overflow: hidden;
     }
 
     @media (max-width: 768px) {
-        &.MuiDialogContent-root {
-            padding: 0rem;
-        }
-
         font-size: 1.3rem;
     }
 `;
