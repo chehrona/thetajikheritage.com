@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Info, Close } from "@mui/icons-material";
+import { Close } from "@mui/icons-material";
 import { IconButton, DialogContent } from "@mui/material";
 
 export const Desc = styled.div`
@@ -7,10 +7,12 @@ export const Desc = styled.div`
     height: 100%;
     color: #dedbdb;
     line-height: 1.5rem;
+    overflow-wrap: break-word;
 
     @media (max-width: 768px) {
         font-size: 1.3rem;
         line-height: 2rem;
+        display: inline;
     }
 `;
 
@@ -51,8 +53,8 @@ export const InfoContainer = styled.div`
     width: 100%;
     border-radius: 2rem;
     background: #000;
-    box-shadow: 0rem 0rem 0.3rem 0rem #0F0A00;
     padding: 0.5rem;
+    box-shadow: 0rem 0rem 0.3rem 0rem #0F0A00;
 `;
 
 export const InfoTitle = styled.div`
@@ -67,7 +69,7 @@ export const InfoTitle = styled.div`
         font-size: 2.5rem;
         text-align: center;
         margin: 0.5rem 3rem 1rem 1rem;
-        line-height: 2.5rem;
+        line-height: 2.7rem;
     }
 `;
 
@@ -89,12 +91,20 @@ export const StyledCloseIcon = styled(Close)`
 
 export const BodyContainer = styled.div`
     display: flex;
-    margin: 1rem;
+    margin: 2rem 1rem;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
 `;
 
 export const Wrapper = styled.div`
     width: ${({ first }) => first ? "25%" : "75%"};
     height: 100%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const AwardImg = styled.img`
@@ -105,4 +115,10 @@ export const AwardImg = styled.img`
     background: #0F0A00;
     background-image: url(${'/noise.png'});
     box-shadow: 0rem 0rem 0.4rem 0.01rem #bd9d52;
+
+    @media (max-width: 768px) {
+        display: inline;
+        float: left;
+        margin-right: 1rem;
+    }
 `;
