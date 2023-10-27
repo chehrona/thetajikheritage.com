@@ -788,13 +788,14 @@ module.exports.poets = [
             tj: [
                     {
                         title: "Ордени Ленин", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
-                        desc: `Мукофоти олии Ит&shyти&shyҳо&shyди Шӯравӣ барои хизмати махсусан бар&shyҷас&shyта дар ҳа&shyра&shyка&shyти инқилобӣ, 
+                        desc: `Мукофоти олии Ит&shyти&shyҳо&shyди Шӯравӣ ба&shyрои хиз&shyма&shyти мах&shyсу&shyсан бар&shyҷас&shyта дар 
+                            ҳа&shyра&shyка&shyти ин&shyқи&shyло&shyбӣ, 
                             фаъ&shyоли&shyяти меҳнатӣ, му&shyҳо&shyфи&shyза&shyти ватани сот&shyси&shyа&shyлис&shyтӣ, ин&shyки&shyшоф 
                             до&shyда&shyни дӯс&shyтӣ ва ҳамкории бай&shyни 
-                            халқ&shyҳо, мустаҳкам намудани сулҳ, дар назди Давлати Советӣ ва ҷамъ&shyият су&shyпо&shyри&shyда ме&shyшуд.
+                            халқ&shyҳо, мустаҳкам намудани сулҳ, дар назди Давлати Со&shyветӣ ва ҷамъ&shyият су&shyпо&shyри&shyда ме&shyшуд.
                             <div class='emptyLine'></div>
                             Айнӣ се бор сазовори ин орден гаш&shyта&shyаст, аммо маълумот танҳо дар бораи як&shyтои онҳо (соли 1941) 
-                            дар базаҳои кушод мавҷуд аст.`
+                            дар базаҳои ку&shyшод мавҷуд аст.`
                     },
                     {
                         title: "Академики фахрии АФҶШСӮз", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
@@ -802,46 +803,46 @@ module.exports.poets = [
                     },
                     {
                         title: "Доктори фахрии ДДЛ", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
-                        desc: `Унвони «Доктори фах&shyрии Донишгоҳи дав&shyла&shyтии Ленинград (Cанкт-Питербург)» ба арбобони барҷастаи 
-                            илм, маориф ва фар&shyҳанг, ходимони дав&shyлатӣ ва ҷамъ&shyи&shyя&shyтӣ, ки дар рушди ҳамкориҳои бай&shyнал&shyмилалии илмӣ, 
+                        desc: `Унвони «Доктори фах&shyрии Донишгоҳи дав&shyла&shyтии Ленинград (Cанкт-Питербург)» ба ар&shyбо&shyбони бар&shyҷас&shyтаи 
+                            илм, маориф ва фар&shyҳанг, ходимони дав&shyлатӣ ва ҷамъ&shyи&shyя&shyтӣ, ки дар рушди ҳамкориҳои бай&shyнал&shyхал&shyқии илмӣ, 
                             фарҳангӣ, иқтисодӣ ва си&shyё&shyсӣ саҳм гузоштаанд, дода мешавад.
                             <div class='emptyLine'></div>
-                            Бо фармони шӯрои илмии ин донишгоҳ, ба адиб унвони доктори илми филологӣ дода шудааст.`
+                            Бо фармони шӯрои илмии ин до&shyниш&shyгоҳ, ба адиб унвони доктори ил&shyми фи&shyло&shyлогӣ дода шудааст.`
                     },
                     {
                         title: "Ҷоизаи Сталин",
                         years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
                         desc: `Яке аз унвонҳои олии ҳавасмандкунии шаҳр&shyвандони Ит&shyти&shyҳо&shyди Шӯравӣ буда, ба&shyрои ком&shyё&shyби&shyҳои 
-                            бар&shyҷас&shyта дар со&shyҳаи илм ва тех&shyника, фанҳои ҳарбӣ, адабиёт ва санъ&shyат байни солҳои 1940-1955 
-                            дода мешуд.
+                            бар&shyҷас&shyта дар со&shyҳаи илм ва тех&shyника, фан&shyҳои ҳар&shyбӣ, ада&shyби&shyёт ва санъ&shyат байни солҳои 1940-1955 
+                            дода ме&shyшуд.
                             <div class='emptyLine'></div>
-                            Ин ҷоиза ба устод Айнӣ соли 1950 барои саҳми ӯ ба адабиёти Шӯравӣ - равияи асарҳои бадеӣ, 
-                            барои китоби "Ёд&shyдошт&shyҳо"-яш cупорида шудааст. Ба ғайр аз ор&shyден, мувофиқи дараҷаи дуюм, 
-                            ӯ бо 50000 рубли шӯравӣ (~USD 160,000-и ҳо&shyзи&shyра) мукофотонида шудааст.`
+                            Ин ҷоиза ба устод Айнӣ соли 1950 ба&shyрои саҳми ӯ ба адабиёти Шӯравӣ - рави&shyяи асарҳои бадеӣ, 
+                            барои китоби "Ёд&shyдошт&shyҳо"-яш cупорида шудааст. Ба ғайр аз ор&shyден, мувофиқи дараҷаи ду&shyюм, 
+                            ӯ бо 50000 рубли шӯравӣ (~USD 160,000-и ҳо&shyзи&shyра) мукофотонида шу&shyда&shyаст.`
                     },
                     {
                         title: "Ордени Байрақи Сурхи Меҳнат", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
-                        desc: `Ҷоизаи уму&shyми&shyшаҳр&shyван&shyдии Иттиҳоди Шӯ&shyравӣ ба онҳое, ки ба давлат ва ҷамъият дар соҳаи истеҳсолот, илм, 
-                            маданият, ада&shyби&shyёт, санъат, маориф, нигаҳдории тан&shyду&shyрус&shyтӣ ва дигар соҳаҳои фаъолияти меҳ&shyна&shyтӣ хизматҳои 
-                            бузург кардаанд, дода мешуд.
+                        desc: `Ҷоизаи уму&shyми&shyшаҳр&shyван&shyдии Иттиҳоди Шӯ&shyравӣ ба онҳое, ки ба давлат ва ҷамъият дар соҳаи ис&shyтеҳ&shyсо&shyлот, илм, 
+                            маданият, ада&shyби&shyёт, санъат, ма&shyо&shyриф, ни&shyгаҳ&shyдо&shyрии тан&shyду&shyрус&shyтӣ ва дигар соҳаҳои 
+                            фаъ&shyо&shyли&shyя&shyти меҳ&shyна&shyтӣ хизматҳои бузург кардаанд, дода мешуд.
                             <div class='emptyLine'></div>
                             Устод Айнӣ сазовори ду ин ҷоиза гаш&shyта&shyаст.`
                     },
                     {
                         title: "Қаҳрамони Тоҷикистон", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
-                        desc: `Унвони олии дав&shyла&shyтии Ҷумҳурии То&shyҷи&shyкис&shyтон, ки барои хидматҳои шоиста дар назди давлат ва 
+                        desc: `Унвони олии дав&shyла&shyтии Ҷумҳурии То&shyҷи&shyкис&shyтон, ки барои хид&shyматҳои шоиста дар назди давлат ва 
                             халқ, ки барои озодӣ, истиқлол ва рушди Тоҷикистон қаҳ&shyра&shyмо&shyнии ҳарбӣ ва меҳнатӣ намудаанд, су&shyпо&shyрида мешавад.
                             <div class='emptyLine'></div>
                             Вай ба ин шарафи олӣ барои хиз&shyмат&shyҳо&shyяш дар барпо намудани Ҷумҳурии Шӯ&shyра&shyвии Сотсиалистии Тоҷикистон ва 
-                            ба воситаи китобҳояш, ки айнияти миллии тоҷиконро бастааст, сазовор гардидааст. Махсусан китоби 
-                            «Намунаҳои адабиёти тоҷик»-и ӯ, нишонаи таъриху фарҳанги деринаи халқи тоҷик аст.`
+                            ба воситаи китобҳояш, ки айнияти мил&shyлии тоҷиконро бастааст, сазовор гар&shyди&shyда&shyаст. Махсусан китоби 
+                            «На&shyму&shyна&shyҳои адабиёти тоҷик»-и ӯ, ни&shyшо&shyнаи таъриху фарҳанги деринаи халқи тоҷик аст.`
                     },
                     {
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
                         desc: `Ордени «Хизмати шо&shyён» ба шаҳр&shyван&shyдо&shyни Ҷум&shyҳу&shyрии Ӯз&shyбе&shyкис&shyтон ва 
-                            шаҳр&shyван&shyдо&shyни киш&shyвар&shyҳои хо&shyри&shyҷӣ ба&shyрои хиз&shyмат&shyҳои бузург дар 
-                            рушди илму техника, иқтисод ва фарҳанг, саҳ&shyми арзанда дар рушди ҳамкориҳои байнидавлатӣ ва татбиқи нақ&shyша&shyҳои 
-                            до&shyхи&shyлӣ ва хориҷӣ мукофотонида ме&shyша&shyванд.
+                            шаҳр&shyван&shyдо&shyни киш&shyвар&shyҳои хо&shyри&shyҷӣ ба&shyрои хиз&shyмат&shyҳои бу&shyзург дар 
+                            рушди илму техника, иқ&shyти&shyсод ва фарҳанг, саҳ&shyми арзанда дар рушди ҳамкориҳои байнидавлатӣ ва татбиқи нақ&shyша&shyҳои 
+                            до&shyхи&shyлӣ ва хориҷӣ му&shyко&shyфо&shyто&shyни&shyда ме&shyша&shyванд.
                             <div class='emptyLine'></div>
                             Ин ҷоиза ба С. Айнӣ барои саҳми ӯ ба ада&shyбиёти ӯзбек дода шудааст.`
                     },
@@ -955,14 +956,14 @@ module.exports.poets = [
                     {
                         title: "Order of Lenin", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
                         desc: `The highest civilian honor of the Soviet Union awarded for outstanding services in the revolutionary movement, 
-                            labor activity, defense of the socialist Motherland, promotion of friendship and cooperation between peoples, 
+                            labor ac&shyti&shyvi&shyty, defense of the socialist Motherland, promotion of friendship and cooperation between peoples, 
                             strengthening of peace in the Soviet state and society.
                             <div class='emptyLine'></div>
-                            Ayni was awarded this order three times, but information about only one of them (from 1941) is available in open databases.`
+                            Ayni was awarded this order three times, but information about only one of them (from 1941) is available in open da&shyta&shybases.`
                     },
                     {
                         title: "Honorary Academician of the ASUzSSR", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
-                        desc: `In 1943, Ayni became an honorary member of the Academy of Sciences of the Uzbek Soviet Socialist Republic.`
+                        desc: `In 1943, Ayni became an honorary member of the Academy of Sciences of the Uzbek Soviet Socialist Re&shypub&shylic.`
                     },
                     {
                         title: "Honorary doctorate from LSU", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
@@ -970,16 +971,16 @@ module.exports.poets = [
                             figures in science, education and culture, statesmen and public figures who have contributed to the development of international 
                             scientific, cultural, economic and political cooperation.
                             <div class='emptyLine'></div>
-                            By order of the Board of Directors, the writer was awarded the Doctor of Philology degree.`
+                            By order of the Board of Directors, the writer was awarded the Doctor of Phi&shylo&shylo&shygy degree.`
                     },
                     {
                         title: "Stalin Prize",
                         years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
-                        desc: `The highest state award of the USSR, given between 1940-1955 for outstanding achievements and merits in science and 
-                            technology, military affairs, literature and art.
+                        desc: `The highest state award of the USSR, given between 1940-1955 for outstanding achievements and me&shyrits in science and 
+                            tech&shynology, military affairs, literature and art.
                             <div class='emptyLine'></div>
-                            In 1950, Ayni received this order for his contribution to Soviet literature (in fiction) for his book - "Memoirs". 
-                            The acknowledgment came with a prize of 50,000 Soviet rubles (~$160,000 today) – a recognition commensurate 
+                            In 1950, Ayni received this order for his contribution to Soviet literature (in fic&shytion) for his book - "Memoirs". 
+                            The ac&shyknow&shyledgment came with a prize of 50,000 Soviet rubles (~$160,000 today) – a recognition commensurate 
                             with second-degree honors.`
                     },
                     {
