@@ -53,9 +53,14 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
         setIsMounted(true);
     }
 
-    function handleClose() {
+    function handleFrameClose() {
         setShowMovieInfo(false);
         setShowVideo(false);
+    }
+
+    function handleClose() {
+        setShowMovieInfo(false);
+        setFullSize(false);
     }
 
     function handleExpand() {
@@ -99,7 +104,7 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
             >
                 {showVideo ? (
                     <InfoContainer>
-                        <StyledIconButton onClick={handleClose}>
+                        <StyledIconButton onClick={handleFrameClose}>
                             <StyledCloseIcon />
                         </StyledIconButton>
                         <StyledFrame
@@ -114,7 +119,7 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                     </InfoContainer>
                 ) : (
                     <InfoContainer expand={fullSize}>
-                        <StyledCloseButton onClick={() => setShowMovieInfo(false)}>
+                        <StyledCloseButton onClick={handleClose}>
                             <StyledCloseIcon />
                         </StyledCloseButton>
                         <InnerBox expand={fullSize}>

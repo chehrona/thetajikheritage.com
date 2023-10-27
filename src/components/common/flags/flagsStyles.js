@@ -13,7 +13,7 @@ export const FlagWrapper = styled.div`
     position: fixed;
     left: 0.5rem;
     bottom: 1rem;
-    z-index: 1000;
+    z-index: 10000;
 
     @media (max-width: 768px) {
         left: 0rem;
