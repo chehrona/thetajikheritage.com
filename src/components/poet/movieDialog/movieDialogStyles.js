@@ -68,14 +68,21 @@ export const StyledArrowButton = styled(IconButton)`
 `;
 
 export const StyledCloseButton = styled(IconButton)`
-    width: 3rem;
-    height: 3rem;
-    top: 0rem;
-    right: 0rem;
+    width: 2rem;
+    height: 2rem;
+    top: 0.5rem;
+    right: 0.5rem;
     z-index: 10;
 
     &.MuiIconButton-root {
         position: absolute;
+    }
+
+    @media (max-width: 768px) {
+        &.MuiIconButton-root {
+            top: 0.6rem;
+            right: 0.6rem;
+        }
     }
 `;
 

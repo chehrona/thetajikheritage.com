@@ -17,14 +17,16 @@ export const Desc = styled.div`
 
 export const StyledIconButton = styled(IconButton)`
     position: absolute !important;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     top: 1.5rem;
     right: 1.6rem;
 
     @media (max-width: 768px) {
         top: 0rem;
         right: 0rem;
+        width: 3rem;
+        height: 3rem;
     }
 `;
 
@@ -45,8 +47,8 @@ export const InfoContainer = styled.div`
     width: 100%;
     border-radius: 1.5rem;
     background: #fcf6e9;
-    box-shadow: 0rem 0rem 0.3rem 0rem #0F0A00;
     padding: 0.5rem;
+    box-shadow: 0rem 0rem 0.3rem 0rem #0F0A00;
 `;
 
 export const InfoTitle = styled.div`

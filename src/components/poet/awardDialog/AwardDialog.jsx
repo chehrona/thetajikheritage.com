@@ -1,6 +1,8 @@
 import React from "react";
 import { Zoom, Dialog } from '@mui/material';
 
+import { useMediaQuery } from 'react-responsive';
+
 import {
     Desc,
     StyledIconButton,
@@ -15,11 +17,13 @@ import {
 
 const Transition = ({ children, ...props }) => (
     <Zoom {...props}>
-      {children}
+        {children}
     </Zoom>
 );
 
 export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo }) {
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+
     function handleClose() {
         setShowAwardInfo(false);
     }
@@ -38,6 +42,10 @@ export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo
                 style: {
                     backgroundColor: 'transparent',
                     boxShadow: 'none',
+                    height: isMobile && '100%',
+                    margin: isMobile && '0rem',
+                    width: isMobile && 'calc(100vw - 3rem)',
+                    maxWidth: isMobile && 'calc(100vw - 3rem)'
                 },
             }}
             BackdropProps={{
@@ -56,7 +64,7 @@ export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo
                     </StyledIconButton>
                     <BodyContainer>
                         <Wrapper first={true}>
-                            <AwardImg loading="lazy" src={awardInfo?.img} />
+                            <AwardImg src={awardInfo?.img} />
                         </Wrapper>
                         <Wrapper>
                             <Desc dangerouslySetInnerHTML={{__html: awardInfo?.desc}} />
