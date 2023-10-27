@@ -34,7 +34,10 @@ export const LogoWrapper = styled.div`
     margin-left: 1rem;
 
     @media (max-width: 768px) {
-        margin-left: 0.5rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        height: 5rem;
+        width: 5rem;
     }
 `;
 
@@ -46,7 +49,7 @@ export const TitleWrapper = styled.div`
     font-family: 'EB Garamond', serif;
 
     @media (max-width: 768px) {
-        font-size: 1.5rem;
+        font-size: 1.64rem;
     }
 `;
 
