@@ -310,6 +310,10 @@ export const ButtonWrapper = styled.div`
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 // Box six ********************************
@@ -441,11 +445,6 @@ export const StyledButton = styled(IconButton)`
 
     &:disabled {
         display: none;
-    }
-
-    @media (max-width: 768px) {
-        width: 5rem;
-        height: 5rem;
     }
 `;
 
