@@ -136,20 +136,21 @@ export const PoetName = styled.div`
     font-size: 8rem;
     font-weight: bold;
     font-style: italic;
-    color: ${({ color }) => color ? "transparent" : "#dedbdb"};
-    margin-right: ${({ color }) => color ? "2rem" : "0rem"};
-    text-shadow: 0rem 0rem 5rem black;
-    -webkit-text-stroke-width: ${({ color }) => color && '0.22rem'};
-    -webkit-text-stroke-color: #bd9d52;
     opacity: 0;
+    text-shadow: 0rem 0rem 5rem black;
+    -webkit-text-stroke-color: #bd9d52;
     animation: ${slideOut} 1s ease-in-out forwards;
     animation-delay: ${({ color }) => color ? '0s' : '0.1s'};
+    color: ${({ color }) => color ? "transparent" : "#dedbdb"};
+    margin-right: ${({ color }) => color ? "2rem" : "0rem"};
 
     @media (max-width: 768px) {
         font-size: 5rem;
-        text-align: ${({ color }) => color ? "right" : "left"};
         line-height: 5.2rem;
-        text-shadow: 0rem 0rem 3rem black;
+        text-shadow: 0rem 0rem 2rem black;
+        text-align: ${({ color }) => color ? "right" : "left"};
+        color: ${({ color }) => color ? "#dedbdb" : "transparent"};
+        -webkit-text-stroke-width: ${({ color }) => !color && '0.22rem'};
     }
 `;
 
