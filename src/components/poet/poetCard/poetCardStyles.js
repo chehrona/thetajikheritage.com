@@ -51,6 +51,11 @@ export const PoetCardWrapper = styled.div`
         margin-bottom: 1rem;
         height: 19.025rem;
         width: 12.5rem;
+        box-shadow: 0rem 0rem 0.6rem #504221d1;
+
+        &:hover {
+            border-radius: 0.7rem;
+        }
     }
 `;
 
@@ -62,11 +67,11 @@ export const PoetImgContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0rem 0rem 3rem rgba(189, 157, 82, 0.8);
     margin-top: 2rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    box-shadow: 0rem 0rem 3rem rgba(189, 157, 82, 0.8);
 
     @media (max-width: 768px) {
         height: 12rem;
