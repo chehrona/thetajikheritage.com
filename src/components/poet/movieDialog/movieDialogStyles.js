@@ -128,7 +128,6 @@ export const InnerBox = styled.div`
         border-radius: 0rem 2rem 2rem 0rem;
     `}
 
-
     @media (max-width: 768px) {
         width: 100%;
         z-index: 2;
@@ -165,7 +164,6 @@ export const InfoTitle = styled.div`
     @media (max-width: 768px) {
        font-size: 3rem;
        line-height: 3.3rem;
-       margin-top: 0rem;
        width: 100%;
     }
 `;
@@ -271,7 +269,6 @@ export const DirBox = styled.div`
     top: 15%;
 
     @media (max-width: 768px) {
-        top: 20%;
         left: 50%;
         right: auto;
         transform: translateX(-50%);
