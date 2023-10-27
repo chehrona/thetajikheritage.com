@@ -1,5 +1,6 @@
-import { Copyright } from "@mui/icons-material";
 import styled from "styled-components";
+
+import { Copyright } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 
 export const FooterContainer = styled.div`
@@ -15,11 +16,16 @@ export const FooterInnerContainer = styled.div`
     align-items: center;
     box-sizing: border-box;
     color: #ffffff;
-    justify-content: center;
     max-height: 4.23rem;
     min-height: 4.23rem;
     position: relative;
     z-index: 10;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        justify-content: start;
+        padding-left: 15%;
+    }
 `;
 
 export const StyledCopyrightIcon = styled(Copyright)`
