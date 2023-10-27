@@ -345,8 +345,8 @@ module.exports.poets = [
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
                         and they moved into her pa&shyrents' home in Sa&shymar&shykand. 
                         Despite Ayni's dire financial si&shytu&shyation,
-                        Salohat remained undeterred in her com&shymit&shyment to him. She dedicated herself to creating an 
-                        environment where his literary genius could flourish, a dedication that persisted until their final days.<sup>1</sup>
+                        Sa&shylo&shyhat remained undeterred in her com&shymit&shyment to him. She dedicated herself to creating an 
+                        environment where his literary genius could flou&shyrish, a dedication that persisted until their final days.<sup>1</sup>
                         <div class='space'></div>
                         They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
                         <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
@@ -873,17 +873,17 @@ module.exports.poets = [
                     {
                         title: "Сталинская премия",
                         years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
-                        desc: `Высшая государственная награда СССР, удостоевомая за выдающиеся достижения и заслуги в области 
-                            науки и техники, военного дела, литературы и искусства в 1940-1955 годах.
+                        desc: `Высшая государственная награда СССР, удостоевомая за выдающиеся до&shyсти&shyже&shyния и заслуги в области 
+                            науки и техники, во&shyен&shyно&shyго де&shyла, ли&shyте&shyра&shyту&shyры и ис&shyкус&shyства в 1940-1955 годах.
                             <div class='emptyLine'></div>
                             Эта награда была вручена Айни в 1950 году за вклад в советскую литературу - направление художественная проза, 
                             за книгу "Воспоминания". Помимо ордена он был награжден 50 000 советских рублей (~160 000 долларов сегодня) 
-                            соответственно награды второй степени.`
+                            со&shyот&shyвет&shyствен&shyно награды второй степени.`
                     },
                     {
                         title: "Орден Трудового Красного Знамени", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
                         desc: `Общегражданская награда Советского Союза вручался за заслуги государству и обществу в области производства, 
-                            науки, культуры, литературы, искусства, образования, здравоохранения и других областей трудовой деятельности.
+                            науки, культуры, литературы, искусства, об&shyра&shyзо&shyва&shyния, здравоохранения и других областей трудовой деятельности.
                             <div class='emptyLine'></div>
                             Айни награждался этим орденом дважды.`
                     },
@@ -892,8 +892,9 @@ module.exports.poets = [
                         desc: `Высшее государственное звание Республики Таджикистан присуждаемое за заслуги перед государством и народом, 
                             за воинский и трудовой героизм во имя свободы, независимости и развития Таджикистана.
                             <div class='emptyLine'></div>
-                            Эту высокую честь он удостоился за заслуги в создании Советской Социалистической Республики Таджикистан и 
-                            за книги, освещающие национальную идентичность таджиков. В частности, его книга «Образцы таджикской литературы» 
+                            Эту высокую честь он удостоился за заслуги в создании Советской Со&shyци&shyа&shyлис&shyти&shyчес&shyкой 
+                            Республики Таджикистан и 
+                            за книги, освещающие национальную иден&shyтич&shyность таджиков. В частности, его книга «Образцы таджикской литературы» 
                             является показателем древней истории и культуры таджикского народа.`
                     },
                     {
@@ -902,7 +903,7 @@ module.exports.poets = [
                             граж&shyда&shyне Рес&shyпуб&shyли&shyки Уз&shyбе&shyкис&shyтан и граж&shyда&shyне ино&shyстран&shyных 
                             го&shyсу&shyдарств за выдающиеся зас&shyлу&shyги
                             в развитии науки и техники, экономики и культуры, цен&shyный вклад в развитие 
-                            меж&shyго&shyсу&shyдарст&shyвен&shyно&shyго сотрудничества 
+                            меж&shyго&shyсу&shyдар&shyствен&shyно&shyго сотрудничества 
                             и реализацию оте&shyчес&shyтвен&shyных и зарубежных планов.
                             <div class='emptyLine'></div>
                             С. Айни был награждён за вклад в уз&shyбек&shyскую литературу.`
@@ -956,7 +957,7 @@ module.exports.poets = [
                     {
                         title: "Order of Lenin", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
                         desc: `The highest civilian honor of the Soviet Union awarded for outstanding services in the revolutionary movement, 
-                            labor ac&shyti&shyvi&shyty, defense of the socialist Motherland, promotion of friendship and cooperation between peoples, 
+                            labor ac&shyti&shyvi&shyty, defense of the socialist Motherland, pro&shymo&shytion of friendship and cooperation between peoples, 
                             strengthening of peace in the Soviet state and society.
                             <div class='emptyLine'></div>
                             Ayni was awarded this order three times, but information about only one of them (from 1941) is available in open da&shyta&shybases.`
@@ -968,7 +969,7 @@ module.exports.poets = [
                     {
                         title: "Honorary doctorate from LSU", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
                         desc: `The title of "Honorary Doctor of Leningrad State University (St. Petersburg State University)" is awarded to outstanding 
-                            figures in science, education and culture, statesmen and public figures who have contributed to the development of international 
+                            figures in science, education and culture, statesmen and public figures who have contributed to the development of in&shyter&shyna&shytional 
                             scientific, cultural, economic and political cooperation.
                             <div class='emptyLine'></div>
                             By order of the Board of Directors, the writer was awarded the Doctor of Phi&shylo&shylo&shygy degree.`
@@ -1003,7 +1004,7 @@ module.exports.poets = [
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
                         desc: `The "Order of Out&shystand&shying Merit" is awarded to citizens of the Republic of Uz&shybe&shykistan and citizens of 
                             foreign countries for outstanding achieve&shyments in the de&shyvel&shyop&shyment of science and technology, economy and culture, 
-                            a valuable contribution to the promotion of interstate cooperation and the implementation of domestic and for&shyeign plans.
+                            a valuable contribution to the pro&shymo&shytion of interstate cooperation and the implementation of domestic and for&shyeign plans.
                             <div class='emptyLine'></div>
                             S. Ayni was awarded for his contribution to Uzbek literature.`
                     },
