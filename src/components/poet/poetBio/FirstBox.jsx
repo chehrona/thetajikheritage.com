@@ -16,12 +16,11 @@ export default function FirstBox({ poet }) {
                 <Year>{poet?.year}</Year>
                 <Desc dangerouslySetInnerHTML={{__html: poet?.desc}} />
             </LeftContainer>
-            <RightContainer src={poet?.slides.img} first={1}>
-                <ImgInfo
-                    up={1}
-                    dangerouslySetInnerHTML={{__html: poet?.slides.text}} 
-                />
-            </RightContainer>
+            <RightContainer src={poet?.slides.img} first={1} />
+            <ImgInfo
+                up={1}
+                dangerouslySetInnerHTML={{__html: poet?.slides.text}} 
+            />
         </BoxOne>
     )
 }

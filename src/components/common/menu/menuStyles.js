@@ -31,7 +31,7 @@ export const MenuContainer = styled.div`
     color: #bd9d52;
     display: flex;
     padding: 3rem;
-    justify-content: center;
+    justify-content: space-around;
     background: rgb(51 51 51);
     height: calc(100vh - 6rem);
     transform: translateY(-100%);
@@ -50,7 +50,6 @@ export const MenuContainer = styled.div`
 
 export const LogoContainer = styled.div`
     opacity: 0.5;
-    margin-right: 12%;
 
     @media (max-width: 768px) {
         display: none;

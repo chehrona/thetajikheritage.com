@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import { IconButton } from '@mui/material';
 
 export const MainContainer = styled.div`
@@ -36,10 +36,12 @@ export const BoxOne = styled.div`
     padding: 0rem 3rem 1rem 3rem;
     color: #0F0A00;
     gap: 3rem;
+    position: relative;
 
     @media (max-width: 768px) {
         padding: 0rem 1.5rem 1rem 1.5rem;
         flex-wrap: wrap;
+        margin-bottom: 3rem;
     }
 `;
 
@@ -63,6 +65,11 @@ export const BoxTwo = styled.div`
     position: relative;
     justify-content: space-between;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
+
+    @media (max-width: 768px) {
+        margin-bottom: 0.5rem;
+        color: #fcf6e9;
+    }
 `;
 
 export const InnerOverlay = styled.div`
@@ -71,16 +78,20 @@ export const InnerOverlay = styled.div`
     width: 100%;
     overflow: hidden;
     filter: grayscale(1);
-    height: ${({ four }) => four ? '30rem' : '40rem'};
+    height: 40rem;
 `;
 
 export const Backdrop = styled.div`
     height: 100%;
     width: 100%;
-    background-size: cover;
     opacity: 0.2;
     filter: grayscale(1);
+    background-size: cover;
     background-image: ${({ backdrop }) => `url(${ backdrop })`};
+
+    @media (max-width: 768px) {
+        opacity: 0.15;
+    }
 `;
 
 export const Slides = styled.div`
@@ -89,6 +100,11 @@ export const Slides = styled.div`
     top: 0rem;
     z-index: 1;
     pointer-events: none;
+
+    @media (max-width: 768px) {
+        left: auto;
+        height: 100%;
+    }
 `;
 
 export const SlideImg = styled.img`
@@ -97,15 +113,19 @@ export const SlideImg = styled.img`
     filter: grayscale(1) ${({ show }) => show ? 'brightness(100%)': 'brightness(60%)'};
     box-shadow: ${({ show }) => 
         show ? '0rem 0rem 0.5rem 0.1rem #dedbdb' : '0rem 0rem 1rem 0.2rem #504221e6'};
+
+    @media (max-width: 768px) {
+        display: ${({ show }) => !show && 'none'};
+    }
 `;
 
 export const NavBox = styled.div`
     width: 100%;
     height: 10rem;
     position: absolute;
-    ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 8rem'};
     right: 0rem;
     display: flex;
+    ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 8rem'};
 `;
 
 export const NavWrapper = styled.div`
@@ -114,6 +134,10 @@ export const NavWrapper = styled.div`
     align-items: center;
     width: 100%;
     position: relative;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const Line = styled.div`
@@ -130,6 +154,19 @@ export const StyledIconButton = styled(IconButton)`
         transform: ${({ bottom }) => bottom ? 'rotate(90deg)' : 'rotate(-90deg)'};
         margin-bottom: ${({ bottom }) => bottom && '-0.5rem'};
         margin-top: ${({ bottom }) => !bottom && '-0.5rem'};
+    }
+
+    @media (max-width: 768px) {
+        width: 5.5rem;
+        height: 5.5rem;
+
+        &.MuiIconButton-root {
+            position: absolute;
+            bottom: 0.5rem;
+            margin: 0rem;
+            transform: ${({ bottom }) => bottom ? 'rotate(0deg)' : 'rotate(-180deg)'};
+            ${({ bottom }) => bottom ? 'right: 0.8rem' : 'left: 0.8rem'};
+        }
     }
 `;
 
@@ -155,6 +192,10 @@ export const LineWrapper = styled.div`
     width: 100%;
     transition: ease 1000ms;
     align-items: center;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const Info = styled.div`
@@ -164,11 +205,35 @@ export const Info = styled.div`
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
+
+    @media (max-width: 768px) {
+        padding: 0rem 1.5rem 1.5rem 1.5rem;
+    }
 `;
 
 export const Text = styled.div`
     text-align: justify;
     line-height: 1.8rem;
+
+    @media (max-width: 768px) {
+        font-size: 1.35rem;
+    }
+`;
+
+export const FillerOne = styled.div`
+    min-width: 10%;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+`;
+
+export const FillerTwo = styled.div`
+    min-width: 18rem;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `;
 
 // Box three ****************************
@@ -460,14 +525,25 @@ export const ImgInfo = styled.div`
     width: 100%;
     text-align: left;
     padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-    color: ${({ up }) => up ? '#0F0A00' : '#fcf6e9'};
-    bottom: ${({ up }) => up ? '3.2rem' : '0.5rem'};
-    background-color: ${({ up }) => up ? 'transparent' : '#26262680'};
+    color: #fcf6e9;
+    bottom: 3.5rem;
+    background-color: #26262680;
+
+    ${({ up }) => up && `
+        color: #0F0A00;
+        left: calc(50% + 1rem);
+        background-color: transparent;
+        width: auto;
+    `}
 
     @media (max-width: 768px) {
         font-size: 1.25rem;
         line-height: 1.3rem;
-        width: 100%;
-        bottom: ${({ up }) => up ? '-1rem' : '0.5rem'};
+        bottom: 0.5rem;
+
+        ${({ up }) => up && `
+            bottom: -1rem;
+            left: 1.5rem;
+        `}
     }
 `;

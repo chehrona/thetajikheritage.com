@@ -5,6 +5,7 @@ import { BoxThree, QuoteWrapper, QuoteOutline, QuoteSymbol, Quote, DescWrapper }
 
 export default function ThirdBox({ poet }) {
     const { lang } = useSetLang();
+    
     return (
         <BoxThree>
             <QuoteWrapper>
