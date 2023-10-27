@@ -11,8 +11,8 @@ export const FlagWrapper = styled.div`
     cursor: pointer;
     margin-bottom: 0.4rem;
     position: fixed;
-    left: 0.5rem;
-    bottom: 1rem;
+    left: 0.6rem;
+    bottom: 0.6rem;
     z-index: 100;
 
     @media (max-width: 768px) {

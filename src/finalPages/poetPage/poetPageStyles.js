@@ -13,10 +13,10 @@ export const PageContainer = styled.div`
 `;
 
 export const PoetContainer = styled.div`
-    box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
     border-radius: 4rem;
-    margin: 1rem 3.5rem 1.5rem 3.5rem;
+    margin: 1rem 3rem 1.5rem 3rem;
     background: #fcf6e9;
+    box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
 
     @media (max-width: 768px) {
         margin: 0rem;
