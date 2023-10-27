@@ -312,7 +312,9 @@ export const ButtonWrapper = styled.div`
     width: 100%;
 
     @media (max-width: 768px) {
-        display: none;
+        padding: 1.5rem;
+        padding-bottom: 2.1rem;
+        font-size: 1.3rem;
     }
 `;
 
@@ -445,6 +447,11 @@ export const StyledButton = styled(IconButton)`
 
     &:disabled {
         display: none;
+    }
+
+    @media (max-width: 768px) {
+        width: 5rem;
+        height: 5rem;
     }
 `;
 
