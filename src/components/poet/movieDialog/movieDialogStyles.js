@@ -135,6 +135,7 @@ export const InnerBox = styled.div`
         position: absolute;
         top: ${({ expand }) => expand ? '0rem' : '40%'};
         display: ${({ width }) => width && 'none'};
+        transition: all 0.5s;
     }
 `;
 
