@@ -42,7 +42,7 @@ export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo
                 style: {
                     backgroundColor: 'transparent',
                     boxShadow: 'none',
-                    height: isMobile && '100%',
+                    height: isMobile && 'fit-content',
                     margin: isMobile && '0rem',
                     width: isMobile && 'calc(100vw - 3rem)',
                     maxWidth: isMobile && 'calc(100vw - 3rem)'
