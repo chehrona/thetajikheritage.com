@@ -44,18 +44,12 @@ function Home() {
     return (
         <PageContainer>
             <InnerContainer>
-                {isMobile ?
-                    <MobHomeStepper containerRef={containerRef} divRefs={divRefs} opacities={opacities} />
-                : (
-                    <>
-                        <HomeStepper containerRef={containerRef} divRefs={divRefs} opacities={opacities} />
-                        {stepInfo?.map((entry, i) => {
-                                return (
-                                    <ImageBall key={i} entry={entry} index={i} opacities={opacities} />
-                                );
-                        })}
-                    </>
-                )}
+                <HomeStepper containerRef={containerRef} divRefs={divRefs} opacities={opacities} />
+                {stepInfo?.map((entry, i) => {
+                    return (
+                        <ImageBall key={i} entry={entry} index={i} opacities={opacities} />
+                    );
+                })}
             </InnerContainer>
         </PageContainer>
     );

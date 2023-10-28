@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSetLang } from "../../App";
+import { useMediaQuery } from 'react-responsive';
 
 import { stepInfo } from "./helper"; 
 
@@ -9,18 +10,20 @@ import {
     NumLine,
     StepperBox,
     Step,
+    Desc,
     IndicatorStep,
     TitleWrapper,
     LargeTitle,
-    Desc,
     OtherSteps,
     StepperContainer,
     StyledButton,
-    Link
+    Link,
+    ImageSemiCircle
 } from "./homeStepperStyles";
 
 export default function HomeStepper({ containerRef, divRefs, opacities }) {
     const { lang } = useSetLang();
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
     const [visibleStepIndex, setVisibleStepIndex] = useState(0);
 
     useEffect(() => {
@@ -69,7 +72,10 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                             <IndicatorStep>{step?.num}</IndicatorStep>
                             <div>
                                 <TitleWrapper>
-                                    <LargeTitle fontSize={step?.text[lang].font?.d}>{step?.text[lang].text}</LargeTitle>
+                                    <LargeTitle
+                                        fontSize={isMobile ? step?.text[lang].font?.m : step?.text[lang].font?.d}>
+                                            {step?.text[lang].text}
+                                    </LargeTitle>
                                 </TitleWrapper>
                                 <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin?.d}>
                                     <div
@@ -77,7 +83,8 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                                     />
                                     <Link href={step?.desc[lang].link} target="_blank">
                                         <StyledButton
-                                            width={lang === 'ru' ? '30%' : (lang === 'tj' ? '33%' : '17%')}
+                                            width={lang === 'ru' ? (isMobile ? '47%' : '30%') : 
+                                                (lang === 'tj' ? (isMobile ? '54%' : '33%') : (isMobile ? '26%' : '17%'))}
                                         >
                                             {lang === 'ru' ? 'УЗНАТЬ БОЛЬШЕ' : (lang === 'tj' ? 'БИСЁРТАР ОМӮЗЕД' : 'EXPLORE')}
                                         </StyledButton>
@@ -87,6 +94,7 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                         </StepperBox>
                     );
                 })}
+                {isMobile && <ImageSemiCircle src={stepInfo[visibleStepIndex]?.inner[2].img} />}
             </StepperContainer>
             <OtherSteps bottom={1}>
                 <Step>{stepInfo[visibleStepIndex + 1]?.num || stepInfo[0]?.num}</Step>

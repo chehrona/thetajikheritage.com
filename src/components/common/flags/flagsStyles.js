@@ -17,6 +17,7 @@ export const FlagWrapper = styled.div`
 
     @media (max-width: 768px) {
         left: 0rem;
+        bottom: 1.3rem;
     }
 `;
 
