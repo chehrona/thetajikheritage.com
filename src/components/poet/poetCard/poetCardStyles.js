@@ -20,6 +20,7 @@ export const PoetBoxContainer = styled.div`
     gap: 3rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: ${({ justify }) => justify && (justify <= 2 ? 'start' : 'center')};
 
     @media (max-width: 768px) {
         gap: 1rem;

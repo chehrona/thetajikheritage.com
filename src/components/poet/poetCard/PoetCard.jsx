@@ -28,7 +28,7 @@ export default function PoetCard() {
     }, []);
 
     return (
-        <PoetBoxContainer>
+        <PoetBoxContainer justify={poets?.length}>
             {poets?.map((poet, i) => {
                 return (
                     <StyledLink key={i} to={"/language" + poet?.link}>

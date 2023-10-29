@@ -17,6 +17,10 @@ export default function Flags() {
         setShowLangMenu(true);
     }
 
+    function handleClick() {
+        setShowLangMenu(prevState => !prevState);
+    }
+
     function changeLang(e) {
         const iconTitle = e.currentTarget.getAttribute("data");
 
@@ -26,7 +30,7 @@ export default function Flags() {
 
     return (
         <FlagWrapper>
-            <StyledIconButton onMouseEnter={showLangOptions}>
+            <StyledIconButton onMouseEnter={showLangOptions} onClick={handleClick}>
                 <Tooltip title={langNames[lang]} placement="right" arrow>
                     <span><StyledFlag lang={lang}></StyledFlag></span>
                 </Tooltip> 

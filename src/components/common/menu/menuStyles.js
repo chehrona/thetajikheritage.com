@@ -15,15 +15,6 @@ const closeAnimation = keyframes`
         transform: translateY(-100%)
     }
 `;
- 
-const fadeInAnimation = keyframes`
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-`;
 
 export const MenuContainer = styled.div`
     width: 100%;
@@ -36,9 +27,8 @@ export const MenuContainer = styled.div`
     height: calc(100vh - 6rem);
     transform: translateY(-100%);
     animation-name: ${({ open }) => (open && open !== null) && openAnimation};
-    animation-name: ${({ open }) => (!open && open !== null)  && closeAnimation};
-    opacity: ${({ open }) => (!open && open !== null) && '0'};
-    animation-duration: 1s;
+    animation-name: ${({ open }) => (!open && open !== null) && closeAnimation};
+    animation-duration: 700ms;
     animation-fill-mode: both;
     position: absolute;
     z-index: 100;
@@ -77,9 +67,6 @@ export const PageNamesContainer = styled.div`
     padding: 1em;
     padding-top: 0em;
     font-size: 2em;
-    animation: ${fadeInAnimation};
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
 
     @media (max-width: 768px) {
         width: 100%;

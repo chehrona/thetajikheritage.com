@@ -18,13 +18,14 @@ const slideOut = keyframes`
 `;
 
 export const RecipeBoxContainer = styled.div`
+    gap: 3rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 3rem;
+    justify-content: ${({ justify }) => justify && (justify <= 2 ? 'start' : 'center')};
 
     @media (max-width: 768px) {
-        justify-content: space-between;
         gap: 1rem;
+        justify-content: space-between;
     }
 `;
 

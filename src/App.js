@@ -19,9 +19,9 @@ export function useSetLang() {
 }
 
 function App() {
-    const [lang, setLang] = useState('us'),
-            [isPrint, setIsPrint] = useState(false),
-            [isMenuShown, setIsMenuShown] = useState(null);
+    const [lang, setLang] = useState('us');
+    const [isPrint, setIsPrint] = useState(false);
+    const [isMenuShown, setIsMenuShown] = useState(null);
 
     const value = useMemo(() => (
         {

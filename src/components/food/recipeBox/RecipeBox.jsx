@@ -16,7 +16,7 @@ import {
 } from "./recipeBoxStyles";
 
 export default function RecipeBox() {
-    const { lang, isMenuShown, setLang } = useSetLang();
+    const { lang, setLang } = useSetLang();
     const location = useLocation();
 
     useEffect(() => {
@@ -30,31 +30,29 @@ export default function RecipeBox() {
         audioFile.play();
     }
 
-    if (!isMenuShown) {
-        return (
-            <RecipeBoxContainer>
-                {recipes?.map((recipe, i) => {
-                    return (
-                        <RecipeCard key={i} delay={`${0.01*i}s`}>
-                            <StyledLink to={"/cuisine" + recipe?.link}>
-                                <RecipeImage loading="lazy" src={recipe?.imageName} />
-                            </StyledLink>
-                            <RecipeNameBox>
-                                <RecipeInfo>
-                                    <div>{recipe?.title[lang]}</div>
-                                    <StyledIconButton onClick={(e) => toggleAudio(e)}>
-                                        <audio src={recipe?.sound}></audio>
-                                        <VolumeUp />
-                                    </StyledIconButton>
-                                </RecipeInfo>
-                                <RecipeSubtitle>
-                                    {recipe?.subtitle[lang]}
-                                </RecipeSubtitle>
-                            </RecipeNameBox>
-                        </RecipeCard>
-                    )
-                })}  
-            </RecipeBoxContainer>
-        )
-    }
+    return (
+        <RecipeBoxContainer justify={recipes?.length}>
+            {recipes?.map((recipe, i) => {
+                return (
+                    <RecipeCard key={i} delay={`${0.01*i}s`}>
+                        <StyledLink to={"/cuisine" + recipe?.link}>
+                            <RecipeImage src={recipe?.imageName} />
+                        </StyledLink>
+                        <RecipeNameBox>
+                            <RecipeInfo>
+                                <div>{recipe?.title[lang]}</div>
+                                <StyledIconButton onClick={(e) => toggleAudio(e)}>
+                                    <audio src={recipe?.sound}></audio>
+                                    <VolumeUp />
+                                </StyledIconButton>
+                            </RecipeInfo>
+                            <RecipeSubtitle>
+                                {recipe?.subtitle[lang]}
+                            </RecipeSubtitle>
+                        </RecipeNameBox>
+                    </RecipeCard>
+                )
+            })}  
+        </RecipeBoxContainer>
+    );
 }
