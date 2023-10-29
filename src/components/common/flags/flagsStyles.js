@@ -7,16 +7,14 @@ import tjLogo from "./images/tajikistan.png";
 
 export const FlagWrapper = styled.div`
     height: 2rem;
-    width: 2.4rem;
+    width: 2rem;
     cursor: pointer;
-    margin-bottom: 0.4rem;
     position: fixed;
-    left: 0.6rem;
-    bottom: 0.6rem;
-    z-index: 100;
+    left: 0.3rem;
+    bottom: 0.9rem;
+    z-index: 1000;
 
     @media (max-width: 768px) {
-        left: 0rem;
         bottom: 1.3rem;
     }
 `;
@@ -25,8 +23,8 @@ export const StyledFlag = styled.div`
     width: 1.5rem;
     border-radius: 50%;
     height: 1.5rem;
-    box-shadow: 0.05rem 0.05rem 0.8rem 0.05rem #0F0A00b2;
     background-size: 100%;
+    box-shadow: 0.05rem 0.05rem 0.8rem 0.05rem #0F0A00b2;
     background-image: ${({lang}) => lang === "kh" ? `url(${khorLogo})` :
                                     lang === "us" ? `url(${usLogo})` :
                                     lang === "ru" ? `url(${ruLogo})` :
@@ -47,6 +45,13 @@ export const FlagDropdown = styled.div`
 
 export const StyledIconButton = styled(IconButton)`
     &.MuiIconButton-root {
-        padding: 0.6rem;    
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    @media (max-width: 768px) {
+        &.MuiIconButton-root {
+            margin-bottom: 0.5rem;
+        }
     }
 `;

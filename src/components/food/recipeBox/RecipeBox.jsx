@@ -8,11 +8,11 @@ import { StyledLink } from "../recipeBox/recipeBoxStyles";
 import { 
     RecipeBoxContainer,
     RecipeCard,
-    RecipeTitle,
     RecipeImage,
     RecipeSubtitle,
     RecipeNameBox,
     StyledIconButton,
+    RecipeInfo
 } from "./recipeBoxStyles";
 
 export default function RecipeBox() {
@@ -40,21 +40,20 @@ export default function RecipeBox() {
                                 <RecipeImage loading="lazy" src={recipe?.imageName} />
                             </StyledLink>
                             <RecipeNameBox>
-                                <RecipeTitle>
-                                    {recipe?.title[lang]}
-                                </RecipeTitle>
-                                <StyledIconButton onClick={(e) => toggleAudio(e)}>
-                                    <audio src={recipe?.sound}></audio>
-                                    <VolumeUp />
-                                </StyledIconButton>
+                                <RecipeInfo>
+                                    <div>{recipe?.title[lang]}</div>
+                                    <StyledIconButton onClick={(e) => toggleAudio(e)}>
+                                        <audio src={recipe?.sound}></audio>
+                                        <VolumeUp />
+                                    </StyledIconButton>
+                                </RecipeInfo>
+                                <RecipeSubtitle>
+                                    {recipe?.subtitle[lang]}
+                                </RecipeSubtitle>
                             </RecipeNameBox>
-                            <RecipeSubtitle>
-                                {recipe?.subtitle[lang]}
-                            </RecipeSubtitle>
                         </RecipeCard>
                     )
-                })}
-                
+                })}  
             </RecipeBoxContainer>
         )
     }

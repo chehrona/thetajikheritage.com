@@ -5,7 +5,6 @@ import { stepInfo } from "../../components/homeStepper/helper";
 
 import HomeStepper from '../../components/homeStepper/HomeStepper';
 import ImageBall from '../../components/imageBall/ImageBall';
-import MobHomeStepper from "../../components/homeStepper/mobile/MobHomeStepper";
 
 import { InnerContainer, PageContainer } from './homePageStyles';
 

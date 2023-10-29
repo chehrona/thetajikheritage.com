@@ -15,9 +15,13 @@ const slideUp = keyframes`
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
-    min-height: 100vh; 
-    background-color: #000;
-    padding: 1rem;
+    min-height: 100svh;
+    background-color: white;
+    padding: 2rem 3.7rem 2.8rem 3.2rem;
+    
+    @media (max-width: 768px) {
+        padding: 0rem;
+    }
 `;
 
 export const RecipeContainer = styled.div`

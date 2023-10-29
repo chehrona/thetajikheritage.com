@@ -17,27 +17,25 @@ const slideOut = keyframes`
 `;
 
 export const PoetBoxContainer = styled.div`
-    margin: 5rem;
-    margin-top: 2rem;
+    gap: 3rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 
     @media (max-width: 768px) {
-        margin: 1rem 3.2rem 3.2rem 3.2rem;
+        gap: 1rem;
+        justify-content: space-between;
     }
 `;
 
 export const PoetCardWrapper = styled.div`
-    border-radius: 0.7rem;
-    margin-bottom: 7rem;
-    height: 35rem;
+    opacity: 0;
     width: 23rem;
+    height: 35rem;
+    color: #fcf6e9;
     cursor: pointer;
     background: #0F0A00;
-    color: #fcf6e9;
     position: relative;
-    opacity: 0;
+    border-radius: 0.7rem;
     animation: ${slideOut} 1s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
@@ -47,8 +45,6 @@ export const PoetCardWrapper = styled.div`
     }
 
     @media (max-width: 768px) {
-        border-radius: 0.7rem;
-        margin-bottom: 1rem;
         height: 19.025rem;
         width: 12.5rem;
         box-shadow: 0rem 0rem 0.6rem #504221d1;

@@ -19,18 +19,18 @@ import {
     SourceLink
 } from "./sourceStyles";
 
-export default function Sources({data, line, color, title, background }) {
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+export default function Sources({ data, line, color, title, background }) {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(0);
     const { lang } = useSetLang();
 
     return (
         <DropDownContainer>
             <IconContainer>
-                <Line right={true} line={line} />
+                <Line right={1} line={line} />
                 <IconButton onClick={() => setIsDropdownOpen(prevState => !prevState)}>
                     {isDropdownOpen ? <StyledUpIcon line={line} /> : <StyledDownIcon line={line} />}
                 </IconButton>
-                <Line right={false} line={line} />
+                <Line right={0} line={line} />
             </IconContainer>
             <RefContainer
                 open={isDropdownOpen}

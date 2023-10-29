@@ -7,7 +7,7 @@ export const DropDownContainer = styled.div`
     padding-top: 1rem;
 
     @media (max-width: 768px) {
-        padding-top: 0rem;
+        padding: 0rem 1.5rem 0rem 1.5rem;
         margin-bottom: 3rem;
     }
 `;
@@ -57,9 +57,7 @@ export const RefContainer = styled.div`
 `;
 
 export const RefWrapper = styled.div`
-    margin: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
 
     @media (max-width: 768px) {
         margin: 1rem;

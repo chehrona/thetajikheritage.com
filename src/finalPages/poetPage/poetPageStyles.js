@@ -2,19 +2,17 @@ import styled from "styled-components";
 
 export const PageContainer = styled.div`
     box-sizing: border-box;
-    min-height: 100vh;
+    min-height: 100svh;
     background-color: white;
-    padding: 1rem;
+    padding: 2rem 3.7rem 2.8rem 3.2rem;
     
     @media (max-width: 768px) {
-        margin: 0rem;
         padding: 0rem;
     }
 `;
 
 export const PoetContainer = styled.div`
     border-radius: 4rem;
-    margin: 1rem 3rem 1.5rem 3rem;
     background: #fcf6e9;
     box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
 

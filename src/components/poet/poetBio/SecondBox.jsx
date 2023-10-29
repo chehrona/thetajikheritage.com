@@ -12,7 +12,6 @@ import {
     Backdrop,
     NavBox,
     Line,
-    StyledIconButton,
     Arrow,
     InnerOverlay,
     LineWrapper,
@@ -20,7 +19,8 @@ import {
     Info,
     NavWrapper,
     FillerOne,
-    FillerTwo
+    FillerTwo,
+    StyledIconButton,
 } from "./poetBioStyles";
 
 export default function SecondBox({ poet }) {

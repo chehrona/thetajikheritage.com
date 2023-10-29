@@ -18,21 +18,21 @@ const slideOut = keyframes`
 `;
 
 export const RecipeBoxContainer = styled.div`
-    margin: 4rem;
-    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 3rem;
+
+    @media (max-width: 768px) {
+        justify-content: space-between;
+        gap: 1rem;
+    }
 `;
 
 export const RecipeCard = styled.div`
-    border-radius: 0.7rem;
-    height: 35rem;
-    width: 23rem;
-    margin-bottom: 7rem;
+    opacity: 0;
+    color: #0F0A00;
     cursor: pointer;
     position: relative;
-    opacity: 0;
     animation: ${slideOut} 1s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 `;
@@ -40,43 +40,65 @@ export const RecipeCard = styled.div`
 export const RecipeNameBox = styled.div`
     display: flex;
     font-size: 2rem;
-    align-items: center;
     margin-top: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        margin-top: 0rem;
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
     width: 2.5rem;
+    height: 2.5rem;
+    margin-top: -0.1rem;
 
     &.MuiIconButton-root {
-        margin-top: 0.3rem;
+        margin-left: 0.3rem;
     }
 
     &:hover {
         color: #59a959;
     }
+
+    @media (max-width: 768px) {
+        &.MuiIconButton-root {
+            color: #59a959;
+        }
+    }
 `;
 
-export const RecipeTitle = styled.div`
+export const RecipeInfo = styled.div`
+    display: flex;
+    align-items: center;
     font-weight: 500;
-    margin-right: 0.3rem;
-    font-family: 'EB Garamond', serif;
     font-style: italic;
+    font-family: 'EB Garamond', serif;
 `;
 
 export const RecipeSubtitle = styled.div`
     font-size: 1.1rem;
-    margin-top: -0.2rem;
 `;
 
 export const RecipeImage = styled.img`
+    height: 35rem;
+    width: 23rem;
     border-radius: 0.7rem;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0rem 0rem 0.3rem 0.5rem #fcf6e9;
 
     &:hover {
         border-radius: 1.5rem;
-        box-shadow: 0rem 0rem 0.3rem 0.5rem #fcf6e9;
+        box-shadow: 0rem 0rem 0.6rem #504221d1;
+    }
+
+    @media (max-width: 768px) {
+        height: 19.025rem;
+        width: 12.5rem;
+        box-shadow: 0rem 0rem 0.6rem #504221d1;
+
+        &:hover {
+            border-radius: 0.7rem;
+        }
     }
 `;
 
