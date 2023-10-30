@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import BookReader from "../bookReader/BookReader";
+import BookDialog from "../bookDialog/BookDialog";
+
 import { Tooltip } from "@mui/material";
 
 import {
@@ -18,7 +20,6 @@ import {
     Cursor,
     CursorImg,
 } from "./bookshelfDesignStyles";
-import BookDialog from "../bookDialog/BookDialog";
 
 export default function BookshelfDesign({ shelfNum, work, overlay, setOverlay }) {
     const [openBook, setOpenBook] = useState(false);

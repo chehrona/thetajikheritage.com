@@ -21,6 +21,7 @@ export const MenuContainer = styled.div`
     overflow: hidden;
     color: #bd9d52;
     display: flex;
+    align-items: center;
     padding: 3rem;
     justify-content: space-around;
     background: rgb(51 51 51);
@@ -48,8 +49,8 @@ export const LogoContainer = styled.div`
 
 export const Logo = styled.img`
     border-radius: 50%;
-    height: 35em;
-    width: 35em;
+    height: 40rem;
+    width: 40rem;
     color: black;
 `;
 
@@ -63,15 +64,18 @@ export const LogoHalf = styled.img`
 `;
 
 export const PageNamesContainer = styled.div`
-    width: 35%;
-    padding: 1em;
-    padding-top: 0em;
-    font-size: 2em;
+    width: 40%;
+    height: 100%;
+    gap: 2rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     @media (max-width: 768px) {
+        justify-content: start;
+        margin-top: 5rem;
         width: 100%;
-        padding: 0rem;
-        align-items: center;
     }
 `;
 
@@ -82,7 +86,6 @@ export const MenuItem = styled.div`
 export const PageName = styled.div`
     font-weight: bold;
     font-style: italic;
-    padding-top: 1em;
     cursor: pointer;
     font-family: 'EB Garamond', serif;
 `;

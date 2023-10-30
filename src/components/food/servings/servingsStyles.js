@@ -4,16 +4,22 @@ import { Link } from "react-router-dom";
 
 export const MainContainer = styled.div`
     display: flex;
-    margin-bottom: 2rem;
-    min-height: 9rem;
     justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+
+    @media (max-width: 768px) {
+        justify-content: center;
+        padding: 1rem 1.5rem 2rem 1.5rem;
+        font-size: 1.3rem;
+    }
 `;
 
 export const QuantityContainer = styled.div`
-    text-align: center;
-    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 4.7rem;
 `;
 
 export const StyledAddIcon = styled(Add)`
@@ -25,6 +31,12 @@ export const StyledAddIcon = styled(Add)`
     &.MuiSvgIcon-root {
         font-size: 2rem;
     }
+
+    @media (max-width: 768px) {
+        &.MuiSvgIcon-root {
+            font-size: 2.5rem;
+        }
+    }
 `;
 
 export const ServeAmount = styled.input`
@@ -35,6 +47,13 @@ export const ServeAmount = styled.input`
     padding: 0.2rem;
     text-align: center;
     font-family: 'IBM Plex Serif', serif;
+
+    @media (max-width: 768px) {
+        width: 3.5rem;
+        height: 2.5rem;
+        font-size: 1.3rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
 `;
 
 export const StyledMinusIcon = styled(Remove)`
@@ -46,13 +65,24 @@ export const StyledMinusIcon = styled(Remove)`
     &.MuiSvgIcon-root {
         font-size: 2rem;
     }
+
+    @media (max-width: 768px) {
+        &.MuiSvgIcon-root {
+            font-size: 2.5rem;
+        }
+    }
 `;
 
 export const SubTitle = styled.div`
-    margin-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
     font-weight: 600;
     font-size: 1.2rem;
     color: #000;
+
+    @media (max-width: 768px) {
+        padding-bottom: 0rem;
+        font-size: 1.3rem;
+    }
 `;
 
 export const ServeContainer = styled.div`
@@ -60,26 +90,25 @@ export const ServeContainer = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 1.3rem;
-`;
 
-export const TotalContainer = styled.div`
-    padding-top: 0.5rem;
-    margin-left: 2rem;
-    text-align: center;
-    width: fit-content;
-    min-width: 4.7rem;
+    @media (max-width: 768px) {
+        margin-top: 1rem;
+    }
 `;
 
 export const TimeBox = styled.div`
     margin-top: 2rem;
     font-size: 1.2rem;
+
+    @media (max-width: 768px) {
+        font-size: 1.3rem;
+    }
 `;
 
 export const PrintContainer = styled.div`
     padding-top: 0.5rem;
     text-align: center;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    margin: 0rem 1rem 0rem 2rem;
 `;
 
 export const PrintBox = styled.img`

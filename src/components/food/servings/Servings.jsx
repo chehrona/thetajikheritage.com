@@ -1,6 +1,7 @@
 import { IconButton } from "@mui/material";
 import React from "react";
 import { useEffect } from "react";
+import { useMediaQuery } from 'react-responsive';
 import { useSetLang } from "../../../App";
 
 import {
@@ -11,7 +12,6 @@ import {
     StyledMinusIcon,
     SubTitle,
     ServeContainer,
-    TotalContainer,
     TimeBox,
     PrintContainer,
     PrintBox,
@@ -20,6 +20,7 @@ import {
 
 export default function Servings({ recipe, servings, setServings }) {
     const { lang } = useSetLang();
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
 
     useEffect(() => {
         if (servings.length > 0 && !parseInt(servings)) {
@@ -68,26 +69,26 @@ export default function Servings({ recipe, servings, setServings }) {
                     </IconButton>
                 </ServeContainer>
             </QuantityContainer>
-            <TotalContainer>
+            <QuantityContainer>
                 <SubTitle>{recipe?.timeLang[lang][0]}</SubTitle>
                 <TimeBox>{recipe?.time[lang].total}</TimeBox>
-            </TotalContainer>
-            <TotalContainer>
+            </QuantityContainer>
+            <QuantityContainer>
                 <SubTitle>{recipe?.timeLang[lang][1]}</SubTitle>
                 <TimeBox>{recipe?.time[lang].prep}</TimeBox>
-            </TotalContainer>
-            <TotalContainer>
+            </QuantityContainer>
+            <QuantityContainer>
                 <SubTitle>{recipe?.timeLang[lang][2]}</SubTitle>
                 <TimeBox>{recipe?.time[lang].cook}</TimeBox>
-            </TotalContainer>
-            <PrintContainer>
+            </QuantityContainer>
+            {!isMobile && <PrintContainer>
                 <SubTitle>{recipe?.timeLang[lang][3]}</SubTitle>
                 <StyledLink to={"/cuisine" + recipe.link + "/print"} target={"_blank"}>
                     <IconButton style={{marginTop: "0.55rem"}}>
-                        <PrintBox loading="lazy" src={'/printIcons/printer.png'}></PrintBox>
+                        <PrintBox src={'/printIcons/printer.png'}></PrintBox>
                     </IconButton>
                 </StyledLink>
-            </PrintContainer>
+            </PrintContainer>}
         </MainContainer>
     )
 }

@@ -121,7 +121,7 @@ export const Year = styled.div`
 export const StyledIconButton = styled(IconButton)`
     width: 3rem;
     height: 3rem;
-    bottom: 1rem;
+    bottom: 0.5rem;
     left: 50%;
     transform: translateX(-50%);
 

@@ -10,6 +10,7 @@ import {
 
 export default function Directions({ recipe }) {
     const { lang } = useSetLang();
+    
     return (
         <MainContainer height={recipe?.height}>
             <SubTitle>{recipe.directionsLang[lang]}</SubTitle>

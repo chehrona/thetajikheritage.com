@@ -22,12 +22,12 @@ module.exports.recipes = [
                 found in the writings of the 19th—century Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots 
                 as far back as the mid-8th century when tea was introduced to Central Asia from China.<sup>3</sup>
                 Additionally, the Pamiris have a legendary account regarding the creation of the very first shirchoy:
-                <div class='quoteContainer'><div class='quoteSymbol'></div>
+                <div class='quoteContainer'><div><div class='quoteSymbol'></div>
                 <div class='quoteWrapper'>One day, people came back 
                 to our village ... [and] brought leaves with them... We boiled a big pot of water and threw in all the tea, then invited 
                 the villagers to drink it. People tried it ..., 
                 but found it horrible [very bitter]. Later, people began to add [extra] things to it - milk, walnuts, dried apple, other 
-                things - and it slowly grew on them.<sup style='font-style: normal'>4</sup></div></div>
+                things - and it slowly grew on them.<sup style='font-style: normal'>4</sup></div></div></div>
                 Unlike milk teas from the West, like English tea, Tajik milk tea is more than just a beverage — it serves as a substantial 
                 meal typically enjoyed for breakfast or as a light dinner.<br>
                 The preparation of shirchoy involves the combination of milk and tea, but it doesn't stop there. Additional ingredients are added to enhance its flavor and texture. 

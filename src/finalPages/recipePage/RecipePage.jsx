@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import {useParams} from "react-router-dom";
+import { useMediaQuery } from 'react-responsive';
+import { useParams } from "react-router-dom";
 import { useSetLang } from "../../App";
 
 import "./finalPagesStyles.css";
@@ -25,11 +26,12 @@ import {
 } from "./recipePageStyles";
 
 export default function RecipePage() {
-    const { id } = useParams(),
-        { lang } = useSetLang(),
-        [pinHovered, setPinHovered] = useState(false),
-        recipe = recipes.filter((recipe) => recipe.id === id)[0],
-        [servings, setServings] = useState(recipe?.startServing);
+    const { id } = useParams();
+    const { lang } = useSetLang();
+    const [pinHovered, setPinHovered] = useState(false);
+    const recipe = recipes.filter((recipe) => recipe.id === id)[0];
+    const [servings, setServings] = useState(recipe?.startServing);
+    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
 
     if (recipe) {
         return (
@@ -44,7 +46,7 @@ export default function RecipePage() {
                             >
                             <StyledPinIcon />
                         </a>
-                        <MainImage loading="lazy" src={recipe?.mainImg} />
+                        <MainImage src={recipe?.mainImg} />
                     </ImageContainer>
                     <RecipeInfo recipe={recipe} />
                     <Sources
@@ -58,10 +60,11 @@ export default function RecipePage() {
                     <SubContainer>
                         <IngredientContainer>
                             <Allergy recipe={recipe} />
+                            {isMobile && <Servings recipe={recipe} servings={servings} setServings={setServings} />}
                             <RecipeIngredients recipe={recipe} />
                         </IngredientContainer>
                         <InstructionContainer>
-                            <Servings recipe={recipe} servings={servings} setServings={setServings}/>
+                            {!isMobile && <Servings recipe={recipe} servings={servings} setServings={setServings} />}
                             <Directions recipe={recipe} />
                         </InstructionContainer>
                     </SubContainer>

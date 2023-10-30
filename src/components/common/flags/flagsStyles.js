@@ -47,6 +47,7 @@ export const StyledIconButton = styled(IconButton)`
     &.MuiIconButton-root {
         height: 2.5rem;
         width: 2.5rem;
+        margin-bottom: 0.25rem;
     }
 
     @media (max-width: 768px) {

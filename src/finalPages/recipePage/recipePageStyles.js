@@ -25,16 +25,18 @@ export const PageContainer = styled.div`
 `;
 
 export const RecipeContainer = styled.div`
-    box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
-    background-color: #fcf6e9;
     color: #0F0A00;
     border-radius: 4rem;
+    padding: 3rem;
+    background-color: #fcf6e9;
     background-image: url(${'/noise.png'});
-    padding: 2rem;
+    box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
 
     @media (max-width: 768px) {
-        margin: 0rem;
+        padding: 0rem;
         border-radius: 0rem;
+        display: flex;
+        flex-direction: column;
         box-shadow: 0rem 0rem 0rem 0rem;
     }
 `;
@@ -49,6 +51,11 @@ export const MainImage = styled.img`
     transform: translateY(-100%);
     animation: ${slideUp} 0.5s ease-in-out forwards;
     box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
+
+    @media (max-width: 768px) {
+        border-radius: 0rem;
+        box-shadow: 0rem 0rem 0rem 0rem;
+    }
 `;
 
 export const IntroSection = styled.div`
@@ -60,9 +67,13 @@ export const IntroSection = styled.div`
 export const ImageContainer = styled.div`
     width: 30rem;
     height: 45rem;
-    margin-right: 3rem;
-    margin-bottom: 2.23rem;
+    margin: 0rem 3rem 1rem 0rem;
     float: left;
+
+    @media (max-width: 768px) {
+        margin: 0rem;
+        width: 100%;
+    }
 `;
 
 export const InfoContainer = styled.div`
@@ -87,9 +98,19 @@ export const InstructionContainer = styled.div`
 export const IngredientContainer = styled.div`
     width: 30rem;
     margin-right: 3.5rem;
+
+    @media (max-width: 768px) {
+        margin-right: 0rem;
+        width: 100%;
+    }
 `;
 
 export const SubContainer = styled.div`
     margin-top: 3rem;
     display: flex;
+
+    @media (max-width: 768px) {
+        margin-top: 0rem;
+        flex-direction: column;
+    }
 `;

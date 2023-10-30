@@ -32,7 +32,6 @@ export default function PoetWorks({ poet }) {
                                 work={poet[lang].slice(i * 2, (i + 1) * 2)}
                             />);
             }
-    
         } else {
             for (let i = 0; i < n; i++) {
                 shelves.push(<BookshelfDesign

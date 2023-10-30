@@ -3,13 +3,12 @@ import { useSetLang } from "../../../App";
 
 import {
     AllergyContainer,
-    ContainsBox,
     BoxTitle,
     LabelWrapper,
     LabelContainer,
     LabelImage,
     AllergenName,
-    DietBox,
+    ContentBox,
 } from "./allergyStyles"
 
 export default function Allergy({ recipe }) {
@@ -17,13 +16,13 @@ export default function Allergy({ recipe }) {
     return (
         <AllergyContainer>
             {recipe.contains && 
-                <ContainsBox>
+                <ContentBox>
                     <BoxTitle>{recipe?.containsLang[lang]}</BoxTitle>
                     <LabelWrapper>
                         {recipe?.contains?.map((label, i) => {
                             return (
                                 <LabelContainer key={i}>
-                                    <LabelImage loading="lazy" src={`/allergyLabels/${label}.png`} />
+                                    <LabelImage src={`/allergyLabels/${label}.png`} />
                                     <AllergenName>
                                         {recipe?.labels[i][lang]}
                                     </AllergenName>
@@ -31,16 +30,16 @@ export default function Allergy({ recipe }) {
                             )
                         })}
                     </LabelWrapper>
-                </ContainsBox>
+                </ContentBox>
             }
             {recipe.diet && 
-                <DietBox>
+                <ContentBox>
                     <BoxTitle>{recipe?.dietLang[lang]}</BoxTitle>
                     <LabelWrapper>
                         {recipe?.diet.map((label, i) => {
                             return (
                                 <LabelContainer key={i}>
-                                    <LabelImage loading="lazy" src={`/allergyLabels/${label}.png`} />
+                                    <LabelImage src={`/allergyLabels/${label}.png`} />
                                     <AllergenName>
                                         {recipe?.dietLabels[i][lang]}
                                     </AllergenName>
@@ -48,7 +47,7 @@ export default function Allergy({ recipe }) {
                             )
                         })}
                     </LabelWrapper>
-                </DietBox>
+                </ContentBox>
             }
         </AllergyContainer>
     )

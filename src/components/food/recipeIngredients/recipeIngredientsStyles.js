@@ -1,13 +1,16 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-    padding: 2rem;
-    padding-top: 1rem;
     border-radius: 1rem;
     background: #fff;
     margin-top: 2rem;
     color: black;
+    padding: 1rem 2rem 2rem 2rem;
     box-shadow: 0rem 0rem 0.4rem 0.01rem #92793f;
+
+    @media (max-width: 768px) {
+        margin: 0rem 1.5rem 1rem 1.5rem;
+    }
 `;
 
 export const SubTitle = styled.div`

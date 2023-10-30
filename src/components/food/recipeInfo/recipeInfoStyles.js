@@ -18,6 +18,11 @@ const slideOut = keyframes`
 export const InfoContainer = styled.div`
     display: inline;
     margin-bottom: 0.8rem;
+
+    @media (max-width: 768px) {
+        display: block;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+    }
 `;
 
 export const MainTitle = styled.div`
@@ -30,6 +35,10 @@ export const MainTitle = styled.div`
     text-shadow: 0.0625rem 0.0625rem 0.0875rem #0F0A00;
     opacity: 0;
     animation: ${slideOut} 0.5s ease-in-out forwards;
+
+    @media (max-width: 768px) {
+        font-size: 4.5rem;
+    }
 `;
 
 export const HistoryInfo = styled.div`
@@ -39,4 +48,8 @@ export const HistoryInfo = styled.div`
     opacity: 0;
     animation: ${slideOut} 0.5s ease-in-out forwards;
     animation-delay: 0.01s;
+
+    @media (max-width: 768px) {
+        font-size: 1.3rem;
+    }
 `;

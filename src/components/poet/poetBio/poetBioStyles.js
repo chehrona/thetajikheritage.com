@@ -485,7 +485,7 @@ export const FinalQuote = styled.div`
 `;
 
 export const Author = styled.div`
-     color: #fcf6e9;
+    color: #fcf6e9;
     font-size: 1.1rem;
     font-style: normal;
     text-align: end;
@@ -530,7 +530,7 @@ export const ImgInfo = styled.div`
     text-align: left;
     padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     color: #fcf6e9;
-    bottom: 3.5rem;
+    bottom: 0.5rem;
     background-color: #26262680;
 
     ${({ up }) => up && `
@@ -538,6 +538,7 @@ export const ImgInfo = styled.div`
         left: calc(50% + 1rem);
         background-color: transparent;
         width: auto;
+        bottom: 3.5rem;
     `}
 
     @media (max-width: 768px) {
