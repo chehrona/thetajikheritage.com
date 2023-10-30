@@ -15,13 +15,13 @@ module.exports.recipes = [
         mainImg: '/recipePics/shirchoy.jpeg',
         sound: '/recipeNames/shirchoy.mp3',
         history: {
-            us: `<span class='termSpan'>Shirchoy</span> is a traditional dish prepared in various Central Asian
-                countries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
+            us: `<span class='termSpan'>Shirchoy</span> is a traditional dish prepared in va&shyri&shyous Central Asian and Middle Eastern
+                coun&shytries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
                 <span class='termSpan'>"shir,"</span> meaning milk, and <span class='termSpan'>"choy,"</span>  which refers to tea.<sup>1</sup>
-                The exact regional or historical origins of shirchoy remain uncertain. However, the most detailed account of the dish can be 
+                The exact regional or historical origins of shirchoy remain un&shycer&shytain. However, the most detailed account of the dish can be 
                 found in the writings of the 19th—century Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots 
                 as far back as the mid-8th century when tea was introduced to Central Asia from China.<sup>3</sup>
-                Additionally, the Pamiris have a legendary account regarding the creation of the very first shirchoy:
+                Additionally, the Pa&shymi&shyris have a legendary account regarding the creation of the very first shirchoy:
                 <div class='quoteContainer'><div><div class='quoteSymbol'></div>
                 <div class='quoteWrapper'>One day, people came back 
                 to our village ... [and] brought leaves with them... We boiled a big pot of water and threw in all the tea, then invited 
@@ -29,45 +29,47 @@ module.exports.recipes = [
                 but found it horrible [very bitter]. Later, people began to add [extra] things to it - milk, walnuts, dried apple, other 
                 things - and it slowly grew on them.<sup style='font-style: normal'>4</sup></div></div></div>
                 Unlike milk teas from the West, like English tea, Tajik milk tea is more than just a beverage — it serves as a substantial 
-                meal typically enjoyed for breakfast or as a light dinner.<br>
-                The preparation of shirchoy involves the combination of milk and tea, but it doesn't stop there. Additional ingredients are added to enhance its flavor and texture. 
-                These may include pieces of flatbread (usually stale bread is repurposed), butter or ghee, dried apple slices, mulberry, almond leaves, walnuts, and rose hip flowers.<sup>2,4</sup>
-                Shirchoy can incorporate unconventional ingredients for milk-based meals, including small amounts of pepper (seasoning), 
+                meal typically en&shyjoyed for breakfast or as a light dinner.<br>
+                The preparation of shirchoy involves the com&shybi&shyna&shytion of milk and tea, but it doesn't stop there. Additional 
+                ingredients are added to en&shyhance its flavor and texture. 
+                These may in&shyclude pieces of flatbread (usually stale bread is repurposed), butter or ghee, dried apple slices, mulberry, almond leaves, walnuts, and rose hip flowers.<sup>2,4</sup>
+                Shirchoy can incorporate un&shycon&shyven&shytional ingredients for milk-based meals, in&shyclud&shying small amounts of pepper (seasoning), 
                 <div class="tooltip">raw onion slices<span class="tooltiptext" style='width: 12rem; margin-left: -6rem;'>Only in Samarkand</span></div>
                 or even melted <div class="tooltip">sheep tail fat
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>.<sup>2</sup>
-                Also, shirchoy is occasionally known by different names that highlight additional ingredients beyond tea and milk. 
-                Since it is predominantly a salty dish, it is alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
-                In the region of Badakhshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzshirchoy"</span> is prepared, featuring ground toasted walnuts as one
-                of its key ingredients.<sup>4</sup> The name is derived from the Shughni word <span class='termSpan'>"ghüz" [ɣůz]</span> meaning "walnut".<sup>5</sup><br>
-                The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often incorporate ghee
-                or cream, providing them with higher-calorie sustenance to endure the harsh and cold weather. Given the variety of ingredients used in shirchoy, 
+                Also, shirchoy is occasionally known by dif&shyfer&shyent names that highlight additional in&shygre&shydi&shyents beyond tea and milk. 
+                Since it is pre&shydom&shyi&shynant&shyly a salty dish, it is alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
+                In the region of Ba&shydakh&shyshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzshirchoy"</span> is prepared, featuring ground toasted walnuts as one
+                of its key ingredients.<sup>4</sup> The name is derived from the Shughni word <span class='termSpan'>"ghüz" [ɣůz]</span> meaning "walnut."<sup>5</sup><br>
+                The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often in&shycor&shypo&shyrate ghee
+                or cream, providing them with higher-calorie sustenance to endure the harsh and cold weather. Given the variety of in&shygre&shydi&shyents used in shirchoy, 
                 it can be classified as a milk-based "soup" mainly served in bowls or deep wooden plates.<br>
-                Interestingly, despite being a liquid dish, shirchoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
+                Interestingly, despite being a liquid dish, shir&shychoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
                 and the remaining liquid is drunk from the bowl.<sup>6</sup> This approach allows the bread to serve a dual purpose. While urban Tajiks tend to enjoy shirchoy 
                 primarily during the winter months, mountain communities such as the Pamiri people enjoy it year-round and multiple times a day, owing to their high-altitude environment.<sup>2,4</sup>`,
-            ru: `<span class='termSpan'>Ширчой</span> — традиционное блюдо, которое готовят в разных странах Центральной Азии, в том числе в Таджикистане. Его название «ширчой» происходит 
-                от сочетания двух таджикско-персидских слов: <span class='termSpan'>«шир»</span>, что означает молоко, и <span class='termSpan'>«чой»</span>, что означает чай.<sup>1</sup>
-                Конкретное региональное или историческое происхождение ширчоя остается неопределённым. Однако наиболее подробное описание блюда можно найти в трудах таджикского учёного XIX века Возеха.<sup>1,2</sup>
-                Можно предположить, что это блюдо начали готовить еще в середине VIII века, когда чай был завезен в Среднюю Азию из Китая.<sup>3</sup>
-                Кроме того, у памирцев есть легенда о создании самого первого ширчоя:
-                <div class='quoteContainer'><div class='quoteSymbol'></div><div class='quoteWrapper'>
+            ru: `<span class='termSpan'>Ширчой</span> — традиционное блюдо, которое готовят в разных странах Центральной Азии и Ближного Востока, в том числе в Тад&shyжикистане. Его название «ширчой» 
+                про&shyис&shyхо&shyдит 
+                от сочетания двух таджикско-пер&shyсид&shyских слов: <span class='termSpan'>«шир»</span>, что означает молоко, и <span class='termSpan'>«чой»</span>, что означает чай.<sup>1</sup>
+                Конкретное ре&shyги&shyо&shyналь&shyное или историческое про&shyис&shyхож&shyде&shyние ширчоя остается неопределённым. Од&shyна&shyко наиболее подробное описание блюда можно найти в трудах таджикского учёного XIX века Возеха.<sup>1,2</sup>
+                Можно предположить, что это блюдо начали готовить еще в се&shyре&shyди&shyне VIII века, когда чай был завезен в Сред&shyнюю Азию из Китая.<sup>3</sup>
+                Кроме того, у па&shyмир&shyцев есть легенда о создании самого пер&shyво&shyго ширчоя:
+                <div class='quoteContainer'><div><div class='quoteSymbol'></div><div class='quoteWrapper'>
                 Однажды люди вернулись в нашу деревню ... [и] принесли с собой листья ... Мы вскипятили большую кастрюлю с водой и бросили в нее весь чай, 
                 а затем пригласили жителей деревни пить его. Люди пробовали это..., но находили это ужасным [очень горьким]. Позже люди стали добавлять в него [дополнительные] вещи 
                 [ингредиенты] — молоко, грецкие орехи, сушёное яблоко, другие вещи — и оно им постепенно начало нравиться.<sup style='font-style: normal'>4</sup>
-                <div style='font-style: normal; font-size: 1.1rem;'>*Дословный перевод с английского.</div></div></div>
-                В отличие от чая с молоком с Запада, такого как английский чай, таджикский чай с молоком это больше, чем просто напиток — он служит сытной едой, которую обычно подают 
-                на завтрак или в качестве легкого ужина.<br>
-                Приготовление ширчоя предполагает сочетание молока и чая, но на этом не останавливается. Дополнительные ингредиенты добавляются для улучшения вкуса и текстуры. Это могут 
-                быть кусочки лепёшки (обычно используется черствый хлеб), сливочное или топлёное масло, кусочки сушёных яблок, шелковица, листья миндаля, грецкие орехи и цветки шиповника.<sup>2,4</sup> 
-                Ширчой может включать нетрадиционные ингредиенты для блюда на основе молока, например небольшое количество перца (приправы), 
+                <div style='font-style: normal; font-size: 1.1rem;'>*Дословный перевод с английского.</div></div></div></div>
+                В отличие от чая с молоком с Запада, такого как английский чай, таджикский чай с мо&shyло&shyком это больше, чем просто напиток — он служит сытной едой, которую обычно по&shyда&shyют 
+                на завтрак или в качестве легкого ужи&shyна.<br>
+                Приготовление ширчоя предполагает со&shyче&shyтание молока и чая, но на этом не ос&shyта&shyнав&shyли&shyвается. Дополнительные ингредиенты добавляются для улучшения вкуса и тек&shyсту&shyры. Это могут 
+                быть кусочки лепёшки (обыч&shyно используется черствый хлеб), сливочное или топ&shyлёное масло, кусочки сушёных яб&shyлок, шелковица, листья миндаля, грецкие орехи и цветки шиповника.<sup>2,4</sup> 
+                Ширчой мо&shyжет включать нетрадиционные ин&shyгре&shyди&shyен&shyты для блюда на основе молока, например небольшое количество перца (приправы), 
                 <div class="tooltip">кусочки сырого лука<span class="tooltiptext" style='width: 14rem; margin-left: -7rem;'>Только в Самарканде</span></div>
                 или даже растопленый <div class="tooltip">курдючный жир
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</span></div>.<sup>2</sup>
                 Кроме того, ширчой иногда известен под разными названиями, которые подчеркивают дополнительные ингредиенты, помимо чая и молока. Поскольку это преимущественно солёное 
                 блюдо, его также называют <span class='termSpan'>«шурчой»</span>, от таджикско-персидского слова, обозначающего солёный, «шур».
-                В Бадахшане готовят вкусный вариант ширчоя под названием <span class='termSpan'>«гузширчой»</span>, одним из основных ингредиентов которого являются молотые жареные грецкие орехи.<sup>4</sup>
-                Название происходит от шугнанского слова <span class='termSpan'>«гуз» [ɣůz]</span>, означающего «грецкий орех».<sup>5</sup><br>
+                В Бадахшане готовят вкусный вариант ширчоя под названием <span class='termSpan'>«гузширчой»</span>, одним из основных ингредиентов которого являются молотые жареные грецкие оре&shyхи.<sup>4</sup>
+                Название происходит от шуг&shyнанско&shyго слова <span class='termSpan'>«гуз» [ɣůz]</span>, означающего «грецкий орех».<sup>5</sup><br>
                 Конкретные ингредиенты ширчоя могут варьироваться в зависимости от местного климата и предпочтений. Например, горные общины часто используют топлёное масло или сливки, 
                 обеспечивая их более калорийной пищей, чтобы выдержать суровую и холодную погоду. Учитывая разнообразие ингредиентов, используемых в ширчое, его можно классифицировать как «суп» 
                 на молочной основе, который в основном подают в мисках или глубоких деревянных тарелках.<br>
@@ -77,8 +79,8 @@ module.exports.recipes = [
             kh: `<span class='termSpan'>شیرچوی</span> غذایی است که در کشورهای مختلف آسیای مرکزی و همچنین در تاجیکستان آماده می شود
             `,
             tj: `<span class='termSpan'>Ширчой</span> таомест, ки дар кишварҳои мухталифи Осиёи Миёна ва ҳамчунин 
-                дар Тоҷикистон тайёр карда мешавад. Номи "ширчой" аз ду калимаи тоҷикӣ-форсии 
-                <span class='termSpan'>"шир"</span> ва <span class='termSpan'>"чой"</span> гирифта шудааст.<sup>1</sup> Замон ё макони аниқи пайдоиши ширчой номаълум боқӣ мемонад. Аммо 
+                дар Тоҷикистон тайёр карда мешавад. Номи «ширчой» аз ду калимаи тоҷикӣ-форсии 
+                <span class='termSpan'>«шир»</span> ва <span class='termSpan'>«чой»</span> гирифта шудааст.<sup>1</sup> Замон ё макони аниқи пайдоиши ширчой номаълум боқӣ мемонад. Аммо 
                 оиди ин таом пурратарин маълумотро
                 дар навиштаҳои олими асри XIX-и тоҷик — Возеҳ, дарёфтан мумкин аст.<sup>1,2</sup> Шояд, ки ин ғизо аз давраҳое, ки чой ба Осиёи Марказӣ аз Чин ворид карда шуда буд 
                 (миёнаҳои асри VIII), омода карда мешавад.<sup>3</sup> Илова бар ин, помириҳо дар бораи созиши аввалин ширчой ривояте доранд: 
@@ -96,12 +98,12 @@ module.exports.recipes = [
                 равғани <div class="tooltip">думбаи обкардашуда
                 <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Асосан дар Самарқанд, Бухоро, Фарғона ва вилояти Суғд</span></div>, андохта мешаванд.
                 Инчунин, ширчой бо номҳои гуногун ҳам маъруф аст, ки онҳо аз яке аз маҳсулотҳои иловагиаш гирифта мешаванд. Азбаски ширчой одатан як хӯроки шӯр аст, 
-                яке аз номҳои дигараш <span class='termSpan'>"шӯрчой"</span> мебошад. Дар вилояти Бадахшон як намуди болаззати ширчой — <span class='termSpan'>"ғӯзширчой"</span> омода карда 
+                яке аз номҳои дигараш <span class='termSpan'>«шӯрчой»</span> мебошад. Дар вилояти Бадахшон як намуди болаззати ширчой — <span class='termSpan'>«ғӯзширчой»</span> омода карда 
                 мешавад, ки яке аз қисмҳои асосии он чормағзи тафтдодашудаи кӯфта мебошад.<sup>4</sup>
-                Номаш аз калимаи шуғнии <span class='termSpan'>"ғӯз" [ɣůz]</span> гирифта шудааст, ки маънояш "чормағз" мебошад.<sup>5</sup><br>
+                Номаш аз калимаи шуғнии <span class='termSpan'>«ғӯз» [ɣůz]</span> гирифта шудааст, ки маънояш «чормағз» мебошад.<sup>5</sup><br>
                 Таркиби ширчой аз обу ҳавои минтақа ва хоҳиши пазанда вобастагӣ дорад. Масалан, мардуми кӯҳистон аксар вақт ба он равған ё қаймоқ илова мекунанд, чунки 
                 барои тобоварӣ ба обу ҳавои сард ба хӯрокҳои серкалория ниёз доранд. Бо назардошти гуногунии маҳсулотҳое, ки дар ширчой истифода мешаванд, 
-                онро "шӯрбо"-и ширӣ ҳисоб кардан мумкин аст, ки асосан дар коса ё табақҳои чуқури чӯбӣ мекашанд.<br> 
+                онро «шӯрбо»-и ширӣ ҳисоб кардан мумкин аст, ки асосан дар коса ё табақҳои чуқури чӯбӣ мекашанд.<br> 
                 Ҷолиб он аст, ки ширчой бо вуҷуди як хӯроки моеъ буданаш, онро одатан бо даст мехӯранд. Пораҳои нони дар шир тар шударо бо 
                 даст гирифта истеъмол мекунанд ва моеъи боқимондаро аз коса менӯшанд.<sup>6</sup> Бо ин роҳ, нон ҳамчун асбоби хӯрокхурӣ ва ҳам калорияи иловагӣ хидмат мекунад. Аҳолии 
                 шаҳрӣ ширчойро бисёртар дар фасли зимистон истеъмол мекунад, вале ҷамоаҳои кӯҳӣ, ба мисли помириҳо, аз сабаби муҳити баландкӯҳиашон аз он тамоми сол ва дар 
