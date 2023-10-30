@@ -18,7 +18,9 @@ export default function Flags() {
     }
 
     function handleClick() {
-        setShowLangMenu(prevState => !prevState);
+        if (showLangMenu) {
+            setShowLangMenu(prevState => !prevState);
+        }
     }
 
     function changeLang(e) {

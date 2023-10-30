@@ -33,8 +33,13 @@ export const Ingredient = styled.div`
     margin-top: 0.5rem;
     color: #0F0A00;
     min-height: 2rem;
+    display: flex;
 
     @media (max-width: 768px) {
         font-size: 1.3rem;
     }
+`;
+
+export const Amount = styled.div`
+    margin-right: 0.3rem;
 `;

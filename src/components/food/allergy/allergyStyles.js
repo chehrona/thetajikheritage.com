@@ -8,7 +8,7 @@ export const AllergyContainer = styled.div`
     gap: 0.5rem;
 
     @media (max-width: 768px) {
-        padding: 0rem 1.5rem 1rem 1.5rem;
+        padding: 0rem 1.5rem;
     }
 `;
 

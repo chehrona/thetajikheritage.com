@@ -8,7 +8,7 @@ export const MainContainer = styled.div`
     padding: 1rem 1rem 2rem 1rem;
 
     @media (max-width: 768px) {
-        padding: 1rem 1.5rem 2rem 1.5rem;
+        padding: 1rem 1.5rem 2rem 1rem;
         font-size: 1.3rem;
     }
 `;
@@ -17,7 +17,7 @@ export const QuantityContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     min-width: 4.7rem;
 `;
 
@@ -98,16 +98,23 @@ export const ServeContainer = styled.div`
 export const TimeBox = styled.div`
     margin-top: 2rem;
     font-size: 1.2rem;
+    padding-bottom: 0.5rem;
 
     @media (max-width: 768px) {
         font-size: 1.3rem;
+        padding-bottom: 1rem;
     }
 `;
 
 export const PrintContainer = styled.div`
     padding-top: 0.5rem;
     text-align: center;
-    margin: 0rem 1rem 0rem 2rem;
+    padding: 0rem 1rem 0rem 2rem;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 0rem 1.5rem 2rem 1.5rem;
+    }
 `;
 
 export const PrintBox = styled.img`

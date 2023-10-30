@@ -22,8 +22,15 @@ import {
     InstructionContainer,
     IngredientContainer,
     SubContainer,
-    RecipeContainer
+    RecipeContainer,
+    StyledButton
 } from "./recipePageStyles";
+
+import {
+    SubTitle,
+    PrintContainer,
+    StyledLink,
+} from "../../components/food/servings/servingsStyles";
 
 export default function RecipePage() {
     const { id } = useParams();
@@ -60,14 +67,23 @@ export default function RecipePage() {
                     <SubContainer>
                         <IngredientContainer>
                             <Allergy recipe={recipe} />
-                            {isMobile && <Servings recipe={recipe} servings={servings} setServings={setServings} />}
-                            <RecipeIngredients recipe={recipe} />
+                            <Servings recipe={recipe} servings={servings} setServings={setServings} />
                         </IngredientContainer>
                         <InstructionContainer>
-                            {!isMobile && <Servings recipe={recipe} servings={servings} setServings={setServings} />}
+                            <RecipeIngredients recipe={recipe} />
                             <Directions recipe={recipe} />
                         </InstructionContainer>
                     </SubContainer>
+                    {isMobile && 
+                        <PrintContainer>
+                            <StyledButton href={"/cuisine" + recipe.link + "/print"} target="_blank">
+                                <SubTitle>
+                                    {lang === 'ru' ? 'Расспечатать' : 
+                                    (lang === 'tj' ? 'Чоп кунед' : 'Print')}
+                                </SubTitle>
+                            </StyledButton>
+                        </PrintContainer>
+                    }
                 </RecipeContainer>
             </PageContainer>
         )

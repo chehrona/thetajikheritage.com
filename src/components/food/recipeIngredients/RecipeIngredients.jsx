@@ -1,19 +1,26 @@
 import React from "react";
 import { useSetLang } from "../../../App";
 
-import { MainContainer,
-         SubTitle,
-         Ingredient,
+import { 
+    MainContainer,
+    SubTitle,
+    Ingredient,
+    Amount
 } from "./recipeIngredientsStyles";
 
-export default function RecipeIngredients( { recipe }) {
+export default function RecipeIngredients({ recipe }) {
     const { lang } = useSetLang();
+
     return (
         <MainContainer>
             <SubTitle>{recipe.ingredientsLang[lang]}</SubTitle>
             {recipe.ingredients[lang].map((piece, i) => {
                 return (
-                    <Ingredient key={i} dangerouslySetInnerHTML={{__html: piece}}></Ingredient>
+                    <Ingredient key={i}>
+                        <Amount dangerouslySetInnerHTML={{__html: piece?.amount}} />
+                        <Amount dangerouslySetInnerHTML={{__html: piece?.unit}} />
+                        <Amount dangerouslySetInnerHTML={{__html: piece?.item}} />
+                    </Ingredient>
                 )
             })}
         </MainContainer>

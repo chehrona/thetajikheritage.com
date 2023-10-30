@@ -155,12 +155,17 @@ module.exports.recipes = [
         ],
         ingredients: {
             us: [
-                    {amount: 1.5, unit: "cups", item: "milk"},
-                    {amount: 1, unit: "cup", item: "water"},
-                    {amount: 2, unit: "tsps", item: "black tea"},
-                    {amount: 1.5, unit: "cups", item: "milk"},
+                    {amount: '1&#189', calc: 1.5, unit: "cups", item: "milk"},
+                    {amount: '1', calc: 1, unit: "cup", item: "water"},
+                    {amount: '2', calc: 2, unit: "tsps", item: "black tea"},
+                    {amount: '1&#189', calc: 1.5, unit: "cups", item: "milk"},
                 ],
-            ru: ["3 стакана молока", "2 c.л. чёрного чая", "1 лепёшка", "&#189 стакана грецких орехов", "1 ч.л. топлёного масла", "2 ч.л. cахара"],
+            ru: [
+                    {amount: '1&#189', calc: 1.5, unit: "стакана", item: "молока"},
+                    {amount: '1', calc: 1, unit: "стакана", item: "воды"},
+                    {amount: '2', calc: 2, unit: "c.л.", item: "чёрного чая"},
+                    {amount: '1&#189', calc: 1.5, unit: "стакана", item: "молока"},
+                ],
             tj: ["3 стакан шир", "2 қошуқи калон чойи сиёҳ", "1-то нон", "&#189 стакан измельченных грецких орехов", "1 қошуқча равғани зард", "2 қошуқча шакар"],
             kh: ["3 стакана молока", "2 чёрного чая", ""],
         },
@@ -170,15 +175,15 @@ module.exports.recipes = [
             tj: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
             kh: ["Pour the water into a pot and bring it to boil", "Add the tea and let it seap until the color is released (around 2-3 min)", "Pour in the milk and let everything boil for another 5 min"],
         },
-        timeLang: {us: ["Total", "Prep", "Cook", "Print"], ru: ["Общее", "Подготовка", "Приготов.", "Распечатать"], tj: ["Ҳамагӣ", "Тайёрӣ", "Пухтупаз", "Чоп кунед"], kh: [""]},
-        time: {us: {total: "15 min", prep: "5 min", cook: "10 min"}, ru: {total: "15 мин", prep: "5 мин", cook: "10 мин"},
-              tj: {total: "15 дақ", prep: "5 дақ", cook: "10 дақ"}, kh: {total: "15 мин", prep: "5 мин", cook: "10 мин"}
+        time: {
+            us: {total: "15 min", prep: "5 min", cook: "10 min"}, ru: {total: "15 мин", prep: "5 мин", cook: "10 мин"},
+            tj: {total: "15 дақ", prep: "5 дақ", cook: "10 дақ"}, kh: {total: "15 мин", prep: "5 мин", cook: "10 мин"}
         },
-        servingLang: {us: "Servings", ru: "Порции", tj: "Портсия", kh: ""},
-        servingAlert: {us: ["Sorry, the serving amount cannot be less than 1", "Servings must be a number greater than 0"], 
-                    ru: ["К сожалению, количество порций не может быть меньше 1", "Количество порций должно быть больше 0"], 
-                    tj: ["Бубахшед, портсия набояд аз 1 камтар бошад", "Бубахшед, портсия бояд аз 0 зиёд бошад"], 
-                    kh: ["", ""]},
+        servingAlert: {
+            us: ["Sorry, the serving amount cannot be less than 1", "Servings must be a number greater than 0"], 
+            ru: ["К сожалению, количество порций не может быть меньше 1", "Количество порций должно быть больше 0"], 
+            tj: ["Бубахшед, портсия набояд аз 1 камтар бошад", "Бубахшед, портсия бояд аз 0 зиёд бошад"], 
+            kh: ["", ""]},
         serving: {us: "serv.", ru: "порц.", tj: "", kh: ""},
         startServing: 2,
         pinUrl: 'https://www.thetajikheritage.com/cuisine/shirchoy/',

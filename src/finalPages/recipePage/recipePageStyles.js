@@ -1,5 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import { Pinterest } from "@mui/icons-material";
+import { Button } from "@mui/material";
 
 const slideUp = keyframes`
     0% {
@@ -96,21 +97,39 @@ export const InstructionContainer = styled.div`
 `;
 
 export const IngredientContainer = styled.div`
-    width: 30rem;
-    margin-right: 3.5rem;
+    width: 100%;
+    display: flex;
 
     @media (max-width: 768px) {
-        margin-right: 0rem;
-        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
     }
 `;
 
 export const SubContainer = styled.div`
     margin-top: 3rem;
-    display: flex;
 
     @media (max-width: 768px) {
         margin-top: 0rem;
-        flex-direction: column;
+    }
+`;
+
+export const StyledButton = styled(Button)`
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
+
+    div {
+        color: #fff;
+    }
+
+    &.MuiButton-root {
+        background: #504221d1;
+        text-transform: none;
+        padding: 0.5rem 1.5rem;
+        font-family: 'IBM Plex Serif', serif;
+    }
+
+    &.MuiButton-root:hover {
+        background: #504221d1;
     }
 `;

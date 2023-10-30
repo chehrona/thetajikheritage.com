@@ -1,8 +1,9 @@
-import { IconButton } from "@mui/material";
 import React from "react";
 import { useEffect } from "react";
 import { useMediaQuery } from 'react-responsive';
 import { useSetLang } from "../../../App";
+
+import { IconButton } from "@mui/material";
 
 import {
     MainContainer,
@@ -58,7 +59,10 @@ export default function Servings({ recipe, servings, setServings }) {
     return (
         <MainContainer>
             <QuantityContainer>
-                <SubTitle>{recipe?.servingLang[lang]}</SubTitle>
+                <SubTitle>
+                    {lang === 'ru' ? 'Порции' : 
+                    (lang === 'tj' ? 'Портсия' : 'Servings')}
+                </SubTitle>
                 <ServeContainer>
                     <IconButton onClick={reduceServings}>
                         <StyledMinusIcon />
@@ -70,19 +74,31 @@ export default function Servings({ recipe, servings, setServings }) {
                 </ServeContainer>
             </QuantityContainer>
             <QuantityContainer>
-                <SubTitle>{recipe?.timeLang[lang][0]}</SubTitle>
+                <SubTitle>
+                    {lang === 'ru' ? 'Общее' : 
+                    (lang === 'tj' ? 'Ҳамагӣ' : 'Total')}
+                </SubTitle>
                 <TimeBox>{recipe?.time[lang].total}</TimeBox>
             </QuantityContainer>
             <QuantityContainer>
-                <SubTitle>{recipe?.timeLang[lang][1]}</SubTitle>
+                <SubTitle>
+                    {lang === 'ru' ? (isMobile ? 'Подготов.' : 'Подготовка') : 
+                    (lang === 'tj' ? 'Тайёрӣ' : 'Prep')}
+                </SubTitle>
                 <TimeBox>{recipe?.time[lang].prep}</TimeBox>
             </QuantityContainer>
             <QuantityContainer>
-                <SubTitle>{recipe?.timeLang[lang][2]}</SubTitle>
+                <SubTitle>
+                    {lang === 'ru' ? (isMobile ? 'Готов.' : 'Готовить') : 
+                    (lang === 'tj' ? 'Пухтупаз' : 'Cook')}
+                </SubTitle>
                 <TimeBox>{recipe?.time[lang].cook}</TimeBox>
             </QuantityContainer>
             {!isMobile && <PrintContainer>
-                <SubTitle>{recipe?.timeLang[lang][3]}</SubTitle>
+                <SubTitle>
+                    {lang === 'ru' ? 'Расспечатать' : 
+                    (lang === 'tj' ? 'Чоп кунед' : 'Print')}
+                </SubTitle>
                 <StyledLink to={"/cuisine" + recipe.link + "/print"} target={"_blank"}>
                     <IconButton style={{marginTop: "0.55rem"}}>
                         <PrintBox src={'/printIcons/printer.png'}></PrintBox>
