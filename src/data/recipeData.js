@@ -16,7 +16,7 @@ module.exports.recipes = [
         sound: '/recipeNames/shirchoy.mp3',
         history: {
             us: `<span class='termSpan'>Shirchoy</span> is a traditional dish prepared in va&shyri&shyous Central Asian and Middle Eastern
-                coun&shytries, including Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
+                coun&shytries, in&shycluding Tajikistan. Its name, "shirchoy" originates from a combination of two Tajiki-Persian words: 
                 <span class='termSpan'>"shir,"</span> meaning milk, and <span class='termSpan'>"choy,"</span>  which refers to tea.<sup>1</sup>
                 The exact regional or historical origins of shirchoy remain un&shycer&shytain. However, the most detailed account of the dish can be 
                 found in the writings of the 19th—century Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots 
@@ -35,7 +35,7 @@ module.exports.recipes = [
                 These may in&shyclude pieces of flatbread (usually stale bread is repurposed), butter or ghee, dried apple slices, mulberry, almond leaves, walnuts, and rose hip flowers.<sup>2,4</sup>
                 Shirchoy can incorporate un&shycon&shyven&shytional ingredients for milk-based meals, in&shyclud&shying small amounts of pepper (seasoning), 
                 <div class="tooltip">raw onion slices<span class="tooltiptext" style='width: 12rem; margin-left: -6rem;'>Only in Samarkand</span></div>
-                or even melted <div class="tooltip">sheep tail fat
+                or even mel&shyted <div class="tooltip">sheep tail fat
                 <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>.<sup>2</sup>
                 Also, shirchoy is occasionally known by dif&shyfer&shyent names that highlight additional in&shygre&shydi&shyents beyond tea and milk. 
                 Since it is pre&shydom&shyi&shynant&shyly a salty dish, it is alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
