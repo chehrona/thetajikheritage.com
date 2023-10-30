@@ -115,7 +115,6 @@ export const SubContainer = styled.div`
 `;
 
 export const StyledButton = styled(Button)`
-    border-radius: 1rem;
     box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
 
     div {
@@ -124,6 +123,7 @@ export const StyledButton = styled(Button)`
 
     &.MuiButton-root {
         background: #504221d1;
+        border-radius: 0.8rem;
         text-transform: none;
         padding: 0.5rem 1.5rem;
         font-family: 'IBM Plex Serif', serif;
