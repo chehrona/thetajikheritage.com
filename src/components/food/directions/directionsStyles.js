@@ -8,6 +8,7 @@ export const MainContainer = styled.div`
     box-shadow: 0rem 0rem 0.4rem 0.01rem #92793f;
         
     @media (max-width: 768px) {
+        padding: 0.5rem 1rem 1rem 1rem;
         margin: 0rem 1.5rem 1rem 1.5rem;
     }
 `;
@@ -18,6 +19,11 @@ export const SubTitle =  styled.div`
     font-style: italic;
     font-weight: 500;
     margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
 `;
 
 export const Direction = styled.div`
@@ -25,4 +31,8 @@ export const Direction = styled.div`
     margin-top: 0.5rem;
     color: #0F0A00;
     min-height: 2rem;
+
+    @media (max-width: 768px) {
+        font-size: 1.3rem;
+    }
 `;

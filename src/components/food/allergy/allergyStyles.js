@@ -49,7 +49,7 @@ export const BoxTitle = styled.div`
 
 export const LabelWrapper = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 `;
 
 export const LabelImage = styled.img`

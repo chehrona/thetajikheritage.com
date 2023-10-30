@@ -8,7 +8,6 @@ export const MainContainer = styled.div`
     padding: 1rem 1rem 2rem 1rem;
 
     @media (max-width: 768px) {
-        justify-content: center;
         padding: 1rem 1.5rem 2rem 1.5rem;
         font-size: 1.3rem;
     }
