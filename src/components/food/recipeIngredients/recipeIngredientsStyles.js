@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
+    max-width: 35%;
+    width: 100%;
     border-radius: 1rem;
     background: #fff;
     margin-top: 2rem;
@@ -9,6 +11,7 @@ export const MainContainer = styled.div`
     box-shadow: 0rem 0rem 0.4rem 0.01rem #92793f;
 
     @media (max-width: 768px) {
+        max-width: calc(100% - 3rem);
         padding: 0.5rem 1rem 1rem 1rem;
         margin: 0rem 1.5rem 1rem 1.5rem;
     }

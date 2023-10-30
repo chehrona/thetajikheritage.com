@@ -42,6 +42,21 @@ export const RecipeContainer = styled.div`
     }
 `;
 
+export const StyledPinIcon = styled(Pinterest)`
+    color: #dedbdb;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    z-index: 10;
+
+    &.MuiSvgIcon-root {
+        fill: red;
+        font-size: 2.5rem;
+        border-radius: 50%;
+        background-color: white;
+    }
+`;
+
 export const MainImage = styled.img`
     border-radius: 1rem;
     width: 100%;
@@ -49,6 +64,8 @@ export const MainImage = styled.img`
     object-fit: cover;
     display: block;
     opacity: 0;
+    position: relative;
+    z-index: 1;
     transform: translateY(-100%);
     animation: ${slideUp} 0.5s ease-in-out forwards;
     box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
@@ -56,6 +73,9 @@ export const MainImage = styled.img`
     @media (max-width: 768px) {
         border-radius: 0rem;
         box-shadow: 0rem 0rem 0rem 0rem;
+        animation: none;
+        transform: translateY(0%);
+        opacity: 1;
     }
 `;
 
@@ -70,6 +90,7 @@ export const ImageContainer = styled.div`
     height: 45rem;
     margin: 0rem 3rem 1rem 0rem;
     float: left;
+    position: relative;
 
     @media (max-width: 768px) {
         margin: 0rem;
@@ -81,24 +102,20 @@ export const InfoContainer = styled.div`
     width: 45rem;
 `;
 
-export const StyledPinIcon = styled(Pinterest)`
-    color: #dedbdb;
-    position: absolute;
-    left: 5.5rem;
-    top: 13.5rem;
-
-    &.MuiSvgIcon-root {
-        font-size: 2em;
-    }
-`;
-
 export const InstructionContainer = styled.div`
     width: 100%;
+    display: flex;
+    gap: 2rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const IngredientContainer = styled.div`
     width: 100%;
     display: flex;
+    gap: 2rem;
 
     @media (max-width: 768px) {
         flex-direction: column;

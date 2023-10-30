@@ -5,23 +5,22 @@ export const AllergyContainer = styled.div`
     display: flex;
     color: #ffffff;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 2rem;
+    max-width: 35%;
 
     @media (max-width: 768px) {
+        max-width: 100%;
         padding: 0rem 1.5rem;
     }
 `;
 
 export const ContentBox = styled.div`
+    flex-grow: 1;
     min-width: 7rem;
     border-radius: 1rem;
     background: #504221d1;
     padding: 0.5rem 0.8rem 0.8rem 0.8rem;
     box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
-
-    @media (max-width: 768px) {
-        flex-grow: 1;
-    }
 `;
 
 export const LabelContainer = styled.div`
@@ -53,8 +52,8 @@ export const LabelWrapper = styled.div`
 `;
 
 export const LabelImage = styled.img`
-    width: 4rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: 50%;
     background: white;
 
@@ -65,7 +64,7 @@ export const LabelImage = styled.img`
 `;
 
 export const AllergenName = styled.div`
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: #dedbdb;
 
     @media (max-width: 768px) {

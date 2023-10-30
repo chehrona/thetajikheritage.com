@@ -13,6 +13,7 @@ import {
 
 export default function Allergy({ recipe }) {
     const { lang } = useSetLang();
+    
     return (
         <AllergyContainer>
             {recipe.contains && 

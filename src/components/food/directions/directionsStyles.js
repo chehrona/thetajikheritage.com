@@ -4,6 +4,7 @@ export const MainContainer = styled.div`
     border-radius: 1rem;
     background: #fff;
     color: black;
+    margin-top: 2rem;
     padding: 1rem 2rem 2rem 2rem;
     box-shadow: 0rem 0rem 0.4rem 0.01rem #92793f;
         

@@ -4,12 +4,15 @@ import { Link } from "react-router-dom";
 
 export const MainContainer = styled.div`
     display: flex;
+    width: 100%;
+    max-width: 60%;
     justify-content: space-between;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 0rem 1rem 2rem 1rem;
 
     @media (max-width: 768px) {
-        padding: 1rem 1.5rem 2rem 1rem;
+        max-width: 100%;
         font-size: 1.3rem;
+        padding: 1rem 1.5rem 2rem 1rem;
     }
 `;
 
@@ -22,9 +25,9 @@ export const QuantityContainer = styled.div`
 `;
 
 export const StyledAddIcon = styled(Add)`
+    color: #fff;
     background: #504221d1;
     border-radius: 0.5rem;
-    color: #fff;
     box-shadow: 0rem 0rem 0.25rem 0.01rem #504221;
 
     &.MuiSvgIcon-root {
@@ -98,7 +101,7 @@ export const ServeContainer = styled.div`
 export const TimeBox = styled.div`
     margin-top: 2rem;
     font-size: 1.2rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.75rem;
 
     @media (max-width: 768px) {
         font-size: 1.3rem;
