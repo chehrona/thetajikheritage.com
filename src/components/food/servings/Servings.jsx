@@ -94,17 +94,19 @@ export default function Servings({ recipe, servings, setServings }) {
                 </SubTitle>
                 <TimeBox>{recipe?.time[lang].cook}</TimeBox>
             </QuantityContainer>
-            {!isMobile && <PrintContainer>
-                <SubTitle>
-                    {lang === 'ru' ? 'Расспечатать' : 
-                    (lang === 'tj' ? 'Чоп кунед' : 'Print')}
-                </SubTitle>
-                <StyledLink to={"/cuisine" + recipe.link + "/print"} target={"_blank"}>
-                    <IconButton style={{marginTop: "0.55rem"}}>
-                        <PrintBox src={'/printIcons/printer.png'}></PrintBox>
-                    </IconButton>
-                </StyledLink>
-            </PrintContainer>}
+            {!isMobile && 
+                <PrintContainer>
+                    <SubTitle>
+                        {lang === 'ru' ? 'Расспечатать' : 
+                        (lang === 'tj' ? 'Чоп кунед' : 'Print')}
+                    </SubTitle>
+                    <StyledLink to={"/cuisine" + recipe.link + "/print"} target={"_blank"}>
+                        <IconButton style={{marginTop: "0.55rem"}}>
+                            <PrintBox src={'/printIcons/print.png'}></PrintBox>
+                        </IconButton>
+                    </StyledLink>
+                </PrintContainer>
+            }
         </MainContainer>
     )
 }

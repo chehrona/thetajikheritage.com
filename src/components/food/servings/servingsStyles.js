@@ -99,7 +99,6 @@ export const ServeContainer = styled.div`
 `;
 
 export const TimeBox = styled.div`
-    margin-top: 2rem;
     font-size: 1.2rem;
     padding-bottom: 0.75rem;
 
@@ -110,9 +109,12 @@ export const TimeBox = styled.div`
 `;
 
 export const PrintContainer = styled.div`
-    padding-top: 0.5rem;
-    text-align: center;
-    padding: 0rem 1rem 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 4.7rem;
+    padding-bottom: 0.25rem;
 
     @media (max-width: 768px) {
         width: 100%;
@@ -121,7 +123,8 @@ export const PrintContainer = styled.div`
 `;
 
 export const PrintBox = styled.img`
-    width: 1.8rem;
+    width: 2rem;
+    height: 2rem;
 `;
 
 export const StyledLink = styled(Link)`

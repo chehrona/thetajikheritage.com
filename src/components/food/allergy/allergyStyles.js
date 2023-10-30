@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const AllergyContainer = styled.div`
+    gap: 2rem;
     width: 100%;
     display: flex;
     color: #ffffff;
-    justify-content: space-between;
-    gap: 2rem;
     max-width: 35%;
+    justify-content: space-between;
 
     @media (max-width: 768px) {
         max-width: 100%;
