@@ -169,7 +169,7 @@ export const Desc = styled.div`
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         width: 50%;
         margin-left: 3rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: ${({ margin }) => margin && `${margin.t}rem`};
     }
 `;
@@ -247,8 +247,8 @@ export const StyledButton = styled.div`
         border-right: 0.1rem solid #ffffff;
         border-bottom: 0.1rem solid #ffffff;
         width: ${({ lang }) => lang && 
-            lang === 'ru' ? '49%' : 
-            (lang === 'tj' ? '55%' : '27%')
+            lang === 'ru' ? '41%' : 
+            (lang === 'tj' ? '47%' : '23.5%')
         };
 
         &::before {

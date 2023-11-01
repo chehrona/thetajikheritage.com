@@ -42,7 +42,7 @@ export const Text = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 `;
 
@@ -72,8 +72,8 @@ export const StyledIcon = styled.img`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        width: 2.25rem;
-        height: 2.25rem;
+        width: 2rem;
+        height: 2rem;
     }
 `;
 

@@ -33,7 +33,7 @@ module.exports.poets = [
                         anecdotes, and pro&shyverbs.<sup>2</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
-                        he didn't find much value in for&shymal education. However, he had his initial exposure to the 
+                        he didn't find much value in for&shymal education. However, he had his in&shyi&shytial exposure to the 
                         poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
                         His father, despite being a humble peasant, had a deep love for education and literature, 
                         which he passed down to his children.<sup>2,3</sup>`
@@ -120,7 +120,7 @@ module.exports.poets = [
                         {
                             year: '1909',
                             image: '/poetImages/ayni/slides/ayni6.jpeg',
-                            desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
+                            desc: `For the school's curriculum, he authored his in&shyi&shytial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
                                 proper re&shyci&shyta&shytion of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
                                 and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essen&shytials").<sup>5</sup>`
                         },
@@ -154,8 +154,8 @@ module.exports.poets = [
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
-                            poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his initial 
-                            poems using pseudonyms like "Muhtoji," "Jununi," and "Sifli."
+                            poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his in&shyi&shytial 
+                            poems using pseudonyms like "Muh&shyto&shyji," "Jununi," and "Sifli."
                             <div class='space'></div>
                             However, in 1896, he adopted the pseudonym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
                     },
@@ -178,7 +178,7 @@ module.exports.poets = [
                     {
                         year: '1909',
                         image: '/poetImages/ayni/slides/ayni6.jpeg',
-                        desc: `For the school's curriculum, he authored his initial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
+                        desc: `For the school's curriculum, he authored his in&shyi&shytial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
                             proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
                             and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
                     },
@@ -186,7 +186,7 @@ module.exports.poets = [
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
                         desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
-                            a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Central Asia.<sup>5</sup>`,
+                            a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Cen&shytral Asia.<sup>5</sup>`,
                     }
                 ],
                 tj: [
@@ -1081,100 +1081,100 @@ module.exports.poets = [
             ]
         }
     },
-    {
-        id: 'ziyo',
-        name: {us: ['Sadri', 'Ziyo'], ru: ['Садри', 'Зиё'], tj: ['Садри', 'Зиё'], kh: ['صدری','ضیا']},
-        years: {us: '1865 - 1932', ru: '1865 - 1932', tj: '1865 - 1932', kh: '۱۸۶۵ - ۱۹۳۲'},
-        desc: {
-            us: 'Sadri Ziyo - a Tajik lyric poet, translator, and Iranologist.',
-            ru: 'Лоик Шерали - таджикский поэт-лирик, переводчик, и иранист.',
-            tj: 'Лоиқ Шералӣ - шоири ғазалсаро, тарҷумон ва эроншиноси тоҷик.',
-            kh: '.لویق شرالی - شاعر غزل، ترجمان و ایران شناس تاجیک'
-        },
-        img: ['/poetImages/Sherali.png', '/poetImages/SheraliFaded.png', ],
-        link: '/poets/sherali',
-        sections: {
-            us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
-            ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
-            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
-            kh: ["زندگینامه", "ایجدیت", "", "", ""]
-        },
-    },
-    {
-        id: 'sherali',
-        name: {us: ['Loiq', 'Sherali'], ru: ['Лоик', 'Шерали'], tj: ['Лоиқ', 'Шералӣ'], kh: ['گلرخسار', 'صفی‌اوا']},
-        years: {us: '1941 - 2000', ru: '1941 - 2000', tj: '1941 - 2000', kh: '۱۹۴۱ - ۲۰۰۰'},
-        desc: {
-            us: 'Loiq Sherali - a Tajik lyric poet, translator, and Iranologist.',
-            ru: 'Лоик Шерали - таджикский поэт-лирик, переводчик, и иранист.',
-            tj: 'Лоиқ Шералӣ - шоири ғазалсаро, тарҷумон ва эроншиноси тоҷик.',
-            kh: '.لویق شرالی - شاعر غزل، ترجمان و ایران شناس تاجیک'
-        },
-        img: ['/poetImages/Sherali.png', '/poetImages/SheraliFaded.png', ],
-        link: '/poets/sherali',
-        sections: {
-            us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
-            ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
-            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
-            kh: ["زندگینامه", "ایجدیت", "", "", ""]
-        },
-    },
-    {
-        id: 'qanoat',
-        name: {us: ['Mumin', 'Qanoat'], ru: ['Мумин', 'Каноат'], tj: ['Мӯъмин', 'Қаноат'], kh: ['مؤمن', 'قناعت']},
-        years: {us: '1932 - 2018', ru: '1932 - 2018', tj: '1932 - 2018', kh: '۱۹۳۲ - ۲۰۱۸'},
-        desc: {
-            us: 'Muminsho Qanoatov was a Tajik epic poet, writer, and politician.',
-            ru: 'Муминшо Каноатов был таджикским поэтом-эпиком, писателем и политиком.',
-            tj: 'Мӯъминшо Қаноатов шоири достонсаро, нависанда ва сиёсатмадори тоҷик.',
-            kh: '.مومینشا قناعتاو شاعر داستان، نویسنده و سیاستمدار تاجیک'
-        },
-        img: ['/poetImages/Qanoat.png', '/poetImages/QanoatFaded.png',],
-        link: '/poets/qanoat',
-        sections: {
-            us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
-            ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
-            tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
-            kh: ["زندگینامه", "ایجدیت", "", "", ""]
-        }
-    },
-    {
-        id: 'tursunzoda',
-        name: {us: ['Mirzo', 'Tursunzoda'], ru: ['Мирзо', 'Турсунзода'], tj: ['Мирзо', 'Турсунзода'], kh: ['میرزا', 'تورسون زاده']},
-        years: {us: '1911 - 1977', ru: '1911 - 1977', tj: '1911 - 1977', kh: '۱۹۱۱ - ۱۹۷۷'},
-        desc: {
-            us: 'Mirzo Tursunzoda - a Tajik poet, politician and Iranologist.',
-            ru: 'Мирзо Турсунзода – таджикский поэт, политик и иранист.',
-            tj: 'Мирзо Турсунзода - шоир, сиёсатмадор ва эроншиноси тоҷик.',
-            kh: '.میرزا تُرسون‌زاده - شاعر، سیاستمدار و ایران شناس تاجیک'
-        },
-        img: ['/poetImages/Tursunzoda.png'],
-        link: '/poets/tursunzoda'
-    },
-    {
-        id: 'sobir',
-        name: {us: ['Bozor', 'Sobir'], ru: ['Бозор', 'Собир'], tj: ['Бозор', 'Собир'], kh: ['بازار', 'صابر']},
-        years: {us: '1938 - 2018', ru: '1938 - 2018', tj: '1938 - 2018', kh: '۱۹۳۸ - ۲۰۱۸'},
-        desc: {
-            us: 'Gulrukhsor Safieva is a Tajik poetess and Iranologist.',
-            ru: 'Гулрухсор Сафиева – таджикская поэтесса и иранист.',
-            tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
-            kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
-        },
-        img: ['/poetImages/Sobir.png'],
-        link: '/poets/sobir'
-    },
-    {
-        id: 'safieva',
-        name: {us: ['Gulrukhsor', 'Safieva'], ru: ['Гулрухсор', 'Сафиева'], tj: ['Гулрухсор', 'Сафиева'], kh: ['گلرخسار', 'صفی‌اوا']},
-        years: {us: '1947', ru: '1947', tj: '1947', kh: '۱۹۴۷'},
-        desc: {
-            us: 'Gulrukhsor Safieva is a Tajik poetess and Iranologist.',
-            ru: 'Гулрухсор Сафиева – таджикская поэтесса и иранист.',
-            tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
-            kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
-        },
-        img: ['/poetImages/Safieva.png'],
-        link: '/poets/safieva'
-    },
+    // {
+    //     id: 'ziyo',
+    //     name: {us: ['Sadri', 'Ziyo'], ru: ['Садри', 'Зиё'], tj: ['Садри', 'Зиё'], kh: ['صدری','ضیا']},
+    //     years: {us: '1865 - 1932', ru: '1865 - 1932', tj: '1865 - 1932', kh: '۱۸۶۵ - ۱۹۳۲'},
+    //     desc: {
+    //         us: 'Sadri Ziyo - a Tajik lyric poet, translator, and Iranologist.',
+    //         ru: 'Лоик Шерали - таджикский поэт-лирик, переводчик, и иранист.',
+    //         tj: 'Лоиқ Шералӣ - шоири ғазалсаро, тарҷумон ва эроншиноси тоҷик.',
+    //         kh: '.لویق شرالی - شاعر غزل، ترجمان و ایران شناس تاجیک'
+    //     },
+    //     img: ['/poetImages/Sherali.png', '/poetImages/SheraliFaded.png', ],
+    //     link: '/poets/sherali',
+    //     sections: {
+    //         us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
+    //         ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
+    //         tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
+    //         kh: ["زندگینامه", "ایجدیت", "", "", ""]
+    //     },
+    // },
+    // {
+    //     id: 'sherali',
+    //     name: {us: ['Loiq', 'Sherali'], ru: ['Лоик', 'Шерали'], tj: ['Лоиқ', 'Шералӣ'], kh: ['گلرخسار', 'صفی‌اوا']},
+    //     years: {us: '1941 - 2000', ru: '1941 - 2000', tj: '1941 - 2000', kh: '۱۹۴۱ - ۲۰۰۰'},
+    //     desc: {
+    //         us: 'Loiq Sherali - a Tajik lyric poet, translator, and Iranologist.',
+    //         ru: 'Лоик Шерали - таджикский поэт-лирик, переводчик, и иранист.',
+    //         tj: 'Лоиқ Шералӣ - шоири ғазалсаро, тарҷумон ва эроншиноси тоҷик.',
+    //         kh: '.لویق شرالی - شاعر غزل، ترجمان و ایران شناس تاجیک'
+    //     },
+    //     img: ['/poetImages/Sherali.png', '/poetImages/SheraliFaded.png', ],
+    //     link: '/poets/sherali',
+    //     sections: {
+    //         us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
+    //         ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
+    //         tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
+    //         kh: ["زندگینامه", "ایجدیت", "", "", ""]
+    //     },
+    // },
+    // {
+    //     id: 'qanoat',
+    //     name: {us: ['Mumin', 'Qanoat'], ru: ['Мумин', 'Каноат'], tj: ['Мӯъмин', 'Қаноат'], kh: ['مؤمن', 'قناعت']},
+    //     years: {us: '1932 - 2018', ru: '1932 - 2018', tj: '1932 - 2018', kh: '۱۹۳۲ - ۲۰۱۸'},
+    //     desc: {
+    //         us: 'Muminsho Qanoatov was a Tajik epic poet, writer, and politician.',
+    //         ru: 'Муминшо Каноатов был таджикским поэтом-эпиком, писателем и политиком.',
+    //         tj: 'Мӯъминшо Қаноатов шоири достонсаро, нависанда ва сиёсатмадори тоҷик.',
+    //         kh: '.مومینشا قناعتاو شاعر داستان، نویسنده و سیاستمدار تاجیک'
+    //     },
+    //     img: ['/poetImages/Qanoat.png', '/poetImages/QanoatFaded.png',],
+    //     link: '/poets/qanoat',
+    //     sections: {
+    //         us: ["Biography", "Works", "Screen adaptations", "Politics", "Awards"],
+    //         ru: ["Биография", "Произведения", "Экранизации", "Политическая деятельность", "Награды"],
+    //         tj: ["Зиндагинома", "Эҷодиёт", "Филмҳо", "Фаъолияти сиёсӣ", "Ҷоизаҳо"],
+    //         kh: ["زندگینامه", "ایجدیت", "", "", ""]
+    //     }
+    // },
+    // {
+    //     id: 'tursunzoda',
+    //     name: {us: ['Mirzo', 'Tursunzoda'], ru: ['Мирзо', 'Турсунзода'], tj: ['Мирзо', 'Турсунзода'], kh: ['میرزا', 'تورسون زاده']},
+    //     years: {us: '1911 - 1977', ru: '1911 - 1977', tj: '1911 - 1977', kh: '۱۹۱۱ - ۱۹۷۷'},
+    //     desc: {
+    //         us: 'Mirzo Tursunzoda - a Tajik poet, politician and Iranologist.',
+    //         ru: 'Мирзо Турсунзода – таджикский поэт, политик и иранист.',
+    //         tj: 'Мирзо Турсунзода - шоир, сиёсатмадор ва эроншиноси тоҷик.',
+    //         kh: '.میرزا تُرسون‌زاده - شاعر، سیاستمدار و ایران شناس تاجیک'
+    //     },
+    //     img: ['/poetImages/Tursunzoda.png'],
+    //     link: '/poets/tursunzoda'
+    // },
+    // {
+    //     id: 'sobir',
+    //     name: {us: ['Bozor', 'Sobir'], ru: ['Бозор', 'Собир'], tj: ['Бозор', 'Собир'], kh: ['بازار', 'صابر']},
+    //     years: {us: '1938 - 2018', ru: '1938 - 2018', tj: '1938 - 2018', kh: '۱۹۳۸ - ۲۰۱۸'},
+    //     desc: {
+    //         us: 'Gulrukhsor Safieva is a Tajik poetess and Iranologist.',
+    //         ru: 'Гулрухсор Сафиева – таджикская поэтесса и иранист.',
+    //         tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
+    //         kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
+    //     },
+    //     img: ['/poetImages/Sobir.png'],
+    //     link: '/poets/sobir'
+    // },
+    // {
+    //     id: 'safieva',
+    //     name: {us: ['Gulrukhsor', 'Safieva'], ru: ['Гулрухсор', 'Сафиева'], tj: ['Гулрухсор', 'Сафиева'], kh: ['گلرخسار', 'صفی‌اوا']},
+    //     years: {us: '1947', ru: '1947', tj: '1947', kh: '۱۹۴۷'},
+    //     desc: {
+    //         us: 'Gulrukhsor Safieva is a Tajik poetess and Iranologist.',
+    //         ru: 'Гулрухсор Сафиева – таджикская поэтесса и иранист.',
+    //         tj: 'Гулрухсор Сафиева шоира ва эроншиноси тоҷик.',
+    //         kh: '.گلرخسر صفیوا، شاعر و ایران شناس تاجیک'
+    //     },
+    //     img: ['/poetImages/Safieva.png'],
+    //     link: '/poets/safieva'
+    // },
 ];

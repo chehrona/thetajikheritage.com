@@ -247,12 +247,12 @@ export const stepInfo = [
             }
         },
         outer: [
-            {size: 16, top: "1rem", right: "23rem"},
+            {size: 16, top: {d: "1rem", t: "3rem"}, right: {d: "23rem", t: "3rem"}},
             {size: 12, top: "-1.5rem", right: "50rem"},
             {size: 30, bottom: "-5rem", right: "3rem"}
         ],
         inner: [
-            {size: 15, top: "1.5rem", right: "23.5rem", img: "/homeImages/history3.png"},
+            {size: 15, top: {d: "1.5rem", t: "3.5rem"}, right: {d: "23.5rem", t: "3.5rem"}, img: "/homeImages/history3.png"},
             {size: 11, top: "0.5rem", right: "52rem", img: "/homeImages/history2.png"},
             {size: 29, bottom: "-3.5rem", right: "1.5rem", img: "/homeImages/history1.png"}
         ],

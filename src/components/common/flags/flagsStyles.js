@@ -41,8 +41,8 @@ export const StyledFlag = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        height: 2.5rem;
-        width: 2.5rem;
+        height: 2.25rem;
+        width: 2.25rem;
     }
 `;
 
