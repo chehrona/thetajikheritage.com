@@ -196,69 +196,73 @@ export const OtherSteps = styled.div`
 `;
 
 export const StyledButton = styled.div`
-    color: #bd9d52;
-    height: 20%;
-    font-weight: 500;
-    padding-bottom: 0.25rem;
-    width: ${({ lang }) => lang && 
-        lang === 'ru' ? '30%' : 
-        (lang === 'tj' ? '33%' : '17%')};
-
-    &::before {
-        content: '';
-        position: absolute;
-        height: 0.1rem;
-        bottom: 0;
-        left: 0;
-        transform: scaleX(0);
-        background-color: #ffffff;
-        transform-origin: bottom right;
-        transition: transform 0.3s ease-in-out;
-        width: ${({ width }) => width && width};
-    }
-
-    &:hover::before {
-        transform: scaleX(1);
-        transform-origin: bottom left;
-    }
-
-    &:hover {
-        border-right: 0.1rem solid #ffffff;
-    }
-
-    @media (max-width: 480px) {
-        border-right: 0.1rem solid #ffffff;
-        border-bottom: 0.1rem solid #ffffff;
+        color: #bd9d52;
+        height: 20%;
+        font-weight: 500;
+        padding: 0rem 0rem 0.25rem 0rem;
         width: ${({ lang }) => lang && 
-            lang === 'ru' ? '46%' : 
-            (lang === 'tj' ? '54%' : '26%')
-        };
+            lang === 'ru' ? '30%' : 
+            (lang === 'tj' ? '33%' : '17%')};
 
         &::before {
-            display: none;
+            content: '';
+            position: absolute;
+            height: 0.1rem;
+            bottom: 0;
+            left: 0;
+            transform: scaleX(0);
+            background-color: #ffffff;
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-in-out;
+            width: ${({ width }) => width && width};
+        }
+
+        &:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
         }
 
         &:hover {
-            border-right: none;
-        }
-    }
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        border-right: 0.1rem solid #ffffff;
-        border-bottom: 0.1rem solid #ffffff;
-        width: ${({ lang }) => lang && 
-            lang === 'ru' ? '41%' : 
-            (lang === 'tj' ? '47%' : '23.5%')
-        };
-
-        &::before {
-            display: none;
+            border-right: 0.1rem solid #ffffff;
         }
 
-        &:hover {
-            border-right: none;
+        @media (max-width: 480px) {
+            border-right: 0.1rem solid #ffffff;
+            border-bottom: 0.1rem solid #ffffff;
+            width: ${({ lang }) => lang && 
+                lang === 'ru' ? '46%' : 
+                (lang === 'tj' ? '54%' : '26%')
+            };
+
+            &::before {
+                display: none;
+            }
+
+            &:hover {
+                border-right: 0.1rem solid #ffffff;
+            }
         }
-    }
+
+        @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+            border-right: 0.1rem solid #ffffff;
+            border-bottom: 0.1rem solid #ffffff;
+            width: ${({ lang }) => lang && 
+                lang === 'ru' ? '41%' : 
+                (lang === 'tj' ? '47%' : '23.5%')
+            };
+
+            &::before {
+                display: none;
+            }
+
+            &:hover {
+                border-right: 0.1rem solid #ffffff;
+            }
+        }
+`;
+
+export const Link = styled.a`
+    text-decoration: none;
 `;
 
 export const ImageSemiCircle = styled.img`

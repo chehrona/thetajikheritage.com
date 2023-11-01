@@ -49,7 +49,7 @@ export const stepInfo = [
         inner: [
             {size: 15, bottom: {d: "-1.5rem", t: "-1.5rem"}, right: {d: "23.5rem", t: "2.5rem"}, img: "/homeImages/craft3.png"},
             {size: 11, bottom: {d: "5.5rem", t: "20.5rem"}, right: {d: "7.2rem", t: "9.5rem"}, img: "/homeImages/craft2.png"},
-            {size: 29, top: {d: "-5.5rem", t: "-6.5rem"}, right: {d: "-1.2rem", t: "-2.2rem"}, img: "/homeImages/craft1.png"}
+            {size: 29, top: {d: "-6rem", t: "-6.5rem"}, right: {d: "-1.2rem", t: "-2.2rem"}, img: "/homeImages/craft1.png"}
         ],
     },
     {
@@ -144,13 +144,13 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: {d: "-0.5rem", t: "35rem"}, right: {d: "32rem", t: "2rem"}},
-            {size: 12, top: {d: "1.5rem", t: "56rem"}, right: {d: "87.5%", t: "8rem"}},
+            {size: 16, top: {d: "-0.5rem", t: "36rem"}, right: {d: "32rem", t: "3.5rem"}},
+            {size: 12, top: {d: "1.5rem", t: "56rem"}, right: {d: "87.5%", t: "10rem"}},
             {size: 30, top: {d: "12rem", t: "-8rem"}, right: {d: "0rem", t: "15rem"}}
         ],
         inner: [
             {size: 15, top: {d: "1rem", t: "36.5rem"}, right: {d: "32.5rem", t: "2.5rem"}, img: "/homeImages/cuisine3.png"},
-            {size: 11, top: {d: "2rem", t: "56.5rem"}, right: {d: "88%", t: "8.5rem"}, img: "/homeImages/cuisine2.png"},
+            {size: 11, top: {d: "2rem", t: "56.5rem"}, right: {d: "88%", t: "10.5rem"}, img: "/homeImages/cuisine2.png"},
             {size: 29, top: {d: "12rem", t: "-8rem"}, right: {d: "1rem", t: "16rem"}, img: "/homeImages/cuisine1.png"}
         ],
     },
@@ -197,14 +197,14 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: "1.2rem", right: "1rem"},
-            {size: 12, top: "4rem", right: "27rem"},
-            {size: 30, bottom: "-5rem", right: "9.5rem"},
+            {size: 16, top: {d: "1.2rem", t: "40rem"}, right: {d: "1rem", t: "3rem"}},
+            {size: 12, top: {d: "4rem", t: "4rem"}, right: {d: "27rem", t: "35rem"}},
+            {size: 30, bottom: {d: "-5rem", t: "45rem"}, right: {d: "9.5rem", t: "-5rem"}},
         ],
         inner: [
-            {size: 15, top: "0.4rem", right: "2rem", img: "/homeImages/lang3.png"},
-            {size: 11, top: "4.5rem", right: "28.5rem", img: "/homeImages/lang2.png"},
-            {size: 29, bottom: "-4.5rem", right: "10rem", img: "/homeImages/lang1.png"}
+            {size: 15, top: {d: "0.4rem", t: "39rem"}, right: {d: "2rem", t: "3rem"}, img: "/homeImages/lang3.png"},
+            {size: 11, top: {d: "4.5rem", t: "4.5rem"}, right: {d: "28.5rem", t: "36rem"}, img: "/homeImages/lang2.png"},
+            {size: 29, bottom: {d: "-4.5rem", t: "45.5rem"}, right: {d: "10rem", t: "-4.5rem"}, img: "/homeImages/lang1.png"}
         ],
     },
     {
@@ -248,13 +248,13 @@ export const stepInfo = [
         },
         outer: [
             {size: 16, top: {d: "1rem", t: "3rem"}, right: {d: "23rem", t: "3rem"}},
-            {size: 12, top: "-1.5rem", right: "50rem"},
-            {size: 30, bottom: "-5rem", right: "3rem"}
+            {size: 12, top: {d: "-1.5rem", t: "1rem"}, right: {d: "50rem", t: "33rem"}},
+            {size: 30, bottom: {d: "-5rem", t: "-4rem"}, right: {d: "3rem", t: "1.5rem"}}
         ],
         inner: [
             {size: 15, top: {d: "1.5rem", t: "3.5rem"}, right: {d: "23.5rem", t: "3.5rem"}, img: "/homeImages/history3.png"},
-            {size: 11, top: "0.5rem", right: "52rem", img: "/homeImages/history2.png"},
-            {size: 29, bottom: "-3.5rem", right: "1.5rem", img: "/homeImages/history1.png"}
+            {size: 11, top: {d: "0.5rem", t: "2rem"}, right: {d: "52rem", t: "35rem"}, img: "/homeImages/history2.png"},
+            {size: 29, bottom: {d: "-3.5rem", t: "-3.5rem"}, right: {d: "1.5rem", t: "1.5rem"}, img: "/homeImages/history1.png"}
         ],
     },
 ];

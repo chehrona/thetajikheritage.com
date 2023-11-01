@@ -135,7 +135,7 @@ export const TitleSpan = styled.span`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         text-shadow: 0.1rem 1rem 2rem #dedbdb;
-        font-size: 1.65rem;
+        font-size: 1.75rem;
     }
 `;
 

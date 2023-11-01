@@ -17,6 +17,7 @@ import {
     OtherSteps,
     StepperContainer,
     StyledButton,
+    Link,
     ImageSemiCircle
 } from "./homeStepperStyles";
 
@@ -76,13 +77,15 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                                             {step?.text[lang].text}
                                     </LargeTitle>
                                 </TitleWrapper>
-                                <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin}>
+                                <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin?.d}>
                                     <div
                                         dangerouslySetInnerHTML={{__html: step?.desc[lang].text}}
                                     />
-                                    <StyledButton lang={lang} href={step?.desc[lang].link} target="_blank">
-                                        {lang === 'ru' ? 'УЗНАТЬ БОЛЬШЕ' : (lang === 'tj' ? 'БИСЁРТАР ОМӮЗЕД' : 'EXPLORE')}
-                                    </StyledButton>
+                                    <Link href={step?.desc[lang].link} target="_blank">
+                                        <StyledButton lang={lang}>
+                                            {lang === 'ru' ? 'УЗНАТЬ БОЛЬШЕ' : (lang === 'tj' ? 'БИСЁРТАР ОМӮЗЕД' : 'EXPLORE')}
+                                        </StyledButton>
+                                    </Link>
                                 </Desc>
                             </div>
                         </StepperBox>
