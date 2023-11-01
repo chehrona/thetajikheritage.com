@@ -307,7 +307,7 @@ module.exports.poets = [
                     му&shyқо&shyви&shyмат нишон додан меги&shyрад.
                     Аммо корҳои "нек"-и ӯ ба амир писанд намеояд ва ӯро ба зиндон ме&shyпар&shyто&shyянд ва ба 
                     сахт&shyта&shyрин ҷазои он давра - 
-                    <span style='font-weight: bold;'>75 чӯб</span> маҳкум ме&shyша&shyвад.
+                    <span style='font-weight: bold;'>75 чӯб</span> маҳ&shyкум ме&shyша&shyвад.
                     <div class='space'></div>Дар ниҳоят, ӯро қувваҳои инқилобии русҳо бо 
                     хоҳиши Ҷавонбухориён озод мекунанд. 
                     Пас аз <span style='font-weight: bold;'>52 рӯз</span> дар беморхона
@@ -345,19 +345,19 @@ module.exports.poets = [
                         }
                     ],
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
-                        and they moved into her pa&shyrents' home in Sa&shymar&shykand. 
+                        and they moved in&shyto her pa&shyrents' home in Sa&shymar&shykand. 
                         Despite Ayni's dire financial si&shytu&shyation,
-                        Sa&shylo&shyhat remained undeterred in her com&shymit&shyment to him. She dedicated herself to creating an 
-                        environment where his literary genius could flou&shyrish, a dedication that persisted until their final days.<sup>1</sup>
+                        Sa&shylo&shyhat re&shymained un&shydeterred in her com&shymit&shyment to him. She dedicated herself to creating an 
+                        environment where his literary genius could flou&shyrish, a de&shydi&shyca&shytion that persisted until their final days.<sup>1</sup>
                         <div class='space'></div>
                         They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
                         <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
                         <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
-                        Re&shymar&shykab&shyly, each of their children followed in Ayni's footsteps, pursuing academic careers in orien&shytalism, 
-                        philology, and Central Asian art history, respectively.<sup>7</sup>
+                        Re&shymar&shykab&shyly, each of their children followed in Ayni's footsteps, pur&shysu&shying academic careers in orien&shytalism, 
+                        philology, and Central Asian art his&shyto&shyry, respectively.<sup>7</sup>
                         <div class='space'></div>
                         Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
-                        and continues his grandfather's legacy through the Sadriddin Ayni Foundation.<sup>8</sup>`
+                        and continues his grandfather's legacy through the Sadriddin Ayni Foun&shyda&shytion.<sup>8</sup>`
                 },
                 ru: {
                     year: '1920',
@@ -408,12 +408,12 @@ module.exports.poets = [
                             text: `Айнӣ бо писараш Камол <sup>4<sup>`,
                         }
                     ],
-                    desc: `Моҳи октябри соли 1920 Айнӣ ба <span style='font-weight: bold;'>Салоҳат</span> 
-                        хонадор мешавад 
-                        ва онҳо ба хонаи модари Салоҳат, ки дар Самарқанд буд, мекӯчанд.
+                    desc: `Мо&shyҳи ок&shyтяб&shyри со&shyли 1920 Ай&shyнӣ ба <span style='font-weight: bold;'>Салоҳат</span> 
+                        хо&shyна&shyдор ме&shyша&shyвад 
+                        ва он&shyҳо ба хо&shyнаи мо&shyда&shyри Са&shyло&shyҳат, ки дар Са&shyмар&shyқанд буд, ме&shyкӯ&shyчанд.
                         Салоҳат ба камбағалии Айнӣ нигоҳ накарда аз хостгории ӯ 
                         рӯй на&shyме&shyгар&shyдо&shyнад, чун&shyки мис&shyли модараш ба одамони донишманд эҳ&shyти&shyроми
-                        бе&shyпо&shyён дошта буд. Аз рӯзҳои ав&shyвали зиндагиашон барои Айнӣ муҳите сохт, 
+                        бе&shyпо&shyён дошта буд. Аз рӯзҳои ав&shyвали зиндагиашон ба&shyрои Ай&shyнӣ му&shyҳи&shyте сохт, 
                         ки дар он истеъдоди адабии ӯ таво&shyнист ривоҷ ёбад ва то рӯз&shyҳои охиринашон фидокори ин буд.<sup>1</sup>
                         <div class='space'></div>
                         Онҳо соҳиби се фарзанд шуданд: <span style='font-weight: bold;'>Камол</span> (тав. 1928),
@@ -736,9 +736,9 @@ module.exports.poets = [
                         его в но&shyвую тад&shyжик&shyскую пись&shyмен&shyность, сна&shyча&shyла на ла&shyти&shyни&shyцу, 
                         а за&shyтем на ки&shyрил&shyли&shyцу. Он так&shyже тща&shyтель&shyно соб&shyрал био&shyгра&shyфии и про&shyиз&shyве&shyдения многочисленных 
                         уче&shyных и по&shyэтов, таких как «Шейх&shyур&shyаис Абу&shyали Си&shyна» 
-                        (Авиценна), «Шейх Мус&shyли&shyхид&shyдин Саади Ши&shyрази», «Ус&shyтад Ру&shyдаки», «Камаль-и Худ&shyжан&shyди», «Али&shyшер На&shyвои», «Зай&shyнуд&shyдин 
+                        (Авиценна), «Шейх Мус&shyли&shyхид&shyдин Саади Ши&shyра&shyзи», «Ус&shyтад Ру&shyда&shyки», «Ка&shyмаль-и Худ&shyжан&shyди», «Али&shyшер На&shyвои», «Зай&shyнуд&shyдин 
                         Мах&shyмуд-и Ва&shyси&shyфи» и дру&shyгие.`,
-                        `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, первым президентом которой был назначен Садриддин Айни.
+                        `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, пер&shyвым пре&shyзи&shyден&shyтом которой был назначен Садриддин Айни.
                         Он за&shyни&shyмал эту должность до сво&shyей кон&shyчи&shyны в 1954 го&shyду.`,
                         `В 1920 году Айни написал свое первое крупное литературное произведение «Бухарские палачи». Затем в 1924 году он 
                         написал рассказ «Одина», за которым последовал повесть «Дохунда» (написанный между 1927 и 1928 годами, но опубликованный в 1930 году). 

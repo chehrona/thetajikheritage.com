@@ -49,7 +49,7 @@ export const HomeImage = styled.img`
     height: ${({ size }) => size && `${size}rem`};
     box-shadow: 0rem 0rem 0.5rem 0.25rem #504221;
     opacity: ${({ opacity }) => opacity && opacity};
-    top: ${({ top }) => top && top};
+    top: ${({ top }) => top && top.d};
     bottom: ${({ bottom }) => bottom && bottom.d};
     right: ${({ right }) => right && right.d};
     will-change: transform;

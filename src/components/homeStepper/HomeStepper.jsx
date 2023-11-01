@@ -77,7 +77,7 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                                             {step?.text[lang].text}
                                     </LargeTitle>
                                 </TitleWrapper>
-                                <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin?.d}>
+                                <Desc margin={step?.text[lang]?.margin}>
                                     <div
                                         dangerouslySetInnerHTML={{__html: step?.desc[lang].text}}
                                     />

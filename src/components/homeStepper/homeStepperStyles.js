@@ -133,7 +133,7 @@ export const LargeTitle = styled.div`
     text-shadow: 1rem 0rem 0rem #504221;
     font-size: ${({ fontSize }) => fontSize && `${fontSize.d}rem`};
     opacity: ${({ fontSize }) => fontSize ? "1" : "0"};
-    line-height: ${({ fontSize }) => fontSize && `${fontSize - 1}rem`};
+    line-height: ${({ fontSize }) => fontSize && `${fontSize.d - 1}rem`};
 
     @media (max-width: 480px) {
         width: 100%;
@@ -214,7 +214,9 @@ export const StyledButton = styled.div`
             background-color: #ffffff;
             transform-origin: bottom right;
             transition: transform 0.3s ease-in-out;
-            width: ${({ width }) => width && width};
+            width: ${({ lang }) => lang && 
+                lang === 'ru' ? '30%' : 
+                (lang === 'tj' ? '33%' : '17%')};
         }
 
         &:hover::before {

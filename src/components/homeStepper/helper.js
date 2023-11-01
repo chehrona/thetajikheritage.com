@@ -42,13 +42,13 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, bottom: {d: "-2rem", t: "-2rem"}, right: {d: "23rem", t: "2rem"}},
-            {size: 12, bottom: {d: "5rem", t: "20rem"}, right: {d: "7.7rem", t: "10rem"}},
+            {size: 16, bottom: {d: "-2rem", t: "-2rem"}, right: {d: "23rem", t: "18rem"}},
+            {size: 12, bottom: {d: "5rem", t: "18rem"}, right: {d: "7.7rem", t: "7rem"}},
             {size: 30, top: {d: "-6.2rem", t: "-7.2rem"}, right: {d: "-3rem", t: "-4.5rem"}}
         ],
         inner: [
-            {size: 15, bottom: {d: "-1.5rem", t: "-1.5rem"}, right: {d: "23.5rem", t: "2.5rem"}, img: "/homeImages/craft3.png"},
-            {size: 11, bottom: {d: "5.5rem", t: "20.5rem"}, right: {d: "7.2rem", t: "9.5rem"}, img: "/homeImages/craft2.png"},
+            {size: 15, bottom: {d: "-1.5rem", t: "-1.5rem"}, right: {d: "23.5rem", t: "18.5rem"}, img: "/homeImages/craft3.png"},
+            {size: 11, bottom: {d: "5.5rem", t: "18.5rem"}, right: {d: "7.2rem", t: "6.5rem"}, img: "/homeImages/craft2.png"},
             {size: 29, top: {d: "-6rem", t: "-6.5rem"}, right: {d: "-1.2rem", t: "-2.2rem"}, img: "/homeImages/craft1.png"}
         ],
     },

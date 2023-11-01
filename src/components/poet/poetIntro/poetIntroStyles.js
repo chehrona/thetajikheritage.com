@@ -94,7 +94,7 @@ export const FadedImage = styled.img`
 `;
 
 export const SegmentContainer = styled.div`
-    margin: 5rem 5rem 5rem 1.5rem;
+    margin: 5rem;
     font-size: 1.5rem;
     width: 100%;
     z-index: 10;

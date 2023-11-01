@@ -29,7 +29,7 @@ html {
 }
 
 body {
-    background: white;
+    background: #0F0A00;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -47,6 +47,7 @@ body * {
     height: 100svh;
     overflow-y: scroll;
     margin: 0 auto;
+    background-color: white;
 }
 
 .content-container::-webkit-scrollbar {

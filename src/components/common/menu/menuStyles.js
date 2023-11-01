@@ -88,6 +88,8 @@ export const PageNamesContainer = styled.div`
     gap: 2rem;
     font-size: 2rem;
     display: flex;
+    position: relative;
+    z-index: 1;
     flex-direction: column;
     justify-content: center;
 
