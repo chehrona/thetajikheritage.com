@@ -5,4 +5,5 @@ export const PageContainer = styled.div`
     min-height: 100vh; 
     background-color: white;
     padding: 1rem;
+    background: white;
 `;
