@@ -427,7 +427,7 @@ export const BoxSeven = styled.div`
     display: flex;
     min-height: 20rem;
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         flex-direction: column-reverse;
     }
 `;
@@ -444,6 +444,7 @@ export const LeftContainer = styled.div`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         width: 100%;
+        height: ${({ seven }) => seven ? '40rem': 'auto'};
     }
 `;
 
