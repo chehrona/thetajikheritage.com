@@ -13,6 +13,7 @@ const closeAnimation = keyframes`
     }    
     to {
         transform: translateY(-100%);
+        z-index: -1;
     }
 `;
 
@@ -100,7 +101,7 @@ export const PageNamesContainer = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        font-size: 3rem;
+        font-size: 2.5rem;
         width: 100%;
     }
 `;
@@ -118,8 +119,12 @@ export const PageName = styled.div`
 
 export const PageDesc = styled.div`
     color: #dedbdb;
-    font-size: 0.65em;
+    font-size: 1.3rem;
     cursor: pointer;
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 1.5rem;
+    }
 `;
 
 export const StyledLink = styled(Link)`

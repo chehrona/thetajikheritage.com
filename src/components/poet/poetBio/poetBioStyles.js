@@ -142,6 +142,10 @@ export const NavBox = styled.div`
     right: 0rem;
     display: flex;
     ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 8rem'};
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        height: 2rem;
+    }
 `;
 
 export const NavWrapper = styled.div`
@@ -252,6 +256,10 @@ export const FillerOne = styled.div`
 
     @media (max-width: 480px) {
         display: none;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        min-width: 2rem;
     }
 `;
 

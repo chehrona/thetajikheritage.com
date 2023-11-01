@@ -37,12 +37,14 @@ export const PoetCardWrapper = styled.div`
     background: #0F0A00;
     position: relative;
     border-radius: 0.7rem;
+    transition: border-radius 250ms, box-shadow 400ms;
     animation: ${slideOut} 1s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
     &:hover {
         border-radius: 1.5rem;
         box-shadow: 0rem 0rem 0.6rem #504221d1;
+        transition: border-radius 250ms, box-shadow 400ms;
     }
 
     @media (max-width: 480px) {
@@ -52,6 +54,7 @@ export const PoetCardWrapper = styled.div`
 
         &:hover {
             border-radius: 0.7rem;
+            transition: none;
         }
     }
 
