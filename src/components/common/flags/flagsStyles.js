@@ -14,8 +14,13 @@ export const FlagWrapper = styled.div`
     bottom: 0.9rem;
     z-index: 1000;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         bottom: 1.3rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        bottom: 1.5rem;
+        left: 0.75rem;
     }
 `;
 
@@ -30,9 +35,14 @@ export const StyledFlag = styled.div`
                                     lang === "ru" ? `url(${ruLogo})` :
                                     `url(${tjLogo})`};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 2rem;
         width: 2rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        height: 2.5rem;
+        width: 2.5rem;
     }
 `;
 
@@ -50,9 +60,15 @@ export const StyledIconButton = styled(IconButton)`
         margin-bottom: 0.25rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiIconButton-root {
             margin-bottom: 0.5rem;
+        }
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        &.MuiIconButton-root {
+            margin-bottom: 1.25rem;
         }
     }
 `;

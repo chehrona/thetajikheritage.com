@@ -25,7 +25,7 @@ export const MenuContainer = styled.div`
     padding: 3rem;
     justify-content: space-around;
     background: rgb(51 51 51);
-    height: calc(100vh - 6rem);
+    height: calc(100svh - 6rem);
     transform: translateY(-100%);
     animation-name: ${({ open }) => (open && open !== null) && openAnimation};
     animation-name: ${({ open }) => (!open && open !== null) && closeAnimation};
@@ -34,16 +34,31 @@ export const MenuContainer = styled.div`
     position: absolute;
     z-index: 100;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: calc(100svh - 5rem);
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 10rem 10rem 15rem 5rem;
+        flex-direction: column-reverse;
     }
 `;
 
 export const LogoContainer = styled.div`
     opacity: 0.5;
 
-    @media (max-width: 768px) {
+    @media screen and (max-device-width: 480px) {
         display: none;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 3rem;
+        opacity: 0.3;
+        width: 100%;
+        position: absolute;
+        right: -53.1%;
+        top: 50%;
+        transform: translateY(-50%);
     }
 `
 
@@ -51,7 +66,11 @@ export const Logo = styled.img`
     border-radius: 50%;
     height: 40rem;
     width: 40rem;
-    color: black;
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        height: 60rem;
+        width: 60rem;
+    }
 `;
 
 export const LogoHalf = styled.img`
@@ -72,9 +91,14 @@ export const PageNamesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         justify-content: start;
         margin-top: 5rem;
+        width: 100%;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 3rem;
         width: 100%;
     }
 `;

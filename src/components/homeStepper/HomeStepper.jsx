@@ -23,7 +23,7 @@ import {
 
 export default function HomeStepper({ containerRef, divRefs, opacities }) {
     const { lang } = useSetLang();
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
     const [visibleStepIndex, setVisibleStepIndex] = useState(0);
 
     useEffect(() => {

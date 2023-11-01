@@ -8,7 +8,7 @@ export const MainContainer = styled.div`
     padding: 1rem 2rem 2rem 2rem;
     box-shadow: 0rem 0rem 0.4rem 0.01rem #92793f;
         
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 0.5rem 1rem 1rem 1rem;
         margin: 0rem 1.5rem 1rem 1.5rem;
     }
@@ -21,7 +21,7 @@ export const SubTitle =  styled.div`
     font-weight: 500;
     margin-bottom: 2rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 2.2rem;
         margin-bottom: 1rem;
     }
@@ -33,7 +33,7 @@ export const Direction = styled.div`
     color: #0F0A00;
     min-height: 2rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
     }
 `;

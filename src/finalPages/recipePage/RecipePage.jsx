@@ -37,7 +37,7 @@ export default function RecipePage() {
     const [pinHovered, setPinHovered] = useState(false);
     const recipe = recipes.filter((recipe) => recipe.id === id)[0];
     const [servings, setServings] = useState(recipe?.startServing);
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
 
     if (recipe) {
         return (

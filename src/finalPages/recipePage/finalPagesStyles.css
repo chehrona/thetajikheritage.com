@@ -94,7 +94,7 @@ sub {
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .quoteContainer > div {
         width: 100%;
     }

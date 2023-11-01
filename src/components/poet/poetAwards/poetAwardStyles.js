@@ -44,9 +44,15 @@ export const AwardWrapper = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 
-    @media (max-width: 768px) {
-        padding: 0rem 1.5rem 0rem 1.5rem;
+    @media (max-width: 480px) {
+        padding: 0rem 1.5rem;
         gap: 1rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 0rem 2rem;
+        gap: 1rem;
+        justify-content: space-between;
     }
 `;
 
@@ -64,7 +70,7 @@ export const AwardCard = styled.div`
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 9rem;
         height: 12.69rem;        
     }
@@ -95,7 +101,7 @@ export const Face = styled.div`
     border-radius: 1rem;
     padding: 0.8rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 0.4rem;
     }
 `;
@@ -113,7 +119,7 @@ export const Image = styled.img`
 export const Year = styled.div`
     font-size: 3rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
        font-size: 2rem;        
     }
 `;
@@ -129,7 +135,7 @@ export const StyledIconButton = styled(IconButton)`
         position: absolute;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 2rem;
         height: 2rem;
     }
@@ -143,7 +149,7 @@ export const StyledInfoIcon = styled(Info)`
         width: 2.3rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiSvgIcon-root {
             height: 3rem;
             width: 3rem;

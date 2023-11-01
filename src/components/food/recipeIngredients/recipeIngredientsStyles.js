@@ -10,7 +10,7 @@ export const MainContainer = styled.div`
     padding: 1rem 2rem 2rem 2rem;
     box-shadow: 0rem 0rem 0.4rem 0.01rem #92793f;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         max-width: calc(100% - 3rem);
         padding: 0.5rem 1rem 1rem 1rem;
         margin: 0rem 1.5rem 1rem 1.5rem;
@@ -25,7 +25,7 @@ export const SubTitle = styled.div`
     font-family: 'EB Garamond', serif;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #ffffffb0;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 2.2rem;
         margin-bottom: 1rem;
     }
@@ -38,7 +38,7 @@ export const Ingredient = styled.div`
     min-height: 2rem;
     display: flex;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
     }
 `;

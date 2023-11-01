@@ -9,7 +9,7 @@ export const Desc = styled.div`
     line-height: 1.5rem;
     overflow-wrap: break-word;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
         line-height: 2rem;
         display: inline;
@@ -26,7 +26,7 @@ export const StyledIconButton = styled(IconButton)`
         position: absolute;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiIconButton-root {
             top: 0.6rem;
             right: 0.6rem;
@@ -39,7 +39,7 @@ export const StyledContent = styled(DialogContent)`
     position: relative;
     padding: 0.001rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiDialogContent-root {
             padding: 0rem;
             overflow: hidden;
@@ -65,7 +65,7 @@ export const InfoTitle = styled.div`
     font-size: 2rem;
     font-family: 'EB Garamond', serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 2.5rem;
         text-align: center;
         margin: 0.5rem 3rem 1rem 1rem;
@@ -81,7 +81,7 @@ export const StyledCloseIcon = styled(Close)`
         width: 2rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiSvgIcon-root {
             width: 3rem;
             height: 2.5rem;
@@ -93,7 +93,7 @@ export const BodyContainer = styled.div`
     display: flex;
     margin: 2rem 1rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: block;
         min-height: 15.5rem;
     }
@@ -103,7 +103,7 @@ export const Wrapper = styled.div`
     width: ${({ first }) => first ? "25%" : "75%"};
     height: 100%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 100%;
     }
 `;
@@ -117,7 +117,7 @@ export const AwardImg = styled.img`
     background-image: url(${'/noise.png'});
     box-shadow: 0rem 0rem 0.4rem 0.01rem #bd9d52;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: inline;
         float: left;
         margin-right: 1rem;

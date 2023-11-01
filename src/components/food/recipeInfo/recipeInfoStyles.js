@@ -19,7 +19,7 @@ export const InfoContainer = styled.div`
     display: inline;
     margin-bottom: 0.8rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: block;
         padding: 0rem 1.5rem 0rem 1.5rem;
     }
@@ -36,7 +36,7 @@ export const MainTitle = styled.div`
     opacity: 0;
     animation: ${slideOut} 0.5s ease-in-out forwards;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 4.5rem;
     }
 `;
@@ -49,7 +49,7 @@ export const HistoryInfo = styled.div`
     animation: ${slideOut} 0.5s ease-in-out forwards;
     animation-delay: 0.01s;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
     }
 `;

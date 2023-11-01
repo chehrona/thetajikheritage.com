@@ -23,7 +23,7 @@ export const RecipeBoxContainer = styled.div`
     flex-wrap: wrap;
     justify-content: ${({ justify }) => justify && (justify <= 2 ? 'start' : 'center')};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         gap: 1rem;
         justify-content: space-between;
     }
@@ -45,7 +45,7 @@ export const RecipeNameBox = styled.div`
     flex-direction: column;
     justify-content: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         margin-top: 0rem;
     }
 `;
@@ -63,7 +63,7 @@ export const StyledIconButton = styled(IconButton)`
         color: #59a959;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiIconButton-root {
             color: #59a959;
         }
@@ -92,7 +92,7 @@ export const RecipeImage = styled.img`
         box-shadow: 0rem 0rem 0.6rem #504221d1;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 19.025rem;
         width: 12.5rem;
         box-shadow: 0rem 0rem 0.6rem #504221d1;

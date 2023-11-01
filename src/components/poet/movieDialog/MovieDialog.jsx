@@ -44,7 +44,7 @@ const ContentTransition = ({ children, ...props }) => (
 export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo }) {
     const [showVideo, setShowVideo] = useState(false);
     const [isMounted, setIsMounted] = useState(false);
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
     const iframeRef = useRef(null);
     const { lang } = useSetLang();
     const [fullSize, setFullSize] = useState(0);

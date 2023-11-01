@@ -21,7 +21,7 @@ const Transition = ({ children, ...props }) => (
 
 export default function BookDialog({ msg, setBookDialog, bookDialog, setOverlay }) {
     const { lang } = useSetLang();
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
 
     function handleClose() {
         setBookDialog(false);

@@ -21,7 +21,7 @@ export const MainContainer = styled.div`
         box-sizing: border-box;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding-top: 7rem;
     }
 `;
@@ -30,7 +30,7 @@ export const YearSlider = styled.div`
     padding: 2rem 3rem 2rem 3rem;
     height: 36rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     }
 `;
@@ -84,7 +84,7 @@ export const InfoContainer = styled.div`
     position: relative;
     height: 25rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 30rem;
     }
 `;
@@ -94,7 +94,7 @@ export const InfoInnerContainer = styled.div`
     display: flex;
     gap: 50px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         position: relative;
         gap: 30px;
     }
@@ -110,7 +110,7 @@ export const InfoWrapper = styled.div`
     transition: all 0.5s;
     transform: translateX(${({ translate }) => `${translate}px`});
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: block;
         height: 30rem;
         min-width: calc(100vw - 3rem);
@@ -125,7 +125,7 @@ export const DescWrapper = styled.div`
     border-radius: 1rem;
     position: relative;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 100%;
     }
 `;
@@ -136,7 +136,7 @@ export const Desc = styled.div`
     line-height: 2rem;
     text-align: justify;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 1.5rem;
         font-size: 1.3rem;
 
@@ -157,7 +157,7 @@ export const Footer = styled.div`
     bottom: 0.5rem;
     right: 0rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: calc(100vw - 3rem);
         right: auto;
         bottom: 0rem;
@@ -173,7 +173,7 @@ export const Step = styled.div`
     font-size: 1.5rem;
     font-family: "EB Garamond", serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 2rem;
     }
 `;
@@ -193,7 +193,7 @@ export const StyledIconButton = styled(IconButton)`
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 4rem;
         width: 4rem;
 
@@ -213,7 +213,7 @@ export const Image = styled.img`
         url("/loader.svg") center
         no-repeat;
     
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;

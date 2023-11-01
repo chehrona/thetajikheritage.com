@@ -9,7 +9,7 @@ export const Desc = styled.div`
     line-height: 1.5rem;
     text-align: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
         line-height: 2rem;
     }
@@ -25,7 +25,7 @@ export const StyledIconButton = styled(IconButton)`
         position: absolute;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         top: 0rem;
         right: 0rem;
         width: 3rem;
@@ -38,7 +38,7 @@ export const StyledContent = styled(DialogContent)`
     position: relative;
     padding: 0.001rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiDialogContent-root {
             padding: 0rem;
         }
@@ -62,7 +62,7 @@ export const InfoTitle = styled.div`
     font-size: 2rem;
     font-family: 'EB Garamond', serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 2.5rem;
     }
 `;

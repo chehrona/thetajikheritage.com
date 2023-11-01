@@ -56,7 +56,7 @@ export const MovieWrapper = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: column;
         gap: 2rem;
         padding: 0rem 3rem 0rem 1.5rem;
@@ -74,7 +74,7 @@ export const MovieCard = styled.div`
     animation: ${slideOut} 2s ease-in-out forwards;
     animation-delay: ${({ delay }) => delay ? delay : '0s'};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 17.15rem;
         width: 11.95rem;
     }
@@ -99,7 +99,7 @@ export const StyledIconButton = styled(IconButton)`
         background: #0F0A00;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         bottom: 0.5rem;
         right: -3rem;
     }

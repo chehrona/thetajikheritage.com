@@ -20,7 +20,7 @@ export const HeaderInnerBox = styled.div`
     max-width: 1920px;
     margin: 0 auto;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 5rem;
     }
 `;
@@ -33,7 +33,7 @@ export const LogoWrapper = styled.div`
     width: 5.5rem;
     margin-left: 1rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         margin-left: 0.25rem;
         margin-right: 0.25rem;
         height: 5rem;
@@ -48,8 +48,12 @@ export const TitleWrapper = styled.div`
     font-size: 2rem;
     font-family: 'EB Garamond', serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.64rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 2.2rem;
     }
 `;
 
@@ -72,7 +76,7 @@ export const MenuWrapper = styled.div`
     height: 4rem;
     width: 6rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 4rem;
         margin-left: 0rem;
     }
@@ -91,6 +95,13 @@ export const StyledMenuIcon = styled(Menu)`
         width: 3.5rem;
         height: 2.5rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        &.MuiSvgIcon-root {
+            width: 4rem;
+            height: 3rem;
+        }
+    }
 `;
 
 export const StyledCloseIcon = styled(Close)`
@@ -99,6 +110,13 @@ export const StyledCloseIcon = styled(Close)`
     &.MuiSvgIcon-root {
         width: 3.5rem;
         height: 2.5rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        &.MuiSvgIcon-root {
+            width: 4rem;
+            height: 3rem;
+        }
     }
 `;
 

@@ -20,7 +20,7 @@ export const Desc = styled.div`
     text-align: justify;
     padding-right: 27%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         line-height: 1.8rem;
         padding-right: 0rem;
         margin-top: 0.7rem;
@@ -52,7 +52,7 @@ export const StyledIconButton = styled(IconButton)`
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 7.5rem;
         height: 7.5rem;
     }
@@ -78,7 +78,7 @@ export const StyledCloseButton = styled(IconButton)`
         position: absolute;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiIconButton-root {
             top: 0.6rem;
             right: 0.6rem;
@@ -97,7 +97,7 @@ export const StyledContent = styled(DialogContent)`
         overflow: hidden;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
     }
 `;
@@ -110,7 +110,7 @@ export const InfoContainer = styled.div`
     color: #0F0A00;
     box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         flex-direction: column-reverse;
         overflow: hidden;
         background: #fcf6e9;
@@ -132,7 +132,7 @@ export const InnerBox = styled.div`
         border-radius: 0rem 2rem 2rem 0rem;
     `}
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 100%;
         z-index: 2;
         padding: 1.5rem;
@@ -149,7 +149,7 @@ export const InnerBox = styled.div`
 export const StudioName = styled.img`
     height: 3rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         position: absolute;
         left: 1.5rem;
     }
@@ -166,7 +166,7 @@ export const InfoTitle = styled.div`
     font-family: 'EB Garamond', serif;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #504221e6;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
        font-size: 3rem;
        line-height: 3.3rem;
        width: 100%;
@@ -181,7 +181,7 @@ export const StyledCloseIcon = styled(Close)`
         height: 2rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiSvgIcon-root {
             width: 3rem;
             height: 2.5rem;
@@ -197,7 +197,7 @@ export const StyledPlayIcon = styled(PlayArrow)`
         height: 3rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiSvgIcon-root {
             width: 5rem;
             height: 5rem;
@@ -214,7 +214,7 @@ export const MovieImg = styled.img`
     transform: translateY(-50%);
     box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         top: 0rem;
         left: auto;
         transform: none;
@@ -233,7 +233,7 @@ export const ReleaseInfo = styled.div`
     padding-right: 2rem;
     color: #504221d1;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding-top: 1rem;
         width: 100%;
         padding-right: 0rem;
@@ -260,7 +260,7 @@ export const Director = styled.div`
     margin-top: 1.5rem;
     margin-bottom: 0.3rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 2rem;
     }
 `;
@@ -273,7 +273,7 @@ export const DirBox = styled.div`
     left: 75%;
     top: 15%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         left: 50%;
         right: auto;
         transform: translateX(-50%);
@@ -286,7 +286,7 @@ export const Line = styled.div`
     height: 0.05rem;
     margin-right: 1rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;
@@ -297,7 +297,7 @@ export const Direction = styled.div`
     color: #fcf6e9;
     font-family: 'EB Garamond', serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;

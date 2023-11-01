@@ -28,7 +28,7 @@ export const SemiCircle = styled.div`
         box-sizing: border-box;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;
@@ -42,7 +42,7 @@ export const IndicatorStep = styled.div`
     transform: translateY(-50%);
     left: 2rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;
@@ -65,7 +65,7 @@ export const StepperContainer = styled.div`
         scrollbar-width: none;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 1rem 2rem 1rem 2rem;
         scroll-snap-type: mandatory;
         scroll-snap-type: y mandatory;
@@ -78,7 +78,7 @@ export const StepperBox = styled.div`
     display: flex;
     opacity: ${({ opacity }) => opacity && opacity};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         scroll-snap-align: start;
         padding-top: 2rem;
     }
@@ -98,7 +98,7 @@ export const TitleWrapper = styled.div`
     justify-content: center;
     padding-top: 10%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 30%;
         min-height: 20%;
         padding-top: 0%;
@@ -118,7 +118,7 @@ export const LargeTitle = styled.div`
     opacity: ${({ fontSize }) => fontSize ? "1" : "0"};
     line-height: ${({ fontSize }) => fontSize && `${fontSize - 1}rem`};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 100%;
         padding-top: 0rem;
         line-height: ${({ fontSize }) => fontSize && `${fontSize - 0.5}rem`};
@@ -133,7 +133,7 @@ export const Desc = styled.div`
     position: relative;
     margin-top: ${({ margin }) => margin && `${margin}rem`};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
         width: calc(100% - 2.2rem);
         margin-left: 2.2rem;
@@ -151,7 +151,7 @@ export const OtherSteps = styled.div`
     align-items: center;
     gap: 0.5rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;
@@ -185,7 +185,7 @@ export const StyledButton = styled.div`
         border-right: 0.1rem solid #ffffff;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         border-right: 0.1rem solid #ffffff;
         border-bottom: 0.1rem solid #ffffff;
 

@@ -6,7 +6,7 @@ export const PageContainer = styled.div`
 	padding: 2rem 7rem 2rem 7rem;
 	display: flex;
 
-	@media (max-width: 768px) {
+	@media (max-width: 480px) {
         padding: 1.5rem 3.2rem 1.5rem 3.2rem;
     }
 `;

@@ -21,7 +21,7 @@ import SectionOptions from "../../components/poet/sectionOptions/SectionOptions"
 
 export default function PoetPage() {
     const { id } = useParams();
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
     const poet = poets.filter((poet) => poet.id === id)[0];
 
         const scrollToView = (e) => {

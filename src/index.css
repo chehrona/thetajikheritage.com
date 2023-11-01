@@ -16,9 +16,15 @@ html {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     html {
         font-size: 12px;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 960px) {
+    html {
+        font-size: 13px;
     }
 }
 

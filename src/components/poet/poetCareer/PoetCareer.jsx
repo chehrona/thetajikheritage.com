@@ -27,7 +27,7 @@ export default function PoetCareer({ points }) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [translate, setTranslate] = useState(0);
     const [currentSize, setCurrentSize] = useState(0);
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
 
     useEffect(() => {
         const parentWidth = parentRef?.current?.getBoundingClientRect().width;

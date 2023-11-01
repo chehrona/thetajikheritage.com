@@ -22,7 +22,7 @@ export const FooterInnerContainer = styled.div`
     z-index: 10;
     justify-content: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         justify-content: start;
         padding-left: 15%;
     }
@@ -37,8 +37,12 @@ export const Text = styled.div`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 1.5rem;
     }
 `;
 
@@ -51,7 +55,7 @@ export const SocialsWrapper = styled.div`
     flex-direction: row;
     gap: 0.5rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         gap: 0rem;
         right: 0rem;
     }
@@ -66,6 +70,11 @@ export const StyledIcon = styled.img`
     &:hover {
         filter: grayscale(0%);
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -73,7 +82,7 @@ export const StyledIconButton = styled(IconButton)`
         padding: 0.6rem;  
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiIconButton-root {
             margin-left: 0.5rem;  
         }

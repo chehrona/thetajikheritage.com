@@ -22,7 +22,7 @@ export const PoetBoxContainer = styled.div`
     flex-wrap: wrap;
     justify-content: ${({ justify }) => justify && (justify <= 2 ? 'start' : 'center')};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         gap: 1rem;
         justify-content: space-between;
     }
@@ -45,13 +45,22 @@ export const PoetCardWrapper = styled.div`
         box-shadow: 0rem 0rem 0.6rem #504221d1;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 19.025rem;
         width: 12.5rem;
         box-shadow: 0rem 0rem 0.6rem #504221d1;
 
         &:hover {
             border-radius: 0.7rem;
+        }
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        border-radius: 1.5rem;
+        box-shadow: 0rem 0rem 0.6rem #504221d1;
+
+        &:hover {
+            border-radius: 1.5rem;
         }
     }
 `;
@@ -70,7 +79,7 @@ export const PoetImgContainer = styled.div`
     transform: translateX(-50%);
     box-shadow: 0rem 0rem 3rem rgba(189, 157, 82, 0.8);
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 12rem;
         width: 9rem;
     }
@@ -86,7 +95,7 @@ export const PoetImage = styled.img`
         url("/loader.svg") center
         no-repeat;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         border-radius: 4.5rem;
         height: 11rem;
         width: 8rem;
@@ -100,8 +109,12 @@ export const PoetName = styled.div`
     font-style: italic;
     text-shadow: 0rem 0rem 0.25rem black;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 2.2rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 3rem;
     }
 `;
 
@@ -111,7 +124,7 @@ export const PoetNameBox = styled.div`
     line-height: 2.5rem;
     left: -2rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         top: 9rem;
         line-height: 1.7rem;
         left: -0.5rem;
@@ -122,9 +135,14 @@ export const PoetDates = styled.div`
     font-size: 1rem;
     font-family: 'IBM Plex Serif', serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.25rem;
         margin-top: 1rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 1.45rem;
+        margin-top: 0.5rem;
     }
 `;
 
@@ -134,8 +152,13 @@ export const PoetInfoContainer = styled.div`
     bottom: 3rem;
     width: 20rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 1.1rem;
+        bottom: 2rem;
     }
 `;
 

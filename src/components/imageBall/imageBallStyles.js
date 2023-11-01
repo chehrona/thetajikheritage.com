@@ -6,7 +6,7 @@ export const MainContainer = styled.div`
     position: absolute;
     top: 0rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;

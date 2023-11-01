@@ -58,22 +58,13 @@ export const MainContainer = styled.div`
         box-sizing: border-box;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         border-radius: 0rem;
         flex-direction: column-reverse;
+    }
 
-        &:after {
-            content: "";
-            padding: 3rem;  
-            width: 100%;
-            background: #fcf6e9;
-            background-image: url(${'/noise.png'});
-            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-            clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);
-            position: absolute;
-            bottom: -0.01rem;
-            box-sizing: border-box;
-        }
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        border-radius: 2.5rem 2.5rem 0rem 0rem;
     }
 `;
 
@@ -88,24 +79,35 @@ export const FadedImage = styled.img`
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 100%;
         min-height: 25rem;
         border-radius: 2.5rem 2rem 0rem 2.5rem;
         margin-left: -12%;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        border-radius: 2.5rem 2.5rem 0rem 2.5rem;
+        min-height: 40rem;
+        width: 40rem;
+    }
 `;
 
 export const SegmentContainer = styled.div`
-    margin: 5rem;
-    margin-left: 5rem;
+    margin: 5rem 5rem 5rem 1.5rem;
     font-size: 1.5rem;
     width: 100%;
     z-index: 10;
     position: relative;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 1.65rem;
+        margin: 2.5rem 3rem 3rem 3rem;
+        min-width: 12rem;
     }
 `;
 
@@ -130,6 +132,11 @@ export const TitleSpan = styled.span`
         font-size: 1.6rem;
         cursor: pointer;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        text-shadow: 0.1rem 1rem 2rem #dedbdb;
+        font-size: 1.65rem;
+    }
 `;
 
 export const PoetName = styled.div`
@@ -150,7 +157,7 @@ export const PoetName = styled.div`
         -webkit-text-stroke-width: 0.22rem;
     `}
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 5rem;
         line-height: 5.2rem;
         text-align: left;
@@ -165,6 +172,10 @@ export const PoetName = styled.div`
             -webkit-text-stroke-color: transparent;
         `}
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 6.5rem;
+    }
 `;
 
 export const PoetNameContainer = styled.div`
@@ -173,9 +184,14 @@ export const PoetNameContainer = styled.div`
     bottom: 6rem;
     display: flex;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         left: 2rem;
         display: block;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        left: 3rem;
+        bottom: 7rem;
     }
 `;
 
@@ -190,7 +206,7 @@ export const YearsContainer = styled.div`
     font-weight: bold;
     z-index: 10;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 4.2rem;
         min-height: 12rem;
         position: absolute;
@@ -198,14 +214,22 @@ export const YearsContainer = styled.div`
         right: 0.5rem;
         text-align: right;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 8rem;
+        left: 8rem;
+    }
 `;
 
 export const Year = styled.div`
     margin-left: 9rem;
 
-    @media (max-width: 768px) {
-        margin-left: 0rem;
-        margin-right: 2.5rem;
+    @media (max-width: 480px) {
+        margin: 0rem 2.5rem 0rem 0rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        margin-bottom: 1rem;
     }
 `;
 

@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
     justify-content: space-between;
     padding: 0rem 1rem 2rem 1rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         max-width: 100%;
         font-size: 1.3rem;
         padding: 1rem 1.5rem 2rem 1rem;
@@ -34,7 +34,7 @@ export const StyledAddIcon = styled(Add)`
         font-size: 2rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiSvgIcon-root {
             font-size: 2.5rem;
         }
@@ -50,7 +50,7 @@ export const ServeAmount = styled.input`
     text-align: center;
     font-family: 'IBM Plex Serif', serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 3.5rem;
         height: 2.5rem;
         font-size: 1.3rem;
@@ -68,7 +68,7 @@ export const StyledMinusIcon = styled(Remove)`
         font-size: 2rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         &.MuiSvgIcon-root {
             font-size: 2.5rem;
         }
@@ -81,7 +81,7 @@ export const SubTitle = styled.div`
     font-size: 1.2rem;
     color: #000;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding-bottom: 0rem;
         font-size: 1.3rem;
     }
@@ -93,7 +93,7 @@ export const ServeContainer = styled.div`
     align-items: center;
     margin-top: 1.3rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         margin-top: 1rem;
     }
 `;
@@ -102,7 +102,7 @@ export const TimeBox = styled.div`
     font-size: 1.2rem;
     padding-bottom: 0.75rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
         padding-bottom: 1rem;
     }
@@ -116,7 +116,7 @@ export const PrintContainer = styled.div`
     min-width: 4.7rem;
     padding-bottom: 0.25rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 100%;
         padding: 0rem 1.5rem 2rem 1.5rem;
     }

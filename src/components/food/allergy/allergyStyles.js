@@ -8,7 +8,7 @@ export const AllergyContainer = styled.div`
     max-width: 35%;
     justify-content: space-between;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         max-width: 100%;
         padding: 0rem 1.5rem;
     }
@@ -31,7 +31,7 @@ export const LabelContainer = styled.div`
         margin-right: 0rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         margin-right: 0.25rem;
     }
 `;
@@ -41,7 +41,7 @@ export const BoxTitle = styled.div`
     font-weight: 600;
     font-size: 1.2rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
     }
 `;
@@ -57,7 +57,7 @@ export const LabelImage = styled.img`
     border-radius: 50%;
     background: white;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 5rem;
         height: 5rem;
     }
@@ -67,7 +67,7 @@ export const AllergenName = styled.div`
     font-size: 0.9rem;
     color: #dedbdb;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.2rem;
     }
 `;

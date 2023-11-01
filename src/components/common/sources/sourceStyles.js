@@ -6,7 +6,7 @@ export const DropDownContainer = styled.div`
     margin-bottom: 2rem;
     padding-top: 1rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 0rem 1.5rem 0rem 1.5rem;
         margin-bottom: 1rem;
     }
@@ -51,7 +51,7 @@ export const RefContainer = styled.div`
     height: ${({ open }) => open ? "15rem" : "0rem"};
     box-shadow: ${({ open, background }) => open && `0rem 0rem 0.4rem 0.01rem ${background}`};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: ${({ open }) => open ? "30rem" : "0rem"};
     }
 `;
@@ -59,7 +59,7 @@ export const RefContainer = styled.div`
 export const RefWrapper = styled.div`
     padding: 1rem 2rem 1rem 2rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 1rem;
     }
 `;
@@ -72,7 +72,7 @@ export const SubTitle = styled.div`
     margin-bottom: 1rem;
     color: ${({ title }) => title && title};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 2.5rem;
         margin-bottom: 0.5rem;
     }
@@ -82,7 +82,7 @@ export const Reference = styled.span`
     font-size: 1.1rem;
     line-height: 1.7rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
     }
 `;
@@ -93,7 +93,7 @@ export const RefBox = styled.div`
     font-size: 1.1rem;
     line-height: 1.7rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
     }
 `;

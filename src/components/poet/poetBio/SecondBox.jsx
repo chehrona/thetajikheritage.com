@@ -29,7 +29,7 @@ export default function SecondBox({ poet }) {
     const lastItem = newArr.pop();
     newArr.unshift(lastItem);
     const [infoArr, setInfoArr] = useState([...newArr]);
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
 
     useEffect(() => {
         setInfoArr([...poet?.two[lang]]);

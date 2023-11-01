@@ -21,7 +21,7 @@ import {
 
 export default function Servings({ recipe, servings, setServings }) {
     const { lang } = useSetLang();
-    const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
 
     useEffect(() => {
         if (servings.length > 0 && !parseInt(servings)) {

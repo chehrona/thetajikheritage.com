@@ -8,7 +8,7 @@ export const MainContainer = styled.div`
     background-color: #fcf6e9;
     font-size: 1.1rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         position: relative;
         padding-bottom: 0rem;
         font-size: 1.3rem;
@@ -26,6 +26,10 @@ export const MainContainer = styled.div`
             box-sizing: border-box;
         }
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 1.3rem;
+    }
 `;
 
 // Box one ****************************
@@ -38,10 +42,14 @@ export const BoxOne = styled.div`
     gap: 3rem;
     position: relative;
 
-    @media (max-width: 768px) {
+    @media (max-width: 896px) {
         padding: 0rem 1.5rem 1rem 1.5rem;
         flex-wrap: wrap;
         margin-bottom: 3rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 0rem 2rem 1rem 2rem;
     }
 `;
 
@@ -49,6 +57,10 @@ export const Year = styled.div`
     font-size: 3.5rem;
     font-family: "EB Garamond", serif;
     margin-bottom: 0.5rem;
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 4rem;
+    }
 `;
 
 export const Desc = styled.div`
@@ -66,7 +78,7 @@ export const BoxTwo = styled.div`
     justify-content: space-between;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         margin-bottom: 0.5rem;
         color: #fcf6e9;
     }
@@ -89,7 +101,7 @@ export const Backdrop = styled.div`
     background-size: cover;
     background-image: ${({ backdrop }) => `url(${ backdrop })`};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         opacity: 0.15;
     }
 `;
@@ -101,9 +113,13 @@ export const Slides = styled.div`
     position: absolute;
     pointer-events: none;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         left: auto;
         height: 100%;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        left: 2rem;
     }
 `;
 
@@ -114,7 +130,7 @@ export const SlideImg = styled.img`
     box-shadow: ${({ show }) => 
         show ? '0rem 0rem 0.5rem 0.1rem #dedbdb' : '0rem 0rem 1rem 0.2rem #504221e6'};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: ${({ show }) => !show && 'none'};
     }
 `;
@@ -135,7 +151,7 @@ export const NavWrapper = styled.div`
     align-items: center;
     position: relative;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;
@@ -144,6 +160,10 @@ export const Line = styled.div`
     width: 0.0625rem;
     height: 7rem;
     background: #bd9d52;
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        height: 2rem;
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -156,7 +176,7 @@ export const StyledIconButton = styled(IconButton)`
         margin-top: ${({ bottom }) => !bottom && '-0.5rem'};
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 5.5rem;
         height: 5.5rem;
 
@@ -193,21 +213,24 @@ export const LineWrapper = styled.div`
     transition: ease 1000ms;
     align-items: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         flex-direction: column;
     }
 `;
 
 export const Info = styled.div`
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 0rem 10%;
     text-align: center;
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 0rem 2rem;
     }
 `;
 
@@ -217,7 +240,7 @@ export const Text = styled.div`
     word-break: break-word;
     line-height: 1.8rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.35rem;
         overflow-y: scroll;
         margin-bottom: 2rem;
@@ -227,7 +250,7 @@ export const Text = styled.div`
 export const FillerOne = styled.div`
     min-width: 10%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;
@@ -235,7 +258,7 @@ export const FillerOne = styled.div`
 export const FillerTwo = styled.div`
     min-width: 18rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         display: none;
     }
 `;
@@ -246,8 +269,12 @@ export const BoxThree = styled.div`
     position: relative;
     padding: 0rem 3rem 3rem 3rem;
 
-    @media (max-width: 768px) {
-        padding: 2rem 1.5rem 2rem 1.5rem;
+    @media (max-width: 480px) {
+        padding: 2rem 1.5rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 0rem 2rem 2rem 2rem;
     }
 `;
 
@@ -262,7 +289,7 @@ export const QuoteOutline = styled.div`
     width: 5rem;
     height: 5rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 896px) {
         width: 6rem;
         height: 6rem;
     }
@@ -284,10 +311,14 @@ export const Quote = styled.div`
     font-family: "EB Garamond", serif;
     font-style: bold;
     text-align: center;
-    margin: 1rem 3rem 2rem 3rem;
+    padding: 1rem 0rem;
 
-    @media (max-width: 768px) {
-        margin: 0.5rem 0rem 1rem 0rem;
+    @media (max-width: 480px) {
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         font-size: 2.5rem;
         line-height: 2.8rem;
     }
@@ -300,8 +331,12 @@ export const DescWrapper = styled.div`
     color: #333333;
     font-family: 'IBM Plex Serif', serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         column-count: 1;
+    }
+    
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        column-gap: 2rem;
     }
 `;
 
@@ -312,22 +347,9 @@ export const YearBig = styled.div`
     text-align: ${({ align }) => align && 'center'};
     color: ${({ color }) => color && '#bd9d52'};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         margin-bottom: ${({ align }) => align && '0rem'};
     }
-`;
-
-export const TextWrapper = styled.div`
-    padding-left: 3rem;
-    padding-right: 3rem;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    color: #fcf6e9;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 `;
 
 // Box five ********************************
@@ -345,7 +367,7 @@ export const FamilyDesc = styled.div`
         scrollbar-width: none;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         height: auto;
     }
@@ -369,7 +391,7 @@ export const ImageWrapper = styled.div`
     transform: translateX(${({ translate }) => `${translate}px`});
     background-size: ${({ src }) => src && 'cover'};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         height: 23rem;
     }
 `;
@@ -380,7 +402,7 @@ export const ButtonWrapper = styled.div`
     transform: translateY(-50%);
     width: 100%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 1.5rem;
         padding-bottom: 2.1rem;
     }
@@ -393,7 +415,7 @@ export const BoxSix = styled.div`
     color: #0F0A00;
     padding: 1.5rem 3rem 3rem 3rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         padding: 1.5rem;
         padding-bottom: 2.1rem;
     }
@@ -405,7 +427,7 @@ export const BoxSeven = styled.div`
     display: flex;
     min-height: 20rem;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         flex-direction: column-reverse;
     }
 `;
@@ -415,9 +437,13 @@ export const LeftContainer = styled.div`
     position: relative;
     height: 100%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 100%;
-        height: ${({ first, seven }) => first ? '15rem': (seven ? '30rem': 'auto')};
+        height: ${({ seven }) => seven ? '30rem': 'auto'};
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: 100%;
     }
 `;
 
@@ -433,10 +459,15 @@ export const RightContainer = styled.div`
     position: relative;
     overflow: hidden;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 100%;
         margin-top: ${({ first }) => first && '-2rem'};
         height: ${({ first }) => first ? '17rem': '23rem'};
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: 100%;
+        margin-top: ${({ first }) => first && '-2.5rem'};
     }
 `;
 
@@ -458,7 +489,7 @@ export const BackImg = styled.div`
     filter: grayscale(1);
     background-image: ${({ src }) => `url(${ src })`};
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         margin-top: -3rem;
     }
 `;
@@ -478,7 +509,7 @@ export const FinalQuote = styled.div`
     transform: translate(-50%, -50%);
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         line-height: 2.8rem;
         font-size: 2.5rem;
     }
@@ -491,7 +522,7 @@ export const Author = styled.div`
     text-align: end;
     font-family: 'IBM Plex Serif', serif;
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.3rem;
     }
 `;
@@ -516,7 +547,7 @@ export const StyledButton = styled(IconButton)`
         display: none;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         width: 5rem;
         height: 5rem;
     }
@@ -541,7 +572,7 @@ export const ImgInfo = styled.div`
         bottom: 3.5rem;
     `}
 
-    @media (max-width: 768px) {
+    @media (max-width: 480px) {
         font-size: 1.25rem;
         line-height: 1.3rem;
         bottom: 0.5rem;
@@ -549,6 +580,17 @@ export const ImgInfo = styled.div`
         ${({ up }) => up && `
             bottom: -1rem;
             left: 1.5rem;
+        `}
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 1.25rem;
+        line-height: 1.3rem;
+        bottom: 0.5rem;
+
+        ${({ up }) => up && `
+            bottom: 0rem;
+            left: 3rem;
         `}
     }
 `;
