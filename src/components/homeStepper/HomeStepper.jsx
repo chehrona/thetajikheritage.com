@@ -17,7 +17,6 @@ import {
     OtherSteps,
     StepperContainer,
     StyledButton,
-    Link,
     ImageSemiCircle
 } from "./homeStepperStyles";
 
@@ -73,24 +72,17 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                             <div>
                                 <TitleWrapper>
                                     <LargeTitle
-                                        fontSize={isMobile ? step?.text[lang].font?.m : step?.text[lang].font?.d}>
+                                        fontSize={step?.text[lang].font}>
                                             {step?.text[lang].text}
                                     </LargeTitle>
                                 </TitleWrapper>
-                                <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin?.d}>
+                                <Desc margin={step?.text[lang]?.margin && step?.text[lang]?.margin}>
                                     <div
                                         dangerouslySetInnerHTML={{__html: step?.desc[lang].text}}
                                     />
-                                    <Link href={step?.desc[lang].link} target="_blank">
-                                        <StyledButton
-                                            width={lang === 'ru' ? (isMobile ? '47%' : '30%') : 
-                                                (lang === 'tj' ? (isMobile ? '54%' : '33%') : 
-                                                (isMobile ? '26%' : '17%'))
-                                            }
-                                        >
-                                            {lang === 'ru' ? 'УЗНАТЬ БОЛЬШЕ' : (lang === 'tj' ? 'БИСЁРТАР ОМӮЗЕД' : 'EXPLORE')}
-                                        </StyledButton>
-                                    </Link>
+                                    <StyledButton lang={lang} href={step?.desc[lang].link} target="_blank">
+                                        {lang === 'ru' ? 'УЗНАТЬ БОЛЬШЕ' : (lang === 'tj' ? 'БИСЁРТАР ОМӮЗЕД' : 'EXPLORE')}
+                                    </StyledButton>
                                 </Desc>
                             </div>
                         </StepperBox>

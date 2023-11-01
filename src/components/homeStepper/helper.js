@@ -2,9 +2,9 @@ export const stepInfo = [
     {
         num: "01",
         text: {
-            us: {text: "Arts & crafts", font: {d: 10, m: 7.1, p: 8}, margin: {d: 2, m: 1}},
-            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, p: 6}},
-            tj: {text: "Санъат & ҳунар", font: {d: 9.5, m: 6.1, p: 8}, margin: {d: 2, m: 0}}
+            us: {text: "Arts & crafts", font: {d: 10, m: 7.1, t: 10}, margin: {d: 2, m: 2, t: -4}},
+            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, t: 7.1}, margin: {d: 0, m: 0, t: -8}},
+            tj: {text: "Санъат & ҳунар", font: {d: 9.5, m: 6.1, t: 8.65}, margin: {d: 2, m: 2, t: -6}}
         },
         desc: {
             us: 
@@ -42,22 +42,22 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, bottom: "-2rem", right: "23rem"},
-            {size: 12, bottom: "5rem", right: "7.7rem"},
-            {size: 30, top: "-6.2rem", right: "-3rem"}
+            {size: 16, bottom: {d: "-2rem", t: "-2rem"}, right: {d: "23rem", t: "2rem"}},
+            {size: 12, bottom: {d: "5rem", t: "20rem"}, right: {d: "7.7rem", t: "10rem"}},
+            {size: 30, top: {d: "-6.2rem", t: "-7.2rem"}, right: {d: "-3rem", t: "-4.5rem"}}
         ],
         inner: [
-            {size: 15, bottom: "-1.5rem", right: "23.5rem", img: "/homeImages/craft3.png"},
-            {size: 11, bottom: "5.5rem", right: "7.2rem", img: "/homeImages/craft2.png"},
-            {size: 29, top: "-5.5rem", right: "-1.2rem", img: "/homeImages/craft1.png"}
+            {size: 15, bottom: {d: "-1.5rem", t: "-1.5rem"}, right: {d: "23.5rem", t: "2.5rem"}, img: "/homeImages/craft3.png"},
+            {size: 11, bottom: {d: "5.5rem", t: "20.5rem"}, right: {d: "7.2rem", t: "9.5rem"}, img: "/homeImages/craft2.png"},
+            {size: 29, top: {d: "-5.5rem", t: "-6.5rem"}, right: {d: "-1.2rem", t: "-2.2rem"}, img: "/homeImages/craft1.png"}
         ],
     },
     {
         num: "02",
         text: {
-            us: {text: "Customs", font: {d: 9.3, m: 5.8, p: 7.3}},
-            ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, p: 7.3}},
-            tj: {text: "Расму оин", font: {d: 9, m: 7.5, p: 7.3}, margin: {d: 2, m: 0.5}}
+            us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.4}, margin: {d: 0, m: -1, t: -10}},
+            ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: 0, m: -1, t: -10.5}},
+            tj: {text: "Расму оин", font: {d: 9, m: 7.5, t: 10}, margin: {d: 2, m: 3, t: -5}}
         },
         desc: {
             us: 
@@ -94,22 +94,22 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, top: "-3rem", right: "34rem"},
-            {size: 12, bottom: "1rem", right: "27.5rem"},
-            {size: 30, top: "6rem", right: "0.5rem"}
+            {size: 16, top: {d: "-3rem", t: "-2rem"}, right: {d: "34rem", t: "32rem"}},
+            {size: 12, bottom: {d: "1rem", t: "50rem"}, right: {d: "27.5rem", t: "2rem"}},
+            {size: 30, top: {d: "6rem", t: "38rem"}, right: {d: "0.5rem", t: "1rem"}}
         ],
         inner: [
-            {size: 15, top: "-3.5rem", right: "34.7rem", img: "/homeImages/custom3.png"},
-            {size: 11, bottom: "1.5rem", right: "28rem", img: "/homeImages/custom2.png"},
-            {size: 29, top: "6rem", right: "1.5rem", img: "/homeImages/custom1.png"}
+            {size: 15, top: {d: "-3.5rem", t: "-2.5rem"}, right: {d: "34.7rem", t: "32.7rem"}, img: "/homeImages/custom3.png"},
+            {size: 11, bottom: {d: "1.5rem", t: "50.5rem"}, right: {d: "28rem", t: "2.5rem"}, img: "/homeImages/custom2.png"},
+            {size: 29, top: {d: "6rem", t: "38rem"}, right: {d: "1.5rem", t: "2rem"}, img: "/homeImages/custom1.png"}
         ],
     },
     {
         num: "03",
         text: {
-            us: {text: "Cuisine", font: {d: 11, m: 6.8, p: 7.3}},
-            ru: {text: "Кухня", font: {d: 11.7, m: 7.6, p: 7.3}},
-            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.65, p: 7.3}}
+            us: {text: "Cuisine", font: {d: 11, m: 6.8, t: 11}, margin: {d: 0, m: 0, t: -9.5}},
+            ru: {text: "Кухня", font: {d: 11.7, m: 7.6, t: 12}, margin: {d: 0, m: 0, t: -9.5}},
+            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.65, t: 10.5}, margin: {d: 0, m: -0.5, t: -9.5}}
         },
         desc: {
             us: {
@@ -144,22 +144,22 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: "-0.5rem", right: "32rem"},
-            {size: 12, top: "1.5rem", right: "87.5%"},
-            {size: 30, top: "12rem", right: "0rem"}
+            {size: 16, top: {d: "-0.5rem", t: "35rem"}, right: {d: "32rem", t: "2rem"}},
+            {size: 12, top: {d: "1.5rem", t: "56rem"}, right: {d: "87.5%", t: "8rem"}},
+            {size: 30, top: {d: "12rem", t: "-8rem"}, right: {d: "0rem", t: "15rem"}}
         ],
         inner: [
-            {size: 15, top: "1rem", right: "32.5rem", img: "/homeImages/cuisine3.png"},
-            {size: 11, top: "2rem", right: "88%", img: "/homeImages/cuisine2.png"},
-            {size: 29, top: "12rem", right: "1rem", img: "/homeImages/cuisine1.png"}
+            {size: 15, top: {d: "1rem", t: "36.5rem"}, right: {d: "32.5rem", t: "2.5rem"}, img: "/homeImages/cuisine3.png"},
+            {size: 11, top: {d: "2rem", t: "56.5rem"}, right: {d: "88%", t: "8.5rem"}, img: "/homeImages/cuisine2.png"},
+            {size: 29, top: {d: "12rem", t: "-8rem"}, right: {d: "1rem", t: "16rem"}, img: "/homeImages/cuisine1.png"}
         ],
     },
     {
         num: "04",
         text: {
-            us: {text: "Language & literature", font: {d: 6.8, m: 4.35, p: 8}},
-            ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, p: 8}},
-            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, p: 8}, margin: {d: 3, m: 0}}
+            us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: 0, m: 0, t: -9}},
+            ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: 0, m: 0, t: -9}},
+            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: 3, m: 1.5, t: -6}}
         },
         desc: {
             us: {
@@ -210,9 +210,9 @@ export const stepInfo = [
     {
         num: "05",
         text: {
-            us: {text: "History", font: {d: 10.1, m: 6.25, p: 8}},
-            ru: {text: "История", font: {d: 8.79, m: 5.4, p: 8}},
-            tj: {text: "Таърих", font: {d: 10.7, m: 6.7, p: 8}}
+            us: {text: "History", font: {d: 10.1, m: 6.25, t: 10}, margin: {d: 0, m: -0.5, t: -10}},
+            ru: {text: "История", font: {d: 8.79, m: 5.4, t: 8.8}, margin: {d: 0, m: -1, t: -10.5}},
+            tj: {text: "Таърих", font: {d: 10.7, m: 6.7, t: 10.5}, margin: {d: 0, m: -1, t: -10}}
         },
         desc: {
             us: {

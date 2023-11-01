@@ -39,6 +39,13 @@ export const LogoWrapper = styled.div`
         height: 5rem;
         width: 5rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        height: 6.5rem;
+        width: 6.5rem;
+        margin-left: 0.5rem;
+        padding-top: 0.25rem;
+    }
 `;
 
 export const TitleWrapper = styled.div`

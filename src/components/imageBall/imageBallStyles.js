@@ -26,12 +26,18 @@ export const Border = styled.div`
     transform: scale(${({ opacity }) => opacity && opacity});
     width: ${({ size }) => size && `${size}rem`};
     height: ${({ size }) => size && `${size}rem`};
-    bottom: ${({ bottom }) => bottom && bottom};
-    top: ${({ top }) => top && top};
-    right: ${({ right }) => right && right};
+    bottom: ${({ bottom }) => bottom && bottom.d};
+    top: ${({ top }) => top && top.d};
+    right: ${({ right }) => right && right.d};
     border: 0.0625rem solid #bd9d52;
     will-change: transform;
     z-index: 1;
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        bottom: ${({ bottom }) => bottom && bottom.t};
+        top: ${({ top }) => top && top.t};
+        right: ${({ right }) => right && right.t};
+    }
 `;
 
 export const HomeImage = styled.img`
@@ -42,10 +48,16 @@ export const HomeImage = styled.img`
     width: ${({ size }) => size && `${size}rem`};
     height: ${({ size }) => size && `${size}rem`};
     box-shadow: 0rem 0rem 0.5rem 0.25rem #504221;
-    bottom: ${({ bottom }) => bottom && bottom};
     opacity: ${({ opacity }) => opacity && opacity};
     top: ${({ top }) => top && top};
+    bottom: ${({ bottom }) => bottom && bottom};
     right: ${({ right }) => right && right};
     will-change: transform;
     z-index: 0;
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        bottom: ${({ bottom }) => bottom && bottom.t};
+        top: ${({ top }) => top && top.t};
+        right: ${({ right }) => right && right.t};
+    }
 `;

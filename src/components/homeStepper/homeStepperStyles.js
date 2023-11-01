@@ -45,6 +45,10 @@ export const IndicatorStep = styled.div`
     @media (max-width: 480px) {
         display: none;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 2rem;
+    }
 `;
 
 export const NumLine = styled.div`
@@ -66,7 +70,12 @@ export const StepperContainer = styled.div`
     }
 
     @media (max-width: 480px) {
-        padding: 1rem 2rem 1rem 2rem;
+        padding: 1rem 2rem;
+        scroll-snap-type: mandatory;
+        scroll-snap-type: y mandatory;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         scroll-snap-type: mandatory;
         scroll-snap-type: y mandatory;
     }
@@ -82,6 +91,10 @@ export const StepperBox = styled.div`
         scroll-snap-align: start;
         padding-top: 2rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        scroll-snap-align: start;
+    }
 `;
 
 export const Step = styled.div`
@@ -89,6 +102,10 @@ export const Step = styled.div`
     color: #dedbdbb2;
     font-family: 'EB Garamond', serif;
     transition: 500ms ease-in-out;
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 1.5rem;
+    }
 `;
 
 export const TitleWrapper = styled.div`
@@ -114,14 +131,23 @@ export const LargeTitle = styled.div`
     text-transform: uppercase;
     font-family: 'EB Garamond', serif;
     text-shadow: 1rem 0rem 0rem #504221;
-    font-size: ${({ fontSize }) => fontSize && `${fontSize}rem`};
+    font-size: ${({ fontSize }) => fontSize && `${fontSize.d}rem`};
     opacity: ${({ fontSize }) => fontSize ? "1" : "0"};
     line-height: ${({ fontSize }) => fontSize && `${fontSize - 1}rem`};
 
     @media (max-width: 480px) {
         width: 100%;
         padding-top: 0rem;
-        line-height: ${({ fontSize }) => fontSize && `${fontSize - 0.5}rem`};
+        opacity: ${({ fontSize }) => fontSize.m ? "1" : "0"};
+        font-size: ${({ fontSize }) => fontSize && `${fontSize.m}rem`};
+        line-height: ${({ fontSize }) => fontSize && `${fontSize.m - 0.5}rem`};
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding-top: 3rem;
+        opacity: ${({ fontSize }) => fontSize.t ? "1" : "0"};
+        font-size: ${({ fontSize }) => fontSize && `${fontSize.t}rem`};
+        line-height: ${({ fontSize }) => fontSize && `${fontSize.t - 0.5}rem`};
     }
 `;
 
@@ -131,28 +157,41 @@ export const Desc = styled.div`
     width: 40%;
     margin-left: 10%;
     position: relative;
-    margin-top: ${({ margin }) => margin && `${margin}rem`};
+    margin-top: ${({ margin }) => margin && `${margin.d}rem`};
 
     @media (max-width: 480px) {
         font-size: 1.3rem;
         width: calc(100% - 2.2rem);
         margin-left: 2.2rem;
+        margin-top: ${({ margin }) => margin && `${margin.m}rem`};
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: 50%;
+        margin-left: 3rem;
+        font-size: 1.5rem;
+        margin-top: ${({ margin }) => margin && `${margin.t}rem`};
     }
 `;
 
 export const OtherSteps = styled.div`
-    position: absolute;
+    gap: 0.5rem;
     width: 3%;
     height: 20%;
     margin-left: 13%;
-    ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+    position: absolute;
+    ${({ bottom }) => bottom ? "bottom: 0rem" : "top: 0rem"};
+    justify-content: ${({ bottom }) => bottom ? "end" : "start"};
 
     @media (max-width: 480px) {
         display: none;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        margin-left: 10%;
     }
 `;
 
@@ -161,7 +200,9 @@ export const StyledButton = styled.div`
     height: 20%;
     font-weight: 500;
     padding-bottom: 0.25rem;
-    width: ${({ width }) => width && width};
+    width: ${({ lang }) => lang && 
+        lang === 'ru' ? '30%' : 
+        (lang === 'tj' ? '33%' : '17%')};
 
     &::before {
         content: '';
@@ -188,6 +229,10 @@ export const StyledButton = styled.div`
     @media (max-width: 480px) {
         border-right: 0.1rem solid #ffffff;
         border-bottom: 0.1rem solid #ffffff;
+        width: ${({ lang }) => lang && 
+            lang === 'ru' ? '46%' : 
+            (lang === 'tj' ? '54%' : '26%')
+        };
 
         &::before {
             display: none;
@@ -197,10 +242,23 @@ export const StyledButton = styled.div`
             border-right: none;
         }
     }
-`;
 
-export const Link = styled.a`
-    text-decoration: none;
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        border-right: 0.1rem solid #ffffff;
+        border-bottom: 0.1rem solid #ffffff;
+        width: ${({ lang }) => lang && 
+            lang === 'ru' ? '49%' : 
+            (lang === 'tj' ? '55%' : '27%')
+        };
+
+        &::before {
+            display: none;
+        }
+
+        &:hover {
+            border-right: none;
+        }
+    }
 `;
 
 export const ImageSemiCircle = styled.img`
