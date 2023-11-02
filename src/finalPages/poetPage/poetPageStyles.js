@@ -40,10 +40,11 @@ export const RefContainer = styled.div`
 
     @media (max-width: 480px) {
         border-radius: 0rem 0rem 2rem 2rem;
-        padding: 0rem 1rem 1rem 1rem;
+        padding: 0rem 1.5rem 1rem 1.5rem;
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         border-radius: 0rem 0rem 2.5rem 2.5rem;
+        padding: 0rem 2rem 2rem 2rem;
     }
 `;

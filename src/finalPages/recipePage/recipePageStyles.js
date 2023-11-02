@@ -145,9 +145,25 @@ export const IngredientContainer = styled.div`
 
 export const SubContainer = styled.div`
     margin-top: 3rem;
+    background-color: yellow;
 
     @media (max-width: 896px) {
         margin-top: 0rem;
+    }
+`;
+
+export const CookingInfoContainer = styled.div`
+    display: flex;
+    width: 100%;
+    max-width: 60%;
+    justify-content: space-between;
+
+    @media (max-width: 480px) {
+        max-width: 100%;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        max-width: 100%;
     }
 `;
 

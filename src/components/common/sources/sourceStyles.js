@@ -29,6 +29,10 @@ export const Line = styled.div`
     background: ${({ line }) => line && line};;
     margin-right: ${({ right }) => right ? "0.3rem" : "0rem"};
     margin-left: ${({ right }) => right ? "0rem" : "0.3rem"};
+
+    @media (max-width: 480px) {
+        width: 10rem;
+    }
 `;
 
 export const StyledDownIcon = styled(ExpandMore)`

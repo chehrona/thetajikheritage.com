@@ -491,7 +491,7 @@ export const RightContainer = styled.div`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         width: 100%;
-        height: ${({ first }) => first ? '30rem': '45rem'};
+        height: ${({ first }) => first ? '30rem': '40rem'};
         margin-top: ${({ first }) => first && '-2.5rem'};
     }
 `;

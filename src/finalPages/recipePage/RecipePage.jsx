@@ -23,13 +23,12 @@ import {
     IngredientContainer,
     SubContainer,
     RecipeContainer,
-    StyledButton
+    StyledButton,
+    CookingInfoContainer
 } from "./recipePageStyles";
 
-import {
-    SubTitle,
-    PrintContainer,
-} from "../../components/food/servings/servingsStyles";
+import CookTime from "../../components/food/cookTime/CookTime";
+import PrintRecipe from "../../components/food/printRecipe/PrintRecipe";
 
 export default function RecipePage() {
     const { id } = useParams();
@@ -68,23 +67,18 @@ export default function RecipePage() {
                     <SubContainer>
                         <IngredientContainer>
                             <Allergy recipe={recipe} />
-                            <Servings recipe={recipe} servings={servings} setServings={setServings} />
+                            <CookingInfoContainer>
+                                <Servings servings={servings} setServings={setServings} />
+                                <CookTime recipe={recipe} />
+                                {!isMobile && <PrintRecipe recipe={recipe} />}
+                            </CookingInfoContainer>
                         </IngredientContainer>
                         <InstructionContainer>
                             <RecipeIngredients recipe={recipe} />
                             <Directions recipe={recipe} />
                         </InstructionContainer>
                     </SubContainer>
-                    {isMobile && 
-                        <PrintContainer>
-                            <StyledButton href={"/cuisine" + recipe.link + "/print"} target="_blank">
-                                <SubTitle>
-                                    {lang === 'ru' ? 'Расспечатать' : 
-                                    (lang === 'tj' ? 'Чоп кунед' : 'Print')}
-                                </SubTitle>
-                            </StyledButton>
-                        </PrintContainer>
-                    }
+                    {isMobile && <PrintRecipe recipe={recipe} />}
                 </RecipeContainer>
             </PageContainer>
         )

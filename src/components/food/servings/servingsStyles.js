@@ -2,24 +2,6 @@ import { Add, Remove } from "@mui/icons-material";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const MainContainer = styled.div`
-    display: flex;
-    width: 100%;
-    max-width: 60%;
-    justify-content: space-between;
-    padding: 0rem 1rem 2rem 1rem;
-
-    @media (max-width: 480px) {
-        max-width: 100%;
-        font-size: 1.3rem;
-        padding: 1rem 1.5rem 2rem 1rem;
-    }
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        max-width: 100%;
-    }
-`;
-
 export const QuantityContainer = styled.div`
     display: flex;
     flex-direction: column;
@@ -100,43 +82,4 @@ export const ServeContainer = styled.div`
     @media (max-width: 480px) {
         margin-top: 1rem;
     }
-`;
-
-export const TimeBox = styled.div`
-    font-size: 1.2rem;
-    padding-bottom: 0.75rem;
-
-    @media (max-width: 480px) {
-        font-size: 1.3rem;
-        padding-bottom: 1rem;
-    }
-`;
-
-export const PrintContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 4.7rem;
-    padding-bottom: 0.25rem;
-
-    @media (max-width: 480px) {
-        width: 100%;
-        padding: 0rem 1.5rem 2rem 1.5rem;
-    }
-`;
-
-export const PrintBox = styled.img`
-    width: 2rem;
-    height: 2rem;
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-`;
-
-export const StyledLink = styled(Link)`
-    text-decoration: none;
-    color: inherit;
 `;

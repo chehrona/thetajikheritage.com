@@ -96,7 +96,10 @@ export default function RecipePagePrint() {
             <PrintHeader>
                 {showTop && <ServeBox>
                     <QuantityContainer>
-                        <div>{recipe?.servingLang[lang]}</div>
+                        <div>
+                            {lang === 'ru' ? 'Порции' : 
+                            (lang === 'tj' ? 'Портсия' : 'Servings')}
+                        </div>
                         <ServeContainer>
                             <IconButton onClick={reduceServings}>
                                 <StyledMinusIcon />
@@ -108,7 +111,9 @@ export default function RecipePagePrint() {
                         </ServeContainer>
                     </QuantityContainer>
                     <PrintContainer>
-                        <div>{recipe?.timeLang[lang][3]}</div>
+                        <div>{lang === 'ru' ? 'Расспечатать' : 
+                            (lang === 'tj' ? 'Чоп кунед' : 'Print')}
+                        </div>
                         <IconButton onClick={() => setShowTop(false)}>
                             <PrintBox src={'/printIcons/print.png'}></PrintBox>
                         </IconButton>
@@ -119,7 +124,7 @@ export default function RecipePagePrint() {
             </PrintHeader>
             <PrintBodyContainer>
                 <LeftSection>
-                    <PrintImage loading="lazy" src={recipe?.mainImg} />
+                    <PrintImage src={recipe?.mainImg} />
                     <div>
                         <BoxTitle>{recipe.ingredientsLang[lang]}</BoxTitle>
                         {recipe?.ingredients[lang].map((entry, i) => {
