@@ -78,24 +78,24 @@ module.exports.poets = [
                             image: '/poetImages/ayni/slides/ayni1.jpeg',
                             desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, part&shying Ay&shyni 
                                 from both his father and mother in a span of for&shyty days. He was left to take care of two younger
-                                siblings at the age of 12. Despite these challenges, 
-                                Ayni's dream for knowledge led him to Bukhara.<sup>2</sup>`
+                                bro&shythers at the age of 12. Despite these challenges, 
+                                Ay&shyni's dream for knowledge led him to Bukhara.<sup>2</sup>`
                         },
                         {
                             year: '1890',
                             image: '/poetImages/ayni/slides/ayni2.jpeg',
                             desc: `He gets into Mir-i Arab madrasa and secures a "hujra" - room there with his brother.
-                            However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
-                            was quite difficult.
-                            In order to to pay for his room, which should have been free,<sup>5</sup> as well as his daily living costs, 
-                            he was forced to take on various odd jobs. These roles ranged from serving as a cleaner to 
-                            working as a cook, handling laundry tasks, and more.<sup>2</sup>`
+                                However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
+                                was quite difficult.
+                                In order to to pay for his room, which should have been free,<sup>5</sup> and his daily living costs, 
+                                he was forced to take on various odd jobs. These roles ranged from serving as a cleaner to 
+                                working as a cook, handling laundry tasks, and more.<sup>2</sup>`
                         },
                         {
                             year: '1896',
                             image: '/poetImages/ayni/slides/ayni3.jpeg',
                             desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
-                                po&shyet&shyry and literature, thanks to his association with Sharifjon-makhdum. He penned his ini&shytial 
+                                po&shyet&shyry and literature, thanks to his acquaintance with Sha&shyrif&shyjon-makh&shydum. He penned his ini&shytial 
                                 poems using pseudonyms like "Muh&shytoji," "Jununi," and "Sifli."
                                 <div class='space'></div>
                                 How&shyever, in 1896, he adop&shyted the pseu&shydo&shynym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
@@ -104,7 +104,7 @@ module.exports.poets = [
                             year: '1897-1898',
                             image: '/poetImages/ayni/slides/ayni4.jpeg',
                             desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow class&shymate Abduvohid Munzim
-                                with a request to edit Ahmad Donish's "Navāder al-vaqāye" for pub&shyli&shyca&shytion.
+                                with a request to edit Ah&shymad Do&shynish's "Navāder al-vaqāye" for pub&shyli&shyca&shytion.
                                 <div class='space'></div>
                                 The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
                                 pushes him to start thinking about correcting these injustices and more in the Emirate of Bukhara.<sup>5</sup>`,
@@ -115,7 +115,7 @@ module.exports.poets = [
                             desc: `Together with four of his close friends, he pioneered the establishment of the first "ja&shydid"-style school in Bukhara, 
                                 designed to in&shytro&shyduce new teaching methods. The school found its home in Mirza Abdulvohid's re&shysi&shydence in guzar-i (street) 
                                 Salokhkhona, 
-                                with Ta&shyji&shyki-Per&shysian as language of instruction, ca&shyter&shying to the local Bukharan population.<sup>5</sup>`,
+                                with Ta&shyji&shyki-Per&shysian as language of instruction, ca&shyter&shying to the lo&shycal Bu&shykha&shyran po&shypu&shyla&shytion.<sup>5</sup>`,
                         },
                         {
                             year: '1909',
@@ -127,25 +127,27 @@ module.exports.poets = [
                         {
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.jpeg',
-                            desc: `He became one of the early members of "Ja&shyvon&shybu&shykho&shyri&shyyon - "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" - "Young Bukharans", 
-                                a secret society, which was part of the jadidist movement, ad&shyvo&shycat&shying for reforms and modernization of Cen&shytral Asia.<sup>5</sup>`,
+                            desc: `He became one of the early members of "Ja&shyvon&shybu&shykho&shyri&shyyon - "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" - 
+                                "Young Bukharans", 
+                                a secret society, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for re&shyforms and mo&shyderni&shyza&shytion of 
+                                Cen&shytral Asia.<sup>5</sup>`,
                         }
                     ],
                 ru: [
                     {
                         year: '1889',
                         image: '/poetImages/ayni/slides/ayni1.jpeg',
-                        desc: `Опус&shyто&shyши&shyтель&shyная эпи&shyде&shyмия хо&shyле&shyры ох&shyва&shyти&shyла Бу&shyха&shyру и окре&shyстные рай&shyо&shyны, 
-                            раз&shyлу&shyчив Ай&shyни с от&shyцом и ма&shyтерью за со&shyрок дней. В воз&shyрас&shyте 12 лет ему при&shyш&shyлось при&shyнять под 
-                            опе&shyку двух млад&shyших брать&shyев и сес&shyтер. Не&shyсмотря на эти труд&shyнос&shyти, меч&shyта Ай&shyни об уче&shyбе при&shyве&shyла 
-                            его в Бу&shyха&shyру.<sup>2</sup>`
+                        desc: `Опус&shyто&shyши&shyтель&shyная эпи&shyде&shyмия хо&shyле&shyры ох&shyва&shyти&shyла Бу&shyха&shyру и ее окре&shyстные 
+                            рай&shyо&shyны, раз&shyлу&shyчив Ай&shyни с от&shyцом и ма&shyтерью за со&shyрок дней. В воз&shyрас&shyте 12 лет ему 
+                            при&shyш&shyлось при&shyнять под опе&shyку двух млад&shyших брать&shyев. Не&shyсмот&shyря на эти труд&shyнос&shyти, 
+                            меч&shyта Ай&shyни об уче&shyбе и по&shyэ&shyзии при&shyве&shyла его в Бу&shyха&shyру.<sup>2</sup>`
                     },
                     {
                         year: '1890',
                         image: '/poetImages/ayni/slides/ayni2.jpeg',
                         desc: `Он по&shyсту&shyпа&shyет в мед&shyре&shyсе Мир-и Араб и вмес&shyте со сво&shyим бра&shyтом орен&shyду&shyет там «худж&shyру» - 
                             ком&shyна&shyту. Од&shyна&shyко для эко&shyно&shyми&shyчес&shyки обез&shyдо&shyлен&shyных лю&shyдей, как он, дос&shyтуп к 
-                            об&shyра&shyзо&shyва&shyнию в мед&shyре&shyсе Бу&shyха&shyры был до&shyволь&shyно труд&shyным. Что&shyбы за&shyпла&shyтить за 
+                            об&shyра&shyзо&shyва&shyнию в мед&shyре&shyсах Бу&shyха&shyры был до&shyволь&shyно труд&shyным. Что&shyбы за&shyпла&shyтить за 
                             свою ком&shyна&shyту, ко&shyто&shyрая долж&shyна бы&shyла быть бес&shyплат&shyной,<sup>5</sup> и ежеднев&shyных рас&shyхо&shyдов, 
                             он был вы&shyнуж&shyден подра&shyба&shyты&shyвать убор&shyщи&shyком, по&shyва&shyром, ра&shyбо&shyтать в пра&shyчеч&shyной и 
                             мно&shyгим дру&shyгим.<sup>2</sup>`
@@ -154,20 +156,24 @@ module.exports.poets = [
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `Во вре&shyмя сво&shyей уче&shyбы в мед&shyре&shyсе он по&shyзна&shyко&shyмит&shyся с людь&shyми с боль&shyшой люб&shyви к 
-                            по&shyэ&shyзии и ли&shyте&shyра&shyту&shyре, бла&shyго&shyдаря Ша&shyриф&shyджо&shyну-мах&shyду&shyму. Он на&shyпи&shyсал свои 
+                            по&shyэ&shyзии и ли&shyте&shyра&shyту&shyре, бла&shyго&shyдаря сво&shyе&shyму зна&shyком&shyству с Ша&shyриф&shyджо&shyном-мах&shyду&shyмом. 
+                            Он на&shyпи&shyсал свои 
                             пер&shyвые сти&shyхи под псев&shyдо&shyни&shyма&shyми «Мух&shyто&shyджи», «Джу&shyну&shyни» и «Сиф&shyли».
                             <div class='space'></div>
-                            Од&shyна&shyко в 1896 го&shyду он при&shyни&shyма&shyет псев&shyдо&shyним «Ай&shyни» и под этим име&shyнем по&shyлу&shyчил 
-                            ли&shyте&shyра&shyтур&shyное при&shyзна&shyние.<sup>2</sup>`,
+                            Од&shyна&shyко в 1896 го&shyду он бе&shyрет псев&shyдо&shyним «Ай&shyни» и под этим име&shyнем по&shyлу&shyча&shyет 
+                            ли&shyте&shyра&shyтур&shyное из&shyвес&shyтность.<sup>2</sup>`,
                     },
                     {
                         year: '1897-1898',
                         image: '/poetImages/ayni/slides/ayni4.jpeg',
-                        desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow classmate Abduvohid Munzim
-                            with a request to edit Ahmad Donish's "Navāder al-vaqāye" for publication.
+                        desc: `Ка&shyзи Мир&shyза Му&shyхам&shyмад&shyша&shyриф-и Садр (Сад&shyри Зия) по&shyру&shyча&shyет ре&shyдак&shyцию кни&shyги 
+                            Ах&shyма&shyди До&shyни&shyша «Наводир ул-вакоеъ» Ай&shyни и его од&shyно&shyклас&shyсни&shyку Аб&shyду&shyва&shyхи&shyду 
+                            Мун&shyзи&shyму пе&shyред пуб&shyли&shyка&shyци&shyей.
                             <div class='space'></div>
-                            The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
-                            pushes him to start thinking about correcting these injustices and more in the Emirate of Bukhara.<sup>5</sup>`,
+                            В этой кни&shyге До&shyниш от&shyкры&shyто кри&shyти&shyко&shyвал бес&shyпо&shyлез&shyные за&shyня&shyтия мед&shyре&shyсе и 
+                            эго&shyис&shyтич&shyное по&shyве&shyде&shyние бу&shyхарс&shyких уле&shyма. Пос&shyле проч&shyте&shyния взгляд Ай&shyни 
+                            ме&shyня&shyет&shyся, и он на&shyчи&shyна&shyет за&shyду&shyмы&shyвать&shyся об ис&shyправ&shyле&shyнии этих 
+                            не&shyспра&shyвед&shyли&shyвос&shyтей в Бу&shyхар&shyском эми&shyра&shyте.<sup>5</sup>`,
                     },
                     {
                         year: '1908',
@@ -213,7 +219,7 @@ module.exports.poets = [
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `Дар вақти мадрасахониаш бо одамоне, ки ба шеъру адаб ишқ доштанду шоирӣ ме&shyкар&shyданд ба сабаби наздикиаш
-                        бо Ша&shyриф&shyҷон-мах&shyдум шинос ва ҳолдон мешавад. Вай шеър&shyҳои аввалини худро бо тахаллусҳои "Мӯҳтоҷӣ", "Ҷунунӣ" ва "Сиф&shyлӣ"
+                        бо Ша&shyриф&shyҷон-мах&shyдум шинос ва ҳолдон мешавад. Вай шеър&shyҳои аввалини худро бо тахаллусҳои «Мӯҳтоҷӣ», «Ҷунунӣ» ва «Сиф&shyлӣ»
                         эъҷод ме&shyку&shyнад.
                         <div class='space'></div>
                         Аммо соли 1896 тахаллуси «Айнӣ»-ро ги&shyриф&shyта бо ин ном шӯҳрати адабӣ пайдо кард.<sup>2</sup>`,
@@ -232,22 +238,22 @@ module.exports.poets = [
                         year: '1908',
                         image: '/poetImages/ayni/slides/ayni5.jpeg',
                         desc: `Якҷоя бо чор дӯсти наздикаш аввалин мактаби усули нав (ҷадида)-ро дар Бухоро мекушояд.
-                            Мактаб дар ҳавлии Мирзо Абдулвоҳид дар кӯчаи Салоҳхона ҷойгир мешавад ва бо забони форсӣ, 
+                            Мактаб дар ҳавлии Мирзо Абдулвоҳид дар кӯчаи Салоххона ҷойгир мешавад ва бо забони форсӣ, 
                             ба мардуми маҳаллии Бухороӣ дарсдиҳиро сар мекунад.<sup>5</sup>`,
                     },
                     {
                         year: '1909',
                         image: '/poetImages/ayni/slides/ayni6.jpeg',
-                        desc: `Ӯ асарҳои аввалини худ, «ترتیل القرآن» («Тартил-ул-Қуръон» - қоидаҳои
-                            қироати дурусти Қуръон), "تهذیب الصبیان" ("Таҳзиб-ус-сибён" - "Тарбияи писарон/фарзандон")
-                            ва «ضروريات دینیه» («Зарурияти диния» - «Асосҳои динӣ»)-ро ҳамчун як қисми барномаи 
-                            таълимии мактаби нав менависад.<sup>5</sup>`
+                        desc: `Ӯ асарҳои аввалини худ, «ترتیل القرآن» («Тартил-ул-Қуръон» - қо&shyи&shyда&shyҳои
+                            қи&shyро&shyа&shyти ду&shyрус&shyти Қуръ&shyон), «تهذیب الصبیان» («Таҳзиб-ус-сибён» - «Тарбияи писарон/фарзандон»)
+                            ва «ضروريات دینیه» («Зарурияти диния» - «Асосҳои динӣ»)-ро ҳам&shyчун як қис&shyми бар&shyно&shyмаи 
+                            таъ&shyли&shyмии мак&shyта&shyби усу&shyли нав ме&shyна&shyви&shyсад.<sup>5</sup>`
                     },
                     {
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
-                        desc: `Адиб яке аз аввалин аъзоёни ҷамъияти "Ҷавонбухориён - "جوان‌بخاراییان"/"Yosh buxoroliklar" мешавад. Ин
-                            ҷамъияти махфӣ, бахше аз ҳаракати ҷадидӣ буд, ки ҷонибдори ислоҳот ва навсозии Осиёи Марказӣ буд.<sup>5</sup>`,
+                        desc: `Адиб яке аз аввалин аъзоёни ҷамъияти «Ҷавонбухориён» - «جوان‌بخاراییان»/«Yosh bu&shyxo&shyro&shylik&shylar» ме&shyша&shyвад. Ин
+                            ҷамъияти махфӣ, бахше аз ҳаракати ҷадидӣ буд, ки ҷо&shyниб&shyдо&shyри ислоҳот ва навсозии Осиёи Марказӣ буд.<sup>5</sup>`,
                     }
                 ],
                 },
