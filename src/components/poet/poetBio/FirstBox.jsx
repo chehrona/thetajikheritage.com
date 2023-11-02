@@ -13,7 +13,7 @@ export default function FirstBox({ poet }) {
     return (
         <BoxOne>
             <LeftContainer>
-                <Year>{poet?.year}</Year>
+                <Year color={'#000'}>{poet?.year}</Year>
                 <Desc dangerouslySetInnerHTML={{__html: poet?.desc}} />
             </LeftContainer>
             <RightContainer src={poet?.slides.img} first={1} />

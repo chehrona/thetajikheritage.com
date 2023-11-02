@@ -31,7 +31,12 @@ export const YearSlider = styled.div`
     height: 36rem;
 
     @media (max-width: 480px) {
+        height: 41rem;
         padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 0.5rem 2rem 0.5rem 2rem;
     }
 `;
 
@@ -85,7 +90,7 @@ export const InfoContainer = styled.div`
     height: 25rem;
 
     @media (max-width: 480px) {
-        height: 30rem;
+        height: 35rem;
     }
 `;
 
@@ -112,10 +117,9 @@ export const InfoWrapper = styled.div`
 
     @media (max-width: 480px) {
         display: block;
-        height: 30rem;
         min-width: calc(100vw - 3rem);
         max-width: calc(100vw - 3rem);
-        height: 29rem;
+        height: 34rem;
     }
 `;
 

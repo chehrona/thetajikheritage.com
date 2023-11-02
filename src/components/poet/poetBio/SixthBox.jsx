@@ -1,10 +1,10 @@
 import React from "react";
-import { BoxSix, YearBig } from "./poetBioStyles";
+import { BoxSix, Year } from "./poetBioStyles";
 
 export default function SixthBox({ poet }) {
     return (
         <BoxSix>
-            <YearBig color={1}>{poet?.year}</YearBig>
+            <Year color={'#bd9d52'}>{poet?.year}</Year>
             <div dangerouslySetInnerHTML={{__html: poet?.desc}}></div>
         </BoxSix>
     );

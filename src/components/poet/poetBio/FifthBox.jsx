@@ -8,7 +8,7 @@ import {
     FamilyDesc,
     LeftContainer,
     RightContainer,
-    YearBig,
+    Year,
     StyledButton,
     Arrow,
     ImgInfo,
@@ -53,7 +53,7 @@ export default function FifthBox({ poet }) {
         <BoxSeven>
             <LeftContainer>
                 <FamilyDesc>
-                    <YearBig align={true}>{poet?.five[lang].year}</YearBig>
+                    <Year align={true} color={'#000'}>{poet?.five[lang].year}</Year>
                     <div dangerouslySetInnerHTML={{__html: poet?.five[lang].desc}}></div>
                 </FamilyDesc>
             </LeftContainer>

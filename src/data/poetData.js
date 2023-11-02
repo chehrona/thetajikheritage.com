@@ -178,9 +178,10 @@ module.exports.poets = [
                     {
                         year: '1908',
                         image: '/poetImages/ayni/slides/ayni5.jpeg',
-                        desc: `Together with four of his close friends, he pioneered the establishment of the first "jadid"-style school in Bukhara, 
-                            designed to introduce new teaching methods. The school found its home in Mirza Abdulvohid's residence in guzar-i (street) Salohkhona, 
-                            with Persian as language of instruction, catering to the local Bukharan population.<sup>5</sup>`,
+                        desc: `Вмес&shyте с че&shyтырь&shyмя сво&shyи&shyми близ&shyки&shyми друзь&shyя&shyми он от&shyкры&shyва&shyет пер&shyвую 
+                            но&shyво&shyме&shyтод&shyную шко&shyлу (т.е. джа&shyдид&shyскую) в Бу&shyха&shyре.
+                            Шко&shyлу откры&shyва&shyют в до&shyме Мир&shyза Аб&shyдул&shyва&shyхи&shyда Мун&shyзи&shyма на ули&shyце Са&shyлох&shyхо&shyна, 
+                            и на&shyчи&shyна&shyют пре&shyпо&shyдо&shyвать мест&shyным бу&shyхар&shyским уче&shyни&shyкам на пер&shyсид&shyском язы&shyке.<sup>5</sup>`,
                     },
                     {
                         year: '1909',
@@ -194,7 +195,7 @@ module.exports.poets = [
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
                         desc: `Он стал од&shyним из пер&shyвых чле&shyнов «Джа&shyвон&shyбу&shyхо&shyри&shyён – «جوانبخاراییان»/«Ёш бу&shyхо&shyро&shyлик&shyлар» – 
                             «Мла&shyдо&shyбу&shyхар&shyцы», тай&shyно&shyго об&shyщест&shyва, сфор&shyми&shyро&shyван&shyно&shyго на ос&shyно&shyве 
-                            джа&shyди&shyди&shyстско&shyго дви&shyже&shyния. Джа&shyди&shyды высту&shyпа&shyли за ре&shyфор&shyмы и мо&shyдер&shyни&shyза&shyцию 
+                            джа&shyдидско&shyго дви&shyже&shyния. Джа&shyди&shyды высту&shyпа&shyли за ре&shyфор&shyмы и мо&shyдер&shyни&shyза&shyцию 
                             Централь&shyной Азии.<sup>5</sup>`,
                     }
                 ],
@@ -202,10 +203,10 @@ module.exports.poets = [
                     {
                         year: '1889',
                         image: '/poetImages/ayni/slides/ayni1.jpeg',
-                        desc: `Тамоми Бухоро ва атрофи онро вабое фаро ме&shyги&shyрад, ки Айниро дар байни чил рӯз ҳам 
-                            аз падар ва ҳам аз модараш ҷудо мекунад. Ӯ дар синни 12-солагӣ, нигоҳубини ду 
-                            ба&shyро&shyда&shyри хурдияшро
-                            ба дӯш мегирад. Бо вуҷуди ин душвориҳо, орзуи илму шеър Ай&shyни&shyро ба Бухоро меорад.<sup>2</sup>`
+                        desc: `Та&shyмо&shyми Бу&shyхо&shyро ва ат&shyро&shyфи он&shyро ва&shyбое фа&shyро ме&shyги&shyрад, ки Ай&shyни&shyро дар бай&shyни 
+                            чил рӯз ҳам аз па&shyдар ва ҳам аз мо&shyда&shyраш ҷу&shyдо ме&shyку&shyнад. Ӯ дар син&shyни 12-со&shyла&shyгӣ, ни&shyго&shyҳу&shyби&shyни 
+                            ду ба&shyро&shyда&shyри хур&shyди&shyяш&shyро
+                            ба дӯш ме&shyги&shyрад. Бо ву&shyҷу&shyди ин душ&shyво&shyри&shyҳо, ор&shyзуи ил&shyму шеър Ай&shyни&shyро ба Бу&shyхо&shyро ме&shyо&shyрад.<sup>2</sup>`
                     },
                     {
                         year: '1890',
@@ -237,23 +238,25 @@ module.exports.poets = [
                     {
                         year: '1908',
                         image: '/poetImages/ayni/slides/ayni5.jpeg',
-                        desc: `Якҷоя бо чор дӯсти наздикаш аввалин мактаби усули нав (ҷадида)-ро дар Бухоро мекушояд.
-                            Мактаб дар ҳавлии Мирзо Абдулвоҳид дар кӯчаи Салоххона ҷойгир мешавад ва бо забони форсӣ, 
-                            ба мардуми маҳаллии Бухороӣ дарсдиҳиро сар мекунад.<sup>5</sup>`,
+                        desc: `Як&shyҷоя бо чор дӯс&shyти наз&shyди&shyкаш ав&shyва&shyлин мак&shyта&shyби усу&shyли нав (ҷа&shyди&shyда)-ро дар Бу&shyхо&shyро ме&shyку&shyшо&shyяд.
+                            Мак&shyтаб дар ҳав&shyлии Мир&shyзо Аб&shyдул&shyво&shyҳид Мун&shyзим дар гу&shyза&shyри Са&shyлох&shyхо&shyна ҷой&shyгир ме&shyша&shyвад 
+                            ва бо за&shyбо&shyни фор&shyсӣ, 
+                            ба мар&shyду&shyми ма&shyҳал&shyлии бу&shyхо&shyроӣ дарс&shyди&shyҳи&shyро сар ме&shyку&shyнад.<sup>5</sup>`,
                     },
                     {
                         year: '1909',
                         image: '/poetImages/ayni/slides/ayni6.jpeg',
-                        desc: `Ӯ асарҳои аввалини худ, «ترتیل القرآن» («Тартил-ул-Қуръон» - қо&shyи&shyда&shyҳои
-                            қи&shyро&shyа&shyти ду&shyрус&shyти Қуръ&shyон), «تهذیب الصبیان» («Таҳзиб-ус-сибён» - «Тарбияи писарон/фарзандон»)
-                            ва «ضروريات دینیه» («Зарурияти диния» - «Асосҳои динӣ»)-ро ҳам&shyчун як қис&shyми бар&shyно&shyмаи 
+                        desc: `Ӯ асарҳои аввалини худ, «ترتیل القرآن» («Тар&shyтил-ул-Қуръон» – қо&shyи&shyда&shyҳои
+                            қи&shyро&shyа&shyти ду&shyрус&shyти Қуръ&shyон), «تهذیب الصبیان» («Таҳ&shyзиб-ус-сиб&shyён» – «Тарбияи писарон/фарзандон»)
+                            ва «ضروريات دینیه» («За&shyру&shyри&shyя&shyти диния» – «Асосҳои динӣ»)-ро ҳам&shyчун як қис&shyми бар&shyно&shyмаи 
                             таъ&shyли&shyмии мак&shyта&shyби усу&shyли нав ме&shyна&shyви&shyсад.<sup>5</sup>`
                     },
                     {
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
-                        desc: `Адиб яке аз аввалин аъзоёни ҷамъияти «Ҷавонбухориён» - «جوان‌بخاراییان»/«Yosh bu&shyxo&shyro&shylik&shylar» ме&shyша&shyвад. Ин
-                            ҷамъияти махфӣ, бахше аз ҳаракати ҷадидӣ буд, ки ҷо&shyниб&shyдо&shyри ислоҳот ва навсозии Осиёи Марказӣ буд.<sup>5</sup>`,
+                        desc: `Адиб яке аз ав&shyва&shyлин аъ&shyзо&shyё&shyни ҷамъ&shyи&shyя&shyти «Ҷа&shyвон&shyбу&shyхо&shyри&shyён» – «جوان‌بخاراییان»/«Yosh bu&shyxo&shyro&shylik&shylar» 
+                            ме&shyша&shyвад. Ин ҷамъ&shyи&shyя&shyти мах&shyфӣ, бах&shyше аз ҳа&shyра&shyка&shyти ҷа&shyди&shyдӣ бу&shyда, ҷо&shyниб&shyдо&shyри ис&shyло&shyҳот ва нав&shyсо&shyзии 
+                            Оси&shyёи Мар&shyка&shyзӣ буд.<sup>5</sup>`,
                     }
                 ],
                 },
@@ -303,7 +306,7 @@ module.exports.poets = [
                     <span style='font-weight:bold;'>Си&shyро&shyджид&shyдина</span>, об измене
                     и жестоко казнит его че&shyрез удушье. Айни направил свое
                     горе в свое ли&shyте&shyра&shyтур&shyное про&shyиз&shyве&shyдение «Марсия».
-                    <div class='space'></div>В 1922 году басмачи убивают старшего брата Айни -
+                    <div class='space'></div>В 1922 году басмачи убивают старшего брата Айни –
                     <span style='font-weight:bold;'>Мухиддинходжа</span> и похищают его сына.<sup>1</sup>
                     <div class='space'></div>Эти мучительные потери только укрепили по&shyзи&shyции Айни.
                     решимость, оттачивая свое перо и уси&shyли&shyвая свою решимость руководить страной
@@ -311,29 +314,43 @@ module.exports.poets = [
                 },
                 tj: {
                     quote: `... барои умри дар ғафлат гузаштаамон худро маъзур донем ҳам, ҳоло ..., «ба ман чӣ?» гуфтанро виҷдонамон раво намедид.<sup>5</sup>`,
-                    desc: `Айнӣ пас аз хатми мадраса ҳамбастагии худ&shyро бо ҷадидон идома ме&shyди&shyҳад ва
-                    ба тар&shyзи кӯҳнаи ҷомеадорӣ, ки дар байни ула&shyмои Бухоро хеле мустаҳкам ҷой гирифта буд, 
-                    му&shyқо&shyви&shyмат нишон додан меги&shyрад.
-                    Аммо корҳои "нек"-и ӯ ба амир писанд намеояд ва ӯро ба зиндон ме&shyпар&shyто&shyянд ва ба 
-                    сахт&shyта&shyрин ҷазои он давра - 
+                    desc: `Ай&shyнӣ пас аз хат&shyми мад&shyра&shyса ҳам&shyбас&shyта&shyгии худ&shyро бо ҷа&shyди&shyдон 
+                    идо&shyма ме&shyди&shyҳад ва ба тар&shyзи кӯҳ&shyнаи ҷо&shyме&shyа&shyдо&shyрӣ, ки дар бай&shyни ула&shyмои 
+                    Бу&shyхо&shyро хе&shyле мус&shyтаҳ&shyкам ҷой ги&shyриф&shyта буд, му&shyқо&shyви&shyмат ни&shyшон до&shyдан 
+                    меги&shyрад. Ам&shyмо ис&shyло&shyҳот&shyхо&shyҳии ӯ ба амир пи&shyсанд на&shyме&shyояд ва ӯро ба зин&shyдон 
+                    ме&shyпар&shyто&shyянд ва ба сахт&shyта&shyрин ҷа&shyзои он дав&shyра – 
                     <span style='font-weight: bold;'>75 чӯб</span> маҳ&shyкум ме&shyша&shyвад.
-                    <div class='space'></div>Дар ниҳоят, ӯро қувваҳои инқилобии русҳо бо 
-                    хоҳиши Ҷавонбухориён озод мекунанд. 
-                    Пас аз <span style='font-weight: bold;'>52 рӯз</span> дар беморхона
-                    ва аз сар гу&shyза&shyро&shyни&shyдани <span style='font-weight: bold;'>25 ҷарроҳӣ</span>, 
-                    доиман ба Самар&shyқанд мекӯчад. Ӯ бо қалами худ ба ман&shyфи&shyа&shyти инқилобиён хизмат намуда,
-                    мақолаҳои сиёсӣ менавишт ва миллатро бевосита ба зидди амир даъват мекард.
-                    <br>Бо ошкор шудани робитаи Айнӣ бо нерӯҳои шӯравӣ,
-                    амир бародари хурдии ӯ, <span style='font-weight: bold;'>Си&shyро&shyҷид&shyдин&shyро</span> 
-                    бардурӯғ айбдори хиёнат карда, ваҳшиёна дар зиндон буғӣ кар&shyда мекушад. 
-                    «Марсия»-и ҷонгудози худро ба ҳамин му&shyно&shyсибат навиштааст.
+                    <div class='space'></div>Дар ни&shyҳо&shyят, ӯро қув&shyва&shyҳои ин&shyқи&shyло&shyбии рус&shyҳо бо 
+                    хо&shyҳи&shyши Ҷа&shyвон&shyбу&shyхо&shyри&shyён озод ме&shyку&shyнанд. 
+                    Пас аз <span style='font-weight: bold;'>52 рӯз</span> дар бе&shyмор&shyхо&shyна
+                    ва аз сар гу&shyза&shyро&shyни&shyда&shyни <span style='font-weight: bold;'>25 ҷар&shyро&shyҳӣ</span>, 
+                    до&shyи&shyман ба Са&shyмар&shyқанд ме&shyкӯ&shyчад. Ӯ бо қа&shyла&shyми худ ба ман&shyфи&shyа&shyти 
+                    ин&shyқи&shyло&shyби&shyён хиз&shyмат на&shyму&shyда,
+                    ма&shyқо&shyла&shyҳои си&shyё&shyсӣ ме&shyна&shyви&shyсад ва ҳам&shyва&shyта&shyно&shyнаш&shyро ба 
+                    му&shyбо&shyри&shyза ба зид&shyди амир даъ&shyват ме&shyку&shyнад.
                     <div class='space'></div>
-                    Соли 1922 босмачиён бародари калонии Ай&shyнӣ - <span style='font-weight: bold;'>Муҳиддинхоҷаро</span> 
-                    қатл карда, писа&shyраш&shyро дуздида ба кӯҳҳои Нурато меба&shyранд.<sup>1</sup>
+                    Баъд аз во&shyқе&shyаи но&shyму&shyваф&shyфа&shyқи Ко&shyле&shyсов, ки мақ&shyса&shyдаш сар&shyна&shyгун 
+                    кар&shyда&shyни амир буд, амир Бу&shyхо&shyро&shyро ба «қас&shyсоб&shyхо&shyна» таб&shyдил ме&shyди&shyҳад. 
+                    Дар ин бе&shyса&shyру со&shyмо&shyни&shyҳо ба&shyро&shyда&shyри хур&shyдии ӯ, 
+                    <span style='font-weight: bold;'>Си&shyро&shyҷид&shyдин&shyро</span> 
+                    бар&shyду&shyрӯғ айб&shyдо&shyри ҷа&shyди&shyдӣ кар&shyда, ваҳ&shyши&shyёна дар зин&shyдон бу&shyғӣ кар&shyда 
+                    ме&shyку&shyшанд. 
+                    <br>Адиб 
+                    <div class="tooltip">«Мар&shyсия»
+                        <span class="tooltiptext" 
+                            style='width: 20rem; margin-left: -10rem;'>
+                            Жан&shyраи шеъ&shyре дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
+                            ме&shyша&shyвад
+                        </span>
+                    </div>-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
                     <div class='space'></div>
-                    Ин дардҳои даҳшатноки қалбаш танҳо ба рӯҳияи Айнӣ мусоидат кард.
-                    азму иродаи кавй дошта, қаламашро тезу тунд ва азму иродаи худро дар рохи рохбарй ба мам&shyла&shyкат пурзур менамояд
-                    барои озод шудан аз чунин ҳокимони хунхор.`,
+                    Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ – 
+                    <span style='font-weight: bold;'>Муҳиддинхоҷа&shyро</span> 
+                    қатл кар&shyда, пи&shyса&shyраш&shyро дуз&shyди&shyда ба кӯҳ&shyҳои Ну&shyра&shyто ме&shyба&shyранд.<sup>1</sup>
+                    <div class='space'></div>
+                    Ин дард&shyҳои даҳ&shyшат&shyно&shyки қал&shyбаш тан&shyҳо иро&shyда&shyаш&shyро қа&shyви&shyтар гар&shyдо&shyни&shyда, 
+                    дар ро&shyҳи аз ҳо&shyки&shyмо&shyни хун&shyхор озод шу&shyда&shyни мам&shyла&shyкат қа&shyла&shyмаш&shyро тез ва 
+                    эъ&shyти&shyқо&shyдаш&shyро пур&shyзӯр ме&shyна&shyмо&shyянд.`,
                 }
             },
             five: {
@@ -346,11 +363,11 @@ module.exports.poets = [
                         },
                         {
                             img: '/poetImages/ayni/family/ayni2.jpeg',
-                            text: `Ayni with his wife - Salohat <sup>9<sup>`,
+                            text: `Ayni with his wife – Salohat <sup>9<sup>`,
                         },
                         {
                             img: '/poetImages/ayni/family/ayni3.jpeg',
-                            text: `Ayni with his son - Kamol <sup>4<sup>`,
+                            text: `Ayni with his son – Kamol <sup>4<sup>`,
                         }
                     ],
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
@@ -377,7 +394,7 @@ module.exports.poets = [
                         },
                         {
                             img: '/poetImages/ayni/family/ayni2.jpeg',
-                            text: `Айни с женой - Салохат <sup>9<sup>`,
+                            text: `Айни с женой – Салохат <sup>9<sup>`,
                         },
                         {
                             img: '/poetImages/ayni/family/ayni3.jpeg',
@@ -420,18 +437,19 @@ module.exports.poets = [
                     desc: `Мо&shyҳи ок&shyтяб&shyри со&shyли 1920 Ай&shyнӣ ба <span style='font-weight: bold;'>Салоҳат</span> 
                         хо&shyна&shyдор ме&shyша&shyвад 
                         ва он&shyҳо ба хо&shyнаи мо&shyда&shyри Са&shyло&shyҳат, ки дар Са&shyмар&shyқанд буд, ме&shyкӯ&shyчанд.
-                        Салоҳат ба камбағалии Айнӣ нигоҳ накарда аз хостгории ӯ 
-                        рӯй на&shyме&shyгар&shyдо&shyнад, чун&shyки мис&shyли модараш ба одамони донишманд эҳ&shyти&shyроми
-                        бе&shyпо&shyён дошта буд. Аз рӯзҳои ав&shyвали зиндагиашон ба&shyрои Ай&shyнӣ му&shyҳи&shyте сохт, 
-                        ки дар он истеъдоди адабии ӯ таво&shyнист ривоҷ ёбад ва то рӯз&shyҳои охиринашон фидокори ин буд.<sup>1</sup>
+                        Са&shyло&shyҳат ба кам&shyба&shyға&shyлии Ай&shyнӣ ни&shyгоҳ на&shyкар&shyда аз хост&shyго&shyрии ӯ 
+                        рӯй на&shyме&shyгар&shyдо&shyнад, чун&shyки мис&shyли мо&shyда&shyраш ба ода&shyмо&shyни до&shyниш&shyманд 
+                        эҳ&shyти&shyро&shyми бе&shyпо&shyён дошт. Аз рӯз&shyҳои ав&shyва&shyли&shyни зин&shyда&shyги&shyа&shyшон 
+                        ба&shyрои Ай&shyнӣ му&shyҳи&shyте сохт, ки дар он ис&shyтеъ&shyдо&shyди ада&shyбии ӯ та&shyво&shyнист 
+                        ри&shyвоҷ ёбад ва то рӯз&shyҳои охи&shyри&shyна&shyшон фи&shyдо&shyко&shyри ин буд.<sup>1</sup>
                         <div class='space'></div>
-                        Онҳо соҳиби се фарзанд шуданд: <span style='font-weight: bold;'>Камол</span> (тав. 1928),
+                        Он&shyҳо со&shyҳи&shyби се фар&shyзанд шу&shyданд: <span style='font-weight: bold;'>Камол</span> (тав. 1928),
                         <span style='font-weight: bold;'>Холида</span> (тав. ?), ва
                         <span style='font-weight: bold;'>Лутфия</span> (тав. 1934).
-                        Ҳар як фарзандашон мисли Айнӣ, 
-                        дар со&shyҳа&shyҳои шарқ&shyши&shyносӣ, филология ва таъ&shyрихи санъати Осиёи Миёна оли&shyму ака&shyде&shyмик шудаанд.<sup>7</sup>
+                        Ҳар як фарзандашон мо&shyнан&shyди Ай&shyнӣ, дар со&shyҳа&shyҳои шарқ&shyши&shyно&shyсӣ, фи&shyло&shyло&shyгия 
+                        ва таъ&shyри&shyхи санъ&shyати Оси&shyёи Ми&shyё&shyна оли&shyму ака&shyде&shyмик шу&shyда&shyанд.<sup>7</sup>
                         <div class='space'></div>
-                        Имрӯз набераи адиб, <span style='font-weight: bold;'>Ираҷ Айнӣ</span>,
+                        Им&shyрӯз на&shyбе&shyраи ус&shyтод, <span style='font-weight: bold;'>Ираҷ Айнӣ</span>,
                         ҳамроҳи хонаводааш дар Душанбе зиндагӣ мекунад
                         ва мероси бобояшро тавассути Фонди Сад&shyрид&shyдин Айнӣ идома медиҳад.<sup>8</sup>`
                 }
@@ -453,7 +471,7 @@ module.exports.poets = [
             seven: {
                 us: {
                     desc: 'His life is ... the story of our nation',
-                    author: '- Mirzo Tursunzoda<sup>10</sup>',
+                    author: '– Mirzo Tursunzoda<sup>10</sup>',
                     slides: [
                         {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Mausoleum of Sadriddin Ayni (1954 - 2017), Dushanbe, Tajikistan<sup>11</sup>'},
                         {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan<sup>12</sup>'},
@@ -470,7 +488,7 @@ module.exports.poets = [
                 },
                 ru: {
                     desc: 'Его жизнь – это... история нашего народа',
-                    author: '- Мирзо Турсун-заде<sup>10</sup>',
+                    author: '– Мирзо Турсун-заде<sup>10</sup>',
                     slides: [
                         {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Мавзолей Садриддина Айни (1954 – 2017 гг.), Душанбе, Таджикистан<sup>11</sup>'},
                         {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Памятник Садриддину Айни на проспекте Рудаки, Душанбе, Таджикистан<sup>12</sup>'},
@@ -487,7 +505,7 @@ module.exports.poets = [
                 },
                 tj: {
                     desc: 'Зиндагии ӯ ... саргузашти миллати мост',
-                    author: '- Мирзо Турсунзода<sup>10</sup>',
+                    author: '– Мирзо Турсунзода<sup>10</sup>',
                     slides: [
                         {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Мақбараи Садриддин Айнӣ (1954 - 2017), Душанбе, Тоҷикистон<sup>11</sup>'},
                         {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Ҳайкали Садриддин Айнӣ дар хиёбони Рӯдакӣ, Душанбе, Тоҷикистон<sup>12</sup>'},
@@ -722,8 +740,8 @@ module.exports.poets = [
                         `Ай&shyнӣ кон&shyсул&shyтан&shyти кон&shyсул&shyхо&shyнаи Ҷум&shyҳу&shyрии Бу&shyхо&shyрои нав&shyтаъ&shyсис дар 
                         Са&shyмар&shyқанд таъйин ме&shyша&shyвад, ки ин бо ёрии Аб&shyдул&shyқо&shyдир Му&shyҳид&shyди&shyнов су&shyрат ги&shyриф&shyта буд.
                         Ам&shyмо кон&shyсул&shyхо&shyна де&shyре на&shyгу&shyзаш&shyта бас&shyта ме&shyша&shyвад ва Ай&shyнӣ боз бо 
-                        кӯ&shyма&shyки А.Му&shyҳид&shyди&shyнов бо&shyри ди&shyгар ба шӯъ&shyбаи Бух&shyгос&shyторг (Совети хо&shyҷа&shyгии хал&shyқи 
-                        Шӯ&shyра&shyвии Бухоро) дар Самарқанд таъин шуд.`,
+                        кӯ&shyма&shyки А.Му&shyҳид&shyди&shyнов ба шӯъ&shyбаи Бух&shyгос&shyторг (ти&shyҷо&shyра&shyти дав&shyла&shyтии 
+                        Ҷум&shyҳу&shyрии Хал&shyқии Шӯ&shyра&shyвии Бу&shyхо&shyро) дар Са&shyмар&shyқанд ҳам&shyчун му&shyдир таъ&shyин ме&shyша&shyвад.`,
                     ],
                 ru: [
                         `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
@@ -734,22 +752,30 @@ module.exports.poets = [
                         меж&shyду 1927 и 1928 го&shyда&shyми, но опуб&shyли&shyко&shyван&shyный в 1930 го&shyду). 
                         Ро&shyман «Ра&shyбы» вы&shyшел в 1934 го&shyду, а его са&shyмое об&shyшир&shyное про&shyиз&shyве&shyде&shyние 
                         «Вос&shyпо&shyми&shyна&shyния» бы&shyло опуб&shyли&shyко&shyва&shyно в 1940 го&shyду.
-                        <div class='imgDesc'>*Об&shyлож&shyка кни&shyги «Бу&shyхарс&shyкие па&shyла&shyчи», 
+                        <div class='imgDesc'>*Об&shyлож&shyка кни&shyги «Бу&shyхар&shyские па&shyла&shyчи», 
                         из&shyдан&shyной в 1937 го&shyду, на 
                         тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей</div>`,
-                        `Он был назначен консультантом кон&shyсуль&shyства недавно соз&shyдан&shyной Бу&shyхар&shyской Рес&shyпублики в Са&shyмар&shyканде, 
-                        чему способствовал 
-                        Аб&shyдул&shyкодир Му&shyхид&shyдинов. Од&shyна&shyко вско&shyре консуль&shyство зак&shyры&shyва&shyет&shyся, и Айни был назначен 
+                        `Он был наз&shyна&shyчен кон&shyсуль&shyтан&shyтом кон&shyсуль&shyства не&shyдав&shyно соз&shyдан&shyной Бу&shyхар&shyской 
+                        Рес&shyпуб&shyли&shyки в Са&shyмар&shyкан&shyде, че&shyму спо&shyсоб&shyство&shyвал 
+                        Аб&shyдул&shyко&shyдир Му&shyхид&shyди&shyнов. Од&shyна&shyко вско&shyре кон&shyсуль&shyство зак&shyры&shyва&shyет&shyся, и Айни был назначен 
                         ру&shyко&shyво&shyди&shyте&shyлем от&shyде&shyла Бух&shyгос&shyтор&shyга (эко&shyно&shyми&shyчес&shyкий 
-                        со&shyвет Бу&shyхар&shyской На&shyрод&shyной Со&shyветской Рес&shyпублики) в Са&shyмар&shyканде, еще раз при со&shyдей&shyствии А. Му&shyхид&shyди&shyно&shyва.`,
+                        со&shyвет Бу&shyхар&shyской На&shyрод&shyной Со&shyветской Рес&shyпуб&shyли&shyки) в Са&shyмар&shyканде, еще раз при со&shyдей&shyствии А. Му&shyхид&shyди&shyно&shyва.`,
                         `Ай&shyни со&shyста&shyвил «Шах&shyнаме» Фир&shyдоу&shyси с на&shyме&shyре&shyни&shyем транс&shyли&shyте&shyри&shyро&shyвать 
                         его в но&shyвую тад&shyжик&shyскую пись&shyмен&shyность, сна&shyча&shyла на ла&shyти&shyни&shyцу, 
                         а за&shyтем на ки&shyрил&shyли&shyцу. Он так&shyже тща&shyтель&shyно соб&shyрал био&shyгра&shyфии и про&shyиз&shyве&shyдения многочисленных 
-                        уче&shyных и по&shyэтов, таких как «Шейх&shyур&shyаис Абу&shyали Си&shyна» 
-                        (Авиценна), «Шейх Мус&shyли&shyхид&shyдин Саади Ши&shyра&shyзи», «Ус&shyтад Ру&shyда&shyки», «Ка&shyмаль-и Худ&shyжан&shyди», «Али&shyшер На&shyвои», «Зай&shyнуд&shyдин 
+                        уче&shyных и по&shyэ&shyтов, та&shyких как «Шейх&shyур&shyаис Абу&shyали Си&shyна» 
+                        (Ави&shyцен&shyна), «Шейх Мус&shyли&shyхид&shyдин Саади Ши&shyра&shyзи», «Ус&shyтад Ру&shyда&shyки», «Ка&shyмаль-и Худ&shyжан&shyди», «Али&shyшер На&shyвои», «Зай&shyнуд&shyдин 
                         Мах&shyмуд-и Ва&shyси&shyфи» и дру&shyгие.`,
-                        `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, пер&shyвым пре&shyзи&shyден&shyтом которой был назначен Садриддин Айни.
-                        Он за&shyни&shyмал эту должность до сво&shyей кон&shyчи&shyны в 1954 го&shyду.`,
+                        `Го&shyсу&shyдар&shyствен&shyный за&shyкон зап&shyре&shyтил ис&shyполь&shyзо&shyва&shyние араб&shyской пись&shyмен&shyнос&shyти, что 
+                        за&shyтро&shyну&shyло тад&shyжик&shyский язык, тра&shyди&shyци&shyон&shyно ис&shyполь&shyзу&shyю&shyщий пер&shyсид&shyско-араб&shyскую пись&shyмен&shyность. 
+                        Это при&shyве&shyло к унич&shyто&shyже&shyнию книг с араб&shyской вязью.
+                        В от&shyвет Ай&shyни сотрудничает с вид&shyны&shyми со&shyветски&shyми ира&shyно&shyло&shyга&shyми, вклю&shyчая Бер&shyтель&shyса, 
+                        Се&shyме&shyно&shyва и Фрей&shyма&shyна, что&shyбы соб&shyрать и транс&shyли&shyте&shyри&shyро&shyвать тад&shyжик&shyско-пер&shyсид&shyские 
+                        кни&shyги в ки&shyрил&shyли&shyцу. Его об&shyви&shyня&shyют как «вра&shyга на&shyро&shyда», и он ед&shyва из&shyбе&shyга&shyет 
+                        Ста&shyлин&shyско&shyго «Боль&shyшо&shyго тер&shyро&shyра».`,
+                        `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, пер&shyвым пре&shyзи&shyден&shyтом ко&shyто&shyрой 
+                        был на&shyзна&shyчен Сад&shyрид&shyдин Ай&shyни.
+                        Он за&shyни&shyмал эту долж&shyность до сво&shyей кон&shyчи&shyны в 1954 го&shyду.`,
                         `В 1920 году Айни написал свое первое крупное литературное произведение «Бухарские палачи». Затем в 1924 году он 
                         написал рассказ «Одина», за которым последовал повесть «Дохунда» (написанный между 1927 и 1928 годами, но опубликованный в 1930 году). 
                         Роман «Рабы» вышел в 1934 году, а его самое обширное литературное произведение «Воспоминания» было опубликовано в 1940 году.
@@ -781,7 +807,7 @@ module.exports.poets = [
                         `A state law banned the Ara&shybic script for writ&shying, af&shyfect&shying the Tajik lang&shyuage tra&shydi&shytion&shyal&shyly 
                         writ&shyten in the Per&shyso-Ara&shybic script. This led to the sys&shytem&shyatic de&shystruc&shytion of Ar&shyabic-script books. 
                         In re&shysponse, Sad&shyrid&shydin Ay&shyni col&shylab&shyor&shyated with prom&shyin&shyent So&shyviet Ira&shyno&shylog&shyists, 
-                        in&shyclu&shyd&shying Bertels, Se&shym&shyyonov, and Frei&shym&shyan, to col&shylect and trans&shylit&shyer&shyate Per&shysian 
+                        in&shyclu&shyd&shying Bertels, Se&shym&shyyonov, and Frei&shyman, to col&shylect and trans&shylit&shyer&shyate Per&shysian 
                         books in&shyto Cy&shyril&shylic. He was ac&shycus&shyed of be&shying an "en&shyemy of the na&shytion," and al&shymost per&shyished 
                         in Stal&shyin's Great Purge.`,
                         `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its in&shyau&shygu&shyral pre&shysi&shydent. 
@@ -804,14 +830,14 @@ module.exports.poets = [
                             ҳа&shyра&shyка&shyти ин&shyқи&shyло&shyбӣ, 
                             фаъ&shyоли&shyяти меҳнатӣ, му&shyҳо&shyфи&shyза&shyти ватани сот&shyси&shyа&shyлис&shyтӣ, ин&shyки&shyшоф 
                             до&shyда&shyни дӯс&shyтӣ ва ҳамкории бай&shyни 
-                            халқ&shyҳо, мустаҳкам намудани сулҳ, дар назди Давлати Со&shyветӣ ва ҷамъ&shyият су&shyпо&shyри&shyда ме&shyшуд.
+                            халқ&shyҳо, мустаҳкам намудани сулҳ, ба Давлати Со&shyветӣ ва ҷамъ&shyият су&shyпо&shyри&shyда ме&shyшуд.
                             <div class='emptyLine'></div>
-                            Айнӣ се бор сазовори ин орден гаш&shyта&shyаст, аммо маълумот танҳо дар бораи як&shyтои онҳо (соли 1941) 
+                            Айнӣ се бор сазовори ин орден гаш&shyта&shyаст, аммо маълумот танҳо дар бораи як&shyтояш (соли 1941) 
                             дар базаҳои ку&shyшод мавҷуд аст.`
                     },
                     {
                         title: "Академики фахрии АФҶШСӮз", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
-                        desc: `С. Айнӣ соли 1943 аъ&shyзои фахрии Ака&shyде&shyми&shyяи Фанҳои Ҷум&shyҳу&shyрии Шӯравии Сот&shyси&shyа&shyлис&shyтии Ӯзбекистон гар&shyдид.`
+                        desc: `С. Айнӣ соли 1943 аъ&shyзои фахрии Ака&shyде&shyми&shyяи Фанҳои Ҷум&shyҳу&shyрии Шӯравии Сот&shyси&shyа&shyлис&shyтии Ӯзбекистон гар&shyдидааст.`
                     },
                     {
                         title: "Доктори фахрии ДДЛ", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
@@ -828,7 +854,7 @@ module.exports.poets = [
                             бар&shyҷас&shyта дар со&shyҳаи илм ва тех&shyника, фан&shyҳои ҳар&shyбӣ, ада&shyби&shyёт ва санъ&shyат байни солҳои 1940-1955 
                             дода ме&shyшуд.
                             <div class='emptyLine'></div>
-                            Ин ҷоиза ба устод Айнӣ соли 1950 ба&shyрои саҳми ӯ ба адабиёти Шӯравӣ - рави&shyяи асарҳои бадеӣ, 
+                            Ин ҷоиза ба устод Айнӣ соли 1950 ба&shyрои саҳми ӯ ба адабиёти Шӯравӣ – рави&shyяи асарҳои бадеӣ, 
                             барои китоби "Ёд&shyдошт&shyҳо"-яш cупорида шудааст. Ба ғайр аз ор&shyден, мувофиқи дараҷаи ду&shyюм, 
                             ӯ бо 50000 рубли шӯравӣ (~USD 160,000-и ҳо&shyзи&shyра) мукофотонида шу&shyда&shyаст.`
                     },
@@ -854,7 +880,7 @@ module.exports.poets = [
                         desc: `Ордени «Хизмати шо&shyён» ба шаҳр&shyван&shyдо&shyни Ҷум&shyҳу&shyрии Ӯз&shyбе&shyкис&shyтон ва 
                             шаҳр&shyван&shyдо&shyни киш&shyвар&shyҳои хо&shyри&shyҷӣ ба&shyрои хиз&shyмат&shyҳои бу&shyзург дар 
                             рушди илму техника, иқ&shyти&shyсод ва фарҳанг, саҳ&shyми арзанда дар рушди ҳамкориҳои байнидавлатӣ ва татбиқи нақ&shyша&shyҳои 
-                            до&shyхи&shyлӣ ва хориҷӣ му&shyко&shyфо&shyто&shyни&shyда ме&shyша&shyванд.
+                            до&shyхи&shyлӣ ва хориҷӣ му&shyко&shyфо&shyто&shyни&shyда ме&shyша&shyвад.
                             <div class='emptyLine'></div>
                             Ин ҷоиза ба С. Айнӣ барои саҳми ӯ ба ада&shyбиёти ӯзбек дода шудааст.`
                     },

@@ -57,9 +57,16 @@ export const Year = styled.div`
     font-size: 3.5rem;
     font-family: "EB Garamond", serif;
     margin-bottom: 0.5rem;
+    text-align: ${({ align }) => align && 'center'};
+    color: ${({ color }) => color && color};
+
+    @media (max-width: 480px) {
+        margin-bottom: ${({ align }) => align && '0rem'};
+    }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         font-size: 4rem;
+        margin-bottom: ${({ align }) => align && '0rem'};
     }
 `;
 
@@ -351,23 +358,6 @@ export const DescWrapper = styled.div`
     }
 `;
 
-export const YearBig = styled.div`
-    font-size: 4.5rem;
-    font-family: "EB Garamond", serif;
-    margin-bottom: 1rem;
-    text-align: ${({ align }) => align && 'center'};
-    color: ${({ color }) => color && '#bd9d52'};
-
-    @media (max-width: 480px) {
-        margin-bottom: ${({ align }) => align && '0rem'};
-    }
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        font-size: 5rem;
-        margin-bottom: ${({ align }) => align && '0rem'};
-    }
-`;
-
 // Box five ********************************
 export const FamilyDesc = styled.div`
     width: 100%;
@@ -534,9 +524,8 @@ export const FinalQuote = styled.div`
     transform: translate(-50%, -50%);
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 
-    @media (max-width: 480px) {
-        line-height: 2.8rem;
-        font-size: 2.5rem;
+    @media (max-width: 896px) {
+        line-height: 2.4rem;
     }
 `;
 
@@ -547,7 +536,7 @@ export const Author = styled.div`
     text-align: end;
     font-family: 'IBM Plex Serif', serif;
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         font-size: 1.3rem;
     }
 `;
