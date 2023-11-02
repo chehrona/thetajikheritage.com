@@ -27,14 +27,14 @@ module.exports.poets = [
                     desc: `Sadriddin Saidmurodzoda was born to <span style='font-weight: bold;'>Sa&shyid&shymu&shyrod&shykho&shyja</span>
                         and <span style='font-weight: bold;'>Zevaroy</span> in the village of 
                         Soktare, G’ij&shydu&shyvon district, 
-                        Emirate of Bukhara.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
+                        Emirate of Bu&shykha&shyra.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
-                        that he was introduced to the world of folk literature, in&shyclud&shying tales, legends, songs, 
+                        that he was introduced to the world of folk literature, in&shyclud&shying tales, leg&shyends, songs, 
                         anecdotes, and pro&shyverbs.<sup>2</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
-                        he didn't find much value in for&shymal education. However, he had his in&shyi&shytial exposure to the 
-                        poetry of eminent masters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
+                        he didn't find much va&shylue in for&shymal education. However, he had his in&shyi&shytial exposure to the 
+                        poetry of eminent mas&shyters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
                         His father, despite being a humble peasant, had a deep love for education and literature, 
                         which he passed down to his children.<sup>2,3</sup>`
                 },
@@ -42,16 +42,16 @@ module.exports.poets = [
                     year: '15 апреля 1878 г.',
                     slides: {img: '/poetImages/ayni/soktare.png', text: `Дом, где прошло детство Садриддина Айни в Соктаре<sup>4</sup>`},
                     desc: `Садриддин Саидмуродзода родился в семье <span style='font-weight: bold;'>Саид&shyму&shyрод&shyходжи</span>
-                        и <span style='font-weight: bold;'>Зеварой</span> в селе Соктаре Гиж&shyду&shyванского района Бухарского эмирата.<sup>1</sup> 
+                        и <span style='font-weight: bold;'>Зеварой</span> в селе Соктаре Гиж&shyду&shyванского района Бухарского эми&shyра&shyта.<sup>1</sup> 
                         Вы&shyрос&shyший в семье крестьян, он провел боль&shyшую часть своих ранних лет среди крестьян и мест&shyных ре&shyмес&shyленников. 
-                        Именно в этом спло&shyченном со&shyоб&shyществе он знакомится с миром народной ли&shyте&shyра&shyту&shyры, включающей сказки, 
+                        Имен&shyно в этом спло&shyченном со&shyоб&shyществе он зна&shyко&shyмит&shyся с миром народной ли&shyте&shyра&shyту&shyры, вклю&shyча&shyю&shyщей сказки, 
                         ле&shyгенды, песни, анек&shyдоты и пословицы.<sup>2</sup>
                         <div class='space'></div>
-                        В школьные годы, как описано в его книге «Ста&shyрая шко&shyла», он не по&shyлучил особой пользы от фор&shyмального образования.
-                        Однако он по&shyзна&shyко&shyмил&shyся с поэзией таких выдающихся мас&shyтеров, как Саади, Ха&shyфиз, Саиб, Бедиль и дру&shyгих.
+                        В школьные годы, как описано в его книге «Ста&shyрая шко&shyла», он не по&shyлучил особой поль&shyзы от фор&shyмального образования.
+                        Од&shyна&shyко он по&shyзна&shyко&shyмил&shyся с поэзией таких вы&shyда&shyю&shyщих&shyся мас&shyтеров, как Саади, Ха&shyфиз, Саиб, Бедиль и дру&shyгих.
                         <div class='space'></div>
                         Его отец, несмотря на то, что был скромным крестьянином, имел глу&shyбокую любовь к об&shyра&shyзо&shyва&shyнию и 
-                        литературе, которую он передал своим детям.<sup>2,3</sup>`
+                        литературе, которую он пе&shyре&shyдал своим детям.<sup>2,3</sup>`
                 },
                 tj: {
                         year: '15 апрели 1878',
@@ -98,7 +98,7 @@ module.exports.poets = [
                                 po&shyet&shyry and literature, thanks to his association with Sharifjon-makhdum. He penned his ini&shytial 
                                 poems using pseudonyms like "Muh&shytoji," "Jununi," and "Sifli."
                                 <div class='space'></div>
-                                However, in 1896, he adopted the pseudonym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
+                                How&shyever, in 1896, he adop&shyted the pseu&shydo&shynym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
                         },
                         {
                             year: '1897-1898',
@@ -135,29 +135,30 @@ module.exports.poets = [
                     {
                         year: '1889',
                         image: '/poetImages/ayni/slides/ayni1.jpeg',
-                        desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, parting Ayni 
-                            from both his father and mother in a span of forty days. He was left to take care of two younger
-                            siblings at the age of 12. Despite these challenges, 
-                            Ayni's dream for knowledge led him to Bukhara.<sup>2</sup>`
+                        desc: `Опус&shyто&shyши&shyтель&shyная эпи&shyде&shyмия хо&shyле&shyры ох&shyва&shyти&shyла Бу&shyха&shyру и окре&shyстные рай&shyо&shyны, 
+                            раз&shyлу&shyчив Ай&shyни с от&shyцом и ма&shyтерью за со&shyрок дней. В воз&shyрас&shyте 12 лет ему при&shyш&shyлось при&shyнять под 
+                            опе&shyку двух млад&shyших брать&shyев и сес&shyтер. Не&shyсмотря на эти труд&shyнос&shyти, меч&shyта Ай&shyни об уче&shyбе при&shyве&shyла 
+                            его в Бу&shyха&shyру.<sup>2</sup>`
                     },
                     {
                         year: '1890',
                         image: '/poetImages/ayni/slides/ayni2.jpeg',
-                        desc: `He gets into Mir-i Arab madrasa and secures a "hujra" - room there with his brother.
-                        However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
-                        was quite difficult.
-                        In order to to pay for his room, which should have been free,<sup>5</sup> as well as his daily living costs, 
-                        he was forced to take on various odd jobs. These roles ranged from serving as a cleaner to 
-                        working as a cook, handling laundry tasks, and more.<sup>2</sup>`
+                        desc: `Он по&shyсту&shyпа&shyет в мед&shyре&shyсе Мир-и Араб и вмес&shyте со сво&shyим бра&shyтом орен&shyду&shyет там «худж&shyру» - 
+                            ком&shyна&shyту. Од&shyна&shyко для эко&shyно&shyми&shyчес&shyки обез&shyдо&shyлен&shyных лю&shyдей, как он, дос&shyтуп к 
+                            об&shyра&shyзо&shyва&shyнию в мед&shyре&shyсе Бу&shyха&shyры был до&shyволь&shyно труд&shyным. Что&shyбы за&shyпла&shyтить за 
+                            свою ком&shyна&shyту, ко&shyто&shyрая долж&shyна бы&shyла быть бес&shyплат&shyной,<sup>5</sup> и ежеднев&shyных рас&shyхо&shyдов, 
+                            он был вы&shyнуж&shyден подра&shyба&shyты&shyвать убор&shyщи&shyком, по&shyва&shyром, ра&shyбо&shyтать в пра&shyчеч&shyной и 
+                            мно&shyгим дру&shyгим.<sup>2</sup>`
                     },
                     {
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
-                        desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
-                            poetry and literature, thanks to his association with Sharifjon-makhdum. He penned his in&shyi&shytial 
-                            poems using pseudonyms like "Muh&shyto&shyji," "Jununi," and "Sifli."
+                        desc: `Во вре&shyмя сво&shyей уче&shyбы в мед&shyре&shyсе он по&shyзна&shyко&shyмит&shyся с людь&shyми с боль&shyшой люб&shyви к 
+                            по&shyэ&shyзии и ли&shyте&shyра&shyту&shyре, бла&shyго&shyдаря Ша&shyриф&shyджо&shyну-мах&shyду&shyму. Он на&shyпи&shyсал свои 
+                            пер&shyвые сти&shyхи под псев&shyдо&shyни&shyма&shyми «Мух&shyто&shyджи», «Джу&shyну&shyни» и «Сиф&shyли».
                             <div class='space'></div>
-                            However, in 1896, he adopted the pseudonym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
+                            Од&shyна&shyко в 1896 го&shyду он при&shyни&shyма&shyет псев&shyдо&shyним «Ай&shyни» и под этим име&shyнем по&shyлу&shyчил 
+                            ли&shyте&shyра&shyтур&shyное при&shyзна&shyние.<sup>2</sup>`,
                     },
                     {
                         year: '1897-1898',
@@ -185,8 +186,10 @@ module.exports.poets = [
                     {
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
-                        desc: `He became one of the early members of "Javonbukhoriyon - "جوان‌بخاراییان"/"Yosh buxoroliklar" - "Young Bukharans", 
-                            a secret society, which was part of the jadidist movement, advocating for reforms and modernization of Cen&shytral Asia.<sup>5</sup>`,
+                        desc: `Он стал од&shyним из пер&shyвых чле&shyнов «Джа&shyвон&shyбу&shyхо&shyри&shyён – «جوانبخاراییان»/«Ёш бу&shyхо&shyро&shyлик&shyлар» – 
+                            «Мла&shyдо&shyбу&shyхар&shyцы», тай&shyно&shyго об&shyщест&shyва, сфор&shyми&shyро&shyван&shyно&shyго на ос&shyно&shyве 
+                            джа&shyди&shyди&shyстско&shyго дви&shyже&shyния. Джа&shyди&shyды высту&shyпа&shyли за ре&shyфор&shyмы и мо&shyдер&shyни&shyза&shyцию 
+                            Централь&shyной Азии.<sup>5</sup>`,
                     }
                 ],
                 tj: [
@@ -713,7 +716,8 @@ module.exports.poets = [
                         `Ай&shyнӣ кон&shyсул&shyтан&shyти кон&shyсул&shyхо&shyнаи Ҷум&shyҳу&shyрии Бу&shyхо&shyрои нав&shyтаъ&shyсис дар 
                         Са&shyмар&shyқанд таъйин ме&shyша&shyвад, ки ин бо ёрии Аб&shyдул&shyқо&shyдир Му&shyҳид&shyди&shyнов су&shyрат ги&shyриф&shyта буд.
                         Ам&shyмо кон&shyсул&shyхо&shyна де&shyре на&shyгу&shyзаш&shyта бас&shyта ме&shyша&shyвад ва Ай&shyнӣ боз бо 
-                        кӯ&shyма&shyки А.Му&shyҳид&shyди&shyнов бо&shyри ди&shyгар ба шӯъ&shyбаи Бух&shyгос&shyторг (Совети хоҷагии халқи Шӯравии Бухоро) дар Самарқанд таъин шуд.`,
+                        кӯ&shyма&shyки А.Му&shyҳид&shyди&shyнов бо&shyри ди&shyгар ба шӯъ&shyбаи Бух&shyгос&shyторг (Совети хо&shyҷа&shyгии хал&shyқи 
+                        Шӯ&shyра&shyвии Бухоро) дар Самарқанд таъин шуд.`,
                     ],
                 ru: [
                         `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.

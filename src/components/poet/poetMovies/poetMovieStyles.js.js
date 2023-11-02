@@ -116,7 +116,6 @@ export const StyledIconButton = styled(IconButton)`
     }
 
     @media (max-width: 480px) {
-        bottom: 0.5rem;
         right: -3rem;
     }
 
