@@ -15,6 +15,10 @@ export const MainContainer = styled.div`
         padding: 0.5rem 1rem 1rem 1rem;
         margin: 0rem 1.5rem 1rem 1.5rem;
     }
+    
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        max-width: 100%;
+    }
 `;
 
 export const SubTitle = styled.div`

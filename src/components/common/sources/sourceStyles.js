@@ -7,7 +7,7 @@ export const DropDownContainer = styled.div`
     padding-top: 1rem;
 
     @media (max-width: 480px) {
-        padding: 0rem 1.5rem 0rem 1.5rem;
+        padding-top: 0rem;
         margin-bottom: 1rem;
     }
 `;

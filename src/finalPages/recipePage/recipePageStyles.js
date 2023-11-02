@@ -23,12 +23,16 @@ export const PageContainer = styled.div`
     @media (max-width: 480px) {
         padding: 0rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 1rem 1.8rem 1.5rem 1.2rem;
+    }
 `;
 
 export const RecipeContainer = styled.div`
     color: #0F0A00;
-    border-radius: 4rem;
     padding: 3rem;
+    border-radius: 4rem;
     background-color: #fcf6e9;
     background-image: url(${'/noise.png'});
     box-shadow: 0.8rem 0.5rem 0rem 0.08rem #504221d1;
@@ -39,6 +43,13 @@ export const RecipeContainer = styled.div`
         display: flex;
         flex-direction: column;
         box-shadow: 0rem 0rem 0rem 0rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 2rem 2rem 1rem 2rem;
+        display: flex;
+        border-radius: 2.5rem;
+        flex-direction: column;
     }
 `;
 
@@ -77,6 +88,10 @@ export const MainImage = styled.img`
         transform: translateY(0%);
         opacity: 1;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: 100%;
+    }
 `;
 
 export const IntroSection = styled.div`
@@ -92,7 +107,7 @@ export const ImageContainer = styled.div`
     float: left;
     position: relative;
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         margin: 0rem;
         width: 100%;
     }
@@ -107,8 +122,9 @@ export const InstructionContainer = styled.div`
     display: flex;
     gap: 2rem;
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         flex-direction: column;
+        gap: 0rem;
     }
 `;
 
@@ -121,12 +137,16 @@ export const IngredientContainer = styled.div`
         flex-direction: column;
         gap: 1rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        flex-direction: column;
+    }
 `;
 
 export const SubContainer = styled.div`
     margin-top: 3rem;
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         margin-top: 0rem;
     }
 `;

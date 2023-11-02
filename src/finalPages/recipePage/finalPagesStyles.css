@@ -108,3 +108,9 @@ sub {
         font-size: 1.5rem;
     }
 }
+
+@media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    .quoteWrapper {
+        font-size: 1.5rem;
+    }
+}

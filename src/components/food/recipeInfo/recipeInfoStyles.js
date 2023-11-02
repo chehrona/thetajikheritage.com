@@ -23,6 +23,11 @@ export const InfoContainer = styled.div`
         display: block;
         padding: 0rem 1.5rem 0rem 1.5rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        display: block;
+        font-size: 1.3rem;
+    }
 `;
 
 export const MainTitle = styled.div`
@@ -49,7 +54,7 @@ export const HistoryInfo = styled.div`
     animation: ${slideOut} 0.5s ease-in-out forwards;
     animation-delay: 0.01s;
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         font-size: 1.3rem;
     }
 `;

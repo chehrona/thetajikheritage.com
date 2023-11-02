@@ -50,6 +50,7 @@ export const PoetCardWrapper = styled.div`
     @media (max-width: 480px) {
         height: 19.025rem;
         width: 12.5rem;
+        transition: none;
         box-shadow: 0rem 0rem 0.6rem #504221d1;
 
         &:hover {
@@ -60,10 +61,12 @@ export const PoetCardWrapper = styled.div`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         border-radius: 1.5rem;
+        transition: none;
         box-shadow: 0rem 0rem 0.6rem #504221d1;
 
         &:hover {
             border-radius: 1.5rem;
+            transition: none;
         }
     }
 `;
@@ -135,16 +138,15 @@ export const PoetNameBox = styled.div`
 `;
 
 export const PoetDates = styled.div`
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-family: 'IBM Plex Serif', serif;
 
     @media (max-width: 480px) {
-        font-size: 1.25rem;
         margin-top: 1rem;
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        font-size: 1.45rem;
+        font-size: 1.5rem;
         margin-top: 0.5rem;
     }
 `;

@@ -145,6 +145,7 @@ export const NavBox = styled.div`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         height: 2rem;
+        ${({ bottom }) => bottom ? 'bottom: 3rem' : 'top: 10rem'};
     }
 `;
 
@@ -164,10 +165,6 @@ export const Line = styled.div`
     width: 0.0625rem;
     height: 7rem;
     background: #bd9d52;
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        height: 2rem;
-    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -192,6 +189,17 @@ export const StyledIconButton = styled(IconButton)`
             ${({ bottom }) => bottom ? 'right: 0.8rem' : 'left: 0.8rem'};
         }
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: 4.5rem;
+        height: 4.5rem;
+
+        &.MuiIconButton-root {
+            transform: ${({ bottom }) => bottom ? 'rotate(90deg)' : 'rotate(-90deg)'};
+            margin-bottom: ${({ bottom }) => bottom && '-0.5rem'};
+            margin-top: ${({ bottom }) => !bottom && '-0.5rem'};
+        }
+    }
 `;
 
 export const Arrow = styled.div`
@@ -206,6 +214,12 @@ export const Arrow = styled.div`
 
     &:hover {
         box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        &:hover {
+            box-shadow: 0rem 0rem 0rem 0rem #dedbdb;
+        }
     }
 `;
 
@@ -296,11 +310,6 @@ export const QuoteOutline = styled.div`
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-
-    @media (max-width: 896px) {
-        width: 6rem;
-        height: 6rem;
-    }
 `;
 
 export const QuoteSymbol = styled.div`
@@ -321,14 +330,8 @@ export const Quote = styled.div`
     text-align: center;
     padding: 1rem 0rem;
 
-    @media (max-width: 480px) {
-        font-size: 2.2rem;
-        line-height: 2.5rem;
-    }
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        font-size: 2.5rem;
-        line-height: 2.8rem;
+    @media (max-width: 896px) {
+        line-height: 2.4rem;
     }
 `;
 
@@ -358,6 +361,11 @@ export const YearBig = styled.div`
     @media (max-width: 480px) {
         margin-bottom: ${({ align }) => align && '0rem'};
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        font-size: 5rem;
+        margin-bottom: ${({ align }) => align && '0rem'};
+    }
 `;
 
 // Box five ********************************
@@ -379,6 +387,11 @@ export const FamilyDesc = styled.div`
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         height: auto;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 0rem 2rem 2rem 2rem;
+        height: auto;
+    }
 `;
 
 export const ImageContainer = styled.div`
@@ -395,12 +408,16 @@ export const ImageWrapper = styled.div`
     transition: all 0.5s;
     min-width: ${({ width }) => width && `${width}px`};
     max-width: ${({ width }) => width && `${width}px`};;
-    background: ${({ src }) => src ? `url(${ src })` : ''};
+    background: ${({ src }) => src && `url(${ src })`};
     transform: translateX(${({ translate }) => `${translate}px`});
     background-size: ${({ src }) => src && 'cover'};
 
     @media (max-width: 480px) {
         height: 23rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        height: 45rem;
     }
 `;
 
@@ -409,11 +426,6 @@ export const ButtonWrapper = styled.div`
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-
-    @media (max-width: 480px) {
-        padding: 1.5rem;
-        padding-bottom: 2.1rem;
-    }
 `;
 
 // Box six ********************************
@@ -424,8 +436,11 @@ export const BoxSix = styled.div`
     padding: 1.5rem 3rem 3rem 3rem;
 
     @media (max-width: 480px) {
-        padding: 1.5rem;
-        padding-bottom: 2.1rem;
+        padding: 1.5rem 1.5rem 2.1rem 1.5rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 2rem 2rem 2.5rem 2rem;
     }
 `;
 
@@ -460,7 +475,7 @@ export const RightContainer = styled.div`
     width: 50%;
     height: 30rem;
     background: #333333;
-    background: ${({ src }) => src ? `url(${ src })` : ''};
+    background: ${({ src }) => src && `url(${ src })`};
     background-size: ${({ src }) => src ? 'cover' : 'contain'};
     background-repeat: no-repeat;
     background-position: center center;
@@ -476,6 +491,7 @@ export const RightContainer = styled.div`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         width: 100%;
+        height: ${({ first }) => first ? '30rem': '45rem'};
         margin-top: ${({ first }) => first && '-2.5rem'};
     }
 `;
@@ -560,6 +576,11 @@ export const StyledButton = styled(IconButton)`
         width: 5rem;
         height: 5rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
 `;
 
 export const ImgInfo = styled.div`
@@ -568,10 +589,10 @@ export const ImgInfo = styled.div`
     font-style: italic;
     width: 100%;
     text-align: left;
-    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     color: #fcf6e9;
     bottom: 0.5rem;
     background-color: #26262680;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 
     ${({ up }) => up && `
         color: #0F0A00;

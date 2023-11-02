@@ -53,7 +53,6 @@ export const LogoContainer = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        font-size: 3rem;
         opacity: 0.3;
         width: 100%;
         position: absolute;

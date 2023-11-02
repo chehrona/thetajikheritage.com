@@ -46,9 +46,7 @@ export default function RecipeBox() {
                                     <VolumeUp />
                                 </StyledIconButton>
                             </RecipeInfo>
-                            <RecipeSubtitle>
-                                {recipe?.subtitle[lang]}
-                            </RecipeSubtitle>
+                            <RecipeSubtitle>{recipe?.subtitle[lang]}</RecipeSubtitle>
                         </RecipeNameBox>
                     </RecipeCard>
                 )

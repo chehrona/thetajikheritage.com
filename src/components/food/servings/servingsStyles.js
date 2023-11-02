@@ -14,6 +14,10 @@ export const MainContainer = styled.div`
         font-size: 1.3rem;
         padding: 1rem 1.5rem 2rem 1rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        max-width: 100%;
+    }
 `;
 
 export const QuantityContainer = styled.div`
@@ -34,7 +38,7 @@ export const StyledAddIcon = styled(Add)`
         font-size: 2rem;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         &.MuiSvgIcon-root {
             font-size: 2.5rem;
         }
@@ -68,7 +72,7 @@ export const StyledMinusIcon = styled(Remove)`
         font-size: 2rem;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         &.MuiSvgIcon-root {
             font-size: 2.5rem;
         }
@@ -125,6 +129,11 @@ export const PrintContainer = styled.div`
 export const PrintBox = styled.img`
     width: 2rem;
     height: 2rem;
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 `;
 
 export const StyledLink = styled(Link)`

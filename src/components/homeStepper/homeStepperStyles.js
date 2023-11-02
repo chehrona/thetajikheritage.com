@@ -2,10 +2,14 @@ import styled from "styled-components";
 
 export const MainContainer = styled.div`
     width: 100%;
-    height: calc(100svh - 9.23rem);
+    height: calc(100svh - 10.23rem);
     overflow: hidden;
     position: relative;
     z-index: 1;
+
+    @media (max-width: 480px) {
+		min-height: calc(100svh - 9.23rem);
+    }
 `;
 
 export const SemiCircle = styled.div`

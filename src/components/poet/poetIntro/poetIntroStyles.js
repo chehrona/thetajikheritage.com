@@ -105,7 +105,6 @@ export const SegmentContainer = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        font-size: 1.65rem;
         margin: 2.5rem 3rem 3rem 3rem;
         min-width: 12rem;
     }
@@ -136,6 +135,10 @@ export const TitleSpan = styled.span`
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         text-shadow: 0.1rem 1rem 2rem #dedbdb;
         font-size: 1.75rem;
+        
+        &:hover {
+            font-size: 1.75rem;
+        }
     }
 `;
 

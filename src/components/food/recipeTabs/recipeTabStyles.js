@@ -7,7 +7,11 @@ export const MainContainer = styled.div`
 
     @media (max-width: 480px) {
         margin-bottom: 1.5rem;
-        padding: 0rem 1.5rem 0rem 1.5rem;
+        padding: 0rem 1.5rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        padding: 0rem 2rem;
     }
 `;
 
@@ -17,7 +21,7 @@ export const InviteContainer = styled.div`
     display: flex;
     justify-content: center;
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         font-size: 2.2rem;
     }
 `;
