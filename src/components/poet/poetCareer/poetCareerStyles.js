@@ -135,7 +135,7 @@ export const DescWrapper = styled.div`
 `;
 
 export const Desc = styled.div`
-    padding: 2rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     font-size: 1.1rem;
     line-height: 2rem;
     text-align: justify;

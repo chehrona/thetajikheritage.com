@@ -282,5 +282,4 @@ export const ImageSemiCircle = styled.img`
     border: 0.0625rem solid #bd9d52;
     z-index: -1;
     opacity: 0.3;
-    transition: 500ms ease-in-out;
 `;

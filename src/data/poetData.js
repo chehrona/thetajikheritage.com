@@ -741,8 +741,8 @@ module.exports.poets = [
                         Са&shyмар&shyқанд таъйин ме&shyша&shyвад, ки ин бо ёрии Аб&shyдул&shyқо&shyдир Му&shyҳид&shyди&shyнов су&shyрат ги&shyриф&shyта буд.
                         Ам&shyмо кон&shyсул&shyхо&shyна де&shyре на&shyгу&shyзаш&shyта бас&shyта ме&shyша&shyвад ва Ай&shyнӣ боз бо 
                         кӯ&shyма&shyки А.Му&shyҳид&shyди&shyнов ба шӯъ&shyбаи Бух&shyгос&shyторг (ти&shyҷо&shyра&shyти дав&shyла&shyтии 
-                        Ҷум&shyҳу&shyрии Хал&shyқии Шӯ&shyра&shyвии Бу&shyхо&shyро) дар Са&shyмар&shyқанд ҳам&shyчун му&shyдир таъ&shyин ме&shyша&shyвад.`,
-                        `Аса&shyри пур&shyар&shyзи&shyши ӯ дар бо&shyраи Фир&shy&shyсӣ ва «Шоҳ&shyно&shyма»-и ӯро ба ан&shyҷом ме&shy&shyсо&shyнад. Ҳа&shyмин 
+                        Ҷум&shyҳу&shyрии Хал&shyқии Шӯ&shyра&shyвии Бу&shyхо&shyро) дар Са&shyмар&shyқанд ҳам&shyчун му&shyдир таъ&shyйин ме&shyша&shyвад.`,
+                        `Аса&shyри пур&shyар&shyзи&shyши ӯ дар бо&shyраи Фир&shyдав&shyсӣ ва «Шоҳ&shyно&shyма»-и ӯро ба ан&shyҷом ме&shy&shyсо&shyнад. Ҳа&shyмин 
                         тавр, пай&shyдар&shyҳам асар&shyҳои «Шайх&shyу&shyра&shyис Абӯ&shyалии Си&shyно», «Шайх Мус&shyли&shyҳид&shyдин Саъ&shyдии Ше&shyро&shyзӣ», 
                         «Ус&shyтод Рӯ&shyда&shyкӣ», «Ка&shyмо&shyли Ху&shyҷан&shyдӣ», «Али&shyшер На&shyвоӣ», «Зай&shyнид&shyдин Маҳ&shyму&shyди Во&shyси&shyфӣ»-ро ба табъ 
                         ме&shyра&shyсо&shyнад. Ус&shyтод дар ин асар&shyҳо&shyяш бис&shyёр масъ&shyа&shyла&shyҳои баҳс&shyта&shyлаб ва ҳал&shyна&shyшу&shyдаи 
@@ -849,45 +849,49 @@ module.exports.poets = [
             tj: [
                     {
                         title: "Ордени Ленин", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
-                        desc: `Мукофоти олии Ит&shyти&shyҳо&shyди Шӯравӣ ба&shyрои хиз&shyма&shyти мах&shyсу&shyсан бар&shyҷас&shyта дар 
-                            ҳа&shyра&shyка&shyти ин&shyқи&shyло&shyбӣ, 
-                            фаъ&shyоли&shyяти меҳнатӣ, му&shyҳо&shyфи&shyза&shyти ватани сот&shyси&shyа&shyлис&shyтӣ, ин&shyки&shyшоф 
-                            до&shyда&shyни дӯс&shyтӣ ва ҳамкории бай&shyни 
-                            халқ&shyҳо, мустаҳкам намудани сулҳ, ба Давлати Со&shyветӣ ва ҷамъ&shyият су&shyпо&shyри&shyда ме&shyшуд.
+                        desc: `Му&shyко&shyфоти олии Ит&shyти&shyҳо&shyди Шӯ&shyра&shyвӣ ба&shyрои хиз&shyма&shyти мах&shyсу&shyсан бар&shyҷас&shyта дар 
+                            ҳа&shyра&shyка&shyти ин&shyқи&shyло&shyбӣ, фаъ&shyоли&shyяти меҳ&shyна&shyтӣ, му&shyҳо&shyфи&shyза&shyти ва&shyта&shyни 
+                            сот&shyси&shyа&shyлис&shyтӣ, ин&shyки&shyшоф до&shyда&shyни дӯс&shyтӣ ва ҳам&shyко&shyрии бай&shyни халқ&shyҳо, мус&shyтаҳ&shyкам 
+                            на&shyму&shyда&shyни сулҳ, ба Дав&shyла&shyти Со&shyветӣ ва ҷамъ&shyият су&shyпо&shyри&shyда ме&shyшуд.
                             <div class='emptyLine'></div>
-                            Айнӣ се бор сазовори ин орден гаш&shyта&shyаст, аммо маълумот танҳо дар бораи як&shyтояш (соли 1941) 
-                            дар базаҳои ку&shyшод мавҷуд аст.`
+                            Ай&shyнӣ се бор са&shyзо&shyво&shyри ин ор&shyден гаш&shyта&shyаст, ам&shyмо маъ&shyлумот тан&shyҳо дар бо&shyраи 
+                            як&shyтояш (со&shyли 1941) дар ба&shyза&shyҳои ку&shyшод мав&shyҷуд аст.`
                     },
                     {
                         title: "Академики фахрии АФҶШСӮз", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
-                        desc: `С. Айнӣ соли 1943 аъ&shyзои фахрии Ака&shyде&shyми&shyяи Фанҳои Ҷум&shyҳу&shyрии Шӯравии Сот&shyси&shyа&shyлис&shyтии Ӯзбекистон гар&shyдидааст.`
+                        desc: `С. Ай&shyнӣ со&shyли 1943 аъ&shyзои фах&shyрии Ака&shyде&shyми&shyяи Фан&shyҳои Ҷум&shyҳу&shyрии Шӯ&shyра&shyвии 
+                        Сот&shyси&shyа&shyлис&shyтии Ӯз&shyбе&shyкис&shyтон гар&shyди&shyда&shyаст.`
                     },
                     {
                         title: "Доктори фахрии ДДЛ", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
-                        desc: `Унвони «Доктори фах&shyрии Донишгоҳи дав&shyла&shyтии Ленинград (Cанкт-Питербург)» ба ар&shyбо&shyбони бар&shyҷас&shyтаи 
-                            илм, маориф ва фар&shyҳанг, ходимони дав&shyлатӣ ва ҷамъ&shyи&shyя&shyтӣ, ки дар рушди ҳамкориҳои бай&shyнал&shyхал&shyқии илмӣ, 
-                            фарҳангӣ, иқтисодӣ ва си&shyё&shyсӣ саҳм гузоштаанд, дода мешавад.
+                        desc: `Ун&shyво&shyни «Док&shyто&shyри фах&shyрии До&shyниш&shyго&shyҳи дав&shyла&shyтии Ле&shyнин&shyград (Cанкт-Пи&shyтер&shyбург)» ба 
+                            ар&shyбо&shyбо&shyни бар&shyҷас&shyтаи илм, ма&shyо&shyриф ва фар&shyҳанг, хо&shyди&shyмо&shyни дав&shyла&shyтӣ ва ҷамъ&shyи&shyя&shyтӣ, 
+                            ки дар руш&shyди ҳам&shyко&shyри&shyҳои бай&shyнал&shyхал&shyқии ил&shyмӣ, фар&shyҳан&shyгӣ, иқ&shyти&shyсо&shyдӣ ва си&shyё&shyсӣ 
+                            саҳм гу&shyзош&shyта&shyанд, до&shyда ме&shyша&shyвад.
                             <div class='emptyLine'></div>
-                            Бо фармони шӯрои илмии ин до&shyниш&shyгоҳ, ба адиб унвони доктори ил&shyми фи&shyло&shyлогӣ дода шудааст.`
+                            Бо фар&shyмо&shyни шӯ&shyрои ил&shyмии ин до&shyниш&shyгоҳ, ба адиб ун&shyво&shyни док&shyто&shyри ил&shyми фи&shyло&shyло&shyгӣ до&shyда 
+                            шу&shyда&shyаст.`
                     },
                     {
                         title: "Ҷоизаи Сталин",
                         years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
-                        desc: `Яке аз унвонҳои олии ҳавасмандкунии шаҳр&shyвандони Ит&shyти&shyҳо&shyди Шӯравӣ буда, ба&shyрои ком&shyё&shyби&shyҳои 
-                            бар&shyҷас&shyта дар со&shyҳаи илм ва тех&shyника, фан&shyҳои ҳар&shyбӣ, ада&shyби&shyёт ва санъ&shyат байни солҳои 1940-1955 
-                            дода ме&shyшуд.
+                        desc: `Яке аз ун&shyвон&shyҳои олии ҳа&shyвас&shyманд&shyку&shyнии шаҳр&shyван&shyдо&shyни Ит&shyти&shyҳо&shyди Шӯ&shyра&shyвӣ бу&shyда, 
+                            ба&shyрои ком&shyё&shyби&shyҳои бар&shyҷас&shyта дар со&shyҳаи илм ва тех&shyни&shyка, фан&shyҳои ҳар&shyбӣ, ада&shyби&shyёт ва санъ&shyат 
+                            бай&shyни сол&shyҳои 1940-1955 до&shyда ме&shyшуд.
                             <div class='emptyLine'></div>
-                            Ин ҷоиза ба устод Айнӣ соли 1950 ба&shyрои саҳми ӯ ба адабиёти Шӯравӣ – рави&shyяи асарҳои бадеӣ, 
-                            барои китоби "Ёд&shyдошт&shyҳо"-яш cупорида шудааст. Ба ғайр аз ор&shyден, мувофиқи дараҷаи ду&shyюм, 
-                            ӯ бо 50000 рубли шӯравӣ (~USD 160,000-и ҳо&shyзи&shyра) мукофотонида шу&shyда&shyаст.`
+                            Ин ҷо&shyи&shyза ба ус&shyтод Ай&shyнӣ со&shyли 1950 ба&shyрои саҳ&shyми ӯ ба ада&shyби&shyё&shyти Шӯ&shyра&shyвӣ – ра&shyви&shyяи 
+                            асар&shyҳои ба&shyдеӣ, ба&shyрои ки&shyто&shyби "Ёд&shyдошт&shyҳо"-яш cу&shyпо&shyри&shyда шу&shyда&shyаст. Ба ғайр аз ор&shyден, 
+                            му&shyво&shyфи&shyқи да&shyра&shyҷаи ду&shyюм, ӯ бо 50000 руб&shyли Шӯ&shyра&shyвӣ (~USD 160,000-и ҳо&shyзи&shyра) 
+                            му&shyко&shyфо&shyто&shyни&shyда шу&shyда&shyаст.`
                     },
                     {
                         title: "Ордени Байрақи Сурхи Меҳнат", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
-                        desc: `Ҷоизаи уму&shyми&shyшаҳр&shyван&shyдии Иттиҳоди Шӯ&shyравӣ ба онҳое, ки ба давлат ва ҷамъият дар соҳаи ис&shyтеҳ&shyсо&shyлот, илм, 
-                            маданият, ада&shyби&shyёт, санъат, ма&shyо&shyриф, ни&shyгаҳ&shyдо&shyрии тан&shyду&shyрус&shyтӣ ва дигар соҳаҳои 
-                            фаъ&shyо&shyли&shyя&shyти меҳ&shyна&shyтӣ хизматҳои бузург кардаанд, дода мешуд.
+                        desc: `Ҷо&shyи&shyзаи уму&shyми&shyшаҳр&shyван&shyдии Ит&shyти&shyҳо&shyди Шӯ&shyра&shyвӣ ба он&shyҳое, ки ба дав&shyлат 
+                            ва ҷамъ&shyи&shyят дар со&shyҳаи ис&shyтеҳ&shyсо&shyлот, илм, ма&shyда&shyни&shyят, ада&shyби&shyёт, санъ&shyат, ма&shyо&shyриф, 
+                            ни&shyгаҳ&shyдо&shyрии тан&shyду&shyрус&shyтӣ ва ди&shyгар со&shyҳа&shyҳои фаъ&shyо&shyли&shyя&shyти меҳ&shyна&shyтӣ хиз&shyмат&shyҳои 
+                            бу&shyзург кар&shyда&shyанд, до&shyда ме&shyшуд.
                             <div class='emptyLine'></div>
-                            Устод Айнӣ сазовори ду ин ҷоиза гаш&shyта&shyаст.`
+                            Ус&shyтод Ай&shyнӣ са&shyзо&shyво&shyри ду ин ҷо&shyи&shyза гаш&shyта&shyаст.`
                     },
                     {
                         title: "Қаҳрамони Тоҷикистон", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
@@ -895,9 +899,11 @@ module.exports.poets = [
                             дар наз&shyди дав&shyлат ва халқ, ки ба&shyрои озо&shyдӣ, ис&shyтиқ&shyлол ва руш&shyди То&shyҷи&shyкис&shyтон қаҳ&shyра&shyмо&shyнии 
                             ҳар&shyбӣ ва меҳ&shyна&shyтӣ на&shyму&shyда&shyанд, су&shyпо&shyри&shyда ме&shyша&shyвад.
                             <div class='emptyLine'></div>
-                            Вай ба ин ша&shyра&shyфи олӣ барои хиз&shyмат&shyҳо&shyяш дар барпо намудани Ҷумҳурии Шӯ&shyра&shyвии Сотсиалистии Тоҷикистон ва 
-                            ба воситаи китобҳояш, ки айнияти мил&shyлии тоҷиконро бастааст, сазовор гар&shyди&shyда&shyаст. Махсусан китоби 
-                            «На&shyму&shyна&shyҳои адабиёти тоҷик»-и ӯ, ни&shyшо&shyнаи таъриху фарҳанги деринаи халқи тоҷик аст.`
+                            Вай ба ин ша&shyра&shyфи олӣ ба&shyрои хиз&shyмат&shyҳо&shyяш дар бар&shyпо на&shyму&shyда&shyни Ҷум&shyҳу&shyрии Шӯ&shyра&shyвии 
+                            Сот&shyси&shyа&shyлис&shyтии То&shyҷи&shyкис&shyтон ва ба во&shyси&shyтаи ки&shyтоб&shyҳо&shyяш, ки ай&shyни&shyя&shyти мил&shyлии 
+                            то&shyҷи&shyкон&shyро бас&shyта&shyаст, са&shyзо&shyвор гар&shyди&shyда&shyаст. Мах&shyсу&shyсан ки&shyто&shyби 
+                            «На&shyму&shyна&shyҳои ада&shyби&shyё&shyти то&shyҷик»-и ӯ, ни&shyшо&shyнаи таъ&shyри&shyху фар&shyҳан&shyги де&shyри&shyнаи 
+                            хал&shyқи то&shyҷик аст.`
                     },
                     {
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",

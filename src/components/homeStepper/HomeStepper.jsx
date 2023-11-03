@@ -52,7 +52,7 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
         return () => {
             observer.disconnect();
         };
-      }, [divRefs]);      
+    }, [divRefs]);      
 
     return (
         <MainContainer>

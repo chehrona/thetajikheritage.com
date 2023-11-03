@@ -12,7 +12,7 @@ export const stepInfo = [
                     text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
                     of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
                     <div class='space'></div>
-                    There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
+                    There are nearly 200 unique arts and crafts still practiced within the Tajik communities, 
                     many as old as the Eastern Iranian civilization itself.
                     <div class='space'></div>
                     <div class='space'></div>`,
@@ -62,12 +62,10 @@ export const stepInfo = [
         desc: {
             us: 
                 {
-                    text: `Our languages, whether belonging to the Western or Eastern Iranian language continua, 
-                    lie at the core of our identity and have been detrimental for our survival.
-                    <div class='space'></div>
-                    They encapsulate our unique worldviews, our ancestral wisdom, our stories, and our songs.
-                    Our languages stand as a testament to our resilience, functioning as a bridge that 
-                    connects us to our past and present - defining who we are.
+                    text: `Tajik customs and traditions reflect a mix of Persian, Islamic, Zoroastrian, and Central Asian heritage, 
+                    evident in their strong emphasis on family values and honoring elders. Celebrations like Navrüz, Mehrgon and weddings display 
+                    colorful rituals, traditional clothing, and lively music and dances. The culture values hospitality and finds artistic 
+                    richness in classical poetry, folk music, and ornate handicrafts.
                     <div class='space'></div>
                     <div class='space'></div>`,
                     link: "/customs"
