@@ -752,11 +752,19 @@ module.exports.poets = [
                         Ҷамъ&shyо&shyва&shyрӣ ва аз байн бур&shyда&shyни ки&shyтоб&shyҳои бо ин алиф&shyбо на&shyвиш&shyта шу&shyда сар ме&shyша&shyвад. 
                         Ай&shyнӣ бо эрон&shyши&shyно&shyсо&shyни Шӯ&shyра&shyвӣ, аз ҷум&shyла Бер&shyтелс, Сем&shyё&shyнов ва Фрей&shyман, ки&shyтоб&shyҳои бо 
                         хат&shyти фор&shyсӣ на&shyвиш&shyта&shyшу&shyда&shyро то ҳад&shyди им&shyкон ба хат&shyти ки&shyрил&shyлӣ бар&shyме&shyгар&shyдо&shyнанд. 
-                        Пас аз ин, ба шуб&shyҳа ме&shyаф&shyтад ва ӯро “душ&shyма&shyни халқ” ме&shyно&shyманд. Ӯ ба&shyзӯр аз “Пок&shyсо&shyзии бу&shyзург”-и 
+                        Пас аз ин, ба шуб&shyҳа ме&shyаф&shyтад ва ӯро «душ&shyма&shyни халқ» ме&shyно&shyманд. Ӯ ба&shyзӯр аз Пок&shyсо&shyзии бу&shyзурги 
                         Ста&shyлин ра&shyҳоӣ ме&shyё&shyбад.`,
                         `Со&shyли 1951, Ака&shyде&shyми&shyяи илм&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис ме&shyё&shyбад ва Сад&shyрид&shyдин Ай&shyнӣ 
                         пре&shyзи&shyден&shyти на&shyхус&shyти&shyни он ин&shyти&shyхоб кар&shyда ме&shyша&shyвад. Ӯ ин ва&shyзи&shyфа&shyро то дар&shyгу&shyзаш&shyташ 
-                        дар со&shyли 1954 дар ӯҳ&shyда дошт.`
+                        дар со&shyли 1954 дар ӯҳ&shyда дошт.`,
+                        `Со&shyли 1920, ав&shyва&shyлин аса&shyри ка&shyло&shyни ада&shyбии Ай&shyнӣ — «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро» 
+                        нашр шу&shyда&shyаст. Баъд, по&shyвес&shyти «Оди&shyна» дар со&shyли 1924 ва ро&shyма&shyни «До&shyхун&shyда» (бай&shyни 
+                        сол&shyҳои 1927 ва 1928 на&shyвиш&shyта шу&shyда, со&shyли 1930 нашр шу&shyда&shyаст)
+                        ба хо&shyнан&shyда&shyгон даст&shyрас шу&shyда&shyаст. Аса&shyри «Ғу&shyло&shyмон» со&shyли 1934 ба табъ ра&shyси&shyда, 
+                        гус&shyтур&shyда&shyта&shyрин эъ&shyҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.
+                        <div class='emptyLine'></div>
+                        <div class='imgDesc'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
+                        ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст</div>`
                     ],
                 ru: [
                         `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
