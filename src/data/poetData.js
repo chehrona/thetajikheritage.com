@@ -336,13 +336,7 @@ module.exports.poets = [
                     бар&shyду&shyрӯғ айб&shyдо&shyри ҷа&shyди&shyдӣ кар&shyда, ваҳ&shyши&shyёна дар зин&shyдон бу&shyғӣ кар&shyда 
                     ме&shyку&shyшанд. 
                     <br>Адиб 
-                    <div class="tooltip">«Мар&shyсия»
-                        <span class="tooltiptext" 
-                            style='width: 20rem; margin-left: -10rem;'>
-                            Жан&shyраи шеъ&shyре дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
-                            ме&shyша&shyвад
-                        </span>
-                    </div>-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
+                    <div class="tooltip">«Мар&shyсия»</div>-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
                     <div class='space'></div>
                     Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ – 
                     <span style='font-weight: bold;'>Муҳиддинхоҷа&shyро</span> 
@@ -351,6 +345,10 @@ module.exports.poets = [
                     Ин дард&shyҳои даҳ&shyшат&shyно&shyки қал&shyбаш тан&shyҳо иро&shyда&shyаш&shyро қа&shyви&shyтар гар&shyдо&shyни&shyда, 
                     дар ро&shyҳи аз ҳо&shyки&shyмо&shyни хун&shyхор озод шу&shyда&shyни мам&shyла&shyкат қа&shyла&shyмаш&shyро тез ва 
                     эъ&shyти&shyқо&shyдаш&shyро пур&shyзӯр ме&shyна&shyмо&shyянд.`,
+                    tooltip: [
+                        `Жан&shyраи шеъ&shyр дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
+                        ме&shyша&shyвад`
+                    ]
                 }
             },
             five: {
