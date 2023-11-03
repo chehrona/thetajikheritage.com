@@ -747,7 +747,7 @@ module.exports.poets = [
                         «Ус&shyтод Рӯ&shyда&shyкӣ», «Ка&shyмо&shyли Ху&shyҷан&shyдӣ», «Али&shyшер На&shyвоӣ», «Зай&shyнид&shyдин Маҳ&shyму&shyди Во&shyси&shyфӣ»-ро ба табъ 
                         ме&shyра&shyсо&shyнад. Ус&shyтод дар ин асар&shyҳо&shyяш бис&shyёр масъ&shyа&shyла&shyҳои баҳс&shyта&shyлаб ва ҳал&shyна&shyшу&shyдаи 
                         ҳа&shyё&shyту эҷо&shyди&shyё&shyти ин ади&shyбон&shyро бо да&shyле&shyлу бур&shyҳон&shyҳои қо&shyтеъ ҳал ме&shyна&shyмо&shyяд.`,
-                        `Қо&shyну&shyни дав&shyла&shyтӣ эъ&shyлон кар&shyда ме&shyша&shyвад, ки ис&shyти&shyфо&shyдаи хат&shyти ара&shyби&shyро манъ ме&shyку&shyнад. 
+                        `Қо&shyну&shyни дав&shyла&shyтӣ ме&shyба&shyро&shyяд, ки ис&shyти&shyфо&shyдаи хат&shyти ара&shyби&shyро манъ ме&shyку&shyнад. 
                         Ин ба за&shyбо&shyни то&shyҷи&shyкӣ, ки таъ&shyри&shyхан бо хат&shyти фор&shyсӣ-ара&shyбӣ на&shyвиш&shyта ме&shyшуд, таъ&shyсир ме&shyра&shyсо&shyнад. 
                         Ҷамъ&shyо&shyва&shyрӣ ва аз байн бур&shyда&shyни ки&shyтоб&shyҳои бо ин алиф&shyбо на&shyвиш&shyта шу&shyда сар ме&shyша&shyвад. 
                         Ай&shyнӣ бо эрон&shyши&shyно&shyсо&shyни Шӯ&shyра&shyвӣ, аз ҷум&shyла Бер&shyтелс, Сем&shyё&shyнов ва Фрей&shyман, ки&shyтоб&shyҳои бо 
