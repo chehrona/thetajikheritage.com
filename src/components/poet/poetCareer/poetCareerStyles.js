@@ -28,7 +28,7 @@ export const MainContainer = styled.div`
 
 export const YearSlider = styled.div`
     padding: 2rem 3rem 2rem 3rem;
-    height: 36rem;
+    height: 38rem;
 
     @media (max-width: 480px) {
         height: 41rem;
@@ -87,7 +87,7 @@ export const InfoContainer = styled.div`
     display: flex;
     overflow: hidden;
     position: relative;
-    height: 25rem;
+    height: 27rem;
 
     @media (max-width: 480px) {
         height: 35rem;
@@ -106,7 +106,7 @@ export const InfoInnerContainer = styled.div`
 `;
 
 export const InfoWrapper = styled.div`
-    height: 25rem;
+    height: 27rem;
     min-width: 800px;
     max-width: 800px;
     background: #fcf6e9;
@@ -135,7 +135,7 @@ export const DescWrapper = styled.div`
 `;
 
 export const Desc = styled.div`
-    padding: 2rem 3rem;
+    padding: 2rem;
     font-size: 1.1rem;
     line-height: 2rem;
     text-align: justify;
@@ -209,7 +209,7 @@ export const StyledIconButton = styled(IconButton)`
 
 export const Image = styled.img`
     height: 100%;
-    width: 35%;
+    width: 36%;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     transition: 100ms ease-in-out;

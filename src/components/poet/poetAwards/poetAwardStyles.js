@@ -135,9 +135,8 @@ export const StyledIconButton = styled(IconButton)`
         position: absolute;
     }
 
-    @media (max-width: 480px) {
-        width: 2rem;
-        height: 2rem;
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        bottom: 0.3rem;
     }
 `;
 
@@ -153,6 +152,13 @@ export const StyledInfoIcon = styled(Info)`
         &.MuiSvgIcon-root {
             height: 3rem;
             width: 3rem;
+        }
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        &.MuiSvgIcon-root {
+            height: 2.8rem;
+            width: 2.8rem;
         }
     }
 `;

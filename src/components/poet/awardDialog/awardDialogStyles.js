@@ -39,7 +39,7 @@ export const StyledContent = styled(DialogContent)`
     position: relative;
     padding: 0.001rem;
 
-    @media (max-width: 480px) {
+    @media (max-width: 896px) {
         &.MuiDialogContent-root {
             padding: 0rem;
             overflow: hidden;
@@ -62,14 +62,13 @@ export const InfoTitle = styled.div`
     display: flex;
     justify-content: center;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-family: 'EB Garamond', serif;
 
     @media (max-width: 480px) {
-        font-size: 2.5rem;
         text-align: center;
         margin: 0.5rem 3rem 1rem 1rem;
-        line-height: 2.7rem;
+        line-height: 2.4rem;
     }
 `;
 
@@ -82,6 +81,13 @@ export const StyledCloseIcon = styled(Close)`
     }
 
     @media (max-width: 480px) {
+        &.MuiSvgIcon-root {
+            width: 3rem;
+            height: 2.5rem;
+        }
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         &.MuiSvgIcon-root {
             width: 3rem;
             height: 2.5rem;
@@ -100,11 +106,15 @@ export const BodyContainer = styled.div`
 `;
 
 export const Wrapper = styled.div`
-    width: ${({ first }) => first ? "25%" : "75%"};
     height: 100%;
+    width: ${({ first }) => first ? "25%" : "75%"};
 
     @media (max-width: 480px) {
         width: 100%;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        width: ${({ first }) => first ? "24.5%" : "76.5%"};
     }
 `;
 
@@ -121,5 +131,9 @@ export const AwardImg = styled.img`
         display: inline;
         float: left;
         margin-right: 1rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        margin-left: 1rem;
     }
 `;

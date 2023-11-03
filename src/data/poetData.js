@@ -891,21 +891,23 @@ module.exports.poets = [
                     },
                     {
                         title: "Қаҳрамони Тоҷикистон", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
-                        desc: `Унвони олии дав&shyла&shyтии Ҷумҳурии То&shyҷи&shyкис&shyтон, ки барои хид&shyматҳои шоиста дар назди давлат ва 
-                            халқ, ки барои озодӣ, истиқлол ва рушди Тоҷикистон қаҳ&shyра&shyмо&shyнии ҳарбӣ ва меҳнатӣ намудаанд, су&shyпо&shyрида мешавад.
+                        desc: `Ун&shyво&shyни олии дав&shyла&shyтии Ҷум&shyҳу&shyрии То&shyҷи&shyкис&shyтон, ки ба&shyрои хид&shyмат&shyҳои шо&shyис&shyта 
+                            дар наз&shyди дав&shyлат ва халқ, ки ба&shyрои озо&shyдӣ, ис&shyтиқ&shyлол ва руш&shyди То&shyҷи&shyкис&shyтон қаҳ&shyра&shyмо&shyнии 
+                            ҳар&shyбӣ ва меҳ&shyна&shyтӣ на&shyму&shyда&shyанд, су&shyпо&shyри&shyда ме&shyша&shyвад.
                             <div class='emptyLine'></div>
-                            Вай ба ин шарафи олӣ барои хиз&shyмат&shyҳо&shyяш дар барпо намудани Ҷумҳурии Шӯ&shyра&shyвии Сотсиалистии Тоҷикистон ва 
+                            Вай ба ин ша&shyра&shyфи олӣ барои хиз&shyмат&shyҳо&shyяш дар барпо намудани Ҷумҳурии Шӯ&shyра&shyвии Сотсиалистии Тоҷикистон ва 
                             ба воситаи китобҳояш, ки айнияти мил&shyлии тоҷиконро бастааст, сазовор гар&shyди&shyда&shyаст. Махсусан китоби 
                             «На&shyму&shyна&shyҳои адабиёти тоҷик»-и ӯ, ни&shyшо&shyнаи таъриху фарҳанги деринаи халқи тоҷик аст.`
                     },
                     {
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
-                        desc: `Ордени «Хизмати шо&shyён» ба шаҳр&shyван&shyдо&shyни Ҷум&shyҳу&shyрии Ӯз&shyбе&shyкис&shyтон ва 
+                        desc: `Ор&shyде&shyни «Хиз&shyма&shyти шо&shyён» ба шаҳр&shyван&shyдо&shyни Ҷум&shyҳу&shyрии Ӯз&shyбе&shyкис&shyтон ва 
                             шаҳр&shyван&shyдо&shyни киш&shyвар&shyҳои хо&shyри&shyҷӣ ба&shyрои хиз&shyмат&shyҳои бу&shyзург дар 
-                            рушди илму техника, иқ&shyти&shyсод ва фарҳанг, саҳ&shyми арзанда дар рушди ҳамкориҳои байнидавлатӣ ва татбиқи нақ&shyша&shyҳои 
-                            до&shyхи&shyлӣ ва хориҷӣ му&shyко&shyфо&shyто&shyни&shyда ме&shyша&shyвад.
+                            руш&shyди ил&shyму тех&shyни&shyка, иқ&shyти&shyсод ва фар&shyҳанг, саҳ&shyми ар&shyзан&shyда дар 
+                            руш&shyди ҳам&shyко&shyри&shyҳои бай&shyни&shyдав&shyла&shyтӣ ва тат&shyби&shyқи нақ&shyша&shyҳои 
+                            до&shyхи&shyлӣ ва хо&shyри&shyҷӣ му&shyко&shyфо&shyто&shyни&shyда ме&shyша&shyвад.
                             <div class='emptyLine'></div>
-                            Ин ҷоиза ба С. Айнӣ барои саҳми ӯ ба ада&shyбиёти ӯзбек дода шудааст.`
+                            Ин ҷо&shyи&shyза ба С. Ай&shyнӣ ба&shyрои саҳ&shyми ӯ ба ада&shyби&shyё&shyти ӯз&shyбек до&shyда шу&shyда&shyаст.`
                     },
                 ],
             ru: [
