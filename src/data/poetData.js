@@ -742,6 +742,18 @@ module.exports.poets = [
                         Ам&shyмо кон&shyсул&shyхо&shyна де&shyре на&shyгу&shyзаш&shyта бас&shyта ме&shyша&shyвад ва Ай&shyнӣ боз бо 
                         кӯ&shyма&shyки А.Му&shyҳид&shyди&shyнов ба шӯъ&shyбаи Бух&shyгос&shyторг (ти&shyҷо&shyра&shyти дав&shyла&shyтии 
                         Ҷум&shyҳу&shyрии Хал&shyқии Шӯ&shyра&shyвии Бу&shyхо&shyро) дар Са&shyмар&shyқанд ҳам&shyчун му&shyдир таъ&shyин ме&shyша&shyвад.`,
+                        `Аса&shyри пур&shyар&shyзи&shyши ӯ дар бо&shyраи Фир&shy&shyсӣ ва «Шоҳ&shyно&shyма»-и ӯро ба ан&shyҷом ме&shy&shyсо&shyнад. Ҳа&shyмин 
+                        тавр, пай&shyдар&shyҳам асар&shyҳои «Шайх&shyу&shyра&shyис Абӯ&shyалии Си&shyно», «Шайх Мус&shyли&shyҳид&shyдин Саъ&shyдии Ше&shyро&shyзӣ», 
+                        «Ус&shyтод Рӯ&shyда&shyкӣ», «Ка&shyмо&shyли Ху&shyҷан&shyдӣ», «Али&shyшер На&shyвоӣ», «Зай&shyнид&shyдин Маҳ&shyму&shyди Во&shyси&shyфӣ»-ро ба табъ 
+                        ме&shyра&shyсо&shyнад. Ус&shyтод дар ин асар&shyҳо&shyяш бис&shyёр масъ&shyа&shyла&shyҳои баҳс&shyта&shyлаб ва ҳал&shyна&shyшу&shyдаи 
+                        ҳа&shyё&shyту эҷо&shyди&shyё&shyти ин ади&shyбон&shyро бо да&shyле&shyлу бур&shyҳон&shyҳои қо&shyтеъ ҳал ме&shyна&shyмо&shyяд.`,
+                        `Қо&shyну&shyни дав&shyла&shyтӣ эъ&shyлон кар&shyда ме&shyша&shyвад, ки ис&shyти&shyфо&shyдаи хат&shyти ара&shyби&shyро манъ ме&shyку&shyнад. 
+                        Ин ба за&shyбо&shyни то&shyҷи&shyкӣ, ки таъ&shyри&shyхан бо хат&shyти фор&shyсӣ-ара&shyбӣ на&shyвиш&shyта ме&shyшуд, таъ&shyсир ме&shyра&shyсо&shyнад. 
+                        Ҷамъ&shyо&shyва&shyрӣ ва аз байн бур&shyда&shyни ки&shyтоб&shyҳои бо ин алиф&shyбо на&shyвиш&shyта шу&shyда сар ме&shyша&shyвад. 
+                        Ай&shyнӣ бо эрон&shyши&shyно&shyсо&shyни Шӯ&shyра&shyвӣ, аз ҷум&shyла Бер&shyтелс, Сем&shyё&shyнов ва Фрей&shyман, ки&shyтоб&shyҳои бо 
+                        хат&shyти фор&shyсӣ на&shyвиш&shyта&shyшу&shyда&shyро то ҳад&shyди им&shyкон ба хат&shyти ки&shyрил&shyлӣ бар&shyме&shyгар&shyдо&shyнанд. 
+                        Пас аз ин, ба шуб&shyҳа ме&shyаф&shyтад ва ӯро “душ&shyма&shyни халқ” ме&shyно&shyманд. Ӯ ба&shyзӯр аз “Пок&shyсо&shyзии бу&shyзург”-и 
+                        Ста&shyли&shyнӣ ра&shyҳоӣ ме&shyё&shyбад.`
                     ],
                 ru: [
                         `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
