@@ -753,7 +753,10 @@ module.exports.poets = [
                         Ай&shyнӣ бо эрон&shyши&shyно&shyсо&shyни Шӯ&shyра&shyвӣ, аз ҷум&shyла Бер&shyтелс, Сем&shyё&shyнов ва Фрей&shyман, ки&shyтоб&shyҳои бо 
                         хат&shyти фор&shyсӣ на&shyвиш&shyта&shyшу&shyда&shyро то ҳад&shyди им&shyкон ба хат&shyти ки&shyрил&shyлӣ бар&shyме&shyгар&shyдо&shyнанд. 
                         Пас аз ин, ба шуб&shyҳа ме&shyаф&shyтад ва ӯро “душ&shyма&shyни халқ” ме&shyно&shyманд. Ӯ ба&shyзӯр аз “Пок&shyсо&shyзии бу&shyзург”-и 
-                        Ста&shyли&shyнӣ ра&shyҳоӣ ме&shyё&shyбад.`
+                        Ста&shyлин ра&shyҳоӣ ме&shyё&shyбад.`,
+                        `Со&shyли 1951, Ака&shyде&shyми&shyяи илм&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис ме&shyё&shyбад ва Сад&shyрид&shyдин Ай&shyнӣ 
+                        пре&shyзи&shyден&shyти на&shyхус&shyти&shyни он ин&shyти&shyхоб кар&shyда ме&shyша&shyвад. Ӯ ин ва&shyзи&shyфа&shyро то дар&shyгу&shyзаш&shyташ 
+                        дар со&shyли 1954 дар ӯҳ&shyда дошт.`
                     ],
                 ru: [
                         `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
