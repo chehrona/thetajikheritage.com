@@ -34,9 +34,9 @@ module.exports.recipes = [
                 ingredients are added to en&shyhance its flavor and texture. 
                 These may in&shyclude pieces of flatbread (usually stale bread is repurposed), butter or ghee, dried apple slices, mulberry, almond leaves, walnuts, and rose hip flowers.<sup>2,4</sup>
                 Shirchoy can incorporate un&shycon&shyven&shytional ingredients for milk-based meals, in&shyclud&shying small amounts of pepper (seasoning), 
-                <div class="tooltip">raw onion slices<span class="tooltiptext" style='width: 12rem; margin-left: -6rem;'>Only in Samarkand</span></div>
+                <div class="tooltip">raw onion slices<div class="tooltiptext">Only in Samarkand</div></div>
                 or even mel&shyted <div class="tooltip">sheep tail fat
-                <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</span></div>.<sup>2</sup>
+                <div class="tooltiptext">Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</div></div>.<sup>2</sup>
                 Also, shirchoy is occasionally known by dif&shyfer&shyent names that highlight additional in&shygre&shydi&shyents beyond tea and milk. 
                 Since it is pre&shydom&shyi&shynant&shyly a salty dish, it is alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
                 In the region of Ba&shydakh&shyshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzshirchoy"</span> is prepared, featuring ground toasted walnuts as one
@@ -63,9 +63,9 @@ module.exports.recipes = [
                 Приготовление ширчоя предполагает со&shyче&shyтание молока и чая, но на этом не ос&shyта&shyнав&shyли&shyвается. Дополнительные ингредиенты добавляются для улучшения вкуса и тек&shyсту&shyры. Это могут 
                 быть кусочки лепёшки (обыч&shyно используется черствый хлеб), сливочное или топ&shyлёное масло, кусочки сушёных яб&shyлок, шелковица, листья миндаля, грецкие орехи и цветки шиповника.<sup>2,4</sup> 
                 Ширчой мо&shyжет включать нетрадиционные ин&shyгре&shyди&shyен&shyты для блюда на основе молока, например небольшое количество перца (приправы), 
-                <div class="tooltip">кусочки сырого лука<span class="tooltiptext" style='width: 14rem; margin-left: -7rem;'>Только в Самарканде</span></div>
+                <div class="tooltip">кусочки сырого лука<div class="tooltiptext">Только в Самарканде</div></div>
                 или даже растопленый <div class="tooltip">курдючный жир
-                <span class="tooltiptext" style='width: 17rem; margin-left: -8.5rem;'>В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</span></div>.<sup>2</sup>
+                <div class="tooltiptext">В основном в Самарканде, Бухаре, Фергане и Северном Таджикистане</div></div>.<sup>2</sup>
                 Кроме того, ширчой иног&shyда известен под разными названиями, ко&shyто&shyрые подчеркивают дополнительные ин&shyгре&shyди&shyен&shyты, помимо чая и молока. Поскольку это преимущественно солёное 
                 блюдо, его также называют <span class='termSpan'>«шурчой»</span>, от таджикско-персидского слова, обозначаю&shyще&shyго солёный, «шур».
                 В Бадахшане готовят вкусный вариант ширчоя под названием <span class='termSpan'>«гузширчой»</span>, одним из основных ин&shyгре&shyди&shyен&shyтов которого являются молотые жареные грецкие оре&shyхи.<sup>4</sup>
@@ -94,9 +94,9 @@ module.exports.recipes = [
                 вале барои беҳтар кар&shyдани маззааш чизҳои дигар ҳам илова кар&shyда мешаванд. Инҳо метавонанд пораҳои нон (одатан нони хушк), 
                 маска ё равғани зар&shyди сӯхта, буридаҳои себи хушк, тут, барг&shyҳои бодом, чормағз ва гулҳои хуч (ши&shyпов&shyник)-&shyро дар бар гиранд.<sup>2,4</sup> 
                 Ба ширчой баъзан чизҳои барои хӯрокҳои ширӣ ғайриоддӣ, аз монанди мурч, 
-                <div class="tooltip">пиёз<span class="tooltiptext" style='width: 14rem; margin-left: -7rem;'>Танҳо дар Самарқанд</span></div> ва ҳатто 
+                <div class="tooltip">пиёз<div class="tooltiptext">Танҳо дар Самарқанд</div></div> ва ҳатто 
                 равғани <div class="tooltip">думбаи обкардашуда
-                <span class="tooltiptext" style='width: 18rem; margin-left: -10rem;'>Асосан дар Самарқанд, Бухоро, Фарғона ва вилояти Суғд</span></div>, андохта мешаванд.
+                <div class="tooltiptext">Асосан дар Самарқанд, Бухоро, Фарғона ва вилояти Суғд</div></div>, андохта мешаванд.
                 Ин&shyчу&shyнин, ширчой бо номҳои гуногун ҳам маъруф аст, ки онҳо аз яке аз маҳсулотҳои иловагиаш гирифта мешаванд. Азбаски шир&shyчой одатан як хӯроки шӯр аст, 
                 яке аз ном&shyҳои дигараш <span class='termSpan'>«шӯрчой»</span> мебошад. Дар вилояти Бадахшон як намуди болаззати шир&shyчой — <span class='termSpan'>«ғӯзширчой»</span> омода карда 
                 ме&shyша&shyвад, ки яке аз қисмҳои асосии он чормағзи тафтдодашудаи кӯфта мебошад.<sup>4</sup>
