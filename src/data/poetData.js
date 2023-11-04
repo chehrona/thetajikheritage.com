@@ -343,7 +343,7 @@ module.exports.poets = [
                     </div>-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
                     <div class='space'></div>
                     Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ – 
-                    <span style='font-weight: bold;'>Муҳиддинхоҷа&shyро</span> 
+                    <span style='font-weight: bold;'>Му&shyҳид&shyдин&shyхо&shyҷа&shyро</span> 
                     қатл кар&shyда, пи&shyса&shyраш&shyро дуз&shyди&shyда ба кӯҳ&shyҳои Ну&shyра&shyто ме&shyба&shyранд.<sup>1</sup>
                     <div class='space'></div>
                     Ин дард&shyҳои даҳ&shyшат&shyно&shyки қал&shyбаш тан&shyҳо иро&shyда&shyаш&shyро қа&shyви&shyтар гар&shyдо&shyни&shyда, 

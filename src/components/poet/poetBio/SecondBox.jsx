@@ -44,7 +44,6 @@ export default function SecondBox({ poet }) {
     };
     
     const moveDown = () => {
-        console.log("down")
         if (infoArr.length > 1) {
             const movedItem = infoArr.shift();
             infoArr.push(movedItem);

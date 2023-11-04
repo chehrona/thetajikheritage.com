@@ -39,6 +39,42 @@ function App() {
         }
     }, [isMenuShown]);
 
+    useEffect(() => {
+        const tooltip = document.querySelector(".tooltip");
+        const tooltipText = document.querySelector(".tooltiptext");
+
+        if (tooltip) {
+            const tooltipTextRect = tooltipText.getBoundingClientRect();
+
+            if (tooltipText) {
+                const grandparentElement = tooltipText.parentElement.parentElement;
+            
+                if (grandparentElement) {
+                    const grandparentBoundingBox = grandparentElement.getBoundingClientRect();
+
+                    if (tooltipTextRect.x < 0) {
+                        tooltipText.style.left = '0%';
+                        tooltipText.style.right = 'auto';
+                        tooltipText.style.transform = `translateX(0%)`;
+                    } else if ((tooltipTextRect.x + tooltipTextRect.width) > window.outerWidth) {
+                        tooltipText.style.right = '0%';
+                        tooltipText.style.left = 'auto';
+                        tooltipText.style.transform = `translateX(0%)`;
+                    }
+
+                    if (grandparentBoundingBox.y - (tooltipTextRect.y + tooltipTextRect.width) < 0) {
+                        tooltip.classList.add('modified');
+                        const computedStyle = window.getComputedStyle(tooltipText);
+                        const transformValue = computedStyle.getPropertyValue('transform');
+
+                        tooltipText.style.bottom = '0%';
+                        tooltipText.style.transform = `${transformValue} translateY(115%)`;
+                    }
+                }
+            }
+        }
+    }, [lang]);
+
     return (
         <LangContext.Provider value={value}>
             <div className='content-container'>

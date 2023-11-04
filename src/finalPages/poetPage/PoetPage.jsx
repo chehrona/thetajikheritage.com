@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import { useSetLang } from "../../App";
+import React from "react";
 import { useParams } from "react-router-dom";
 import { useMediaQuery } from 'react-responsive';
 
@@ -23,7 +22,6 @@ import Tooltip from "../../components/common/tooltip/Tooltip";
 
 export default function PoetPage() {
     const { id } = useParams();
-    const { lang } = useSetLang();
     const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
     const poet = poets.filter((poet) => poet.id === id)[0];
 
@@ -39,26 +37,6 @@ export default function PoetPage() {
             });
         }
     };
-
-    useEffect(() => {
-        const tooltip = document.querySelector(".tooltip");
-        const tooltipText = document.querySelector(".tooltiptext");
-
-        if (tooltip) {
-            const tooltipRect = tooltip.getBoundingClientRect();
-            const tooltipTextRect = tooltipText.getBoundingClientRect();
-
-            if (tooltipTextRect.x < 0) {
-                tooltipText.style.left = '0%';
-                tooltipText.style.right = 'auto';
-                tooltipText.style.transform = `translateX(0%)`;
-            } else if ((tooltipTextRect.x + tooltipTextRect.width) > window.outerWidth) {
-                tooltipText.style.right = '0%';
-                tooltipText.style.left = 'auto';
-                tooltipText.style.transform = `translateX(0%)`;
-            }
-        }
-    }, [lang]);
 
     if (poet) {
         return (
