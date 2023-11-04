@@ -32,24 +32,24 @@ function App() {
     ), [lang, isMenuShown, isPrint]);
 
     useEffect(() => {
-    if (isMenuShown) {
-        document.querySelector('.content-container').style.overflowY = 'hidden';
-    } else {
-        document.querySelector('.content-container').style.overflowY = 'scroll';
-    }
+        if (isMenuShown) {
+            document.querySelector('.content-container').style.overflowY = 'hidden';
+        } else {
+            document.querySelector('.content-container').style.overflowY = 'scroll';
+        }
     }, [isMenuShown]);
 
-  return (
-      <LangContext.Provider value={value}>
-          <div className='content-container'>
-              {!isPrint && <Header />}
-              {!isPrint && <Flags />}
-              <Menu />
-              <AnimationRoutes />
-              {!isPrint && <Footer />}
-          </div>
-      </LangContext.Provider>
-  );
+    return (
+        <LangContext.Provider value={value}>
+            <div className='content-container'>
+                {!isPrint && <Header />}
+                {!isPrint && <Flags />}
+                <Menu />
+                <AnimationRoutes />
+                {!isPrint && <Footer />}
+            </div>
+        </LangContext.Provider>
+    );
 }
 
 export default App;
