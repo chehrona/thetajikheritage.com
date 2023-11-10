@@ -180,14 +180,14 @@ module.exports.poets = [
                         year: '1908',
                         image: '/poetImages/ayni/slides/ayni5.jpeg',
                         desc: `Вмес&shyте с че&shyтырь&shyмя сво&shyи&shyми близ&shyки&shyми друзь&shyя&shyми он от&shyкры&shyва&shyет пер&shyвую 
-                            но&shyво&shyме&shyтод&shyную шко&shyлу (т.е. джа&shyдид&shyскую) в Бу&shyха&shyре.
+                            но&shyво&shyме&shyтод&shyную (т.е. джа&shyдид&shyскую) шко&shyлу в Бу&shyха&shyре.
                             Шко&shyлу откры&shyва&shyют в до&shyме Мир&shyзы Аб&shyдул&shyва&shyхи&shyда Мун&shyзи&shyма на ули&shyце Са&shyлох&shyхо&shyна, 
                             и на&shyчи&shyна&shyют пре&shyпо&shyдо&shyвать мест&shyным бу&shyхар&shyским уче&shyни&shyкам на пер&shyсид&shyском язы&shyке.<sup>5</sup>`,
                     },
                     {
                         year: '1909',
                         image: '/poetImages/ayni/slides/ayni6.jpeg',
-                        desc: `Он на&shyпи&shyсал свои пер&shyвые тру&shyды: «ترتيل القرآن» («Тар&shyтил-уль-Ко&shyран» — пра&shyви&shyла пра&shyвиль&shyно&shyго 
+                        desc: `Он на&shyпи&shyсал свои пер&shyвые тру&shyды: «ترتيل القرآن» («Тар&shyтил-ул-Куръ&shyан» — пра&shyви&shyла пра&shyвиль&shyно&shyго 
                             чте&shyния Ко&shyра&shyна), «تهذيب الصبيان» («Тах&shyзиб-ус-сибь&shyян» — «Вос&shyпи&shyта&shyние маль&shyчи&shyков/де&shyтей») 
                             и «تحريب دينيه» («За­&shyру&shy­ри&shy­я&shy­ти ди&shyния» — «Ос&shyно&shyвы ре&shyли&shyгии») в рам&shyках учеб&shyной про&shyграм&shyмы 
                             но&shyво&shyме&shyто&shyдис&shyтской шко&shyлы.<sup>5</sup>`
