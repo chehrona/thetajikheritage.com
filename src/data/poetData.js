@@ -307,14 +307,16 @@ module.exports.poets = [
                     бы&shyло свер&shyже&shyние эми&shyра, эмир прев&shyра&shyща&shyет Бу&shyха&shyру в
                     «бой&shyню». В этом ха&shyо&shyсе его млад&shyше&shyго бра&shyта, <span style='font-weight:bold;'>Си&shyро&shyджид&shyдина</span>, 
                     лож&shyно об&shyви&shyня&shyют в джа&shyди&shyдиз&shyме, и жес&shyто&shyко уби&shyва&shyют удушь&shyем в тюрь&shyме.
-                    По этому случаю Айни написал свое душераздирающее литературное произведение 
+                    По это&shyму слу&shyчаю Ай&shyни на&shyпи&shyсал свое ду&shyше&shyраз&shyди&shyра&shyю&shyщее ли&shyте&shyра&shyтур&shyное 
+                    про&shyиз&shyве&shyде&shyние 
                     <div class='tooltip'>«Мар&shyсия»
                         <div class='tooltiptext'>
-                            Жанр поэзии в таджикско-персидской литературе, читаемый во время траура
+                            Жанр по&shyэ&shyзии в пер&shyсид&shyской ли&shyте&shyра&shyту&shyре, чи&shyта&shyе&shyмый во вре&shyмя тра&shyу&shyра
                         </div>
                     </div>.
-                    <div class='space'></div>В 1922 году басмачи убивают старшего брата Айни —
-                    <span style='font-weight:bold;'>Мухиддинходжу</span>, похищают его сына и увозят в Нуратинские горы.<sup>1</sup>
+                    <div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
+                    <span style='font-weight:bold;'>Мухиддинходжу</span>, по&shyхи&shyща&shyют его сы&shyна и уво&shyзят в Ну&shyра&shyтин&shyские 
+                    го&shyры.<sup>1</sup>
                     <div class='space'></div>
                     Эти мучительные потери только укрепили по&shyзи&shyции Айни.
                     решимость, оттачивая свое перо и уси&shyли&shyвая свою решимость руководить страной
