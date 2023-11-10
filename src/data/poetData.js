@@ -410,22 +410,22 @@ module.exports.poets = [
                             text: `Айни с сыном Камолом <sup>4<sup>`,
                         }
                     ],
-                    desc: `В октябре 1920 года Айни женится на <span style='font-weight:bold;'>Салохате</span>,
-                        и они переежают в дом ее ро&shyди&shyте&shyлей в Самарканде.
-                        Несмотря на финан&shyсо&shyвое по&shyло&shyже&shyние Айни,
-                        Са&shyло&shyхат оставалась непоколебимой в своей пре&shyдан&shyнос&shyти ему. Она посвятила себя созданию
-                        сре&shyды, где мог процветать его литературный гений, и эта пре&shyдан&shyность дли&shyлась 
-                        до их последних совместных дней<sup>1</sup>.
+                    desc: `В октябре 1920 го&shyда Ай&shyни же&shyнит&shyся на <span style='font-weight:bold;'>Са&shyло&shyха&shyте</span>,
+                        и они переежают в дом ее ро&shyди&shyте&shyлей в Са&shyмар&shyкан&shyде.
+                        Несмотря на фи&shyнан&shyсо&shyвое по&shyло&shyже&shyние Ай&shyни,
+                        Са&shyло&shyхат оста&shyва&shyлась не&shyпо&shyко&shyле&shyби&shyмой в своей пре&shyдан&shyнос&shyти ему. 
+                        Она по&shyсвя&shyти&shyла се&shyбя соз&shyда&shyнию сре&shyды, где мог про&shyцве&shyтать его ли&shyте&shyра&shyтур&shyный ге&shyний, и 
+                        эта пре&shyдан&shyность дли&shyлась до их послед&shyних совместных дней<sup>1</sup>.
                         <div class='space'></div>
-                        У них было трое детей: <span style='font-weight:bold;'>Камол</span> (г.р. 1928),
+                        У них бы&shyло трое де&shyтей: <span style='font-weight:bold;'>Камол</span> (г.р. 1928),
                         <span style='font-weight:bold;'>Холида</span> (г.р. ?) и
                         <span style='font-weight:bold;'>Лютфия</span> (г.р. 1934).
-                        Дети пош&shyли по стопам Айни, сделав академи&shyчес&shyкие карьеры в сферах востоковедения,
-                        фи&shyло&shyлогии и истории искусства Центральной Азии, соответственно<sup>7</sup>
+                        Де&shyти пош&shyли по сто&shyпам Ай&shyни, сде&shyлав ака&shyде&shyми&shyчес&shyкие карь&shyеры в сфе&shyрах востоковедения,
+                        фи&shyло&shyлогии и ис&shyто&shyрии искусства Центральной Азии, соответственно<sup>7</sup>
                         <div class='space'></div>
-                        На сегодняшний день внук Айни, <span style='font-weight:bold;'>Ирадж Айни</span>, 
-                        про&shyжи&shyвает в Ду&shyшан&shyбе со своей семь&shyей, и продолжает наследие 
-                        своего деда че&shyрез Фонд Садриддина Айни<sup>8</sup>`
+                        На се&shyгодняш&shyний день внук Ай&shyни, <span style='font-weight:bold;'>Ирадж Айни</span>, 
+                        про&shyжи&shyва&shyет в Ду&shyшан&shyбе со сво&shyей семь&shyей, и про&shyдол&shyжа&shyет наследие 
+                        сво&shyе&shyго де&shyда че&shyрез Фонд Садриддина Айни<sup>8</sup>`
                 },
                 tj: {
                     year: '1920',
