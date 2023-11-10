@@ -415,7 +415,7 @@ module.exports.poets = [
                         Несмотря на фи&shyнан&shyсо&shyвое по&shyло&shyже&shyние Ай&shyни,
                         Са&shyло&shyхат оста&shyва&shyлась не&shyпо&shyко&shyле&shyби&shyмой в своей пре&shyдан&shyнос&shyти ему. 
                         Она по&shyсвя&shyти&shyла се&shyбя соз&shyда&shyнию сре&shyды, где мог про&shyцве&shyтать его ли&shyте&shyра&shyтур&shyный ге&shyний, и 
-                        эта пре&shyдан&shyность дли&shyлась до их послед&shyних сов&shyмест&shyных дней<sup>1</sup>.
+                        эта пре&shyдан&shyность дли&shyлась до их послед&shyних сов&shyмест&shyных дней.<sup>1</sup>
                         <div class='space'></div>
                         У них бы&shyло трое де&shyтей: <span style='font-weight:bold;'>Камол</span> (г.р. 1928),
                         <span style='font-weight:bold;'>Холида</span> (г.р. ?) и
