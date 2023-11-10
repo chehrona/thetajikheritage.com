@@ -415,13 +415,13 @@ module.exports.poets = [
                         Несмотря на фи&shyнан&shyсо&shyвое по&shyло&shyже&shyние Ай&shyни,
                         Са&shyло&shyхат оста&shyва&shyлась не&shyпо&shyко&shyле&shyби&shyмой в своей пре&shyдан&shyнос&shyти ему. 
                         Она по&shyсвя&shyти&shyла се&shyбя соз&shyда&shyнию сре&shyды, где мог про&shyцве&shyтать его ли&shyте&shyра&shyтур&shyный ге&shyний, и 
-                        эта пре&shyдан&shyность дли&shyлась до их послед&shyних совместных дней<sup>1</sup>.
+                        эта пре&shyдан&shyность дли&shyлась до их послед&shyних сов&shyмест&shyных дней<sup>1</sup>.
                         <div class='space'></div>
                         У них бы&shyло трое де&shyтей: <span style='font-weight:bold;'>Камол</span> (г.р. 1928),
                         <span style='font-weight:bold;'>Холида</span> (г.р. ?) и
                         <span style='font-weight:bold;'>Лютфия</span> (г.р. 1934).
                         Де&shyти пош&shyли по сто&shyпам Ай&shyни, сде&shyлав ака&shyде&shyми&shyчес&shyкие карь&shyеры в сфе&shyрах востоковедения,
-                        фи&shyло&shyлогии и ис&shyто&shyрии искусства Центральной Азии, соответственно<sup>7</sup>
+                        фи&shyло&shyлогии и ис&shyто&shyрии искусства Цен&shyтраль&shyной Азии, соответственно<sup>7</sup>
                         <div class='space'></div>
                         На се&shyгодняш&shyний день внук Ай&shyни, <span style='font-weight:bold;'>Ирадж Айни</span>, 
                         про&shyжи&shyва&shyет в Ду&shyшан&shyбе со сво&shyей семь&shyей, и про&shyдол&shyжа&shyет наследие 
