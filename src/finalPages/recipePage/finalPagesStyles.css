@@ -1,12 +1,12 @@
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted #504221;
+    border-bottom: 1px dotted #70654a;
 }
   
 .tooltip .tooltiptext {
     visibility: hidden;
-    background-color: #504221;
+    background-color: #70654a;
     color: #fcf6e9;
     border-radius: 0.4rem;
     position: absolute;
@@ -16,9 +16,7 @@
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
-    padding: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.5rem 1rem;
     font-weight: normal;
     width: 20rem;
 }
@@ -34,7 +32,7 @@
     border-width: 0.5rem;
     border-style: solid;
     transition: opacity 0.3s;
-    border-color: #504221 transparent transparent transparent;
+    border-color: #70654a transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
@@ -62,7 +60,7 @@
     border-width: 0.5rem;
     border-style: solid;
     transition: opacity 0.3s;
-    border-color: transparent transparent #504221 transparent;
+    border-color: transparent transparent #70654a transparent;
 }
 
 .tooltip.modified:hover::after {

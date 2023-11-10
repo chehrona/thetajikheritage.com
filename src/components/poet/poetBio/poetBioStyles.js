@@ -98,6 +98,10 @@ export const InnerOverlay = styled.div`
     overflow: hidden;
     filter: grayscale(1);
     height: 40rem;
+
+    @media (max-width: 480px) {
+        height: 45rem;
+    }
 `;
 
 export const Backdrop = styled.div`
@@ -195,6 +199,10 @@ export const StyledIconButton = styled(IconButton)`
             transform: ${({ bottom }) => bottom ? 'rotate(0deg)' : 'rotate(-180deg)'};
             ${({ bottom }) => bottom ? 'right: 0.8rem' : 'left: 0.8rem'};
         }
+
+        &:disabled {
+            display: none;
+        }
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
@@ -223,7 +231,7 @@ export const Arrow = styled.div`
         box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media (max-device-width: 896px) {
         &:hover {
             box-shadow: 0rem 0rem 0rem 0rem #dedbdb;
         }

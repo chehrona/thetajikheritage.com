@@ -1,6 +1,7 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from "styled-components/macro";
 import { Clear } from "@mui/icons-material";
 import { motion}  from "framer-motion";
+import { Tooltip, tooltipClasses } from "@mui/material";
 
 const openAnimation = keyframes`
     to {
@@ -150,3 +151,25 @@ export const CursorImg = styled.img`
     height: 100%;
     background: transparent;
 `;
+
+export const StyledTooltip = styled(({ className, ...props }) => (
+    <Tooltip {...props} classes={{ popper: className }} />
+    ))(() => ({
+        [`& .${tooltipClasses.tooltip}`]: {
+            fontSize: 'inherit',
+            fontFamily: 'inherit',
+            fontWeight: 'normal',
+            padding: '0.5rem 1rem',
+        },
+        [`& .${tooltipClasses.tooltipArrow}`]: {
+            backgroundColor: '#70654a',
+        },
+        [`& .${tooltipClasses.arrow}`]: {
+            color: '#70654a'
+        },
+        '@media (max-width: 896px)': {
+            [`& .${tooltipClasses.tooltip}`]: {
+                display: 'none',
+            },
+        },
+}));

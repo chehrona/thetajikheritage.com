@@ -315,7 +315,7 @@ module.exports.poets = [
                         </div>
                     </div>.
                     <div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
-                    <span style='font-weight:bold;'>Мухиддинходжу</span>, по&shyхи&shyща&shyют его сы&shyна и уво&shyзят в Ну&shyра&shyтин&shyские 
+                    <span style='font-weight:bold;'>Му&shyхид&shyдин&shyход&shyжу</span>, по&shyхи&shyща&shyют его сы&shyна и уво&shyзят в Ну&shyра&shyтин&shyские 
                     го&shyры.<sup>1</sup>
                     <div class='space'></div>
                     Эти му&shyчи&shyтель&shyные по&shyте&shyри толь&shyко ук&shyре&shyпи&shyли по&shyзи&shyцию Ай&shyни, обос&shyтри&shyли
@@ -411,9 +411,9 @@ module.exports.poets = [
                         }
                     ],
                     desc: `В октябре 1920 го&shyда Ай&shyни же&shyнит&shyся на <span style='font-weight:bold;'>Са&shyло&shyха&shyте</span>,
-                        и они переежают в дом ее ро&shyди&shyте&shyлей в Са&shyмар&shyкан&shyде.
-                        Несмотря на фи&shyнан&shyсо&shyвое по&shyло&shyже&shyние Ай&shyни,
-                        Са&shyло&shyхат оста&shyва&shyлась не&shyпо&shyко&shyле&shyби&shyмой в своей пре&shyдан&shyнос&shyти ему. 
+                        и они пе&shyре&shyе&shyжа&shyют в дом ее ро&shyди&shyте&shyлей в Са&shyмар&shyкан&shyде.
+                        Нес&shyмот&shyря на фи&shyнан&shyсо&shyвое по&shyло&shyже&shyние Ай&shyни,
+                        Са&shyло&shyхат оста&shyва&shyлась не&shyпо&shyко&shyле&shyби&shyмой в сво&shyей пре&shyдан&shyнос&shyти ему. 
                         Она по&shyсвя&shyти&shyла се&shyбя соз&shyда&shyнию сре&shyды, где мог про&shyцве&shyтать его ли&shyте&shyра&shyтур&shyный ге&shyний, и 
                         эта пре&shyдан&shyность дли&shyлась до их пос&shyлед&shyних сов&shyмест&shyных дней.<sup>1</sup>
                         <div class='space'></div>
@@ -421,8 +421,8 @@ module.exports.poets = [
                         <span style='font-weight:bold;'>Холида</span> (г.р. ?) и
                         <span style='font-weight:bold;'>Лютфия</span> (г.р. 1934).
                         Де&shyти пош&shyли по сто&shyпам Ай&shyни, сде&shyлав ака&shyде&shyми&shyчес&shyкие карь&shyеры в сфе&shyрах 
-                        вос&shyто&shyко&shyве&shyде&shyния,
-                        фи&shyло&shyло&shyгии и ис&shyто&shyрии искусства Цен&shyтраль&shyной Азии, соответственно.<sup>7</sup>
+                        вос&shyто&shyко&shyве&shyде&shyния, фи&shyло&shyло&shyгии и ис&shyто&shyрии ис&shyкус&shyства 
+                        Цен&shyтраль&shyной Азии, соответственно.<sup>7</sup>
                         <div class='space'></div>
                         На се&shyгод&shyняш&shyний день внук Ай&shyни, <span style='font-weight:bold;'>Ирадж Айни</span>, 
                         про&shyжи&shyва&shyет в Ду&shyшан&shyбе со сво&shyей семь&shyей, и про&shyдол&shyжа&shyет наследие 
