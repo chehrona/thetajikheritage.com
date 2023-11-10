@@ -58,7 +58,7 @@ module.exports.poets = [
                 tj: {
                         year: '15 апрели 1878',
                         slides: {img: '/poetImages/ayni/soktare.png', text: `Хонаи бачагии Садриддин Айнӣ дар Соктаре<sup>4</sup>`},
-                        desc: `Садриддин Саидмуродзода дар хонаводаи <span style='font-weight: bold;'>Саидмуродхоҷа</span>
+                        desc: `Садриддин Саидмуродзода дар хо&shyна&shyводаи <span style='font-weight: bold;'>Саидмуродхоҷа</span>
                         ва <span style='font-weight: bold;'>Зеварой</span> дар деҳаи Сок&shyта&shyреи ноҳияи Ғиҷдувони Аморати 
                         Бу&shyхо&shyро ба дунё ома&shyда&shyаст.<sup>1</sup>
                         Чун аз оилаи кишоварз буд, бачагии худро дар байни деҳқонон ва ҳу&shyнар&shyман&shyдо&shyни ма&shyҳаллӣ гузаронидааст. 
@@ -347,7 +347,7 @@ module.exports.poets = [
                     ме&shyку&shyшанд. Адиб
                     <div class='tooltip'>«Мар&shyсия»
                         <div class='tooltiptext'>
-                            Жан&shyри шеъ&shyр дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
+                            Жан&shyри шеър дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
                             ме&shyша&shyвад
                         </div>
                     </div>-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
@@ -415,17 +415,18 @@ module.exports.poets = [
                         Несмотря на фи&shyнан&shyсо&shyвое по&shyло&shyже&shyние Ай&shyни,
                         Са&shyло&shyхат оста&shyва&shyлась не&shyпо&shyко&shyле&shyби&shyмой в своей пре&shyдан&shyнос&shyти ему. 
                         Она по&shyсвя&shyти&shyла се&shyбя соз&shyда&shyнию сре&shyды, где мог про&shyцве&shyтать его ли&shyте&shyра&shyтур&shyный ге&shyний, и 
-                        эта пре&shyдан&shyность дли&shyлась до их послед&shyних сов&shyмест&shyных дней.<sup>1</sup>
+                        эта пре&shyдан&shyность дли&shyлась до их пос&shyлед&shyних сов&shyмест&shyных дней.<sup>1</sup>
                         <div class='space'></div>
                         У них бы&shyло трое де&shyтей: <span style='font-weight:bold;'>Камол</span> (г.р. 1928),
                         <span style='font-weight:bold;'>Холида</span> (г.р. ?) и
                         <span style='font-weight:bold;'>Лютфия</span> (г.р. 1934).
-                        Де&shyти пош&shyли по сто&shyпам Ай&shyни, сде&shyлав ака&shyде&shyми&shyчес&shyкие карь&shyеры в сфе&shyрах востоковедения,
-                        фи&shyло&shyлогии и ис&shyто&shyрии искусства Цен&shyтраль&shyной Азии, соответственно.<sup>7</sup>
+                        Де&shyти пош&shyли по сто&shyпам Ай&shyни, сде&shyлав ака&shyде&shyми&shyчес&shyкие карь&shyеры в сфе&shyрах 
+                        вос&shyто&shyко&shyве&shyде&shyния,
+                        фи&shyло&shyло&shyгии и ис&shyто&shyрии искусства Цен&shyтраль&shyной Азии, соответственно.<sup>7</sup>
                         <div class='space'></div>
-                        На се&shyгодняш&shyний день внук Ай&shyни, <span style='font-weight:bold;'>Ирадж Айни</span>, 
+                        На се&shyгод&shyняш&shyний день внук Ай&shyни, <span style='font-weight:bold;'>Ирадж Айни</span>, 
                         про&shyжи&shyва&shyет в Ду&shyшан&shyбе со сво&shyей семь&shyей, и про&shyдол&shyжа&shyет наследие 
-                        сво&shyе&shyго де&shyда че&shyрез Фонд Садриддина Айни<sup>8</sup>`
+                        сво&shyе&shyго де&shyда че&shyрез Фонд Сад&shyрид&shyди&shyна Ай&shyни.<sup>8</sup>`
                 },
                 tj: {
                     year: '1920',
