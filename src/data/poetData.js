@@ -41,17 +41,19 @@ module.exports.poets = [
                 ru: {
                     year: '15 апреля 1878 г.',
                     slides: {img: '/poetImages/ayni/soktare.png', text: `Дом, где прошло детство Садриддина Айни в Соктаре<sup>4</sup>`},
-                    desc: `Садриддин Саидмуродзода родился в семье <span style='font-weight: bold;'>Саид&shyму&shyрод&shyходжи</span>
-                        и <span style='font-weight: bold;'>Зеварой</span> в селе Соктаре Гиж&shyду&shyванского района Бухарского эми&shyра&shyта.<sup>1</sup> 
-                        Вы&shyрос&shyший в семье крестьян, он провел боль&shyшую часть своих ранних лет среди крестьян и мест&shyных ре&shyмес&shyленников. 
-                        Имен&shyно в этом спло&shyченном со&shyоб&shyществе он зна&shyко&shyмит&shyся с миром народной ли&shyте&shyра&shyту&shyры, вклю&shyча&shyю&shyщей сказки, 
-                        ле&shyгенды, песни, анек&shyдоты и пословицы.<sup>2</sup>
+                    desc: `Садриддин Саидмуродзода ро&shyдил&shyся в семье <span style='font-weight: bold;'>Саид&shyму&shyрод&shyходжи</span>
+                        и <span style='font-weight: bold;'>Зеварой</span> в се&shyле Сок&shyта&shyре Гиж&shyду&shyванско&shyго рай&shyо&shyна 
+                        Бу&shyхар&shyско&shyго эми&shyра&shyта.<sup>1</sup> 
+                        Посколь&shyку он был вы&shyход&shyцем из кресть&shyян&shyской семьи, он про&shyвел боль&shyшую часть сво&shyих ран&shyних 
+                        лет сре&shyди кресть&shyян и мест&shyных ре&shyмес&shyлен&shyни&shyков. 
+                        Имен&shyно в этом спло&shyчен&shyном со&shyоб&shyщест&shyве он зна&shyко&shyмит&shyся с ми&shyром на&shyрод&shyной 
+                        ли&shyте&shyра&shyту&shyры, вклю&shyча&shyю&shyщей сказ&shyки, ле&shyген&shyды, пес&shyни, анек&shyдо&shyты и посло&shyви&shyцы.<sup>2</sup>
                         <div class='space'></div>
                         В школьные годы, как описано в его книге «Ста&shyрая шко&shyла», он не по&shyлучил особой поль&shyзы от фор&shyмального образования.
                         Од&shyна&shyко он по&shyзна&shyко&shyмил&shyся с поэзией таких вы&shyда&shyю&shyщих&shyся мас&shyтеров, как Саади, Ха&shyфиз, Саиб, Бедиль и дру&shyгих.
                         <div class='space'></div>
-                        Его отец, несмотря на то, что был скромным крестьянином, имел глу&shyбокую любовь к об&shyра&shyзо&shyва&shyнию и 
-                        литературе, которую он пе&shyре&shyдал своим детям.<sup>2,3</sup>`
+                        Его отец, не&shyсмот&shyря на то, что был скром&shyным зем&shyле&shyдель&shyцем, имел глу&shyбо&shyкую лю&shyбовь к об&shyра&shyзо&shyва&shyнию и 
+                        ли&shyте&shyра&shyту&shyре, ко&shyто&shyрую он пе&shyре&shyдал сво&shyим де&shyтям.<sup>2,3</sup>`
                 },
                 tj: {
                         year: '15 апрели 1878',
@@ -140,28 +142,27 @@ module.exports.poets = [
                         desc: `Опус&shyто&shyши&shyтель&shyная эпи&shyде&shyмия хо&shyле&shyры ох&shyва&shyти&shyла Бу&shyха&shyру и ее окре&shyстные 
                             рай&shyо&shyны, раз&shyлу&shyчив Ай&shyни с от&shyцом и ма&shyтерью за со&shyрок дней. В воз&shyрас&shyте 12 лет ему 
                             при&shyш&shyлось при&shyнять под опе&shyку двух млад&shyших брать&shyев. Не&shyсмот&shyря на эти труд&shyнос&shyти, 
-                            меч&shyта Ай&shyни об уче&shyбе и по&shyэ&shyзии при&shyве&shyла его в Бу&shyха&shyру.<sup>2</sup>`
+                            меч&shyта Ай&shyни об уче&shyбе и по&shyэ&shyзии при&shyво&shyдит его в Бу&shyха&shyру.<sup>2</sup>`
                     },
                     {
                         year: '1890',
                         image: '/poetImages/ayni/slides/ayni2.jpeg',
-                        desc: `Он по&shyсту&shyпа&shyет в мед&shyре&shyсе Мир-и Араб и вмес&shyте со сво&shyим бра&shyтом орен&shyду&shyет там «худж&shyру» - 
+                        desc: `Он по&shyсту&shyпа&shyет в мед&shyре&shyсе Мир-и Араб и вмес&shyте со сво&shyим бра&shyтом сни&shyма&shyет там «худж&shyру» - 
                             ком&shyна&shyту. Од&shyна&shyко для эко&shyно&shyми&shyчес&shyки обез&shyдо&shyлен&shyных лю&shyдей, как он, дос&shyтуп к 
                             об&shyра&shyзо&shyва&shyнию в мед&shyре&shyсах Бу&shyха&shyры был до&shyволь&shyно труд&shyным. Что&shyбы за&shyпла&shyтить за 
                             свою ком&shyна&shyту, ко&shyто&shyрая долж&shyна бы&shyла быть бес&shyплат&shyной,<sup>5</sup> и ежеднев&shyных рас&shyхо&shyдов, 
-                            он был вы&shyнуж&shyден подра&shyба&shyты&shyвать убор&shyщи&shyком, по&shyва&shyром, ра&shyбо&shyтать в пра&shyчеч&shyной и 
-                            мно&shyгим дру&shyгим.<sup>2</sup>`
+                            ему при&shyхо&shyди&shyлось подра&shyба&shyты&shyвать то убор&shyщи&shyком, то по&shyва&shyром, иног&shyда прач&shyкой или 
+                            чер&shyно&shyра&shyбо&shyчим.<sup>2</sup>`
                     },
                     {
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
-                        desc: `Во вре&shyмя сво&shyей уче&shyбы в мед&shyре&shyсе он по&shyзна&shyко&shyмит&shyся с людь&shyми с боль&shyшой люб&shyви к 
-                            по&shyэ&shyзии и ли&shyте&shyра&shyту&shyре, бла&shyго&shyдаря сво&shyе&shyму зна&shyком&shyству с Ша&shyриф&shyджо&shyном-мах&shyду&shyмом. 
-                            Он на&shyпи&shyсал свои 
-                            пер&shyвые сти&shyхи под псев&shyдо&shyни&shyма&shyми «Мух&shyто&shyджи», «Джу&shyну&shyни» и «Сиф&shyли».
+                        desc: `Во вре&shyмя сво&shyей уче&shyбы в мед&shyре&shyсе он по&shyзна&shyко&shyмит&shyся с людь&shyми, ин&shyте&shyре&shyсу&shyю&shyщи&shyми&shyся
+                            по&shyэ&shyзией и ли&shyте&shyра&shyту&shyрой, бла&shyго&shyдаря зна&shyком&shyству с Ша&shyриф&shyджо&shyном-мах&shyду&shyмом. 
+                            Свои пер&shyвые сти&shyхи он на&shyпи&shyсал под псев&shyдо&shyни&shyма&shyми «Мух&shyто&shyджи», «Джу&shyну&shyни» и «Сиф&shyли».
                             <div class='space'></div>
-                            Од&shyна&shyко в 1896 го&shyду он бе&shyрет псев&shyдо&shyним «Ай&shyни» и под этим име&shyнем по&shyлу&shyча&shyет 
-                            ли&shyте&shyра&shyтур&shyное из&shyвес&shyтность.<sup>2</sup>`,
+                            Од&shyна&shyко в 1896 го&shyду он взял псев&shyдо&shyним «Ай&shyни» и под этим име&shyнем по&shyлу&shyчил
+                            ли&shyте&shyра&shyтур&shyную из&shyвес&shyтность.<sup>2</sup>`,
                     },
                     {
                         year: '1897-1898',
@@ -180,20 +181,21 @@ module.exports.poets = [
                         image: '/poetImages/ayni/slides/ayni5.jpeg',
                         desc: `Вмес&shyте с че&shyтырь&shyмя сво&shyи&shyми близ&shyки&shyми друзь&shyя&shyми он от&shyкры&shyва&shyет пер&shyвую 
                             но&shyво&shyме&shyтод&shyную шко&shyлу (т.е. джа&shyдид&shyскую) в Бу&shyха&shyре.
-                            Шко&shyлу откры&shyва&shyют в до&shyме Мир&shyза Аб&shyдул&shyва&shyхи&shyда Мун&shyзи&shyма на ули&shyце Са&shyлох&shyхо&shyна, 
+                            Шко&shyлу откры&shyва&shyют в до&shyме Мир&shyзы Аб&shyдул&shyва&shyхи&shyда Мун&shyзи&shyма на ули&shyце Са&shyлох&shyхо&shyна, 
                             и на&shyчи&shyна&shyют пре&shyпо&shyдо&shyвать мест&shyным бу&shyхар&shyским уче&shyни&shyкам на пер&shyсид&shyском язы&shyке.<sup>5</sup>`,
                     },
                     {
                         year: '1909',
                         image: '/poetImages/ayni/slides/ayni6.jpeg',
-                        desc: `For the school's curriculum, he authored his in&shyi&shytial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
-                            proper recitation of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
-                            and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essentials").<sup>5</sup>`
+                        desc: `Он на&shyпи&shyсал свои пер&shyвые тру&shyды: «ترتيل القرآن» («Тар&shyтил-уль-Ко&shyран» — пра&shyви&shyла пра&shyвиль&shyно&shyго 
+                            чте&shyния Ко&shyра&shyна), «تهذيب الصبيان» («Тах&shyзиб-ус-сибь&shyян» — «Вос&shyпи&shyта&shyние маль&shyчи&shyков/де&shyтей») 
+                            и «تحريب دينيه» («За­&shyру&shy­ри&shy­я&shy­ти ди&shyния» — «Ос&shyно&shyвы ре&shyли&shyгии») в рам&shyках учеб&shyной про&shyграм&shyмы 
+                            но&shyво&shyме&shyто&shyдис&shyтской шко&shyлы.<sup>5</sup>`
                     },
                     {
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
-                        desc: `Он стал од&shyним из пер&shyвых чле&shyнов «Джа&shyвон&shyбу&shyхо&shyри&shyён – «جوانبخاراییان»/«Ёш бу&shyхо&shyро&shyлик&shyлар» – 
+                        desc: `Он стал од&shyним из пер&shyвых чле&shyнов «Джа&shyвон&shyбу&shyхо&shyри&shyён — «جوانبخاراییان»/«Ёш бу&shyхо&shyро&shyлик&shyлар» — 
                             «Мла&shyдо&shyбу&shyхар&shyцы», тай&shyно&shyго об&shyщест&shyва, сфор&shyми&shyро&shyван&shyно&shyго на ос&shyно&shyве 
                             джа&shyдидско&shyго дви&shyже&shyния. Джа&shyди&shyды высту&shyпа&shyли за ре&shyфор&shyмы и мо&shyдер&shyни&shyза&shyцию 
                             Централь&shyной Азии.<sup>5</sup>`,
@@ -211,50 +213,51 @@ module.exports.poets = [
                     {
                         year: '1890',
                         image: '/poetImages/ayni/slides/ayni2.jpeg',
-                        desc: `Ӯ таҳсилашро дар мадрасаи Мири Араб оғоз мекунад ва дар он ҷо бо бародараш як ҳуҷ&shyра&shyе&shyро иҷора мегирад. 
-                        Вале ба мадрасаҳои Бухоро дохил шудан ва дониш гирифтан барои Айнӣ барин камбағалони илмҷӯ хеле мушкил буд.
-                        Барои ёфтани пули ҳуҷра, ки бояд бепул мешуданд<sup>5</sup> ва рӯз&shyго&shyраш, маҷбур шуд гоҳ ҳамчун фарроши мадраса, 
-                        гоҳ ош&shyпаз, гоҳ ҷомашӯй ва ё мардикор шуда кор ку&shyнад.<sup>2</sup>`
+                        desc: `Ӯ таҳ&shyси&shyлаш&shyро дар мад&shyра&shyсаи Ми&shyри Араб оғоз ме&shyку&shyнад ва дар он ҷо бо ба&shyро&shyда&shyраш як ҳуҷ&shyра&shyе&shyро 
+                            иҷо&shyра ме&shyги&shyрад. Вале ба мад&shyра&shyса&shyҳои Бу&shyхо&shyро до&shyхил шу&shyдан ва до&shyниш ги&shyриф&shyтан ба&shyрои Ай&shyнӣ ба&shyрин 
+                            кам&shyба&shyға&shyло&shyни илм&shyҷӯ хе&shyле муш&shyкил буд.
+                            Ба&shyрои ёф&shyта&shyни пу&shyли ҳуҷ&shyра, ки бо&shyяд бе&shyпул ме&shyшу&shyданд<sup>5</sup> ва рӯз&shyго&shyраш, маҷ&shyбур шуд гоҳ ҳам&shyчун 
+                            фар&shyро&shyши мад&shyра&shyса, гоҳ ош&shyпаз, гоҳ ҷо&shyма&shyшӯй ва ё мар&shyди&shyкор шу&shyда кор ку&shyнад.<sup>2</sup>`
                     },
                     {
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
-                        desc: `Дар вақти мадрасахониаш бо одамоне, ки ба шеъру адаб ишқ доштанду шоирӣ ме&shyкар&shyданд ба сабаби наздикиаш
-                        бо Ша&shyриф&shyҷон-мах&shyдум шинос ва ҳолдон мешавад. Вай шеър&shyҳои аввалини худро бо тахаллусҳои «Мӯҳтоҷӣ», «Ҷунунӣ» ва «Сиф&shyлӣ»
-                        эъҷод ме&shyку&shyнад.
+                        desc: `Дар вақ&shyти мад&shyра&shyса&shyхо&shyни&shyаш бо ода&shyмо&shyне, ки ба шеъ&shyру адаб ишқ дош&shyтан&shyду шо&shyи&shyрӣ ме&shyкар&shyданд, 
+                        ба са&shyба&shyби наз&shyди&shyки&shyаш бо Ша&shyриф&shyҷон-мах&shyдум, ши&shyнос ме&shша&shyвад. Вай шеър&shyҳои ав&shyва&shyли&shyни худ&shyро бо 
+                        та&shyхал&shyлус&shyҳои «Мӯҳ&shyто&shyҷӣ», «Ҷу&shyну&shyнӣ» ва «Сиф&shyлӣ» эъ&shyҷод ме&shyку&shyнад.
                         <div class='space'></div>
-                        Аммо соли 1896 тахаллуси «Айнӣ»-ро ги&shyриф&shyта бо ин ном шӯҳрати адабӣ пайдо кард.<sup>2</sup>`,
+                        Ам&shyмо со&shyли 1896 та&shyхал&shyлу&shyси «Ай&shyнӣ»-ро ги&shyриф&shyта бо ин ном шӯҳ&shyра&shyти ада&shyбӣ пай&shyдо кард.<sup>2</sup>`,
                     },
                     {
                         year: '1897-1898',
                         image: '/poetImages/ayni/slides/ayni4.jpeg',
-                        desc: `Қозӣ Мирзо Муҳаммадшарифи Садр (Садри Зиё) таҳрири пеш аз чоп шудани «Наводир ул-вақоеъ»-и 
-                        Аҳмади Донишро ба Айнӣ ва шарикдарсаш Абдувоҳиди Мунзим ме&shyсу&shyпо&shyрад.
-                        <div class='space'></div>
-                        Дар ин китоб, Дониш дарсҳои бефоидаи мадрасаҳо ва рафтори худхоҳонаи ғай&shyри&shyша&shyри&shyа&shyтии уламои Бухороро 
-                        ошкоро танқид кардааст. Пас аз хондани он, назари Айнӣ ба атрофиёнаш дигар мешавад ва 
-                        оиди ислоҳи ин беадолатиҳо дар аморати Бухоро андеша карданро оғоз мекунад.<sup>5</sup>`,
+                        desc: `Қо&shyзӣ Мир&shyзо Му&shyҳам&shyмад&shyша&shyри&shyфи Садр (Сад&shyри Зиё) таҳ&shyри&shyри пеш аз чоп шу&shyда&shyни «Наводир ул-вақоеъ»-и 
+                            Аҳ&shyма&shyди До&shyниш&shyро ба Ай&shyнӣ ва ша&shyрик&shyдар&shyсаш Аб&shyду&shyво&shyҳи&shyди Мун&shyзим ме&shyсу&shyпо&shyрад.
+                            <div class='space'></div>
+                            Дар ин ки&shyтоб, До&shyниш дарс&shyҳои бе&shyфо&shyи&shyдаи мад&shyра&shyса&shyҳо ва раф&shyто&shyри худ&shyхо&shyҳо&shyнаи 
+                            ғай&shyри&shyша&shyри&shyа&shyтии ула&shyмои Бу&shyхо&shyро&shyро ош&shyко&shyро тан&shyқид кар&shyда&shyаст. Пас аз хон&shyда&shyни он, 
+                            на&shyза&shyри Ай&shyнӣ ба ат&shyро&shyфи&shyё&shyнаш ди&shyгар ме&shyша&shyвад ва ои&shyди ис&shyло&shyҳи ин бе&shyа&shyдо&shyла&shyти&shyҳо 
+                            дар амо&shyра&shyти Бу&shyхо&shyро ан&shyде&shyша кар&shyдан&shyро оғоз ме&shyку&shyнад.<sup>5</sup>`,
                     },
                     {
                         year: '1908',
                         image: '/poetImages/ayni/slides/ayni5.jpeg',
                         desc: `Як&shyҷоя бо чор дӯс&shyти наз&shyди&shyкаш ав&shyва&shyлин мак&shyта&shyби усу&shyли нав (ҷа&shyди&shyда)-ро дар Бу&shyхо&shyро ме&shyку&shyшо&shyяд.
                             Мак&shyтаб дар ҳав&shyлии Мир&shyзо Аб&shyдул&shyво&shyҳид Мун&shyзим дар гу&shyза&shyри Са&shyлох&shyхо&shyна ҷой&shyгир ме&shyша&shyвад 
-                            ва бо за&shyбо&shyни фор&shyсӣ, 
-                            ба мар&shyду&shyми ма&shyҳал&shyлии бу&shyхо&shyроӣ дарс&shyди&shyҳи&shyро сар ме&shyку&shyнад.<sup>5</sup>`,
+                            ва бо за&shyбо&shyни фор&shyсӣ, ба мар&shyду&shyми ма&shyҳал&shyлии бу&shyхо&shyроӣ дарс&shyди&shyҳи&shyро сар ме&shyку&shyнад.<sup>5</sup>`,
                     },
                     {
                         year: '1909',
                         image: '/poetImages/ayni/slides/ayni6.jpeg',
-                        desc: `Ӯ асарҳои аввалини худ, «ترتیل القرآن» («Тар&shyтил-ул-Қуръон» – қо&shyи&shyда&shyҳои
-                            қи&shyро&shyа&shyти ду&shyрус&shyти Қуръ&shyон), «تهذیب الصبیان» («Таҳ&shyзиб-ус-сиб&shyён» – «Тарбияи писарон/фарзандон»)
-                            ва «ضروريات دینیه» («За&shyру&shyри&shyя&shyти диния» – «Асосҳои динӣ»)-ро ҳам&shyчун як қис&shyми бар&shyно&shyмаи 
+                        desc: `Ӯ асар&shyҳои ав&shyва&shyли&shyни худ, «ترتیل القرآن» («Тар&shyтил-ул-Қуръон» — қо&shyи&shyда&shyҳои
+                            қи&shyро&shyа&shyти ду&shyрус&shyти Қуръ&shyон), «تهذیب الصبیان» («Таҳ&shyзиб-ус-сиб&shyён» — «Тар&shyби&shyяи пи&shyса&shyрон/фар&shyзан&shyдон»)
+                            ва «ضروريات دینیه» («За&shyру&shyри&shyя&shyти диния» — «Асос&shyҳои ди&shyнӣ»)-ро ҳам&shyчун як қис&shyми бар&shyно&shyмаи 
                             таъ&shyли&shyмии мак&shyта&shyби усу&shyли нав ме&shyна&shyви&shyсад.<sup>5</sup>`
                     },
                     {
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
-                        desc: `Адиб яке аз ав&shyва&shyлин аъ&shyзо&shyё&shyни ҷамъ&shyи&shyя&shyти «Ҷа&shyвон&shyбу&shyхо&shyри&shyён» – «جوان‌بخاراییان»/«Yosh bu&shyxo&shyro&shylik&shylar» 
+                        desc: `Адиб яке аз ав&shyва&shyлин аъ&shyзо&shyё&shyни ҷамъ&shyи&shyя&shyти «Ҷа&shyвон&shyбу&shyхо&shyри&shyён» — «جوان‌بخاراییان»/«Yosh bu&shyxo&shyro&shylik&shylar» 
                             ме&shyша&shyвад. Ин ҷамъ&shyи&shyя&shyти мах&shyфӣ, бах&shyше аз ҳа&shyра&shyка&shyти ҷа&shyди&shyдӣ бу&shyда, ҷо&shyниб&shyдо&shyри ис&shyло&shyҳот ва нав&shyсо&shyзии 
                             Оси&shyёи Мар&shyка&shyзӣ буд.<sup>5</sup>`,
                     }
@@ -289,26 +292,31 @@ module.exports.poets = [
                 },
                 ru: {
                     quote: `... хоть нам и жаль, что мы провели жизнь в неведении, ... теперь наша совесть не позволяет нам сказать: «мне-то что?»<sup>5</sup>`,
-                    desc: `Окон&shyчив мед&shyресе, Айни продолжает по&shyмо&shyгать джа&shyдидскому дви&shyже&shyнию, 
-                    сопротив&shyля&shyясь старым обычаям, так глубоко уко&shyре&shyнив&shyшим&shyся среди бу&shyхар&shyского духовенства.
-                    Однако его «добрые дела» были встречены неодобрением со стороны эмира,
-                    что при&shyве&shyло к его тю&shyрем&shyно&shyму заключению и са&shyмо&shyму суровому приговору того времени -
+                    desc: `Окон&shyчив мед&shyре&shyсе, Ай&shyни про&shyдол&shyжа&shyет по&shyмо&shyгать джа&shyдид&shyско&shyму дви&shyже&shyнию, 
+                    сопротив&shyля&shyясь ста&shyро&shyму укла&shyду об&shyщес&shyтва, так глу&shyбо&shyко уко&shyре&shyнив&shyшим&shyся сре&shyди 
+                    бу&shyхар&shyско&shyго ду&shyхо&shyвен&shyства.
+                    Од&shyна&shyко эми&shyру не пон&shyра&shyвил&shyся его ре&shyфор&shyмизм, что при&shyве&shyло к его тю&shyрем&shyно&shyму 
+                    за&shyклю&shyче&shyнию и са&shyмо&shyму су&shyро&shyво&shyму на&shyка&shyза&shyнию то&shyго вре&shyме&shyни —
                     <span style='font-weight:bold;'>75 уда&shyров плетью</span>.
-                    <div class='space'></div>В конце концов, его освобождают русские
-                    Ре&shyво&shyлю&shyци&shyон&shyные силы по прозьбе мла&shyдо&shyбу&shyхарцев. После
-                    <span style='font-weight:bold;'>52 дня</span> в больнице
-                    и <span style='font-weight:bold;'>25 опе&shyра&shyций</span>, он навсегда пе&shyре&shyежает в Са&shyмар&shyканд.
-                    Там он посвящает себя ре&shyво&shyлю&shyци&shyон&shyно&shyму делу, пользуясь
-                    силой своего пера, пишет политические статьи и
-                    прямо призывает соотечественников восстать против эмира.
-                    <br>По&shyсколь&shyку Айни был известным джадидом,
-                    амир ложно обвиняет его младшего брата,
-                    <span style='font-weight:bold;'>Си&shyро&shyджид&shyдина</span>, об измене
-                    и жестоко казнит его че&shyрез удушье. Айни направил свое
-                    горе в свое ли&shyте&shyра&shyтур&shyное про&shyиз&shyве&shyдение «Марсия».
-                    <div class='space'></div>В 1922 году басмачи убивают старшего брата Айни –
-                    <span style='font-weight:bold;'>Мухиддинходжа</span> и похищают его сына.<sup>1</sup>
-                    <div class='space'></div>Эти мучительные потери только укрепили по&shyзи&shyции Айни.
+                    <div class='space'></div>Его ос&shyво&shyбож&shyда&shyют рус&shyские ре&shyво&shyлю&shyци&shyон&shyные си&shyлы по 
+                    прозь&shyбе мла&shyдо&shyбу&shyхар&shyцев. Пос&shyле <span style='font-weight:bold;'>52 дней</span> в боль&shyни&shyце
+                    и <span style='font-weight:bold;'>25 опе&shyра&shyций</span>, он навсег&shyда пе&shyре&shyежа&shyет в Са&shyмар&shyканд.
+                    Там он по&shyсвя&shyща&shyет се&shyбя ре&shyво&shyлю&shyци&shyон&shyно&shyму де&shyлу, пи&shyшет по&shyли&shyти&shyчес&shyкие 
+                    статьи и пря&shyмо при&shyзы&shyва&shyет со&shyотечествен&shyни&shyков вос&shyстать про&shyтив эми&shyра.
+                    <br>Пос&shyле не&shyу&shyдач&shyно&shyго Ко&shyле&shyсов&shyско&shyго по&shyхо&shyда, целью ко&shyто&shyро&shyго 
+                    бы&shyло свер&shyже&shyние эми&shyра, эмир прев&shyра&shyща&shyет Бу&shyха&shyру в
+                    «бой&shyню». В этом ха&shyо&shyсе его млад&shyше&shyго бра&shyта, <span style='font-weight:bold;'>Си&shyро&shyджид&shyдина</span>, 
+                    лож&shyно об&shyви&shyня&shyют в джа&shyди&shyдиз&shyме, и жес&shyто&shyко уби&shyва&shyют удушь&shyем в тюрь&shyме.
+                    По этому случаю Айни написал свое душераздирающее литературное произведение 
+                    <div class='tooltip'>«Мар&shyсия»
+                        <div class='tooltiptext'>
+                            Жанр поэзии в таджикско-персидской литературе, читаемый во время траура
+                        </div>
+                    </div>.
+                    <div class='space'></div>В 1922 году басмачи убивают старшего брата Айни —
+                    <span style='font-weight:bold;'>Мухиддинходжу</span>, похищают его сына и увозят в Нуратинские горы.<sup>1</sup>
+                    <div class='space'></div>
+                    Эти мучительные потери только укрепили по&shyзи&shyции Айни.
                     решимость, оттачивая свое перо и уси&shyли&shyвая свою решимость руководить страной
                     к ос&shyво&shyбождению от таких кровожадных правителей.`,
                 },
@@ -342,7 +350,7 @@ module.exports.poets = [
                         </div>
                     </div>-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
                     <div class='space'></div>
-                    Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ – 
+                    Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ — 
                     <span style='font-weight: bold;'>Му&shyҳид&shyдин&shyхо&shyҷа&shyро</span> 
                     қатл кар&shyда, пи&shyса&shyраш&shyро дуз&shyди&shyда ба кӯҳ&shyҳои Ну&shyра&shyто ме&shyба&shyранд.<sup>1</sup>
                     <div class='space'></div>
@@ -470,7 +478,7 @@ module.exports.poets = [
             seven: {
                 us: {
                     desc: 'His life is ... the story of our nation',
-                    author: '– Mirzo Tursunzoda<sup>10</sup>',
+                    author: '— Mirzo Tursunzoda<sup>10</sup>',
                     slides: [
                         {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Mausoleum of Sadriddin Ayni (1954 - 2017), Dushanbe, Tajikistan<sup>11</sup>'},
                         {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Sadriddin Ayni monument in Rudaki Avenue, Dushanbe, Tajikistan<sup>12</sup>'},
@@ -486,8 +494,8 @@ module.exports.poets = [
                     ]
                 },
                 ru: {
-                    desc: 'Его жизнь – это... история нашего народа',
-                    author: '– Мирзо Турсун-заде<sup>10</sup>',
+                    desc: 'Его жизнь — это... история нашего народа',
+                    author: '— Мирзо Турсун-заде<sup>10</sup>',
                     slides: [
                         {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Мавзолей Садриддина Айни (1954 – 2017 гг.), Душанбе, Таджикистан<sup>11</sup>'},
                         {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Памятник Садриддину Айни на проспекте Рудаки, Душанбе, Таджикистан<sup>12</sup>'},
@@ -504,7 +512,7 @@ module.exports.poets = [
                 },
                 tj: {
                     desc: 'Зиндагии ӯ ... саргузашти миллати мост',
-                    author: '– Мирзо Турсунзода<sup>10</sup>',
+                    author: '— Мирзо Турсунзода<sup>10</sup>',
                     slides: [
                         {img: '/poetImages/ayni/memory/ayni1.jpeg', text: 'Мақбараи Садриддин Айнӣ (1954 - 2017), Душанбе, Тоҷикистон<sup>11</sup>'},
                         {img: '/poetImages/ayni/memory/ayni2.jpeg', text: 'Ҳайкали Садриддин Айнӣ дар хиёбони Рӯдакӣ, Душанбе, Тоҷикистон<sup>12</sup>'},
