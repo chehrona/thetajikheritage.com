@@ -6,66 +6,7 @@
   
 .tooltip .tooltiptext {
     visibility: hidden;
-    background-color: #70654a;
-    color: #fcf6e9;
-    border-radius: 0.4rem;
     position: absolute;
-    z-index: 20;
-    bottom: 110%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.3s;
-    padding: 0.5rem 1rem;
-    font-weight: normal;
-    width: 20rem;
-}
-
-.tooltip::before {
-    opacity: 0;
-    content: "";
-    bottom: 60%;
-    left: 50%;
-    visibility: hidden;
-    position: absolute;
-    margin-left: -0.5rem;
-    border-width: 0.5rem;
-    border-style: solid;
-    transition: opacity 0.3s;
-    border-color: #70654a transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}
-
-.tooltip:hover::before {
-    visibility: visible;
-    opacity: 1;
-}
-
-.tooltip.modified::before {
-    border-color: transparent transparent transparent transparent;
-}
-
-.tooltip.modified::after {
-    opacity: 0;
-    content: "";
-    top: 100%;
-    left: 50%;
-    visibility: hidden;
-    position: absolute;
-    margin-left: -0.5rem;
-    border-width: 0.5rem;
-    border-style: solid;
-    transition: opacity 0.3s;
-    border-color: transparent transparent #70654a transparent;
-}
-
-.tooltip.modified:hover::after {
-    visibility: visible;
-    opacity: 1;
 }
 
 sup, sub {

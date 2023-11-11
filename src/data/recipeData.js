@@ -34,7 +34,11 @@ module.exports.recipes = [
                 ingredients are added to en&shyhance its flavor and texture. 
                 These may in&shyclude pieces of flatbread (usually stale bread is repurposed), butter or ghee, dried apple slices, mulberry, almond leaves, walnuts, and rose hip flowers.<sup>2,4</sup>
                 Shirchoy can incorporate un&shycon&shyven&shytional ingredients for milk-based meals, in&shyclud&shying small amounts of pepper (seasoning), 
-                <div class="tooltip">raw onion slices<div class="tooltiptext">Only in Samarkand</div></div>
+                <div class="tooltip">raw onion slices
+                    <div class="tooltiptext">
+                        Only in Samarkand
+                    </div>
+                </div>
                 or even mel&shyted <div class="tooltip">sheep tail fat
                 <div class="tooltiptext">Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</div></div>.<sup>2</sup>
                 Also, shirchoy is occasionally known by dif&shyfer&shyent names that highlight additional in&shygre&shydi&shyents beyond tea and milk. 

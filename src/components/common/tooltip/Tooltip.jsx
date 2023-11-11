@@ -1,31 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+
+import { Popper } from "@mui/material";
 
 import {
-    MainContainer
+    StyledContainer
 } from "./tooltipStyles";
 
-export default function Tooltip({ targetClassName, text }) {
-    const [isVisible, setIsVisible] = useState(false);
-  
+export default function Tooltip({ anchor, text, tooltipRef, showBottom }) {
+    const [open, setOpen] = useState(0);
+
+    useEffect(() => {
+        if (anchor) {
+            anchor.addEventListener("mouseenter", handleMouseEnter);
+            anchor.addEventListener("mouseleave", handleMouseLeave);
+    
+            return () => {
+                anchor.removeEventListener("mouseenter", handleMouseEnter);
+                anchor.removeEventListener("mouseleave", handleMouseLeave);
+            };
+        }
+    }, [anchor]);
+
     const handleMouseEnter = () => {
-        setIsVisible(true);
+        setOpen(1);
     };
-  
+    
     const handleMouseLeave = () => {
-        setIsVisible(false);
+        setOpen(0);
     };
-  
-    const element = document.querySelector(`.${targetClassName}`);
-        element?.addEventListener('mouseenter', handleMouseEnter);
-        element?.addEventListener('mouseleave', handleMouseLeave);
-  
+    
     return (
-        <>
-            {isVisible && (
-                <MainContainer>
-                    {text}
-                </MainContainer>
-            )}
-        </>
+        <Popper
+            open={open}
+            anchorEl={anchor}
+            placement="top"
+        >
+            <StyledContainer ref={tooltipRef} showBottom={showBottom}>{text}</StyledContainer>
+        </Popper>
     );
-  };
+};

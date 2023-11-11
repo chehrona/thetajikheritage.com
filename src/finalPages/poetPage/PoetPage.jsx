@@ -18,7 +18,6 @@ import PoetMovies from "../../components/poet/poetMovies/PoetMovies";
 import Sources from "../../components/common/sources/Sources";
 import PoetCareer from "../../components/poet/poetCareer/PoetCareer";
 import SectionOptions from "../../components/poet/sectionOptions/SectionOptions";
-import Tooltip from "../../components/common/tooltip/Tooltip";
 
 export default function PoetPage() {
     const { id } = useParams();
@@ -38,29 +37,26 @@ export default function PoetPage() {
         }
     };
 
-    if (poet) {
-        return (
-            <PageContainer>
-                <Tooltip text={"Hello dufus"} />
-                <PoetContainer>
-                    <PoetIntro poet={poet} scrollToView={scrollToView} />
-                    {isMobile && <SectionOptions poet={poet} scrollToView={scrollToView} />}
-                    <PoetBio poet={poet} />
-                    <PoetWorks poet={poet.works} />
-                    <PoetMovies poet={poet.movies} />
-                    <PoetCareer points={poet.career} />
-                    <PoetAwards poet={poet.awards} />
-                    <RefContainer>
-                        <Sources
-                            data={poet}
-                            line={'#504221d1'}
-                            color={'#dedbdb'}
-                            title={'#fcf6e9'}
-                            background={'#0F0A00'}
-                        />
-                    </RefContainer>
-                </PoetContainer>
-            </PageContainer>
-        )
-    }
+    return (
+        <PageContainer>
+            <PoetContainer>
+                <PoetIntro poet={poet} scrollToView={scrollToView} />
+                {isMobile && <SectionOptions poet={poet} scrollToView={scrollToView} />}
+                <PoetBio poet={poet} />
+                <PoetWorks poet={poet.works} />
+                <PoetMovies poet={poet.movies} />
+                <PoetCareer points={poet.career} />
+                <PoetAwards poet={poet.awards} />
+                <RefContainer>
+                    <Sources
+                        data={poet}
+                        line={'#504221d1'}
+                        color={'#dedbdb'}
+                        title={'#fcf6e9'}
+                        background={'#0F0A00'}
+                    />
+                </RefContainer>
+            </PoetContainer>
+        </PageContainer>
+    );
 }

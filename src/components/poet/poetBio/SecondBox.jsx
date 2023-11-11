@@ -25,10 +25,7 @@ import {
 
 export default function SecondBox({ poet }) {
     const { lang } = useSetLang();
-    let newArr = [...poet?.two[lang]];
-    const lastItem = newArr.pop();
-    newArr.unshift(lastItem);
-    const [infoArr, setInfoArr] = useState([...newArr]);
+    const [infoArr, setInfoArr] = useState([...poet?.two[lang]]);
     const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
 
     useEffect(() => {
@@ -57,18 +54,18 @@ export default function SecondBox({ poet }) {
                 <Backdrop backdrop={poet?.backdrops[0]} />
             </InnerOverlay>
             <Slides>
-                <SlideImg src={infoArr[0].image} />
+                <SlideImg src={infoArr[poet?.two[lang].length - 1].image} />
                 <LineWrapper>
                     <SlideImg
-                        src={infoArr[isMobile ? 0 : 1]?.image}
+                        src={infoArr[0]?.image}
                         show={1}
                     />
                     <Info>
-                        <Year>{infoArr[isMobile ? 0 : 1]?.year}</Year>
-                        <Text dangerouslySetInnerHTML={{__html: infoArr[isMobile ? 0 : 1]?.desc}} />
+                        <Year>{infoArr[0]?.year}</Year>
+                        <Text dangerouslySetInnerHTML={{__html: infoArr[0]?.desc}} />
                     </Info>
                 </LineWrapper>
-                <SlideImg src={infoArr[2].image} />
+                <SlideImg src={infoArr[1].image} />
             </Slides>
             <NavBox>
                 <FillerOne />
@@ -77,7 +74,7 @@ export default function SecondBox({ poet }) {
                     <Line />
                     <StyledIconButton
                         onClick={moveUp}
-                        disabled={infoArr[1] === poet?.two[lang][0]}
+                        disabled={infoArr[0] === poet?.two[lang][0]}
                     >
                         <Arrow>
                             <ArrowForwardIos />
@@ -105,7 +102,7 @@ export default function SecondBox({ poet }) {
                 <StyledIconButton
                     bottom={1}
                     onClick={moveDown}
-                    disabled={infoArr[0] === poet?.two[lang][infoArr?.length - 1]}
+                    disabled={infoArr[1] === poet?.two[lang][poet?.two[lang].length - 1]}
                 >
                     <Arrow>
                         <ArrowForwardIos style={{marginLeft: '1px'}}/>

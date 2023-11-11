@@ -1,9 +1,10 @@
-import { useContext, createContext, useMemo, useState, useEffect } from 'react';
-import Header from "./components/common/header/Header";
+import { useContext, createContext, useMemo, useState, useEffect, useRef } from 'react';
+import Header from './components/common/header/Header';
 import Menu from './components/common/menu/Menu';
 import Footer from './components/common/footer/Footer';
 import AnimationRoutes from './components/common/animationRoutes/AnimationRoutes';
 import Flags from './components/common/flags/Flags';
+import Tooltip from './components/common/tooltip/Tooltip';
 
 const LangContext = createContext({
     lang: 'us',
@@ -20,7 +21,11 @@ export function useSetLang() {
 
 function App() {
     const [lang, setLang] = useState('us');
+    const tooltipRef = useRef(null);
     const [isPrint, setIsPrint] = useState(false);
+    const [anchor, setAnchor] = useState(null);
+    const [showBottom, setShowBottom] = useState(0);
+    const [tooltipText, setTooltipText] = useState(null);
     const [isMenuShown, setIsMenuShown] = useState(null);
 
     const value = useMemo(() => (
@@ -41,48 +46,43 @@ function App() {
 
     useEffect(() => {
         const tooltip = document.querySelector(".tooltip");
-        const tooltipText = document.querySelector(".tooltiptext");
+        const container = document.querySelector('.content-container');
 
         if (tooltip) {
-            const tooltipTextRect = tooltipText.getBoundingClientRect();
+            const tooltipText = document.querySelector(".tooltiptext");
+            const grandparentElement = tooltipText.parentElement.parentElement;
 
-            if (tooltipText) {
-                const grandparentElement = tooltipText.parentElement.parentElement;
-            
-                if (grandparentElement) {
-                    const grandparentBoundingBox = grandparentElement.getBoundingClientRect();
+            setTooltipText(tooltipText.innerHTML);
+            setAnchor(tooltip);
 
-                    if (tooltipTextRect.x < 0) {
-                        tooltipText.style.left = '0%';
-                        tooltipText.style.right = 'auto';
-                        tooltipText.style.transform = `translateX(0%)`;
-                    } else if ((tooltipTextRect.x + tooltipTextRect.width) > window.outerWidth) {
-                        tooltipText.style.right = '0%';
-                        tooltipText.style.left = 'auto';
-                        tooltipText.style.transform = `translateX(0%)`;
+            container.addEventListener('scroll', function() {
+                const topPosition = grandparentElement.getBoundingClientRect();
+
+                if (tooltipRef.current) {
+                    const tooltipPosition = tooltipRef.current.getBoundingClientRect();
+
+                    if (topPosition.y < 0 && topPosition.y < tooltipPosition.y - tooltipPosition.height) {
+                        setShowBottom(1);
+                    } else {
+                        setShowBottom(0);
                     }
 
-                    if (grandparentBoundingBox.y - (tooltipTextRect.y + tooltipTextRect.width) < 0) {
-                        tooltip.classList.add('modified');
-                        const computedStyle = window.getComputedStyle(tooltipText);
-                        const transformValue = computedStyle.getPropertyValue('transform');
-
-                        tooltipText.style.bottom = '0%';
-                        tooltipText.style.transform = `${transformValue} translateY(115%)`;
-                    }
                 }
-            }
+            });
         }
     }, [lang]);
 
     return (
         <LangContext.Provider value={value}>
-            <div className='content-container'>
-                {!isPrint && <Header />}
-                {!isPrint && <Flags />}
-                <Menu />
-                <AnimationRoutes />
-                {!isPrint && <Footer />}
+            <div className='fixed-container'>
+                <div className='content-container'>
+                    <Tooltip anchor={anchor} text={tooltipText} tooltipRef={tooltipRef} showBottom={showBottom} />
+                    {!isPrint && <Header />}
+                    {!isPrint && <Flags />}
+                    <Menu />
+                    <AnimationRoutes />
+                    {!isPrint && <Footer />}
+                </div>
             </div>
         </LangContext.Provider>
     );
