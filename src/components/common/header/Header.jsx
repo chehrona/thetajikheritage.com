@@ -1,5 +1,4 @@
 import React from "react";
-import { useSetLang } from "../../../App";
 
 import {
     HeaderContainer,
@@ -16,8 +15,7 @@ import {
     StyledLink
 } from "./headerStyles";
 
-export default function Header() {
-    const { isMenuShown, setIsMenuShown } = useSetLang();
+export default function Header({ setIsMenuShown, isMenuShown }) {
 
     function showMenu() {
         setIsMenuShown(prevState => !prevState);

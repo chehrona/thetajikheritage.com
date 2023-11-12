@@ -1,47 +1,25 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components/macro";
 import { Link } from "react-router-dom";
+import { Menu } from "@mui/material";
 
-const openAnimation = keyframes`
-    to {
-        transform: translateY(0%)
-    }
-`;
-
-const closeAnimation = keyframes`
-    from {
-        transform: translateY(0%)
-    }    
-    to {
-        transform: translateY(-100%);
-        z-index: -1;
-    }
-`;
-
-export const MenuContainer = styled.div`
-    width: 100%;
-    overflow: hidden;
-    color: #bd9d52;
-    display: flex;
-    align-items: center;
-    padding: 3rem;
-    justify-content: space-around;
-    background: rgb(51 51 51);
-    height: calc(100svh - 6rem);
-    transform: translateY(-100%);
-    animation-name: ${({ open }) => (open && open !== null) && openAnimation};
-    animation-name: ${({ open }) => (!open && open !== null) && closeAnimation};
-    animation-duration: 700ms;
-    animation-fill-mode: both;
-    position: absolute;
-    z-index: 100;
-
-    @media (max-width: 480px) {
-        height: calc(100svh - 5rem);
+export const StyledMenu = styled(Menu)`
+    & .MuiPaper-root {
+        color: #bd9d52;
+        height: 100svh;
+        max-height: 100svh;
+        padding-top: 6rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        padding: 10rem 10rem 15rem 5rem;
-        flex-direction: column-reverse;
+    & .MuiList-root {
+        display: flex;
+        padding: 3rem;
+        justify-content: space-around;
+        align-items: center;
+
+        @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+            padding: 10rem 10rem 15rem 5rem;
+            flex-direction: column-reverse;
+        }
     }
 `;
 

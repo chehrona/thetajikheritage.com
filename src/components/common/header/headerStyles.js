@@ -1,6 +1,8 @@
 import styled from "styled-components";
-import { Close, Menu } from "@mui/icons-material";
+import { Close, Menu as MenuIcon } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
+
+import { Menu } from "@mui/material"
 import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
@@ -16,7 +18,7 @@ export const HeaderInnerBox = styled.div`
     box-sizing: border-box;
     color: #ffffff;
     position: relative;
-    z-index: 1000;
+    z-index: 1301;
     max-width: 1920px;
     margin: 0 auto;
 
@@ -95,7 +97,7 @@ export const StyledIconButton = styled(IconButton)`
     width: 100%;
 `;
 
-export const StyledMenuIcon = styled(Menu)`
+export const StyledMenuIcon = styled(MenuIcon)`
     color: #bd9d52;    
 
     &.MuiSvgIcon-root {

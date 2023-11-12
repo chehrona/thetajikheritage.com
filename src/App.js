@@ -9,8 +9,6 @@ import Tooltip from './components/common/tooltip/Tooltip';
 const LangContext = createContext({
     lang: 'us',
     setLang: () => {},
-    isMenuShown: null,
-    setIsMenuShown: () => {},
     isPrint: false,
     setIsPrint: () => {},
 });
@@ -29,18 +27,9 @@ function App() {
     const value = useMemo(() => (
         {
             lang, setLang,
-            isMenuShown, setIsMenuShown,
             isPrint, setIsPrint
         }
     ), [lang, isMenuShown, isPrint]);
-
-    useEffect(() => {
-        if (isMenuShown) {
-            document.querySelector('.content-container').style.overflowY = 'hidden';
-        } else {
-            document.querySelector('.content-container').style.overflowY = 'scroll';
-        }
-    }, [isMenuShown]);
 
     useEffect(() => {
         const tooltip = document.querySelector(".tooltip");
@@ -60,9 +49,9 @@ function App() {
             <div className='fixed-container'>
                 <div className='content-container'>
                     <Tooltip anchor={anchor} text={tooltipText} />
-                    {!isPrint && <Header />}
+                    {!isPrint && <Header setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />}
                     {!isPrint && <Flags />}
-                    <Menu />
+                    <Menu setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />
                     <AnimationRoutes />
                     {!isPrint && <Footer />}
                 </div>

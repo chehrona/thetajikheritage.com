@@ -79,7 +79,7 @@ module.exports.poets = [
                             year: '1889',
                             image: '/poetImages/ayni/slides/ayni1.jpeg',
                             desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, part&shying Ay&shyni 
-                                from both his father and mother in a span of for&shyty days. He was left to take care of two younger
+                                from both his father and mother in a span of for&shyty days. He was left to take care of two young&shyer
                                 bro&shythers at the age of 12. Despite these challenges, 
                                 Ay&shyni's dream for knowledge led him to Bukhara.<sup>2</sup>`
                         },
@@ -280,7 +280,7 @@ module.exports.poets = [
                         po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and to 
                         di&shyrect&shyly calling the na&shytion for war against the emir.
                         <br>After the unsuccessful Kolesov champaign, whose aim was to overthrow the emir, the emir turns Bukhara 
-                        into a "slaughterhouse". In this chaos, his younger brother,
+                        into a "slaughterhouse". In this chaos, his young&shyer brother,
                         <span style='font-weight: bold;'>Sirojiddin</span>, was falsely accused of being a jadid and brutally strangled 
                         to death in prison. Ayni chan&shynel&shyled his grief into his literary work,
                         <div class='tooltip'>"Mar&shysi&shyya."
