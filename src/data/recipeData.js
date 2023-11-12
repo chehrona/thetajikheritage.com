@@ -43,9 +43,9 @@ module.exports.recipes = [
                 <div class="tooltiptext">Mainly in Samarkand, Bukhara, Fergana and Northern Tajikistan</div></div>.<sup>2</sup>
                 Also, shirchoy is occasionally known by dif&shyfer&shyent names that highlight additional in&shygre&shydi&shyents beyond tea and milk. 
                 Since it is pre&shydom&shyi&shynant&shyly a salty dish, it is alternatively called <span class='termSpan'>"shürchoy,"</span> derived from the Tajiki-Persian word for salty, "shür."
-                In the region of Ba&shydakh&shyshan, a flavorful variation of shirchoy called <span class='termSpan'>"ghüzshirchoy"</span> is prepared, featuring ground toasted walnuts as one
+                In the region of Ba&shydakh&shyshan, a flavorful va&shyriation of shir&shychoy called <span class='termSpan'>"ghüzshirchoy"</span> is prepared, featuring ground toasted walnuts as one
                 of its key ingredients.<sup>4</sup> The name is derived from the Shughni word <span class='termSpan'>"ghüz" [ɣůz]</span> meaning "walnut."<sup>5</sup><br>
-                The specific ingredients in shirchoy can vary based on the local climate and preferences. For instance, mountainous communities often in&shycor&shypo&shyrate ghee
+                The specific ingredients in shirchoy can vary based on the lo&shycal climate and preferences. For instance, mountainous communities often in&shycor&shypo&shyrate ghee
                 or cream, providing them with higher-calorie sustenance to endure the harsh and cold weather. Given the variety of in&shygre&shydi&shyents used in shirchoy, 
                 it can be classified as a milk-based "soup" mainly served in bowls or deep wooden plates.<br>
                 Interestingly, despite being a liquid dish, shir&shychoy is traditionally consumed with hands. The pieces of bread, once soaked in milk, are eaten by hand, 
