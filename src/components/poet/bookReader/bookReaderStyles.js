@@ -9,6 +9,7 @@ export const StyledDialog = styled(Dialog)`
 `;
 
 export const StyledFrame = styled.iframe`
+    margin-top: 5rem;
     width: 100vw;
     height: 100vh;
     border: none;
