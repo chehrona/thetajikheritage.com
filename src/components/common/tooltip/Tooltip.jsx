@@ -3,21 +3,16 @@ import React, { useEffect, useState } from "react";
 import { Popper } from "@mui/material";
 
 import {
-    StyledContainer
+    StyledContainer,
 } from "./tooltipStyles";
 
-export default function Tooltip({ anchor, text, tooltipRef, showBottom }) {
+export default function Tooltip({ anchor, text }) {
     const [open, setOpen] = useState(0);
 
     useEffect(() => {
         if (anchor) {
             anchor.addEventListener("mouseenter", handleMouseEnter);
             anchor.addEventListener("mouseleave", handleMouseLeave);
-    
-            return () => {
-                anchor.removeEventListener("mouseenter", handleMouseEnter);
-                anchor.removeEventListener("mouseleave", handleMouseLeave);
-            };
         }
     }, [anchor]);
 
@@ -35,7 +30,7 @@ export default function Tooltip({ anchor, text, tooltipRef, showBottom }) {
             anchorEl={anchor}
             placement="top"
         >
-            <StyledContainer ref={tooltipRef} showBottom={showBottom}>{text}</StyledContainer>
+            <StyledContainer>{text}</StyledContainer>
         </Popper>
     );
 };
