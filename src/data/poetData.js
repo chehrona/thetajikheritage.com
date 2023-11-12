@@ -33,7 +33,7 @@ module.exports.poets = [
                         anecdotes, and pro&shyverbs.<sup>2</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
-                        he didn't find much va&shylue in for&shymal education. However, he had his in&shyi&shytial exposure to the 
+                        he didn't find much va&shylue in for&shymal education. However, he had his in&shyi&shytial ex&shypo&shysure to the 
                         poetry of eminent mas&shyters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
                         His father, despite being a humble peasant, had a deep love for education and literature, 
                         which he passed down to his children.<sup>2,3</sup>`
@@ -828,7 +828,7 @@ module.exports.poets = [
                         work, "Re&shymi&shynis&shycen&shyes," was pub&shylished in 1940.
                         <div class='emptyLine'></div>
                         <div class='imgDesc'>*The cover of "The Bukhara Executioners" 
-                        pub&shylished in 1937 in Ta&shyji&shyki-Persian writ&shyten in the La&shytin script</div>`,
+                        pub&shylished in 1937 in Ta&shyji&shyki writ&shyten in the La&shytin script</div>`,
                         `He was ap&shypoin&shyted a con&shysul&shytant to the new&shyly es&shytab&shylished Re&shypub&shylic of Bu&shykha&shyra's 
                         con&shysu&shylate in Sa&shymar&shykand, fa&shyci&shyli&shyta&shyted through the sup&shyport of Ab&shydul&shyqo&shydir 
                         Mu&shyhid&shydinov. How&shye&shyver, the con&shysu&shylate clo&shyses soon af&shyter, and Ay&shyni was 

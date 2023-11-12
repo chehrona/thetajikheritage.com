@@ -60,7 +60,7 @@ export const BooksContainer = styled.div`
     height: 17rem;
     padding-bottom: 1rem;
     box-sizing: border-box;
-    cursor: none;
+    cursor: pointer;
     position: relative;
 `;
 
@@ -94,62 +94,6 @@ export const Shelf = styled.div`
     z-index: 10;
     border-radius: 0.3rem;
     box-shadow: 0rem 0rem 0.5rem 0.1rem inset black;
-`;
-
-export const Overlay = styled.div`
-    width: 100%;
-    background: rgb(0, 0, 0, 0.7);
-    z-index: 1000;
-    opacity: ${({ open }) => (!open || open === null) && '0'};
-    animation-name: ${({open}) => (open && open !== null) && openAnimation};
-    animation-name: ${({open}) => (!open && open !== null)  && closeAnimation};
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    position: absolute;
-    top: 0rem;
-    height: 100%;
-    border-radius: 0.4rem;
-    transform: translateY(-100%);
-`;
-
-export const StyledClearIcon = styled(Clear)`
-    color: #dedbdb;
-    margin: 0.2rem;
-    width: 2rem;
-    height: 2rem;
-`;
-
-export const CloseWrapper = styled.div`
-    display: flex;
-    justify-content: flex-end;
-`;
-
-export const ActionIcon = styled.img`
-    width: 4rem;
-    margin-bottom: 4rem;
-    height: auto;
-`;
-
-export const ActionWrapper = styled.div`
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    height: 100%;
-`;
-
-export const Cursor = styled(motion.div)`
-    position: fixed;
-    width: 4rem;
-    height: 4rem;
-    top: 0rem;
-    left: 0rem;
-`;
-
-export const CursorImg = styled.img`
-    width: 100%;
-    height: 100%;
-    background: transparent;
 `;
 
 export const StyledTooltip = styled(({ className, ...props }) => (

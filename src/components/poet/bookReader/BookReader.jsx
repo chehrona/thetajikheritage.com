@@ -14,10 +14,9 @@ import {
     StyledCloseIcon,
 } from "./bookReaderStyles";
 
-export default function BookReader({ book, setOpenBook, setOverlay }) {
+export default function BookReader({ book, setOpenBook }) {
     function closeReader() {
         setOpenBook(false);
-        setOverlay(null);
     }
 
     return (

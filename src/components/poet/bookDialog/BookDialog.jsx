@@ -19,13 +19,12 @@ const Transition = ({ children, ...props }) => (
     </Zoom>
 );
 
-export default function BookDialog({ msg, setBookDialog, bookDialog, setOverlay }) {
+export default function BookDialog({ msg, setBookDialog, bookDialog }) {
     const { lang } = useSetLang();
     const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
 
     function handleClose() {
         setBookDialog(false);
-        setOverlay(null);
     }
 
     return (
