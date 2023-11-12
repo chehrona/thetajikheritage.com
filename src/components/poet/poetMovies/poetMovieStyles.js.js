@@ -113,6 +113,10 @@ export const StyledIconButton = styled(IconButton)`
     &.MuiIconButton-root {
         position: absolute;
         background: #0F0A00;
+
+        &:hover {
+            background: #0F0A00;
+        }
     }
 
     @media (max-width: 480px) {

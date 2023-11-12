@@ -21,10 +21,8 @@ export function useSetLang() {
 
 function App() {
     const [lang, setLang] = useState('us');
-    const tooltipRef = useRef(null);
     const [isPrint, setIsPrint] = useState(false);
     const [anchor, setAnchor] = useState(null);
-    const [showBottom, setShowBottom] = useState(0);
     const [tooltipText, setTooltipText] = useState(null);
     const [isMenuShown, setIsMenuShown] = useState(null);
 
@@ -54,21 +52,6 @@ function App() {
 
             setTooltipText(tooltipText.innerHTML);
             setAnchor(tooltip);
-
-            container.addEventListener('scroll', function() {
-                const topPosition = grandparentElement.getBoundingClientRect();
-
-                if (tooltipRef.current) {
-                    const tooltipPosition = tooltipRef.current.getBoundingClientRect();
-
-                    if (topPosition.y < 0 && topPosition.y < tooltipPosition.y - tooltipPosition.height) {
-                        setShowBottom(1);
-                    } else {
-                        setShowBottom(0);
-                    }
-
-                }
-            });
         }
     }, [lang]);
 
@@ -76,7 +59,7 @@ function App() {
         <LangContext.Provider value={value}>
             <div className='fixed-container'>
                 <div className='content-container'>
-                    <Tooltip anchor={anchor} text={tooltipText} tooltipRef={tooltipRef} showBottom={showBottom} />
+                    <Tooltip anchor={anchor} text={tooltipText} />
                     {!isPrint && <Header />}
                     {!isPrint && <Flags />}
                     <Menu />

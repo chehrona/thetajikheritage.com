@@ -86,7 +86,7 @@ module.exports.poets = [
                         {
                             year: '1890',
                             image: '/poetImages/ayni/slides/ayni2.jpeg',
-                            desc: `He gets into Mir-i Arab madrasa and secures a "hujra" - room there with his brother.
+                            desc: `He gets into Mir-i Arab madrasa and secures a "hujra" – room there with his brother.
                                 However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
                                 was quite difficult.
                                 In order to to pay for his room, which should have been free,<sup>5</sup> and his daily living costs, 
@@ -105,32 +105,32 @@ module.exports.poets = [
                         {
                             year: '1897-1898',
                             image: '/poetImages/ayni/slides/ayni4.jpeg',
-                            desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow class&shymate Abduvohid Munzim
+                            desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow class&shymate Abduvohid Mun&shyzim
                                 with a request to edit Ah&shymad Do&shynish's "Navāder al-vaqāye" for pub&shyli&shyca&shytion.
                                 <div class='space'></div>
                                 The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
-                                pushes him to start thinking about correcting these injustices and more in the Emirate of Bukhara.<sup>5</sup>`,
+                                pushes him to start thinking about correcting these in&shyjus&shyti&shyces and more in the Emirate of Bukhara.<sup>5</sup>`,
                         },
                         {
                             year: '1908',
                             image: '/poetImages/ayni/slides/ayni5.jpeg',
                             desc: `Together with four of his close friends, he pioneered the establishment of the first "ja&shydid"-style school in Bukhara, 
                                 designed to in&shytro&shyduce new teaching methods. The school found its home in Mirza Abdulvohid's re&shysi&shydence in guzar-i (street) 
-                                Salokhkhona, 
-                                with Ta&shyji&shyki-Per&shysian as language of instruction, ca&shyter&shying to the lo&shycal Bu&shykha&shyran po&shypu&shyla&shytion.<sup>5</sup>`,
+                                Salokhkhona, with Ta&shyji&shyki-Per&shysian as language of in&shystruc&shytion, ca&shyter&shying to the lo&shycal Bu&shykha&shyran 
+                                po&shypu&shyla&shytion.<sup>5</sup>`,
                         },
                         {
                             year: '1909',
                             image: '/poetImages/ayni/slides/ayni6.jpeg',
-                            desc: `For the school's curriculum, he authored his in&shyi&shytial works, which included "ترتیل القرآن" ("Tarteel-ul-Qur'an" - rules for
-                                proper re&shyci&shyta&shytion of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" - "Parenting boys/children") 
-                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" - "Religious essen&shytials").<sup>5</sup>`
+                            desc: `For the school's curriculum, he authored his in&shyi&shytial works, which included "ترتیل القرآن" ("Tar&shyteel-ul-Qur'an" – rules for
+                                proper re&shyci&shyta&shytion of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" – "Parenting boys/children") 
+                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" – "Re&shyli&shygi&shyous essen&shyti&shyals").<sup>5</sup>`
                         },
                         {
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.jpeg',
-                            desc: `He became one of the early members of "Ja&shyvon&shybu&shykho&shyri&shyyon - "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" - 
-                                "Young Bukharans", 
+                            desc: `He became one of the early members of "Ja&shyvon&shybu&shykho&shyri&shyyon – "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" – 
+                                "Young Bukharians", 
                                 a secret society, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for re&shyforms and mo&shyderni&shyza&shytion of 
                                 Cen&shytral Asia.<sup>5</sup>`,
                         }
@@ -266,29 +266,33 @@ module.exports.poets = [
             three: {
                 us: {
                     quote: `... although we regret that we spent our lives in ignorance, ... now our conscience does not allow us to say: “what does it matter to me?”<sup>5</sup>`,
-                    desc: `After leaving the madrasa, Ayni continues his in&shyvolvement with the jadids, 
+                    desc: `After leaving the madrasa, Ayni continues his in&shyvolve&shyment with the ja&shydids, 
                         resisting the old ways so deeply engrained among the Bukha&shyran clergy.
-                        His "good deeds", however, were met with disapproval from the amir, 
-                        leading to his imprisonment and the harshest sentence of the time - 
+                        His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the emir, 
+                        leading to his imprisonment and the harshest sentence of the time – 
                         <span style='font-weight: bold;'>75 lashes</span>.
                         <div class='space'></div>Eventually, he is liberated by the Russian 
-                        Re&shyvo&shylu&shytionary forces at the behest of the Young Bukharans. After enduring 
+                        Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrians. After enduring 
                         <span style='font-weight: bold;'>52 days</span> in the hos&shypital 
                         and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
                         he perma&shynently moved to Sa&shymar&shykand.
                         There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wield&shying the 
-                        power of his pen, writing political articles and to 
-                        directly calling the nation for war against the amir.
-                        <br>Upon discovering Ayni's association with the Soviet forces,
-                        amir falsely accused his youn&shyger brother, 
-                        <span style='font-weight: bold;'>Sirojiddin</span>, of treason 
-                        and cruelly murdered him through suffocation. Ayni chan&shynel&shyled his 
-                        grief into his literary work, "Mar&shysi&shyya."
-                        <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother - 
-                        <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynapped his son.<sup>1</sup>
+                        po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and to 
+                        di&shyrect&shyly calling the na&shytion for war against the emir.
+                        <br>After the unsuccessful Kolesov champaign, whose aim was to overthrow the emir, the emir turns Bukhara 
+                        into a "slaughterhouse". In this chaos, his younger brother,
+                        <span style='font-weight: bold;'>Sirojiddin</span>, was falsely accused of being a jadid and brutally strangled 
+                        to death in prison. Ayni chan&shynel&shyled his grief into his literary work,
+                        <div class='tooltip'>"Mar&shysi&shyya."
+                            <div class='tooltiptext'>
+                                A genre of po&shyet&shyry in Ta&shyjik literature recited during times of mourning
+                            </div>
+                        </div>
+                        <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother – 
+                        <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynap&shyped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
-                        re&shysolve, sharpening his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
-                        toward li&shybe&shyration from such bloodthirsty rulers.`,
+                        re&shysolve, shar&shypen&shying his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
+                        to&shyward li&shybe&shyra&shytion from such bloodthirsty ru&shylers.`,
                 },
                 ru: {
                     quote: `... хоть нам и жаль, что мы провели жизнь в неведении, ... теперь наша совесть не позволяет нам сказать: «мне-то что?»<sup>5</sup>`,
@@ -309,11 +313,11 @@ module.exports.poets = [
                     лож&shyно об&shyви&shyня&shyют в джа&shyди&shyдиз&shyме, и жес&shyто&shyко уби&shyва&shyют удушь&shyем в тюрь&shyме.
                     По это&shyму слу&shyчаю Ай&shyни на&shyпи&shyсал свое ду&shyше&shyраз&shyди&shyра&shyю&shyщее ли&shyте&shyра&shyтур&shyное 
                     про&shyиз&shyве&shyде&shyние 
-                    <div class='tooltip'>«Мар&shyсия»
+                    «<div class='tooltip'>Мар&shyсия
                         <div class='tooltiptext'>
                             Жанр по&shyэ&shyзии в пер&shyсид&shyской ли&shyте&shyра&shyту&shyре, чи&shyта&shyе&shyмый во вре&shyмя тра&shyу&shyра
                         </div>
-                    </div>.
+                    </div>».
                     <div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
                     <span style='font-weight:bold;'>Му&shyхид&shyдин&shyход&shyжу</span>, по&shyхи&shyща&shyют его сы&shyна и уво&shyзят в Ну&shyра&shyтин&shyские 
                     го&shyры.<sup>1</sup>
@@ -359,10 +363,6 @@ module.exports.poets = [
                     Ин дард&shyҳои даҳ&shyшат&shyно&shyки қал&shyбаш тан&shyҳо иро&shyда&shyаш&shyро қа&shyви&shyтар гар&shyдо&shyни&shyда, 
                     дар ро&shyҳи аз ҳо&shyки&shyмо&shyни хун&shyхор озод шу&shyда&shyни мам&shyла&shyкат қа&shyла&shyмаш&shyро тез ва 
                     эъ&shyти&shyқо&shyдаш&shyро пур&shyзӯр ме&shyна&shyмо&shyянд.`,
-                    tooltip: [
-                        `Жан&shyри шеър дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
-                        ме&shyша&shyвад`,
-                    ]
 
                 }
             },
@@ -823,7 +823,7 @@ module.exports.poets = [
                         `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
                         He continued to hold this position until his passing.`,
                         `In 1920, Ayni penned his first ma&shyjor li&shyte&shyra&shyry work, "The Bu&shykhara Ex&shyec&shyu&shytion&shyers." Then, 
-                        he wrote the short sto&shyry "O&shydi&shyna" in 1924, fol&shylowed by the no&shyvel "Do&shykhun&shyda" (writ&shyten 
+                        he wrote the short sto&shyry "Odi&shyna" in 1924, fol&shylowed by the no&shyvel "Do&shykhun&shyda" (writ&shyten 
                         be&shytween 1927 and 1928, but pub&shylished in 1930). "The Slaves" was re&shyleased in 1934, and his most ex&shytensive 
                         work, "Re&shymi&shynis&shycen&shyes," was pub&shylished in 1940.
                         <div class='emptyLine'></div>
@@ -839,8 +839,7 @@ module.exports.poets = [
                         it into the new Ta&shyjik script, first in La&shytin and la&shyter in Cy&shyril&shylic. He al&shyso me&shyt&shycu&shylous&shyly 
                         com&shypiled bi&shyog&shyra&shyphies and works of nu&shym&shyer&shyous scho&shylars and po&shyets, such as "Sheikh-ur-rais 
                         Abu Ali Si&shyna" (Avi&shycen&shyna), "Sheikh Mus&shyli&shyhid&shydin Sa&shyadi Shi&shyra&shyzi," "Us&shytad Ru&shydaki," 
-                        "Ka&shymal-e 
-                        Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e Wa&shysi&shyfi," and oth&shyers.`,
+                        "Ka&shymal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e Wa&shysi&shyfi," and oth&shyers.`,
                         `A state law banned the Ara&shybic script for writ&shying, af&shyfect&shying the Tajik lang&shyuage tra&shydi&shytion&shyal&shyly 
                         writ&shyten in the Per&shyso-Ara&shybic script. This led to the sys&shytem&shyatic de&shystruc&shytion of Ar&shyabic-script books. 
                         In re&shysponse, Sad&shyrid&shydin Ay&shyni col&shylab&shyor&shyated with prom&shyin&shyent So&shyviet Ira&shyno&shylog&shyists, 
