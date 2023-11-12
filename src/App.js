@@ -29,7 +29,7 @@ function App() {
             lang, setLang,
             isPrint, setIsPrint
         }
-    ), [lang, isMenuShown, isPrint]);
+    ), [lang, isPrint]);
 
     useEffect(() => {
         const tooltip = document.querySelector(".tooltip");
