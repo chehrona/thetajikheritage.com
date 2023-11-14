@@ -2,12 +2,14 @@ import styled from "styled-components";
 import { IconButton } from "@mui/material";
 
 export const MainContainer = styled.div`
-    position: fixed;
-    bottom: 8rem;
-    right: 1.95rem;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    right: -1.8rem;
     height: 5rem;
     width: 5rem;
-    z-index: 1000;
+    margin-bottom: -5px;
+    bottom: ${({ position }) => position && `-${position}px`};
 
     @media (max-width: 896px) {
         display: none;
@@ -38,4 +40,5 @@ export const Arrow = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0.05rem 0.05rem 0.8rem 0.05rem #0F0A00b2;
 `;

@@ -21,7 +21,8 @@ export function useSetLang() {
 function App() {
     const [lang, setLang] = useState('us');
     const parentRef = useRef(null);
-    const [position, setPosition] = useState({left: 0, right: 0});
+    const [position, setPosition] = useState(0);
+    const [showArrow, setShowArrow] = useState(0);
     const [isPrint, setIsPrint] = useState(false);
     const [anchor, setAnchor] = useState(null);
     const [tooltipText, setTooltipText] = useState(null);
@@ -34,22 +35,29 @@ function App() {
         }
     ), [lang, isPrint]);
 
-    useEffect(() => {
-        const parentContainer = parentRef.current.getBoundingClientRect();
+    const handleScroll = () => {
+        const currentScrollPos = parentRef.current.scrollTop;
+        const parentHeight = parentRef.current.getBoundingClientRect().height;
 
-        setPosition({left: parentContainer.x, right: parentContainer.x + parentContainer.width});
-    }, []);
+        if (currentScrollPos < position && currentScrollPos > parentHeight/2) {
+            setShowArrow(1);
+        } else {
+            setShowArrow(0);
+        }
+
+        setPosition(currentScrollPos);
+    }
 
     return (
         <LangContext.Provider value={value}>
-            <div className='content-container' ref={parentRef}>
+            <div className='content-container' ref={parentRef} onScroll={handleScroll}>
                 <Tooltip anchor={anchor} text={tooltipText} />
                 {!isPrint && <Header setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />}
                 {!isPrint && <Flags position={position} />}
                 <Menu setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />
                 <AnimationRoutes />
-                <ScrollUpArrow position={position} />
-                {!isPrint && <Footer />}
+                {showArrow ? <ScrollUpArrow position={position} parentRef={parentRef} setShowArrow={setShowArrow} /> : null}
+                {!isPrint ? <Footer /> : null}
             </div>
         </LangContext.Provider>
     );

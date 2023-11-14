@@ -9,7 +9,7 @@ import { StyledFlag,
          StyledIconButton
 } from "./flagsStyles";
 
-export default function Flags() {
+export default function Flags({ position }) {
     const [showLangMenu, setShowLangMenu] = useState(false),
         { lang, setLang } = useSetLang();
 
@@ -30,7 +30,7 @@ export default function Flags() {
 
     return (
         <ClickAwayListener onClickAway={handleClickAway}>
-            <FlagWrapper>
+            <FlagWrapper position={position}>
                 <StyledIconButton onMouseEnter={showLangOptions}>
                     <Tooltip title={langNames[lang]} placement="right" arrow>
                         <span><StyledFlag lang={lang}></StyledFlag></span>

@@ -41,18 +41,18 @@ export const MainContainer = styled.div`
 export const AwardWrapper = styled.div`
     padding: 0rem 3rem 0rem 3rem;
     display: flex;
+    gap: 2.57%;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
 
     @media (max-width: 480px) {
         padding: 0rem 1.5rem;
-        gap: 1rem;
+        gap: 4.2%;
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         padding: 0rem 2rem;
-        gap: 1rem;
-        justify-content: space-between;
+        gap: 3.1%;
     }
 `;
 
@@ -60,6 +60,7 @@ export const AwardCard = styled.div`
     width: 10rem;
     height: 14.1rem;
     border-radius: 1rem;
+    margin-bottom: 2.57%;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -72,7 +73,8 @@ export const AwardCard = styled.div`
 
     @media (max-width: 480px) {
         width: 9rem;
-        height: 12.69rem;        
+        height: 12.69rem;
+        margin-bottom: 4.2%;
     }
 `;
 

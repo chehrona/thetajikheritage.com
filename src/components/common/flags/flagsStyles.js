@@ -9,18 +9,23 @@ export const FlagWrapper = styled.div`
     height: 2rem;
     width: 2rem;
     cursor: pointer;
-    position: fixed;
-    left: 0.3rem;
-    bottom: 0.9rem;
+    position: absolute;
     z-index: 100;
+    left: 0.3rem;
+    margin-bottom: 1rem;
+    transition: bottom 0.1s;
+    bottom: ${({ position }) => position && `-${position}px`};
 
     @media (max-width: 480px) {
-        bottom: 1.3rem;
+        position: fixed;
+        bottom: 0.25rem;
+        left: 0.5rem;
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
-        bottom: 1.5rem;
+        position: fixed;
         left: 0.75rem;
+        bottom: 0.75rem;
     }
 `;
 
