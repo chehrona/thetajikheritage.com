@@ -46,15 +46,13 @@ function App() {
 
     return (
         <LangContext.Provider value={value}>
-            <div className='fixed-container'>
-                <div className='content-container'>
-                    <Tooltip anchor={anchor} text={tooltipText} />
-                    {!isPrint && <Header setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />}
-                    {!isPrint && <Flags />}
-                    <Menu setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />
-                    <AnimationRoutes />
-                    {!isPrint && <Footer />}
-                </div>
+            <div className='content-container'>
+                <Tooltip anchor={anchor} text={tooltipText} />
+                {!isPrint && <Header setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />}
+                {!isPrint && <Flags />}
+                <Menu setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />
+                <AnimationRoutes />
+                {!isPrint && <Footer />}
             </div>
         </LangContext.Provider>
     );
