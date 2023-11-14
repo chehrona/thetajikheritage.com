@@ -12,6 +12,9 @@ export const StyledMenu = styled(Menu)`
         position: static;
         box-shadow: none;
         border-radius: 0rem;
+        max-width: 100vw;
+        width: 100vw;
+        overflow: hidden;
     }
 
     & .MuiList-root {
