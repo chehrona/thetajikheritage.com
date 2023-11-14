@@ -47,8 +47,7 @@ body * {
     height: 100svh;
     overflow-y: scroll;
     margin: 0 auto;
-    /* background: #0F0A00; */
-    background-color: red;
+    background: #0F0A00;
 }
 
 .content-container::-webkit-scrollbar {
