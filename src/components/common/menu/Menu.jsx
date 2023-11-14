@@ -25,15 +25,6 @@ export default function Menu({ isMenuShown, setIsMenuShown }) {
             TransitionProps={{
                 duration: 200
             }}
-            slotProps={{
-                paper: {
-                    sx: {
-                        maxWidth: '100vw',
-                        width: '100vw',
-                        overflow: 'hidden',
-                    }
-                }
-            }}
         >
             <LogoContainer>
                 {/* <LogoHalf src="zarduzi.png"></LogoHalf> */}

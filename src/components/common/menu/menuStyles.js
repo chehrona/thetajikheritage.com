@@ -12,15 +12,18 @@ export const StyledMenu = styled(Menu)`
         position: static;
         box-shadow: none;
         border-radius: 0rem;
-        max-width: 100vw;
-        width: 100vw;
         overflow: hidden;
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
 
     & .MuiList-root {
         display: flex;
+        width: 100%;
         padding: 3rem;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
 
         @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
@@ -80,7 +83,7 @@ export const PageNamesContainer = styled.div`
 
     @media (max-width: 480px) {
         justify-content: start;
-        margin-top: 5rem;
+        margin-top: 7rem;
         width: 100%;
     }
 
