@@ -30,10 +30,11 @@ export const StyledFlag = styled.div`
     height: 1.5rem;
     background-size: 100%;
     box-shadow: 0.05rem 0.05rem 0.8rem 0.05rem #0F0A00b2;
-    background-image: ${({lang}) => lang === "kh" ? `url(${khorLogo})` :
-                                    lang === "us" ? `url(${usLogo})` :
-                                    lang === "ru" ? `url(${ruLogo})` :
-                                    `url(${tjLogo})`};
+    background-image: ${({lang}) => 
+        lang === "kh" ? `url(${khorLogo})` :
+        lang === "us" ? `url(${usLogo})` :
+        lang === "ru" ? `url(${ruLogo})` :
+        `url(${tjLogo})`};
 
     @media (max-width: 480px) {
         height: 2rem;

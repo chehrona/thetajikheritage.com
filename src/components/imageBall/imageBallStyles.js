@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
     width: 100%;
     position: absolute;
     top: 0rem;
+    pointer-events: none;
 
     @media (max-width: 480px) {
         display: none;
