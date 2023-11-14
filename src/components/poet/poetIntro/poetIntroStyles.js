@@ -44,7 +44,7 @@ export const MainContainer = styled.div`
     border-radius: 4rem 4rem 0rem 0rem;
     overflow: hidden;
 
-    &::after {
+    &:after {
         content: "";
         padding: 3rem;  
         width: 100%;

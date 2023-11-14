@@ -26,11 +26,11 @@ module.exports.poets = [
                     slides: {img: '/poetImages/ayni/soktare.png', text: `Sadriddin Ayni's childhood home in Soktare<sup>4</sup>`},
                     desc: `Sadriddin Saidmurodzoda was born to <span style='font-weight: bold;'>Sa&shyid&shymu&shyrod&shykho&shyja</span>
                         and <span style='font-weight: bold;'>Zevaroy</span> in the village of 
-                        Soktare, G’ij&shydu&shyvon district, 
+                        Sok&shyta&shyre, G’ij&shydu&shyvon district, 
                         Emirate of Bu&shykha&shyra.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
                         years among fellow farmers and local artisans. It was within this close-knit community 
                         that he was introduced to the world of folk literature, in&shyclud&shying tales, leg&shyends, songs, 
-                        anecdotes, and pro&shyverbs.<sup>2</sup>
+                        an&shyec&shydotes, and pro&shyverbs.<sup>2</sup>
                         <div class='space'></div>
                         During his school years, as documented in his book "The Old School," 
                         he didn't find much va&shylue in for&shymal education. However, he had his in&shyi&shytial ex&shypo&shysure to the 
@@ -87,7 +87,7 @@ module.exports.poets = [
                             year: '1890',
                             image: '/poetImages/ayni/slides/ayni2.jpeg',
                             desc: `He gets into Mir-i Arab madrasa and secures a "hujra" – room there with his brother.
-                                However, for economically disadvantaged individuals, like him, accessing education within Bukhara's madrasas
+                                However, for economically disadvantaged individuals, like him, accessing education within Bukhara's mad&shyra&shysas
                                 was quite difficult.
                                 In order to to pay for his room, which should have been free,<sup>5</sup> and his daily living costs, 
                                 he was forced to take on various odd jobs. These roles ranged from serving as a cleaner to 
@@ -105,10 +105,10 @@ module.exports.poets = [
                         {
                             year: '1897-1898',
                             image: '/poetImages/ayni/slides/ayni4.jpeg',
-                            desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), approached Ayni and his fellow class&shymate Abduvohid Mun&shyzim
-                                with a request to edit Ah&shymad Do&shynish's "Navāder al-vaqāye" for pub&shyli&shyca&shytion.
+                            desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), ap&shyproached Ayni and his fellow class&shymate Abdulvohid Mun&shyzim
+                                with a request to edit Ah&shymad Do&shynish's "Navāder al-va&shyqā&shyye" for pub&shyli&shyca&shytion.
                                 <div class='space'></div>
-                                The book reveals the useless doctrines taught at the madrasas and the self-serving actions of the clergy. It 
+                                The book reveals the useless doctrines taught at the mad&shyra&shysas and the self-serving actions of the clergy. It 
                                 pushes him to start thinking about correcting these in&shyjus&shyti&shyces and more in the Emirate of Bukhara.<sup>5</sup>`,
                         },
                         {
@@ -168,7 +168,7 @@ module.exports.poets = [
                         year: '1897-1898',
                         image: '/poetImages/ayni/slides/ayni4.jpeg',
                         desc: `Ка&shyзи Мир&shyза Му&shyхам&shyмад&shyша&shyриф-и Садр (Сад&shyри Зия) по&shyру&shyча&shyет ре&shyдак&shyцию кни&shyги 
-                            Ах&shyма&shyди До&shyни&shyша «Наводир ул-вакоеъ» Ай&shyни и его од&shyно&shyклас&shyсни&shyку Аб&shyду&shyва&shyхи&shyду 
+                            Ах&shyма&shyди До&shyни&shyша «Наводир ул-вакоеъ» Ай&shyни и его од&shyно&shyклас&shyсни&shyку Аб&shyдул&shyва&shyхи&shyду 
                             Мун&shyзи&shyму пе&shyред пуб&shyли&shyка&shyци&shyей.
                             <div class='space'></div>
                             В этой кни&shyге До&shyниш от&shyкры&shyто кри&shyти&shyко&shyвал бес&shyпо&shyлез&shyные за&shyня&shyтия мед&shyре&shyсе и 
@@ -232,7 +232,7 @@ module.exports.poets = [
                         year: '1897-1898',
                         image: '/poetImages/ayni/slides/ayni4.jpeg',
                         desc: `Қо&shyзӣ Мир&shyзо Му&shyҳам&shyмад&shyша&shyри&shyфи Садр (Сад&shyри Зиё) таҳ&shyри&shyри пеш аз чоп шу&shyда&shyни «Наводир ул-вақоеъ»-и 
-                            Аҳ&shyма&shyди До&shyниш&shyро ба Ай&shyнӣ ва ша&shyрик&shyдар&shyсаш Аб&shyду&shyво&shyҳи&shyди Мун&shyзим ме&shyсу&shyпо&shyрад.
+                            Аҳ&shyма&shyди До&shyниш&shyро ба Ай&shyнӣ ва ша&shyрик&shyдар&shyсаш Аб&shyдул&shyво&shyҳи&shyди Мун&shyзим ме&shyсу&shyпо&shyрад.
                             <div class='space'></div>
                             Дар ин ки&shyтоб, До&shyниш дарс&shyҳои бе&shyфо&shyи&shyдаи мад&shyра&shyса&shyҳо ва раф&shyто&shyри худ&shyхо&shyҳо&shyнаи 
                             ғай&shyри&shyша&shyри&shyа&shyтии ула&shyмои Бу&shyхо&shyро&shyро ош&shyко&shyро тан&shyқид кар&shyда&shyаст. Пас аз хон&shyда&shyни он, 
@@ -269,7 +269,7 @@ module.exports.poets = [
                     desc: `After leaving the madrasa, Ayni continues his in&shyvolve&shyment with the ja&shydids, 
                         resisting the old ways so deeply engrained among the Bu&shykha&shyran clergy.
                         His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the emir, 
-                        leading to his imprisonment and the harshest sentence of the time – 
+                        leading to his imprisonment and the harsh&shyest pun&shyish&shyment of the time – 
                         <span style='font-weight: bold;'>75 lashes</span>.
                         <div class='space'></div>Eventually, he is liberated by the Russian 
                         Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrians. After enduring 
@@ -281,14 +281,14 @@ module.exports.poets = [
                         di&shyrect&shyly calling the na&shytion for war against the emir.
                         <br>After the unsuccessful Kolesov champaign, whose aim was to overthrow the emir, the emir turns Bu&shykha&shyra 
                         in&shyto a "slaugh&shyter&shyhouse." In this chaos, his young&shyer brother,
-                        <span style='font-weight: bold;'>Sirojiddin</span>, was falsely accused of being a jadid and brutally strangled 
+                        <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was falsely accused of being a jadid and brutally strangled 
                         to death in prison. Ayni chan&shynel&shyled his grief into his literary work,
                         <div class='tooltip'>"Mar&shysi&shyya."
                             <div class='tooltiptext'>
                                 A genre of po&shyet&shyry in Ta&shyjik literature recited during times of mourning
                             </div>
                         </div>
-                        <div class='space'></div>In 1922, the Basmachi forces murdered Ayni's older brother – 
+                        <div class='space'></div>In 1922, the Basmachi forces murdered Ay&shyni's older brother – 
                         <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynap&shyped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
                         re&shysolve, shar&shypen&shying his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
@@ -390,13 +390,13 @@ module.exports.poets = [
                         environment where his literary genius could flou&shyrish, a de&shydi&shyca&shytion that persisted until their final days.<sup>1</sup>
                         <div class='space'></div>
                         They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
-                        <span style='font-weight: bold;'>Kholida</span> (b. ?), and 
+                        <span style='font-weight: bold;'>Kho&shyli&shyda</span> (b. ?), and 
                         <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
                         Re&shymar&shykab&shyly, each of their children followed in Ayni's footsteps, pur&shysu&shying academic careers in orien&shytalism, 
                         philology, and Central Asian art his&shyto&shyry, respectively.<sup>7</sup>
                         <div class='space'></div>
                         Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
-                        and continues his grandfather's legacy through the Sadriddin Ayni Foun&shyda&shytion.<sup>8</sup>`
+                        and continues his grandfather's legacy through the Sadriddin Ay&shyni Foun&shyda&shytion.<sup>8</sup>`
                 },
                 ru: {
                     year: '1920',
@@ -813,11 +813,14 @@ module.exports.poets = [
                         `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, пер&shyвым пре&shyзи&shyден&shyтом ко&shyто&shyрой 
                         был на&shyзна&shyчен Сад&shyрид&shyдин Ай&shyни.
                         Он за&shyни&shyмал эту долж&shyность до сво&shyей кон&shyчи&shyны в 1954 го&shyду.`,
-                        `В 1920 году Айни написал свое первое крупное литературное произведение «Бухарские палачи». Затем в 1924 году он 
-                        написал рассказ «Одина», за которым последовал повесть «Дохунда» (написанный между 1927 и 1928 годами, но опубликованный в 1930 году). 
-                        Роман «Рабы» вышел в 1934 году, а его самое обширное литературное произведение «Воспоминания» было опубликовано в 1940 году.
-                        <div class='imgDesc'>*Обложка книги «Бухарские палачи», изданной в 1937 году, на 
-                        таджикском языке, написанной латиницей</div>`,
+                        `В 1920 го&shyду Ай&shyни на&shyпи&shyсал свое пер&shyвое круп&shyное про&shyиз&shyве&shyде&shyние 
+                        «Бу&shyхарс&shyкие па&shyла&shyчи». За&shyтем в 1924 го&shyду он 
+                        на&shyписал рас&shyсказ «Оди&shyна», за ко&shyто&shyрым по&shyсле&shyдо&shyвал по&shyвесть «До&shyхун&shyда» (на&shyпи&shyсан&shyный 
+                        меж&shyду 1927 и 1928 го&shyда&shyми, но опуб&shyли&shyко&shyван&shyный в 1930 го&shyду). 
+                        Ро&shyман «Ра&shyбы» вы&shyшел в 1934 го&shyду, а его са&shyмое об&shyшир&shyное про&shyиз&shyве&shyде&shyние 
+                        «Вос&shyпо&shyми&shyна&shyния» бы&shyло опуб&shyли&shyко&shyва&shyно в 1940 го&shyду.
+                        <div class='imgDesc'>*Об&shyлож&shyка кни&shyги «Бу&shyхар&shyские па&shyла&shyчи», 
+                        из&shyдан&shyной в 1937 го&shyду, на тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей</div>`,
                     ],
                     us: [
                         `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
