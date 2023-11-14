@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import { Menu } from "@mui/material";
 
 export const StyledMenu = styled(Menu)`
+    & .MuiPopper-root {
+        z-index: 100;
+    }
+
     & .MuiPaper-root {
         color: #bd9d52;
         height: 100svh;
@@ -23,12 +27,14 @@ export const StyledMenu = styled(Menu)`
         display: flex;
         width: 100%;
         padding: 3rem;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 6%;
         align-items: center;
 
         @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
             padding: 10rem 10rem 15rem 5rem;
             flex-direction: column-reverse;
+            gap: 0%;
         }
     }
 `;

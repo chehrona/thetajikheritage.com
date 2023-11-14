@@ -18,7 +18,7 @@ export const HeaderInnerBox = styled.div`
     box-sizing: border-box;
     color: #ffffff;
     position: relative;
-    z-index: 1301;
+    z-index: 11;
     max-width: 1920px;
     margin: 0 auto;
 

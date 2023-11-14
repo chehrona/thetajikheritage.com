@@ -25,6 +25,9 @@ export default function Menu({ isMenuShown, setIsMenuShown }) {
             TransitionProps={{
                 duration: 200
             }}
+            sx={{
+                zIndex: '10'
+            }}
         >
             <LogoContainer>
                 {/* <LogoHalf src="zarduzi.png"></LogoHalf> */}
