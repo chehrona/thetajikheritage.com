@@ -267,7 +267,7 @@ module.exports.poets = [
                 us: {
                     quote: `... although we regret that we spent our lives in ignorance, ... now our conscience does not allow us to say: “what does it matter to me?”<sup>5</sup>`,
                     desc: `After leaving the madrasa, Ayni continues his in&shyvolve&shyment with the ja&shydids, 
-                        resisting the old ways so deeply engrained among the Bukha&shyran clergy.
+                        resisting the old ways so deeply engrained among the Bu&shykha&shyran clergy.
                         His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the emir, 
                         leading to his imprisonment and the harshest sentence of the time – 
                         <span style='font-weight: bold;'>75 lashes</span>.
@@ -279,8 +279,8 @@ module.exports.poets = [
                         There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wield&shying the 
                         po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and to 
                         di&shyrect&shyly calling the na&shytion for war against the emir.
-                        <br>After the unsuccessful Kolesov champaign, whose aim was to overthrow the emir, the emir turns Bukhara 
-                        into a "slaughterhouse". In this chaos, his young&shyer brother,
+                        <br>After the unsuccessful Kolesov champaign, whose aim was to overthrow the emir, the emir turns Bu&shykha&shyra 
+                        in&shyto a "slaugh&shyter&shyhouse." In this chaos, his young&shyer brother,
                         <span style='font-weight: bold;'>Sirojiddin</span>, was falsely accused of being a jadid and brutally strangled 
                         to death in prison. Ayni chan&shynel&shyled his grief into his literary work,
                         <div class='tooltip'>"Mar&shysi&shyya."
