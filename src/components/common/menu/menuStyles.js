@@ -8,6 +8,8 @@ export const StyledMenu = styled(Menu)`
         height: 100svh;
         max-height: 100svh;
         padding-top: 6rem;
+        background: rgb(51 51 51);
+        position: static;
     }
 
     & .MuiList-root {

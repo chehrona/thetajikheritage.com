@@ -23,13 +23,11 @@ export default function Menu({ isMenuShown, setIsMenuShown }) {
             open={isMenuShown}
             TransitionComponent={Slide}
             TransitionProps={{
-                delay: 200
+                duration: 200
             }}
             slotProps={{
                 paper: {
                     sx: {
-                        position: 'static',
-                        background: 'rgb(51 51 51)',
                         boxShadow: 'none',
                         maxWidth: '100vw',
                         width: '100vw',
