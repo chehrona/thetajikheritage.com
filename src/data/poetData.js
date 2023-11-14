@@ -857,7 +857,7 @@ module.exports.poets = [
                         work, "Re&shymi&shynis&shycen&shyes," was pub&shylished in 1940.
                         <div class='emptyLine'></div>
                         <div class='imgDesc'>*The cover of "The Bukhara Executioners" 
-                        published in 1937 in Tajiki-Persian written in the Latin script</div>`,
+                        published in 1937 in Tajiki written in the Latin script</div>`,
                     ]
             }
         },
