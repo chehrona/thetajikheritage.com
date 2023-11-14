@@ -28,10 +28,8 @@ export default function Menu({ isMenuShown, setIsMenuShown }) {
             slotProps={{
                 paper: {
                     sx: {
-                        boxShadow: 'none',
                         maxWidth: '100vw',
                         width: '100vw',
-                        borderRadius: '0rem',
                         overflow: 'hidden',
                     }
                 }

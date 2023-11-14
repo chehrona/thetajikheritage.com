@@ -10,6 +10,8 @@ export const StyledMenu = styled(Menu)`
         padding-top: 6rem;
         background: rgb(51 51 51);
         position: static;
+        box-shadow: none;
+        border-radius: 0rem;
     }
 
     & .MuiList-root {
