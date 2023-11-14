@@ -9,7 +9,7 @@ module.exports.poets = [
             tj: 'Садриддин Саидмуродзода нависандаи тоҷик, ислоҳталаб, олим, қаҳрамони миллӣ ва асосгузори адабиёти муосири тоҷик.',
             kh: '.صدرالدین سعیدمرودزاده - نویسنده تاجیک، اصلاح طلب، دانشمند، قهرمان ملی و اساس گذار ادبیات معاصر تاجیک'
         },
-        img: ['/poetImages/ayni/Ayni.jpeg', '/poetImages/ayni/AyniFaded.png'],
+        img: ['/poetImages/ayni/Ayni.jpeg', '/poetImages/ayni/AyniFaded.jpg'],
         link: '/poets/ayni',
         sections: {
             us: ["Biography", "Works", "Films", "Career", "Awards"],

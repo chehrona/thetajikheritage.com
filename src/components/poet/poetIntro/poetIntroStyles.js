@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from "styled-components/macro";
 
 const zoomIn = keyframes`
     from {
@@ -38,19 +38,17 @@ const slideUp = keyframes`
 
 export const MainContainer = styled.div`
     background: #0F0A00;
-    background-image: url(${'/noise.png'});
     display: flex;
     justify-content: space-between;
     position: relative;
     border-radius: 4rem 4rem 0rem 0rem;
     overflow: hidden;
 
-    &:after {
+    &::after {
         content: "";
         padding: 3rem;  
         width: 100%;
         background: #fcf6e9;
-        background-image: url(${'/noise.png'});
         -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);
         position: absolute;
@@ -66,6 +64,15 @@ export const MainContainer = styled.div`
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
         border-radius: 2.5rem 2.5rem 0rem 0rem;
     }
+`;
+
+export const Overlay = styled.div`
+    position: absolute;
+    top: 0rem;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url(${'/noise.png'});
 `;
 
 export const FadedImage = styled.img`
@@ -97,7 +104,7 @@ export const SegmentContainer = styled.div`
     margin: 5rem;
     font-size: 1.5rem;
     width: 100%;
-    z-index: 10;
+    z-index: 2;
     position: relative;
 
     @media (max-width: 480px) {
@@ -186,6 +193,7 @@ export const PoetNameContainer = styled.div`
     left: 5rem;
     bottom: 6rem;
     display: flex;
+    z-index: 2;
 
     @media (max-width: 480px) {
         left: 2rem;

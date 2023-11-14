@@ -11,7 +11,8 @@ import {
     PoetName,
     YearsContainer,
     Year,
-    NumSpan
+    NumSpan,
+    Overlay
 } from "./poetIntroStyles";
 
 export default function PoetIntro({ poet, scrollToView }) {
@@ -21,6 +22,7 @@ export default function PoetIntro({ poet, scrollToView }) {
 
     return (
         <MainContainer>
+            <Overlay />
             <div>
                 <SegmentContainer>
                     {poet?.sections[lang].map((piece, i) => {

@@ -37,26 +37,28 @@ export default function PoetPage() {
         }
     };
 
-    return (
-        <PageContainer>
-            <PoetContainer>
-                <PoetIntro poet={poet} scrollToView={scrollToView} />
-                {isMobile && <SectionOptions poet={poet} scrollToView={scrollToView} />}
-                <PoetBio poet={poet} />
-                <PoetWorks poet={poet.works} />
-                <PoetMovies poet={poet.movies} />
-                <PoetCareer points={poet.career} />
-                <PoetAwards poet={poet.awards} />
-                <RefContainer>
-                    <Sources
-                        data={poet}
-                        line={'#504221d1'}
-                        color={'#dedbdb'}
-                        title={'#fcf6e9'}
-                        background={'#0F0A00'}
-                    />
-                </RefContainer>
-            </PoetContainer>
-        </PageContainer>
-    );
+    if (poet) {
+        return (
+            <PageContainer>
+                <PoetContainer>
+                    <PoetIntro poet={poet} scrollToView={scrollToView} />
+                    {isMobile && <SectionOptions poet={poet} scrollToView={scrollToView} />}
+                    <PoetBio poet={poet} />
+                    <PoetWorks poet={poet.works} />
+                    <PoetMovies poet={poet.movies} />
+                    <PoetCareer points={poet.career} />
+                    <PoetAwards poet={poet.awards} />
+                    <RefContainer>
+                        <Sources
+                            data={poet}
+                            line={'#504221d1'}
+                            color={'#dedbdb'}
+                            title={'#fcf6e9'}
+                            background={'#0F0A00'}
+                        />
+                    </RefContainer>
+                </PoetContainer>
+            </PageContainer>
+        );
+    }
 }
