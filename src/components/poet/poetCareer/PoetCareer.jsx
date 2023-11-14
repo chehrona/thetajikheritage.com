@@ -24,6 +24,7 @@ import {
 export default function PoetCareer({ points }) {
     const { lang } = useSetLang();
     const parentRef = useRef(null);
+    const childRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [translate, setTranslate] = useState(0);
     const [currentSize, setCurrentSize] = useState(0);
@@ -31,16 +32,15 @@ export default function PoetCareer({ points }) {
 
     useEffect(() => {
         const parentWidth = parentRef?.current?.getBoundingClientRect().width;
+        const childWidth = childRef?.current?.getBoundingClientRect().width;
+        let gap = isMobile ? 30 : 50;
+
+        const difference = parentWidth/2 - (childWidth/2 + gap);
+        const translationValue = childWidth - difference;
+
+        setTranslate(-translationValue);
         
         setCurrentSize(parentWidth);
-
-        // Same concept as centering div's with position absolute
-        if (isMobile) {
-            setTranslate(-parentWidth - 30);
-        } else {
-            setTranslate(parentWidth/2 - 1250);
-        }
-
     }, []);
 
     const handleNext = () => {
@@ -81,10 +81,10 @@ export default function PoetCareer({ points }) {
                     })}
                 </UnitWrapper>
                 <InfoContainer ref={parentRef}>
-                    <InfoInnerContainer>
+                    <InfoInnerContainer translate={translate}>
                         {points?.images?.map((img, i) => {
                             return (
-                                <InfoWrapper key={img + i} translate={translate}>
+                                <InfoWrapper key={img + i} ref={childRef}>
                                     <Image src={img} />
                                     <DescWrapper>
                                         <Desc dangerouslySetInnerHTML={{__html: points?.text[lang][i]}} />

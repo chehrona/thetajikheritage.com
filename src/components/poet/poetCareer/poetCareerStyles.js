@@ -36,6 +36,7 @@ export const YearSlider = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        height: 34rem;
         padding: 0.5rem 2rem 0.5rem 2rem;
     }
 `;
@@ -98,6 +99,8 @@ export const InfoInnerContainer = styled.div`
     position: absolute;
     display: flex;
     gap: 50px;
+    transition: all 0.5s;
+    transform: translateX(${({ translate }) => `${translate}px`});
 
     @media (max-width: 480px) {
         position: relative;
@@ -112,14 +115,17 @@ export const InfoWrapper = styled.div`
     background: #fcf6e9;
     border-radius: 1rem;
     display: flex;
-    transition: all 0.5s;
-    transform: translateX(${({ translate }) => `${translate}px`});
 
     @media (max-width: 480px) {
         display: block;
         min-width: calc(100vw - 3rem);
         max-width: calc(100vw - 3rem);
         height: 34rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        min-width: calc(100vw - 2rem - 100px);
+        max-width: calc(100vw - 2rem - 100px);
     }
 `;
 
