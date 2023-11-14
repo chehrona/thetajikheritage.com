@@ -6,6 +6,7 @@ import AnimationRoutes from './components/common/animationRoutes/AnimationRoutes
 import Flags from './components/common/flags/Flags';
 import Tooltip from './components/common/tooltip/Tooltip';
 import ScrollUpArrow from './components/common/scrollUpArrow/ScrollUpArrow';
+import AdSense from './components/common/adSense/AdSense';
 
 const LangContext = createContext({
     lang: 'us',
@@ -57,6 +58,7 @@ function App() {
                 <Menu setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />
                 <AnimationRoutes />
                 {showArrow ? <ScrollUpArrow position={position} parentRef={parentRef} setShowArrow={setShowArrow} /> : null}
+                <AdSense />
                 {!isPrint ? <Footer /> : null}
             </div>
         </LangContext.Provider>
