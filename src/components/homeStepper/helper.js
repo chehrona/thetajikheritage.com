@@ -3,7 +3,7 @@ export const stepInfo = [
         num: "01",
         text: {
             us: {text: "Arts & crafts", font: {d: 10, m: 7.1, t: 10}, margin: {d: 2, m: 2, t: -4}},
-            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, t: 7.1}, margin: {d: 0, m: 0, t: -8}},
+            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, t: 7.1}, margin: {d: -2, m: 0, t: -8}},
             tj: {text: "Санъат & ҳунар", font: {d: 9.5, m: 6.1, t: 8.65}, margin: {d: 2, m: 2, t: -6}}
         },
         desc: {
@@ -55,8 +55,8 @@ export const stepInfo = [
     {
         num: "02",
         text: {
-            us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.4}, margin: {d: 0, m: -1, t: -10}},
-            ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: 0, m: -1, t: -10.5}},
+            us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.4}, margin: {d: -3, m: -1, t: -10}},
+            ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: -4, m: -1, t: -10.5}},
             tj: {text: "Расму оин", font: {d: 9, m: 7.5, t: 10}, margin: {d: 2, m: 3, t: -5}}
         },
         desc: {
@@ -158,7 +158,7 @@ export const stepInfo = [
     {
         num: "04",
         text: {
-            us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: 0, m: 0, t: -9}},
+            us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: -2, m: 0, t: -9}},
             ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: 0, m: 0, t: -9}},
             tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: 3, m: 1.5, t: -6}}
         },
