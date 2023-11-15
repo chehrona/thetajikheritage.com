@@ -61,7 +61,7 @@ export const MainContainer = styled.div`
         flex-direction: column-reverse;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         border-radius: 2.5rem 2.5rem 0rem 0rem;
     }
 `;
@@ -93,7 +93,7 @@ export const FadedImage = styled.img`
         margin-left: -12%;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         border-radius: 2.5rem 2.5rem 0rem 2.5rem;
         min-height: 40rem;
         width: 40rem;
@@ -111,7 +111,7 @@ export const SegmentContainer = styled.div`
         display: none;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         margin: 2.5rem 3rem 3rem 3rem;
         min-width: 12rem;
     }
@@ -139,7 +139,7 @@ export const TitleSpan = styled.span`
         cursor: pointer;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         text-shadow: 0.1rem 1rem 2rem #dedbdb;
         font-size: 1.75rem;
         
@@ -183,7 +183,7 @@ export const PoetName = styled.div`
         `}
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 6.5rem;
     }
 `;
@@ -200,7 +200,7 @@ export const PoetNameContainer = styled.div`
         display: block;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         left: 3rem;
         bottom: 7rem;
     }
@@ -226,7 +226,7 @@ export const YearsContainer = styled.div`
         text-align: right;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 8rem;
         left: 8rem;
     }
@@ -239,7 +239,7 @@ export const Year = styled.div`
         margin: 0rem 2.5rem 0rem 0rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         margin-bottom: 1rem;
     }
 `;

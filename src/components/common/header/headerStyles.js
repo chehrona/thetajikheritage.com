@@ -42,7 +42,7 @@ export const LogoWrapper = styled.div`
         width: 5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         height: 6.5rem;
         width: 6.5rem;
         margin-left: 0.5rem;
@@ -61,7 +61,7 @@ export const TitleWrapper = styled.div`
         font-size: 1.64rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 2.2rem;
     }
 `;
@@ -105,7 +105,7 @@ export const StyledMenuIcon = styled(MenuIcon)`
         height: 2.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         &.MuiSvgIcon-root {
             width: 4rem;
             height: 3rem;
@@ -121,7 +121,7 @@ export const StyledCloseIcon = styled(Close)`
         height: 2.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         &.MuiSvgIcon-root {
             width: 4rem;
             height: 3rem;

@@ -13,7 +13,7 @@ export const AllergyContainer = styled.div`
         padding: 0rem 1.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         max-width: 100%;
     }
 `;
@@ -49,7 +49,7 @@ export const BoxTitle = styled.div`
         font-size: 1.3rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.5rem;
     }
 `;
@@ -70,7 +70,7 @@ export const LabelImage = styled.img`
         height: 5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 6rem;
         height: 6rem;
     }
@@ -84,7 +84,7 @@ export const AllergenName = styled.div`
         font-size: 1.2rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.3rem;
     }
 `;

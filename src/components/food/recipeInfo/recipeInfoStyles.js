@@ -39,7 +39,7 @@ export const InfoContainer = styled.div`
         padding: 0rem 1.5rem 0rem 1.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         display: block;
         font-size: 1.3rem;
     }
@@ -71,7 +71,7 @@ export const HistoryInfo = styled.div`
     animation-delay: 0.01s;
     animation: ${slideOut} 0.5s ease-in-out forwards;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         font-size: 1.3rem;
     }
 `;
@@ -83,7 +83,7 @@ export const ImageContainer = styled.div`
     float: left;
     position: relative;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         margin: 0rem;
         width: 100%;
     }
@@ -110,7 +110,7 @@ export const MainImage = styled.img`
         opacity: 1;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 100%;
     }
 `;

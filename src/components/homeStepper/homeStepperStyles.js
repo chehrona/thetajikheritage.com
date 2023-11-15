@@ -50,7 +50,7 @@ export const IndicatorStep = styled.div`
         display: none;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 2rem;
     }
 `;
@@ -58,8 +58,12 @@ export const IndicatorStep = styled.div`
 export const NumLine = styled.div`
     background: #bd9d52;
     width: 0.05rem;
-    height: 8rem;
+    height: 4rem;
     margin-left: 0.5%;
+
+    @media (max-width: 1024px) {
+        height: 8rem;
+    }
 `;
 
 export const StepperContainer = styled.div`
@@ -79,7 +83,7 @@ export const StepperContainer = styled.div`
         scroll-snap-type: y mandatory;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         scroll-snap-type: mandatory;
         scroll-snap-type: y mandatory;
     }
@@ -96,7 +100,7 @@ export const StepperBox = styled.div`
         padding-top: 2rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         scroll-snap-align: start;
     }
 `;
@@ -107,7 +111,7 @@ export const Step = styled.div`
     font-family: 'EB Garamond', serif;
     transition: 500ms ease-in-out;
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.5rem;
     }
 `;
@@ -117,7 +121,7 @@ export const TitleWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10%;
+    padding-top: 2rem;
 
     @media (max-width: 480px) {
         height: 30%;
@@ -147,7 +151,7 @@ export const LargeTitle = styled.div`
         line-height: ${({ fontSize }) => fontSize && `${fontSize.m - 0.5}rem`};
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding-top: 3rem;
         opacity: ${({ fontSize }) => fontSize.t ? "1" : "0"};
         font-size: ${({ fontSize }) => fontSize && `${fontSize.t}rem`};
@@ -170,7 +174,7 @@ export const Desc = styled.div`
         margin-top: ${({ margin }) => margin && `${margin.m}rem`};
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 50%;
         margin-left: 3rem;
         font-size: 1.3rem;
@@ -194,7 +198,7 @@ export const OtherSteps = styled.div`
         display: none;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         margin-left: 10%;
     }
 `;
@@ -249,7 +253,7 @@ export const StyledButton = styled.div`
             }
         }
 
-        @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
             border-right: 0.1rem solid #ffffff;
             border-bottom: 0.1rem solid #ffffff;
             width: ${({ lang }) => lang && 

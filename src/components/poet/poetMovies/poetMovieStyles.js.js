@@ -61,7 +61,7 @@ export const MovieWrapper = styled.div`
         padding: 0rem 3rem 0rem 1.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         gap: 2rem;
         padding: 0rem 3.2rem 0rem 2rem;
     }
@@ -84,7 +84,7 @@ export const MovieCard = styled.div`
         border-radius: 0.8rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         height: 23rem;
         width: 16.25rem;
         border-radius: 0.8rem;
@@ -96,7 +96,7 @@ export const Image = styled.img`
     height: 100%;
     border-radius: 0.5rem;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         border-radius: 0.8rem;
     }
 `;
@@ -122,7 +122,7 @@ export const StyledIconButton = styled(IconButton)`
         right: -3rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 4rem;
         height: 4rem;
         bottom: 1.5rem;

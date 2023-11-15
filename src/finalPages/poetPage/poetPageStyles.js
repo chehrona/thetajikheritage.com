@@ -11,7 +11,7 @@ export const PageContainer = styled.div`
         padding: 0rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 1rem 1.8rem 1.5rem 1.2rem;
     }
 `;
@@ -27,7 +27,7 @@ export const PoetContainer = styled.div`
         box-shadow: 0rem 0rem 0rem 0rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         border-radius: 2.5rem;
     }
 `;
@@ -44,7 +44,7 @@ export const RefContainer = styled.div`
         padding: 0rem 1.5rem 1rem 1.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         border-radius: 0rem 0rem 2.5rem 2.5rem;
         padding: 0rem 2rem 2rem 2rem;
     }

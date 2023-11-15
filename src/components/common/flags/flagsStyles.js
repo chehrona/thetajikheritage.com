@@ -16,7 +16,7 @@ export const FlagWrapper = styled.div`
         left: 0.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         position: fixed;
         left: 0.75rem;
         bottom: 0.75rem;
@@ -40,7 +40,7 @@ export const StyledFlag = styled.div`
         width: 2rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         height: 2.25rem;
         width: 2.25rem;
     }
@@ -50,6 +50,7 @@ export const FlagDropdown = styled.div`
     display: flex;
     flex-direction: column;
     opacity: ${({ showLangMenu }) => showLangMenu ? 1 : 0};
+    visibility: ${({ showLangMenu }) => showLangMenu ? 'visible' : 'hidden'};
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -65,7 +66,7 @@ export const StyledIconButton = styled(IconButton)`
         }
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         &.MuiIconButton-root {
             margin-bottom: 1.25rem;
         }
@@ -87,7 +88,7 @@ export const StyledTooltip = styled(({ className, ...props }) => (
         [`& .${tooltipClasses.arrow}`]: {
             color: '#70654a'
         },
-        '@media (max-width: 896px)': {
+        '@media (max-width: 1024px)': {
             [`& .${tooltipClasses.tooltip}`]: {
                 display: 'none',
             },

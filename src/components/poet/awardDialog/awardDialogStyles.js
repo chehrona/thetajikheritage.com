@@ -39,7 +39,7 @@ export const StyledContent = styled(DialogContent)`
     position: relative;
     padding: 0.001rem;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         &.MuiDialogContent-root {
             padding: 0rem;
             overflow: hidden;
@@ -87,7 +87,7 @@ export const StyledCloseIcon = styled(Close)`
         }
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         &.MuiSvgIcon-root {
             width: 3rem;
             height: 2.5rem;
@@ -113,7 +113,7 @@ export const Wrapper = styled.div`
         width: 100%;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: ${({ first }) => first ? "24.5%" : "76.5%"};
     }
 `;
@@ -133,7 +133,7 @@ export const AwardImg = styled.img`
         margin-right: 1rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         margin-left: 1rem;
     }
 `;

@@ -7,7 +7,7 @@ export const MainContainer = styled.div`
     width: 5rem;
     margin: 0rem -1.8rem -1rem 0rem;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         display: none;
     }
 `;
@@ -21,7 +21,7 @@ export const StyledIconButton = styled(IconButton)`
         height: 5.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 4.5rem;
         height: 4.5rem;
     }

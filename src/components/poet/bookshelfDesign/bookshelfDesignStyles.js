@@ -109,7 +109,7 @@ export const StyledTooltip = styled(({ className, ...props }) => (
         [`& .${tooltipClasses.arrow}`]: {
             color: '#70654a'
         },
-        '@media (max-width: 896px)': {
+        '@media (max-width: 1024px)': {
             [`& .${tooltipClasses.tooltip}`]: {
                 display: 'none',
             },

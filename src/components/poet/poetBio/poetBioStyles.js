@@ -27,7 +27,7 @@ export const MainContainer = styled.div`
         }
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.3rem;
     }
 `;
@@ -42,13 +42,13 @@ export const BoxOne = styled.div`
     gap: 3rem;
     position: relative;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         padding: 0rem 1.5rem 1rem 1.5rem;
         flex-wrap: wrap;
         margin-bottom: 3rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 0rem 2rem 1rem 2rem;
     }
 `;
@@ -64,7 +64,7 @@ export const Year = styled.div`
         margin-bottom: ${({ align }) => align && '0rem'};
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 4rem;
         margin-bottom: ${({ align }) => align && '0rem'};
     }
@@ -129,7 +129,7 @@ export const Slides = styled.div`
         height: 100%;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         left: 2rem;
     }
 `;
@@ -154,7 +154,7 @@ export const NavBox = styled.div`
     display: flex;
     ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 8rem'};
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         height: 2rem;
         ${({ bottom }) => bottom ? 'bottom: 3rem' : 'top: 10rem'};
     }
@@ -205,7 +205,7 @@ export const StyledIconButton = styled(IconButton)`
         }
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 4.5rem;
         height: 4.5rem;
 
@@ -231,7 +231,7 @@ export const Arrow = styled.div`
         box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
     }
 
-    @media (max-device-width: 896px) {
+    @media (max-device-width: 1024px) {
         &:hover {
             box-shadow: 0rem 0rem 0rem 0rem #dedbdb;
         }
@@ -262,7 +262,7 @@ export const Info = styled.div`
         padding: 0.5rem 1.5rem 1.5rem 1.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 0rem 2rem;
     }
 `;
@@ -287,7 +287,7 @@ export const FillerOne = styled.div`
         display: none;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         min-width: 2rem;
     }
 `;
@@ -310,7 +310,7 @@ export const BoxThree = styled.div`
         padding: 2rem 1.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 0rem 2rem 2rem 2rem;
     }
 `;
@@ -345,7 +345,7 @@ export const Quote = styled.div`
     text-align: center;
     padding: 1rem 0rem;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         line-height: 2.4rem;
     }
 `;
@@ -361,7 +361,7 @@ export const DescWrapper = styled.div`
         column-count: 1;
     }
     
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         column-gap: 2rem;
     }
 `;
@@ -386,7 +386,7 @@ export const FamilyDesc = styled.div`
         height: auto;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 0rem 2rem 2rem 2rem;
         height: auto;
     }
@@ -414,7 +414,7 @@ export const ImageWrapper = styled.div`
         height: 23rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         height: 45rem;
     }
 `;
@@ -437,7 +437,7 @@ export const BoxSix = styled.div`
         padding: 1.5rem 1.5rem 2.1rem 1.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 2rem 2rem 2.5rem 2rem;
     }
 `;
@@ -448,7 +448,7 @@ export const BoxSeven = styled.div`
     display: flex;
     min-height: 20rem;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         flex-direction: column-reverse;
     }
 `;
@@ -463,7 +463,7 @@ export const LeftContainer = styled.div`
         height: ${({ seven }) => seven ? '30rem': 'auto'};
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 100%;
         height: ${({ seven }) => seven ? '40rem': 'auto'};
     }
@@ -487,7 +487,7 @@ export const RightContainer = styled.div`
         height: ${({ first }) => first ? '17rem': '23rem'};
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 100%;
         height: ${({ first }) => first ? '30rem': '40rem'};
         margin-top: ${({ first }) => first && '-2.5rem'};
@@ -532,7 +532,7 @@ export const FinalQuote = styled.div`
     transform: translate(-50%, -50%);
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #0F0A00;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         line-height: 2.4rem;
     }
 `;
@@ -544,7 +544,7 @@ export const Author = styled.div`
     text-align: end;
     font-family: 'IBM Plex Serif', serif;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         font-size: 1.3rem;
     }
 `;
@@ -574,7 +574,7 @@ export const StyledButton = styled(IconButton)`
         height: 5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 4.5rem;
         height: 4.5rem;
     }
@@ -610,7 +610,7 @@ export const ImgInfo = styled.div`
         `}
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.25rem;
         line-height: 1.3rem;
         bottom: 0.5rem;

@@ -22,7 +22,7 @@ const Transition = ({ children, ...props }) => (
 );
 
 export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo }) {
-    const isMobile = useMediaQuery({ query: `(max-width: 896px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 1024px)` });
 
     function handleClose() {
         setShowAwardInfo(false);

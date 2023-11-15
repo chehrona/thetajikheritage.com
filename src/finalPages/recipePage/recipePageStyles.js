@@ -10,7 +10,7 @@ export const PageContainer = styled.div`
         padding: 0rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 1rem 1.8rem 1.5rem 1.2rem;
     }
 `;
@@ -31,7 +31,7 @@ export const RecipeContainer = styled.div`
         box-shadow: 0rem 0rem 0rem 0rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 2rem 2rem 1rem 2rem;
         display: flex;
         border-radius: 2.5rem;
@@ -54,7 +54,7 @@ export const InstructionContainer = styled.div`
     display: flex;
     gap: 2rem;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         flex-direction: column;
         gap: 0rem;
     }
@@ -70,7 +70,7 @@ export const IngredientContainer = styled.div`
         gap: 1rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         flex-direction: column;
     }
 `;
@@ -79,7 +79,7 @@ export const SubContainer = styled.div`
     margin-top: 3rem;
     background-color: yellow;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         margin-top: 0rem;
     }
 `;
@@ -94,7 +94,7 @@ export const CookingInfoContainer = styled.div`
         max-width: 100%;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         max-width: 100%;
     }
 `;

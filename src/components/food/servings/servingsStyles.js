@@ -20,7 +20,7 @@ export const StyledAddIcon = styled(Add)`
         font-size: 2rem;
     }
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         &.MuiSvgIcon-root {
             font-size: 2.5rem;
         }
@@ -54,7 +54,7 @@ export const StyledMinusIcon = styled(Remove)`
         font-size: 2rem;
     }
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         &.MuiSvgIcon-root {
             font-size: 2.5rem;
         }

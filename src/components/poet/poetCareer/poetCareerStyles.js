@@ -35,7 +35,7 @@ export const YearSlider = styled.div`
         padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         height: 34rem;
         padding: 0.5rem 2rem 0.5rem 2rem;
     }
@@ -124,7 +124,7 @@ export const InfoWrapper = styled.div`
         border-radius: 1rem 1rem 0rem 0rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         min-width: calc(100vw - 2rem - 100px);
         max-width: calc(100vw - 2rem - 100px);
     }

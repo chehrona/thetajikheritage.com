@@ -50,7 +50,7 @@ export const AwardWrapper = styled.div`
         gap: 4.2%;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 0rem 2rem;
         gap: 3.1%;
     }
@@ -137,7 +137,7 @@ export const StyledIconButton = styled(IconButton)`
         position: absolute;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         bottom: 0.3rem;
     }
 `;
@@ -157,7 +157,7 @@ export const StyledInfoIcon = styled(Info)`
         }
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         &.MuiSvgIcon-root {
             height: 2.8rem;
             width: 2.8rem;

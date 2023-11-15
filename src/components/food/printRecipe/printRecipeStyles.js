@@ -12,7 +12,7 @@ export const SubTitle = styled.div`
         font-size: 1.3rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.5rem;
         padding-bottom: 0rem;
     }
@@ -36,7 +36,7 @@ export const PrintBox = styled.img`
     width: 2rem;
     height: 2rem;
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 2.5rem;
         height: 2.5rem;
     }
@@ -75,7 +75,7 @@ export const StyledButton = styled(Button)`
         }
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         box-shadow: 0rem 0rem 0.4rem 0.01rem #504221;
     }
 `;

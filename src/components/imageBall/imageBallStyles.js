@@ -34,7 +34,7 @@ export const Border = styled.div`
     will-change: transform;
     z-index: 1;
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         bottom: ${({ bottom }) => bottom && bottom.t};
         top: ${({ top }) => top && top.t};
         right: ${({ right }) => right && right.t};
@@ -56,7 +56,7 @@ export const HomeImage = styled.img`
     will-change: transform;
     z-index: 0;
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         bottom: ${({ bottom }) => bottom && bottom.t};
         top: ${({ top }) => top && top.t};
         right: ${({ right }) => right && right.t};

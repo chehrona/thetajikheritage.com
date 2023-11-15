@@ -81,7 +81,7 @@ export const RecipeInfo = styled.div`
 export const RecipeSubtitle = styled.div`
     font-size: 1.1rem;
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.3rem;
     }
 `;

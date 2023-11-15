@@ -22,7 +22,7 @@ export const SubTitle = styled.div`
         font-size: 1.3rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.5rem;
         padding-bottom: 0rem;
     }
@@ -32,7 +32,7 @@ export const TimeBox = styled.div`
     font-size: 1.2rem;
     padding-bottom: 0.75rem;
 
-    @media (max-width: 896px) {
+    @media (max-width: 1024px) {
         font-size: 1.3rem;
         padding-bottom: 1rem;
     }

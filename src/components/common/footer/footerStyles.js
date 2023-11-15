@@ -41,7 +41,7 @@ export const Text = styled.div`
         font-size: 1.3rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.3rem;
     }
 `;
@@ -71,7 +71,7 @@ export const StyledIcon = styled.img`
         filter: grayscale(0%);
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 2rem;
         height: 2rem;
     }

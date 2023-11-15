@@ -31,7 +31,7 @@ export const StyledMenu = styled(Menu)`
         gap: 6%;
         align-items: center;
 
-        @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+        @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
             padding: 10rem 10rem 15rem 5rem;
             flex-direction: column-reverse;
             gap: 0%;
@@ -46,7 +46,7 @@ export const LogoContainer = styled.div`
         display: none;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         opacity: 0.3;
         width: 100%;
         position: absolute;
@@ -61,7 +61,7 @@ export const Logo = styled.img`
     height: 40rem;
     width: 40rem;
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         height: 60rem;
         width: 60rem;
     }
@@ -93,7 +93,7 @@ export const PageNamesContainer = styled.div`
         width: 100%;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 2.5rem;
         width: 100%;
     }
@@ -115,7 +115,7 @@ export const PageDesc = styled.div`
     font-size: 1.3rem;
     cursor: pointer;
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.5rem;
     }
 `;

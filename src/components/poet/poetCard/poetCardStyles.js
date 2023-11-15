@@ -59,7 +59,7 @@ export const PoetCardWrapper = styled.div`
         }
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         border-radius: 1.5rem;
         transition: none;
         box-shadow: 0rem 0rem 0.6rem #504221d1;
@@ -119,7 +119,7 @@ export const PoetName = styled.div`
         font-size: 2.2rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 3rem;
     }
 `;
@@ -145,7 +145,7 @@ export const PoetDates = styled.div`
         margin-top: 1rem;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.5rem;
         margin-top: 0.5rem;
     }
@@ -161,7 +161,7 @@ export const PoetInfoContainer = styled.div`
         display: none;
     }
 
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.1rem;
         bottom: 2rem;
     }

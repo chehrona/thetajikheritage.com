@@ -16,7 +16,7 @@ export const MainContainer = styled.div`
         margin: 0rem 1.5rem 1rem 1.5rem;
     }
     
-    @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         max-width: 100%;
     }
 `;
