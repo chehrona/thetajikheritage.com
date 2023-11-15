@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import { IconButton } from '@mui/material';
 
 export const MainContainer = styled.div`
@@ -120,7 +120,8 @@ export const InfoWrapper = styled.div`
         display: block;
         min-width: calc(100vw - 3rem);
         max-width: calc(100vw - 3rem);
-        height: 34rem;
+        height: 32.6rem;
+        border-radius: 1rem 1rem 0rem 0rem;
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 896px) {
@@ -168,9 +169,26 @@ export const Footer = styled.div`
     right: 0rem;
 
     @media (max-width: 480px) {
+        display: none;
+        visibility: hidden;
+    }
+`;
+
+export const MobileFooter = styled.div`
+    display: none;
+
+    @media (max-width: 480px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: calc(100vw - 3rem);
-        right: auto;
+        height: 2.5rem;
+        background: #fcf6e9;
+        border-radius: 0rem 0rem 1rem 1rem;
+        position: absolute;
         bottom: 0rem;
+        right: 0rem;
+        z-index: 1000;
     }
 `;
 

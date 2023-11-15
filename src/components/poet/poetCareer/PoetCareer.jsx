@@ -18,7 +18,8 @@ import {
     StyledIconButton,
     Image,
     Desc,
-    InfoInnerContainer
+    InfoInnerContainer,
+    MobileFooter
 } from "./poetCareerStyles";
 
 export default function PoetCareer({ points }) {
@@ -29,41 +30,30 @@ export default function PoetCareer({ points }) {
     const [translate, setTranslate] = useState(0);
     const [currentSize, setCurrentSize] = useState(0);
     const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
+    let gap = isMobile ? 30 : 50;
 
     useEffect(() => {
         const parentWidth = parentRef?.current?.getBoundingClientRect().width;
         const childWidth = childRef?.current?.getBoundingClientRect().width;
-        let gap = isMobile ? 30 : 50;
 
         const difference = parentWidth/2 - (childWidth/2 + gap);
         const translationValue = childWidth - difference;
 
         setTranslate(-translationValue);
-        
-        setCurrentSize(parentWidth);
+        setCurrentSize(childWidth);
     }, []);
 
     const handleNext = () => {
         if (currentIndex < points?.years?.length - 1) {            
             setCurrentIndex(prevState => prevState + 1);
-            
-            if (isMobile) {
-                setTranslate(prevState => prevState - (currentSize + 30));
-            } else {
-                setTranslate(prevState => prevState - 850);
-            }
+            setTranslate((prevState) => prevState - currentSize - gap);
         }
     }
 
     const handlePrev = () => {
         if (currentIndex > 0) {
             setCurrentIndex(prevState => prevState - 1);
-
-            if (isMobile) {
-                setTranslate(prevState => prevState + (currentSize + 30));
-            } else {
-                setTranslate(prevState => prevState + 850);
-            }
+            setTranslate((prevState) => prevState + currentSize + gap);
         }
     }
 
@@ -88,33 +78,29 @@ export default function PoetCareer({ points }) {
                                     <Image src={img} />
                                     <DescWrapper>
                                         <Desc dangerouslySetInnerHTML={{__html: points?.text[lang][i]}} />
-                                        {!isMobile ? 
-                                            <Footer>
-                                                <StyledIconButton left={1} onClick={handlePrev} disabled={i === 1}>
-                                                    <ArrowForwardIos />
-                                                </StyledIconButton>
-                                                <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
-                                                <StyledIconButton onClick={handleNext} disabled={i === points?.years?.length}>
-                                                    <ArrowForwardIos />
-                                                </StyledIconButton>
-                                            </Footer>
-                                        : null}
+                                        <Footer>
+                                            <StyledIconButton left={1} onClick={handlePrev} disabled={i === 1}>
+                                                <ArrowForwardIos />
+                                            </StyledIconButton>
+                                            <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
+                                            <StyledIconButton onClick={handleNext} disabled={i === points?.years?.length}>
+                                                <ArrowForwardIos />
+                                            </StyledIconButton>
+                                        </Footer>
                                     </DescWrapper>
                                 </InfoWrapper>
                             );
                         })}
-                        {isMobile ? 
-                            <Footer>
-                                <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 0}>
-                                    <ArrowForwardIos />
-                                </StyledIconButton>
-                                <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
-                                <StyledIconButton onClick={handleNext} disabled={currentIndex === points?.years?.length - 1}>
-                                    <ArrowForwardIos />
-                                </StyledIconButton>
-                            </Footer>
-                        : null}
                     </InfoInnerContainer>
+                    <MobileFooter>
+                        <StyledIconButton left={1} onClick={handlePrev} disabled={currentIndex === 0}>
+                            <ArrowForwardIos />
+                        </StyledIconButton>
+                        <Step>{`${currentIndex + 1}/${points?.years.length}`}</Step>
+                        <StyledIconButton onClick={handleNext} disabled={currentIndex === points?.years?.length - 1}>
+                            <ArrowForwardIos />
+                        </StyledIconButton>
+                    </MobileFooter>
                 </InfoContainer>
             </YearSlider>
         </MainContainer>

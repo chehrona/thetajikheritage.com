@@ -57,7 +57,7 @@ export const stepInfo = [
         text: {
             us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.4}, margin: {d: -3, m: -1, t: -10}},
             ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: -4, m: -1, t: -10.5}},
-            tj: {text: "Расму оин", font: {d: 9, m: 7.5, t: 10}, margin: {d: -2, m: 3, t: -5}}
+            tj: {text: "Расму оин", font: {d: 9, m: 7.5, t: 10}, margin: {d: -2, m: 3, t: -6}}
         },
         desc: {
             us: 
