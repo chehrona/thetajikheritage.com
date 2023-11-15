@@ -350,7 +350,7 @@ export const Quote = styled.div`
     }
 `;
 
-export const DescWrapper = styled.div`
+export const TextWrapper = styled.div`
     column-count: 2;
     column-gap: 3rem;
     overflow: hidden;

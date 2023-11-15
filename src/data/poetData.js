@@ -266,7 +266,8 @@ module.exports.poets = [
             three: {
                 us: {
                     quote: `... although we regret that we spent our lives in ignorance, ... now our conscience does not allow us to say: “what does it matter to me?”<sup>5</sup>`,
-                    desc: `After leaving the madrasa, Ayni continues his in&shyvolve&shyment with the ja&shydids, 
+                    desc: {
+                        text1: `After leaving the madrasa, Ayni continues his in&shyvolve&shyment with the ja&shydids, 
                         resisting the old ways so deeply engrained among the Bu&shykha&shyran clergy.
                         His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the emir, 
                         leading to his imprisonment and the harsh&shyest pun&shyish&shyment of the time – 
@@ -282,89 +283,92 @@ module.exports.poets = [
                         <br>After the unsuccessful Kolesov champaign, whose aim was to over&shythrow the emir, the emir turns Bu&shykha&shyra 
                         in&shyto a "slaugh&shyter&shyhouse." In this chaos, his young&shyer bro&shyther,
                         <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was falsely accused of being a jadid and brutally strangled 
-                        to death in prison. Ayni chan&shynel&shyled his grief into his literary work,
-                        <div class='tooltip'>"Mar&shysi&shyya."
-                            <div class='tooltiptext'>
-                                A genre of po&shyet&shyry in Ta&shyjik literature recited during times of mourning
-                            </div>
-                        </div>
+                        to death in prison. Ayni chan&shynel&shyled his grief into his literary work, "`,
+                        tooltip: {
+                            word: `Mar&shysi&shyya.`,
+                            text: `A genre of po&shyet&shyry in Ta&shyjik literature recited during times of mourning`
+                        },
+                        text2: `"
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ay&shyni's older brother – 
                         <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynap&shyped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
                         re&shysolve, shar&shypen&shying his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
                         to&shyward li&shybe&shyra&shytion from such bloodthirsty ru&shylers.`,
+                    },
                 },
                 ru: {
                     quote: `... хоть нам и жаль, что мы провели жизнь в неведении, ... теперь наша совесть не позволяет нам сказать: «мне-то что?»<sup>5</sup>`,
-                    desc: `Окон&shyчив мед&shyре&shyсе, Ай&shyни про&shyдол&shyжа&shyет по&shyмо&shyгать джа&shyдид&shyско&shyму дви&shyже&shyнию, 
-                    соп&shyро&shyтив&shyля&shyясь ста&shyро&shyму укла&shyду об&shyщес&shyтва, так глу&shyбо&shyко уко&shyре&shyнив&shyшим&shyся сре&shyди 
-                    бу&shyхар&shyско&shyго ду&shyхо&shyвен&shyства.
-                    Од&shyна&shyко эми&shyру не пон&shyра&shyвил&shyся его ре&shyфор&shyмизм, что при&shyве&shyло к его тю&shyрем&shyно&shyму 
-                    за&shyклю&shyче&shyнию и са&shyмо&shyму су&shyро&shyво&shyму на&shyка&shyза&shyнию то&shyго вре&shyме&shyни —
-                    <span style='font-weight:bold;'>75 уда&shyров плетью</span>.
-                    <div class='space'></div>Его ос&shyво&shyбож&shyда&shyют рус&shyские ре&shyво&shyлю&shyци&shyон&shyные си&shyлы по 
-                    прозь&shyбе мла&shyдо&shyбу&shyхар&shyцев. Пос&shyле <span style='font-weight:bold;'>52 дней</span> в боль&shyни&shyце
-                    и <span style='font-weight:bold;'>25 опе&shyра&shyций</span>, он навсег&shyда пе&shyре&shyежа&shyет в Са&shyмар&shyканд.
-                    Там он по&shyсвя&shyща&shyет се&shyбя ре&shyво&shyлю&shyци&shyон&shyно&shyму де&shyлу, пи&shyшет по&shyли&shyти&shyчес&shyкие 
-                    статьи и пря&shyмо при&shyзы&shyва&shyет со&shyотечествен&shyни&shyков вос&shyстать про&shyтив эми&shyра.
-                    <br>Пос&shyле не&shyу&shyдач&shyно&shyго Ко&shyле&shyсов&shyско&shyго по&shyхо&shyда, целью ко&shyто&shyро&shyго 
-                    бы&shyло свер&shyже&shyние эми&shyра, эмир прев&shyра&shyща&shyет Бу&shyха&shyру в
-                    «бой&shyню». В этом ха&shyо&shyсе его млад&shyше&shyго бра&shyта, <span style='font-weight:bold;'>Си&shyро&shyджид&shyдина</span>, 
-                    лож&shyно об&shyви&shyня&shyют в джа&shyди&shyдиз&shyме, и жес&shyто&shyко уби&shyва&shyют удушь&shyем в тюрь&shyме.
-                    По это&shyму слу&shyчаю Ай&shyни на&shyпи&shyсал свое ду&shyше&shyраз&shyди&shyра&shyю&shyщее ли&shyте&shyра&shyтур&shyное 
-                    про&shyиз&shyве&shyде&shyние 
-                    «<div class='tooltip'>Мар&shyсия
-                        <div class='tooltiptext'>
-                            Жанр по&shyэ&shyзии в пер&shyсид&shyской ли&shyте&shyра&shyту&shyре, чи&shyта&shyе&shyмый во вре&shyмя тра&shyу&shyра
-                        </div>
-                    </div>».
-                    <div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
-                    <span style='font-weight:bold;'>Му&shyхид&shyдин&shyход&shyжу</span>, по&shyхи&shyща&shyют его сы&shyна и уво&shyзят в Ну&shyра&shyтин&shyские 
-                    го&shyры.<sup>1</sup>
-                    <div class='space'></div>
-                    Эти му&shyчи&shyтель&shyные по&shyте&shyри толь&shyко ук&shyре&shyпи&shyли по&shyзи&shyцию Ай&shyни, обос&shyтри&shyли
-                    его пе&shyро и уси&shyли&shyли его ре&shyши&shyмость сра&shyжать&shyся за ос&shyво&shyбож&shyде&shyние сво&shyей стра&shyны 
-                    от кро&shyво&shyжад&shyных пра&shyви&shyте&shyлей.`,
+                    desc: {
+                        text1: `Окон&shyчив мед&shyре&shyсе, Ай&shyни про&shyдол&shyжа&shyет по&shyмо&shyгать джа&shyдид&shyско&shyму дви&shyже&shyнию, 
+                        соп&shyро&shyтив&shyля&shyясь ста&shyро&shyму укла&shyду об&shyщес&shyтва, так глу&shyбо&shyко уко&shyре&shyнив&shyшим&shyся сре&shyди 
+                        бу&shyхар&shyско&shyго ду&shyхо&shyвен&shyства.
+                        Од&shyна&shyко эми&shyру не пон&shyра&shyвил&shyся его ре&shyфор&shyмизм, что при&shyве&shyло к его тю&shyрем&shyно&shyму 
+                        за&shyклю&shyче&shyнию и са&shyмо&shyму су&shyро&shyво&shyму на&shyка&shyза&shyнию то&shyго вре&shyме&shyни —
+                        <span style='font-weight:bold;'>75 уда&shyров плетью</span>.
+                        <div class='space'></div>Его ос&shyво&shyбож&shyда&shyют рус&shyские ре&shyво&shyлю&shyци&shyон&shyные си&shyлы по 
+                        прозь&shyбе мла&shyдо&shyбу&shyхар&shyцев. Пос&shyле <span style='font-weight:bold;'>52 дней</span> в боль&shyни&shyце
+                        и <span style='font-weight:bold;'>25 опе&shyра&shyций</span>, он навсег&shyда пе&shyре&shyежа&shyет в Са&shyмар&shyканд.
+                        Там он по&shyсвя&shyща&shyет се&shyбя ре&shyво&shyлю&shyци&shyон&shyно&shyму де&shyлу, пи&shyшет по&shyли&shyти&shyчес&shyкие 
+                        статьи и пря&shyмо при&shyзы&shyва&shyет со&shyотечествен&shyни&shyков вос&shyстать про&shyтив эми&shyра.
+                        <br>Пос&shyле не&shyу&shyдач&shyно&shyго Ко&shyле&shyсов&shyско&shyго по&shyхо&shyда, целью ко&shyто&shyро&shyго 
+                        бы&shyло свер&shyже&shyние эми&shyра, эмир прев&shyра&shyща&shyет Бу&shyха&shyру в
+                        «бой&shyню». В этом ха&shyо&shyсе его млад&shyше&shyго бра&shyта, <span style='font-weight:bold;'>Си&shyро&shyджид&shyдина</span>, 
+                        лож&shyно об&shyви&shyня&shyют в джа&shyди&shyдиз&shyме, и жес&shyто&shyко уби&shyва&shyют удушь&shyем в тюрь&shyме.
+                        По это&shyму слу&shyчаю Ай&shyни на&shyпи&shyсал свое ду&shyше&shyраз&shyди&shyра&shyю&shyщее ли&shyте&shyра&shyтур&shyное 
+                        про&shyиз&shyве&shyде&shyние «`, 
+                        tooltip: {
+                            word: `Мар&shyсия`,
+                            text: `Жанр по&shyэ&shyзии в пер&shyсид&shyской ли&shyте&shyра&shyту&shyре, чи&shyта&shyе&shyмый во вре&shyмя тра&shyу&shyра`
+                        },
+                        text2: `».<div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
+                            <span style='font-weight:bold;'>Му&shyхид&shyдин&shyход&shyжу</span>, по&shyхи&shyща&shyют его сы&shyна и уво&shyзят в Ну&shyра&shyтин&shyские 
+                            го&shyры.<sup>1</sup>
+                            <div class='space'></div>
+                            Эти му&shyчи&shyтель&shyные по&shyте&shyри толь&shyко ук&shyре&shyпи&shyли по&shyзи&shyцию Ай&shyни, обос&shyтри&shyли
+                            его пе&shyро и уси&shyли&shyли его ре&shyши&shyмость сра&shyжать&shyся за ос&shyво&shyбож&shyде&shyние сво&shyей стра&shyны 
+                            от кро&shyво&shyжад&shyных пра&shyви&shyте&shyлей.`,
+                    }
                 },
                 tj: {
                     quote: `... барои умри дар ғафлат гузаштаамон худро маъзур донем ҳам, ҳоло ..., «ба ман чӣ?» гуфтанро виҷдонамон раво намедид.<sup>5</sup>`,
-                    desc: `Ай&shyнӣ пас аз хат&shyми мад&shyра&shyса ҳам&shyбас&shyта&shyгии худ&shyро бо ҷа&shyди&shyдон 
-                    идо&shyма ме&shyди&shyҳад ва ба тар&shyзи кӯҳ&shyнаи ҷо&shyме&shyа&shyдо&shyрӣ, ки дар бай&shyни ула&shyмои 
-                    Бу&shyхо&shyро хе&shyле мус&shyтаҳ&shyкам ҷой ги&shyриф&shyта буд, му&shyқо&shyви&shyмат ни&shyшон до&shyдан 
-                    меги&shyрад. Ам&shyмо ис&shyло&shyҳот&shyхо&shyҳии ӯ ба амир пи&shyсанд на&shyме&shyояд ва ӯро ба зин&shyдон 
-                    ме&shyпар&shyто&shyянд ва ба сахт&shyта&shyрин ҷа&shyзои он дав&shyра – 
-                    <span style='font-weight: bold;'>75 чӯб</span> маҳ&shyкум ме&shyша&shyвад.
-                    <div class='space'></div>Дар ни&shyҳо&shyят, ӯро қув&shyва&shyҳои ин&shyқи&shyло&shyбии рус&shyҳо бо 
-                    хо&shyҳи&shyши Ҷа&shyвон&shyбу&shyхо&shyри&shyён озод ме&shyку&shyнанд. 
-                    Пас аз <span style='font-weight: bold;'>52 рӯз</span> дар бе&shyмор&shyхо&shyна
-                    ва аз сар гу&shyза&shyро&shyни&shyда&shyни <span style='font-weight: bold;'>25 ҷар&shyро&shyҳӣ</span>, 
-                    до&shyи&shyман ба Са&shyмар&shyқанд ме&shyкӯ&shyчад. Ӯ бо қа&shyла&shyми худ ба ман&shyфи&shyа&shyти 
-                    ин&shyқи&shyло&shyби&shyён хиз&shyмат на&shyму&shyда,
-                    ма&shyқо&shyла&shyҳои си&shyё&shyсӣ ме&shyна&shyви&shyсад ва ҳам&shyва&shyта&shyно&shyнаш&shyро ба 
-                    му&shyбо&shyри&shyза ба зид&shyди амир даъ&shyват ме&shyку&shyнад.
-                    <div class='space'></div>
-                    Баъд аз во&shyқе&shyаи но&shyму&shyваф&shyфа&shyқи Ко&shyле&shyсов, ки мақ&shyса&shyдаш сар&shyна&shyгун 
-                    кар&shyда&shyни амир буд, амир Бу&shyхо&shyро&shyро ба «қас&shyсоб&shyхо&shyна» таб&shyдил ме&shyди&shyҳад. 
-                    Дар ин бе&shyса&shyру со&shyмо&shyни&shyҳо ба&shyро&shyда&shyри хур&shyдии ӯ, 
-                    <span style='font-weight: bold;'>Си&shyро&shyҷид&shyдин&shyро</span> 
-                    бар&shyду&shyрӯғ айб&shyдо&shyри ҷа&shyди&shyдӣ кар&shyда, ваҳ&shyши&shyёна дар зин&shyдон бу&shyғӣ кар&shyда 
-                    ме&shyку&shyшанд. Адиб
-                    «<div class='tooltip'>Мар&shyсия
-                        <div class='tooltiptext'>
-                            Жан&shyри шеър дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
-                            ме&shyша&shyвад
-                        </div>
-                    </div>»-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
-                    <div class='space'></div>
-                    Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ — 
-                    <span style='font-weight: bold;'>Му&shyҳид&shyдин&shyхо&shyҷа&shyро</span> 
-                    қатл кар&shyда, пи&shyса&shyраш&shyро дуз&shyди&shyда ба кӯҳ&shyҳои Ну&shyра&shyто ме&shyба&shyранд.<sup>1</sup>
-                    <div class='space'></div>
-                    Ин дард&shyҳои даҳ&shyшат&shyно&shyки қал&shyбаш тан&shyҳо иро&shyда&shyаш&shyро қа&shyви&shyтар гар&shyдо&shyни&shyда, 
-                    дар ро&shyҳи аз ҳо&shyки&shyмо&shyни хун&shyхор озод шу&shyда&shyни мам&shyла&shyкат қа&shyла&shyмаш&shyро тез ва 
-                    эъ&shyти&shyқо&shyдаш&shyро пур&shyзӯр ме&shyна&shyмо&shyянд.`,
-
-                }
+                    desc: {
+                        text1: `Ай&shyнӣ пас аз хат&shyми мад&shyра&shyса ҳам&shyбас&shyта&shyгии худ&shyро бо ҷа&shyди&shyдон 
+                            идо&shyма ме&shyди&shyҳад ва ба тар&shyзи кӯҳ&shyнаи ҷо&shyме&shyа&shyдо&shyрӣ, ки дар бай&shyни ула&shyмои 
+                            Бу&shyхо&shyро хе&shyле мус&shyтаҳ&shyкам ҷой ги&shyриф&shyта буд, му&shyқо&shyви&shyмат ни&shyшон до&shyдан 
+                            меги&shyрад. Ам&shyмо ис&shyло&shyҳот&shyхо&shyҳии ӯ ба амир пи&shyсанд на&shyме&shyояд ва ӯро ба зин&shyдон 
+                            ме&shyпар&shyто&shyянд ва ба сахт&shyта&shyрин ҷа&shyзои он дав&shyра – 
+                            <span style='font-weight: bold;'>75 чӯб</span> маҳ&shyкум ме&shyша&shyвад.
+                            <div class='space'></div>Дар ни&shyҳо&shyят, ӯро қув&shyва&shyҳои ин&shyқи&shyло&shyбии рус&shyҳо бо 
+                            хо&shyҳи&shyши Ҷа&shyвон&shyбу&shyхо&shyри&shyён озод ме&shyку&shyнанд. 
+                            Пас аз <span style='font-weight: bold;'>52 рӯз</span> дар бе&shyмор&shyхо&shyна
+                            ва аз сар гу&shyза&shyро&shyни&shyда&shyни <span style='font-weight: bold;'>25 ҷар&shyро&shyҳӣ</span>, 
+                            до&shyи&shyман ба Са&shyмар&shyқанд ме&shyкӯ&shyчад. Ӯ бо қа&shyла&shyми худ ба ман&shyфи&shyа&shyти 
+                            ин&shyқи&shyло&shyби&shyён хиз&shyмат на&shyму&shyда,
+                            ма&shyқо&shyла&shyҳои си&shyё&shyсӣ ме&shyна&shyви&shyсад ва ҳам&shyва&shyта&shyно&shyнаш&shyро ба 
+                            му&shyбо&shyри&shyза ба зид&shyди амир даъ&shyват ме&shyку&shyнад.
+                            <div class='space'></div>
+                            Баъд аз во&shyқе&shyаи но&shyму&shyваф&shyфа&shyқи Ко&shyле&shyсов, ки мақ&shyса&shyдаш сар&shyна&shyгун 
+                            кар&shyда&shyни амир буд, амир Бу&shyхо&shyро&shyро ба «қас&shyсоб&shyхо&shyна» таб&shyдил ме&shyди&shyҳад. 
+                            Дар ин бе&shyса&shyру со&shyмо&shyни&shyҳо ба&shyро&shyда&shyри хур&shyдии ӯ, 
+                            <span style='font-weight: bold;'>Си&shyро&shyҷид&shyдин&shyро</span> 
+                            бар&shyду&shyрӯғ айб&shyдо&shyри ҷа&shyди&shyдӣ кар&shyда, ваҳ&shyши&shyёна дар зин&shyдон бу&shyғӣ кар&shyда 
+                            ме&shyку&shyшанд. Адиб «`,
+                        tooltip: {
+                            word: `Мар&shyсия`,
+                            text: `Жан&shyри шеър дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
+                                ме&shyша&shyвад`
+                        },
+                        text2: `»-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
+                            <div class='space'></div>
+                            Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ — 
+                            <span style='font-weight: bold;'>Му&shyҳид&shyдин&shyхо&shyҷа&shyро</span> 
+                            қатл кар&shyда, пи&shyса&shyраш&shyро дуз&shyди&shyда ба кӯҳ&shyҳои Ну&shyра&shyто ме&shyба&shyранд.<sup>1</sup>
+                            <div class='space'></div>
+                            Ин дард&shyҳои даҳ&shyшат&shyно&shyки қал&shyбаш тан&shyҳо иро&shyда&shyаш&shyро қа&shyви&shyтар гар&shyдо&shyни&shyда, 
+                            дар ро&shyҳи аз ҳо&shyки&shyмо&shyни хун&shyхор озод шу&shyда&shyни мам&shyла&shyкат қа&shyла&shyмаш&shyро тез ва 
+                            эъ&shyти&shyқо&shyдаш&shyро пур&shyзӯр ме&shyна&shyмо&shyянд.`,
+                    }
+                },
             },
             five: {
                 us: {

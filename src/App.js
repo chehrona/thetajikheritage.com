@@ -4,7 +4,6 @@ import Menu from './components/common/menu/Menu';
 import Footer from './components/common/footer/Footer';
 import AnimationRoutes from './components/common/animationRoutes/AnimationRoutes';
 import Flags from './components/common/flags/Flags';
-import Tooltip from './components/common/tooltip/Tooltip';
 import ScrollUpArrow from './components/common/scrollUpArrow/ScrollUpArrow';
 import AdSense from './components/common/adSense/AdSense';
 
@@ -25,8 +24,6 @@ function App() {
     const [position, setPosition] = useState(0);
     const [showArrow, setShowArrow] = useState(0);
     const [isPrint, setIsPrint] = useState(false);
-    const [anchor, setAnchor] = useState(null);
-    const [tooltipText, setTooltipText] = useState(null);
     const [isMenuShown, setIsMenuShown] = useState(null);
 
     const value = useMemo(() => (
@@ -52,7 +49,6 @@ function App() {
     return (
         <LangContext.Provider value={value}>
             <div className='content-container' ref={parentRef} onScroll={handleScroll}>
-                <Tooltip anchor={anchor} text={tooltipText} />
                 {!isPrint && <Header setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />}
                 <Menu setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />
                 <AnimationRoutes />

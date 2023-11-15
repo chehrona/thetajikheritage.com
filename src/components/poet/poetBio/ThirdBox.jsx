@@ -1,7 +1,16 @@
 import React from "react";
 import { useSetLang } from "../../../App";
 
-import { BoxThree, QuoteWrapper, QuoteOutline, QuoteSymbol, Quote, DescWrapper } from "./poetBioStyles";
+import { DescWrapper } from "../../common/tooltip/Tooltip";
+
+import {
+    BoxThree,
+    QuoteWrapper,
+    QuoteOutline,
+    QuoteSymbol, 
+    Quote,
+    TextWrapper,
+} from "./poetBioStyles";
 
 export default function ThirdBox({ poet }) {
     const { lang } = useSetLang();
@@ -14,7 +23,7 @@ export default function ThirdBox({ poet }) {
                 </QuoteOutline>
             </QuoteWrapper>
             <Quote dangerouslySetInnerHTML={{__html: poet?.three[lang].quote}} />
-            <DescWrapper dangerouslySetInnerHTML={{__html: poet?.three[lang].desc}} />
+            <DescWrapper desc={poet?.three[lang].desc} TextWrapper={TextWrapper} />
         </BoxThree>
     )
 }

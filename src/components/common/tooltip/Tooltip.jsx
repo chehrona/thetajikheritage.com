@@ -1,36 +1,27 @@
-import React, { useEffect, useState } from "react";
-
-import { Popper } from "@mui/material";
+import React from "react";
 
 import {
-    StyledContainer,
+    StyledTooltip,
+    WordWrapper,
+    StyledTypography
 } from "./tooltipStyles";
 
-export default function Tooltip({ anchor, text }) {
-    const [open, setOpen] = useState(0);
-
-    useEffect(() => {
-        if (anchor) {
-            anchor.addEventListener("mouseenter", handleMouseEnter);
-            anchor.addEventListener("mouseleave", handleMouseLeave);
-        }
-    }, [anchor]);
-
-    const handleMouseEnter = () => {
-        setOpen(1);
-    };
+export const DescWrapper = ({ desc, TextWrapper }) => {
+    const renderContent = () => {
+        return Object.keys(desc).map((key) => {
+            const content = desc[key];
     
-    const handleMouseLeave = () => {
-        setOpen(0);
+            if (key === 'tooltip') {
+                return (
+                    <StyledTooltip key={key} title={<StyledTypography dangerouslySetInnerHTML={{ __html: content.text }} />} arrow>
+                        <WordWrapper dangerouslySetInnerHTML={{ __html: content.word }} />
+                    </StyledTooltip>
+                );
+            } else {
+                return <span key={key} dangerouslySetInnerHTML={{ __html: content }} />;
+            }
+        });
     };
-    
-    return (
-        <Popper
-            open={open}
-            anchorEl={anchor}
-            placement="top"
-        >
-            <StyledContainer>{text}</StyledContainer>
-        </Popper>
-    );
+  
+    return <TextWrapper>{renderContent()}</TextWrapper>;
 };

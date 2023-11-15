@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import { useMediaQuery } from 'react-responsive';
 import { useParams } from "react-router-dom";
 
-import "./finalPagesStyles.css";
 import { recipes } from "../../data/recipeData";
 
 import RecipeInfo from "../../components/food/recipeInfo/RecipeInfo";

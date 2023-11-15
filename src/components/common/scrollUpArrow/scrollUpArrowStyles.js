@@ -5,6 +5,7 @@ export const MainContainer = styled.div`
     cursor: pointer;
     height: 5rem;
     width: 5rem;
+    pointer-events: auto;
     margin: 0rem -1.8rem -1rem 0rem;
 
     @media (max-width: 1024px) {
