@@ -31,10 +31,10 @@ const slideOut = keyframes`
 
 export const MainContainer = styled.div`
     background: #fcf6e9;
-    background-image: url(${'/noise.png'});
     color: white;
     position: relative;
     padding: 3rem 0rem 3rem 0rem;
+    background-image: url(${'/noise.png'});
 
     &:before {
         content: "";
@@ -57,7 +57,6 @@ export const MovieWrapper = styled.div`
     justify-content: space-between;
 
     @media (max-width: 480px) {
-        display: column;
         gap: 2rem;
         padding: 0rem 3rem 0rem 1.5rem;
     }

@@ -20,10 +20,10 @@ export const stepInfo = [
                 },
             ru: 
                 {
-                    text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
+                    text: `Народные промыслы являются воплощением и интеллектуального, и эстетического 
+                    наследия таджиков. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                     <div class='space'></div>
-                    Среди таджиков до сих пор сохранилось около 500 уникальных видов 
+                    Среди таджиков до сих пор сохранилось около 200 уникальных видов 
                     искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                     <div class='space'></div>
                     <div class='space'></div>`,
@@ -32,12 +32,12 @@ export const stepInfo = [
             tj: 
                 {
                     text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                    ки бо тарзи зиндагӣ, фарҳанг ва асотири тоҷикон печида аст.
-                    <div class='space'></div>
-                    Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                    ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
-                    <div class='space'></div>
-                    <div class='space'></div>`,
+                        ки бо тарзи зиндагӣ, фарҳанг ва асотири тоҷикон печида аст.
+                        <div class='space'></div>
+                        Дар байни тоҷикони олам то ҳол тахминан 200 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                        ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                        <div class='space'></div>
+                        <div class='space'></div>`,
                     link: '/arts?tj'
                 },
         },
@@ -63,31 +63,34 @@ export const stepInfo = [
             us: 
                 {
                     text: `Tajik customs and traditions reflect a mix of Persian, Islamic, Zoroastrian, and Central Asian heritage, 
-                    evident in their strong emphasis on family values and honoring elders. Celebrations like Navrüz, Mehrgon and weddings display 
-                    colorful rituals, traditional clothing, and lively music and dances. The culture values hospitality and finds artistic 
-                    richness in classical poetry, folk music, and ornate handicrafts.
-                    <div class='space'></div>
-                    <div class='space'></div>`,
+                        reflected in their strong emphasis on family values and honoring elders. Celebrations like Navrüz, Mehrgon and 
+                        weddings are filled with spirituality and are accompanied by colorful rituals, traditional clothing, and folk songs and dances. 
+                        <div class='space'></div>
+                        The culture values hospitality and finds artistic richness in classical poetry, folklore, and ornate handicrafts.
+                        <div class='space'></div>
+                        <div class='space'></div>`,
                     link: "/customs"
                 },
             ru:  {
-                    text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                    <div class='space'></div>
-                    В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
-                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
-                    <div class='space'></div>
-                    <div class='space'></div>`,
+                    text: `Таджикские обычаи и традиции отражают смесь персидского, исламского, 
+                        зороастрийского и центральноазиатского наследия, что проявляется в значимости семьи и почитании старших. 
+                        Такие праздники, как Навруз, Мехрган и свадьбы пропитаны духовностью и сопровождаются народными песнями, 
+                        танцами и обрядами.
+                        <div class='space'></div>
+                        Культура отличается гостеприимством и большое значение придается 
+                        классической поэзии, фольклору и ремеслам.           
+                        <div class='space'></div>
+                        <div class='space'></div>`,
                     link: "/customs?ru"
                 },
             tj: {
-                    text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                    ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
-                    <div class='space'></div>
-                    Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                    ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
-                    <div class='space'></div>
-                    <div class='space'></div>`,
+                    text: `Дар урфу одат ва анъанаҳои тоҷикон омезиши маданияти форсӣ, исломӣ, зардуштӣ ва Осиёи Марказӣ зоҳир мешаванд, ки 
+                        аҳамияти калон ба арзишҳои оилавӣ ва эҳтироми пирон дода мешаванд. Ҷашнвораҳо аз қабили Наврӯзу Меҳргон ва 
+                        тӯйҳо саршори расму оинҳои рангоранг, либосҳои маҳаллӣ ва суруду рақсҳои мардумӣ ҳастанд.
+                        <div class='space'></div>
+                        Тоҷикон мардуми меҳмоннавоз буда, дар ин фарҳанг ашъори классикӣ, фолклор ва ҳунарҳои дастӣ ҷои махсусро ишғол мекунанд.
+                        <div class='space'></div>
+                        <div class='space'></div>`,
                     link: "/customs?tj",
                 },
         },
@@ -168,7 +171,7 @@ export const stepInfo = [
                     They encapsulate their unique worldviews, their ancestral wisdom, 
                     their stories, and their songs.
                     These languages stand as a testament of resilience, serving as a bridge 
-                    connecting the past and the present - defining who Tajiks are.
+                    connecting the past and the present — defining who Tajiks are.
                     <div class='space'></div>
                     <div class='space'></div>`,
                     link: "/language"

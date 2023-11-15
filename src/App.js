@@ -57,8 +57,8 @@ function App() {
                 <Menu setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />
                 <AnimationRoutes />
                 <div className='fixed-container'>
-                    {!isPrint && <Flags position={position} />}
-                    {showArrow ? <ScrollUpArrow position={position} parentRef={parentRef} /> : null}
+                    {!isPrint && <Flags />}
+                    {showArrow ? <ScrollUpArrow parentRef={parentRef} /> : null}
                 </div>
                 <AdSense />
                 {!isPrint ? <Footer /> : null}

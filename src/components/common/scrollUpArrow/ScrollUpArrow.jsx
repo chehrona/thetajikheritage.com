@@ -4,7 +4,7 @@ import { ArrowUpward } from "@mui/icons-material";
 
 import { MainContainer, StyledIconButton, Arrow } from "./scrollUpArrowStyles";
 
-export default function ScrollUpArrow({ position, parentRef }) {
+export default function ScrollUpArrow({ parentRef }) {
 
     const handleScrollToTop = () => {
         parentRef.current.scrollTo({
@@ -14,7 +14,7 @@ export default function ScrollUpArrow({ position, parentRef }) {
     }
 
     return (
-        <MainContainer position={position} onClick={handleScrollToTop}>
+        <MainContainer onClick={handleScrollToTop}>
             <StyledIconButton>
                 <Arrow>
                     <ArrowUpward />

@@ -8,6 +8,7 @@ import tjLogo from "./images/tajikistan.png";
 export const FlagWrapper = styled.div`
     width: fit-content;
     cursor: pointer;
+    pointer-events: auto;
 
     @media (max-width: 480px) {
         position: fixed;

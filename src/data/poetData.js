@@ -279,8 +279,8 @@ module.exports.poets = [
                         There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wield&shying the 
                         po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and to 
                         di&shyrect&shyly calling the na&shytion for war against the emir.
-                        <br>After the unsuccessful Kolesov champaign, whose aim was to overthrow the emir, the emir turns Bu&shykha&shyra 
-                        in&shyto a "slaugh&shyter&shyhouse." In this chaos, his young&shyer brother,
+                        <br>After the unsuccessful Kolesov champaign, whose aim was to over&shythrow the emir, the emir turns Bu&shykha&shyra 
+                        in&shyto a "slaugh&shyter&shyhouse." In this chaos, his young&shyer bro&shyther,
                         <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was falsely accused of being a jadid and brutally strangled 
                         to death in prison. Ayni chan&shynel&shyled his grief into his literary work,
                         <div class='tooltip'>"Mar&shysi&shyya."
@@ -386,7 +386,7 @@ module.exports.poets = [
                     desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
                         and they moved in&shyto her pa&shyrents' home in Sa&shymar&shykand. 
                         Despite Ayni's dire financial si&shytu&shyation,
-                        Sa&shylo&shyhat re&shymained un&shydeterred in her com&shymit&shyment to him. She dedicated herself to creating an 
+                        Sa&shylo&shyhat re&shymained un&shydeterred in her com&shymit&shyment to him. She de&shydi&shycated her&shyself to creating an 
                         environment where his literary genius could flou&shyrish, a de&shydi&shyca&shytion that persisted until their final days.<sup>1</sup>
                         <div class='space'></div>
                         They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
@@ -979,7 +979,7 @@ module.exports.poets = [
                             <div class='emptyLine'></div>
                             Эту высокую честь он удостоился за заслуги в создании Советской Со&shyци&shyа&shyлис&shyти&shyчес&shyкой 
                             Республики Таджикистан и 
-                            за книги, освещающие национальную иден&shyтич&shyность таджиков. В частности, его книга «Образцы таджикской литературы» 
+                            за книги, освещающие на&shyци&shyональ&shyную иден&shyтич&shyность таджиков. В частности, его книга «Образцы таджикской литературы» 
                             является показателем древней истории и культуры таджикского народа.`
                     },
                     {

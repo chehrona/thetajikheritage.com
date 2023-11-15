@@ -63,6 +63,7 @@ body * {
     z-index: 1000;
     bottom: 0rem;
     display: flex;
+    pointer-events: none;
     justify-content: space-between;
     align-items: end;
     padding: 0rem 0rem 1rem 0.3rem;
