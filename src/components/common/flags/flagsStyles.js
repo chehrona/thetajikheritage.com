@@ -1,4 +1,4 @@
-import { IconButton } from "@mui/material";
+import { IconButton, Tooltip, tooltipClasses } from "@mui/material";
 import styled from "styled-components";
 import khorLogo from "./images/khorasan.png";
 import usLogo from "./images/united-states.png";
@@ -6,15 +6,8 @@ import ruLogo from "./images/russia.png";
 import tjLogo from "./images/tajikistan.png";
 
 export const FlagWrapper = styled.div`
-    height: 2rem;
-    width: 2rem;
+    width: fit-content;
     cursor: pointer;
-    position: absolute;
-    z-index: 100;
-    left: 0.3rem;
-    margin-bottom: 1rem;
-    transition: bottom 0.1s;
-    bottom: ${({ position }) => position && `-${position}px`};
 
     @media (max-width: 480px) {
         position: fixed;
@@ -53,17 +46,16 @@ export const StyledFlag = styled.div`
 `;
 
 export const FlagDropdown = styled.div`
-    position: absolute;
-    bottom: 2rem;
-    left: 0rem;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    opacity: ${({ showLangMenu }) => showLangMenu ? 1 : 0};
 `;
 
 export const StyledIconButton = styled(IconButton)`
     &.MuiIconButton-root {
         height: 2.5rem;
         width: 2.5rem;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.2rem;
     }
 
     @media (max-width: 480px) {
@@ -78,3 +70,25 @@ export const StyledIconButton = styled(IconButton)`
         }
     }
 `;
+
+export const StyledTooltip = styled(({ className, ...props }) => (
+    <Tooltip {...props} classes={{ popper: className }} />
+    ))(() => ({
+        [`& .${tooltipClasses.tooltip}`]: {
+            fontSize: 'inherit',
+            fontFamily: 'inherit',
+            fontWeight: 'normal',
+            padding: '0.5rem 1rem',
+        },
+        [`& .${tooltipClasses.tooltipArrow}`]: {
+            backgroundColor: '#70654a',
+        },
+        [`& .${tooltipClasses.arrow}`]: {
+            color: '#70654a'
+        },
+        '@media (max-width: 896px)': {
+            [`& .${tooltipClasses.tooltip}`]: {
+                display: 'none',
+            },
+        },
+}));

@@ -1,6 +1,4 @@
 import styled, { keyframes } from "styled-components/macro";
-import { Clear } from "@mui/icons-material";
-import { motion}  from "framer-motion";
 import { Tooltip, tooltipClasses } from "@mui/material";
 
 const openAnimation = keyframes`

@@ -3,13 +3,9 @@ import { IconButton } from "@mui/material";
 
 export const MainContainer = styled.div`
     cursor: pointer;
-    position: absolute;
-    z-index: 100;
-    right: -1.8rem;
     height: 5rem;
     width: 5rem;
-    margin-bottom: -5px;
-    bottom: ${({ position }) => position && `-${position}px`};
+    margin: 0rem -1.8rem -1rem 0rem;
 
     @media (max-width: 896px) {
         display: none;
@@ -33,6 +29,7 @@ export const StyledIconButton = styled(IconButton)`
 
 export const Arrow = styled.div`
     color: #bd9d52;
+    background-color: #fff;
     height: 100%;
     width: 100%;
     border: 0.0625rem solid #bd9d52;

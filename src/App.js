@@ -54,10 +54,12 @@ function App() {
             <div className='content-container' ref={parentRef} onScroll={handleScroll}>
                 <Tooltip anchor={anchor} text={tooltipText} />
                 {!isPrint && <Header setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />}
-                {!isPrint && <Flags position={position} />}
                 <Menu setIsMenuShown={setIsMenuShown} isMenuShown={isMenuShown} />
                 <AnimationRoutes />
-                {showArrow ? <ScrollUpArrow position={position} parentRef={parentRef} setShowArrow={setShowArrow} /> : null}
+                <div className='fixed-container'>
+                    {!isPrint && <Flags position={position} />}
+                    {showArrow ? <ScrollUpArrow position={position} parentRef={parentRef} /> : null}
+                </div>
                 <AdSense />
                 {!isPrint ? <Footer /> : null}
             </div>
