@@ -24,6 +24,7 @@ export const Tooltip = ({ key, content }) => {
             key={key}
             title={<StyledTypography dangerouslySetInnerHTML={{ __html: content.text }} />} 
             arrow
+            placement="top"
         >
             <span>
                 <ClickAwayListener onClickAway={handleClickAway}>

@@ -110,8 +110,8 @@ export const InfoInnerContainer = styled.div`
 
 export const InfoWrapper = styled.div`
     height: 27rem;
-    min-width: 800px;
-    max-width: 800px;
+    min-width: 810px;
+    max-width: 810px;
     background: #fcf6e9;
     border-radius: 1rem;
     display: flex;

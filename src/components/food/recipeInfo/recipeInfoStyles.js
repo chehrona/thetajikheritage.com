@@ -63,7 +63,6 @@ export const MainTitle = styled.div`
 
 export const HistoryInfo = styled.div`
     opacity: 0;
-    z-index: 2;
     color: #0F0A00;
     font-size: 1.1rem;
     position: relative;

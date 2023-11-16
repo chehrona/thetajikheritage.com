@@ -49,7 +49,7 @@ module.exports.poets = [
                         Имен&shyно в этом спло&shyчен&shyном со&shyоб&shyщест&shyве он зна&shyко&shyмит&shyся с ми&shyром на&shyрод&shyной 
                         ли&shyте&shyра&shyту&shyры, вклю&shyча&shyю&shyщей сказ&shyки, ле&shyген&shyды, пес&shyни, анек&shyдо&shyты и посло&shyви&shyцы.<sup>2</sup>
                         <div class='space'></div>
-                        В школьные годы, как описано в его книге «Ста&shyрая шко&shyла», он не по&shyлучил особой поль&shyзы от фор&shyмального образования.
+                        В школьные годы, как описано в его книге «Ста&shyрая шко&shyла», он не по&shyлу&shyчил осо&shyбой поль&shyзы от фор&shyмаль&shyно&shyго образования.
                         Од&shyна&shyко он по&shyзна&shyко&shyмил&shyся с поэзией таких вы&shyда&shyю&shyщих&shyся мас&shyтеров, как Саади, Ха&shyфиз, Саиб, Бедиль и дру&shyгих.
                         <div class='space'></div>
                         Его отец, не&shyсмот&shyря на то, что был скром&shyным зем&shyле&shyдель&shyцем, имел глу&shyбо&shyкую лю&shyбовь к об&shyра&shyзо&shyва&shyнию и 
@@ -58,10 +58,10 @@ module.exports.poets = [
                 tj: {
                         year: '15 апрели 1878',
                         slides: {img: '/poetImages/ayni/soktare.png', text: `Хонаи бачагии Садриддин Айнӣ дар Соктаре<sup>4</sup>`},
-                        desc: `Садриддин Саидмуродзода дар хо&shyна&shyводаи <span style='font-weight: bold;'>Саидмуродхоҷа</span>
+                        desc: `Садриддин Саидмуродзода дар хо&shyна&shyво&shyдаи <span style='font-weight: bold;'>Саидмуродхоҷа</span>
                         ва <span style='font-weight: bold;'>Зеварой</span> дар деҳаи Сок&shyта&shyреи ноҳияи Ғиҷдувони Аморати 
                         Бу&shyхо&shyро ба дунё ома&shyда&shyаст.<sup>1</sup>
-                        Чун аз оилаи кишоварз буд, бачагии худро дар байни деҳқонон ва ҳу&shyнар&shyман&shyдо&shyни ма&shyҳаллӣ гузаронидааст. 
+                        Чун аз ои&shyлаи ки&shyшо&shyварз буд, ба&shyча&shyгии худ&shyро дар байни деҳқонон ва ҳу&shyнар&shyман&shyдо&shyни ма&shyҳаллӣ гузаронидааст. 
                         Маҳз дар ҳамин ҷомеа бо олами адабиёти халқӣ, аз ҷумла афсонаҳо, ривоятҳо, сурудҳо,
                         шӯ&shyхи&shyҳо ва зарбулмасалҳо аз наздик шинос ме&shyша&shyвад.<sup>2</sup>
                         <div class='space'></div>
@@ -130,8 +130,7 @@ module.exports.poets = [
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.jpeg',
                             desc: `He became one of the early members of "Ja&shyvon&shybu&shykho&shyri&shyyon – "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" – 
-                                "Young Bukharians", 
-                                a secret society, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for re&shyforms and mo&shyderni&shyza&shytion of 
+                                "Young Bukharians", a sec&shyret society, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for re&shyforms and mo&shyderni&shyza&shytion of 
                                 Cen&shytral Asia.<sup>5</sup>`,
                         }
                     ],
@@ -785,8 +784,9 @@ module.exports.poets = [
                         ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст</div>`
                     ],
                 ru: [
-                        `В 1951 году была основана Академия наук Таджикской ССР, первым президентом которой был назначен Садриддин Айни.
-                        Он занимал эту должность до своей кончины в 1954 году.`,
+                        `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, пер&shyвым пре&shyзи&shyден&shyтом ко&shyто&shyрой 
+                        был на&shyзна&shyчен Сад&shyрид&shyдин Ай&shyни.
+                        Он за&shyни&shyмал эту долж&shyность до сво&shyей кон&shyчи&shyны в 1954 го&shyду.`,
                         `В 1920 го&shyду Ай&shyни на&shyпи&shyсал свое пер&shyвое круп&shyное про&shyиз&shyве&shyде&shyние 
                         «Бу&shyхарс&shyкие па&shyла&shyчи». За&shyтем в 1924 го&shyду он 
                         на&shyписал рас&shyсказ «Оди&shyна», за ко&shyто&shyрым по&shyсле&shyдо&shyвал по&shyвесть «До&shyхун&shyда» (на&shyпи&shyсан&shyный 
@@ -827,8 +827,8 @@ module.exports.poets = [
                         из&shyдан&shyной в 1937 го&shyду, на тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей</div>`,
                     ],
                     us: [
-                        `In 1951, the Academy of Sciences of Tajik SSR was founded, with Sadriddin Ayni appointed as its inaugural president. 
-                        He continued to hold this position until his passing.`,
+                        `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its in&shyau&shygu&shyral pre&shysi&shydent. 
+                        He held this po&shysition until his passing in 1954.`,
                         `In 1920, Ayni penned his first ma&shyjor li&shyte&shyra&shyry work, "The Bu&shykhara Ex&shyec&shyu&shytion&shyers." Then, 
                         he wrote the short sto&shyry "Odi&shyna" in 1924, fol&shylowed by the no&shyvel "Do&shykhun&shyda" (writ&shyten 
                         be&shytween 1927 and 1928, but pub&shylished in 1930). "The Slaves" was re&shyleased in 1934, and his most ex&shytensive 
