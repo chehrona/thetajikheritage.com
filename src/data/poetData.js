@@ -286,7 +286,7 @@ module.exports.poets = [
                         to death in prison. Ayni chan&shynel&shyled his grief into his literary work, "`,
                         tooltip: {
                             word: `Mar&shysi&shyya.`,
-                            text: `A genre of po&shyet&shyry in Ta&shyjik literature recited during times of mourning`
+                            text: `A genre of po&shyet&shyry in Ta&shyjik li&shyte&shyra&shyture re&shyci&shyted du&shyring times of mourn&shying`
                         },
                         text2: `"
                         <div class='space'></div>In 1922, the Basmachi forces murdered Ay&shyni's older brother – 

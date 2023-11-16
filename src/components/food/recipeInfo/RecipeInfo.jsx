@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { useSetLang } from "../../../App";
+
+import { DescWrapper } from "../../common/tooltip/Tooltip";
+
 import { 
     InfoContainer,
     MainTitle,
     HistoryInfo,
     ImageContainer,
     MainImage,
-    StyledButton,
     StyledPinIcon
 } from "./recipeInfoStyles";
 
@@ -30,7 +32,7 @@ export default function RecipeInfo({ recipe }) {
                 <MainImage src={recipe?.mainImg} />
             </ImageContainer>
             <MainTitle>{recipe.title[lang]}</MainTitle>
-            <HistoryInfo dangerouslySetInnerHTML={{__html: recipe.history[lang]}}></HistoryInfo>
+            <DescWrapper desc={recipe.history[lang].desc} TextWrapper={HistoryInfo} />
         </InfoContainer>
     )
 }

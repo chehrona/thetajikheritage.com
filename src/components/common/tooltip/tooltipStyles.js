@@ -19,6 +19,12 @@ export const StyledTooltip = styled(({ className, ...props }) => (
 export const StyledTypography = styled.div`
     font-family: 'IBM Plex Serif', serif;
     padding: 0.5rem;
+    font-size: 1.1rem;
+
+    @media (max-width: 480px) {
+        font-size: 1.3rem;
+        line-height: 1.65rem;
+    }
 `;
 
 export const WordWrapper = styled.span`

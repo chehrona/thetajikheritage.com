@@ -1,9 +1,6 @@
 import React from "react";
-import { useEffect } from "react";
 import { useMediaQuery } from 'react-responsive';
 import { useSetLang } from "../../../App";
-
-import { IconButton } from "@mui/material";
 
 import {
     MainContainer,
