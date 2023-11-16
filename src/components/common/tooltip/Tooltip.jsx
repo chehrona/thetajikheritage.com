@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { ClickAwayListener } from "@mui/material";
-import { useMediaQuery } from 'react-responsive';
 
 import {
     StyledTooltip,
