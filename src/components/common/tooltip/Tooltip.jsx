@@ -8,9 +8,8 @@ import {
     StyledTypography
 } from "./tooltipStyles";
 
-export const DescWrapper = ({ desc, TextWrapper }) => {
+export const Tooltip = ({ key, content }) => {
     const [show, setShow] = useState(0);
-    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
 
     function handleShow() {
         setShow(1);
@@ -20,35 +19,23 @@ export const DescWrapper = ({ desc, TextWrapper }) => {
         setShow(0);
     }
 
-    const renderContent = () => {
-        return Object.keys(desc).map((key) => {
-            const content = desc[key];
-    
-            if (key.startsWith('tooltip')) {
-                return (
-                    <StyledTooltip
-                        open={show}
-                        key={key}
-                        title={<StyledTypography dangerouslySetInnerHTML={{ __html: content.text }} />} 
-                        arrow
-                    >
-                        <span>
-                            <ClickAwayListener onClickAway={handleClickAway}>
-                                <WordWrapper
-                                    dangerouslySetInnerHTML={{ __html: content.word }}
-                                    onClick={handleShow}
-                                    onMouseEnter={() => setShow(1)}
-                                    onMouseLeave={() => setShow(0)}
-                                />
-                            </ClickAwayListener>
-                        </span>
-                    </StyledTooltip>
-                );
-            } else {
-                return <span key={key} dangerouslySetInnerHTML={{ __html: content }} />;
-            }
-        });
-    };
-  
-    return <TextWrapper>{renderContent()}</TextWrapper>;
+    return (
+        <StyledTooltip
+            open={show}
+            key={key}
+            title={<StyledTypography dangerouslySetInnerHTML={{ __html: content.text }} />} 
+            arrow
+        >
+            <span>
+                <ClickAwayListener onClickAway={handleClickAway}>
+                    <WordWrapper
+                        dangerouslySetInnerHTML={{ __html: content.word }}
+                        onClick={handleShow}
+                        onMouseEnter={() => setShow(1)}
+                        onMouseLeave={() => setShow(0)}
+                    />
+                </ClickAwayListener>
+            </span>
+        </StyledTooltip>
+    );
 };

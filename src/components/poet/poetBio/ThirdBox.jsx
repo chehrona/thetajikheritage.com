@@ -1,7 +1,7 @@
 import React from "react";
 import { useSetLang } from "../../../App";
 
-import { DescWrapper } from "../../common/tooltip/Tooltip";
+import { DescWrapper } from "../../common/descWrapper/DescWrapper";
 
 import {
     BoxThree,

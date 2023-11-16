@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import { Tooltip, tooltipClasses } from '@mui/material';
 
 export const StyledTooltip = styled(({ className, ...props }) => (

@@ -1,4 +1,4 @@
-import { useContext, createContext, useMemo, useState, useEffect, useRef } from 'react';
+import { useContext, createContext, useMemo, useState, useRef } from 'react';
 import Header from './components/common/header/Header';
 import Menu from './components/common/menu/Menu';
 import Footer from './components/common/footer/Footer';
