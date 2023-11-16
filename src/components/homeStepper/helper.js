@@ -31,10 +31,10 @@ export const stepInfo = [
                 },
             tj: 
                 {
-                    text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                        ки бо тарзи зиндагӣ, фарҳанг ва асотири тоҷикон печида аст.
+                    text: `Ҳунарҳои мардумӣ намунаи моддии фикрӣ ва зебоишиносии тоҷикон буда, 
+                        бо тарзи зиндагӣ, фарҳанг ва асотири тоҷикон пайвастаанд.
                         <div class='space'></div>
-                        Дар байни тоҷикони олам то ҳол тахминан 200 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                        Дар байни тоҷикони олам, то ҳол, тахминан 200 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
                         ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                         <div class='space'></div>
                         <div class='space'></div>`,
@@ -57,7 +57,7 @@ export const stepInfo = [
         text: {
             us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.4}, margin: {d: -4.5, m: -1, t: -10}},
             ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: -4.5, m: -1, t: -10.5}},
-            tj: {text: "Расму оин", font: {d: 8.8, m: 7.5, t: 10}, margin: {d: -2, m: 3, t: -6}}
+            tj: {text: "Расму оин", font: {d: 8, m: 7.5, t: 10}, margin: {d: -2.8, m: 3, t: -6}}
         },
         desc: {
             us: 
@@ -85,7 +85,7 @@ export const stepInfo = [
                 },
             tj: {
                     text: `Дар урфу одат ва анъанаҳои тоҷикон омезиши маданияти форсӣ, исломӣ, зардуштӣ ва Осиёи Марказӣ зоҳир мешаванд, ки 
-                        аҳамияти калон ба арзишҳои оилавӣ ва эҳтироми пирон дода мешаванд. Ҷашнвораҳо аз қабили Наврӯзу Меҳргон ва 
+                        аҳамияти калон ба арзишҳои оилавӣ ва эҳтироми пирон дода мешаванд. Ҷашнвораҳо, аз қабили Наврӯзу Меҳргон ва 
                         тӯйҳо саршори расму оинҳои рангоранг, либосҳои маҳаллӣ ва суруду рақсҳои мардумӣ ҳастанд.
                         <div class='space'></div>
                         Тоҷикон мардуми меҳмоннавоз буда, дар ин фарҳанг ашъори классикӣ, фолклор ва ҳунарҳои дастӣ ҷои махсусро ишғол мекунанд.
@@ -109,29 +109,29 @@ export const stepInfo = [
         num: "03",
         text: {
             us: {text: "Cuisine", font: {d: 11, m: 6.8, t: 11}, margin: {d: 0, m: 0, t: -9.5}},
-            ru: {text: "Кухня", font: {d: 11.7, m: 7.6, t: 12}, margin: {d: 0, m: 0, t: -9.5}},
-            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.65, t: 10.5}, margin: {d: 0, m: -0.5, t: -9.5}}
+            ru: {text: "Кухня", font: {d: 11.7, m: 7.6, t: 12}, margin: {d: -3.5, m: 0, t: -9.5}},
+            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.65, t: 10.5}, margin: {d: -2, m: -0.5, t: -9.5}}
         },
         desc: {
             us: {
                 text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
-                of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
-                <div class='space'></div>
-                There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
-                many as old as the Eastern Iranian civilization itself.
-                <div class='space'></div>
-                <div class='space'></div>`,
-                link: "/cuisine"
+                    of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
+                    <div class='space'></div>
+                    There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
+                    many as old as the Eastern Iranian civilization itself.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/cuisine"
             },
             ru: {
                 text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                <div class='space'></div>
-                В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
-                искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
-                <div class='space'></div>
-                <div class='space'></div>`,
-                link: "/cuisine?ru"
+                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
+                    <div class='space'></div>
+                    В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
+                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
+                    link: "/cuisine?ru"
             },
             tj: {
                     text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
@@ -145,12 +145,12 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: {d: "-0.5rem", t: "36rem"}, right: {d: "32rem", t: "3.5rem"}},
+            {size: 16, top: {d: "-1.5rem", t: "36rem"}, right: {d: "28rem", t: "3.5rem"}},
             {size: 12, top: {d: "1.5rem", t: "56rem"}, right: {d: "87.5%", t: "10rem"}},
             {size: 30, top: {d: "12rem", t: "-8rem"}, right: {d: "0rem", t: "15rem"}}
         ],
         inner: [
-            {size: 15, top: {d: "1rem", t: "36.5rem"}, right: {d: "32.5rem", t: "2.5rem"}, img: "/homeImages/cuisine3.png"},
+            {size: 15, top: {d: "0rem", t: "36.5rem"}, right: {d: "28.5rem", t: "2.5rem"}, img: "/homeImages/cuisine3.png"},
             {size: 11, top: {d: "2rem", t: "56.5rem"}, right: {d: "88%", t: "10.5rem"}, img: "/homeImages/cuisine2.png"},
             {size: 29, top: {d: "12rem", t: "-8rem"}, right: {d: "1rem", t: "16rem"}, img: "/homeImages/cuisine1.png"}
         ],
@@ -159,16 +159,16 @@ export const stepInfo = [
         num: "04",
         text: {
             us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: -2.5, m: 0, t: -9}},
-            ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: 0, m: 0, t: -9}},
-            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: 3, m: 1.5, t: -6}}
+            ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: -2.5, m: 0, t: -9}},
+            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: 0, m: 1.5, t: -6}}
         },
         desc: {
             us: {
                     text: `The languages spoken by the Tajik peoples, whether belonging to the Western or 
                     Eastern Iranian language continua, 
-                    lie at the core of their identity and have been detrimental for their survival.
+                    lie at the core of their identity and have been paramount for their survival.
                     <div class='space'></div>
-                    They encapsulate their unique worldviews, their ancestral wisdom, 
+                    They encode their unique worldviews, their ancestral wisdom, 
                     their stories, and their songs.
                     These languages stand as a testament of resilience, serving as a bridge 
                     connecting the past and the present — defining who Tajiks are.
@@ -177,21 +177,19 @@ export const stepInfo = [
                     link: "/language"
                 },
             ru: {
-                    text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                    <div class='space'></div>
-                    В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
-                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                    text: `Забонҳои мардуми тоҷик, чи ба гурӯҳи забонҳои эронии ғарбӣ ва чи шарқӣ дахл доранд, 
+                    сарчашмаи ҳастӣ ва қавитарин исботи фарҳанги куҳани тоҷикон ҳастанд. Онҳо ҷаҳонбинии махсус, 
+                    ҳикмати аҷдодӣ, достонҳо ва таронаҳои тоҷиконро дар бар мегиранд. Ин забонҳо сабаби зинда мондани 
+                    тоҷикон буда, гузашташонро бо имрӯзашон мепайвандад.
                     <div class='space'></div>
                     <div class='space'></div>`,
                     link: "/language?ru"
                 },
             tj: {
-                    text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                    ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
-                    <div class='space'></div>
-                    Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                    ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                    text: `Забонҳои мардуми тоҷик, ки чи ба гурӯҳи забонҳои эронии ғарбӣ ва чи шарқӣ дахл доранд, 
+                    сарчашмаи ҳастӣ ва қавитарин исботи фарҳанги куҳани тоҷикон ҳастанд. Онҳо ҷаҳонбинии махсус, 
+                    ҳикмати аҷдодӣ, достонҳо ва таронаҳои тоҷиконро дар бар мегиранд. Ин забонҳо сабаби зинда мондани 
+                    тоҷикон буда, гузашташонро бо имрӯзашон мепайванданд.
                     <div class='space'></div>
                     <div class='space'></div>`,
                     link: "/language?tj"
@@ -212,7 +210,7 @@ export const stepInfo = [
         num: "05",
         text: {
             us: {text: "History", font: {d: 10.1, m: 6.25, t: 10}, margin: {d: 0, m: -0.5, t: -10}},
-            ru: {text: "История", font: {d: 8.79, m: 5.4, t: 8.8}, margin: {d: 0, m: -1, t: -10.5}},
+            ru: {text: "История", font: {d: 8.79, m: 5.4, t: 8.8}, margin: {d: -4.5, m: -1, t: -10.5}},
             tj: {text: "Таърих", font: {d: 10.7, m: 6.7, t: 10.5}, margin: {d: 0, m: -1, t: -10}}
         },
         desc: {
