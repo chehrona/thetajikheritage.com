@@ -1,5 +1,6 @@
 import React from "react";
 import { Tooltip } from "../tooltip/Tooltip";
+import { StyledSpan } from "./descWrapperStyles";
 
 export const DescWrapper = ({ desc, TextWrapper }) => {
     const renderContent = () => {
@@ -9,7 +10,7 @@ export const DescWrapper = ({ desc, TextWrapper }) => {
             if (key.startsWith('tooltip')) {
                 return <Tooltip key={key} content={content} />;
             } else {
-                return <span key={key} dangerouslySetInnerHTML={{ __html: content }} />;
+                return <StyledSpan key={key} dangerouslySetInnerHTML={{ __html: content }} />;
             }
         });
     };

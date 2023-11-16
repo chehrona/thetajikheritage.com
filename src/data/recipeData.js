@@ -21,9 +21,9 @@ module.exports.recipes = [
                         coun&shytries, in&shyclud&shying Ta&shyji&shykis&shytan. Its name, "shirchoy" orig&shyi&shynates from a com&shybi&shyna&shytion of two 
                         Ta&shyji&shyki words: <span class='termSpan'>"shir,"</span> mean&shying milk, and <span class='termSpan'>"choy,"</span> which re&shyfers to tea.<sup>1</sup>
                         The exact regional or his&shyto&shyri&shycal origins of shirchoy remain un&shycer&shytain. However, the most detailed account of the dish can be 
-                        found in the writings of the 19th—century Tajik scholar Vozeh.<sup>1,2</sup> It is conceivable that the dish traces its roots 
-                        as far back as the mid-8th century when tea was introduced to Central Asia from China.<sup>3</sup>
-                        Ad&shydi&shytion&shyal&shyly, the Pa&shymi&shyris have a leg&shyend&shyary ac&shycount regarding the creation of the ve&shyry first shir&shychoy:
+                        found in the writings of the 19th-cen&shytu&shyry Tajik scholar Vozeh.<sup>1,2</sup> It is pos&shysi&shyble that the dish traces its roots 
+                        as far back as the mid-8th cen&shytu&shyry when tea was introduced to Central Asia from China.<sup>3</sup>
+                        Ad&shydi&shytion&shyal&shyly, the Pa&shymi&shyris have a leg&shyend&shyary ac&shycount regarding the mak&shying of the ve&shyry first shir&shychoy:
                         <div class='quoteContainer'><div><div class='quoteSymbol'></div>
                         <div class='quoteWrapper'>One day, people came back 
                         to our village ... [and] brought leaves with them... We boiled a big pot of water and threw in all the tea, then invited 
@@ -70,7 +70,7 @@ module.exports.recipes = [
                         Однажды люди вернулись в нашу деревню ... [и] принесли с собой листья ... Мы вскипятили большую кастрюлю с водой и бросили в нее весь чай, 
                         а затем пригласили жителей деревни пить его. Люди пробовали это..., но находили это ужасным [очень горьким]. Позже люди стали добавлять в него [дополнительные] вещи 
                         [ингредиенты] — молоко, грецкие орехи, сушёное яблоко, другие вещи — и оно им постепенно начало нравиться.<sup style='font-style: normal'>4</sup>
-                        <div style='font-style: normal; font-size: 1.1rem;'>*Дословный перевод с английского.</div></div></div></div>
+                        <div style='font-style: normal; font-size: 1rem;'>*Дословный перевод с английского.</div></div></div></div>
                         В отличие от чая с молоком с Запада, такого как английский чай, таджикский чай с мо&shyло&shyком это больше, чем просто напиток — он служит сытной едой, которую обычно по&shyда&shyют 
                         на завтрак или в качестве легкого ужи&shyна.<br>
                         Приготовление ширчоя предполагает со&shyче&shyтание молока и чая, но на этом не ос&shyта&shyнав&shyли&shyвается. Дополнительные ингредиенты добавляются для улучшения вкуса и тек&shyсту&shyры. Это могут 
