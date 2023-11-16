@@ -10,23 +10,23 @@ export const stepInfo = [
             us: 
                 {
                     text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
-                    of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
-                    <div class='space'></div>
-                    There are nearly 200 unique arts and crafts still practiced within the Tajik communities, 
-                    many as old as the Eastern Iranian civilization itself.
-                    <div class='space'></div>
-                    <div class='space'></div>`,
+                        of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
+                        <div class='space'></div>
+                        There are nearly 200 unique arts and crafts still practiced within the Tajik communities, 
+                        many as old as the Eastern Iranian civilization itself.
+                        <div class='space'></div>
+                        <div class='space'></div>`,
                     link: '/arts'
                 },
             ru: 
                 {
                     text: `Народные промыслы являются воплощением и интеллектуального, и эстетического 
-                    наследия таджиков. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                    <div class='space'></div>
-                    Среди таджиков до сих пор сохранилось около 200 уникальных видов 
-                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
-                    <div class='space'></div>
-                    <div class='space'></div>`,
+                        наследия таджиков. Они неразрывно связаны с их образом жизни, культурой и мифологией.
+                        <div class='space'></div>
+                        Среди таджиков до сих пор сохранилось около 200 уникальных видов 
+                        искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                        <div class='space'></div>
+                        <div class='space'></div>`,
                     link: '/arts?ru'
                 },
             tj: 
@@ -121,7 +121,7 @@ export const stepInfo = [
                     many as old as the Eastern Iranian civilization itself.
                     <div class='space'></div>
                     <div class='space'></div>`,
-                    link: "/cuisine"
+                link: "/cuisine"
             },
             ru: {
                 text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
@@ -131,17 +131,17 @@ export const stepInfo = [
                     искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                     <div class='space'></div>
                     <div class='space'></div>`,
-                    link: "/cuisine?ru"
+                link: "/cuisine?ru"
             },
             tj: {
-                    text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
+                text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
                     ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
                     <div class='space'></div>
                     Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
                     ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
                     <div class='space'></div>
                     <div class='space'></div>`,
-                    link: "/cuisine?tj"
+                link: "/cuisine?tj"
                 }
         },
         outer: [
@@ -164,7 +164,7 @@ export const stepInfo = [
         },
         desc: {
             us: {
-                    text: `The languages spoken by the Tajik peoples, whether belonging to the Western or 
+                text: `The languages spoken by the Tajik peoples, whether belonging to the Western or 
                     Eastern Iranian language continua, 
                     lie at the core of their identity and have been paramount for their survival.
                     <div class='space'></div>
@@ -174,25 +174,25 @@ export const stepInfo = [
                     connecting the past and the present — defining who Tajiks are.
                     <div class='space'></div>
                     <div class='space'></div>`,
-                    link: "/language"
+                link: "/language"
                 },
             ru: {
-                    text: `Забонҳои мардуми тоҷик, чи ба гурӯҳи забонҳои эронии ғарбӣ ва чи шарқӣ дахл доранд, 
+                text: `Забонҳои мардуми тоҷик, чи ба гурӯҳи забонҳои эронии ғарбӣ ва чи шарқӣ дахл доранд, 
                     сарчашмаи ҳастӣ ва қавитарин исботи фарҳанги куҳани тоҷикон ҳастанд. Онҳо ҷаҳонбинии махсус, 
                     ҳикмати аҷдодӣ, достонҳо ва таронаҳои тоҷиконро дар бар мегиранд. Ин забонҳо сабаби зинда мондани 
                     тоҷикон буда, гузашташонро бо имрӯзашон мепайвандад.
                     <div class='space'></div>
                     <div class='space'></div>`,
-                    link: "/language?ru"
+                link: "/language?ru"
                 },
             tj: {
-                    text: `Забонҳои мардуми тоҷик, ки чи ба гурӯҳи забонҳои эронии ғарбӣ ва чи шарқӣ дахл доранд, 
+                text: `Забонҳои мардуми тоҷик, ки чи ба гурӯҳи забонҳои эронии ғарбӣ ва чи шарқӣ дахл доранд, 
                     сарчашмаи ҳастӣ ва қавитарин исботи фарҳанги куҳани тоҷикон ҳастанд. Онҳо ҷаҳонбинии махсус, 
                     ҳикмати аҷдодӣ, достонҳо ва таронаҳои тоҷиконро дар бар мегиранд. Ин забонҳо сабаби зинда мондани 
                     тоҷикон буда, гузашташонро бо имрӯзашон мепайванданд.
                     <div class='space'></div>
                     <div class='space'></div>`,
-                    link: "/language?tj"
+                link: "/language?tj"
                 }
         },
         outer: [
@@ -215,33 +215,33 @@ export const stepInfo = [
         },
         desc: {
             us: {
-                    text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
+                text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
                     of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
                     <div class='space'></div>
                     There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
                     many as old as the Eastern Iranian civilization itself.
                     <div class='space'></div>
                     <div class='space'></div>`,
-                    link: "/history"
+                link: "/history"
                 },
             ru: {
-                    text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
+                text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
                     наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
                     <div class='space'></div>
                     В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
                     искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
                     <div class='space'></div>
                     <div class='space'></div>`,
-                    link: "/history?ru"
+                link: "/history?ru"
                 },
             tj: {
                 text: `Ҳунарҳои мардумӣ ҳамчун намунаи моддии фикрӣ ва зебоишиносии тоҷикон хизмат мекунанд, 
-                ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
-                <div class='space'></div>
-                Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
-                ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
-                <div class='space'></div>
-                <div class='space'></div>`,
+                    ки бо тарзи зиндагӣ, фарҳанг ва асотирии тоҷикон печида аст.
+                    <div class='space'></div>
+                    Дар байни тоҷикони олам то ҳол тахминан 500 намуди ҳунарҳои хос ва беҳамто вуҷуд доранд, 
+                    ки қадимии бисёрашон баробари қадимии тамаддуни эрониёни шарқӣ ҳастанд.
+                    <div class='space'></div>
+                    <div class='space'></div>`,
                 link: "/history?tj"
             }
         },
