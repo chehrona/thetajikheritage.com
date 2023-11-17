@@ -29,6 +29,21 @@ export const MainContainer = styled.div`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         font-size: 1.3rem;
+        padding-bottom: 0rem;
+        position: relative;
+
+        &:after {
+            content: "";
+            padding: 3rem;  
+            width: 100%;
+            background: #0F0A00;
+            background-image: url(${'/noise.png'});
+            -webkit-clip-path: polygon(100% 0, 0% 100%, 0% 100%, 100% 100%);
+            clip-path: polygon(100% 0, 0% 100%, 0% 100%, 100% 100%);
+            position: absolute;
+            bottom: 1.01rem;
+            box-sizing: border-box;
+        }
     }
 `;
 
@@ -155,8 +170,8 @@ export const NavBox = styled.div`
     ${({ bottom }) => bottom ? 'bottom: 0rem' : 'top: 8rem'};
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-        height: 2rem;
-        ${({ bottom }) => bottom ? 'bottom: 3rem' : 'top: 10rem'};
+        height: 5rem;
+        ${({ bottom }) => bottom ? 'bottom: 3rem' : 'top: 8rem'};
     }
 `;
 
@@ -169,6 +184,10 @@ export const NavWrapper = styled.div`
 
     @media (max-width: 480px) {
         display: none;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        height: 8rem;
     }
 `;
 
@@ -211,8 +230,8 @@ export const StyledIconButton = styled(IconButton)`
 
         &.MuiIconButton-root {
             transform: ${({ bottom }) => bottom ? 'rotate(90deg)' : 'rotate(-90deg)'};
-            margin-bottom: ${({ bottom }) => bottom && '-0.5rem'};
-            margin-top: ${({ bottom }) => !bottom && '-0.5rem'};
+            margin-bottom: ${({ bottom }) => bottom && '-0.6rem'};
+            margin-top: ${({ bottom }) => !bottom && '-0.6rem'};
         }
     }
 `;
@@ -415,7 +434,7 @@ export const ImageWrapper = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-        height: 45rem;
+        height: 40rem;
     }
 `;
 
@@ -500,6 +519,10 @@ export const Overlay = styled.div`
     width: 100%;
     overflow: hidden;
     filter: grayscale(1);
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        height: 40rem;
+    }
 `;
 
 export const BackImg = styled.div`

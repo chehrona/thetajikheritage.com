@@ -20,7 +20,7 @@ export const MainContainer = styled.div`
         box-sizing: border-box;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         padding-top: 1rem;
         margin-top: -1rem;
 

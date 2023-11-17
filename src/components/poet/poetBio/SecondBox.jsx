@@ -89,7 +89,7 @@ export default function SecondBox({ poet }) {
                     <StyledIconButton
                         bottom={1}
                         onClick={moveDown}
-                        disabled={infoArr[1] === poet?.two[lang][infoArr?.length - 1]}
+                        disabled={infoArr[0] === poet?.two[lang][infoArr?.length - 1]}
                     >
                         <Arrow>
                             <ArrowForwardIos style={{marginLeft: '1px'}}/>
@@ -102,7 +102,7 @@ export default function SecondBox({ poet }) {
                 <StyledIconButton
                     bottom={1}
                     onClick={moveDown}
-                    disabled={infoArr[1] === poet?.two[lang][poet?.two[lang].length - 1]}
+                    disabled={infoArr[0] === poet?.two[lang][poet?.two[lang].length - 1]}
                 >
                     <Arrow>
                         <ArrowForwardIos style={{marginLeft: '1px'}}/>

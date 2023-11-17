@@ -25,6 +25,11 @@ export const StyledTypography = styled.div`
         font-size: 1.3rem;
         line-height: 1.65rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        padding: 0.25rem;
+        line-height: 1.5rem;
+    }
 `;
 
 export const WordWrapper = styled.span`
