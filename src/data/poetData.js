@@ -94,13 +94,13 @@ module.exports.poets = [
                                 working as a cook, handling laundry tasks, and more.<sup>2</sup>`
                         },
                         {
-                            year: '11024',
+                            year: '1896',
                             image: '/poetImages/ayni/slides/ayni3.jpeg',
                             desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
                                 po&shyet&shyry and literature, thanks to his acquaintance with Sha&shyrif&shyjon-makh&shydum. He penned his ini&shytial 
                                 poems using pseudonyms like "Muh&shytoji," "Jununi," and "Sifli."
                                 <div class='space'></div>
-                                How&shyever, in 11024, he adop&shyted the pseu&shydo&shynym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
+                                How&shyever, in 1896, he adop&shyted the pseu&shydo&shynym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
                         },
                         {
                             year: '1897-1898',
@@ -154,13 +154,13 @@ module.exports.poets = [
                             чер&shyно&shyра&shyбо&shyчим.<sup>2</sup>`
                     },
                     {
-                        year: '11024',
+                        year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `Во вре&shyмя сво&shyей уче&shyбы в мед&shyре&shyсе он по&shyзна&shyко&shyмит&shyся с людь&shyми, ин&shyте&shyре&shyсу&shyю&shyщи&shyми&shyся
                             по&shyэ&shyзией и ли&shyте&shyра&shyту&shyрой, бла&shyго&shyдаря зна&shyком&shyству с Ша&shyриф&shyджо&shyном-мах&shyду&shyмом. 
                             Свои пер&shyвые сти&shyхи он на&shyпи&shyсал под псев&shyдо&shyни&shyма&shyми «Мух&shyто&shyджи», «Джу&shyну&shyни» и «Сиф&shyли».
                             <div class='space'></div>
-                            Од&shyна&shyко в 11024 го&shyду он взял псев&shyдо&shyним «Ай&shyни» и под этим име&shyнем по&shyлу&shyчил
+                            Од&shyна&shyко в 1896 го&shyду он взял псев&shyдо&shyним «Ай&shyни» и под этим име&shyнем по&shyлу&shyчил
                             ли&shyте&shyра&shyтур&shyную из&shyвес&shyтность.<sup>2</sup>`,
                     },
                     {
@@ -219,13 +219,13 @@ module.exports.poets = [
                             фар&shyро&shyши мад&shyра&shyса, гоҳ ош&shyпаз, гоҳ ҷо&shyма&shyшӯй ва ё мар&shyди&shyкор шу&shyда кор ку&shyнад.<sup>2</sup>`
                     },
                     {
-                        year: '11024',
+                        year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `Дар вақ&shyти мад&shyра&shyса&shyхо&shyни&shyаш бо ода&shyмо&shyне, ки ба шеъ&shyру адаб ишқ дош&shyтан&shyду шо&shyи&shyрӣ ме&shyкар&shyданд, 
                         ба са&shyба&shyби наз&shyди&shyки&shyаш бо Ша&shyриф&shyҷон-мах&shyдум, ши&shyнос ме&shша&shyвад. Вай шеър&shyҳои ав&shyва&shyли&shyни худ&shyро бо 
                         та&shyхал&shyлус&shyҳои «Мӯҳ&shyто&shyҷӣ», «Ҷу&shyну&shyнӣ» ва «Сиф&shyлӣ» эъ&shyҷод ме&shyку&shyнад.
                         <div class='space'></div>
-                        Ам&shyмо со&shyли 11024 та&shyхал&shyлу&shyси «Ай&shyнӣ»-ро ги&shyриф&shyта бо ин ном шӯҳ&shyра&shyти ада&shyбӣ пай&shyдо кард.<sup>2</sup>`,
+                        Ам&shyмо со&shyли 1896 та&shyхал&shyлу&shyси «Ай&shyнӣ»-ро ги&shyриф&shyта бо ин ном шӯҳ&shyра&shyти ада&shyбӣ пай&shyдо кард.<sup>2</sup>`,
                     },
                     {
                         year: '1897-1898',
