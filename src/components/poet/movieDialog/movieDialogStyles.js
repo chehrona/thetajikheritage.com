@@ -111,24 +111,21 @@ export const InfoContainer = styled.div`
 `;
 
 export const InnerBox = styled.div`
-    width: 62%;
+    width: 65%;
+    height: 100%;
     background: #fcf6e9;
     position: relative;
-    border-radius: 2rem 0rem 0rem 2rem;
     padding: 2rem;
-    height: 100%;
 
     ${({ width }) => width && `
-        background: #0F0A00";
+        background: #0F0A00;
         position: relative;
-        border-radius: 0rem 2rem 2rem 0rem;
     `}
 
     @media (max-width: 1024px) {
         width: 100%;
         z-index: 2;
         padding: 1.5rem;
-        border-radius: 2rem;
         overflow-x: hidden;
         position: absolute;
         top: ${({ expand }) => expand ? '0rem' : '40%'};
@@ -156,7 +153,7 @@ export const InfoTitle = styled.div`
     font-style: bold;
     font-size: 3.5rem;
     line-height: 3.5rem;
-    width: 100%;
+    width: 80%;
     text-transform: uppercase;
     margin-top: 1rem;
     font-family: 'EB Garamond', serif;
@@ -201,8 +198,8 @@ export const MovieImg = styled.img`
     width: auto;
     position: absolute;
     top: 50%;
-    left: 47%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(0%, -50%);
     box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
 
     @media (max-width: 1024px) {
