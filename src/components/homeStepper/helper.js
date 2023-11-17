@@ -42,14 +42,14 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, bottom: {d: "-2%", t: "-2%"}, right: {d: "24%", t: "18%"}},
+            {size: 16, bottom: {d: "-3%", t: "-2%"}, right: {d: "24%", t: "18%"}},
             {size: 12, bottom: {d: "3%", t: "25%"}, right: {d: "7.7%", t: "7%"}},
-            {size: 30, top: {d: "-6.2%", t: "-7.2%"}, right: {d: "-3%", t: "-4.5%"}}
+            {size: 30, top: {d: "-13.2%", t: "-7.2%"}, right: {d: "-3%", t: "-4.5%"}}
         ],
         inner: [
-            {size: 15, bottom: {d: "-1.5%", t: "-1.5%"}, right: {d: "24.5%", t: "18.5%"}, img: "/homeImages/craft3.png"},
+            {size: 15, bottom: {d: "-1.75%", t: "-1.5%"}, right: {d: "24.5%", t: "18.5%"}, img: "/homeImages/craft3.png"},
             {size: 11, bottom: {d: "3.5%", t: "25.5%"}, right: {d: "7.2%", t: "6.5%"}, img: "/homeImages/craft2.png"},
-            {size: 29, top: {d: "-6%", t: "-6.5%"}, right: {d: "-1.2%", t: "-2.2%"}, img: "/homeImages/craft1.png"}
+            {size: 29, top: {d: "-13%", t: "-6.5%"}, right: {d: "-1.2%", t: "-2.2%"}, img: "/homeImages/craft1.png"}
         ],
     },
     {
@@ -95,14 +95,14 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, top: {d: "-3%", t: "-2%"}, right: {d: "27%", t: "32%"}},
-            {size: 12, bottom: {d: "1%", t: "50%"}, right: {d: "30.5%", t: "2%"}},
-            {size: 30, top: {d: "8%", t: "55%"}, right: {d: "0.5%", t: "1%"}}
+            {size: 16, top: {d: "-7%", t: "-2%"}, right: {d: "29%", t: "32%"}},
+            {size: 12, bottom: {d: "1%", t: "50%"}, right: {d: "35%", t: "2%"}},
+            {size: 30, top: {d: "17%", t: "55%"}, right: {d: "0.5%", t: "1%"}}
         ],
         inner: [
-            {size: 15, top: {d: "-3.5%", t: "-2.5%"}, right: {d: "27.7%", t: "32.7%"}, img: "/homeImages/custom3.png"},
-            {size: 11, bottom: {d: "1.5%", t: "50.5%"}, right: {d: "31%", t: "2.5%"}, img: "/homeImages/custom2.png"},
-            {size: 29, top: {d: "8%", t: "55%"}, right: {d: "1.5%", t: "2%"}, img: "/homeImages/custom1.png"}
+            {size: 15, top: {d: "-7.5%", t: "-2.5%"}, right: {d: "29.7%", t: "32.7%"}, img: "/homeImages/custom3.png"},
+            {size: 11, bottom: {d: "1.5%", t: "50.5%"}, right: {d: "35%", t: "2.5%"}, img: "/homeImages/custom2.png"},
+            {size: 29, top: {d: "17%", t: "55%"}, right: {d: "1.5%", t: "2%"}, img: "/homeImages/custom1.png"}
         ],
     },
     {
@@ -147,12 +147,12 @@ export const stepInfo = [
         outer: [
             {size: 16, top: {d: "-1.5%", t: "50%"}, right: {d: "26%", t: "3.5%"}},
             {size: 12, top: {d: "0.5%", t: "80%"}, right: {d: "87.5%", t: "15%"}},
-            {size: 30, top: {d: "12%", t: "-8%"}, right: {d: "0%", t: "15%"}}
+            {size: 30, top: {d: "25%", t: "-8%"}, right: {d: "0%", t: "15%"}}
         ],
         inner: [
             {size: 15, top: {d: "0%", t: "50.5%"}, right: {d: "26.5%", t: "2.5%"}, img: "/homeImages/cuisine3.png"},
             {size: 11, top: {d: "1%", t: "80.5%"}, right: {d: "88%", t: "15.5%"}, img: "/homeImages/cuisine2.png"},
-            {size: 29, top: {d: "12%", t: "-8%"}, right: {d: "1%", t: "16%"}, img: "/homeImages/cuisine1.png"}
+            {size: 29, top: {d: "25%", t: "-8%"}, right: {d: "1%", t: "16%"}, img: "/homeImages/cuisine1.png"}
         ],
     },
     {
@@ -196,13 +196,13 @@ export const stepInfo = [
         },
         outer: [
             {size: 16, top: {d: "1.2%", t: "54.5%"}, right: {d: "1%", t: "3%"}},
-            {size: 12, top: {d: "3%", t: "4%"}, right: {d: "27%", t: "51%"}},
+            {size: 12, top: {d: "0%", t: "4%"}, right: {d: "30%", t: "51%"}},
             {size: 30, bottom: {d: "-5%", t: "62%"}, right: {d: "9.5%", t: "-5%"}},
         ],
         inner: [
             {size: 15, top: {d: "0.4%", t: "55%"}, right: {d: "2%", t: "3%"}, img: "/homeImages/lang3.png"},
-            {size: 11, top: {d: "3.5%", t: "4.5%"}, right: {d: "28.5%", t: "50%"}, img: "/homeImages/lang2.png"},
-            {size: 29, bottom: {d: "-4.5%", t: "62.5%"}, right: {d: "10%", t: "-4.5%"}, img: "/homeImages/lang1.png"}
+            {size: 11, top: {d: "1.5%", t: "4.5%"}, right: {d: "29.5%", t: "50%"}, img: "/homeImages/lang2.png"},
+            {size: 29, bottom: {d: "-3.75%", t: "62.5%"}, right: {d: "10%", t: "-4.5%"}, img: "/homeImages/lang1.png"}
         ],
     },
     {
@@ -245,12 +245,12 @@ export const stepInfo = [
             }
         },
         outer: [
-            {size: 16, top: {d: "1%", t: "3%"}, right: {d: "23%", t: "3%"}},
-            {size: 12, top: {d: "-1.5%", t: "1%"}, right: {d: "50%", t: "33%"}},
+            {size: 16, top: {d: "1%", t: "3%"}, right: {d: "26%", t: "3%"}},
+            {size: 12, top: {d: "-1%", t: "1%"}, right: {d: "50%", t: "33%"}},
             {size: 30, bottom: {d: "-5%", t: "-4%"}, right: {d: "3%", t: "1.5%"}}
         ],
         inner: [
-            {size: 15, top: {d: "1.5%", t: "3.5%"}, right: {d: "23.5%", t: "3.5%"}, img: "/homeImages/history3.png"},
+            {size: 15, top: {d: "2.25%", t: "3.5%"}, right: {d: "26.5%", t: "3.5%"}, img: "/homeImages/history3.png"},
             {size: 11, top: {d: "0.5%", t: "2%"}, right: {d: "52%", t: "35%"}, img: "/homeImages/history2.png"},
             {size: 29, bottom: {d: "-3.5%", t: "-3.5%"}, right: {d: "1.5%", t: "1.5%"}, img: "/homeImages/history1.png"}
         ],
