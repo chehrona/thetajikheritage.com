@@ -268,9 +268,8 @@ export const ReleaseInfo = styled.div`
     color: #504221d1;
 
     @media (max-width: 1024px) {
-        padding-top: 1rem;
+        padding-top: 1rem 0rem 0rem 0rem;
         width: 100%;
-        padding-right: 0rem;
     }  
 `;
 
