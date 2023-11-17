@@ -117,11 +117,11 @@ export const Step = styled.div`
 `;
 
 export const TitleWrapper = styled.div`
-    height: 65%;
+    height: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 2rem;
+    justify-content: flex-start;
+    margin-top: 7rem;
 
     @media (max-width: 480px) {
         height: 30%;
@@ -134,7 +134,6 @@ export const LargeTitle = styled.div`
     font-weight: bold;
     color: #ffffffb2;
     width: 45rem;
-    padding-top: 1rem;
     overflow-wrap: break-word;
     text-transform: uppercase;
     font-family: 'EB Garamond', serif;
@@ -142,6 +141,7 @@ export const LargeTitle = styled.div`
     font-size: ${({ fontSize }) => fontSize && `${fontSize.d}rem`};
     opacity: ${({ fontSize }) => fontSize ? "1" : "0"};
     line-height: ${({ fontSize }) => fontSize && `${fontSize.d - 1}rem`};
+    margin-top: ${({ margin }) => margin && `${margin.d}rem`};
 
     @media (max-width: 480px) {
         width: 100%;
@@ -165,7 +165,7 @@ export const Desc = styled.div`
     width: 40%;
     margin-left: 10%;
     position: relative;
-    margin-top: ${({ margin }) => margin && `${margin.d}rem`};
+    margin-top: 2rem;
 
     @media (max-width: 480px) {
         font-size: 1.3rem;
@@ -205,7 +205,7 @@ export const OtherSteps = styled.div`
 
 export const StyledButton = styled.div`
         color: #bd9d52;
-        height: 20%;
+        height: fit-content;
         font-weight: 500;
         padding: 0rem 0rem 0.25rem 0rem;
         width: ${({ lang }) => lang && 

@@ -61,15 +61,20 @@ export const StyledIconButton = styled(IconButton)`
 export const StyledArrowButton = styled(IconButton)`
     width: 2.5rem;
     height: 2.5rem;
-    transform: rotate(-90deg) translateX(-50%);
     position: absolute;
-    left: calc(50% - 1.5rem);
     top: -2rem;
+    left: calc(50% - 1.5rem);
+    transform: rotate(-90deg) translateX(-50%);
+    display: none;
+
+    @media (max-width: 1024px) {
+        display: block;
+    }
 `;
 
 export const StyledCloseButton = styled(IconButton)`
-    width: 2rem;
-    height: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
     top: 0.5rem;
     right: 0.5rem;
     z-index: 10;

@@ -70,14 +70,9 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                             opacity={opacities[i]}
                         >
                             <IndicatorStep>{step?.num}</IndicatorStep>
-                            <div>
-                                <TitleWrapper>
-                                    <LargeTitle
-                                        fontSize={step?.text[lang].font}>
-                                            {step?.text[lang].text}
-                                    </LargeTitle>
-                                </TitleWrapper>
-                                <Desc margin={step?.text[lang]?.margin}>
+                            <TitleWrapper>
+                                <LargeTitle fontSize={step?.text[lang].font} margin={step?.text[lang]?.margin}>{step?.text[lang].text}</LargeTitle>
+                                <Desc>
                                     <div
                                         dangerouslySetInnerHTML={{__html: step?.desc[lang].text}}
                                     />
@@ -87,7 +82,7 @@ export default function HomeStepper({ containerRef, divRefs, opacities }) {
                                         </StyledButton>
                                     </Link>
                                 </Desc>
-                            </div>
+                            </TitleWrapper>
                         </StepperBox>
                     );
                 })}

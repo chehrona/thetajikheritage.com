@@ -44,7 +44,7 @@ const ContentTransition = ({ children, ...props }) => (
 export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo }) {
     const [showVideo, setShowVideo] = useState(false);
     const [isMounted, setIsMounted] = useState(false);
-    const isMobile = useMediaQuery({ query: `(max-width: 480px)` });
+    const isMobile = useMediaQuery({ query: `(max-width: 1024px)` });
     const iframeRef = useRef(null);
     const { lang } = useSetLang();
     const [fullSize, setFullSize] = useState(0);
@@ -104,9 +104,9 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
             >
                 {showVideo ? (
                     <InfoContainer>
-                        <StyledIconButton onClick={handleFrameClose}>
+                        <StyledCloseButton onClick={handleFrameClose}>
                             <StyledCloseIcon />
-                        </StyledIconButton>
+                        </StyledCloseButton>
                         <StyledFrame
                             src={`https://www.youtube.com/embed/${movieInfo?.link}?autoplay=1&rel=0`}
                             allow='autoplay; encrypted-media'

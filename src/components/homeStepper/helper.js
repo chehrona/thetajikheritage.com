@@ -2,8 +2,8 @@ export const stepInfo = [
     {
         num: "01",
         text: {
-            us: {text: "Arts & crafts", font: {d: 9.8, m: 7.1, t: 10}, margin: {d: -0.5, m: 2, t: -4}},
-            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, t: 7.1}, margin: {d: -2.5, m: 0, t: -8}},
+            us: {text: "Arts & crafts", font: {d: 9.8, m: 7.1, t: 10}, margin: {d: 0, m: 2, t: -4}},
+            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, t: 7.1}, margin: {d: 1, m: 0, t: -8}},
             tj: {text: "Санъат & ҳунар", font: {d: 9.5, m: 6.1, t: 8.65}, margin: {d: 0, m: 2, t: -6}}
         },
         desc: {
@@ -55,9 +55,9 @@ export const stepInfo = [
     {
         num: "02",
         text: {
-            us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.4}, margin: {d: -4.5, m: -1, t: -10}},
-            ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: -4.5, m: -1, t: -10.5}},
-            tj: {text: "Расму оин", font: {d: 8, m: 7.5, t: 10}, margin: {d: -2.8, m: 3, t: -6}}
+            us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.4}, margin: {d: 4.5, m: -1, t: -10}},
+            ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: 3.5, m: -1, t: -10.5}},
+            tj: {text: "Расму оин", font: {d: 8, m: 7.5, t: 10}, margin: {d: -1, m: 3, t: -6}}
         },
         desc: {
             us: 
@@ -95,40 +95,40 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, top: {d: "-3rem", t: "-2rem"}, right: {d: "34rem", t: "32rem"}},
-            {size: 12, bottom: {d: "1rem", t: "50rem"}, right: {d: "27.5rem", t: "2rem"}},
-            {size: 30, top: {d: "6rem", t: "38rem"}, right: {d: "0.5rem", t: "1rem"}}
+            {size: 16, top: {d: "-3rem", t: "-2rem"}, right: {d: "27rem", t: "32rem"}},
+            {size: 12, bottom: {d: "1rem", t: "50rem"}, right: {d: "30.5rem", t: "2rem"}},
+            {size: 30, top: {d: "8rem", t: "38rem"}, right: {d: "0.5rem", t: "1rem"}}
         ],
         inner: [
-            {size: 15, top: {d: "-3.5rem", t: "-2.5rem"}, right: {d: "34.7rem", t: "32.7rem"}, img: "/homeImages/custom3.png"},
-            {size: 11, bottom: {d: "1.5rem", t: "50.5rem"}, right: {d: "28rem", t: "2.5rem"}, img: "/homeImages/custom2.png"},
-            {size: 29, top: {d: "6rem", t: "38rem"}, right: {d: "1.5rem", t: "2rem"}, img: "/homeImages/custom1.png"}
+            {size: 15, top: {d: "-3.5rem", t: "-2.5rem"}, right: {d: "27.7rem", t: "32.7rem"}, img: "/homeImages/custom3.png"},
+            {size: 11, bottom: {d: "1.5rem", t: "50.5rem"}, right: {d: "31rem", t: "2.5rem"}, img: "/homeImages/custom2.png"},
+            {size: 29, top: {d: "8rem", t: "38rem"}, right: {d: "1.5rem", t: "2rem"}, img: "/homeImages/custom1.png"}
         ],
     },
     {
         num: "03",
         text: {
-            us: {text: "Cuisine", font: {d: 11, m: 6.8, t: 11}, margin: {d: 0, m: 0, t: -9.5}},
-            ru: {text: "Кухня", font: {d: 11.7, m: 7.6, t: 12}, margin: {d: -3.5, m: 0, t: -9.5}},
-            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.65, t: 10.5}, margin: {d: -2, m: -0.5, t: -9.5}}
+            us: {text: "Cuisine", font: {d: 11, m: 6.8, t: 11}, margin: {d: 3.5, m: 0, t: -9.5}},
+            ru: {text: "Кухня", font: {d: 11.7, m: 7.6, t: 12}, margin: {d: 1, m: 0, t: -9.5}},
+            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.65, t: 10.5}, margin: {d: 4, m: -0.5, t: -9.5}}
         },
         desc: {
             us: {
-                text: `Handicrafts serve as a tangible representation of the intellectual and aesthetic essence 
-                    of the Tajiks, intricately intertwined with their lifestyle, culture, and mythology.
-                    <div class='space'></div>
-                    There are nearly 500 unique arts and crafts still practiced within the Tajik communities, 
-                    many as old as the Eastern Iranian civilization itself.
+                text: `Tajik cuisine, an intricate fusion of Middle Eastern, Central, East, and South 
+                    Asian influences with recent additions from Eastern Europe, boasts a unique flavor profile. 
+                    The culinary artistry, shaped over centuries along with the diverse geography of Tajik-inhabited lands, 
+                    has given rise to a special highland cuisine centered around grains and dairy, distinguishing it from 
+                    the meat and vegetable-centric fare prevalent in the culinary practices of lowland Tajiks.
                     <div class='space'></div>
                     <div class='space'></div>`,
                 link: "/cuisine"
             },
             ru: {
-                text: `Традиционные ремесла таджиков являются воплощением и интеллектуального, и эстетического 
-                    наследия этого народа. Они неразрывно связаны с их образом жизни, культурой и мифологией.
-                    <div class='space'></div>
-                    В современных таджикских общинах до сих пор сохранилось около 500 уникальных видов 
-                    искусства и ремесел, многие из которых возникли наравне с формированием восточноиранской цивилизации.
+                text: `Таджикская кухня, представляющая собой сложное сочетание влияний Ближнего Востока, Центральной, 
+                    Восточной и Южной Азии с недавними добавками из Восточной Европы, может похвастаться уникальным вкусовым профилем. 
+                    Кулинарное мастерство, формировавшееся на протяжении веков вместе с разнообразной географией населенных таджиками 
+                    земель, породило особую высокогорную кухню, основанную на зерновых и молочных продуктах, что отличает ее от 
+                    мясных и овощных блюд, преобладающих в кулинарии равнинных таджиков.
                     <div class='space'></div>
                     <div class='space'></div>`,
                 link: "/cuisine?ru"
@@ -145,42 +145,41 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: {d: "-1.5rem", t: "36rem"}, right: {d: "28rem", t: "3.5rem"}},
-            {size: 12, top: {d: "1.5rem", t: "56rem"}, right: {d: "87.5%", t: "10rem"}},
+            {size: 16, top: {d: "-1.5rem", t: "36rem"}, right: {d: "26rem", t: "3.5rem"}},
+            {size: 12, top: {d: "0.5rem", t: "56rem"}, right: {d: "87.5%", t: "10rem"}},
             {size: 30, top: {d: "12rem", t: "-8rem"}, right: {d: "0rem", t: "15rem"}}
         ],
         inner: [
-            {size: 15, top: {d: "0rem", t: "36.5rem"}, right: {d: "28.5rem", t: "2.5rem"}, img: "/homeImages/cuisine3.png"},
-            {size: 11, top: {d: "2rem", t: "56.5rem"}, right: {d: "88%", t: "10.5rem"}, img: "/homeImages/cuisine2.png"},
+            {size: 15, top: {d: "0rem", t: "36.5rem"}, right: {d: "26.5rem", t: "2.5rem"}, img: "/homeImages/cuisine3.png"},
+            {size: 11, top: {d: "1rem", t: "56.5rem"}, right: {d: "88%", t: "10.5rem"}, img: "/homeImages/cuisine2.png"},
             {size: 29, top: {d: "12rem", t: "-8rem"}, right: {d: "1rem", t: "16rem"}, img: "/homeImages/cuisine1.png"}
         ],
     },
     {
         num: "04",
         text: {
-            us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: -2.5, m: 0, t: -9}},
-            ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: -2.5, m: 0, t: -9}},
-            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: 0, m: 1.5, t: -6}}
+            us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: 3, m: 0, t: -9}},
+            ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: 2, m: 0, t: -9}},
+            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: -1, m: 1.5, t: -6}}
         },
         desc: {
             us: {
                 text: `The languages spoken by the Tajik peoples, whether belonging to the Western or 
-                    Eastern Iranian language continua, 
-                    lie at the core of their identity and have been paramount for their survival.
+                    Eastern Iranian language continua, lie at the core of their identity and have 
+                    been paramount for their survival.
                     <div class='space'></div>
-                    They encode their unique worldviews, their ancestral wisdom, 
-                    their stories, and their songs.
-                    These languages stand as a testament of resilience, serving as a bridge 
-                    connecting the past and the present — defining who Tajiks are.
+                    They encode Tajik people's unique worldviews, their ancestral wisdom, 
+                    their stories, and their songs. These languages stand as a testament of resilience, 
+                    serving as a bridge connecting the past and the present — defining who Tajiks are.
                     <div class='space'></div>
                     <div class='space'></div>`,
                 link: "/language"
                 },
             ru: {
-                text: `Забонҳои мардуми тоҷик, чи ба гурӯҳи забонҳои эронии ғарбӣ ва чи шарқӣ дахл доранд, 
-                    сарчашмаи ҳастӣ ва қавитарин исботи фарҳанги куҳани тоҷикон ҳастанд. Онҳо ҷаҳонбинии махсус, 
-                    ҳикмати аҷдодӣ, достонҳо ва таронаҳои тоҷиконро дар бар мегиранд. Ин забонҳо сабаби зинда мондани 
-                    тоҷикон буда, гузашташонро бо имрӯзашон мепайвандад.
+                text: `Языки, на которых говорят таджикские народы, независимо от того, принадлежат ли они к западному или 
+                    восточно-иранскому языковому континууму, лежат в основе их идентичности и имеют первостепенное значение для их выживания.
+                    В них закодированы уникальное мировоззрение, исконная мудрость, рассказы и песни таджикского народа. Эти языки являются 
+                    свидетельством устойчивости и служат мостом, соединяющим прошлое и настоящее таджиков.
                     <div class='space'></div>
                     <div class='space'></div>`,
                 link: "/language?ru"
@@ -197,21 +196,21 @@ export const stepInfo = [
         },
         outer: [
             {size: 16, top: {d: "1.2rem", t: "40rem"}, right: {d: "1rem", t: "3rem"}},
-            {size: 12, top: {d: "4rem", t: "4rem"}, right: {d: "27rem", t: "35rem"}},
+            {size: 12, top: {d: "3rem", t: "4rem"}, right: {d: "27rem", t: "35rem"}},
             {size: 30, bottom: {d: "-5rem", t: "45rem"}, right: {d: "9.5rem", t: "-5rem"}},
         ],
         inner: [
             {size: 15, top: {d: "0.4rem", t: "39rem"}, right: {d: "2rem", t: "3rem"}, img: "/homeImages/lang3.png"},
-            {size: 11, top: {d: "4.5rem", t: "4.5rem"}, right: {d: "28.5rem", t: "36rem"}, img: "/homeImages/lang2.png"},
+            {size: 11, top: {d: "3.5rem", t: "4.5rem"}, right: {d: "28.5rem", t: "36rem"}, img: "/homeImages/lang2.png"},
             {size: 29, bottom: {d: "-4.5rem", t: "45.5rem"}, right: {d: "10rem", t: "-4.5rem"}, img: "/homeImages/lang1.png"}
         ],
     },
     {
         num: "05",
         text: {
-            us: {text: "History", font: {d: 10.1, m: 6.25, t: 10}, margin: {d: 0, m: -0.5, t: -10}},
-            ru: {text: "История", font: {d: 8.79, m: 5.4, t: 8.8}, margin: {d: -4.5, m: -1, t: -10.5}},
-            tj: {text: "Таърих", font: {d: 10.7, m: 6.7, t: 10.5}, margin: {d: 0, m: -1, t: -10}}
+            us: {text: "History", font: {d: 10.1, m: 6.25, t: 10}, margin: {d: 5, m: -0.5, t: -10}},
+            ru: {text: "История", font: {d: 8.79, m: 5.4, t: 8.8}, margin: {d: 5, m: -1, t: -10.5}},
+            tj: {text: "Таърих", font: {d: 10.7, m: 6.7, t: 10.5}, margin: {d: 5, m: -1, t: -10}}
         },
         desc: {
             us: {
