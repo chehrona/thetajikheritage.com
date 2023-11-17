@@ -130,7 +130,7 @@ module.exports.poets = [
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.jpeg',
                             desc: `He became one of the early members of "Ja&shyvon&shybu&shykho&shyri&shyyon – "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" – 
-                                "Young Bukharians", a sec&shyret society, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for re&shyforms and mo&shyderni&shyza&shytion of 
+                                "Young Bukharians," a sec&shyret society, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for re&shyforms and mo&shyderni&shyza&shytion of 
                                 Cen&shytral Asia.<sup>5</sup>`,
                         }
                     ],
