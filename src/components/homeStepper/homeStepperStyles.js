@@ -126,7 +126,6 @@ export const TitleWrapper = styled.div`
     @media (max-width: 480px) {
         height: 30%;
         min-height: 20%;
-        padding-top: 0%;
     }
 `;
 
@@ -152,10 +151,10 @@ export const LargeTitle = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-        padding-top: 3rem;
         opacity: ${({ fontSize }) => fontSize.t ? "1" : "0"};
         font-size: ${({ fontSize }) => fontSize && `${fontSize.t}rem`};
         line-height: ${({ fontSize }) => fontSize && `${fontSize.t - 0.5}rem`};
+        padding-top: ${({ margin }) => margin && `${margin.t}rem`};
     }
 `;
 
