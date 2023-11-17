@@ -123,11 +123,9 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                             <StyledCloseIcon />
                         </StyledCloseButton>
                         <InnerBox expand={fullSize}>
-                            {isMobile && 
-                                <StyledArrowButton arrow={1} onClick={handleExpand}>
-                                    {fullSize ? <SlideDown /> : <SlideUp />}
-                                </StyledArrowButton>
-                            }
+                            <StyledArrowButton arrow={1} onClick={handleExpand}>
+                                {fullSize ? <SlideDown /> : <SlideUp />}
+                            </StyledArrowButton>
                             <StudioName src={movieInfo?.studio}></StudioName>
                             <InfoTitle>{movieInfo?.title}</InfoTitle>
                             <ReleaseInfo>

@@ -38,6 +38,11 @@ export const Desc = styled.div`
             }
         `}
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        width: 100%;
+        padding-right: 0%;
+    }
 `;
 
 export const StyledIconButton = styled(IconButton)`
@@ -56,19 +61,28 @@ export const StyledIconButton = styled(IconButton)`
         width: 7.5rem;
         height: 7.5rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        width: 10rem;
+        height: 10rem;
+    }
 `;
 
 export const StyledArrowButton = styled(IconButton)`
-    width: 2.5rem;
-    height: 2.5rem;
-    position: absolute;
-    top: -2rem;
-    left: calc(50% - 1.5rem);
-    transform: rotate(-90deg) translateX(-50%);
-    display: none;
+    &.MuiIconButton-root {
+        display: none;
+    }
 
-    @media (max-width: 1024px) {
-        display: block;
+    @media (max-width: 480px) {
+        &.MuiIconButton-root {
+            display: block;
+            width: 2.5rem;
+            height: 2.5rem;
+            position: absolute;
+            top: -2rem;
+            left: calc(50% - 1.5rem);
+            transform: rotate(-90deg) translateX(-50%);
+        }
     }
 `;
 
@@ -83,7 +97,7 @@ export const StyledCloseButton = styled(IconButton)`
         position: absolute;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         &.MuiIconButton-root {
             top: 0.6rem;
             right: 0.6rem;
@@ -102,7 +116,7 @@ export const StyledContent = styled(DialogContent)`
         overflow: hidden;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         font-size: 1.3rem;
     }
 `;
@@ -137,24 +151,28 @@ export const InnerBox = styled.div`
         border-radius: 0rem 2rem 2rem 0rem;
     `}
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         width: 100%;
         z-index: 2;
         padding: 1.5rem;
         border-radius: 2rem;
-        overflow-y: scroll;
         overflow-x: hidden;
         position: absolute;
         top: ${({ expand }) => expand ? '0rem' : '40%'};
         display: ${({ width }) => width && 'none'};
         transition: all 0.5s;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        height: 50%;
+        top: 60%;
+    }
 `;
 
 export const StudioName = styled.img`
     height: 3rem;
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         position: absolute;
         left: 1.5rem;
     }
@@ -176,6 +194,10 @@ export const InfoTitle = styled.div`
        line-height: 3.3rem;
        width: 100%;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        margin-top: 3rem;
+    }
 `;
 
 export const StyledCloseIcon = styled(Close)`
@@ -186,7 +208,7 @@ export const StyledCloseIcon = styled(Close)`
         height: 2rem;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         &.MuiSvgIcon-root {
             width: 3rem;
             height: 2.5rem;
@@ -202,10 +224,17 @@ export const StyledPlayIcon = styled(PlayArrow)`
         height: 3rem;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         &.MuiSvgIcon-root {
             width: 5rem;
             height: 5rem;
+        }
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        &.MuiSvgIcon-root {
+            width: 7rem;
+            height: 7rem;
         }
     }
 `;
@@ -219,7 +248,7 @@ export const MovieImg = styled.img`
     transform: translateY(-50%);
     box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         top: 0rem;
         left: auto;
         transform: none;
@@ -238,7 +267,7 @@ export const ReleaseInfo = styled.div`
     padding-right: 2rem;
     color: #504221d1;
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         padding-top: 1rem;
         width: 100%;
         padding-right: 0rem;
@@ -265,7 +294,7 @@ export const Director = styled.div`
     margin-top: 1.5rem;
     margin-bottom: 0.3rem;
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         font-size: 2rem;
     }
 `;
@@ -278,7 +307,7 @@ export const DirBox = styled.div`
     left: 75%;
     top: 15%;
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         left: 50%;
         right: auto;
         transform: translateX(-50%);
@@ -291,7 +320,7 @@ export const Line = styled.div`
     height: 0.05rem;
     margin-right: 1rem;
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         display: none;
     }
 `;
@@ -302,7 +331,7 @@ export const Direction = styled.div`
     color: #fcf6e9;
     font-family: 'EB Garamond', serif;
 
-    @media (max-width: 480px) {
+    @media (max-width: 1024px) {
         display: none;
     }
 `;

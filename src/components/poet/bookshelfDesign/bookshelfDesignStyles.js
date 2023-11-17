@@ -1,20 +1,5 @@
-import styled, { keyframes } from "styled-components/macro";
+import styled from "styled-components/macro";
 import { Tooltip, tooltipClasses } from "@mui/material";
-
-const openAnimation = keyframes`
-    to {
-        transform: translateY(0%)
-    }
-`;
-
-const closeAnimation = keyframes`
-    from {
-        transform: translateY(0%)
-    }    
-    to {
-        transform: translateY(-100%)
-    }
-`;
 
 export const MainContainer = styled.div`
     width: 100%;
