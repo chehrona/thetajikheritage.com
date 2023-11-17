@@ -2,9 +2,9 @@ export const stepInfo = [
     {
         num: "01",
         text: {
-            us: {text: "Arts & crafts", font: {d: 9.8, m: 7.1, t: 10}, margin: {d: 0, m: 2, t: 10}},
-            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, t: 7.1}, margin: {d: 1, m: 0, t: 13}},
-            tj: {text: "Санъат & ҳунар", font: {d: 9.5, m: 6.1, t: 8.65}, margin: {d: 0, m: 2, t: 13}}
+            us: {text: "Arts & crafts", font: {d: 9.8, m: 7.1, t: 10}, margin: {d: 0, m: 2, t: 22}},
+            ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, t: 7}, margin: {d: 1, m: 0, t: 30}},
+            tj: {text: "Санъат & ҳунар", font: {d: 9.5, m: 6.1, t: 8.65}, margin: {d: 0, m: 2, t: 29}}
         },
         desc: {
             us: 
@@ -42,22 +42,22 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, bottom: {d: "-2rem", t: "-2rem"}, right: {d: "24rem", t: "18rem"}},
-            {size: 12, bottom: {d: "3rem", t: "18rem"}, right: {d: "7.7rem", t: "7rem"}},
-            {size: 30, top: {d: "-6.2rem", t: "-7.2rem"}, right: {d: "-3rem", t: "-4.5rem"}}
+            {size: 16, bottom: {d: "-2%", t: "-2%"}, right: {d: "24%", t: "18%"}},
+            {size: 12, bottom: {d: "3%", t: "25%"}, right: {d: "7.7%", t: "7%"}},
+            {size: 30, top: {d: "-6.2%", t: "-7.2%"}, right: {d: "-3%", t: "-4.5%"}}
         ],
         inner: [
-            {size: 15, bottom: {d: "-1.5rem", t: "-1.5rem"}, right: {d: "24.5rem", t: "18.5rem"}, img: "/homeImages/craft3.png"},
-            {size: 11, bottom: {d: "3.5rem", t: "18.5rem"}, right: {d: "7.2rem", t: "6.5rem"}, img: "/homeImages/craft2.png"},
-            {size: 29, top: {d: "-6rem", t: "-6.5rem"}, right: {d: "-1.2rem", t: "-2.2rem"}, img: "/homeImages/craft1.png"}
+            {size: 15, bottom: {d: "-1.5%", t: "-1.5%"}, right: {d: "24.5%", t: "18.5%"}, img: "/homeImages/craft3.png"},
+            {size: 11, bottom: {d: "3.5%", t: "25.5%"}, right: {d: "7.2%", t: "6.5%"}, img: "/homeImages/craft2.png"},
+            {size: 29, top: {d: "-6%", t: "-6.5%"}, right: {d: "-1.2%", t: "-2.2%"}, img: "/homeImages/craft1.png"}
         ],
     },
     {
         num: "02",
         text: {
-            us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.4}, margin: {d: 4.5, m: -1, t: 5}},
-            ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: 3.5, m: -1, t: 9}},
-            tj: {text: "Расму оин", font: {d: 8, m: 7.5, t: 9.5}, margin: {d: -1, m: 3, t: 9}}
+            us: {text: "Customs", font: {d: 9.3, m: 5.8, t: 9.3}, margin: {d: 4.5, m: -1, t: 15}},
+            ru: {text: "Обычаи", font: {d: 9.5, m: 6.1, t: 9.8}, margin: {d: 3.5, m: -1, t: 15}},
+            tj: {text: "Расму оин", font: {d: 8, m: 7.5, t: 9.5}, margin: {d: -1, m: 3, t: 14}}
         },
         desc: {
             us: 
@@ -95,22 +95,22 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, top: {d: "-3rem", t: "-2rem"}, right: {d: "27rem", t: "32rem"}},
-            {size: 12, bottom: {d: "1rem", t: "50rem"}, right: {d: "30.5rem", t: "2rem"}},
-            {size: 30, top: {d: "8rem", t: "38rem"}, right: {d: "0.5rem", t: "1rem"}}
+            {size: 16, top: {d: "-3%", t: "-2%"}, right: {d: "27%", t: "32%"}},
+            {size: 12, bottom: {d: "1%", t: "50%"}, right: {d: "30.5%", t: "2%"}},
+            {size: 30, top: {d: "8%", t: "55%"}, right: {d: "0.5%", t: "1%"}}
         ],
         inner: [
-            {size: 15, top: {d: "-3.5rem", t: "-2.5rem"}, right: {d: "27.7rem", t: "32.7rem"}, img: "/homeImages/custom3.png"},
-            {size: 11, bottom: {d: "1.5rem", t: "50.5rem"}, right: {d: "31rem", t: "2.5rem"}, img: "/homeImages/custom2.png"},
-            {size: 29, top: {d: "8rem", t: "38rem"}, right: {d: "1.5rem", t: "2rem"}, img: "/homeImages/custom1.png"}
+            {size: 15, top: {d: "-3.5%", t: "-2.5%"}, right: {d: "27.7%", t: "32.7%"}, img: "/homeImages/custom3.png"},
+            {size: 11, bottom: {d: "1.5%", t: "50.5%"}, right: {d: "31%", t: "2.5%"}, img: "/homeImages/custom2.png"},
+            {size: 29, top: {d: "8%", t: "55%"}, right: {d: "1.5%", t: "2%"}, img: "/homeImages/custom1.png"}
         ],
     },
     {
         num: "03",
         text: {
-            us: {text: "Cuisine", font: {d: 11, m: 6.8, t: 11}, margin: {d: 3.5, m: 0, t: 12}},
-            ru: {text: "Кухня", font: {d: 11.7, m: 7.6, t: 12}, margin: {d: 1, m: 0, t: 14}},
-            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.65, t: 10.5}, margin: {d: 4, m: -0.5, t: 11}}
+            us: {text: "Cuisine", font: {d: 11, m: 6.8, t: 11}, margin: {d: 3.5, m: 0, t: 30}},
+            ru: {text: "Кухня", font: {d: 11.7, m: 7.6, t: 11}, margin: {d: 1, m: 0, t: 29}},
+            tj: {text: "Ғизоҳо", font: {d: 10.7, m: 6.65, t: 10.5}, margin: {d: 4, m: -0.5, t: 31}}
         },
         desc: {
             us: {
@@ -145,22 +145,22 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: {d: "-1.5rem", t: "36rem"}, right: {d: "26rem", t: "3.5rem"}},
-            {size: 12, top: {d: "0.5rem", t: "56rem"}, right: {d: "87.5%", t: "10rem"}},
-            {size: 30, top: {d: "12rem", t: "-8rem"}, right: {d: "0rem", t: "15rem"}}
+            {size: 16, top: {d: "-1.5%", t: "50%"}, right: {d: "26%", t: "3.5%"}},
+            {size: 12, top: {d: "0.5%", t: "80%"}, right: {d: "87.5%", t: "15%"}},
+            {size: 30, top: {d: "12%", t: "-8%"}, right: {d: "0%", t: "15%"}}
         ],
         inner: [
-            {size: 15, top: {d: "0rem", t: "36.5rem"}, right: {d: "26.5rem", t: "2.5rem"}, img: "/homeImages/cuisine3.png"},
-            {size: 11, top: {d: "1rem", t: "56.5rem"}, right: {d: "88%", t: "10.5rem"}, img: "/homeImages/cuisine2.png"},
-            {size: 29, top: {d: "12rem", t: "-8rem"}, right: {d: "1rem", t: "16rem"}, img: "/homeImages/cuisine1.png"}
+            {size: 15, top: {d: "0%", t: "50.5%"}, right: {d: "26.5%", t: "2.5%"}, img: "/homeImages/cuisine3.png"},
+            {size: 11, top: {d: "1%", t: "80.5%"}, right: {d: "88%", t: "15.5%"}, img: "/homeImages/cuisine2.png"},
+            {size: 29, top: {d: "12%", t: "-8%"}, right: {d: "1%", t: "16%"}, img: "/homeImages/cuisine1.png"}
         ],
     },
     {
         num: "04",
         text: {
-            us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: 3, m: 0, t: 13}},
-            ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: 2, m: 0, t: 10}},
-            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: -1, m: 1.5, t: 15}}
+            us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: 3, m: 0, t: 28}},
+            ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: 2, m: 0, t: 25}},
+            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: -1, m: 1.5, t: 27}}
         },
         desc: {
             us: {
@@ -195,22 +195,22 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: {d: "1.2rem", t: "40rem"}, right: {d: "1rem", t: "3rem"}},
-            {size: 12, top: {d: "3rem", t: "4rem"}, right: {d: "27rem", t: "35rem"}},
-            {size: 30, bottom: {d: "-5rem", t: "43rem"}, right: {d: "9.5rem", t: "-5rem"}},
+            {size: 16, top: {d: "1.2%", t: "54.5%"}, right: {d: "1%", t: "3%"}},
+            {size: 12, top: {d: "3%", t: "4%"}, right: {d: "27%", t: "51%"}},
+            {size: 30, bottom: {d: "-5%", t: "62%"}, right: {d: "9.5%", t: "-5%"}},
         ],
         inner: [
-            {size: 15, top: {d: "0.4rem", t: "39rem"}, right: {d: "2rem", t: "3rem"}, img: "/homeImages/lang3.png"},
-            {size: 11, top: {d: "3.5rem", t: "4.5rem"}, right: {d: "28.5rem", t: "36rem"}, img: "/homeImages/lang2.png"},
-            {size: 29, bottom: {d: "-4.5rem", t: "43.5rem"}, right: {d: "10rem", t: "-4.5rem"}, img: "/homeImages/lang1.png"}
+            {size: 15, top: {d: "0.4%", t: "55%"}, right: {d: "2%", t: "3%"}, img: "/homeImages/lang3.png"},
+            {size: 11, top: {d: "3.5%", t: "4.5%"}, right: {d: "28.5%", t: "50%"}, img: "/homeImages/lang2.png"},
+            {size: 29, bottom: {d: "-4.5%", t: "62.5%"}, right: {d: "10%", t: "-4.5%"}, img: "/homeImages/lang1.png"}
         ],
     },
     {
         num: "05",
         text: {
             us: {text: "History", font: {d: 10.1, m: 6.25, t: 10}, margin: {d: 5, m: -0.5, t: 8}},
-            ru: {text: "История", font: {d: 8.79, m: 5.4, t: 8.8}, margin: {d: 5, m: -1, t: 10}},
-            tj: {text: "Таърих", font: {d: 10.7, m: 6.7, t: 10.5}, margin: {d: 5, m: -1, t: 8}}
+            ru: {text: "История", font: {d: 8.79, m: 5.4, t: 8.7}, margin: {d: 5, m: -1, t: 20}},
+            tj: {text: "Таърих", font: {d: 10.7, m: 6.7, t: 10.5}, margin: {d: 5, m: -1, t: 20}}
         },
         desc: {
             us: {
@@ -245,14 +245,14 @@ export const stepInfo = [
             }
         },
         outer: [
-            {size: 16, top: {d: "1rem", t: "3rem"}, right: {d: "23rem", t: "3rem"}},
-            {size: 12, top: {d: "-1.5rem", t: "1rem"}, right: {d: "50rem", t: "33rem"}},
-            {size: 30, bottom: {d: "-5rem", t: "-4rem"}, right: {d: "3rem", t: "1.5rem"}}
+            {size: 16, top: {d: "1%", t: "3%"}, right: {d: "23%", t: "3%"}},
+            {size: 12, top: {d: "-1.5%", t: "1%"}, right: {d: "50%", t: "33%"}},
+            {size: 30, bottom: {d: "-5%", t: "-4%"}, right: {d: "3%", t: "1.5%"}}
         ],
         inner: [
-            {size: 15, top: {d: "1.5rem", t: "3.5rem"}, right: {d: "23.5rem", t: "3.5rem"}, img: "/homeImages/history3.png"},
-            {size: 11, top: {d: "0.5rem", t: "2rem"}, right: {d: "52rem", t: "35rem"}, img: "/homeImages/history2.png"},
-            {size: 29, bottom: {d: "-3.5rem", t: "-3.5rem"}, right: {d: "1.5rem", t: "1.5rem"}, img: "/homeImages/history1.png"}
+            {size: 15, top: {d: "1.5%", t: "3.5%"}, right: {d: "23.5%", t: "3.5%"}, img: "/homeImages/history3.png"},
+            {size: 11, top: {d: "0.5%", t: "2%"}, right: {d: "52%", t: "35%"}, img: "/homeImages/history2.png"},
+            {size: 29, bottom: {d: "-3.5%", t: "-3.5%"}, right: {d: "1.5%", t: "1.5%"}, img: "/homeImages/history1.png"}
         ],
     },
 ];

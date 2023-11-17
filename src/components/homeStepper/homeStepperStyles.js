@@ -148,13 +148,14 @@ export const LargeTitle = styled.div`
         opacity: ${({ fontSize }) => fontSize.m ? "1" : "0"};
         font-size: ${({ fontSize }) => fontSize && `${fontSize.m}rem`};
         line-height: ${({ fontSize }) => fontSize && `${fontSize.m - 0.5}rem`};
+        margin-top: ${({ margin }) => margin && `${margin.m}%`};
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         opacity: ${({ fontSize }) => fontSize.t ? "1" : "0"};
         font-size: ${({ fontSize }) => fontSize && `${fontSize.t}rem`};
         line-height: ${({ fontSize }) => fontSize && `${fontSize.t - 0.5}rem`};
-        padding-top: ${({ margin }) => margin && `${margin.t}rem`};
+        margin-top: ${({ margin }) => margin && `${margin.t}%`};
     }
 `;
 
@@ -170,14 +171,12 @@ export const Desc = styled.div`
         font-size: 1.3rem;
         width: calc(100% - 2.2rem);
         margin-left: 2.2rem;
-        margin-top: ${({ margin }) => margin && `${margin.m}rem`};
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         width: 50%;
         margin-left: 3rem;
         font-size: 1.3rem;
-        margin-top: ${({ margin }) => margin && `${margin.t}rem`};
     }
 `;
 
