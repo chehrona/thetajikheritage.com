@@ -10,4 +10,8 @@ export const PageContainer = styled.div`
 		padding: 1.5rem 3.2rem 1.5rem 3.2rem;
 		min-height: calc(100svh - 9.23rem);
     }
+
+	@media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+		padding: 1.5rem 3.2rem;
+    }
 `;

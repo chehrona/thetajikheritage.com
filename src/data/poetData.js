@@ -5,7 +5,7 @@ module.exports.poets = [
         years: {us: ['1878', '1954'], ru: ['1878', '1954'], tj: ['1878', '1954'], kh: []},
         desc: {
             us: 'Sadriddin Saidmurodzoda - a Tajik writer, reformer, scholar, national hero, and founder of contemporary Tajik literature.',
-            ru: 'Садриддин Саидмуродзода – таджикский писатель, реформатор, ученый, национальный герой, и основоположник современной таджикской литературы.',
+            ru: 'Садриддин Саидмуродзода – таджикский писатель, ре&shyфор&shyма&shyтор, ученый, национальный герой, и основоположник совре&shyмен&shyной таджикской литературы.',
             tj: 'Садриддин Саидмуродзода нависандаи тоҷик, ислоҳталаб, олим, қаҳрамони миллӣ ва асосгузори адабиёти муосири тоҷик.',
             kh: '.صدرالدین سعیدمرودزاده - نویسنده تاجیک، اصلاح طلب، دانشمند، قهرمان ملی و اساس گذار ادبیات معاصر تاجیک'
         },
@@ -65,9 +65,9 @@ module.exports.poets = [
                         Маҳз дар ҳамин ҷомеа бо олами адабиёти халқӣ, аз ҷумла афсонаҳо, ривоятҳо, сурудҳо,
                         шӯ&shyхи&shyҳо ва зарбулмасалҳо аз наздик шинос ме&shyша&shyвад.<sup>2</sup>
                         <div class='space'></div>
-                        Дар солҳои мактабхонӣ, чунон ки дар ки&shyто&shyби худ «Мактаби кӯҳна» баён мекунад, аз таъ&shyли&shyми 
-                        рас&shyмӣ фоидаи зиёде намебинад. Аммо бори ав&shyвал бо ашъори устодони бар&shyҷас&shyта, аз қабили Саъ&shyдӣ, 
-                        Ҳо&shyфиз, Со&shyиб, Бе&shyдил ва дигарон ошно ме&shyшавад.
+                        Дар солҳои мактабхонӣ, чунон ки дар ки&shyто&shyби худ «Мак&shyта&shyби кӯҳ&shyна» баён ме&shyку&shyнад, аз таъ&shyли&shyми 
+                        рас&shyмӣ фоидаи зиёде намебинад. Аммо бори ав&shyвал бо ашъ&shyо&shyри ус&shyто&shyдо&shyни бар&shyҷас&shyта, аз қа&shyби&shyли Саъ&shyдӣ, 
+                        Ҳо&shyфиз, Со&shyиб, Бе&shyдил ва дигарон ошно ме&shyша&shyвад.
                         <div class='space'></div>
                         Падараш, бо вуҷуди деҳқони оддӣ буданаш, ба илму до&shyниш меҳри бе&shyан&shyдо&shyза дошт ва ин му&shyҳаб&shyбат&shyро 
                         ба фарзандонаш низ мерос гу&shyзош&shyта&shyаст.<sup>2,3</sup>`
@@ -222,10 +222,10 @@ module.exports.poets = [
                         year: '1896',
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `Дар вақ&shyти мад&shyра&shyса&shyхо&shyни&shyаш бо ода&shyмо&shyне, ки ба шеъ&shyру адаб ишқ дош&shyтан&shyду шо&shyи&shyрӣ ме&shyкар&shyданд, 
-                        ба са&shyба&shyби наз&shyди&shyки&shyаш бо Ша&shyриф&shyҷон-мах&shyдум, ши&shyнос ме&shша&shyвад. Вай шеър&shyҳои ав&shyва&shyли&shyни худ&shyро бо 
+                        ба са&shyба&shyби наз&shyди&shyки&shyаш бо Ша&shyриф&shyҷон-мах&shyдум, ши&shyнос ме&shyша&shyвад. Вай шеър&shyҳои ав&shyва&shyли&shyни худ&shyро бо 
                         та&shyхал&shyлус&shyҳои «Мӯҳ&shyто&shyҷӣ», «Ҷу&shyну&shyнӣ» ва «Сиф&shyлӣ» эъ&shyҷод ме&shyку&shyнад.
                         <div class='space'></div>
-                        Ам&shyмо со&shyли 1896 та&shyхал&shyлу&shyси «Ай&shyнӣ»-ро ги&shyриф&shyта бо ин ном шӯҳ&shyра&shyти ада&shyбӣ пай&shyдо кард.<sup>2</sup>`,
+                        Ам&shyмо со&shyли 1896 та&shyхал&shyлу&shyси «Ай&shyнӣ»-ро ги&shyриф&shyта, бо ин ном шӯҳ&shyра&shyти ада&shyбӣ пай&shyдо ме&shyку&shyнад.<sup>2</sup>`,
                     },
                     {
                         year: '1897-1898',
@@ -242,7 +242,7 @@ module.exports.poets = [
                         year: '1908',
                         image: '/poetImages/ayni/slides/ayni5.jpeg',
                         desc: `Як&shyҷоя бо чор дӯс&shyти наз&shyди&shyкаш ав&shyва&shyлин мак&shyта&shyби усу&shyли нав (ҷа&shyди&shyда)-ро дар Бу&shyхо&shyро ме&shyку&shyшо&shyяд.
-                            Мак&shyтаб дар ҳав&shyлии Мир&shyзо Аб&shyдул&shyво&shyҳид Мун&shyзим дар гу&shyза&shyри Са&shyлох&shyхо&shyна ҷой&shyгир ме&shyша&shyвад 
+                            Мак&shyтаб дар ҳав&shyлии Мир&shyзо Аб&shyдул&shyво&shyҳид Мун&shyзим, дар гу&shyза&shyри Са&shyлох&shyхо&shyна ҷой&shyгир ме&shyша&shyвад 
                             ва бо за&shyбо&shyни фор&shyсӣ, ба мар&shyду&shyми ма&shyҳал&shyлии бу&shyхо&shyроӣ дарс&shyди&shyҳи&shyро сар ме&shyку&shyнад.<sup>5</sup>`,
                     },
                     {
@@ -268,8 +268,12 @@ module.exports.poets = [
                     desc: {
                         text1: `After leaving the madrasa, Ayni continues his in&shyvolve&shyment with the ja&shydids, 
                         resisting the old ways so deeply engrained among the Bu&shykha&shyran clergy.
-                        His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the emir, 
-                        leading to his imprisonment and the harsh&shyest pun&shyish&shyment of the time – 
+                        His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the `,
+                        tooltip1: {
+                            word: `emir`,
+                            text: `The last emir of the Emirate of Bukhara was Sayyid Mir Mu&shyham&shymad Alim Khan`
+                        }, 
+                        text2: `, lead&shying to his imprisonment and the harsh&shyest pun&shyish&shyment of the time – 
                         <span style='font-weight: bold;'>75 lashes</span>.
                         <div class='space'></div>Eventually, he is liberated by the Russian 
                         Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrians. After enduring 
@@ -280,15 +284,14 @@ module.exports.poets = [
                         po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and to 
                         di&shyrect&shyly calling the na&shytion for war against the emir.
                         <br>After the unsuccessful Kolesov champaign, whose aim was to over&shythrow the emir, the emir turns Bu&shykha&shyra 
-                        in&shyto a "slaugh&shyter&shyhouse." In this chaos, his young&shyer bro&shyther,
-                        <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was falsely accused of being a jadid and brutally strangled 
-                        to death in prison. Ayni chan&shynel&shyled his grief into his literary work, "`,
-                        tooltip: {
+                        in&shyto a "slaugh&shyter&shyhouse." In this cha&shyos, his young&shyer bro&shyther,
+                        <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was false&shyly accused of being a ja&shydid and brutally strangled 
+                        in pri&shyson. Ayni chan&shynel&shyled his grief into his li&shyte&shyrary work, "`,
+                        tooltip2: {
                             word: `Marsiya.`,
                             text: `A genre of po&shyet&shyry in Ta&shyjik li&shyte&shyra&shyture re&shyci&shyted du&shyring times of mourn&shying`
                         },
-                        text2: `"
-                        <div class='space'></div>In 1922, the Basmachi forces murdered Ay&shyni's older brother – 
+                        text3: `" <div class='space'></div>In 1922, the Basmachi forces murdered Ay&shyni's older brother – 
                         <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynap&shyped his son.<sup>1</sup>
                         <div class='space'></div>These agonizing losses only fueled Ayni's 
                         re&shysolve, shar&shypen&shying his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
@@ -301,7 +304,12 @@ module.exports.poets = [
                         text1: `Окон&shyчив мед&shyре&shyсе, Ай&shyни про&shyдол&shyжа&shyет по&shyмо&shyгать джа&shyдид&shyско&shyму дви&shyже&shyнию, 
                         соп&shyро&shyтив&shyля&shyясь ста&shyро&shyму укла&shyду об&shyщес&shyтва, так глу&shyбо&shyко уко&shyре&shyнив&shyшим&shyся сре&shyди 
                         бу&shyхар&shyско&shyго ду&shyхо&shyвен&shyства.
-                        Од&shyна&shyко эми&shyру не пон&shyра&shyвил&shyся его ре&shyфор&shyмизм, что при&shyве&shyло к его тю&shyрем&shyно&shyму 
+                        Од&shyна&shyко `,
+                        tooltip1: {
+                            word: `эмиру`,
+                            text: `Последним эмиром Бухарского эмирата был Сеид Мир Мухаммед Алим-хан`
+                        },
+                        text2: ` не пон&shyра&shyвил&shyся его ре&shyфор&shyмизм, что при&shyве&shyло к его тю&shyрем&shyно&shyму 
                         за&shyклю&shyче&shyнию и са&shyмо&shyму су&shyро&shyво&shyму на&shyка&shyза&shyнию то&shyго вре&shyме&shyни —
                         <span style='font-weight:bold;'>75 уда&shyров плетью</span>.
                         <div class='space'></div>Его ос&shyво&shyбож&shyда&shyют рус&shyские ре&shyво&shyлю&shyци&shyон&shyные си&shyлы по 
@@ -315,11 +323,11 @@ module.exports.poets = [
                         лож&shyно об&shyви&shyня&shyют в джа&shyди&shyдиз&shyме, и жес&shyто&shyко уби&shyва&shyют удушь&shyем в тюрь&shyме.
                         По это&shyму слу&shyчаю Ай&shyни на&shyпи&shyсал свое ду&shyше&shyраз&shyди&shyра&shyю&shyщее ли&shyте&shyра&shyтур&shyное 
                         про&shyиз&shyве&shyде&shyние «`, 
-                        tooltip: {
+                        tooltip2: {
                             word: `Марсия`,
                             text: `Жанр по&shyэ&shyзии в пер&shyсид&shyской ли&shyте&shyра&shyту&shyре, чи&shyта&shyе&shyмый во вре&shyмя тра&shyу&shyра`
                         },
-                        text2: `».<div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
+                        text3: `».<div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
                             <span style='font-weight:bold;'>Му&shyхид&shyдин&shyход&shyжу</span>, по&shyхи&shyща&shyют его сы&shyна и уво&shyзят в Ну&shyра&shyтин&shyские 
                             го&shyры.<sup>1</sup>
                             <div class='space'></div>
@@ -334,7 +342,12 @@ module.exports.poets = [
                         text1: `Ай&shyнӣ пас аз хат&shyми мад&shyра&shyса ҳам&shyбас&shyта&shyгии худ&shyро бо ҷа&shyди&shyдон 
                             идо&shyма ме&shyди&shyҳад ва ба тар&shyзи кӯҳ&shyнаи ҷо&shyме&shyа&shyдо&shyрӣ, ки дар бай&shyни ула&shyмои 
                             Бу&shyхо&shyро хе&shyле мус&shyтаҳ&shyкам ҷой ги&shyриф&shyта буд, му&shyқо&shyви&shyмат ни&shyшон до&shyдан 
-                            меги&shyрад. Ам&shyмо ис&shyло&shyҳот&shyхо&shyҳии ӯ ба амир пи&shyсанд на&shyме&shyояд ва ӯро ба зин&shyдон 
+                            меги&shyрад. Ам&shyмо ис&shyло&shyҳот&shyхо&shyҳии ӯ ба `,
+                        tooltip1: {
+                            word: `амир`,
+                            text: `Амири охирини аморати Бухоро Саид Муҳаммад Олимхон буд`
+                        },
+                        text2: ` пи&shyсанд на&shyме&shyояд. Ӯро ба зин&shyдон 
                             ме&shyпар&shyто&shyянд ва ба сахт&shyта&shyрин ҷа&shyзои он дав&shyра – 
                             <span style='font-weight: bold;'>75 чӯб</span> маҳ&shyкум ме&shyша&shyвад.
                             <div class='space'></div>Дар ни&shyҳо&shyят, ӯро қув&shyва&shyҳои ин&shyқи&shyло&shyбии рус&shyҳо бо 
@@ -352,12 +365,12 @@ module.exports.poets = [
                             <span style='font-weight: bold;'>Си&shyро&shyҷид&shyдин&shyро</span> 
                             бар&shyду&shyрӯғ айб&shyдо&shyри ҷа&shyди&shyдӣ кар&shyда, ваҳ&shyши&shyёна дар зин&shyдон бу&shyғӣ кар&shyда 
                             ме&shyку&shyшанд. Адиб «`,
-                        tooltip: {
+                        tooltip2: {
                             word: `Марсия`,
                             text: `Жан&shyри шеър дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
                                 ме&shyша&shyвад`
                         },
-                        text2: `»-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
+                        text3: `»-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
                             <div class='space'></div>
                             Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ — 
                             <span style='font-weight: bold;'>Му&shyҳид&shyдин&shyхо&shyҷа&shyро</span> 

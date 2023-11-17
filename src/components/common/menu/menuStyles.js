@@ -50,7 +50,7 @@ export const LogoContainer = styled.div`
         opacity: 0.3;
         width: 100%;
         position: absolute;
-        right: -53.1%;
+        right: -53.2%;
         top: 50%;
         transform: translateY(-50%);
     }

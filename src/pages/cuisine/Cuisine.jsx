@@ -1,10 +1,10 @@
-import RecipeBox from '../../components/food/recipeBox/RecipeBox';
+import RecipeCard from '../../components/food/recipeCard/RecipeCard';
 import { PageContainer } from './cuisinePageStyles';
 
 function Cuisine() {
     return (
         <PageContainer>
-            <RecipeBox />
+            <RecipeCard />
         </PageContainer>
     );
 }

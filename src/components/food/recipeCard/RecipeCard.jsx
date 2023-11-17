@@ -3,19 +3,19 @@ import React, { useEffect } from "react";
 import { useLocation } from 'react-router-dom';
 import { useSetLang } from "../../../App";
 import { recipes } from "../../../data/recipeData";
-import { StyledLink } from "../recipeBox/recipeBoxStyles";
 
 import { 
     RecipeBoxContainer,
-    RecipeCard,
+    RecipeCardWrapper,
     RecipeImage,
     RecipeSubtitle,
     RecipeNameBox,
     StyledIconButton,
-    RecipeInfo
-} from "./recipeBoxStyles";
+    RecipeInfo,
+    StyledLink
+} from "./recipeCardStyles";
 
-export default function RecipeBox() {
+export default function RecipeCard() {
     const { lang, setLang } = useSetLang();
     const location = useLocation();
 
@@ -34,7 +34,7 @@ export default function RecipeBox() {
         <RecipeBoxContainer justify={recipes?.length}>
             {recipes?.map((recipe, i) => {
                 return (
-                    <RecipeCard key={i} delay={`${0.01*i}s`}>
+                    <RecipeCardWrapper key={i} delay={`${0.01*i}s`}>
                         <StyledLink to={"/cuisine" + recipe?.link}>
                             <RecipeImage src={recipe?.imageName} />
                         </StyledLink>
@@ -48,7 +48,7 @@ export default function RecipeBox() {
                             </RecipeInfo>
                             <RecipeSubtitle>{recipe?.subtitle[lang]}</RecipeSubtitle>
                         </RecipeNameBox>
-                    </RecipeCard>
+                    </RecipeCardWrapper>
                 )
             })}  
         </RecipeBoxContainer>

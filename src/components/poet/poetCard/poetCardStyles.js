@@ -26,6 +26,10 @@ export const PoetBoxContainer = styled.div`
         gap: 1rem;
         justify-content: space-between;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+       gap: 2rem;
+    }
 `;
 
 export const PoetCardWrapper = styled.div`
@@ -62,6 +66,8 @@ export const PoetCardWrapper = styled.div`
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         border-radius: 1.5rem;
         transition: none;
+        height: 38rem;
+        width: 25rem;
         box-shadow: 0rem 0rem 0.6rem #504221d1;
 
         &:hover {
@@ -89,6 +95,11 @@ export const PoetImgContainer = styled.div`
         height: 12rem;
         width: 9rem;
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        height: 23rem;
+        width: 17rem;
+    }
 `;
 
 export const PoetImage = styled.img`
@@ -106,6 +117,11 @@ export const PoetImage = styled.img`
         height: 11rem;
         width: 8rem;
         margin: 0.15rem;
+    }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        height: 22rem;
+        width: 16rem;
     }
 `;
 
@@ -162,7 +178,7 @@ export const PoetInfoContainer = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-        font-size: 1.1rem;
+        font-size: 1.15rem;
         bottom: 2rem;
     }
 `;

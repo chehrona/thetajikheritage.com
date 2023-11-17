@@ -29,7 +29,7 @@ export const RecipeBoxContainer = styled.div`
     }
 `;
 
-export const RecipeCard = styled.div`
+export const RecipeCardWrapper = styled.div`
     opacity: 0;
     color: #0F0A00;
     cursor: pointer;

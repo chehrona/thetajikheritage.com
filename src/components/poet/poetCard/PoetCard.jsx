@@ -41,7 +41,7 @@ export default function PoetCard() {
                                     <PoetDates>{poet?.years[lang][0]}-{poet?.years[lang][1]}</PoetDates>
                                 </PoetNameBox>
                             </PoetImgContainer>
-                            <PoetInfoContainer>{poet?.desc[lang]}</PoetInfoContainer>
+                            <PoetInfoContainer dangerouslySetInnerHTML={{__html: poet?.desc[lang]}} />
                         </PoetCardWrapper>
                     </StyledLink>
                 )
