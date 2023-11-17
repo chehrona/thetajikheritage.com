@@ -1,8 +1,10 @@
 import React, { useState, useRef } from "react";
-import { Zoom, Slide, Dialog } from '@mui/material';
+import { Slide } from '@mui/material';
 
 import { useSetLang } from "../../../App";
 import { useMediaQuery } from 'react-responsive';
+
+import Dialog from "../../common/dialog/Dialog";
 
 import {
     Desc,
@@ -10,8 +12,6 @@ import {
     InfoContainer,
     StyledContent,
     InfoTitle,
-    StyledCloseIcon,
-    StyledCloseButton,
     Director,
     MovieImg,
     InnerBox,
@@ -29,12 +29,6 @@ import {
     StyledArrowButton
 } from "./movieDialogStyles";
 
-const Transition = ({ children, ...props }) => (
-    <Zoom {...props}>
-        {children}
-    </Zoom>
-);
-
 const ContentTransition = ({ children, ...props }) => (
     <Slide direction="left" {...props}>
         {children}
@@ -43,24 +37,15 @@ const ContentTransition = ({ children, ...props }) => (
 
 export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo }) {
     const [showVideo, setShowVideo] = useState(false);
-    const [isMounted, setIsMounted] = useState(false);
     const isMobile = useMediaQuery({ query: `(max-width: 1024px)` });
     const iframeRef = useRef(null);
     const { lang } = useSetLang();
     const [fullSize, setFullSize] = useState(0);
 
-    function handleLoader() {
-        setIsMounted(true);
-    }
-
-    function handleFrameClose() {
-        setShowMovieInfo(false);
-        setShowVideo(false);
-    }
-
     function handleClose() {
         setShowMovieInfo(false);
         setFullSize(false);
+        setShowVideo(false);
     }
 
     function handleExpand() {
@@ -69,31 +54,13 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
 
     return (
         <Dialog
+            width={"1350px"}
+            border={"2rem"}
             open={showMovieInfo}
-            fullWidth
-            maxWidth={"lg"}
-            TransitionComponent={Transition}
-            TransitionProps={{
-                in: showMovieInfo,
-                easing: {enter: "linear", exit: "linear"}
-            }}
-            PaperProps={{
-                style: {
-                    backgroundColor: 'transparent',
-                    boxShadow: 'none',
-                    height: isMobile ? '100%' : '80%',
-                    margin: isMobile && '0rem',
-                    width: isMobile && 'calc(100vw - 3rem)',
-                    maxWidth: isMobile && 'calc(100vw - 3rem)'
-                },
-            }}
-            BackdropProps={{
-                style: {
-                    background: '#0F0A00',
-                    backgroundImage: "url('/noise.png')",
-                    opacity: '0.3'
-                },
-            }}
+            backdrop={"rgba(15 10 0 / 30%)"}
+            background={"#0F0A00"}
+            height={isMobile ? "100%" : "80%"}
+            handleClose={handleClose}
         >
             <StyledContent
                 Transition={ContentTransition}
@@ -104,24 +71,16 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
             >
                 {showVideo ? (
                     <InfoContainer>
-                        <StyledCloseButton onClick={handleFrameClose}>
-                            <StyledCloseIcon />
-                        </StyledCloseButton>
                         <StyledFrame
                             src={`https://www.youtube.com/embed/${movieInfo?.link}?autoplay=1&rel=0`}
                             allow='autoplay; encrypted-media'
                             fullWidth
                             allowFullScreen
                             ref={iframeRef}
-                            onLoad={handleLoader}
                         />
-                        {!isMounted && <Loader />}
                     </InfoContainer>
                 ) : (
                     <InfoContainer expand={fullSize}>
-                        <StyledCloseButton onClick={handleClose}>
-                            <StyledCloseIcon />
-                        </StyledCloseButton>
                         <InnerBox expand={fullSize}>
                             <StyledArrowButton arrow={1} onClick={handleExpand}>
                                 {fullSize ? <SlideDown /> : <SlideUp />}

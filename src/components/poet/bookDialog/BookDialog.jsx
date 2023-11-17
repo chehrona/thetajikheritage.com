@@ -1,23 +1,16 @@
 import React from "react";
-import { Zoom, Dialog } from '@mui/material';
 import { useSetLang } from "../../../App";
 import { useMediaQuery } from 'react-responsive';
 
+import Dialog from "../../common/dialog/Dialog";
+
 import {
     Desc,
-    StyledIconButton,
     InfoContainer,
     StyledContent,
     InfoTitle,
-    StyledCloseIcon,
     BodyContainer,
 } from "./bookDialogStyles";
-
-const Transition = ({ children, ...props }) => (
-    <Zoom {...props}>
-        {children}
-    </Zoom>
-);
 
 export default function BookDialog({ msg, setBookDialog, bookDialog }) {
     const { lang } = useSetLang();
@@ -30,38 +23,17 @@ export default function BookDialog({ msg, setBookDialog, bookDialog }) {
     return (
         <Dialog
             open={bookDialog}
-            fullWidth
-            maxWidth="sm"
-            TransitionComponent={Transition}
-            TransitionProps={{
-                in: bookDialog,
-                easing: {enter: "linear", exit: "linear"}
-            }}
-            PaperProps={{
-                style: {
-                    backgroundColor: 'transparent',
-                    boxShadow: 'none',
-                    margin: isMobile && '0rem',
-                    width: isMobile && 'calc(100vw - 3rem)',
-                    maxWidth: isMobile && 'calc(100vw - 3rem)'
-                },
-            }}
-            BackdropProps={{
-                style: {
-                    background: '#0F0A00',
-                    backgroundImage: "url('/noise.png')",
-                    opacity: '0.3',
-                },
-            }}
+            width={"500px"}
+            border={"1.5rem"}
+            handleClose={handleClose}
+            backdrop={"rgba(15 10 0 / 30%)"}
+            background={"#fcf6e9"}
         >
             <StyledContent>
                 <InfoContainer>
                     <InfoTitle>
                         {lang === "us" ? "Apologies!" : (lang === "ru" ? "Извините!" : "Бубахшед!")}
                     </InfoTitle>
-                    <StyledIconButton onClick={handleClose}>
-                        <StyledCloseIcon />
-                    </StyledIconButton>
                     <BodyContainer>
                         <Desc>{msg}</Desc>
                     </BodyContainer>

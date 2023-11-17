@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { Close, PlayArrow, ArrowForwardIos } from "@mui/icons-material";
+import { PlayArrow, ArrowForwardIos } from "@mui/icons-material";
 import { IconButton, DialogContent } from "@mui/material";
 
 const bounce = keyframes`
@@ -86,30 +86,9 @@ export const StyledArrowButton = styled(IconButton)`
     }
 `;
 
-export const StyledCloseButton = styled(IconButton)`
-    width: 3.5rem;
-    height: 3.5rem;
-    top: 0.5rem;
-    right: 0.5rem;
-    z-index: 10;
-
-    &.MuiIconButton-root {
-        position: absolute;
-    }
-
-    @media (max-width: 1024px) {
-        &.MuiIconButton-root {
-            top: 0.6rem;
-            right: 0.6rem;
-        }
-    }
-`;
-
 export const StyledContent = styled(DialogContent)`
-    border-radius: 2rem;
     position: relative;
     height: 20rem;
-    color: #0F0A00;
 
     &.MuiDialogContent-root {
         padding: 0rem;
@@ -124,16 +103,10 @@ export const StyledContent = styled(DialogContent)`
 export const InfoContainer = styled.div`
     height: 100%;
     width: 100%;
-    border-radius: 2rem;
-    background: #0F0A00;
-    color: #0F0A00;
-    box-shadow: 0rem 0rem 0.3rem 0rem #dedbdb;
 
     @media (max-width: 480px) {
         flex-direction: column-reverse;
         overflow: hidden;
-        background: #fcf6e9;
-        box-shadow: ${({ expand }) => expand ? 'none' : '0rem 0rem 0.3rem 0rem #dedbdb'};
     }
 `;
 
@@ -197,22 +170,6 @@ export const InfoTitle = styled.div`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         margin-top: 3rem;
-    }
-`;
-
-export const StyledCloseIcon = styled(Close)`
-    color: #bd9d52;
-
-    &.MuiSvgIcon-root {
-        width: 3rem;
-        height: 2rem;
-    }
-
-    @media (max-width: 1024px) {
-        &.MuiSvgIcon-root {
-            width: 3rem;
-            height: 2.5rem;
-        }
     }
 `;
 

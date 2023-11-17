@@ -18,23 +18,23 @@ module.exports.recipes = [
             us: {
                 desc: {
                     text1: `<span class='termSpan'>Shirchoy</span> is a tra&shydi&shytion&shyal dish pre&shypared in va&shyri&shyous Central Asian and Middle Eastern
-                        coun&shytries, in&shyclud&shying Ta&shyji&shykis&shytan. Its name, "shirchoy" orig&shyi&shynates from a com&shybi&shyna&shytion of two 
+                        coun&shytries, in&shyclud&shying Ta&shyji&shykis&shytan. Its name, "shirchoy," orig&shyi&shynates from a com&shybi&shyna&shytion of two 
                         Ta&shyji&shyki words: <span class='termSpan'>"shir,"</span> mean&shying milk, and <span class='termSpan'>"choy,"</span> which re&shyfers to tea.<sup>1</sup>
-                        The exact regional or his&shyto&shyri&shycal origins of shirchoy remain un&shycer&shytain. However, the most detailed account of the dish can be 
+                        The exact regional or his&shyto&shyri&shycal origins of shirchoy remain un&shycer&shytain. However, the most de&shytailed account of the dish can be 
                         found in the writings of the 19th-cen&shytu&shyry Tajik scholar Vozeh.<sup>1,2</sup> It is pos&shysi&shyble that the dish traces its roots 
-                        as far back as the mid-8th cen&shytu&shyry when tea was introduced to Central Asia from China.<sup>3</sup>
+                        as far back as the mid-8th cen&shytu&shyry when tea was brought to Central Asia along the Silk Road from Chi&shyna during the Tang dy&shynasty.<sup>3,4</sup>
                         Ad&shydi&shytion&shyal&shyly, the Pa&shymi&shyris have a leg&shyend&shyary ac&shycount regarding the mak&shying of the ve&shyry first shir&shychoy:
                         <div class='quoteContainer'><div><div class='quoteSymbol'></div>
                         <div class='quoteWrapper'>One day, people came back 
                         to our village ... [and] brought leaves with them... We boiled a big pot of water and threw in all the tea, then invited 
                         the villagers to drink it. People tried it ..., 
                         but found it horrible [very bitter]. Later, people began to add [extra] things to it - milk, walnuts, dried apple, other 
-                        things - and it slowly grew on them.<sup style='font-style: normal'>4</sup></div></div></div>
+                        things - and it slowly grew on them.<sup style='font-style: normal'>5</sup></div></div></div>
                         Unlike milk teas from the West, like English tea, Tajik milk tea is more than just a beverage — it serves as a substantial 
                         meal typically en&shyjoyed for breakfast or as a light dinner.<br>
                         The preparation of shirchoy involves the com&shybi&shyna&shytion of milk and tea, but it doesn't stop there. Ad&shydi&shytion&shyal 
                         ingredients are added to en&shyhance its fla&shyvor and texture. 
-                        These may in&shyclude pieces of flatbread (usually stale bread is repurposed), butter or ghee, dried apple slices, mulberry, almond leaves, walnuts, and rose hip flowers.<sup>2,4</sup>
+                        These may in&shyclude pieces of flatbread (usually stale bread is repurposed), butter or ghee, dried apple slices, mulberry, almond leaves, walnuts, and rose hip flowers.<sup>2,5</sup>
                         Shirchoy can incorporate un&shycon&shyven&shytional ingredients for milk-based meals, in&shyclud&shying small amounts of pepper (seasoning), `, 
                     tooltip1: {
                         word: `raw onion slices`,
@@ -61,11 +61,11 @@ module.exports.recipes = [
             ru: {
                 desc: {
                     text1: `<span class='termSpan'>Ширчой</span> — традиционное блюдо, которое готовят в разных странах Центральной Азии и Ближного Востока, в том числе в Тад&shyжикистане. Его название «ширчой» 
-                        про&shyис&shyхо&shyдит 
-                        от сочетания двух таджикско-пер&shyсид&shyских слов: <span class='termSpan'>«шир»</span>, что означает молоко, и <span class='termSpan'>«чой»</span>, что означает чай.<sup>1</sup>
-                        Конкретное ре&shyги&shyо&shyналь&shyное или историческое про&shyис&shyхож&shyде&shyние ширчоя остается неопределённым. Од&shyна&shyко наиболее подробное описание блюда можно найти в трудах таджикского учёного XIX века Возеха.<sup>1,2</sup>
-                        Можно предположить, что это блюдо начали готовить еще в се&shyре&shyди&shyне VIII века, когда чай был завезен в Сред&shyнюю Азию из Китая.<sup>3</sup>
-                        Кроме того, у па&shyмир&shyцев есть легенда о создании самого пер&shyво&shyго ширчоя:
+                        про&shyис&shyхо&shyдит от сочетания двух таджикско-пер&shyсид&shyских слов: <span class='termSpan'>«шир»</span>, что означает молоко, и <span class='termSpan'>«чой»</span>, что означает чай.<sup>1</sup>
+                        Конкретное ре&shyги&shyо&shyналь&shyное или историческое про&shyис&shyхож&shyде&shyние ширчоя остается неопределённым. Од&shyна&shyко наиболее подробное описание блюда можно найти в трудах 
+                        таджикского учёного XIX века Возеха.<sup>1,2</sup>
+                        Можно предположить, что это блюдо на&shyча&shyли го&shyто&shyвить еще в се&shyре&shyди&shyне VIII века, когда чай был завезен в Сред&shyнюю Азию по Шел&shyко&shyво&shyму пу&shyти из Ки&shyтая во вре&shyме&shyна ди&shyнас&shyтии Тан.<sup>3</sup>
+                        Кро&shyме то&shyго, у па&shyмир&shyцев есть легенда о соз&shyда&shyнии са&shyмо&shyго пер&shyво&shyго шир&shyчоя:
                         <div class='quoteContainer'><div><div class='quoteSymbol'></div><div class='quoteWrapper'>
                         Однажды люди вернулись в нашу деревню ... [и] принесли с собой листья ... Мы вскипятили большую кастрюлю с водой и бросили в нее весь чай, 
                         а затем пригласили жителей деревни пить его. Люди пробовали это..., но находили это ужасным [очень горьким]. Позже люди стали добавлять в него [дополнительные] вещи 
@@ -106,8 +106,9 @@ module.exports.recipes = [
                         дар То&shyҷи&shyкис&shyтон тай&shyёр кар&shyда ме&shyша&shyвад. Но&shyми «ширчой» аз ду ка&shyли&shyмаи то&shyҷи&shyкӣ-фор&shyсии 
                         <span class='termSpan'>«шир»</span> ва <span class='termSpan'>«чой»</span> ги&shyриф&shyта шу&shyда&shyаст.<sup>1</sup> Замон ё макони аниқи пайдоиши ширчой номаълум боқӣ мемонад. Аммо 
                         оиди ин та&shyом, пурратарин маълумотро
-                        дар на&shyвиш&shyта&shyҳои олими асри XIX-и тоҷик — Возеҳ, дар&shyёф&shyтан мумкин аст.<sup>1,2</sup> Шояд, ки ин ғизо аз дав&shyра&shyҳое, ки чой ба Осиёи Марказӣ аз Чин во&shyрид карда шуда буд 
-                        (миёнаҳои асри VIII), омо&shyда карда мешавад.<sup>3</sup> Илова бар ин, по&shyми&shyри&shyҳо дар бораи созиши аввалин ширчой ри&shyво&shyяте доранд: 
+                        дар на&shyвиш&shyта&shyҳои оли&shyми асри XIX-и то&shyҷик — Во&shyзеҳ, дар&shyёф&shyтан мумкин аст.<sup>1,2</sup> Шо&shyяд, ки ин ғи&shyзо аз дав&shyра&shyҳое, ки чой ба Оси&shyёи Мар&shyка&shyзӣ 
+                        бо ро&shyҳи Аб&shyре&shyшим аз Чин дар дав&shyраи су&shyло&shyлаи Тан во&shyрид кар&shyда шу&shyда буд (ми&shyё&shyна&shyҳои ас&shyри VIII), омо&shyда кар&shyда ме&shyша&shyвад.<sup>3</sup> 
+                        Ило&shyва бар ин, по&shyми&shyри&shyҳо дар бораи созиши аввалин ширчой ри&shyво&shyяте доранд: 
                         <div class='quoteContainer'><div><div class='quoteSymbol'></div><div class='quoteWrapper'>
                         Рӯзе одамон ба қишлоқи мо ... баргаштанд. Онҳо бо худ ин баргҳоро оварданд ва ҳамаро барои тамошо даъват карданд. Мо дар як зарфи калон об ҷӯшонда,
                         ҳамаи баргҳои чойро дар он андохтем, сипас, ҳамаи сокинони деҳаро барои нӯшидани он даъват кардем. Мардум... онро ... чашида ... буданд, аммо 

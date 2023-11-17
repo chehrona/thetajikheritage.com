@@ -1,67 +1,34 @@
 import React from "react";
-import { Zoom, Dialog } from '@mui/material';
 
-import { useMediaQuery } from 'react-responsive';
+import Dialog from "../../common/dialog/Dialog";
 
 import {
     Desc,
-    StyledIconButton,
     InfoContainer,
     StyledContent,
     InfoTitle,
-    StyledCloseIcon,
     BodyContainer,
     AwardImg,
-    Wrapper
+    Wrapper,
 } from "./awardDialogStyles";
 
-const Transition = ({ children, ...props }) => (
-    <Zoom {...props}>
-        {children}
-    </Zoom>
-);
-
 export default function AwardDialog({ awardInfo, setShowAwardInfo, showAwardInfo }) {
-    const isMobile = useMediaQuery({ query: `(max-width: 1024px)` });
-
     function handleClose() {
         setShowAwardInfo(false);
     }
 
     return (
         <Dialog
+            width={"850px"}
+            border={"2rem"}
             open={showAwardInfo}
-            fullWidth
-            maxWidth={"md"}
-            TransitionComponent={Transition}
-            TransitionProps={{
-                in: showAwardInfo,
-                easing: {enter: "linear", exit: "linear"}
-            }}
-            PaperProps={{
-                style: {
-                    backgroundColor: 'transparent',
-                    boxShadow: 'none',
-                    height: isMobile && 'fit-content',
-                    margin: isMobile && '0rem',
-                    width: isMobile && 'calc(100vw - 3rem)',
-                    maxWidth: isMobile && 'calc(100vw - 3rem)'
-                },
-            }}
-            BackdropProps={{
-                style: {
-                    background: '#fcf6e9',
-                    backgroundImage: "url('/noise.png')",
-                    opacity: '0.3'
-                },
-            }}
+            handleClose={handleClose}
+            backdrop={"rgba(252 246 233 / 30%)"}
+            background={"#0F0A00"}
         >
             <StyledContent>
                 <InfoContainer>
                     <InfoTitle>{awardInfo?.title}</InfoTitle>
-                    <StyledIconButton onClick={handleClose}>
-                        <StyledCloseIcon />
-                    </StyledIconButton>
                     <BodyContainer>
                         <Wrapper first={true}>
                             <AwardImg src={awardInfo?.img} />
