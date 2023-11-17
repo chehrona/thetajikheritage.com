@@ -284,7 +284,7 @@ module.exports.poets = [
                         <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was falsely accused of being a jadid and brutally strangled 
                         to death in prison. Ayni chan&shynel&shyled his grief into his literary work, "`,
                         tooltip: {
-                            word: `Mar&shysi&shyya.`,
+                            word: `Marsiya.`,
                             text: `A genre of po&shyet&shyry in Ta&shyjik li&shyte&shyra&shyture re&shyci&shyted du&shyring times of mourn&shying`
                         },
                         text2: `"
@@ -316,7 +316,7 @@ module.exports.poets = [
                         По это&shyму слу&shyчаю Ай&shyни на&shyпи&shyсал свое ду&shyше&shyраз&shyди&shyра&shyю&shyщее ли&shyте&shyра&shyтур&shyное 
                         про&shyиз&shyве&shyде&shyние «`, 
                         tooltip: {
-                            word: `Мар&shyсия`,
+                            word: `Марсия`,
                             text: `Жанр по&shyэ&shyзии в пер&shyсид&shyской ли&shyте&shyра&shyту&shyре, чи&shyта&shyе&shyмый во вре&shyмя тра&shyу&shyра`
                         },
                         text2: `».<div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
@@ -353,7 +353,7 @@ module.exports.poets = [
                             бар&shyду&shyрӯғ айб&shyдо&shyри ҷа&shyди&shyдӣ кар&shyда, ваҳ&shyши&shyёна дар зин&shyдон бу&shyғӣ кар&shyда 
                             ме&shyку&shyшанд. Адиб «`,
                         tooltip: {
-                            word: `Мар&shyсия`,
+                            word: `Марсия`,
                             text: `Жан&shyри шеър дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
                                 ме&shyша&shyвад`
                         },
