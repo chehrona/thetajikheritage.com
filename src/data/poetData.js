@@ -26,9 +26,8 @@ module.exports.poets = [
                     slides: {img: '/poetImages/ayni/soktare.png', text: `Sadriddin Ayni's childhood home in Soktare<sup>4</sup>`},
                     desc: `Sadriddin Saidmurodzoda was born to <span style='font-weight: bold;'>Sa&shyid&shymu&shyrod&shykho&shyja</span>
                         and <span style='font-weight: bold;'>Zevaroy</span> in the village of 
-                        Sok&shyta&shyre, G’ij&shydu&shyvon district, 
-                        Emirate of Bu&shykha&shyra.<sup>1</sup> Raised in a family of farmers, he spent most of his early 
-                        years among fellow farmers and local artisans. It was within this close-knit community 
+                        Sok&shyta&shyre, G’ij&shydu&shyvon district, Emi&shyrate of Bu&shykha&shyra.<sup>1</sup> Raised in a fa&shymily of far&shymers, he spent most of his early 
+                        years among fellow far&shymers and lo&shycal artisans. It was with&shyin this close-knit community 
                         that he was introduced to the world of folk literature, in&shyclud&shying tales, leg&shyends, songs, 
                         an&shyec&shydotes, and pro&shyverbs.<sup>2</sup>
                         <div class='space'></div>
@@ -267,35 +266,35 @@ module.exports.poets = [
                     quote: `... although we regret that we spent our lives in ignorance, ... now our conscience does not allow us to say: “what does it matter to me?”<sup>5</sup>`,
                     desc: {
                         text1: `After leaving the madrasa, Ayni continues his in&shyvolve&shyment with the ja&shydids, 
-                        resisting the old ways so deeply engrained among the Bu&shykha&shyran clergy.
-                        His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the `,
+                            resisting the old ways so deeply engrained among the Bu&shykha&shyran clergy.
+                            His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the `,
                         tooltip1: {
                             word: `emir`,
                             text: `The last emir of the Emirate of Bukhara was Sayyid Mir Mu&shyham&shymad Alim Khan`
                         }, 
                         text2: `, lead&shying to his imprisonment and the harsh&shyest pun&shyish&shyment of the time – 
-                        <span style='font-weight: bold;'>75 lashes</span>.
-                        <div class='space'></div>Eventually, he is liberated by the Russian 
-                        Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrians. After enduring 
-                        <span style='font-weight: bold;'>52 days</span> in the hos&shypital 
-                        and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
-                        he perma&shynently moved to Sa&shymar&shykand.
-                        There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wield&shying the 
-                        po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and to 
-                        di&shyrect&shyly calling the na&shytion for war against the emir.
-                        <br>After the unsuccessful Kolesov champaign, whose aim was to over&shythrow the emir, the emir turns Bu&shykha&shyra 
-                        in&shyto a "slaugh&shyter&shyhouse." In this cha&shyos, his young&shyer bro&shyther,
-                        <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was false&shyly accused of being a ja&shydid and brutally strangled 
-                        in pri&shyson. Ayni chan&shynel&shyled his grief into his li&shyte&shyrary work, "`,
+                            <span style='font-weight: bold;'>75 lashes</span>.
+                            <div class='space'></div>Eventually, he is liberated by the Russian 
+                            Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrians. After enduring 
+                            <span style='font-weight: bold;'>52 days</span> in the hos&shypital 
+                            and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
+                            he perma&shynently moved to Sa&shymar&shykand.
+                            There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wield&shying the 
+                            po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and to 
+                            di&shyrect&shyly calling the na&shytion for war against the emir.
+                            <br>After the unsuccessful Kolesov champaign, whose aim was to over&shythrow the emir, the emir turns Bu&shykha&shyra 
+                            in&shyto a "slaugh&shyter&shyhouse." In this cha&shyos, his young&shyer bro&shyther,
+                            <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was false&shyly accused of being a ja&shydid and brutally strangled 
+                            in pri&shyson. Ayni chan&shynel&shyled his grief into his li&shyte&shyrary work, "`,
                         tooltip2: {
                             word: `Marsiya.`,
                             text: `A genre of po&shyet&shyry in Ta&shyjik li&shyte&shyra&shyture re&shyci&shyted du&shyring times of mourn&shying`
                         },
                         text3: `" <div class='space'></div>In 1922, the Basmachi forces murdered Ay&shyni's older brother – 
-                        <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynap&shyped his son.<sup>1</sup>
-                        <div class='space'></div>These agonizing losses only fueled Ayni's 
-                        re&shysolve, shar&shypen&shying his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
-                        to&shyward li&shybe&shyra&shytion from such bloodthirsty ru&shylers.`,
+                            <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynap&shyped his son.<sup>1</sup>
+                            <div class='space'></div>These agonizing losses only fueled Ayni's 
+                            re&shysolve, shar&shypen&shying his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
+                            to&shyward li&shybe&shyra&shytion from such bloodthirsty ru&shylers.`,
                     },
                 },
                 ru: {
@@ -411,8 +410,8 @@ module.exports.poets = [
                         Re&shymar&shykab&shyly, each of their children followed in Ayni's footsteps, pur&shysu&shying academic careers in orien&shytalism, 
                         philology, and Central Asian art his&shyto&shyry, respectively.<sup>7</sup>
                         <div class='space'></div>
-                        Today, Ayni's grandson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
-                        and continues his grandfather's legacy through the Sadriddin Ay&shyni Foun&shyda&shytion.<sup>8</sup>`
+                        Today, Ayni's grand&shyson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
+                        and con&shytin&shyues his grand&shyfa&shyther's leg&shya&shycy through the Sadriddin Ay&shyni Foun&shyda&shytion.<sup>8</sup>`
                 },
                 ru: {
                     year: '1920',

@@ -12,7 +12,7 @@ export const StyledDialog = styled(Dialog)`
         height: ${({ height }) => height && height};
         background-color: ${({ background }) => background && background};
 
-        @media (max-width: 1024px) {
+        @media (max-width: 480px) {
             font-size: 1.3rem;
             margin: 0rem;
             width: calc(100vw - 3rem);
@@ -35,13 +35,6 @@ export const StyledCloseButton = styled(IconButton)`
 
     &.MuiIconButton-root {
         position: absolute;
-    }
-
-    @media (max-width: 1024px) {
-        &.MuiIconButton-root {
-            top: 0.6rem;
-            right: 0.6rem;
-        }
     }
 `;
 

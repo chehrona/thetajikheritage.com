@@ -23,7 +23,6 @@ export const Desc = styled.div`
     @media (max-width: 480px) {
         line-height: 1.8rem;
         padding-right: 0rem;
-        margin-top: 0.7rem;
         position: relative;
 
         ${({ expand }) => !expand && `
@@ -63,8 +62,8 @@ export const StyledIconButton = styled(IconButton)`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-        width: 10rem;
-        height: 10rem;
+        width: 12rem;
+        height: 12rem;
     }
 `;
 
@@ -79,7 +78,7 @@ export const StyledArrowButton = styled(IconButton)`
             width: 2.5rem;
             height: 2.5rem;
             position: absolute;
-            top: -2rem;
+            top: -1rem;
             left: calc(50% - 1.5rem);
             transform: rotate(-90deg) translateX(-50%);
         }
@@ -122,10 +121,11 @@ export const InnerBox = styled.div`
         position: relative;
     `}
 
-    @media (max-width: 1024px) {
+    @media (max-width: 480px) {
         width: 100%;
         z-index: 2;
         padding: 1.5rem;
+        border-radius: 2rem;
         overflow-x: hidden;
         position: absolute;
         top: ${({ expand }) => expand ? '0rem' : '40%'};
@@ -135,7 +135,11 @@ export const InnerBox = styled.div`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         height: 50%;
-        top: 60%;
+        top: 55%;
+        width: 100%;
+        z-index: 2;
+        border-radius: 2rem;
+        position: absolute;
     }
 `;
 
@@ -145,6 +149,7 @@ export const StudioName = styled.img`
     @media (max-width: 1024px) {
         position: absolute;
         left: 1.5rem;
+        top: 0.5rem;
     }
 `;
 
@@ -163,10 +168,11 @@ export const InfoTitle = styled.div`
        font-size: 3rem;
        line-height: 3.3rem;
        width: 100%;
+       margin-top: 2rem;
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 `;
 
@@ -178,7 +184,7 @@ export const StyledPlayIcon = styled(PlayArrow)`
         height: 3rem;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 480px) {
         &.MuiSvgIcon-root {
             width: 5rem;
             height: 5rem;
@@ -187,8 +193,8 @@ export const StyledPlayIcon = styled(PlayArrow)`
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         &.MuiSvgIcon-root {
-            width: 7rem;
-            height: 7rem;
+            width: 8rem;
+            height: 8rem;
         }
     }
 `;
@@ -196,9 +202,9 @@ export const StyledPlayIcon = styled(PlayArrow)`
 export const MovieImg = styled.img`
     height: 85%;
     width: auto;
-    position: absolute;
     top: 50%;
     left: 50%;
+    position: absolute;
     transform: translate(0%, -50%);
     box-shadow: 0rem 0rem 1rem 0.2rem #504221d1;
 
@@ -216,27 +222,29 @@ export const ReleaseInfo = styled.div`
     display: flex;
     align-items: center;
     height: 4rem;
-    width: 62%;
+    width: 65%;
     justify-content: start;
     padding-right: 2rem;
     color: #504221d1;
 
     @media (max-width: 1024px) {
-        padding-top: 1rem 0rem 0rem 0rem;
         width: 100%;
+        height: 3rem;
     }  
 `;
 
 export const InfoWrapper = styled.div`
-    border-radius: 1.5rem;
-    padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: bold;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: ${({ year }) => year ? '3rem' : '10rem'};
+    padding: 1rem;
+    margin: 3rem 0rem 3rem 0rem;
+    width: ${({ year }) => year ? '4rem' : '10rem'};
+
+    @media (max-width: 480px) {
+        margin: 1rem 0rem;
+        width: ${({ year }) => year ? '4rem' : '8rem'};
+    }
 `;
 
 export const Director = styled.div`
@@ -259,16 +267,18 @@ export const DirBox = styled.div`
     position: absolute;
     left: 75%;
     top: 15%;
+    width: 25%;
 
     @media (max-width: 1024px) {
         left: 50%;
         right: auto;
+        justify-content: center;
         transform: translateX(-50%);
     }
 `;
 
 export const Line = styled.div`
-    width: 4rem;
+    width: 5rem;
     background: #fcf6e9;
     height: 0.05rem;
     margin-right: 1rem;

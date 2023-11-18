@@ -95,12 +95,7 @@ export const StepperBox = styled.div`
     display: flex;
     opacity: ${({ opacity }) => opacity && opacity};
 
-    @media (max-width: 480px) {
-        scroll-snap-align: start;
-        padding-top: 2rem;
-    }
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+    @media (max-width: 1024px) {
         scroll-snap-align: start;
     }
 `;

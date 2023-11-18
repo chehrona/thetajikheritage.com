@@ -93,7 +93,7 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                                 <InfoWrapper>{movieInfo?.genre}</InfoWrapper>
                                 <InfoWrapper>{movieInfo?.duration}</InfoWrapper>
                             </ReleaseInfo>
-                            <Desc expand={fullSize}>{movieInfo?.desc}</Desc>
+                            <Desc expand={fullSize} dangerouslySetInnerHTML={{ __html: movieInfo?.desc}} />
                             <Director>
                                 {lang === 'us' ? 'Director' : 'Режиссёр'}
                             </Director>
