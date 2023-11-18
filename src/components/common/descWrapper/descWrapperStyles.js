@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const StyledSpan = styled.span`
-    line-height: 1.65rem;
-
     .quoteContainer {
         margin: 1rem;
         display: flex;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Close } from "@mui/icons-material";
-import { IconButton, Dialog, DialogContent } from "@mui/material";
+import { IconButton, Dialog } from "@mui/material";
 
 export const StyledDialog = styled(Dialog)`
     & .MuiPaper-root {

@@ -70,7 +70,7 @@ export const StepperContainer = styled.div`
     height: 100%;
     width: 100%;
     overflow: scroll;
-    padding-left: 10%;
+    padding-left: 6%;
 
     &::-webkit-scrollbar {
         display: none;
@@ -84,6 +84,7 @@ export const StepperContainer = styled.div`
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        padding-left: 10%;
         scroll-snap-type: mandatory;
         scroll-snap-type: y mandatory;
     }
@@ -179,7 +180,7 @@ export const OtherSteps = styled.div`
     gap: 0.5rem;
     width: 3%;
     height: 20%;
-    margin-left: 13%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,7 +204,7 @@ export const StyledButton = styled.div`
         padding: 0rem 0rem 0.25rem 0rem;
         width: ${({ lang }) => lang && 
             lang === 'ru' ? '30%' : 
-            (lang === 'tj' ? '33%' : '17%')};
+            (lang === 'tj' ? '35%' : '17%')};
 
         &::before {
             content: '';
@@ -217,7 +218,7 @@ export const StyledButton = styled.div`
             transition: transform 0.3s ease-in-out;
             width: ${({ lang }) => lang && 
                 lang === 'ru' ? '30%' : 
-                (lang === 'tj' ? '33%' : '17%')};
+                (lang === 'tj' ? '35%' : '17%')};
         }
 
         &:hover::before {

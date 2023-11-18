@@ -2,9 +2,9 @@ export const stepInfo = [
     {
         num: "01",
         text: {
-            us: {text: "Arts & crafts", font: {d: 9.8, m: 7.1, t: 10}, margin: {d: 0, m: -15, t: 22}},
+            us: {text: "Arts & crafts", font: {d: 9.8, m: 7.1, t: 10}, margin: {d: -1, m: -15, t: 22}},
             ru: {text: "Искусства & ремесла", font: {d: 7.1, m: 4.4, t: 7}, margin: {d: 1, m: -13, t: 30}},
-            tj: {text: "Санъат & ҳунар", font: {d: 9.5, m: 6.1, t: 8.65}, margin: {d: 0, m: -15, t: 29}}
+            tj: {text: "Санъат & ҳунар", font: {d: 9, m: 6.1, t: 8.65}, margin: {d: -1, m: -15, t: 29}}
         },
         desc: {
             us: 
@@ -42,12 +42,12 @@ export const stepInfo = [
                 },
         },
         outer: [
-            {size: 16, bottom: {d: "-3%", t: "-2%"}, right: {d: "24%", t: "18%"}},
+            {size: 16, bottom: {d: "-3%", t: "-2%"}, right: {d: "27%", t: "18%"}},
             {size: 12, bottom: {d: "3%", t: "25%"}, right: {d: "7.7%", t: "7%"}},
             {size: 30, top: {d: "-13.2%", t: "-7.2%"}, right: {d: "-3%", t: "-4.5%"}}
         ],
         inner: [
-            {size: 15, bottom: {d: "-1.75%", t: "-1.5%"}, right: {d: "24.5%", t: "18.5%"}, img: "/homeImages/craft3.png"},
+            {size: 15, bottom: {d: "-1.75%", t: "-1.5%"}, right: {d: "27.5%", t: "18.5%"}, img: "/homeImages/craft3.png"},
             {size: 11, bottom: {d: "3.5%", t: "25.5%"}, right: {d: "7.2%", t: "6.5%"}, img: "/homeImages/craft2.png"},
             {size: 29, top: {d: "-13%", t: "-6.5%"}, right: {d: "-1.2%", t: "-2.2%"}, img: "/homeImages/craft1.png"}
         ],
@@ -62,9 +62,9 @@ export const stepInfo = [
         desc: {
             us: 
                 {
-                    text: `Tajik customs and traditions reflect a mix of Persian, Islamic, Zoroastrian, and Central Asian heritage, 
-                        reflected in their strong emphasis on family values and honoring elders. Celebrations like Navrüz, Mehrgon and 
-                        weddings are filled with spirituality and are accompanied by colorful rituals, traditional clothing, and folk songs and dances. 
+                    text: `Tajik customs and traditions reflect a mix of Persian, Islamic, Zoroastrian, and Central Asian heritage. 
+                        Celebrations like Navrüz, Mehrgon and weddings are filled with spirituality and are accompanied by colorful 
+                        rituals, traditional clothing, and folk songs and dances. 
                         <div class='space'></div>
                         The culture values hospitality and finds artistic richness in classical poetry, folklore, and ornate handicrafts.
                         <div class='space'></div>
@@ -73,7 +73,7 @@ export const stepInfo = [
                 },
             ru:  {
                     text: `Таджикские обычаи и традиции отражают смесь персидского, исламского, 
-                        зороастрийского и центральноазиатского наследия, что проявляется в значимости семьи и почитании старших. 
+                        зороастрийского и центральноазиатского наследия. 
                         Такие праздники, как Навруз, Мехрган и свадьбы пропитаны духовностью и сопровождаются народными песнями, 
                         танцами и обрядами.
                         <div class='space'></div>
@@ -84,8 +84,8 @@ export const stepInfo = [
                     link: "/customs?ru"
                 },
             tj: {
-                    text: `Дар урфу одат ва анъанаҳои тоҷикон омезиши маданияти форсӣ, исломӣ, зардуштӣ ва Осиёи Марказӣ зоҳир мешаванд, ки 
-                        аҳамияти калон ба арзишҳои оилавӣ ва эҳтироми пирон дода мешаванд. Ҷашнвораҳо, аз қабили Наврӯзу Меҳргон ва 
+                    text: `Дар урфу одат ва анъанаҳои тоҷикон омезиши маданияти форсӣ, исломӣ, зардуштӣ ва Осиёи Марказӣ зоҳир мешаванд.
+                        Ҷашнвораҳо, аз қабили Наврӯзу Меҳргон ва 
                         тӯйҳо саршори расму оинҳои рангоранг, либосҳои маҳаллӣ ва суруду рақсҳои мардумӣ ҳастанд.
                         <div class='space'></div>
                         Тоҷикон мардуми меҳмоннавоз буда, дар ин фарҳанг ашъори классикӣ, фолклор ва ҳунарҳои дастӣ ҷои махсусро ишғол мекунанд.
@@ -145,13 +145,13 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: {d: "-1.5%", t: "50%"}, right: {d: "26%", t: "3.5%"}},
-            {size: 12, top: {d: "0.5%", t: "80%"}, right: {d: "87.5%", t: "15%"}},
+            {size: 16, top: {d: "-1.5%", t: "50%"}, right: {d: "27%", t: "3.5%"}},
+            {size: 12, top: {d: "55%", t: "80%"}, right: {d: "87.5%", t: "15%"}},
             {size: 30, top: {d: "25%", t: "-8%"}, right: {d: "0%", t: "15%"}}
         ],
         inner: [
-            {size: 15, top: {d: "0%", t: "50.5%"}, right: {d: "26.5%", t: "2.5%"}, img: "/homeImages/cuisine3.png"},
-            {size: 11, top: {d: "1%", t: "80.5%"}, right: {d: "88%", t: "15.5%"}, img: "/homeImages/cuisine2.png"},
+            {size: 15, top: {d: "0%", t: "50.5%"}, right: {d: "27.5%", t: "2.5%"}, img: "/homeImages/cuisine3.png"},
+            {size: 11, top: {d: "55%", t: "80.5%"}, right: {d: "88%", t: "15.5%"}, img: "/homeImages/cuisine2.png"},
             {size: 29, top: {d: "25%", t: "-8%"}, right: {d: "1%", t: "16%"}, img: "/homeImages/cuisine1.png"}
         ],
     },
@@ -160,7 +160,7 @@ export const stepInfo = [
         text: {
             us: {text: "Language & literature", font: {d: 6.8, m: 4.35, t: 6.85}, margin: {d: 3, m: -13, t: 30}},
             ru: {text: "Язык & литература", font: {d: 6.8, m: 4.2, t: 6.8}, margin: {d: 2, m: -13, t: 25}},
-            tj: {text: "Забон & адабиёт", font: {d: 9.2, m: 5.7, t: 9}, margin: {d: -1, m: -13, t: 27}}
+            tj: {text: "Забон & адабиёт", font: {d: 9, m: 5.7, t: 9}, margin: {d: -1, m: -13, t: 27}}
         },
         desc: {
             us: {
@@ -195,14 +195,14 @@ export const stepInfo = [
                 }
         },
         outer: [
-            {size: 16, top: {d: "1.2%", t: "54.5%"}, right: {d: "1%", t: "3%"}},
+            {size: 16, top: {d: "1.2%", t: "53.5%"}, right: {d: "0%", t: "3%"}},
             {size: 12, top: {d: "0%", t: "4%"}, right: {d: "30%", t: "51%"}},
-            {size: 30, bottom: {d: "-5%", t: "62%"}, right: {d: "9.5%", t: "-5%"}},
+            {size: 30, bottom: {d: "-8%", t: "62%"}, right: {d: "9.5%", t: "-5%"}},
         ],
         inner: [
-            {size: 15, top: {d: "0.4%", t: "55%"}, right: {d: "2%", t: "3%"}, img: "/homeImages/lang3.png"},
+            {size: 15, top: {d: "-1%", t: "54%"}, right: {d: "2%", t: "3%"}, img: "/homeImages/lang3.png"},
             {size: 11, top: {d: "1.5%", t: "4.5%"}, right: {d: "29.5%", t: "50%"}, img: "/homeImages/lang2.png"},
-            {size: 29, bottom: {d: "-3.75%", t: "62.5%"}, right: {d: "10%", t: "-4.5%"}, img: "/homeImages/lang1.png"}
+            {size: 29, bottom: {d: "-6.75%", t: "62.5%"}, right: {d: "10%", t: "-4.5%"}, img: "/homeImages/lang1.png"}
         ],
     },
     {
@@ -245,12 +245,12 @@ export const stepInfo = [
             }
         },
         outer: [
-            {size: 16, top: {d: "1%", t: "3%"}, right: {d: "26%", t: "3%"}},
+            {size: 16, top: {d: "1%", t: "3%"}, right: {d: "27%", t: "3%"}},
             {size: 12, top: {d: "-1%", t: "1%"}, right: {d: "50%", t: "33%"}},
-            {size: 30, bottom: {d: "-5%", t: "-4%"}, right: {d: "3%", t: "1.5%"}}
+            {size: 30, bottom: {d: "-5%", t: "-4%"}, right: {d: "1%", t: "1.5%"}}
         ],
         inner: [
-            {size: 15, top: {d: "2.25%", t: "3.5%"}, right: {d: "26.5%", t: "3.5%"}, img: "/homeImages/history3.png"},
+            {size: 15, top: {d: "2.25%", t: "3.5%"}, right: {d: "27.5%", t: "3.5%"}, img: "/homeImages/history3.png"},
             {size: 11, top: {d: "0.5%", t: "2%"}, right: {d: "52%", t: "35%"}, img: "/homeImages/history2.png"},
             {size: 29, bottom: {d: "-3.5%", t: "-3.5%"}, right: {d: "1.5%", t: "1.5%"}, img: "/homeImages/history1.png"}
         ],

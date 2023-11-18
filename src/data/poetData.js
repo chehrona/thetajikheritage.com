@@ -607,7 +607,13 @@ module.exports.poets = [
                         title: 'Марги судхӯр', studio: "/poetMovies/ayni/tjFilm.png",
                         img: "/poetMovies/ayni/moneylender.jpeg", duration: "1с 25дақ",
                         genre: "Драма", year: "1966", link: "7M_li8nLgK4", lang: "Русӣ",
-                        desc: "Қиссаи Кори Ишкамбаро дар қалби Бухоро пайгирӣ кунед, ки ӯ дар ҷаҳони фиребу истисмор ва фирорҳои аҷиб моҳирона паймоиш мекунад. Ҳарчанд ӯ дар давраи бесарусомонии Ҷанги Якуми Ҷаҳонӣ ба воя мерасид, вақте ки торҳои манипуляцияи ӯ кушода мешавад, сарнавишти ӯ як гардиши сахт мегирад. Дар мутобикати ҷолиби романи Садриддин Айнӣ, филм тавозуни ҷолиби шавқовар ва ҷиддии худро нигоҳ дошт.",
+                        desc: `Қис&shyсаи Қо&shyрӣ Иш&shyкам&shyба&shyро дар қал&shyби Бу&shyхо&shyро пай&shyги&shyрӣ ку&shyнед, ки ӯ чӣ хел бо фи&shyре&shyбу 
+                            ис&shyтис&shyмор ва гу&shyрез&shyҳои мо&shyҳи&shyро&shyна ҳа&shyё&shyти худ&shyро пеш ме&shyба&shyрад. 
+                            Ҳар&shyчанд ӯ дар дав&shyраи бе&shyса&shyру&shyсо&shyмо&shyнии Ҷан&shyги Яку&shyми Ҷа&shyҳон сар&shyва&shyти зи&shyё&shyде ба даст 
+                            овар&shyда бо&shyшад ҳам, вақ&shyте ки сир&shyҳо&shyяш фош ме&shyша&shyванд, ӯ ду&shyчо&shyри бад&shyбах&shyти&shyҳои сахт ме&shyша&shyвад. 
+                            Ин филм дар асо&shyси по&shyвес&shyти ҳам&shyно&shyми Сад&shyрид&shyдин Ай&shyнӣ ба офа&shyри&shyда шу&shyда, ҳам&shyо&shyҳан&shyгии 
+                            но&shyзу&shyки шав&shyқо&shyва&shyрӣ ва ҷид&shyди&shyя&shyти по&shyвест&shyро ба пур&shyра&shyгӣ ба та&shyмо&shyшо&shyби&shyнон 
+                            пеш&shyни&shyҳод ме&shyку&shyнад.`,
                         director: "Тоҳир Собиров"
                     },
                     {
@@ -636,11 +642,7 @@ module.exports.poets = [
                         title: 'Садриддин Айнӣ', studio: '/poetMovies/ayni/ministry.png',
                         img: '/poetMovies/ayni/life.jpeg', duration: '20дақ',
                         genre: 'Биографӣ', year: '1975', link: "wbPlNiM5BYk", lang: "Тоҷикӣ",
-                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
-                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
-                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
-                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
-                            Lenin's work, marking a significant turning point.`,
+                        desc: ``,
                         director: "Бенсион (Борис) Кимёгаров"
                     }
                 ],
@@ -730,14 +732,12 @@ module.exports.poets = [
                         director: "Bension (Boris) Kimyogarov"
                     },
                     {
-                        title: 'Sadriddin Ayni', studio: '/poetMovies/ayni/ministry.png',
+                        title: 'Sadriddin Ayni', studio: '/poetMovies/ayni/tjFilm.png',
                         img: '/poetMovies/ayni/life.jpeg', duration: '20дақ',
                         genre: 'Biopic', year: '1975', link: "wbPlNiM5BYk", lang: "Tajiki",
-                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
-                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
-                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
-                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
-                            Lenin's work, marking a significant turning point.`,
+                        desc: `The film delves into Ayni's early life and experiences during his madrasa days, followed by his involvement with 
+                            Soviet revolutionaries. The rare footage featured in the documentary not only provides insight into Ayni's life but 
+                            also offers a glimpse into the broader context of life in Central Asia in the early 19th century.`,
                         director: "Бенсион (Борис) Кимёгаров"
                     }
                 ]
