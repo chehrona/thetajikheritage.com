@@ -611,6 +611,7 @@ module.exports.poets = [
                             ис&shyтис&shyмор ва гу&shyрез&shyҳои мо&shyҳи&shyро&shyна ҳа&shyё&shyти худ&shyро пеш ме&shyба&shyрад. 
                             Ҳар&shyчанд ӯ дар дав&shyраи бе&shyса&shyру&shyсо&shyмо&shyнии Ҷан&shyги Яку&shyми Ҷа&shyҳон сар&shyва&shyти зи&shyё&shyде ба даст 
                             овар&shyда бо&shyшад ҳам, вақ&shyте ки сир&shyҳо&shyяш фош ме&shyша&shyванд, ӯ ду&shyчо&shyри бад&shyбах&shyти&shyҳои сахт ме&shyша&shyвад. 
+                            Ин филм дар асо&shyси по&shyвес&shyти ҳам&shyно&shyми Сад&shyрид&shyдин Ай&shyнӣ офа&shyри&shyда шу&shyда, ба&shyлан&shyси 
                             но&shyзу&shyки шав&shyқо&shyва&shyрӣ ва ҷид&shyди&shyя&shyти по&shyвест&shyро ба пур&shyра&shyгӣ ба та&shyмо&shyшо&shyби&shyнон 
                             пеш&shyни&shyҳод ме&shyку&shyнад.`,
                         director: "Тоҳир Собиров"
@@ -662,12 +663,15 @@ module.exports.poets = [
                         title: 'Дохунда', studio: '/poetMovies/ayni/tjFilm.png',
                         img: '/poetMovies/ayni/dokhunda.jpeg', duration: '1ч 14мин',
                         genre: 'Драма', year: '1956', link: "1diCkBdHJrk", lang: "Таджикский",
-                        desc: `Ёдгор, также известный как “Дохунда” (“Бедный”), унаследовал долг своего отца и ведет 
-                            жизнь в рабстве под управлением богатого человека Азимшаха. По совету кузнеца Абдуллы, 
-                            Ёдгор нашел убежище в горах, где он встретил Гульнор и влюбился в нее. Однако их роман 
-                            был прерван поимкой Азимшаха и Гульнор стала невольницей Азимшаха. Ёдгора продали в 
-                            солдаты в армию эмира и его жизнь изменилась после того, как он познакомился с работами 
-                            Ленина, который изменил его взгляды на жизнь.`,
+                        desc: `Ёд&shyгор по проз&shyви&shyщу До&shyхун&shyда («Бед&shyный»), унас&shyле&shyдо&shyва&shyвший дол&shyги сво&shyе&shyго от&shyца 
+                            и по&shyпав&shyший в раб&shyство к бо&shyга&shyто&shyму Азим-Ша&shyху, на со&shyве&shyте у куз&shyне&shyца Аб&shyдул&shyлы, 
+                            на&shyхо&shyдит убе&shyжи&shyще в го&shyрах. Там он встре&shyча&shyет Гуль&shyнор и они влюб&shyля&shyют&shyся. Их ро&shyман 
+                            пре&shyры&shyва&shyет&shyся, ког&shyда Азим-Шах за&shyхва&shyты&shyва&shyет его, но пос&shyле ос&shyво&shyбож&shyде&shyния 
+                            Ёд&shyгор ста&shyно&shyвит&shyся ак&shyтив&shyным стро&shyи&shyте&shyлем но&shyвой жиз&shyни в Тад&shyжик&shyской ССР.
+                            На фо&shyне ве&shyли&shyчес&shyтвен&shyных гор&shyных пей&shyза&shyжей Тад&shyжи&shyкис&shyта&shyна, эта ис&shyто&shyрия 
+                            яв&shyля&shyет&shyся при&shyме&shyром си&shyлы люб&shyви, стой&shyкос&shyти че&shyло&shyве&shyческо&shyго ду&shyха и сме&shyлос&shyти. 
+                            Она по&shyка&shyзы&shyва&shyет, как лю&shyди по&shyдоб&shyные Ёд&shyго&shyру по&shyвли&shyя&shyли на судь&shyбу мо&shyло&shyдой 
+                            рес&shyпуб&shyли&shyки, сим&shyво&shyли&shyзи&shyруя му&shyжество и пре&shyдан&shyность сво&shyим иде&shyа&shyлам.`,
                         director: "Бенсион (Борис) Кимягаров"
                     },
                     {
