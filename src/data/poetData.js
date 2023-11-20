@@ -655,8 +655,9 @@ module.exports.poets = [
                             дви&shyжет&shyся по ми&shyру об&shyма&shyна, эк&shyсплу&shyа&shyта&shyции и хит&shyрых по&shyбе&shyгов. 
                             Хо&shyтя он на&shyко&shyпил сос&shyто&shyя&shyние во вре&shyмя ха&shyо&shyса Пер&shyвой ми&shyро&shyвой вой&shyны, 
                             его жизнь быстро из&shyме&shyнит&shyся ког&shyда ру&shyшит&shyся сеть его ма&shyни&shyпу&shyля&shyций. 
-                            Этот фильм, основанный на од&shyно&shyимен&shyной по&shyвес&shyти Сад&shyрид&shyди&shyна Ай&shyни, предла&shyга&shyет зри&shyте&shyлям 
-                            тон&shyкий ба&shyланс меж&shyду ве&shyсель&shyем и серьёзностью ис&shyто&shyрии.`,
+                            Этот фильм, ос&shyно&shyван&shyный на од&shyно&shyимен&shyной по&shyвес&shyти Сад&shyрид&shyди&shyна Ай&shyни, 
+                            предла&shyга&shyет зри&shyте&shyлям 
+                            тон&shyкий ба&shyланс меж&shyду ве&shyсель&shyем и серь&shyез&shyнос&shyтью ис&shyто&shyрии.`,
                         director: "Тахир Сабиров"
                     },
                     {
