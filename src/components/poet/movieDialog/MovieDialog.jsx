@@ -18,15 +18,16 @@ import {
     StudioName,
     ReleaseInfo,
     InfoWrapper,
+    InfoBox,
     StyledPlayIcon,
     Line,
     Direction,
     DirBox,
     StyledFrame,
-    Loader,
     SlideUp,
     SlideDown,
-    StyledArrowButton
+    StyledArrowButton,
+    Cover
 } from "./movieDialogStyles";
 
 const ContentTransition = ({ children, ...props }) => (
@@ -71,9 +72,11 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
             >
                 {showVideo ? (
                     <InfoContainer>
+                        <Cover />
                         <StyledFrame
-                            src={`https://www.youtube.com/embed/${movieInfo?.link}?autoplay=1&rel=0`}
+                            src={`https://www.youtube-nocookie.com/embed/${movieInfo?.link}?autoplay=1&rel=0`}
                             allow='autoplay; encrypted-media'
+                            frameBorder="0"
                             fullWidth
                             allowFullScreen
                             ref={iframeRef}
@@ -86,18 +89,20 @@ export default function MovieDialog({ movieInfo, setShowMovieInfo, showMovieInfo
                                 {fullSize ? <SlideDown /> : <SlideUp />}
                             </StyledArrowButton>
                             <StudioName src={movieInfo?.studio}></StudioName>
-                            <InfoTitle>{movieInfo?.title}</InfoTitle>
-                            <ReleaseInfo>
-                                <InfoWrapper year={1}>{movieInfo?.year}</InfoWrapper>
-                                <InfoWrapper>{movieInfo?.lang}</InfoWrapper>
-                                <InfoWrapper>{movieInfo?.genre}</InfoWrapper>
-                                <InfoWrapper>{movieInfo?.duration}</InfoWrapper>
-                            </ReleaseInfo>
-                            <Desc expand={fullSize} dangerouslySetInnerHTML={{ __html: movieInfo?.desc}} />
-                            <Director>
-                                {lang === 'us' ? 'Director' : 'Режиссёр'}
-                            </Director>
-                            <div>{movieInfo?.director}</div>
+                            <InfoWrapper>
+                                <InfoTitle>{movieInfo?.title}</InfoTitle>
+                                <ReleaseInfo>
+                                    <InfoBox year={1}>{movieInfo?.year}</InfoBox>
+                                    <InfoBox>{movieInfo?.lang}</InfoBox>
+                                    <InfoBox>{movieInfo?.genre}</InfoBox>
+                                    <InfoBox>{movieInfo?.duration}</InfoBox>
+                                </ReleaseInfo>
+                                <Desc expand={fullSize} dangerouslySetInnerHTML={{ __html: movieInfo?.desc}} />
+                                <Director>
+                                    {lang === 'us' ? 'Director' : 'Режиссёр'}
+                                </Director>
+                                <div>{movieInfo?.director}</div>
+                            </InfoWrapper>
                         </InnerBox>
                         <MovieImg src={movieInfo?.img} />
                         <DirBox>

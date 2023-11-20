@@ -18,11 +18,9 @@ export const Desc = styled.div`
     width: 100%;
     line-height: 1.5rem;
     text-align: justify;
-    padding-right: 27%;
 
     @media (max-width: 480px) {
         line-height: 1.8rem;
-        padding-right: 0rem;
         position: relative;
 
         ${({ expand }) => !expand && `
@@ -36,11 +34,6 @@ export const Desc = styled.div`
                 background: linear-gradient(to bottom, rgba(252, 246, 233, 0), rgba(252, 246, 233, 1));
             }
         `}
-    }
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-        width: 100%;
-        padding-right: 0%;
     }
 `;
 
@@ -153,26 +146,30 @@ export const StudioName = styled.img`
     }
 `;
 
+export const InfoWrapper = styled.div`
+    width: 100%;
+    padding-right: 27%;
+    margin-top: 1rem;
+
+    @media (max-width: 1024px) {
+       margin-top: 2rem;
+       padding-right: 0%;
+    }
+`;
+
 export const InfoTitle = styled.div`
     overflow-wrap: break-word;
     font-style: bold;
     font-size: 3.5rem;
     line-height: 3.5rem;
-    width: 80%;
+    width: 100%;
     text-transform: uppercase;
-    margin-top: 1rem;
     font-family: 'EB Garamond', serif;
     text-shadow: 0.0625rem 0.0625rem 0.1875rem #504221e6;
 
     @media (max-width: 480px) {
        font-size: 3rem;
        line-height: 3.3rem;
-       width: 100%;
-       margin-top: 2rem;
-    }
-
-    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
-        margin-top: 2rem;
     }
 `;
 
@@ -222,38 +219,41 @@ export const ReleaseInfo = styled.div`
     display: flex;
     align-items: center;
     height: 4rem;
-    width: 65%;
     justify-content: start;
-    padding-right: 2rem;
     color: #504221d1;
+    width: 100%;
+    gap: 1rem;
 
-    @media (max-width: 1024px) {
-        width: 100%;
+    @media (max-width: 480px) {
         height: 3rem;
-    }  
+        gap: 0rem;
+    } 
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        height: 3rem;
+    }
 `;
 
-export const InfoWrapper = styled.div`
+export const InfoBox = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     padding: 1rem;
-    margin: 3rem 0rem 3rem 0rem;
+    margin: 3rem 0rem;
     width: ${({ year }) => year ? '4rem' : '10rem'};
 
     @media (max-width: 480px) {
         margin: 1rem 0rem;
-        width: ${({ year }) => year ? '4rem' : '8rem'};
+        width: fit-content;
     }
 `;
 
 export const Director = styled.div`
-    width: 62%;
+    width: 100%;
     text-transform: uppercase;
     font-size: 1.5rem;
     font-family: 'EB Garamond', serif;
-    margin-top: 1.5rem;
-    margin-bottom: 0.3rem;
+    margin: 1.5rem 0rem 0.3rem 0rem;
 
     @media (max-width: 1024px) {
         font-size: 2rem;
@@ -301,22 +301,8 @@ export const Direction = styled.div`
 
 export const StyledFrame = styled.iframe`
     width: 100%;
-    border-radius: 2rem;
-    padding: 5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-`;
-
-export const Loader = styled.div`
-    width: 100%;
     height: 100%;
-    position: fixed;
-    background: #202020
-        url("/loader.svg") center
-        no-repeat;
-    z-index: 1;
     border-radius: 2rem;
-    opacity: 0.7;
 `;
 
 export const SlideUp = styled(ArrowForwardIos)`
@@ -326,4 +312,15 @@ export const SlideUp = styled(ArrowForwardIos)`
 
 export const SlideDown = styled(ArrowForwardIos)`
     transform: rotate(-180deg);
+`;
+
+export const Cover = styled.div`
+    background-color: #000000;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 0rem;
+    right: 0rem;
+    pointer-events: none;
+    cursor: none;
 `;
