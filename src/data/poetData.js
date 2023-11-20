@@ -611,7 +611,6 @@ module.exports.poets = [
                             ис&shyтис&shyмор ва гу&shyрез&shyҳои мо&shyҳи&shyро&shyна ҳа&shyё&shyти худ&shyро пеш ме&shyба&shyрад. 
                             Ҳар&shyчанд ӯ дар дав&shyраи бе&shyса&shyру&shyсо&shyмо&shyнии Ҷан&shyги Яку&shyми Ҷа&shyҳон сар&shyва&shyти зи&shyё&shyде ба даст 
                             овар&shyда бо&shyшад ҳам, вақ&shyте ки сир&shyҳо&shyяш фош ме&shyша&shyванд, ӯ ду&shyчо&shyри бад&shyбах&shyти&shyҳои сахт ме&shyша&shyвад. 
-                            Ин филм дар асо&shyси по&shyвес&shyти ҳам&shyно&shyми Сад&shyрид&shyдин Ай&shyнӣ ба офа&shyри&shyда шу&shyда, ҳам&shyо&shyҳан&shyгии 
                             но&shyзу&shyки шав&shyқо&shyва&shyрӣ ва ҷид&shyди&shyя&shyти по&shyвест&shyро ба пур&shyра&shyгӣ ба та&shyмо&shyшо&shyби&shyнон 
                             пеш&shyни&shyҳод ме&shyку&shyнад.`,
                         director: "Тоҳир Собиров"
@@ -702,22 +701,25 @@ module.exports.poets = [
                         title: 'Death of a Money Lender', studio: "/poetMovies/ayni/tjFilm.png",
                         img: "/poetMovies/ayni/moneylender.jpeg", duration: "1hr 25min",
                         genre: "Drama", year: "1966", link: "7M_li8nLgK4", lang: "Russian",
-                        desc: `Follow Qori-Ishkamba's story to the heart of Bukhara, as he masterfully navigates the world of deception, 
-                            exploitation and thrilling escapes. Although thriving during the chaos of WWI, his fate takes a dark turn 
-                            as his web of manipulation unravels. 
-                            The movie preserved much of the captivating balance of amusement and seriousness in its gripping adaptation 
-                            of Sadriddin Ayni's novel.`,
+                        desc: `Fol&shylow Qo&shyri—Ish&shykam&shyba's sto&shyry to the heart of Bu&shykha&shyra, as he mas&shyter&shyful&shyly 
+                            nav&shyi&shygates the world of de&shycep&shytion, ex&shyploi&shyta&shytion and thrill&shying es&shycapes. Al&shythough 
+                            thriv&shying dur&shying the chaos of WWI, his fate takes a dark turn as his web of ma&shynip&shyu&shyla&shytion 
+                            un&shyrav&shyels. The mov&shyie pre&shyserved much of the cap&shyti&shyvat&shying bal&shyance of amuse&shyment and 
+                            se&shyri&shyous&shyness in its grip&shyping adap&shyta&shytion of Sad&shyrid&shydin Ay&shyni's nov&shyel.`,
                         director: "Tohir Sobirov"
                     },
                     {
                         title: 'Dokhunda', studio: '/poetMovies/ayni/tjFilm.png',
                         img: '/poetMovies/ayni/dokhunda.jpeg', duration: '1hr 14min',
                         genre: 'Drama', year: '1956', link: "1diCkBdHJrk", lang: "Tajiki",
-                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
-                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
-                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
-                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
-                            Lenin's work, marking a significant turning point.`,
+                        desc: `Yod&shygor, known as Do&shykhun&shyda ("The Poor"), in&shyher&shyits his fa&shyther's debts, plung&shying him in&shyto 
+                            ser&shyvi&shytude un&shyder the wealthy man named Azim&shyshah. Guid&shyed by black&shysmith Ab&shydul&shylo, Yod&shygor 
+                            seeks ref&shyuge in the moun&shytains, where he en&shycoun&shyters and falls in love with Gul&shynor. Their ro&shymance 
+                            is cut short by Azim&shyshah's cap&shyture, but af&shyter his re&shylease, Yod&shygor be&shycomes a key fig&shyure in 
+                            build&shying the Ta&shyjik So&shyvi&shyet So&shycial&shyist Re&shypub&shylic. Against the back&shydrop of 
+                            Ta&shyji&shykis&shytan's ma&shyjes&shytic land&shyscapes, this tale un&shyfolds as a jour&shyney of love, re&shysil&shyience, 
+                            and the en&shydur&shying hu&shyman spir&shyit, ex&shyplor&shying wheth&shyer Yod&shygor's evo&shylu&shytion can shape the 
+                            des&shyti&shyny of a bur&shygeon&shying re&shypub&shylic.`,
                         director: "Bension (Boris) Kimyogarov"
                     },
                     {
@@ -733,11 +735,13 @@ module.exports.poets = [
                     },
                     {
                         title: 'Sadriddin Ayni', studio: '/poetMovies/ayni/tjFilm.png',
-                        img: '/poetMovies/ayni/life.jpeg', duration: '20дақ',
+                        img: '/poetMovies/ayni/life.jpeg', duration: '20min',
                         genre: 'Biopic', year: '1975', link: "wbPlNiM5BYk", lang: "Tajiki",
-                        desc: `The film delves into Ayni's early life and experiences during his madrasa days, followed by his involvement with 
-                            Soviet revolutionaries. The rare footage featured in the documentary not only provides insight into Ayni's life but 
-                            also offers a glimpse into the broader context of life in Central Asia in the early 19th century.`,
+                        desc: `The film delves in&shyto Ayni's ear&shyly life and ex&shype&shyri&shyences dur&shying his mad&shyra&shysa days, 
+                            but the pri&shyma&shyry fo&shycus is his aca&shydem&shyic ca&shyreer dur&shying the So&shyvi&shyet Union. 
+                            The rare foot&shyage fea&shytured in the doc&shyu&shymen&shyta&shyry not on&shyly pro&shyvides in&shysight 
+                            in&shyto Ayni's life but al&shyso of&shyfers a glimpse in&shyto the broad&shyer con&shytext of life in Cen&shytral Asia 
+                            in the ear&shyly 19th cen&shytu&shyry.`,
                         director: "Бенсион (Борис) Кимёгаров"
                     }
                 ]
