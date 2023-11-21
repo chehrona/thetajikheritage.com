@@ -705,7 +705,7 @@ module.exports.poets = [
                         title: 'Death of a Money Lender', studio: "/poetMovies/ayni/tjFilm.png",
                         img: "/poetMovies/ayni/moneylender.jpeg", duration: "1hr 25min",
                         genre: "Drama", year: "1966", link: "7M_li8nLgK4", lang: "Russian",
-                        desc: `Fol&shylow Qo&shyri—Ish&shykam&shyba's sto&shyry to the heart of Bu&shykha&shyra, as he mas&shyter&shyful&shyly 
+                        desc: `Fol&shylow Qo&shyri Ish&shykam&shyba's sto&shyry to the heart of Bu&shykha&shyra, as he mas&shyter&shyful&shyly 
                             nav&shyi&shygates the world of de&shycep&shytion, ex&shyploi&shyta&shytion and thrill&shying es&shycapes. Al&shythough 
                             thriv&shying dur&shying the chaos of WWI, his fate takes a dark turn as his web of ma&shynip&shyu&shyla&shytion 
                             un&shyrav&shyels. The mov&shyie pre&shyserved much of the cap&shyti&shyvat&shying bal&shyance of amuse&shyment and 
@@ -959,16 +959,18 @@ module.exports.poets = [
             ru: [
                     {
                         title: "Орден Ленина", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
-                        desc: `Высшая награда Советского Союза присуждалась за выдающиеся заслуги в революционном движении, 
-                            трудовую деятельность, защиту социалистической Родины, развитие дружбы и сотрудничества между народами, 
-                            укрепление мира перед Советским государством и обществом.
-                            <div class='emptyLine'></div>
-                            Айни был награжден этим орденом трижды, но информация только об одном из них (1941 года) имеется в 
-                            открытых базах данных.`
+                        desc: `Вы&shyсшая наг&shyра&shyда Со&shyве&shyтско&shyго Со&shyю&shyза при&shyсуж&shyда&shyлась за вы&shyда&shyю&shyщи&shyе&shyся 
+                        за&shyслу&shyги в ре&shyво&shyлю&shyци&shyон&shyном дви&shyже&shyнии, 
+                        тру&shyдо&shyвую де&shyя&shyтель&shyность, за&shyщи&shyту со&shyци&shyа&shyли&shyсти&shyче&shyской ро&shyди&shyны, 
+                        раз&shyви&shyтие друж&shyбы и со&shyтруд&shyни&shyче&shyства меж&shyду на&shyро&shyда&shyми, 
+                        укре&shyпле&shyние ми&shyра пе&shyред со&shyве&shyтским го&shyсу&shyдар&shyством и об&shyще&shyством.
+                        <div class='emptyLine'></div>
+                        Ай&shyни был наг&shyраж&shyден этим ор&shyде&shyном триж&shyды, но ин&shyфор&shyма&shyция толь&shyко об од&shyном из 
+                        них (1941 го&shyда) име&shyе&shyтся в откры&shyтых ба&shyзах дан&shyных. `
                     },
                     {
                         title: "Почётный академик АНУзССР", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
-                        desc: `В 1943 году С. Айни стал почётным членом Академии наук Узбекской ССР.`
+                        desc: `В 1943 го&shyду С. Ай&shyни стал по&shyчё&shyтным чле&shyном Ака&shyде&shyмии На&shyук Уз&shyбе&shyкской ССР.`
                     },
                     {
                         title: "Почетный Доктор ЛГУ", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
@@ -986,7 +988,7 @@ module.exports.poets = [
                             науки и техники, во&shyен&shyно&shyго де&shyла, ли&shyте&shyра&shyту&shyры и ис&shyкус&shyства в 1940-1955 годах.
                             <div class='emptyLine'></div>
                             Эта награда была вручена Айни в 1950 году за вклад в советскую литературу - направление художественная проза, 
-                            за книгу "Воспоминания". Помимо ордена он был награжден 50 000 советских рублей (~160 000 долларов сегодня) 
+                            за книгу «Воспоминания». Помимо ордена он был награжден 50 000 советских рублей (~160 000 долларов сегодня) 
                             со&shyот&shyвет&shyствен&shyно награды второй степени.`
                     },
                     {
@@ -1008,60 +1010,16 @@ module.exports.poets = [
                     },
                     {
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
-                        desc: `Орденом "За вы&shyда&shyю&shyщи&shyе&shyся заслуги" на&shyграж&shyда&shyют&shyся 
-                            граж&shyда&shyне Рес&shyпуб&shyли&shyки Уз&shyбе&shyкис&shyтан и граж&shyда&shyне ино&shyстран&shyных 
-                            го&shyсу&shyдарств за выдающиеся зас&shyлу&shyги
-                            в развитии науки и техники, экономики и культуры, цен&shyный вклад в развитие 
-                            меж&shyго&shyсу&shyдар&shyствен&shyно&shyго сотрудничества 
-                            и реализацию оте&shyчес&shyтвен&shyных и зарубежных планов.
-                            <div class='emptyLine'></div>
-                            С. Айни был награждён за вклад в уз&shyбек&shyскую литературу.`
-                    },
-                ],
-            kh: [
-                    {
-                        title: "نشان لنین", years: ["۱۹۴۱"], img: "/poetImages/ayni/lenin.png", 
-                        desc: `عالی ترین مدال ایتحدی شوروی برای خدمات مخصوصان برجستا در حرکاتی اینقیلابی، فعالیت کارگری، محافظاتی وطنی سوسیالیستی،
-                            انکشاف دادنی دوستی و همکاری بینی خلقها، مستحکم نمودن صلح، در نزدی دولتی شوروی و جمعیت سوپاریده میشود
-                            <div class='emptyLine'></div>
-                            Айни был награжден этим орденом трижды, но информация только об одном из них (1941 года) имеется в 
-                            открытых базах данных.`
-                    },
-                    {
-                        title: "Сталинская премия",
-                        years: ["۱۹۵۰"], img: "/poetImages/ayni/stalin.png", 
-                        desc: `Высшая государственная награда СССР, удостоевомая за выдающиеся достижения и заслуги в области 
-                            науки и техники, военного дела, литературы и искусства в 1940-1955 годах.
-                            <div class='emptyLine'></div>
-                            Эта награда была вручена Айни в 1950 году за вклад в советскую литературу - направление художественная проза, 
-                            за книгу "Воспоминания". Помимо ордена он был награжден 50 000 советских рублей (~160 000 долларов сегодня) 
-                            соответственно степени награды.`
-                    },
-                    {
-                        title: "Орден Трудового Красного Знамени", years: ["?"], img: "/poetImages/ayni/labor.png", 
-                        desc: `Общегражданская награда Советского Союза вручался за заслуги государству и обществу в области производства, 
-                            науки, культуры, литературы, искусства, образования, здравоохранения и других областей трудовой деятельности.
-                            <div class='emptyLine'></div>
-                            Айни награждался этим орденом дважды.`
-                    },
-                    {
-                        title: "قهرمان تاجیکستان", years: ["۱۹۹۷"], img: "/poetImages/ayni/hero.png", 
-                        desc: `Высшее государственное звание Республики Таджикистан присуждаемое за заслуги перед государством и народом, 
-                            за воинский и трудовой героизм во имя свободы, независимости и развития Таджикистана.
-                            <div class='emptyLine'></div>
-                            Эту высокую честь он удостоился за заслуги в создании Советской Социалистической Республики Таджикистан и 
-                            за книги, освещающие национальную идентичность таджиков. В частности, его книга «Образцы таджикской литературы» 
-                            является показателем древней истории и культуры таджикского народа.`
-                    },
-                    {
-                        title: "Buyuk xizmatlari uchun", years: ["۲۰۰۱"], img: "/poetImages/ayni/uzbek.png",
-                        desc: `Орденом награждаются граждане Республики Узбекистан и граждане иностранных государств за выдающиеся заслуги
-                            в развитии науки и техники, экономики и культуры, ценный вклад в развитие межгосударственного сотрудничества 
-                            и реализацию отечественных и зарубежных планов.
+                        desc: `Ор&shyде&shyном наг&shyраж&shyда&shyю&shyтся граж&shyда&shyне Ре&shyспуб&shyли&shyки Уз&shyбе&shyки&shyстан и 
+                            граж&shyда&shyне ино&shyстран&shyных го&shyсу&shyдарств за вы&shyда&shyю&shyщи&shyе&shyся за&shyслу&shyги в раз&shyви&shyти&shyи 
+                            на&shyу&shyки и тех&shyни&shyки, эко&shyно&shyми&shyки и куль&shyту&shyры, цен&shyный вклад в раз&shyви&shyтие 
+                            меж&shyго&shyсу&shyдар&shyствен&shyно&shyго со&shyтруд&shyни&shyче&shyства и ре&shyа&shyли&shyза&shyцию оте&shyче&shyствен&shyных 
+                            и за&shyру&shyбеж&shyных пла&shyнов. 
                             <div class='emptyLine'></div>
                             С. Айни был награждён за вклад в узбекскую литературу.`
                     },
                 ],
+            kh: [],
             us: [
                     {
                         title: "Order of Lenin", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
@@ -1086,12 +1044,12 @@ module.exports.poets = [
                     {
                         title: "Stalin Prize",
                         years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
-                        desc: `The highest state award of the USSR, given between 1940-1955 for outstanding achievements and me&shyrits in science and 
-                            tech&shynology, military affairs, literature and art.
+                        desc: `The high&shyest state award of the USSR, giv&shyen be&shytween 1940-1955 for out&shystand&shying achieve&shyments and mer&shyits 
+                            in sci&shyence and tech&shynol&shyo&shygy, mil&shyi&shytary af&shyfairs, lit&shyer&shya&shyture and art.
                             <div class='emptyLine'></div>
-                            In 1950, Ayni received this order for his contribution to Soviet literature (in fic&shytion) for his book - "Memoirs". 
-                            The ac&shyknow&shyledgment came with a prize of 50,000 Soviet rubles (~$160,000 today) – a recognition commensurate 
-                            with second-degree honors.`
+                            In 1950, Ay&shyni re&shyceived this or&shyder for his con&shytri&shybu&shytion to So&shyvi&shyet lit&shyer&shya&shyture (in fic&shytion) for his book — 
+                            "Mem&shyoirs". The ac&shyknowl&shyedg&shyment came with a prize of 50,000 So&shyvi&shyet rubles (~$160,000 to&shyday) — a recog&shyni&shytion 
+                            com&shymen&shysu&shyrate with sec&shyond de&shygree hon&shyors.`
                     },
                     {
                         title: "Order of the Red Banner of Labor", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
