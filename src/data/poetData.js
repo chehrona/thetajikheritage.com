@@ -24,52 +24,61 @@ module.exports.poets = [
                 us: {
                     year: 'April 15, 1878',
                     slides: {img: '/poetImages/ayni/soktare.png', text: `Sadriddin Ayni's childhood home in Soktare<sup>4</sup>`},
-                    desc: `Sadriddin Saidmurodzoda was born to <span style='font-weight: bold;'>Sa&shyid&shymu&shyrod&shykho&shyja</span>
-                        and <span style='font-weight: bold;'>Zevaroy</span> in the village of 
-                        Sok&shyta&shyre, G’ij&shydu&shyvon district, Emi&shyrate of Bu&shykha&shyra.<sup>1</sup> Raised in a fa&shymily of far&shymers, he spent most of his early 
-                        years among fellow far&shymers and lo&shycal artisans. It was with&shyin this close-knit community 
-                        that he was introduced to the world of folk literature, in&shyclud&shying tales, leg&shyends, songs, 
-                        an&shyec&shydotes, and pro&shyverbs.<sup>2</sup>
+                    desc: `Sad&shyrid&shydin Said&shymu&shyrod&shyzo&shyda was born to 
+                        <span style='font-weight: bold;'>Sa&shy­id­&shymu­&shyrod&shy­kho­&shyja</span>
+                        and <span style='font-weight: bold;'>Ze&shyvaroy</span> in the vil&shylage of 
+                        Sok&shytare, G’ij&shydu&shyvon dis&shytrict, Emi&shyrate of Bu&shykha&shyra.<sup>1</sup> Raised in a 
+                        fam&shyi&shyly of farm&shyers, 
+                        he spent most of his ear&shyly years among fel&shylow farm&shyers and lo&shycal ar&shyti&shysans. 
+                        It was with&shyin this close&shyknit com&shymu&shyni&shyty that he was in&shytro&shyduced to the world of 
+                        folk lit&shyer&shya&shyture, in&shyclud&shying tales, leg&shyends, songs, anec&shydotes, and prov&shyerbs.<sup>2</sup>
                         <div class='space'></div>
-                        During his school years, as documented in his book "The Old School," 
-                        he didn't find much va&shylue in for&shymal education. However, he had his in&shyi&shytial ex&shypo&shysure to the 
-                        poetry of eminent mas&shyters such as Saadi, Hafez, Saib, Bedil, and others.<div class='space'></div>
-                        His father, despite being a humble peasant, had a deep love for education and literature, 
-                        which he passed down to his children.<sup>2,3</sup>`
+                        Dur&shying his school years, as doc&shyu&shyment&shyed in his book "The Old School," 
+                        he didn't find much val&shyue in for&shymal ed&shyu&shyca&shytion. How&shyev&shyer, he had his ini&shytial 
+                        ex&shypo&shysure to the po&shyet&shyry of em&shyi&shynent mas&shyters such as Sa&shya&shydi, Ha&shyfez, 
+                        Sa&shyib, Be&shydil, and oth&shyers.
+                        <div class='space'></div>
+                        His fa&shyther, de&shyspite be&shying a hum&shyble peas&shyant, had a deep love for ed&shyu&shyca&shytion and 
+                        lit&shyer&shya&shyture, which he passed down to his chil&shydren.<sup>2,3</sup>`
                 },
                 ru: {
                     year: '15 апреля 1878 г.',
                     slides: {img: '/poetImages/ayni/soktare.png', text: `Дом, где прошло детство Садриддина Айни в Соктаре<sup>4</sup>`},
-                    desc: `Садриддин Саидмуродзода ро&shyдил&shyся в семье <span style='font-weight: bold;'>Саид&shyму&shyрод&shyходжи</span>
-                        и <span style='font-weight: bold;'>Зеварой</span> в се&shyле Сок&shyта&shyре Гиж&shyду&shyванско&shyго рай&shyо&shyна 
-                        Бу&shyхар&shyско&shyго эми&shyра&shyта.<sup>1</sup> 
-                        Посколь&shyку он был вы&shyход&shyцем из кресть&shyян&shyской семьи, он про&shyвел боль&shyшую часть сво&shyих ран&shyних 
-                        лет сре&shyди кресть&shyян и мест&shyных ре&shyмес&shyлен&shyни&shyков. 
-                        Имен&shyно в этом спло&shyчен&shyном со&shyоб&shyщест&shyве он зна&shyко&shyмит&shyся с ми&shyром на&shyрод&shyной 
-                        ли&shyте&shyра&shyту&shyры, вклю&shyча&shyю&shyщей сказ&shyки, ле&shyген&shyды, пес&shyни, анек&shyдо&shyты и посло&shyви&shyцы.<sup>2</sup>
+                    desc: `Сад&shyрид&shyдин Са&shyид&shyму&shyрод&shyзо&shyда ро&shyдил&shyся в семье <span style='font-weight: bold;'>Саидмуродходжи</span>
+                        и <span style='font-weight: bold;'>Зе&shyва&shyрой</span> в се&shyле Со&shyкта&shyре Гиж&shyду&shyван&shyско&shyго 
+                        ра&shyйо&shyна Бу&shyхар&shyско&shyго эми&shyра&shyта.<sup>1</sup> 
+                        По&shyсколь&shyку он был из кре&shyстьян&shyской семьи, он про&shyвел боль&shyшую часть сво&shyих ран&shyних лет сре&shyди 
+                        кре&shyстьян и ме&shyстных ре&shyме&shyслен&shyни&shyков. имен&shyно в этом спло&shyчен&shyном со&shyоб&shyще&shyстве он зна&shyко&shyми&shyтся с ми&shyром 
+                        на&shyрод&shyной ли&shyте&shyра&shyту&shyры, вклю&shyча&shyю&shyщей сказ&shyки, ле&shyген&shyды, пе&shyсни, ане&shyкдо&shyты и по&shyсло&shyви&shyцы.<sup>2</sup>
                         <div class='space'></div>
-                        В школьные годы, как описано в его книге «Ста&shyрая шко&shyла», он не по&shyлу&shyчил осо&shyбой поль&shyзы от фор&shyмаль&shyно&shyго образования.
-                        Од&shyна&shyко он по&shyзна&shyко&shyмил&shyся с поэзией таких вы&shyда&shyю&shyщих&shyся мас&shyтеров, как Саади, Ха&shyфиз, Саиб, Бедиль и дру&shyгих.
+                        В школь&shyные го&shyды, как опи&shyса&shyно в его кни&shyге «Ста&shyра&shyя шко&shyла», он не по&shyлу&shyчил 
+                        осо&shyбой поль&shyзы от фор&shyмаль&shyно&shyго об&shyра&shyзо&shyва&shyния. 
+                        Од&shyна&shyко он поз&shyна&shyко&shyмил&shyся с по&shyэ&shyзи&shyей та&shyких вы&shyда&shyю&shyщих&shyся ма&shyсте&shyров, 
+                        как Са&shyа&shyди, Ха&shyфиз, Са&shyиб, Бе&shyдиль и дру&shyгих. 
                         <div class='space'></div>
-                        Его отец, не&shyсмот&shyря на то, что был скром&shyным зем&shyле&shyдель&shyцем, имел глу&shyбо&shyкую лю&shyбовь к об&shyра&shyзо&shyва&shyнию и 
+                        Его отец, не&shyсмо&shyтря на то, что был скром&shyным зем&shyле&shyдель&shyцем, имел глу&shyбо&shyкую лю&shyбовь к 
+                        об&shyра&shyзо&shyва&shyнию и 
                         ли&shyте&shyра&shyту&shyре, ко&shyто&shyрую он пе&shyре&shyдал сво&shyим де&shyтям.<sup>2,3</sup>`
                 },
                 tj: {
                         year: '15 апрели 1878',
                         slides: {img: '/poetImages/ayni/soktare.png', text: `Хонаи бачагии Садриддин Айнӣ дар Соктаре<sup>4</sup>`},
-                        desc: `Садриддин Саидмуродзода дар хо&shyна&shyво&shyдаи <span style='font-weight: bold;'>Саидмуродхоҷа</span>
-                        ва <span style='font-weight: bold;'>Зеварой</span> дар деҳаи Сок&shyта&shyреи ноҳияи Ғиҷдувони Аморати 
-                        Бу&shyхо&shyро ба дунё ома&shyда&shyаст.<sup>1</sup>
-                        Чун аз ои&shyлаи ки&shyшо&shyварз буд, ба&shyча&shyгии худ&shyро дар байни деҳқонон ва ҳу&shyнар&shyман&shyдо&shyни ма&shyҳаллӣ гузаронидааст. 
-                        Маҳз дар ҳамин ҷомеа бо олами адабиёти халқӣ, аз ҷумла афсонаҳо, ривоятҳо, сурудҳо,
-                        шӯ&shyхи&shyҳо ва зар&shyбул&shyма&shyсал&shyҳо аз наз&shyдик ши&shyнос ме&shyша&shyвад.<sup>2</sup>
+                        desc: `Сад&shyрид&shyдин Са&shyид&shyму&shyрод&shyзо&shyда дар хо&shyна&shyво&shyдаи 
+                        <span style='font-weight: bold;'>Са&shyид&shyму&shyрод&shyхо&shyҷа</span>
+                        ва <span style='font-weight: bold;'>Зе&shyва&shyрой</span> дар де&shyҳаи Сок&shyта&shyреи но&shyҳи&shyяи 
+                        Ғиж&shyду&shyво&shyни Амо&shyра&shyти Бу&shyхо&shyро ба дунё ома&shyда&shyаст.<sup>1</sup>
+                        Чун аз ои&shyлаи ки&shyшо&shyварз буд, ба&shyча&shyгии худ&shyро дар бай&shyни деҳ&shyқо&shyнон ва 
+                        ҳу&shyнар&shyман&shyдо&shyни ма&shyҳаллӣ гу&shyза&shyро&shyни&shyда&shyаст. 
+                        Маҳз дар ҳа&shyмин ҷо&shyмеа бо ола&shyми ада&shyби&shyё&shyти хал&shyқӣ, аз ҷум&shyла аф&shyсо&shyна&shyҳо, 
+                        ри&shyво&shyят&shyҳо, су&shyруд&shyҳо, шӯ&shyхи&shyҳо ва зар&shyбул&shyма&shyсал&shyҳо аз наз&shyдик ши&shyнос ме&shyша&shyвад.<sup>2</sup>
                         <div class='space'></div>
-                        Дар солҳои мактабхонӣ, чунон ки дар ки&shyто&shyби худ «Мак&shyта&shyби кӯҳ&shyна» баён ме&shyку&shyнад, аз таъ&shyли&shyми 
-                        рас&shyмӣ фоидаи зиёде намебинад. Аммо бори ав&shyвал бо ашъ&shyо&shyри ус&shyто&shyдо&shyни бар&shyҷас&shyта, аз қа&shyби&shyли Саъ&shyдӣ, 
-                        Ҳо&shyфиз, Со&shyиб, Бе&shyдил ва дигарон ошно ме&shyша&shyвад.
+                        Дар сол&shyҳои мак&shyтаб&shyхо&shyнӣ, чунон ки дар ки&shyто&shyби худ «Мак&shyта&shyби кӯҳ&shyна» баён ме&shyку&shyнад, 
+                        аз таъ&shyли&shyми рас&shyмӣ фо&shyи&shyдаи зи&shyё&shyде на&shyме&shyби&shyнад. Ам&shyмо бо&shyри ав&shyвал бо ашъ&shyо&shyри 
+                        ус&shyто&shyдо&shyни бар&shyҷас&shyта, аз қа&shyби&shyли Саъ&shyдӣ, Ҳо&shyфиз, Со&shyиб, Бе&shyдил ва ди&shyга&shyрон 
+                        ош&shyно ме&shyша&shyвад.
                         <div class='space'></div>
-                        Падараш, бо вуҷуди деҳқони оддӣ буданаш, ба илму до&shyниш меҳри бе&shyан&shyдо&shyза дошт ва ин му&shyҳаб&shyбат&shyро 
-                        ба фарзандонаш низ мерос гу&shyзош&shyта&shyаст.<sup>2,3</sup>`
+                        Па&shyда&shyраш, бо ву&shyҷу&shyди деҳ&shyқо&shyни од&shyдӣ бу&shyда&shyнаш, ба ил&shyму до&shyниш меҳ&shyри 
+                        бе&shyан&shyдо&shyза дошт ва ин му&shyҳаб&shyбат&shyро ба фар&shyзан&shyдо&shyнаш низ ме&shyрос гу&shyзош&shyта&shyаст.<sup>2,3</sup>`
                 }
             },
             two: {
@@ -77,10 +86,11 @@ module.exports.poets = [
                         {
                             year: '1889',
                             image: '/poetImages/ayni/slides/ayni1.jpeg',
-                            desc: `A devastating cholera epidemic swept through Bukhara and its neighboring areas, part&shying Ay&shyni 
-                                from both his father and mother in a span of for&shyty days. He was left to take care of two young&shyer
-                                bro&shythers at the age of 12. Despite these challenges, 
-                                Ay&shyni's dream for knowledge led him to Bukhara.<sup>2</sup>`
+                            desc: `A dev&shyas&shytat&shying chol&shyera ep&shyi&shydem&shyic swept through Bu&shykha&shyra and its neigh&shybor&shying 
+                                ar&shyeas, part&shying Ay&shyni 
+                                from both his fa&shyther and moth&shyer in a span of for&shyty days. He was left to take care of two young&shyer
+                                broth&shyers at the age of 12. Des&shypite these chal&shylenges, Ay&shyni's dream for knowl&shyedge led him to 
+                                Bu&shykha&shyra.<sup>2</sup>`
                         },
                         {
                             year: '1890',
@@ -306,7 +316,7 @@ module.exports.poets = [
                         Од&shyна&shyко `,
                         tooltip1: {
                             word: `эмиру`,
-                            text: `Последним эмиром Бухарского эмирата был Сеид Мир Мухаммед Алим-хан`
+                            text: `По&shyслед&shyним эми&shyром Бу&shyхар&shyско&shyго эми&shyра&shyта был Се&shyид Мир Му&shyхам&shyмед Алим-хан`
                         },
                         text2: ` не пон&shyра&shyвил&shyся его ре&shyфор&shyмизм, что при&shyве&shyло к его тю&shyрем&shyно&shyму 
                         за&shyклю&shyче&shyнию и са&shyмо&shyму су&shyро&shyво&shyму на&shyка&shyза&shyнию то&shyго вре&shyме&shyни —
@@ -344,7 +354,7 @@ module.exports.poets = [
                             меги&shyрад. Ам&shyмо ис&shyло&shyҳот&shyхо&shyҳии ӯ ба `,
                         tooltip1: {
                             word: `амир`,
-                            text: `Амири охирини аморати Бухоро Саид Муҳаммад Олимхон буд`
+                            text: `Ами&shyри охи&shyри&shyни Амо&shyра&shyти Бу&shyхо&shyро Саид Му&shyҳам&shyмад Олим&shyхон буд`
                         },
                         text2: ` пи&shyсанд на&shyме&shyояд. Ӯро ба зин&shyдон 
                             ме&shyпар&shyто&shyянд ва ба сахт&shyта&shyрин ҷа&shyзои он дав&shyра – 
