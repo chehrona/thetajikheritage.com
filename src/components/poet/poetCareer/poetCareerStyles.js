@@ -155,6 +155,10 @@ export const Desc = styled.div`
             display: none;
         }
     }
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+        font-size: 1.3rem;
+    }
 `;
 
 export const Footer = styled.div`
