@@ -974,39 +974,51 @@ module.exports.poets = [
                     },
                     {
                         title: "Почетный Доктор ЛГУ", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
-                        desc: `Звание «Почетный Доктор Ленинградского Государственного Университета (СПбГУ)» присваивается 
-                            выдающимся деятелям науки, образования и культуры, 
-                            государственным и общественным деятелям, внесшим вклад в развитие меж&shyду&shyна&shyрод&shyного научного, культурного, 
-                            экономического и политического сотрудни&shyчест&shyва.
+                        desc: `Зва&shyние «По&shyче&shyтный До&shyктор Ле&shyнин&shyград&shyско&shyго Го&shyсу&shyдар&shyствен&shyно&shyго 
+                            Уни&shyвер&shyси&shyте&shyта (СПбГУ)» при&shyсва&shyи&shyва&shyе&shyтся 
+                            вы&shyда&shyю&shyщим&shyся де&shyя&shyте&shyлям на&shyу&shyки, об&shyра&shyзо&shyва&shyни&shyя и куль&shyту&shyры, 
+                            го&shyсу&shyдар&shyствен&shyным и об&shyще&shyствен&shyным де&shyя&shyте&shyлям, вне&shyсшим вклад в раз&shyви&shyтие 
+                            меж&shyду&shyна&shyрод&shyно&shyго на&shyуч&shyно&shyго, 
+                            куль&shyтур&shyно&shyго, эко&shyно&shyми&shyче&shyско&shyго и по&shyли&shyти&shyче&shyско&shyго со&shyтру&shyдни&shyче&shyства.
                             <div class='emptyLine'></div>
-                            Приказом учёного совета этого университета писателю было присвоено звание доктора филологических наук.`
+                            При&shyка&shyзом уче&shyно&shyго со&shyве&shyта это&shyго уни&shyвер&shyси&shyте&shyта пи&shyса&shyте&shyлю бы&shyло 
+                            при&shyсво&shyе&shyно зва&shyние до&shyкто&shyра фи&shyло&shyло&shyги&shyче&shyских на&shyук.`
                     },
                     {
                         title: "Сталинская премия",
                         years: ["1950"], img: "/poetImages/ayni/awards/stalin.png", 
-                        desc: `Высшая государственная награда СССР, удостоевомая за выдающиеся до&shyсти&shyже&shyния и заслуги в области 
-                            науки и техники, во&shyен&shyно&shyго де&shyла, ли&shyте&shyра&shyту&shyры и ис&shyкус&shyства в 1940-1955 годах.
+                        desc: `Вы&shyсшая го&shyсу&shyдар&shyствен&shyная наг&shyра&shyда СССР, удо&shyсто&shyе&shyво&shyмая за вы&shyда&shyю&shyщи&shyе&shyся 
+                            до&shyсти&shyже&shyния и за&shyслу&shyги в об&shyла&shyсти на&shyу&shyки и тех&shyни&shyки, во&shyен&shyно&shyго де&shyла, 
+                            ли&shyте&shyра&shyту&shyры и иску&shyсства в 1940&shy1955 го&shyдах.
                             <div class='emptyLine'></div>
-                            Эта награда была вручена Айни в 1950 году за вклад в советскую литературу - направление художественная проза, 
-                            за книгу «Воспоминания». Помимо ордена он был награжден 50 000 советских рублей (~160 000 долларов сегодня) 
-                            со&shyот&shyвет&shyствен&shyно награды второй степени.`
+                            Эта наг&shyра&shyда бы&shyла вру&shyче&shyна Ай&shyни в 1950 го&shyду за вклад в со&shyве&shyтску&shyю ли&shyте&shyра&shyту&shyру 
+                            – на&shyправ&shyле&shyние ху&shyдо&shyже&shyствен&shyная про&shyза, 
+                            за кни&shyгу «Во&shyспо&shyми&shyна&shyния». По&shyми&shyмо ор&shyде&shyна он был наг&shyраж&shyден 50 000 со&shyве&shyтских 
+                            руб&shyлей (~160 000 дол&shyла&shyров се&shyгод&shyня) 
+                            со&shyо&shyтве&shyтствен&shyно наг&shyра&shyды вто&shyрой сте&shyпе&shyни.`
                     },
                     {
                         title: "Орден Трудового Красного Знамени", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
-                        desc: `Общегражданская награда Советского Союза вручался за заслуги государству и обществу в области производства, 
-                            науки, культуры, литературы, искусства, об&shyра&shyзо&shyва&shyния, здравоохранения и других областей трудовой деятельности.
+                        desc: `Об&shyщег&shyраж&shyдан&shyская наг&shyра&shyда Со&shyве&shyтско&shyго Со&shyю&shyза вру&shyчал&shyся за за&shyслу&shyги 
+                            го&shyсу&shyдар&shyству и об&shyще&shyству в об&shyла&shyсти про&shyиз&shyвод&shyства, 
+                            на&shyу&shyки, куль&shyту&shyры, ли&shyте&shyра&shyту&shyры, иску&shyсства, об&shyра&shyзо&shyва&shyния, 
+                            здра&shyво&shyох&shyра&shyне&shyния и дру&shyгих об&shyла&shyстей тру&shyдо&shyвой де&shyя&shyтель&shyно&shyсти.
                             <div class='emptyLine'></div>
-                            Айни награждался этим орденом дважды.`
+                            Ай&shyни наг&shyраж&shyдал&shyся этим ор&shyде&shyном дваж&shyды. `
                     },
                     {
                         title: "Герой Таджикистана", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
-                        desc: `Высшее государственное звание Республики Таджикистан присуждаемое за заслуги перед государством и народом, 
-                            за воинский и трудовой героизм во имя свободы, независимости и развития Таджикистана.
+                        desc: `Вы&shyсшее го&shyсу&shyдар&shyствен&shyное зва&shyние Ре&shyспуб&shyли&shyки Тад&shyжи&shyки&shyстан 
+                            при&shyсуж&shyда&shyе&shyмое за за&shyслу&shyги пе&shyред го&shyсу&shyдар&shyством и на&shyро&shyдом, 
+                            за во&shyин&shyский и тру&shyдо&shyвой ге&shyро&shyизм во имя сво&shyбо&shyды, не&shyза&shyви&shyси&shyмо&shyсти и 
+                            раз&shyви&shyтия Тад&shyжи&shyки&shyста&shyна.
                             <div class='emptyLine'></div>
-                            Эту высокую честь он удостоился за заслуги в создании Советской Со&shyци&shyа&shyлис&shyти&shyчес&shyкой 
-                            Республики Таджикистан и 
-                            за книги, освещающие на&shyци&shyональ&shyную иден&shyтич&shyность таджиков. В частности, его книга «Образцы таджикской литературы» 
-                            является показателем древней истории и культуры таджикского народа.`
+                            Эту вы&shyсо&shyкую честь он удо&shyсто&shyил&shyся за за&shyслу&shyги в соз&shyда&shyнии Со&shyве&shyтской 
+                            Со&shyци&shyа&shyлис&shyти&shyчес&shyкой 
+                            Ре&shyспуб&shyли&shyки Тад&shyжи&shyки&shyстан и за кни&shyги, осве&shyща&shyю&shyщие нацио&shyнальную 
+                            иден&shyтич&shyность тад&shyжи&shyков. В ча&shyстно&shyсти, его кни&shyга «Об&shyраз&shyцы тад&shyжи&shyкской 
+                            ли&shyте&shyра&shyту&shyры» 
+                            яв&shyля&shyе&shyтся по&shyка&shyза&shyте&shyлем древ&shyней исто&shyрии и куль&shyту&shyры тад&shyжи&shyкско&shyго на&shyро&shyда. `
                     },
                     {
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
@@ -1016,7 +1028,7 @@ module.exports.poets = [
                             меж&shyго&shyсу&shyдар&shyствен&shyно&shyго со&shyтруд&shyни&shyче&shyства и ре&shyа&shyли&shyза&shyцию оте&shyче&shyствен&shyных 
                             и за&shyру&shyбеж&shyных пла&shyнов. 
                             <div class='emptyLine'></div>
-                            С. Айни был награждён за вклад в узбекскую литературу.`
+                            С. Ай-ни был наг-раж-дён за вклад в уз-бе-кскую ли-те-ра-ту-ру.`
                     },
                 ],
             kh: [],
