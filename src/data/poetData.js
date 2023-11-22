@@ -115,8 +115,8 @@ module.exports.poets = [
                         {
                             year: '1897-1898',
                             image: '/poetImages/ayni/slides/ayni4.jpeg',
-                            desc: `Qo&shyzi Mir&shyzo Mu&shyham&shymad&shysha&shyrif-i Sadr (Sadr-i Zi&shyyo), ap&shyproached Ay&shyni and his 
-                                mad&shyra&shysa fel&shylow Ab&shydul&shyvo&shyhid Mun&shyzim with a re&shyquest to edit Ah&shymad Do&shynish's 
+                            desc: `Qo&shyzi Mir&shyzo Mu&shyham&shymad&shysha&shyrif-i Sadr (Sadr-i Zi&shyyo), ap&shyproached Ay&shyni and his fel&shylow
+                                class&shymate Ab&shydul&shyvo&shyhid Mun&shyzim with a re&shyquest to edit Ah&shymad Do&shynish's 
                                 "Navāder al-va&shyqā&shyye" for pub&shyli&shyca&shytion.
                                 <div class="space"></div>
                                 The book re&shyveals the use&shyless doc&shytrines taught at the mad&shy­ra&shy­sas and the self-serv&shying ac&shytions of 
@@ -126,24 +126,25 @@ module.exports.poets = [
                         {
                             year: '1908',
                             image: '/poetImages/ayni/slides/ayni5.jpeg',
-                            desc: `Together with four of his close friends, he pioneered the establishment of the first "ja&shydid"-style school in Bukhara, 
-                                designed to in&shytro&shyduce new teaching methods. The school found its home in Mirza Abdulvohid Munzim's re&shysi&shydence in guzar-i (street) 
-                                Salokhkhona, with Ta&shyji&shyki-Per&shysian as language of in&shystruc&shytion, ca&shyter&shying to the lo&shycal Bu&shykha&shyran 
-                                po&shypu&shyla&shytion.<sup>5</sup>`,
+                            desc: `To&shygeth&shyer with four of his close friends, he pi&shyo&shyneered the es&shytab&shylish&shyment of the first "ja&shydid"-style 
+                                school in Bu&shykha&shyra, de&shysigned to in&shy­tro­&shyduce new teach&shying meth&shyods. The school found its home in Mirza Ab&shydul&shyvo&shyhid 
+                                Mun&shyzim's re&shysi&shydence in gu&shyzar-i (street) Sa&shylokh&shykho&shyna, with Ta&shyji&shyki-Per&shysian as lan&shyguage of in&shystruc&shytion, 
+                                ca&shyter&shying to the lo&shycal Bu&shykha&shyran po&shypu&shyla&shytion.<sup>5</sup>`,
                         },
                         {
                             year: '1909',
                             image: '/poetImages/ayni/slides/ayni6.jpeg',
-                            desc: `For the school's curriculum, he authored his in&shyi&shytial works, which included "ترتیل القرآن" ("Tar&shyteel-ul-Qur'an" – rules for
-                                proper re&shyci&shyta&shytion of the Quran), "تهذیب الصبیان" ("Tahzib-us-sibyan" – "Parenting boys/children") 
-                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" – "Re&shyli&shygi&shyous essen&shyti&shyals").<sup>5</sup>`
+                            desc: `For the school's cur&shyricu&shylum, he au&shythored his in&shyi&shytial works, which in&shyclud&shyed "ترتیل القرآن" 
+                                ("Tar&shyteel-ul-Qur'an" – rules for prop&shyer re&shyci&shyta&shytion of the Quran), "تهذیب الصبیان" ("Tah&shyzib-us-sibyan" – 
+                                "Par&shyent&shying boys/chil&shydren") 
+                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" – "Re&shyli&shygi&shyous es&shysen&shytials").<sup>5</sup>`
                         },
                         {
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.jpeg',
-                            desc: `He became one of the early members of "Ja&shyvon&shybu&shykho&shyri&shyyon – "جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" – 
-                                "Young Bukharians," a sec&shyret society, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for re&shyforms and mo&shyderni&shyza&shytion of 
-                                Cen&shytral Asia.<sup>5</sup>`,
+                            desc: `He be&shycame one of the ear&shyly mem&shybers of "Ja&shyvon&shybu&shykho&shyri&shyyon – جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" 
+                                – "Young Bu&shykha&shyri&shyans," a sec&shyret so&shyci&shyety, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for 
+                                re&shyforms and mo&shyderni&shyza&shytion of Cen&shytral Asia.<sup>5</sup>`,
                         }
                     ],
                 ru: [
@@ -206,7 +207,7 @@ module.exports.poets = [
                     {
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
-                        desc: `Он стал од&shyним из пер&shyвых чле&shyнов «Джа&shyвон&shyбу&shyхо&shyри&shyён — «جوانبخاراییان»/«Ёш бу&shyхо&shyро&shyлик&shyлар» — 
+                        desc: `Он стал од&shyним из пер&shyвых чле&shyнов «Джа&shyвон&shyбу&shyхо&shyри&shyён — جوانبخاراییان»/«Ёш бу&shyхо&shyро&shyлик&shyлар» — 
                             «Мла&shyдо&shyбу&shyхар&shyцы», тай&shyно&shyго об&shyщест&shyва, сфор&shyми&shyро&shyван&shyно&shyго на ос&shyно&shyве 
                             джа&shyдидско&shyго дви&shyже&shyния. Джа&shyди&shyды высту&shyпа&shyли за ре&shyфор&shyмы и мо&shyдер&shyни&shyза&shyцию 
                             Централь&shyной Азии.<sup>5</sup>`,
@@ -268,7 +269,7 @@ module.exports.poets = [
                     {
                         year: '1910',
                         image: '/poetImages/ayni/slides/ayni7.jpeg',
-                        desc: `Адиб яке аз ав&shyва&shyлин аъ&shyзо&shyё&shyни ҷамъ&shyи&shyя&shyти «Ҷа&shyвон&shyбу&shyхо&shyри&shyён» — «جوان‌بخاراییان»/«Yosh bu&shyxo&shyro&shylik&shylar» 
+                        desc: `Адиб яке аз ав&shyва&shyлин аъ&shyзо&shyё&shyни ҷамъ&shyи&shyя&shyти «Ҷа&shyвон&shyбу&shyхо&shyри&shyён — جوان‌بخاراییان»/«Ёш бу&shyхо&shyро&shyлик&shyлар» 
                             ме&shyша&shyвад. Ин ҷамъ&shyи&shyя&shyти мах&shyфӣ, бах&shyше аз ҳа&shyра&shyка&shyти ҷа&shyди&shyдӣ бу&shyда, ҷо&shyниб&shyдо&shyри ис&shyло&shyҳот ва нав&shyсо&shyзии 
                             Оси&shyёи Мар&shyка&shyзӣ буд.<sup>5</sup>`,
                     }
@@ -328,7 +329,8 @@ module.exports.poets = [
                         прозь&shyбе мла&shyдо&shyбу&shyхар&shyцев. Пос&shyле <span style='font-weight:bold;'>52 дней</span> в боль&shyни&shyце
                         и <span style='font-weight:bold;'>25 опе&shyра&shyций</span>, он навсег&shyда пе&shyре&shyежа&shyет в Са&shyмар&shyканд.
                         Там он по&shyсвя&shyща&shyет се&shyбя ре&shyво&shyлю&shyци&shyон&shyно&shyму де&shyлу, пи&shyшет по&shyли&shyти&shyчес&shyкие 
-                        статьи и пря&shyмо при&shyзы&shyва&shyет со&shyотечествен&shyни&shyков вос&shyстать про&shyтив эми&shyра.
+                        статьи и пря&shyмо при&shyзы&shyва&shyет со&shyо&shyте&shyчес&shyтвен&shyни&shyков
+                        вос&shyстать про&shyтив эми&shyра.
                         <br>Пос&shyле не&shyу&shyдач&shyно&shyго Ко&shyле&shyсов&shyско&shyго по&shyхо&shyда, целью ко&shyто&shyро&shyго 
                         бы&shyло свер&shyже&shyние эми&shyра, эмир прев&shyра&shyща&shyет Бу&shyха&shyру в
                         «бой&shyню». В этом ха&shyо&shyсе его млад&shyше&shyго бра&shyта, <span style='font-weight:bold;'>Си&shyро&shyджид&shyдина</span>, 
@@ -449,9 +451,9 @@ module.exports.poets = [
                         Она по&shyсвя&shyти&shyла се&shyбя соз&shyда&shyнию сре&shyды, где мог про&shyцве&shyтать его ли&shyте&shyра&shyтур&shyный ге&shyний, и 
                         эта пре&shyдан&shyность дли&shyлась до их пос&shyлед&shyних сов&shyмест&shyных дней.<sup>1</sup>
                         <div class='space'></div>
-                        У них бы&shyло трое де&shyтей: <span style='font-weight:bold;'>Камол</span> (г.р. 1928),
-                        <span style='font-weight:bold;'>Холида</span> (г.р. ?) и
-                        <span style='font-weight:bold;'>Лютфия</span> (г.р. 1934).
+                        У них бы&shyло трое де&shyтей: <span style='font-weight:bold;'>Ка&shyмол</span> (г.р. 1928),
+                        <span style='font-weight:bold;'>Хо&shyли&shyда</span> (г.р. ?) и
+                        <span style='font-weight:bold;'>Лют&shyфия</span> (г.р. 1934).
                         Де&shyти пош&shyли по сто&shyпам Ай&shyни, сде&shyлав ака&shyде&shyми&shyчес&shyкие карь&shyеры в сфе&shyрах 
                         вос&shyто&shyко&shyве&shyде&shyния, фи&shyло&shyло&shyгии и ис&shyто&shyрии ис&shyкус&shyства 
                         Цен&shyтраль&shyной Азии, соответственно.<sup>7</sup>
