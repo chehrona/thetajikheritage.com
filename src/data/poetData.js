@@ -570,16 +570,16 @@ module.exports.poets = [
             us: [   
                     {title: "Samples of Tajik Literature", cover: "/bookCovers/ayni/usExample.jpeg", msg: "This is a poetry book and is only available in Tajik."},
                     {title: "History of the Bukharan Revolution", cover: "/bookCovers/ayni/usHistory.jpeg", msg: "Currently, the book is only available in Tajik. Please check back later in case it has been translated."}, 
-                    {title: "Bukhara Executioners", cover: "/bookCovers/ayni/usExec.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
-                    {title: "Odina", cover: "/bookCovers/ayni/usOdina.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."}, 
-                    {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
-                    {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."}, 
-                    {title: "Death of the Moneylender", cover: "/bookCovers/ayni/usUsurer.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
-                    {title: "Yatim", cover: "/bookCovers/ayni/usOrphan.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Bukhara Executioners", cover: "/bookCovers/ayni/usExec.jpeg", msg: "The book is currently available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Odina", cover: "/bookCovers/ayni/usOdina.jpeg", msg: "The book is currently available in Tajik and Russian. Please check back later in case it has been translated."}, 
+                    {title: "Dokhunda", cover: "/bookCovers/ayni/usDokhunda.jpeg", msg: "The book is currently available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Slaves", cover: "/bookCovers/ayni/usSlaves.jpeg", msg: "The book is currently available in Tajik and Russian. Please check back later in case it has been translated."}, 
+                    {title: "Death of the Moneylender", cover: "/bookCovers/ayni/usUsurer.jpeg", msg: "The book is currently available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Yatim", cover: "/bookCovers/ayni/usOrphan.jpeg", msg: "The book is currently available in Tajik and Russian. Please check back later in case it has been translated."},
                     {title: "Reminiscences", cover: "/bookCovers/ayni/usMemoirs.jpeg"},
-                    {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "The Complete Works of Ayni", cover: "/bookCovers/ayni/usComplete.jpeg", msg: "The book is currently available in Tajik and Russian. Please check back later in case it has been translated."},
                     {title: "Old School", cover: "/bookCovers/ayni/usOld.jpeg", link: ""},
-                    {title: "Ahmad - The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.jpeg", msg: "Currently, the book is available in Tajik and Russian. Please check back later in case it has been translated."},
+                    {title: "Ahmad - The Monster Tamer", cover: "/bookCovers/ayni/usAhmad.jpeg", msg: "The book is currently available in Tajik and Russian. Please check back later in case it has been translated."},
             ],
             ru: [
                     {title: "Образцы таджикской литературы", cover: "/bookCovers/ayni/ruExample.jpeg", msg: "Это сборник стихов и доступен только на таджикском языке."}, 
@@ -635,11 +635,14 @@ module.exports.poets = [
                         title: 'Дохунда', studio: '/poetMovies/ayni/tjFilm.png',
                         img: '/poetMovies/ayni/dokhunda.jpeg', duration: '1с 14дақ',
                         genre: 'Драма', year: '1956', link: "1diCkBdHJrk", lang: "Тоҷикӣ",
-                        desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
-                            man named Azimshah. Guided by blacksmith Abdullo's advice, Yodgor seeks refuge in the mountains and encounters Gulnor
-                            and they fall in love. Yet, the romance is cut short by Azimshah's capture. Gulnor becomes Azimshah's unwilling bride, 
-                            and Yodgor faces re-enslavement. Sold as a soldier to the Emir's army, Yodgor's life transforms after encountering 
-                            Lenin's work, marking a significant turning point.`,
+                        desc: `Ёд&shyгор, ки бо ла&shyқа&shyби До&shyхун&shyда («Кам&shyба&shyғал») маъ&shyруф аст, аз са&shyба&shyби қарз&shyҳои 
+                            ме&shyрос&shyгу&shyзош&shyтаи па&shyда&shyраш хиз&shyмат&shyго&shyри мар&shyди сар&shyват&shyманд, Азим&shyшоҳ, ме&shyша&shyвад. 
+                            Аз но&shyчо&shyрӣ, бо мас&shyли&shyҳа&shyти оҳан&shyга&shyри фо&shyзил – Аб&shyдул&shyло, дар кӯ&shyҳис&shyтон руст 
+                            ме&shyша&shyвад. Дар он ҷо Гул&shyнор&shyро во&shyхӯр&shyда, ба ӯ дил ме&shyбан&shyдад. Ам&shyмо Азим&shyшоҳ ӯро боз даст&shyгир кар&shyда, 
+                            ба қув&shyва&shyҳои амир ме&shyфу&shyрӯ&shyшад. Баъ&shyди озод шу&shyда&shyнаш, Ёд&shyгор би&shyно&shyко&shyри фаъ&shyоли То&shyҷи&shyкис&shyто&shyни 
+                            Шӯ&shyра&shyвӣ ме&shyгар&shyдад. Ин дос&shyто&shyне, ки дар ман&shyза&shyра&shyҳои бо&shyшу&shyкӯ&shyҳи кӯ&shyҳис&shyто&shyни 
+                            То&shyҷи&shyкис&shyтон су&shyрат ги&shyриф&shyта&shyаст, на&shyму&shyнаи қув&shyваи ишқ, ус&shyту&shyво&shyрии рӯ&shyҳи&shyяи 
+                            ин&shyсо&shyнӣ ва шу&shyҷо&shyат аст.`,
                         director: "Бенсион (Борис) Кимёгаров"
                     },
                     {
@@ -654,7 +657,7 @@ module.exports.poets = [
                         director: "Бенсион (Борис) Кимёгаров"
                     },
                     {
-                        title: 'Садриддин Айнӣ', studio: '/poetMovies/ayni/ministry.png',
+                        title: 'Садриддин Айнӣ', studio: '/poetMovies/ayni/tjFilm.png',
                         img: '/poetMovies/ayni/life.jpeg', duration: '20дақ',
                         genre: 'Биографӣ', year: '1975', link: "wbPlNiM5BYk", lang: "Тоҷикӣ",
                         desc: ``,
@@ -679,7 +682,7 @@ module.exports.poets = [
                         img: '/poetMovies/ayni/dokhunda.jpeg', duration: '1ч 14мин',
                         genre: 'Драма', year: '1956', link: "1diCkBdHJrk", lang: "Таджикский",
                         desc: `Ёд&shyгор по проз&shyви&shyщу До&shyхун&shyда («Бед&shyный»), унас&shyле&shyдо&shyва&shyвший дол&shyги сво&shyе&shyго от&shyца 
-                            и по&shyпав&shyший в раб&shyство к бо&shyга&shyто&shyму Азим-Ша&shyху, на со&shyве&shyте у куз&shyне&shyца Аб&shyдул&shyлы, 
+                            и по&shyпав&shyший в служ&shyбу к бо&shyга&shyто&shyму Азим-Ша&shyху, на со&shyве&shyте у куз&shyне&shyца Аб&shyдул&shyлы, 
                             на&shyхо&shyдит убе&shyжи&shyще в го&shyрах. Там он встре&shyча&shyет Гуль&shyнор и они влюб&shyля&shyют&shyся. Их ро&shyман 
                             пре&shyры&shyва&shyет&shyся, ког&shyда Азим-Шах за&shyхва&shyты&shyва&shyет его, но пос&shyле ос&shyво&shyбож&shyде&shyния 
                             Ёд&shyгор ста&shyно&shyвит&shyся ак&shyтив&shyным стро&shyи&shyте&shyлем но&shyвой жиз&shyни в Тад&shyжик&shyской ССР.
@@ -701,7 +704,7 @@ module.exports.poets = [
                         director: "Бенсион (Борис) Кимягаров"
                     },
                     {
-                        title: 'Садриддин Айни', studio: '/poetMovies/ayni/ministry.png',
+                        title: 'Садриддин Айни', studio: '/poetMovies/ayni/tjFilm.png',
                         img: '/poetMovies/ayni/life.jpeg', duration: '20дақ',
                         genre: 'Биографический', year: '1975', link: "wbPlNiM5BYk", lang: "Таджикский",
                         desc: `Yodgor, known as Dokhunda ("The Poor"), inherits his father's debts, leading a life of servitude to the wealthy 
