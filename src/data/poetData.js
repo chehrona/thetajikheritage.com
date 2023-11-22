@@ -95,36 +95,39 @@ module.exports.poets = [
                         {
                             year: '1890',
                             image: '/poetImages/ayni/slides/ayni2.jpeg',
-                            desc: `He gets into Mir-i Arab madrasa and secures a "hujra" – room there with his brother.
-                                However, for economically disadvantaged individuals, like him, accessing education within Bukhara's mad&shyra&shysas
-                                was quite difficult.
-                                In order to to pay for his room, which should have been free,<sup>5</sup> and his daily living costs, 
-                                he was forced to take on various odd jobs. These roles ranged from serving as a cleaner to 
-                                working as a cook, handling laundry tasks, and more.<sup>2</sup>`
+                            desc: `He gets into Mir-i Arab mad&shyra&shysa and se&shycures a "huj&shyra" – room there with his broth&shyer.
+                                How&shyev&shyer, for eco&shynom&shyi&shycal&shyly dis&shyad&shyvan&shytaged in&shydi&shyvid&shyu&shyals, 
+                                like him, ac&shycess&shying ed&shyu&shyca&shytion with&shyin Bu&shykha&shyra's mad&shy­ra&shy­sas was quite dif&shyfi&shycult. 
+                                In or&shyder to to pay for his room, which should have been free,<sup>5</sup> and his dai&shyly liv&shying costs, he was 
+                                forced to take on var&shyi&shyous odd jobs. These roles ranged from serv&shying as a clean&shyer to work&shying as a cook, 
+                                han&shydling laun&shydry tasks, and more.<sup>2</sup>`
                         },
                         {
                             year: '1896',
                             image: '/poetImages/ayni/slides/ayni3.jpeg',
-                            desc: `During his time at the madrasa, he connected with people who shared a deep passion for 
-                                po&shyet&shyry and literature, thanks to his acquaintance with Sha&shyrif&shyjon-makh&shydum. He penned his ini&shytial 
-                                poems using pseudonyms like "Muh&shytoji," "Jununi," and "Sifli."
-                                <div class='space'></div>
-                                How&shyever, in 1896, he adop&shyted the pseu&shydo&shynym "Ayni" and gained literary recognition under this name.<sup>2</sup>`,
+                            desc: `Dur&shying his time at the madrasa, he con&shynect&shyed with peo&shyple who shared a deep pas&shysion for 
+                                po&shyet&shyry and lit&shyer&shya&shyture, thanks to his ac&shyquain&shytance with Sha&shyrif&shyjon&shymakh&shydum. 
+                                He penned his ini&shytial po&shyems us&shying pseu&shydo&shynyms like "Muh&shyto&shyji," "Ju&shynu&shyni," and "Si&shyfli."
+                                <div class="space"></div>
+                                How&shyev&shyer, in 1896, he adopt&shyed the pseu&shydo&shynym "Ayni" and gained lit&shyer&shyary rec&shyog&shyni&shytion 
+                                un&shyder this name.<sup>2</sup>`,
                         },
                         {
                             year: '1897-1898',
                             image: '/poetImages/ayni/slides/ayni4.jpeg',
-                            desc: `Qozi Mirzo Muhammadsharif-i Sadr (Sadr-i Ziyo), ap&shyproached Ayni and his fellow class&shymate Abdulvohid Mun&shyzim
-                                with a request to edit Ah&shymad Do&shynish's "Navāder al-va&shyqā&shyye" for pub&shyli&shyca&shytion.
-                                <div class='space'></div>
-                                The book reveals the useless doctrines taught at the mad&shyra&shysas and the self-serving actions of the clergy. It 
-                                pushes him to start thinking about correcting these in&shyjus&shyti&shyces and more in the Emirate of Bukhara.<sup>5</sup>`,
+                            desc: `Qo&shyzi Mir&shyzo Mu&shyham&shymad&shysha&shyrif-i Sadr (Sadr-i Zi&shyyo), ap&shyproached Ay&shyni and his 
+                                mad&shyra&shysa fel&shylow Ab&shydul&shyvo&shyhid Mun&shyzim with a re&shyquest to edit Ah&shymad Do&shynish's 
+                                "Navāder al-va&shyqā&shyye" for pub&shyli&shyca&shytion.
+                                <div class="space"></div>
+                                The book re&shyveals the use&shyless doc&shytrines taught at the mad&shy­ra&shy­sas and the self-serv&shying ac&shytions of 
+                                the cler&shygy. It push&shyes him to start think&shying about cor&shyrect&shying these in&shy­jus&shy­ti­ces and more in the 
+                                Emi&shyrate of Bu&shykha&shyra.<sup>5</sup>`,
                         },
                         {
                             year: '1908',
                             image: '/poetImages/ayni/slides/ayni5.jpeg',
                             desc: `Together with four of his close friends, he pioneered the establishment of the first "ja&shydid"-style school in Bukhara, 
-                                designed to in&shytro&shyduce new teaching methods. The school found its home in Mirza Abdulvohid's re&shysi&shydence in guzar-i (street) 
+                                designed to in&shytro&shyduce new teaching methods. The school found its home in Mirza Abdulvohid Munzim's re&shysi&shydence in guzar-i (street) 
                                 Salokhkhona, with Ta&shyji&shyki-Per&shysian as language of in&shystruc&shytion, ca&shyter&shying to the lo&shycal Bu&shykha&shyran 
                                 po&shypu&shyla&shytion.<sup>5</sup>`,
                         },

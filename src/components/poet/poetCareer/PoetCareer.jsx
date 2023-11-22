@@ -41,7 +41,8 @@ export default function PoetCareer({ points }) {
 
         setTranslate(-translationValue);
         setCurrentSize(childWidth);
-    }, []);
+        setCurrentIndex(0);
+    }, [lang]);
 
     const handleNext = () => {
         if (currentIndex < points?.years?.length - 1) {            
