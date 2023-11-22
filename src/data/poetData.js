@@ -4,7 +4,7 @@ module.exports.poets = [
         name: {us: ['Sadriddin', 'Ayni'], ru: ['Садриддин', 'Айни'], tj: ['Садриддин', 'Айнӣ'], kh: ['عینی', 'صدرالدین']},
         years: {us: ['1878', '1954'], ru: ['1878', '1954'], tj: ['1878', '1954'], kh: []},
         desc: {
-            us: 'Sadriddin Saidmurodzoda - a Tajik writer, reformer, scholar, national hero, and founder of contemporary Tajik literature.',
+            us: 'Sadriddin Saidmurodzoda – a Tajik writer, reformer, scholar, national hero, and founder of contemporary Tajik literature.',
             ru: 'Садриддин Саидмуродзода – таджикский писатель, ре&shyфор&shyма&shyтор, ученый, национальный герой, и основоположник совре&shyмен&shyной таджикской литературы.',
             tj: 'Садриддин Саидмуродзода нависандаи тоҷик, ислоҳталаб, олим, қаҳрамони миллӣ ва асосгузори адабиёти муосири тоҷик.',
             kh: '.صدرالدین سعیدمرودزاده - نویسنده تاجیک، اصلاح طلب، دانشمند، قهرمان ملی و اساس گذار ادبیات معاصر تاجیک'
@@ -155,7 +155,7 @@ module.exports.poets = [
                     {
                         year: '1890',
                         image: '/poetImages/ayni/slides/ayni2.jpeg',
-                        desc: `Он по&shyсту&shyпа&shyет в мед&shyре&shyсе Мир-и Араб и вмес&shyте со сво&shyим бра&shyтом сни&shyма&shyет там «худж&shyру» - 
+                        desc: `Он по&shyсту&shyпа&shyет в мед&shyре&shyсе Мир-и Араб и вмес&shyте со сво&shyим бра&shyтом сни&shyма&shyет там «худж&shyру» – 
                             ком&shyна&shyту. Од&shyна&shyко для эко&shyно&shyми&shyчес&shyки обез&shyдо&shyлен&shyных лю&shyдей, как он, дос&shyтуп к 
                             об&shyра&shyзо&shyва&shyнию в мед&shyре&shyсах Бу&shyха&shyры был до&shyволь&shyно труд&shyным. Что&shyбы за&shyпла&shyтить за 
                             свою ком&shyна&shyту, ко&shyто&shyрая долж&shyна бы&shyла быть бес&shyплат&shyной,<sup>5</sup> и ежеднев&shyных рас&shyхо&shyдов, 
