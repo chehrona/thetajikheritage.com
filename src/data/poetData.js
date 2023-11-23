@@ -1108,11 +1108,14 @@ module.exports.poets = [
                     },
                     {
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
-                        desc: `The "Order of Out&shystand&shying Merit" is awarded to citizens of the Republic of Uz&shybe&shykistan and citizens of 
-                            foreign countries for outstanding achieve&shyments in the de&shyvel&shyop&shyment of science and technology, economy and culture, 
-                            a valuable contribution to the pro&shymo&shytion of interstate cooperation and the implementation of domestic and for&shyeign plans.
+                        desc: `The "Or&shyder of Out&shystand&shying Mer&shyit" is award&shyed to cit&shyi&shyzens of the Re&shypub&shylic of 
+                            Uzbek&shyistan and cit&shyi&shyzens of 
+                            for&shyeign coun&shytries for out&shystand&shying achieve&shyments in the de&shyvel&shyop&shyment of sci&shyence and 
+                            tech&shynol&shyo&shygy, econ&shyo&shymy and cul&shyture, 
+                            a valu&shyable con&shytri&shybu&shytion to the pro&shymo&shytion of in&shyter&shystate co&shyop&shyer&shya&shytion and the 
+                            im&shyple&shymen&shyta&shytion of do&shymes&shytic and for&shyeign plans.
                             <div class='emptyLine'></div>
-                            S. Ayni was awarded for his contribution to Uzbek literature.`
+                            S. Ay&shyni was award&shyed for his con&shytri&shybu&shytion to Uz&shybek lit&shyer&shya&shyture.`
                     },
                 ],
         },
