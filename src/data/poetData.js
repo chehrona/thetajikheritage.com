@@ -1095,12 +1095,16 @@ module.exports.poets = [
                     },
                     {
                         title: "Hero of Tajikistan", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
-                        desc: `The highest state title of the Republic of Tajikistan awarded for services to the state and people, for 
-                            military and labor heroism in the name of freedom, independence and development of Tajikistan.
+                        desc: `The high&shyest state ti&shytle of the Re&shypub&shylic of Ta&shyjik&shyistan award&shyed for ser&shyvices to the state and 
+                            peo&shyple, for 
+                            mil&shyi&shytary and la&shybor her&shyo&shyism in the name of free&shydom, in&shyde&shypen&shydence and de&shyvel&shyop&shyment 
+                            of Ta&shyjik&shyis&shytan.
                             <div class='emptyLine'></div>
-                            He was awarded for his merits in the creation of the Soviet Socialist Republic of Tajikistan 
-                            and for his books bringing together the Tajik national identity. In particular, his book “Samples of Tajik Literature” 
-                            served as a witness to the ancient history and culture of the Tajik people.`
+                            He was award&shyed for his mer&shyits in the cre&shya&shytion of the So&shyvi&shyet So&shycial&shyist Re&shypub&shylic of 
+                            Ta&shyjik&shyis&shytan 
+                            and for his books bring&shying to&shygeth&shyer the Ta&shyjik na&shytion&shyal iden&shyti&shyty. In par&shytic&shyu&shylar, 
+                            his book “Sam&shyples of Ta&shyjik Lit&shyer&shya&shyture” 
+                            served as a wit&shyness to the an&shycient his&shyto&shyry and cul&shyture of the Ta&shyjik peo&shyple.`
                     },
                     {
                         title: "Buyuk xizmatlari uchun", years: ["2001"], img: "/poetImages/ayni/awards/uzbek.png",
