@@ -715,9 +715,7 @@ module.exports.poets = [
                         director: "Бенсион (Борис) Кимёгаров"
                     }
                 ],
-            kh: [
-                {title: '["Марги судхӯр"]', studio: "/poetMovies/ayni/tjFilm.png", img: "/poetMovies/ayni/moneylender.jpeg", genre: "Драма", year: "1967", link: "7M_li8nLgK4", desc: ""}
-            ],
+            kh: [],
             us: [
                     {
                         title: 'Death of a Money Lender', studio: "/poetMovies/ayni/tjFilm.png",
@@ -1022,7 +1020,7 @@ module.exports.poets = [
                             на&shyу&shyки, куль&shyту&shyры, ли&shyте&shyра&shyту&shyры, иску&shyсства, об&shyра&shyзо&shyва&shyния, 
                             здра&shyво&shyох&shyра&shyне&shyния и дру&shyгих об&shyла&shyстей тру&shyдо&shyвой де&shyя&shyтель&shyно&shyсти.
                             <div class='emptyLine'></div>
-                            Ай&shyни наг&shyраж&shyдал&shyся этим ор&shyде&shyном дваж&shyды. `
+                            Ай&shyни наг&shyраж&shyдал&shyся этим ор&shyде&shyном дваж&shyды.`
                     },
                     {
                         title: "Герой Таджикистана", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
@@ -1046,30 +1044,35 @@ module.exports.poets = [
                             меж&shyго&shyсу&shyдар&shyствен&shyно&shyго со&shyтруд&shyни&shyче&shyства и ре&shyа&shyли&shyза&shyцию оте&shyче&shyствен&shyных 
                             и за&shyру&shyбеж&shyных пла&shyнов. 
                             <div class='emptyLine'></div>
-                            С. Ай-ни был наг-раж-дён за вклад в уз-бе-кскую ли-те-ра-ту-ру.`
+                            С. Ай&shyни был наг&shyраж&shyдён за вклад в уз&shyбе&shyкскую ли&shyте&shyра&shyту&shyру.`
                     },
                 ],
             kh: [],
             us: [
                     {
                         title: "Order of Lenin", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
-                        desc: `The highest civilian honor of the Soviet Union awarded for outstanding services in the revolutionary movement, 
-                            labor ac&shyti&shyvi&shyty, defense of the socialist Motherland, pro&shymo&shytion of friendship and cooperation between peoples, 
-                            strengthening of peace in the Soviet state and society.
+                        desc: `The high&shyest ci&shyvil&shyian hon&shyor of the So&shyvi&shyet Un&shyion award&shyed for out&shystand&shying ser&shyvic&shyes 
+                            in the rev&shyo&shylu&shytion&shyary move&shyment, la&shybor ac&shytiv&shyi&shyty, de&shyfense of the so&shycial&shyist 
+                            Moth&shyer&shyland, pro&shymo&shytion of friend&shyship and co&shyop&shyer&shya&shytion be&shytween peo&shyples, 
+                            strength&shyen&shying of peace in the So&shyvi&shyet state and so&shyci&shyety.
                             <div class='emptyLine'></div>
-                            Ayni was awarded this order three times, but information about only one of them (from 1941) is available in open da&shyta&shybases.`
+                            Ay&shyni was award&shyed this or&shyder three times, but in&shyfor&shyma&shytion about on&shyly one of them (from 1941) is 
+                            avail&shya&shyble in open da&shyta&shybases.`
                     },
                     {
                         title: "Honorary Academician of the ASUzSSR", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
-                        desc: `In 1943, Ayni became an honorary member of the Academy of Sciences of the Uzbek Soviet Socialist Re&shypub&shylic.`
+                        desc: `In 1943, Ayni be&shycame an hon&shyor&shyary mem&shyber of the Acad&shye&shymy of Sci&shyences of the Uzbek So&shyvi&shyet 
+                            So&shycial&shyist Re&shypub&shylic.`
                     },
                     {
                         title: "Honorary doctorate from LSU", years: ["1948"], img: "/poetImages/ayni/awards/phd.png", 
-                        desc: `The title of "Honorary Doctor of Leningrad State University (St. Petersburg State University)" is awarded to outstanding 
-                            figures in science, education and culture, statesmen and public figures who have contributed to the development of in&shyter&shyna&shytional 
-                            scientific, cultural, economic and political cooperation.
+                        desc: `The ti&shytle of "Hon&shyor&shyary Doc&shytor of Le&shynin&shygrad State Uni&shyver&shysi&shyty (St. Pe&shyters&shyburg 
+                            State Uni&shyver&shysi&shyty)" is award&shyed to out&shystand&shying 
+                            fig&shyures in sci&shyence, ed&shyu&shyca&shytion and cul&shyture, states&shymen and pub&shylic fig&shyures who have 
+                            con&shytrib&shyuted to the de&shyvel&shyop&shyment of in&shyter&shyna&shytion&shyal 
+                            sci&shyen&shytif&shyic, cul&shytur&shyal, eco&shynom&shyic and po&shylit&shyi&shycal co&shyop&shyer&shya&shytion.
                             <div class='emptyLine'></div>
-                            By order of the Board of Directors, the writer was awarded the Doctor of Phi&shylo&shylo&shygy degree.`
+                            By or&shyder of the Board of Di&shyrec&shytors, the writ&shyer was award&shyed the Doc&shytor of Phi&shylol&shyo&shygy de&shygree.`
                     },
                     {
                         title: "Stalin Prize",
@@ -1078,15 +1081,17 @@ module.exports.poets = [
                             in sci&shyence and tech&shynol&shyo&shygy, mil&shyi&shytary af&shyfairs, lit&shyer&shya&shyture and art.
                             <div class='emptyLine'></div>
                             In 1950, Ay&shyni re&shyceived this or&shyder for his con&shytri&shybu&shytion to So&shyvi&shyet lit&shyer&shya&shyture (in fic&shytion) for his book — 
-                            "Mem&shyoirs". The ac&shyknowl&shyedg&shyment came with a prize of 50,000 So&shyvi&shyet rubles (~$160,000 to&shyday) — a recog&shyni&shytion 
+                            "Mem&shyoirs." The ac&shyknowl&shyedg&shyment came with a prize of 50,000 So&shyvi&shyet rubles (~$160,000 to&shyday) — a recog&shyni&shytion 
                             com&shymen&shysu&shyrate with sec&shyond de&shygree hon&shyors.`
                     },
                     {
                         title: "Order of the Red Banner of Labor", years: ["?"], img: "/poetImages/ayni/awards/labor.png", 
-                        desc: `The general civil honor of the Soviet Union awarded for meritorious services to the state and society in 
-                            the field of production, science, culture, literature, art, education, health care and other occupational fields.
+                        desc: `The gen&shyer&shyal civ&shyil hon&shyor of the So&shyvi&shyet Union award&shyed for mer&shyi&shyto&shyri&shyous ser&shyvices 
+                            to the state and so&shyci&shyety in 
+                            the field of pro&shyduc&shytion, sci&shyence, cul&shyture, lit&shyer&shya&shyture, art, ed&shyu&shyca&shytion, health 
+                            care and oth&shyer oc&shycu&shypa&shytion&shyal fields.
                             <div class='emptyLine'></div>
-                            Ayni received this order twice.`
+                            Ay&shyni re&shyceived this or&shyder twice.`
                     },
                     {
                         title: "Hero of Tajikistan", years: ["1997"], img: "/poetImages/ayni/awards/hero.png", 
