@@ -137,7 +137,7 @@ module.exports.poets = [
                             desc: `For the school's cur&shyricu&shylum, he au&shythored his in&shyi&shytial works, which in&shyclud&shyed "ترتیل القرآن" 
                                 ("Tar&shyteel-ul-Qur'an" – rules for prop&shyer re&shyci&shyta&shytion of the Quran), "تهذیب الصبیان" ("Tah&shyzib-us-sibyan" – 
                                 "Par&shyent&shying boys/chil&shydren") 
-                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" – "Re&shyli&shygi&shyous es&shysen&shytials").<sup>5</sup>`
+                                and "ضروريات دینیه" ("Zaruriyat-i deeniya" – "Re&shyli&shygi&shyous es&shysen&shytials").<sup>5,6</sup>`
                         },
                         {
                             year: '1910',
@@ -202,7 +202,7 @@ module.exports.poets = [
                         desc: `Он на&shyпи&shyсал свои пер&shyвые тру&shyды: «ترتيل القرآن» («Тар&shyтил-ул-Куръ&shyан» — пра&shyви&shyла пра&shyвиль&shyно&shyго 
                             чте&shyния Ко&shyра&shyна), «تهذيب الصبيان» («Тах&shyзиб-ус-сибь&shyян» — «Вос&shyпи&shyта&shyние маль&shyчи&shyков/де&shyтей») 
                             и «تحريب دينيه» («За­&shyру&shy­ри&shy­я&shy­ти ди&shyния» — «Ос&shyно&shyвы ре&shyли&shyгии») в рам&shyках учеб&shyной про&shyграм&shyмы 
-                            но&shyво&shyме&shyто&shyдис&shyтской шко&shyлы.<sup>5</sup>`
+                            но&shyво&shyме&shyто&shyдис&shyтской шко&shyлы.<sup>5,6</sup>`
                     },
                     {
                         year: '1910',
@@ -264,7 +264,7 @@ module.exports.poets = [
                         desc: `Ӯ асар&shyҳои ав&shyва&shyли&shyни худ, «ترتیل القرآن» («Тар&shyтил-ул-Қуръон» — қо&shyи&shyда&shyҳои
                             қи&shyро&shyа&shyти ду&shyрус&shyти Қуръ&shyон), «تهذیب الصبیان» («Таҳ&shyзиб-ус-сиб&shyён» — «Тар&shyби&shyяи пи&shyса&shyрон/фар&shyзан&shyдон»)
                             ва «ضروريات دینیه» («За&shyру&shyри&shyя&shyти диния» — «Асос&shyҳои ди&shyнӣ»)-ро ҳам&shyчун як қис&shyми бар&shyно&shyмаи 
-                            таъ&shyли&shyмии мак&shyта&shyби усу&shyли нав ме&shyна&shyви&shyсад.<sup>5</sup>`
+                            таъ&shyли&shyмии мак&shyта&shyби усу&shyли нав ме&shyна&shyви&shyсад.<sup>5,6</sup>`
                     },
                     {
                         year: '1910',
@@ -1121,46 +1121,46 @@ module.exports.poets = [
         },
         references: {
             us: [
-                {name: `Ayni, Kholida. Зиндагиномаи Садриддин Айнӣ [Biography of Sadriddin Ayni]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, "Baloghat" publishing house, 2017, p.13.`, link: ''},
-                {name: `Ayni, Sadriddin. Мухтасари тарҷумаи ҳоли худам [My brief biography]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, 1958, pp. 28, 33, 47-48.`, link: ''},
-                {name: `Ayni, Sadriddin. Мактаби кӯҳна [The Old School]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, "Istiqbol" publishing house, 2010.`, link: ''},
-                {name: `"Садриддин Айнӣ" ["Sadriddin Ayni"].<span style="font-style: italic"> In Tajiki</span>. Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
-                {name: `Ayni, Sadriddin. Таърихи инқилоби Бухоро [History of the Bukhara Revolution]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, "Adib" publishing house, 1987, pp. 7, 17, 25, 26, ?.`, link: ''},
-                {name: `Ayni, Sadriddin. ??? [Dokhunda]. <span style="font-style: italic">In Tajiki</span>. Dushanbe, "?" publishing house, 2010.`, link: ''},
-                {name: `Habib, Said. "В семье Айни" ["In Ayni's family"]. <span style="font-style: italic">In Russian</span>. Dzen. Jan. 18.`, link: 'https://dzen.ru/a/Y8fEsNMs1kvGwS-p'},
-                {name: `Khamidullina, Aliya. "Легко ли быть внуком Садриддина Айни?" ["Is it easy to be Sadriddin Ayni's grandson?"] <span style="font-style: italic">In Russian</span>. Asia-Plus. Nov. 30, 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
-                {name: `Abdullaev, Kamoludin. "Вот и «сказке» конец" ["Here is where the "fairytale" ends]. <span style="font-style: italic">In Russian</span>. Kamoludin Abdullaev, Historian from Tajikistan. Feb. 17, 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
-                {name: `Ayni, Sadriddin. Рабы [Slaves]. <span style="font-style: italic">In Russian</span>. Moscow, "Sovetskiy pisatel'" publishing house, 1975, p. 1.`, link: ''},
-                {name: `"Командировка в Душанбе" ["Business trip to Dushanbe"]. <span style="font-style: italic">In Russian</span>. LiveJournal. Mar. 30, 2013.`, link: 'https://storm100.livejournal.com/78250.html'},
-                {name: `Habib, Said. "Душанбе - любовь моя, и боль моя" ["Dushanbe - my love, and my pain"].<span style="font-style: italic"> In Russian</span>. Nov. 19, 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
-                {name: `"Боғи ба номи Садриддин Айнӣ – гулгашти музайянест" ["The park named after Sadriddin Ayni is a prominent alley"].<span style="font-style: italic"> In Tajiki</span>. Tiroz. Apr. 1, 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
-                {name: `"Могила Садриддина Айни в парке в Душанбе" ["Sadriddin Ayni's grave in the park in Dushanbe"].<span style="font-style: italic"> In Russian</span>. Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
-                {name: `"Дом-музей Садриддина Айни" ["Sadriddin Ayni house-museum"]. <span style="font-style: italic">In Russian</span>. Sistema kul'turnikh koordinat.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
-                {name: `Muhammadi, Farzon. "'Мактаби кӯҳна'. Гузориш аз зодгоҳи Садриддин Айнӣ" ["'Old School'. Report from the hometown of Sadriddin Ayni"]. <span style="font-style: italic">In Tajiki</span>. Radio-i Ozodi. Apr. 18, 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
-                {name: `Qurbonova, Manizha. "'Теперь не стыдно показывать туристам'. К 140-летию Садриддина Айни в Душанбе отремонтировали его дом-музей" ["'Now it's not embarassing to show it to the tourists.' On the occasion of Sadriddin Ayni's 140th anniversary, his house-museum was renovated in Dushanbe"]. <span style="font-style: italic"> In Russian</span>. Asia-Plus. Apr. 13, 2017.`, link: 'https://asiaplustj.info/ru/news/tajikistan/society/20180413/v-chest-yubileya-sadriddina-aini-v-dushanbe-otremontirovali-ego-dom-muzei'},
-                {name: `Khashimov, Sher. "Embracing slow time in Tajikistan". New East Digital Archive. Jan. 31, 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
+                {name: `Ayni, Kholida. <i>Зиндагиномаи Садриддин Айнӣ</i> [Biography of Sadriddin Ayni]. In Tajiki. Dushanbe: Baloghat, 2017, p. 13.`, link: ''},
+                {name: `Ayni, Sadriddin. "<i>Мухтасари тарҷумаи ҳоли худам</i>" [My Brief Autobiography]. <i>Куллиёт, ҷилди I</i> [Complete Works, vol. 1], edited by A. Dehoti. In Tajiki. Dushanbe: Nashriyoti Davlatii Tojikiston, 1958, pp. 28, 33, 47-48.`, link: ''},
+                {name: `Ayni, Sadriddin. <i>Мактаби кӯҳна</i> [The Old School]. In Tajiki. Dushanbe: Istiqbol, 2010.`, link: ''},
+                {name: `"<i>Садриддин Айнӣ</i>" ["Sadriddin Ayni"]. In Tajiki. Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
+                {name: `Ayni, Sadriddin. <i>Таърихи инқилоби Бухоро</i> [History of the Bukhara Revolution]. In Tajiki. Dushanbe: Adib, 1987, pp. 7-8, 17, 25, 26.`, link: ''},
+                {name: `Ayni, Sadriddin. <i>Таҳзиб-ус-сибён</i> [Parenting boys/children]. In Tajiki. Dushanbe: Maorif, 1994, p. 3.`, link: ''},
+                {name: `Habib, Said. "<i>В семье Айни</i>" ["In Ayni's Family"]. In Russian. Dzen, Jan. 18.`, link: 'https://dzen.ru/a/Y8fEsNMs1kvGwS-p'},
+                {name: `Khamidullina, Aliya. "<i>Легко ли быть внуком Садриддина Айни?</i>" ["Is It Easy to Be Sadriddin Ayni's Grandson?"] In Russian. Asia-Plus, Nov. 30, 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
+                {name: `Abdullaev, Kamoludin. "<i>Вот и «сказке» конец</i>" ["Here is Where the 'Fairytale' Ends"]. In Russian. Kamoludin Abdullaev, Historian from Tajikistan, Feb. 17, 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
+                {name: `Ayni, Sadriddin. <i>Рабы</i> [Slaves]. In Russian. Moscow: Sovetskiy pisatel', 1975, p. 1.`, link: ''},
+                {name: `"<i>Командировка в Душанбе</i>" ["Business Trip to Dushanbe"]. In Russian. LiveJournal, Mar. 30, 2013.`, link: 'https://storm100.livejournal.com/78250.html'},
+                {name: `Habib, Said. "<i>Душанбе – любовь моя, и боль моя</i>" ["Dushanbe – My Love, and My Pain"]. In Russian. Nov. 19, 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
+                {name: `"<i>Боғи ба номи Садриддин Айнӣ – гулгашти музайянест</i>" ["The Park Named After Sadriddin Ayni Is a Prominent Alley"]. In Tajiki. Tiroz, Apr. 1, 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
+                {name: `"<i>Могила Садриддина Айни в парке в Душанбе</i>" ["Sadriddin Ayni's Grave in the Park in Dushanbe"]. In Russian. Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
+                {name: `"<i>Дом-музей Садриддина Айни</i>" ["House Museum of Sadriddin Ayni"]. In Russian. Sistema kul'turnikh koordinat.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
+                {name: `Muhammadi, Farzon. "<i>«Мактаби кӯҳна». Гузориш аз зодгоҳи Садриддин Айнӣ</i>" ["'Old School.' A Report from Sadriddin Ayni's Birthplace"]. In Tajiki. Radio-i Ozodi. Apr. 18, 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
+                {name: `Qurbonova, Manizha. "<i>«Теперь не стыдно показывать туристам». К 140-летию Садриддина Айни в Душанбе отремонтировали его дом-музей</i>" ["'Now It's Not Embarrassing to Show It to the Tourists.' On the occasion of Sadriddin Ayni's 140th anniversary, his house-museum was renovated in Dushanbe"]. <i> In Russian</i>. Asia-Plus. Apr. 13, 2017.`, link: 'https://asiaplustj.info/ru/news/tajikistan/society/20180413/v-chest-yubileya-sadriddina-aini-v-dushanbe-otremontirovali-ego-dom-muzei'},
+                {name: `Khashimov, Sher. "<i>Embracing slow time in Tajikistan</i>". New East Digital Archive. Jan. 31, 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
                 {name: `5 Somoni. Numista.`, link: 'https://en.numista.com/catalogue/note215569.html'},
                 {name: `House Museum of Sadriddin Ayni. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'}
             ],
             ru: [
-                {name: `Айни, Холида. Зиндагиномаи Садриддин Айнӣ [Биография Садриддина Айни]. <span style="font-style: italic">На тадж</span>. Душанбе, издательство "Балоғат", 2017, с. 13.`, link: ''},
-                {name: `Айни, Садриддин. Мухтасари тарҷумаи ҳоли худам [Моя краткая биография]. <span style="font-style: italic">На тадж</span>. Душанбе, 1958, с. 28, 33, 47-48.`, link: ''},
-                {name: `Айни, Садриддин. Мактаби кӯҳна [Старая школа]. <span style="font-style: italic">На тадж.</span>. Душанбе, издательство "Истиқбол", 2010.`, link: ''},
-                {name: `"Садриддин Айнӣ" ["Садриддин Айни"].<span style="font-style: italic"> На тадж</span>. Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
-                {name: `Айни, Садриддин. Таърихи инқилоби Бухоро [История Бухарской революции]. <span style="font-style: italic">На тадж</span>. Душанбе, издательство "Адиб", 1987, с. 7, 17, 25, 26, ?.`, link: ''},
-                {name: `Айни, Садриддин. ??? [Dokhunda]. <span style="font-style: italic">На тадж</span>. Душанбе, "?", 2010.`, link: ''},
-                {name: `Хабиб, Саид. "В семье Айни". Дзен. 18 января.`, link: 'https://dzen.ru/a/Y8fEsNMs1kvGwS-p'},
-                {name: `Хамидуллина, Алия. "Легко ли быть внуком Садриддина Айни?". Asia-Plus. 30 ноября 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
-                {name: `Абдуллаев, Камолудин. "Вот и «сказке» конец". Kamoludin Abdullaev, Historian from Tajikistan. 17 февраля 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
-                {name: `Айни, Садриддин. Рабы. Москва, "Советский писатель'", 1975, с. 1.`, link: ''},
-                {name: `"Командировка в Душанбе". LiveJournal. 30 марта 2013.`, link: 'https://storm100.livejournal.com/78250.html'},
-                {name: `Хабиб, Саид. "Душанбе - любовь моя, и боль моя". 19 ноября 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
-                {name: `"Боғи ба номи Садриддин Айнӣ – гулгашти музайянест" ["Парк имени Садриддина Айни - известная аллея."].<span style="font-style: italic"> На тадж.</span>. Тироз. 1 апреля 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
-                {name: `"Могила Садриддина Айни в парке в Душанбе". Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
-                {name: `"Дом-музей Садриддина Айни". Система культурных координат.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
-                {name: `Мухаммади, Фарзон. "«Мактаби кӯҳна». Гузориш аз зодгоҳи Садриддин Айнӣ" ["'Старая школа'. Репортаж из родного города Садриддина Айни"]. <span style="font-style: italic">На тадж.</span>. Радиои Озодӣ. Apr. 18, 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
+                {name: `Айни, Холида. <i>Зиндагиномаи Садриддин Айнӣ</i> [Биография Садриддина Айни]. На тадж. Душанбе: Балогат, 2017, с. 13.`, link: ''},
+                {name: `Айни, Садриддин. «<i>Мухтасари тарҷумаи ҳоли худам</i>» [Моя краткая автобиография]. <i>Куллиёт, ҷилди I</i> [Полное собрание сочинений, том. 1], edited by А. Дехоти. На тадж. Душанбе: Нашриёти Давлатии Точикистон, 1958, с. 28, 33, 47-48.`, link: ''},
+                {name: `Айни, Садриддин. <i>Мактаби кӯҳна</i> [Старая школа]. На тадж. Душанбе: Истикбол, 2010.`, link: ''},
+                {name: `«<i>Садриддин Айнӣ</i>» [«Садриддин Айни»]. На тадж. Ансор.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
+                {name: `Айни, Садриддин. <i>Таърихи инқилоби Бухоро</i> [История Бухарской революции]. На тадж. Душанбе: Адиб, 1987, с. 7, 17, 25, 26, ?.`, link: ''},
+                {name: `Айни, Садриддин. <i>Таҳзиб-ус-сибён</i> [Воспитание мальчиков/детей]. На тадж. Душанбе: Маориф, 1994, с. 3.`, link: ''},
+                {name: `Хабиб, Саид. «<i>В семье Айни</i>". Дзен. 18 января.`, link: 'https://dzen.ru/a/Y8fEsNMs1kvGwS-p'},
+                {name: `Хамидуллина, Алия. «<i>Легко ли быть внуком Садриддина Айни?</i>» Asia-Plus. 30 ноября 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
+                {name: `Абдуллаев, Камолудин. "<i>Вот и «сказке» конец</i>". Kamoludin Abdullaev, Historian from Tajikistan. 17 февраля 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
+                {name: `Айни, Садриддин. <i>Рабы</i>. Москва: Советский писатель, 1975, с. 1.`, link: ''},
+                {name: `«<i>Командировка в Душанбе</i>». LiveJournal. 30 марта 2013.`, link: 'https://storm100.livejournal.com/78250.html'},
+                {name: `Хабиб, Саид. «<i>Душанбе – любовь моя, и боль моя</i>». 19 ноября 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
+                {name: `«Боғи ба номи Садриддин Айнӣ – гулгашти музайянест" [«Парк имени Садриддина Айни - известная аллея."].<i> На тадж.</i>. Тироз. 1 апреля 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
+                {name: `«Могила Садриддина Айни в парке в Душанбе". Ансор.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
+                {name: `«Дом-музей Садриддина Айни". Система культурных координат.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
+                {name: `Мухаммади, Фарзон. "«Мактаби кӯҳна». Гузориш аз зодгоҳи Садриддин Айнӣ" ["'Старая школа'. Репортаж из родного города Садриддина Айни"]. <i>На тадж.</i>. Радиои Озодӣ. Apr. 18, 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
                 {name: `Курбонова, Манижа. "«Теперь не стыдно показывать туристам». К 140-летию Садриддина Айни в Душанбе отремонтировали его дом-музей". Asia-Plus. 13 апреля 2017.`, link: 'https://asiaplustj.info/ru/news/tajikistan/society/20180413/v-chest-yubileya-sadriddina-aini-v-dushanbe-otremontirovali-ego-dom-muzei'},
-                {name: `Khashimov, Sher. "Embracing slow time in Tajikistan" ["Принимая медленное время в Таджикистане"]. <span style="font-style: italic">На англ</span>. New East Digital Archive. 31 января 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
+                {name: `Khashimov, Sher. "Embracing slow time in Tajikistan" [«Принимая медленное время в Таджикистане"]. <i>На англ</i>. New East Digital Archive. 31 января 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
                 {name: `5 Somoni. Numista.`, link: 'https://en.numista.com/catalogue/note215569.html'},
                 {name: `House Museum of Sadriddin Ayni [Дом-музей Садриддина Айни]. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'}
             ],
@@ -1168,18 +1168,18 @@ module.exports.poets = [
                 {name: `Айнӣ, Холида. Зиндагиномаи Садриддин Айнӣ. Душанбе, нашриёти "Балоғат", 2017, с. 13.`, link: ''},
                 {name: `Айнӣ, Садриддин. Мухтасари тарҷумаи ҳоли худам. Душанбе, 1958, с. 28, 33, 47-48.`, link: ''},
                 {name: `Айнӣ, Садриддин. Мактаби кӯҳна. Душанбе, нашриёти "Истиқбол", 2010.`, link: ''},
-                {name: `"Садриддин Айнӣ". Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
+                {name: `«Садриддин Айнӣ". Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
                 {name: `Айнӣ, Садриддин. Таърихи инқилоби Бухоро. Душанбе, нашриёти "Адиб", 1987, с. 7, 17, 25, 26, ?.`, link: ''},
                 {name: `Айнӣ, Садриддин. ??? [Dokhunda]. Душанбе, "?" нашриёти, 2010.`, link: ''},
-                {name: `Ҳабиб, Саид. "В семье Айни" ["Дар оилаи Айнӣ"]. Дзен. 18-уми январ.`, link: 'https://dzen.ru/a/Y8fEsNMs1kvGwS-p'},
-                {name: `Хамидуллина, Алия. "Легко ли быть внуком Садриддина Айни?" ["Оё набераи Садриддин Айнӣ будан осон аст?"] Asia-Plus. 30-юми ноябри 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
+                {name: `Ҳабиб, Саид. «В семье Айни" ["Дар оилаи Айнӣ"]. Дзен. 18-уми январ.`, link: 'https://dzen.ru/a/Y8fEsNMs1kvGwS-p'},
+                {name: `Хамидуллина, Алия. «Легко ли быть внуком Садриддина Айни?" [«Оё набераи Садриддин Айнӣ будан осон аст?"] Asia-Plus. 30-юми ноябри 2020.`, link: 'https://asiaplustj.info/ru/news/life/person/20201130/legko-li-bit-vnukom-sadriddina-aini'},
                 {name: `Абдуллоев, Камолудин. "Вот и «сказке» конец" ["Ана «афсона» ҳам ба охир расид"]. Kamoludin Abdullaev, Historian from Tajikistan. 17-уми феврали 2022.`, link: 'https://kamolkhon.com/%D0%B2%D0%BE%D1%82-%D0%B8-%D1%81%D0%BA%D0%B0%D0%B7%D0%BA%D0%B5-%D0%BA%D0%BE%D0%BD%D0%B5%D1%86/'},
                 {name: `Айнӣ, Садриддин. Рабы [Ғуломон]. Маскав, нашриёти "Советский писатель", 1975, с. 1.`, link: ''},
-                {name: `"Командировка в Душанбе" ["Сафари корӣ дар Душанбе"]. LiveJournal. 30-юми марти 2013.`, link: 'https://storm100.livejournal.com/78250.html'},
-                {name: `Ҳабиб, Саид. "Душанбе - любовь моя, и боль моя" ["Душанбе - ишқи ман ва дарди ман"]. 19-уми ноябри 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
-                {name: `"Боғи ба номи Садриддин Айнӣ – гулгашти музайянест". Тироз. 1-уми апрели 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
-                {name: `"Могила Садриддина Айни в парке в Душанбе" ["Гӯри Садриддин Айнӣ дар парке дар Душанбе"]. Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
-                {name: `"Дом-музей Садриддина Айни" ["Хона-музейи Садриддин Айнӣ"]. Система культурных координат.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
+                {name: `«Командировка в Душанбе" ["Сафари корӣ дар Душанбе"]. LiveJournal. 30-юми марти 2013.`, link: 'https://storm100.livejournal.com/78250.html'},
+                {name: `Ҳабиб, Саид. "Душанбе – любовь моя, и боль моя" [«Душанбе – ишқи ман ва дарди ман"]. 19-уми ноябри 2009.`, link: 'http://samlib.ru/img/h/habib_s/dushanbe-ljubowxmojaibolxmoja/'},
+                {name: `«Боғи ба номи Садриддин Айнӣ – гулгашти музайянест". Тироз. 1-уми апрели 2019.`, link: 'https://tiroz.org/bo-i-ba-nomi-sadriddin-ayn-gulgashti-muzayyanest/'},
+                {name: `«Могила Садриддина Айни в парке в Душанбе" [«Гӯри Садриддин Айнӣ дар парке дар Душанбе"]. Ansor.`, link: 'https://life.ansor.info/mogila-sadridin-ayni/'},
+                {name: `«Дом-музей Садриддина Айни" [«Хона-музейи Садриддин Айнӣ"]. Система культурных координат.`, link: 'https://culttourism.ru/uzbekistan/samarkand/dom-muzey_sadriddina_ayni.html'},
                 {name: `Муҳаммадӣ, Фарзон. "«Мактаби кӯҳна». Гузориш аз зодгоҳи Садриддин Айнӣ". Радиои Озодӣ. 18-уми апрели 2023.`, link: 'https://www.ozodi.org/a/32367603.html'},
                 {name: `Қурбонова, Манижа. "«Теперь не стыдно показывать туристам». К 140-летию Садриддина Айни в Душанбе отремонтировали его дом-музей" ["«Акнун ба меҳмонон нишон додан шарм надорад». Ба муносибати 140-солагии Садриддин Айнӣ хона-музейи ӯ дар Душанбе таъмир карда шуд"]. Asia-Plus. 13-уми апрели 2017.`, link: 'https://asiaplustj.info/ru/news/tajikistan/society/20180413/v-chest-yubileya-sadriddina-aini-v-dushanbe-otremontirovali-ego-dom-muzei'},
                 {name: `Хашимов, Шер. "Embracing slow time in Tajikistan". New East Digital Archive. 31-уми январи 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
