@@ -287,7 +287,7 @@ module.exports.poets = [
                             text: `The last emir of the Emirate of Bukhara was Sayyid Mir Mu&shyham&shymad Alim Khan`
                         }, 
                         text2: `, lead&shying to his imprisonment and the harsh&shyest pun&shyish&shyment of the time – 
-                            <span style='font-weight: bold;'>75 lashes</span>.
+                            <span style='font-weight: bold;'>75 lashes</span><sup>2</sup>.
                             <div class='space'></div>Eventually, he is liberated by the Russian 
                             Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrians. After enduring 
                             <span style='font-weight: bold;'>52 days</span> in the hos&shypital 
@@ -324,7 +324,7 @@ module.exports.poets = [
                         },
                         text2: ` не пон&shyра&shyвил&shyся его ре&shyфор&shyмизм, что при&shyве&shyло к его тю&shyрем&shyно&shyму 
                         за&shyклю&shyче&shyнию и са&shyмо&shyму су&shyро&shyво&shyму на&shyка&shyза&shyнию то&shyго вре&shyме&shyни —
-                        <span style='font-weight:bold;'>75 уда&shyров плетью</span>.
+                        <span style='font-weight:bold;'>75 уда&shyров плетью</span><sup>2</sup>.
                         <div class='space'></div>Его ос&shyво&shyбож&shyда&shyют рус&shyские ре&shyво&shyлю&shyци&shyон&shyные си&shyлы по 
                         прозь&shyбе мла&shyдо&shyбу&shyхар&shyцев. Пос&shyле <span style='font-weight:bold;'>52 дней</span> в боль&shyни&shyце
                         и <span style='font-weight:bold;'>25 опе&shyра&shyций</span>, он навсег&shyда пе&shyре&shyежа&shyет в Са&shyмар&shyканд.
@@ -363,7 +363,7 @@ module.exports.poets = [
                         },
                         text2: ` пи&shyсанд на&shyме&shyояд. Ӯро ба зин&shyдон 
                             ме&shyпар&shyто&shyянд ва ба сахт&shyта&shyрин ҷа&shyзои он дав&shyра – 
-                            <span style='font-weight: bold;'>75 чӯб</span> маҳ&shyкум ме&shyша&shyвад.
+                            <span style='font-weight: bold;'>75 чӯб</span> маҳ&shyкум ме&shyша&shyвад.<sup>2</sup>
                             <div class='space'></div>Дар ни&shyҳо&shyят, ӯро қув&shyва&shyҳои ин&shyқи&shyло&shyбии рус&shyҳо бо 
                             хо&shyҳи&shyши Ҷа&shyвон&shyбу&shyхо&shyри&shyён озод ме&shyку&shyнанд. 
                             Пас аз <span style='font-weight: bold;'>52 рӯз</span> дар бе&shyмор&shyхо&shyна
@@ -767,14 +767,18 @@ module.exports.poets = [
                 ]
         },
         career: {
-            years: ["1920-1940", "1923", "1934", "1935", "1951"],
+            years: ["1920-1940", "1923", "1926", "1929", "1934", "1935", "1939", "1947", "1951"],
             images: [
-                "/poetImages/ayni/career/ayni4.png",
+                "/poetImages/ayni/career/ayni9.png",
                 "/poetImages/ayni/career/ayni1.png",
-                "/poetImages/ayni/career/ayni2.png",
+                "/poetImages/ayni/career/ayni2.jpeg",
                 "/poetImages/ayni/career/ayni3.png",
                 "/poetImages/ayni/career/ayni4.png",
                 "/poetImages/ayni/career/ayni5.png",
+                "/poetImages/ayni/career/ayni6.png",
+                "/poetImages/ayni/career/ayni7.jpeg",
+                "/poetImages/ayni/career/ayni8.jpeg",
+                "/poetImages/ayni/career/ayni9.jpg",
                 "/poetImages/ayni/career/ayni1.png",
             ],
             text: {
@@ -786,15 +790,22 @@ module.exports.poets = [
                         нашр шу&shyда&shyаст. Баъд, по&shyвес&shyти «Оди&shyна» дар со&shyли 1924 ва ро&shyма&shyни «До&shyхун&shyда» (бай&shyни 
                         сол&shyҳои 1927 ва 1928 на&shyвиш&shyта шу&shyда, со&shyли 1930 нашр шу&shyда&shyаст)
                         ба хо&shyнан&shyда&shyгон даст&shyрас шу&shyда&shyаст. Аса&shyри «Ғу&shyло&shyмон» со&shyли 1934 ба табъ ра&shyси&shyда, 
-                        гус&shyтур&shyда&shyта&shyрин эъ&shyҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.
+                        гус&shyтур&shyда&shyта&shyрин эъ&shyҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.<sup>2</sup>
                         <div class='emptyLine'></div>
                         <div class='imgDesc'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
-                        ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст</div>`,
-                        `Ай&shyнӣ кон&shyсул&shyтан&shyти кон&shyсул&shyхо&shyнаи Ҷум&shyҳу&shyрии Бу&shyхо&shyрои нав&shyтаъ&shyсис дар 
-                        Са&shyмар&shyқанд таъйин ме&shyша&shyвад, ки ин бо ёрии Аб&shyдул&shyқо&shyдир Му&shyҳид&shyди&shyнов су&shyрат ги&shyриф&shyта буд.
+                        ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст <sup>21</sup></div>`,
+                        `Ай&shyнӣ кон&shyсул&shyтан&shyти кон&shyсул&shyхо&shyнаи Ҷум&shyҳу&shyрии Хал&shyқии Шӯ&shyра&shyвии Бу&shyхо&shyрои нав&shyтаъ&shyсис дар 
+                        Са&shyмар&shyқанд таъй&shyин ме&shyша&shyвад, ки ин бо ёрии Аб&shyдул&shyқо&shyдир Му&shyҳид&shyди&shyнов су&shyрат ги&shyриф&shyта буд.
                         Ам&shyмо кон&shyсул&shyхо&shyна де&shyре на&shyгу&shyзаш&shyта бас&shyта ме&shyша&shyвад ва Ай&shyнӣ боз бо 
                         кӯ&shyма&shyки А.Му&shyҳид&shyди&shyнов ба шӯъ&shyбаи Бух&shyгос&shyторг (ти&shyҷо&shyра&shyти дав&shyла&shyтии 
-                        Ҷум&shyҳу&shyрии Хал&shyқии Шӯ&shyра&shyвии Бу&shyхо&shyро) дар Са&shyмар&shyқанд ҳам&shyчун му&shyдир таъ&shyйин ме&shyша&shyвад.`,
+                        Ҷум&shyҳу&shyрии Бу&shyхо&shyро) дар Са&shyмар&shyқанд ҳам&shyчун му&shyдир таъ&shyйин ме&shyша&shyвад.
+                        Ило&shyва бар ин, аъ&shyзои Ком&shyиҷ&shyро&shyи&shyяи Мар&shyка&shyзии Ҷум&shyҳу&shyрии Бу&shyхо&shyро 
+                        ин&shyти&shyхоб ме&shyша&shyвад.<sup>2</sup>`,
+                        `15-уми июн дар Наш&shyри&shyё&shyти дав&shyла&shyтии То&shyҷи&shyкис&shyтон, ки дар Са&shyмар&shyқанд таъ&shyсис ёф&shyта буд, ба 
+                        хиз&shyма&shyти ада&shyбӣ ме&shyда&shyро&shyяд. Боз дар шӯъ&shyбаи Тоҷ&shyгиз ба си&shyфа&shyти му&shyҳар&shyри&shyри ада&shyбӣ ва 
+                        маш&shyва&shyрат&shyчии ил&shyмӣ то со&shyли 1933 дар он ҷо фаъ&shyо&shyли&shyят ме&shyку&shyнад.<sup>2</sup>`,
+                        `Ба қа&shyто&shyри аъ&shyзо&shyё&shyни Ком&shyиҷ&shyро&shyи&shyяи Мар&shyка&shyзии То&shyҷи&shyкис&shyтон ин&shyти&shyхоб 
+                        ме&shyша&shyвад ва ин ко&shyраш то со&shyли 1938 да&shyвом ме&shyку&shyнад.<sup>2</sup>`,
                         `Аса&shyри пур&shyар&shyзи&shyши ӯ дар бо&shyраи Фир&shyдав&shyсӣ ва «Шоҳ&shyно&shyма»-и ӯро ба ан&shyҷом ме&shy&shyсо&shyнад. Ҳа&shyмин 
                         тавр, пай&shyдар&shyҳам асар&shyҳои «Шайх&shyу&shyра&shyис Абӯ&shyалии Си&shyно», «Шайх Мус&shyли&shyҳид&shyдин Саъ&shyдии Ше&shyро&shyзӣ», 
                         «Ус&shyтод Рӯ&shyда&shyкӣ», «Ка&shyмо&shyли Ху&shyҷан&shyдӣ», «Али&shyшер На&shyвоӣ», «Зай&shyнид&shyдин Маҳ&shyму&shyди Во&shyси&shyфӣ»-ро ба табъ 
@@ -807,6 +818,9 @@ module.exports.poets = [
                         хат&shyти фор&shyсӣ на&shyвиш&shyта&shyшу&shyда&shyро то ҳад&shyди им&shyкон ба хат&shyти ки&shyрил&shyлӣ бар&shyме&shyгар&shyдо&shyнанд. 
                         Пас аз ин, ба шуб&shyҳа ме&shyаф&shyтад ва ӯро «душ&shyма&shyни халқ» ме&shyно&shyманд. Ӯ ба&shyзӯр аз Пок&shyсо&shyзии бу&shyзурги 
                         Ста&shyлин ра&shyҳоӣ ме&shyё&shyбад.`,
+                        `Ба Со&shyве&shyти шаҳ&shyри Ста&shyлин&shyо&shyбод (Ду&shyшан&shyбеи ҳо&shyзи&shyра) ҳам&shyчун де&shyпу&shyтат ин&shyти&shyхоб 
+                        ме&shyша&shyвад. Со&shyли 1948 ду&shyбо&shyра ба ин ман&shyсаб ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
+                        `Бо даъ&shyва&shyти ду&shyю&shyми Со&shyве&shyти Олии РСС То&shyҷи&shyкис&shyтон ба де&shyпу&shyта&shyтӣ ба ин Со&shyвет ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
                         `Со&shyли 1951, Ака&shyде&shyми&shyяи илм&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис ме&shyё&shyбад ва Сад&shyрид&shyдин Ай&shyнӣ 
                         пре&shyзи&shyден&shyти на&shyхус&shyти&shyни он ин&shyти&shyхоб кар&shyда ме&shyша&shyвад. Ӯ ин ва&shyзи&shyфа&shyро то дар&shyгу&shyзаш&shyташ 
                         дар со&shyли 1954 дар ӯҳ&shyда дошт.`,
@@ -817,7 +831,7 @@ module.exports.poets = [
                         гус&shyтур&shyда&shyта&shyрин эъ&shyҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.
                         <div class='emptyLine'></div>
                         <div class='imgDesc'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
-                        ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст</div>`
+                        ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст <sup>21</sup></div>`
                     ],
                 ru: [
                         `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, пер&shyвым пре&shyзи&shyден&shyтом ко&shyто&shyрой 
@@ -828,15 +842,21 @@ module.exports.poets = [
                         на&shyписал рас&shyсказ «Оди&shyна», за ко&shyто&shyрым по&shyсле&shyдо&shyвал по&shyвесть «До&shyхун&shyда» (на&shyпи&shyсан&shyный 
                         меж&shyду 1927 и 1928 го&shyда&shyми, но опуб&shyли&shyко&shyван&shyный в 1930 го&shyду). 
                         Ро&shyман «Ра&shyбы» вы&shyшел в 1934 го&shyду, а его са&shyмое об&shyшир&shyное про&shyиз&shyве&shyде&shyние 
-                        «Вос&shyпо&shyми&shyна&shyния» бы&shyло опуб&shyли&shyко&shyва&shyно в 1940 го&shyду.
+                        «Вос&shyпо&shyми&shyна&shyния» бы&shyло опуб&shyли&shyко&shyва&shyно в 1940 го&shyду.<sup>2</sup>
                         <div class='imgDesc'>*Об&shyлож&shyка кни&shyги «Бу&shyхар&shyские па&shyла&shyчи», 
                         из&shyдан&shyной в 1937 го&shyду, на 
-                        тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей</div>`,
+                        тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей <sup>21</sup></div>`,
                         `Он был наз&shyна&shyчен кон&shyсуль&shyтан&shyтом кон&shyсуль&shyства не&shyдав&shyно соз&shyдан&shyной Бу&shyхар&shyской 
-                        Рес&shyпуб&shyли&shyки в Са&shyмар&shyкан&shyде, че&shyму спо&shyсоб&shyство&shyвал 
+                        На&shyрод&shyной Со&shyветской Рес&shyпуб&shyли&shyки в Са&shyмар&shyкан&shyде, че&shyму спо&shyсоб&shyство&shyвал 
                         Аб&shyдул&shyко&shyдир Му&shyхид&shyди&shyнов. Од&shyна&shyко вско&shyре кон&shyсуль&shyство зак&shyры&shyва&shyет&shyся, и Айни был назначен 
                         ру&shyко&shyво&shyди&shyте&shyлем от&shyде&shyла Бух&shyгос&shyтор&shyга (эко&shyно&shyми&shyчес&shyкий 
-                        со&shyвет Бу&shyхар&shyской На&shyрод&shyной Со&shyветской Рес&shyпуб&shyли&shyки) в Са&shyмар&shyканде, еще раз при со&shyдей&shyствии А. Му&shyхид&shyди&shyно&shyва.`,
+                        со&shyвет Бу&shyхар&shyской Рес&shyпуб&shyли&shyки) в Са&shyмар&shyканде, еще раз при со&shyдей&shyствии А. Му&shyхид&shyди&shyно&shyва.
+                        Кро&shyме то&shyго, он был из&shyбран чле&shyном Цен&shyтраль&shyно&shyго Ис&shyпол&shyни&shyтель&shyно&shyго Ко&shyми&shyте&shyта Бу&shyхар&shyской Рес&shyпуб&shyли&shyки.<sup>2</sup>`,
+                        `15 ию&shyня он по&shyсту&shyпа&shyет на ре&shyда&shyкци&shyон&shyно-из&shyда&shyтель&shyскую служ&shyбу в Тад&shyжик&shyское го&shyсу&shyдар&shyствен&shyное из&shyда&shyтель&shyство, в 
+                        Са&shyмар&shyкан&shyде. Он еще ра&shyбо&shyта&shyет в 
+                        от&shyде&shyле Тадж&shyги&shyза ли&shyте&shyра&shyтур&shyным ре&shyдак&shyто&shyром и на&shyуч&shyным кон&shyсуль&shyтан&shyтом до 1933 го&shyда.<sup>2</sup>`,
+                        `Его из&shyби&shyра&shyют в чис&shyло чле&shyнов Цен&shyтраль&shyно&shyго Ис&shyпол&shyни&shyтель&shyно&shyго Ко&shyми&shyте&shyта Тад&shyжи&shyкис&shyта&shyна, и он 
+                        про&shyдол&shyжал эту ра&shyбо&shyту до 1938 го&shyда.<sup>2</sup>`,
                         `Ай&shyни со&shyста&shyвил «Шах&shyнаме» Фир&shyдоу&shyси с на&shyме&shyре&shyни&shyем транс&shyли&shyте&shyри&shyро&shyвать 
                         его в но&shyвую тад&shyжик&shyскую пись&shyмен&shyность, сна&shyча&shyла на ла&shyти&shyни&shyцу, 
                         а за&shyтем на ки&shyрил&shyли&shyцу. Он так&shyже тща&shyтель&shyно соб&shyрал био&shyгра&shyфии и про&shyиз&shyве&shyдения многочисленных 
@@ -850,6 +870,8 @@ module.exports.poets = [
                         Се&shyме&shyно&shyва и Фрей&shyма&shyна, что&shyбы соб&shyрать и транс&shyли&shyте&shyри&shyро&shyвать тад&shyжик&shyско-пер&shyсид&shyские 
                         кни&shyги в ки&shyрил&shyли&shyцу. Его об&shyви&shyня&shyют как «вра&shyга на&shyро&shyда», и он ед&shyва из&shyбе&shyга&shyет 
                         Ста&shyлин&shyско&shyго «Боль&shyшо&shyго тер&shyро&shyра».`,
+                        `Его из&shyби&shyра&shyют де&shyпу&shyта&shyтом Ста&shyли&shyна&shyбад&shyско&shyго гор&shyсо&shyве&shyта (ны&shyне Ду&shyшан&shyбе). В 1948 го&shyду он был пе&shyре&shyиз&shyбран на этот пост.<sup>2</sup>`,
+                        `По вто&shyро&shyму приг&shyла&shyше&shyнию Вер&shyхов&shyно&shyго Со&shyве&shyта Тад&shyжик&shyской ССР из&shyби&shyра&shyе&shyтся де&shyпу&shyта&shyтом это&shyго Со&shyве&shyта.<sup>2</sup>`,
                         `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, пер&shyвым пре&shyзи&shyден&shyтом ко&shyто&shyрой 
                         был на&shyзна&shyчен Сад&shyрид&shyдин Ай&shyни.
                         Он за&shyни&shyмал эту долж&shyность до сво&shyей кон&shyчи&shyны в 1954 го&shyду.`,
@@ -860,7 +882,7 @@ module.exports.poets = [
                         Ро&shyман «Ра&shyбы» вы&shyшел в 1934 го&shyду, а его са&shyмое об&shyшир&shyное про&shyиз&shyве&shyде&shyние 
                         «Вос&shyпо&shyми&shyна&shyния» бы&shyло опуб&shyли&shyко&shyва&shyно в 1940 го&shyду.
                         <div class='imgDesc'>*Об&shyлож&shyка кни&shyги «Бу&shyхар&shyские па&shyла&shyчи», 
-                        из&shyдан&shyной в 1937 го&shyду, на тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей</div>`,
+                        из&shyдан&shyной в 1937 го&shyду, на тад&shyжик&shyском язы&shyке, на&shyпи&shyсан&shyной ла&shyти&shyни&shyцей <sup>21</sup></div>`,
                     ],
                     us: [
                         `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its in&shyau&shygu&shyral pre&shysi&shydent. 
@@ -911,7 +933,7 @@ module.exports.poets = [
                             на&shyму&shyда&shyни сулҳ, ба Дав&shyла&shyти Со&shyветӣ ва ҷамъ&shyият су&shyпо&shyри&shyда ме&shyшуд.
                             <div class='emptyLine'></div>
                             Ай&shyнӣ се бор са&shyзо&shyво&shyри ин ор&shyден гаш&shyта&shyаст, ам&shyмо маъ&shyлумот тан&shyҳо дар бо&shyраи 
-                            як&shyтояш (со&shyли 1941) дар ба&shyза&shyҳои ку&shyшод мав&shyҷуд аст.`
+                            як&shyтояш (23 ап&shyре&shyли со&shyли 1941)<sup>2</sup> дар ба&shyза&shyҳои ку&shyшод мав&shyҷуд аст.`
                     },
                     {
                         title: "Академики фахрии АФҶШСӮз", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
@@ -982,7 +1004,7 @@ module.exports.poets = [
                         укре&shyпле&shyние ми&shyра пе&shyред со&shyве&shyтским го&shyсу&shyдар&shyством и об&shyще&shyством.
                         <div class='emptyLine'></div>
                         Ай&shyни был наг&shyраж&shyден этим ор&shyде&shyном триж&shyды, но ин&shyфор&shyма&shyция толь&shyко об од&shyном из 
-                        них (1941 го&shyда) име&shyе&shyтся в откры&shyтых ба&shyзах дан&shyных. `
+                        них (с 23 ап&shyре&shyля 1941 го&shyда)<sup>2</sup> име&shyе&shyтся в откры&shyтых ба&shyзах дан&shyных.`
                     },
                     {
                         title: "Почётный академик АНУзССР", years: ["1943"], img: "/poetImages/ayni/awards/academy.png", 
@@ -1047,7 +1069,6 @@ module.exports.poets = [
                             С. Ай&shyни был наг&shyраж&shyдён за вклад в уз&shyбе&shyкскую ли&shyте&shyра&shyту&shyру.`
                     },
                 ],
-            kh: [],
             us: [
                     {
                         title: "Order of Lenin", years: ["1941"], img: "/poetImages/ayni/awards/lenin.png", 
@@ -1056,7 +1077,7 @@ module.exports.poets = [
                             Moth&shyer&shyland, pro&shymo&shytion of friend&shyship and co&shyop&shyer&shya&shytion be&shytween peo&shyples, 
                             strength&shyen&shying of peace in the So&shyvi&shyet state and so&shyci&shyety.
                             <div class='emptyLine'></div>
-                            Ay&shyni was award&shyed this or&shyder three times, but in&shyfor&shyma&shytion about on&shyly one of them (from 1941) is 
+                            Ay&shyni was award&shyed this or&shyder three times, but in&shyfor&shyma&shytion about on&shyly one of them (from 23 Ap&shyril of 1941)<sup>2</sup> is 
                             avail&shya&shyble in open da&shyta&shybases.`
                     },
                     {
@@ -1122,7 +1143,7 @@ module.exports.poets = [
         references: {
             us: [
                 {name: `Ayni, Kholida. <i>Зиндагиномаи Садриддин Айнӣ</i> [Biography of Sadriddin Ayni]. In Tajiki. Dushanbe: Baloghat, 2017, p. 13.`, link: ''},
-                {name: `Ayni, Sadriddin. "<i>Мухтасари тарҷумаи ҳоли худам</i>" [My Brief Autobiography]. <i>Куллиёт, ҷилди I</i> [Complete Works, vol. 1], edited by A. Dehoti. In Tajiki. Dushanbe: Nashriyoti Davlatii Tojikiston, 1958, pp. 28, 33, 47-48.`, link: ''},
+                {name: `Ayni, Sadriddin. "<i>Мухтасари тарҷумаи ҳоли худам</i>" [My Brief Autobiography]. <i>Куллиёт, ҷилди I</i> [Complete Works, vol. 1], edited by A. Dehoti. In Tajiki. Dushanbe: Nashriyoti Davlatii Tojikiston, 1958, pp. 28, 33, 47-48, 83, 96-99.`, link: ''},
                 {name: `Ayni, Sadriddin. <i>Мактаби кӯҳна</i> [The Old School]. In Tajiki. Dushanbe: Istiqbol, 2010.`, link: ''},
                 {name: `"<i>Садриддин Айнӣ</i>" ["Sadriddin Ayni"]. In Tajiki. Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
                 {name: `Ayni, Sadriddin. <i>Таърихи инқилоби Бухоро</i> [History of the Bukhara Revolution]. In Tajiki. Dushanbe: Adib, 1987, pp. 7-8, 17, 25, 26.`, link: ''},
@@ -1144,7 +1165,7 @@ module.exports.poets = [
             ],
             ru: [
                 {name: `Айни, Холида. <i>Зиндагиномаи Садриддин Айнӣ</i> [Биография Садриддина Айни]. На тадж. Душанбе: Балогат, 2017, с. 13.`, link: ''},
-                {name: `Айни, Садриддин. «<i>Мухтасари тарҷумаи ҳоли худам</i>» [Моя краткая автобиография]. <i>Куллиёт, ҷилди I</i> [Полное собрание сочинений, том. 1], под редакцией А. Дехоти. На тадж. Душанбе: Нашриёти Давлатии Точикистон, 1958, с. 28, 33, 47-48.`, link: ''},
+                {name: `Айни, Садриддин. «<i>Мухтасари тарҷумаи ҳоли худам</i>» [Моя краткая автобиография]. <i>Куллиёт, ҷилди I</i> [Полное собрание сочинений, том. 1], под редакцией А. Дехоти. На тадж. Душанбе: Нашриёти давлатии Точикистон, 1958, с. 28, 33, 47-48, 83, 96-99.`, link: ''},
                 {name: `Айни, Садриддин. <i>Мактаби кӯҳна</i> [Старая школа]. На тадж. Душанбе: Истикбол, 2010.`, link: ''},
                 {name: `«<i>Садриддин Айнӣ</i>» [«Садриддин Айни»]. На тадж. Ансор.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
                 {name: `Айни, Садриддин. <i>Таърихи инқилоби Бухоро</i> [История Бухарской революции]. На тадж. Душанбе: Адиб, 1987, с. 7, 17, 25, 26, ?.`, link: ''},
@@ -1162,11 +1183,12 @@ module.exports.poets = [
                 {name: `Курбонова, Манижа. "<i>«Теперь не стыдно показывать туристам». К 140-летию Садриддина Айни в Душанбе отремонтировали его дом-музей</i>". Asia-Plus. 13 апреля 2017.`, link: 'https://asiaplustj.info/ru/news/tajikistan/society/20180413/v-chest-yubileya-sadriddina-aini-v-dushanbe-otremontirovali-ego-dom-muzei'},
                 {name: `Хашимов, Шер. "<i>Embracing slow time in Tajikistan</i>" [«Принимая медленное время в Таджикистане»]. На англ. New East Digital Archive. 31 января 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
                 {name: `5 Somoni [5 сомони]. Numista.`, link: 'https://en.numista.com/catalogue/note215569.html'},
-                {name: `House Museum of Sadriddin Ayni [Дом-музей Садриддина Айни]. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'}
+                {name: `House Museum of Sadriddin Ayni [Дом-музей Садриддина Айни]. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'},
+                {name: `Айни, Садриддин. «<i>Ҷаллодони Бухоро</i>» [Бухарские палачи]. <i>Куллиёт, ҷилди I</i> [Полное собрание сочинений, том. 1], под редакцией А. Дехоти. На тадж. Душанбе: Нашриёти давлатии Точикистон, 1958, с. 160-161.`, link: ''},
             ],
             tj: [
                 {name: `Айнӣ, Холида. <i>Зиндагиномаи Садриддин Айнӣ</i>. Душанбе: Балоғат, 2017, с. 13.`, link: ''},
-                {name: `Айнӣ, Садриддин. «<i>Мухтасари тарҷумаи ҳоли худам</i>». <i>Куллиёт, ҷилди I</i>, бо таҳрири А. Деҳотӣ. Душанбе: Нашриёти Давлатии Тоҷикистон, 1958, с. 28, 33, 47-48.`, link: ''},
+                {name: `Айнӣ, Садриддин. «<i>Мухтасари тарҷумаи ҳоли худам</i>». <i>Куллиёт, ҷилди I</i>, бо таҳрири А. Деҳотӣ. Душанбе: Нашриёти давлатии Тоҷикистон, 1958, с. 28, 33, 47-48, 83, 96-99.`, link: ''},
                 {name: `Айнӣ, Садриддин. <i>Мактаби кӯҳна</i>. Душанбе: Истиқбол, 2010.`, link: ''},
                 {name: `«<i>Садриддин Айнӣ</i>». Ансор.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
                 {name: `Айнӣ, Садриддин. <i>Таърихи инқилоби Бухоро</i>. Душанбе: Адиб, 1987, с. 7, 17, 25, 26, ?.`, link: ''},
@@ -1185,6 +1207,7 @@ module.exports.poets = [
                 {name: `Хашимов, Шер. "<i>Embracing slow time in Tajikistan</i>" [«Қабул кардани сустгзарии вақт дар Тоҷикистон»]. Ба забони англ. New East Digital Archive. 31-уми январи 2022.`, link: 'https://www.new-east-archive.org/features/show/13391/Tajikistan-slowing-down-anisa-sabiri-photography'},
                 {name: `5 Somoni [5 сомонӣ]. Numista.`, link: 'https://en.numista.com/catalogue/note215569.html'},
                 {name: `House Museum of Sadriddin Ayni [Хона-музейи Садриддин Айнӣ]. Tripadvisor.`, link: 'https://www.tripadvisor.ca/Attraction_Review-g298068-d12610410-Reviews-House_Museum_of_Sadriddin_Ayni-Samarkand_Samarqand_Province.html'},
+                {name: `Айнӣ, Садриддин. «<i>Ҷаллодони Бухоро</i>». <i>Куллиёт, ҷилди I</i>, бо таҳрири А. Деҳотӣ. Душанбе: Нашриёти давлатии Тоҷикистон, 1958, с. 160-161.`, link: ''},
             ]
         }
     },
