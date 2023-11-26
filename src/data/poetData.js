@@ -773,7 +773,7 @@ module.exports.poets = [
                 "/poetImages/ayni/career/ayni1.png",
                 "/poetImages/ayni/career/ayni2.jpeg",
                 "/poetImages/ayni/career/ayni3.png",
-                "/poetImages/ayni/career/ayni4.png",
+                "/poetImages/ayni/career/ayni4.jpg",
                 "/poetImages/ayni/career/ayni5.png",
                 "/poetImages/ayni/career/ayni6.png",
                 "/poetImages/ayni/career/ayni7.jpeg",
@@ -822,9 +822,9 @@ module.exports.poets = [
                         Ста&shyлин ра&shyҳоӣ ме&shyё&shyбад.`,
                         `Ба Со&shyве&shyти шаҳ&shyри Ста&shyлин&shyо&shyбод (Ду&shyшан&shyбеи ҳо&shyзи&shyра) ҳам&shyчун де&shyпу&shyтат ин&shyти&shyхоб 
                         ме&shyша&shyвад. Со&shyли 1948 ду&shyбо&shyра ба ин ман&shyсаб ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
-                        `Бо даъ&shyва&shyти ду&shyю&shyми Со&shyве&shyти Олии РСС То&shyҷи&shyкис&shyтон ба де&shyпу&shyта&shyтӣ ба ин Со&shyвет ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
                         `Аз со&shyли 1946 то со&shyли 1950, Ай&shyнӣ му&shyди&shyри ка&shyфед&shyраи ада&shyби&shyё&shyти ӯз&shyбе&shyки фа&shyкул&shyтаи 
                         фи&shyло&shyло&shyги&shyяи До&shyниш&shyго&shyҳи Дав&shyла&shyтии Ӯз&shyбе&shyкис&shyтон дар Са&shyмар&shyқанд буд.<sup>1</sup>`,
+                        `Бо даъ&shyва&shyти ду&shyю&shyми Со&shyве&shyти Олии РСС То&shyҷи&shyкис&shyтон ба де&shyпу&shyта&shyтӣ ба ин Со&shyвет ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
                         `Пас аз ги&shyриф&shyта&shyни Ор&shyде&shyни Ста&shyлин, Ай&shyнӣ ба Со&shyве&shyти Олии СССР на&shyмо&shyян&shyда ин&shyти&shyхоб 
                         ме&shyша&shyвад ва дар ҷа&shyла&shyсаи он дар Мас&shyкав иш&shyти&shyрок ме&shyку&shyнад.<sup>1</sup>`,
                         `Со&shyли 1951, Ака&shyде&shyми&shyяи илм&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис ме&shyё&shyбад ва Сад&shyрид&shyдин Ай&shyнӣ 
@@ -928,10 +928,10 @@ module.exports.poets = [
                         he was re-elect&shyed to this post.<sup>2</sup>`,
                         `Be&shytween 1946 and 1950, Ay&shyni was the chair for the De&shypart&shyment of Uz&shybek Lit&shyer&shya&shyture at the 
                         Fac&shyul&shyty of Phi&shylol&shyo&shygy in Uz&shybe&shykis&shytan State Uni&shyver&shysi&shyty, sit&shyu&shyat&shyed in Sa&shymar&shykand.<sup>1</sup>`,
-                        `Af&shyter re&shyceiv&shying the Or&shyder of Sta&shylin, Ay&shyni was elect&shyed as a rep&shyre&shysen&shyta&shytive to the 
-                        Su&shypreme So&shyvi&shyet of the USSR and par&shytic&shyi&shypat&shyed in its ses&shysion in Mos&shycow.<sup>1</sup>`,
                         `Fol&shylow&shying his sec&shyond in&shyvi&shyta&shytion from the Su&shypreme So&shyvi&shyet of the Ta&shyjik SSR, he was 
                         elect&shyed as a dep&shyu&shyty to the So&shyvi&shyet.<sup>2</sup>`,
+                        `Af&shyter re&shyceiv&shying the Sta&shylin Prize, Ay&shyni was elect&shyed as a rep&shyre&shysen&shyta&shytive to the 
+                        Su&shypreme So&shyvi&shyet of the USSR and par&shytic&shyi&shypat&shyed in its ses&shysion in Mos&shycow.<sup>1</sup>`,
                         `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its 
                         in&shyau&shygu&shyral pre&shysi&shydent. 
                         He held this po&shysition until his passing in 1954.`,
