@@ -777,9 +777,10 @@ module.exports.poets = [
                 "/poetImages/ayni/career/ayni5.png",
                 "/poetImages/ayni/career/ayni6.png",
                 "/poetImages/ayni/career/ayni7.jpeg",
-                "/poetImages/ayni/career/ayni8.jpeg",
-                "/poetImages/ayni/career/ayni9.jpg",
+                "/poetImages/ayni/career/ayni8.jpg",
+                "/poetImages/ayni/career/ayni9.jpeg",
                 "/poetImages/ayni/career/ayni10.jpg",
+                "/poetImages/ayni/career/ayni11.jpg",
                 "/poetImages/ayni/career/ayni1.png",
             ],
             text: {
@@ -802,13 +803,13 @@ module.exports.poets = [
                         Ҷум&shyҳу&shyрии Бу&shyхо&shyро) дар Са&shyмар&shyқанд ҳам&shyчун му&shyдир таъ&shyйин ме&shyша&shyвад.
                         Ило&shyва бар ин, аъ&shyзои Ком&shyиҷ&shyро&shyи&shyяи Мар&shyка&shyзии Ҷум&shyҳу&shyрии Бу&shyхо&shyро 
                         ин&shyти&shyхоб ме&shyша&shyвад.<sup>2</sup>`,
-                        `Аз 15-уми июни ин сол, ӯ дар Наш&shyри&shyё&shyти дав&shyла&shyтии То&shyҷи&shyкис&shyтон, ки дар Са&shyмар&shyқанд таъ&shyсис ёф&shyта буд, ба 
+                        `Аз 15-уми ию&shyни ин сол, ӯ дар Наш&shyри&shyё&shyти дав&shyла&shyтии То&shyҷи&shyкис&shyтон, ки дар Са&shyмар&shyқанд таъ&shyсис ёф&shyта буд, ба 
                         си&shyфа&shyти му&shyҳар&shyри&shyри ада&shyбӣ ва 
                         маш&shyва&shyрат&shyчии ил&shyмӣ фаъ&shyо&shyли&shyят ме&shyку&shyнад.<sup>2</sup>`,
                         `Ба қа&shyто&shyри аъ&shyзо&shyё&shyни Ком&shyиҷ&shyро&shyи&shyяи Мар&shyка&shyзии То&shyҷи&shyкис&shyтон ин&shyти&shyхоб 
                         ме&shyша&shyвад ва ин ко&shyраш то со&shyли 1938 да&shyвом ме&shyку&shyнад.<sup>2</sup>`,
-                        `Аса&shyри пур&shyар&shyзи&shyши ӯ дар бо&shyраи Фир&shyдав&shyсӣ ва «Шоҳ&shyно&shyма»-и ӯро ба ан&shyҷом ме&shy&shyсо&shyнад. Ҳа&shyмин 
-                        тавр, пай&shyдар&shyҳам асар&shyҳои «Шайх&shyу&shyра&shyис Абӯ&shyалии Си&shyно», «Шайх Мус&shyли&shyҳид&shyдин Саъ&shyдии Ше&shyро&shyзӣ», 
+                        `Ри&shyсо&shyлаи пур&shyар&shyзи&shyши ӯ дар бо&shyраи Фир&shyдав&shyсӣ ва «Шоҳ&shyно&shyма»-и ӯро ба ан&shyҷом ме&shy&shyсо&shyнад. Ҳа&shyмин 
+                        тавр, пай&shyдар&shyҳам ри&shyсо&shyла&shyҳои «Шайх&shyу&shyра&shyис Абӯ&shyалии Си&shyно», «Шайх Мус&shyли&shyҳид&shyдин Саъ&shyдии Ше&shyро&shyзӣ», 
                         «Ус&shyтод Рӯ&shyда&shyкӣ», «Ка&shyмо&shyли Ху&shyҷан&shyдӣ», «Али&shyшер На&shyвоӣ», «Зай&shyнид&shyдин Маҳ&shyму&shyди Во&shyси&shyфӣ»-ро ба табъ 
                         ме&shyра&shyсо&shyнад. Ус&shyтод дар ин асар&shyҳо&shyяш бис&shyёр масъ&shyа&shyла&shyҳои баҳс&shyта&shyлаб ва ҳал&shyна&shyшу&shyдаи 
                         ҳа&shyё&shyту эҷо&shyди&shyё&shyти ин ади&shyбон&shyро бо да&shyле&shyлу бур&shyҳон&shyҳои қо&shyтеъ ҳал ме&shyна&shyмо&shyяд.<sup>1</sup>`,
@@ -911,8 +912,8 @@ module.exports.poets = [
                         con&shysul&shytant at the Ta&shyjik State Pub&shylish&shying House, head&shyquar&shytered in Sa&shymar&shykand.<sup>2</sup>`,
                         `He was elect&shyed as a mem&shyber of the Cen&shytral Ex&shyec&shyu&shytive Com&shymit&shytee of Ta&shyji&shykis&shytan and 
                         main&shytained his po&shysi&shytion through suc&shyces&shysive elec&shytions un&shytil 1938.`,
-                        `Ay&shyni con&shyclud&shyed his in&shydepth book fo&shycus&shying on Fer&shydow&shysi and his "Shāh&shynā&shymeh." Then, he 
-                        se&shyquen&shytial&shyly re&shyleas&shyes the bi&shyogra&shyphies/works of no&shytable fig&shyures such as "Sheikh-ur-rais 
+                        `Ay&shyni con&shyclud&shyed his in&shydepth pa&shyper fo&shycus&shying on Fer&shydaw&shysi and his "Shāh&shynā&shymeh." Then, he 
+                        se&shyquen&shytial&shyly re&shyleas&shyes the ar&shyti&shycles about the bi&shyogra&shyphies/works of no&shytable fig&shyures such as "Sheikh-ur-rais 
                         Abu Ali Si&shyna" (Avi&shycen&shyna), "Sheikh Mus&shyli&shyhid&shydin Sa&shyadi Shi&shyra&shyzi," "Us&shytad Ru&shydaki," 
                         "Ka&shymal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e Wa&shysi&shyfi." In these works, 
                         Ay&shyni ad&shydress&shyes nu&shymer&shyous con&shyten&shytious and pre&shyvi&shyous&shyly un&shyre&shysolved de&shybates 
@@ -920,11 +921,15 @@ module.exports.poets = [
                         `A state law banned the Ara&shybic script for writ&shying, af&shyfect&shying the Tajik lang&shyuage tra&shydi&shytion&shyal&shyly 
                         writ&shyten in the Per&shyso-Ara&shybic script. This led to the sys&shytem&shyatic de&shystruc&shytion of Ar&shyabic-script books. 
                         In re&shysponse, Sad&shyrid&shydin Ay&shyni col&shylab&shyor&shyated with prom&shyin&shyent So&shyviet Ira&shyno&shylog&shyists, 
-                        in&shyclu&shyd&shying Bertels, Se&shym&shyyonov, and Frei&shyman, to col&shylect and trans&shylit&shyer&shyate Per&shysian 
+                        in&shyclu&shyd&shying Ber&shytels, Se&shym&shyyonov, and Frei&shyman, to col&shylect and trans&shylit&shyer&shyate Per&shysian 
                         books in&shyto Cy&shyril&shylic. He was ac&shycus&shyed of be&shying an "en&shyemy of the na&shytion," and al&shymost per&shyished 
                         in Stal&shyin's Great Purge.`,
                         `He was elect&shyed as a rep&shyre&shysen&shyta&shytive to the Sta&shylin&shyabad City Coun&shycil (now Du&shyshan&shybe). In 1948, 
                         he was re-elect&shyed to this post.<sup>2</sup>`,
+                        `Be&shytween 1946 and 1950, Ay&shyni was the chair for the De&shypart&shyment of Uz&shybek Lit&shyer&shya&shyture at the 
+                        Fac&shyul&shyty of Phi&shylol&shyo&shygy in Uz&shybe&shykis&shytan State Uni&shyver&shysi&shyty, sit&shyu&shyat&shyed in Sa&shymar&shykand.<sup>1</sup>`,
+                        `Af&shyter re&shyceiv&shying the Or&shyder of Sta&shylin, Ay&shyni was elect&shyed as a rep&shyre&shysen&shyta&shytive to the 
+                        Su&shypreme So&shyvi&shyet of the USSR and par&shytic&shyi&shypat&shyed in its ses&shysion in Mos&shycow.<sup>1</sup>`,
                         `Fol&shylow&shying his sec&shyond in&shyvi&shyta&shytion from the Su&shypreme So&shyvi&shyet of the Ta&shyjik SSR, he was 
                         elect&shyed as a dep&shyu&shyty to the So&shyvi&shyet.<sup>2</sup>`,
                         `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its 
