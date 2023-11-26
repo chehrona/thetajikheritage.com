@@ -923,7 +923,7 @@ module.exports.poets = [
                         `He was elect&shyed as a rep&shyre&shysen&shyta&shytive to the Sta&shylin&shyabad City Coun&shycil (now Du&shyshan&shybe). In 1948, 
                         he was re-elect&shyed to this post.<sup>2</sup>`,
                         `Fol&shylow&shying his sec&shyond in&shyvi&shyta&shytion from the Su&shypreme So&shyvi&shyet of the Ta&shyjik SSR, he was 
-                        elect&shyed as a dep&shyu&shyty to the So&shyvi&shyet.<sup>2</sup>`
+                        elect&shyed as a dep&shyu&shyty to the So&shyvi&shyet.<sup>2</sup>`,
                         `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its 
                         in&shyau&shygu&shyral pre&shysi&shydent. 
                         He held this po&shysition until his passing in 1954.`,
