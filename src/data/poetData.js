@@ -289,7 +289,7 @@ module.exports.poets = [
                         text2: `, lead&shying to his imprisonment and the harsh&shyest pun&shyish&shyment of the time – 
                             <span style='font-weight: bold;'>75 lashes</span><sup>2</sup>.
                             <div class='space'></div>Eventually, he is liberated by the Russian 
-                            Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrians. After enduring 
+                            Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrans. After enduring 
                             <span style='font-weight: bold;'>52 days</span> in the hos&shypital 
                             and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
                             he perma&shynently moved to Sa&shymar&shykand.
@@ -802,9 +802,9 @@ module.exports.poets = [
                         Ҷум&shyҳу&shyрии Бу&shyхо&shyро) дар Са&shyмар&shyқанд ҳам&shyчун му&shyдир таъ&shyйин ме&shyша&shyвад.
                         Ило&shyва бар ин, аъ&shyзои Ком&shyиҷ&shyро&shyи&shyяи Мар&shyка&shyзии Ҷум&shyҳу&shyрии Бу&shyхо&shyро 
                         ин&shyти&shyхоб ме&shyша&shyвад.<sup>2</sup>`,
-                        `15-уми июн дар Наш&shyри&shyё&shyти дав&shyла&shyтии То&shyҷи&shyкис&shyтон, ки дар Са&shyмар&shyқанд таъ&shyсис ёф&shyта буд, ба 
-                        хиз&shyма&shyти ада&shyбӣ ме&shyда&shyро&shyяд. Боз дар шӯъ&shyбаи Тоҷ&shyгиз ба си&shyфа&shyти му&shyҳар&shyри&shyри ада&shyбӣ ва 
-                        маш&shyва&shyрат&shyчии ил&shyмӣ то со&shyли 1933 дар он ҷо фаъ&shyо&shyли&shyят ме&shyку&shyнад.<sup>2</sup>`,
+                        `Аз 15-уми июни ин сол, ӯ дар Наш&shyри&shyё&shyти дав&shyла&shyтии То&shyҷи&shyкис&shyтон, ки дар Са&shyмар&shyқанд таъ&shyсис ёф&shyта буд, ба 
+                        си&shyфа&shyти му&shyҳар&shyри&shyри ада&shyбӣ ва 
+                        маш&shyва&shyрат&shyчии ил&shyмӣ фаъ&shyо&shyли&shyят ме&shyку&shyнад.<sup>2</sup>`,
                         `Ба қа&shyто&shyри аъ&shyзо&shyё&shyни Ком&shyиҷ&shyро&shyи&shyяи Мар&shyка&shyзии То&shyҷи&shyкис&shyтон ин&shyти&shyхоб 
                         ме&shyша&shyвад ва ин ко&shyраш то со&shyли 1938 да&shyвом ме&shyку&shyнад.<sup>2</sup>`,
                         `Аса&shyри пур&shyар&shyзи&shyши ӯ дар бо&shyраи Фир&shyдав&shyсӣ ва «Шоҳ&shyно&shyма»-и ӯро ба ан&shyҷом ме&shy&shyсо&shyнад. Ҳа&shyмин 
@@ -853,18 +853,18 @@ module.exports.poets = [
                         Аб&shyдул&shyко&shyдир Му&shyхид&shyди&shyнов. Од&shyна&shyко вско&shyре кон&shyсуль&shyство зак&shyры&shyва&shyет&shyся, и Айни был назначен 
                         ру&shyко&shyво&shyди&shyте&shyлем от&shyде&shyла Бух&shyгос&shyтор&shyга (эко&shyно&shyми&shyчес&shyкий 
                         со&shyвет Бу&shyхар&shyской Рес&shyпуб&shyли&shyки) в Са&shyмар&shyканде, еще раз при со&shyдей&shyствии А. Му&shyхид&shyди&shyно&shyва.
-                        Кро&shyме то&shyго, он был из&shyбран чле&shyном Цен&shyтраль&shyно&shyго Ис&shyпол&shyни&shyтель&shyно&shyго Ко&shyми&shyте&shyта Бу&shyхар&shyской Рес&shyпуб&shyли&shyки.<sup>2</sup>`,
-                        `15 ию&shyня он по&shyсту&shyпа&shyет на ре&shyда&shyкци&shyон&shyно-из&shyда&shyтель&shyскую служ&shyбу в Тад&shyжик&shyское го&shyсу&shyдар&shyствен&shyное из&shyда&shyтель&shyство, в 
-                        Са&shyмар&shyкан&shyде. Он еще ра&shyбо&shyта&shyет в 
-                        от&shyде&shyле Тадж&shyги&shyза ли&shyте&shyра&shyтур&shyным ре&shyдак&shyто&shyром и на&shyуч&shyным кон&shyсуль&shyтан&shyтом до 1933 го&shyда.<sup>2</sup>`,
+                        Кро&shyме то&shyго, он был из&shyбран чле&shyном Цен&shyтраль&shyно&shyго Ис&shyпол&shyни&shyтель&shyно&shyго Ко&shyми&shyте&shyта Бу&shyхар&shyской 
+                        Рес&shyпуб&shyли&shyки.<sup>2</sup>`,
+                        `С 15 ию&shyня это&shyго го&shyда, он ра&shyбо&shyта&shyет в Тад&shyжик&shyское го&shyсу&shyдар&shyствен&shyное из&shyда&shyтель&shyство 
+                        (Тадж&shyгиз), в Са&shyмар&shyкан&shyде, ли&shyте&shyра&shyтур&shyным ре&shyдак&shyто&shyром и на&shyуч&shyным кон&shyсуль&shyтан&shyтом до 1933 го&shyда.<sup>2</sup>`,
                         `Его из&shyби&shyра&shyют в чис&shyло чле&shyнов Цен&shyтраль&shyно&shyго Ис&shyпол&shyни&shyтель&shyно&shyго Ко&shyми&shyте&shyта Тад&shyжи&shyкис&shyта&shyна, и он 
                         про&shyдол&shyжал эту ра&shyбо&shyту до 1938 го&shyда.<sup>2</sup>`,
                         `Ай&shyни со&shyста&shyвил «Шах&shyнаме» Фир&shyдоу&shyси с на&shyме&shyре&shyни&shyем транс&shyли&shyте&shyри&shyро&shyвать 
                         его в но&shyвую тад&shyжик&shyскую пись&shyмен&shyность, сна&shyча&shyла на ла&shyти&shyни&shyцу, 
                         а за&shyтем на ки&shyрил&shyли&shyцу. Он так&shyже тща&shyтель&shyно соб&shyрал био&shyгра&shyфии и про&shyиз&shyве&shyдения многочисленных 
                         уче&shyных и по&shyэ&shyтов, та&shyких как «Шейх&shyур&shyаис Абу&shyали Си&shyна» 
-                        (Ави&shyцен&shyна), «Шейх Мус&shyли&shyхид&shyдин Саади Ши&shyра&shyзи», «Ус&shyтад Ру&shyда&shyки», «Ка&shyмаль-и Худ&shyжан&shyди», «Али&shyшер На&shyвои», «Зай&shyнуд&shyдин 
-                        Мах&shyмуд-и Ва&shyси&shyфи» и дру&shyгие.<sup>1</sup>`,
+                        (Ави&shyцен&shyна), «Шейх Мус&shyли&shyхид&shyдин Саади Ши&shyра&shyзи», «Ус&shyтад Ру&shyда&shyки», «Ка&shyмаль-и Худ&shyжан&shyди», 
+                        «Али&shyшер На&shyвои», «Зай&shyнуд&shyдин Мах&shyмуд-и Ва&shyси&shyфи» и дру&shyгие.<sup>1</sup>`,
                         `Го&shyсу&shyдар&shyствен&shyный за&shyкон зап&shyре&shyтил ис&shyполь&shyзо&shyва&shyние араб&shyской пись&shyмен&shyнос&shyти, что 
                         за&shyтро&shyну&shyло тад&shyжик&shyский язык, тра&shyди&shyци&shyон&shyно ис&shyполь&shyзу&shyю&shyщий пер&shyсид&shyско-араб&shyскую пись&shyмен&shyность. 
                         Это при&shyве&shyло к унич&shyто&shyже&shyнию книг с араб&shyской вязью.
@@ -892,28 +892,40 @@ module.exports.poets = [
                         `In 1920, Ayni penned his first ma&shyjor li&shyte&shyra&shyry work, "The Bu&shykhara Ex&shyec&shyu&shytion&shyers." Then, 
                         he wrote the short sto&shyry "Odi&shyna" in 1924, fol&shylowed by the no&shyvel "Do&shykhun&shyda" (writ&shyten 
                         be&shytween 1927 and 1928, but pub&shylished in 1930). "The Slaves" was re&shyleased in 1934, and his most ex&shytensive 
-                        work, "Re&shymi&shynis&shycen&shyes," was pub&shylished in 1940.
+                        work, "Re&shymi&shynis&shycen&shyes," was pub&shylished in 1940.<sup>2</sup>
                         <div class='emptyLine'></div>
-                        <div class='imgDesc'>*The cover of "The Bukhara Executioners" 
-                        pub&shylished in 1937 in Ta&shyji&shyki writ&shyten in the La&shytin script</div>`,
-                        `He was ap&shypoin&shyted a con&shysul&shytant to the new&shyly es&shytab&shylished Re&shypub&shylic of Bu&shykha&shyra's 
+                        <div class='imgDesc'>*The cover of "The Bu&shykha&shyra Executioners" 
+                        pub&shylished in 1937 in Ta&shyji&shyki writ&shyten in the La&shytin script <sup>21</sup></div>`,
+                        `He was ap&shypoin&shyted a con&shysul&shytant to the new&shyly es&shytab&shylished Bu&shykh&shyaran Peo&shyple's So&shyviet 
+                        Re&shypub&shylic's
                         con&shysu&shylate in Sa&shymar&shykand, fa&shyci&shyli&shyta&shyted through the sup&shyport of Ab&shydul&shyqo&shydir 
                         Mu&shyhid&shydinov. How&shye&shyver, the con&shysu&shylate clo&shyses soon af&shyter, and Ay&shyni was 
-                        sub&shyseq&shyuent&shyly ap&shypoin&shyted to o&shyver&shysee a de&shypart&shyment with&shyin Bukh&shygostorg 
-                        (the Eco&shyno&shymic Coun&shycil of the Bu&shykh&shyaran Peo&shyple's So&shyviet Re&shypub&shylic) in Sa&shymar&shykand, 
-                        once more with the as&shysist&shyance of A. Mu&shyhid&shydinov.`,
-                        `Ay&shyni com&shypiled Fer&shydow&shysi's "Shāh&shynā&shymeh" with the in&shyten&shytion of trans&shyli&shyte&shyrat&shying
-                        it into the new Ta&shyjik script, first in La&shytin and la&shyter in Cy&shyril&shylic. He al&shyso me&shyt&shycu&shylous&shyly 
-                        com&shypiled bi&shyog&shyra&shyphies and works of nu&shym&shyer&shyous scho&shylars and po&shyets, such as "Sheikh-ur-rais 
+                        sub&shyseq&shyuent&shyly ap&shypoin&shyted to over&shysee a de&shypart&shyment with&shyin Bukh&shygostorg 
+                        (the Eco&shyno&shymic Coun&shycil of the Bu&shykh&shyaran Re&shypub&shylic) in Sa&shymar&shykand, 
+                        once more with the as&shysist&shyance of A. Mu&shyhid&shydinov. At the same time, he be&shycame a mem&shyber of the 
+                        Cen&shytral Ex&shyec&shyu&shytive Com&shymit&shytee of the Bu&shykha&shyran Re&shypub&shylic.<sup>2</sup>`,
+                        `From June 15 of this year un&shytil 1933, he worked as a lit&shyer&shyary ed&shyi&shytor and ac&shya&shydem&shyic 
+                        con&shysul&shytant at the Ta&shyjik State Pub&shylish&shying House, head&shyquar&shytered in Sa&shymar&shykand.<sup>2</sup>`,
+                        `He was elect&shyed as a mem&shyber of the Cen&shytral Ex&shyec&shyu&shytive Com&shymit&shytee of Ta&shyji&shykis&shytan and 
+                        main&shytained his po&shysi&shytion through suc&shyces&shysive elec&shytions un&shytil 1938.`,
+                        `Ay&shyni con&shyclud&shyed his in&shydepth book fo&shycus&shying on Fer&shydow&shysi and his "Shāh&shynā&shymeh." Then, he 
+                        se&shyquen&shytial&shyly re&shyleas&shyes the bi&shyogra&shyphies/works of no&shytable fig&shyures such as "Sheikh-ur-rais 
                         Abu Ali Si&shyna" (Avi&shycen&shyna), "Sheikh Mus&shyli&shyhid&shydin Sa&shyadi Shi&shyra&shyzi," "Us&shytad Ru&shydaki," 
-                        "Ka&shymal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e Wa&shysi&shyfi," and oth&shyers.`,
+                        "Ka&shymal-e Khu&shyjan&shydi," "Ali-Shir Na&shyva'i," "Zai&shynud&shydin Mah&shymood-e Wa&shysi&shyfi." In these works, 
+                        Ay&shyni ad&shydress&shyes nu&shymer&shyous con&shyten&shytious and pre&shyvi&shyous&shyly un&shyre&shysolved de&shybates 
+                        sur&shyround&shying the lives and lit&shyer&shyary works of the afore&shymen&shytioned fig&shyures.<sup>1</sup>`,
                         `A state law banned the Ara&shybic script for writ&shying, af&shyfect&shying the Tajik lang&shyuage tra&shydi&shytion&shyal&shyly 
                         writ&shyten in the Per&shyso-Ara&shybic script. This led to the sys&shytem&shyatic de&shystruc&shytion of Ar&shyabic-script books. 
                         In re&shysponse, Sad&shyrid&shydin Ay&shyni col&shylab&shyor&shyated with prom&shyin&shyent So&shyviet Ira&shyno&shylog&shyists, 
                         in&shyclu&shyd&shying Bertels, Se&shym&shyyonov, and Frei&shyman, to col&shylect and trans&shylit&shyer&shyate Per&shysian 
                         books in&shyto Cy&shyril&shylic. He was ac&shycus&shyed of be&shying an "en&shyemy of the na&shytion," and al&shymost per&shyished 
                         in Stal&shyin's Great Purge.`,
-                        `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its in&shyau&shygu&shyral pre&shysi&shydent. 
+                        `He was elect&shyed as a rep&shyre&shysen&shyta&shytive to the Sta&shylin&shyabad City Coun&shycil (now Du&shyshan&shybe). In 1948, 
+                        he was re-elect&shyed to this post.<sup>2</sup>`,
+                        `Fol&shylow&shying his sec&shyond in&shyvi&shyta&shytion from the Su&shypreme So&shyvi&shyet of the Ta&shyjik SSR, he was 
+                        elect&shyed as a dep&shyu&shyty to the So&shyvi&shyet.<sup>2</sup>`
+                        `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its 
+                        in&shyau&shygu&shyral pre&shysi&shydent. 
                         He held this po&shysition until his passing in 1954.`,
                         `In 1920, Ayni penned his first ma&shyjor li&shyte&shyra&shyry work, "The Bu&shykhara Ex&shyec&shyu&shytion&shyers." Then, 
                         he wrote the short sto&shyry "O&shydi&shyna" in 1924, fol&shylowed by the no&shyvel "Do&shykhun&shyda" (writ&shyten 
