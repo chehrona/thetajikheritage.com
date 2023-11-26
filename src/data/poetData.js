@@ -767,7 +767,7 @@ module.exports.poets = [
                 ]
         },
         career: {
-            years: ["1920-1940", "1923", "1926", "1929", "1934", "1935", "1939", "1947", "1950", "1951"],
+            years: ["1920-1940", "1923", "1926", "1929", "1934", "1935", "1939", "1946", "1947", "1950", "1951"],
             images: [
                 "/poetImages/ayni/career/ayni9.png",
                 "/poetImages/ayni/career/ayni1.png",
@@ -822,7 +822,10 @@ module.exports.poets = [
                         `Ба Со&shyве&shyти шаҳ&shyри Ста&shyлин&shyо&shyбод (Ду&shyшан&shyбеи ҳо&shyзи&shyра) ҳам&shyчун де&shyпу&shyтат ин&shyти&shyхоб 
                         ме&shyша&shyвад. Со&shyли 1948 ду&shyбо&shyра ба ин ман&shyсаб ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
                         `Бо даъ&shyва&shyти ду&shyю&shyми Со&shyве&shyти Олии РСС То&shyҷи&shyкис&shyтон ба де&shyпу&shyта&shyтӣ ба ин Со&shyвет ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
-                        `Пас гирифтани Ордени Сталин, Айнӣ ба Совети Олии СССР`,
+                        `Аз со&shyли 1946 то со&shyли 1950, Ай&shyнӣ му&shyди&shyри ка&shyфед&shyраи ада&shyби&shyё&shyти ӯз&shyбе&shyки фа&shyкул&shyтаи 
+                        фи&shyло&shyло&shyги&shyяи До&shyниш&shyго&shyҳи Дав&shyла&shyтии Ӯз&shyбе&shyкис&shyтон дар Са&shyмар&shyқанд буд.<sup>1</sup>`,
+                        `Пас аз ги&shyриф&shyта&shyни Ор&shyде&shyни Ста&shyлин, Ай&shyнӣ ба Со&shyве&shyти Олии СССР на&shyмо&shyян&shyда ин&shyти&shyхоб 
+                        ме&shyша&shyвад ва дар ҷа&shyла&shyсаи он дар Мас&shyкав иш&shyти&shyрок ме&shyку&shyнад.<sup>1</sup>`,
                         `Со&shyли 1951, Ака&shyде&shyми&shyяи илм&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис ме&shyё&shyбад ва Сад&shyрид&shyдин Ай&shyнӣ 
                         пре&shyзи&shyден&shyти на&shyхус&shyти&shyни он ин&shyти&shyхоб кар&shyда ме&shyша&shyвад. Ӯ ин ва&shyзи&shyфа&shyро то дар&shyгу&shyзаш&shyташ 
                         дар со&shyли 1954 дар ӯҳ&shyда дошт.`,
@@ -1156,7 +1159,7 @@ module.exports.poets = [
         },
         references: {
             us: [
-                {name: `Ayni, Kholida. <i>Зиндагиномаи Садриддин Айнӣ</i> [Biography of Sadriddin Ayni]. In Tajiki. Dushanbe: Baloghat, 2017, pp. 13, 79, 86, 87, 90, 92, 93.`, link: ''},
+                {name: `Ayni, Kholida. <i>Зиндагиномаи Садриддин Айнӣ</i> [Biography of Sadriddin Ayni]. In Tajiki. Dushanbe: Baloghat, 2017, pp. 13, 79, 86, 87, 88, 90, 92, 93.`, link: ''},
                 {name: `Ayni, Sadriddin. "<i>Мухтасари тарҷумаи ҳоли худам</i>" [My Brief Autobiography]. <i>Куллиёт, ҷилди I</i> [Complete Works, vol. 1], edited by A. Dehoti. In Tajiki. Dushanbe: Nashriyoti Davlatii Tojikiston, 1958, pp. 28, 33, 47-48, 83, 96-99.`, link: ''},
                 {name: `Ayni, Sadriddin. <i>Мактаби кӯҳна</i> [The Old School]. In Tajiki. Dushanbe: Istiqbol, 2010.`, link: ''},
                 {name: `"<i>Садриддин Айнӣ</i>" ["Sadriddin Ayni"]. In Tajiki. Ansor.`, link: 'https://life.ansor.info/tj/sadriddin_aini/'},
