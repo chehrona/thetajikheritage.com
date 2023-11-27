@@ -847,7 +847,7 @@ module.exports.poets = [
                         ме&shyша&shyвад ва дар ҷа&shyла&shyсаи он дар Мас&shyкав иш&shyти&shyрок ме&shyку&shyнад.<sup>1</sup>`,
                         `Со&shyли 1951, Ака&shyде&shyми&shyяи илм&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис ме&shyё&shyбад ва Сад&shyрид&shyдин Ай&shyнӣ 
                         пре&shyзи&shyден&shyти на&shyхус&shyти&shyни он ин&shyти&shyхоб кар&shyда ме&shyша&shyвад. Ӯ ин ва&shyзи&shyфа&shyро то дар&shyгу&shyзаш&shyташ 
-                        дар со&shyли 1954 дар ӯҳ&shyда дошт.`,
+                        дар со&shyли 1954 дар ӯҳ&shyда дошт.<sup>1</sup>`,
                         `Со&shyли 1920, ав&shyва&shyлин аса&shyри ка&shyло&shyни ада&shyбии Ай&shyнӣ — «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро» 
                         нашр шу&shyда&shyаст. Баъд, по&shyвес&shyти «Оди&shyна» дар со&shyли 1924 ва ро&shyма&shyни «До&shyхун&shyда» (бай&shyни 
                         сол&shyҳои 1927 ва 1928 на&shyвиш&shyта шу&shyда, со&shyли 1930 нашр шу&shyда&shyаст)
@@ -894,8 +894,14 @@ module.exports.poets = [
                         Се&shyме&shyно&shyва и Фрей&shyма&shyна, что&shyбы соб&shyрать и транс&shyли&shyте&shyри&shyро&shyвать тад&shyжик&shyско-пер&shyсид&shyские 
                         кни&shyги в ки&shyрил&shyли&shyцу. Его об&shyви&shyня&shyют как «вра&shyга на&shyро&shyда», и он ед&shyва из&shyбе&shyга&shyет 
                         Ста&shyлин&shyско&shyго «Боль&shyшо&shyго тер&shyро&shyра».`,
-                        `Его из&shyби&shyра&shyют де&shyпу&shyта&shyтом Ста&shyли&shyна&shyбад&shyско&shyго гор&shyсо&shyве&shyта (ны&shyне Ду&shyшан&shyбе). В 1948 го&shyду он был пе&shyре&shyиз&shyбран на этот пост.<sup>2</sup>`,
-                        `По вто&shyро&shyму приг&shyла&shyше&shyнию Вер&shyхов&shyно&shyго Со&shyве&shyта Тад&shyжик&shyской ССР из&shyби&shyра&shyе&shyтся де&shyпу&shyта&shyтом это&shyго Со&shyве&shyта.<sup>2</sup>`,
+                        `Его из&shyби&shyра&shyют де&shyпу&shyта&shyтом Ста&shyли&shyна&shyбад&shyско&shyго гор&shyсо&shyве&shyта (ны&shyне Ду&shyшан&shyбе). В 1948 го&shyду он был 
+                        пе&shyре&shyиз&shyбран на этот пост.<sup>2</sup>`,
+                        `С 1946 по 1950 год Ай&shyни за&shyве&shyдо&shyвал ка&shyфед&shyрой уз&shyбек&shyской ли&shyте&shyра&shyту&shyры фи&shyло&shyло&shyги&shyче&shyско&shyго 
+                        фа&shyкуль&shyте&shyта Уз&shyбек&shyско&shyго го&shyсу&shyдар&shyствен&shyно&shyго уни&shyвер&shyси&shyте&shyта в Са&shyмар&shyкан&shyде.<sup>1</sup>`,
+                        `По вто&shyро&shyму приг&shyла&shyше&shyнию Вер&shyхов&shyно&shyго Со&shyве&shyта Тад&shyжик&shyской ССР, он был из&shyбран де&shyпу&shyта&shyтом и вы&shyсту&shyпил со 
+                        всту&shyпи&shyтель&shyной речью.<sup>2</sup>`,
+                        `Пос&shyле по&shyлу&shyче&shyния Ста&shyлин&shyской пре&shyмии Ай&shyни был из&shyбран де&shyпу&shyта&shyтом Вер&shyхов&shyно&shyго Со&shyве&shyта СССР и 
+                        при&shyнял учас&shyтие в его сес&shyсии в Мос&shyкве.<sup>1</sup>`,
                         `В 1951 го&shyду бы&shyла ос&shyно&shyва&shyна Ака&shyде&shyмия на&shyук Тад&shyжик&shyской ССР, пер&shyвым пре&shyзи&shyден&shyтом ко&shyто&shyрой 
                         был на&shyзна&shyчен Сад&shyрид&shyдин Ай&shyни.
                         Он за&shyни&shyмал эту долж&shyность до сво&shyей кон&shyчи&shyны в 1954 го&shyду.<sup>1</sup>`,
@@ -926,10 +932,10 @@ module.exports.poets = [
                         (the Eco&shyno&shymic Coun&shycil of the Bu&shykh&shyaran Re&shypub&shylic) in Sa&shymar&shykand, 
                         once more with the as&shysist&shyance of A. Mu&shyhid&shydinov. At the same time, he be&shycame a mem&shyber of the 
                         Cen&shytral Ex&shyec&shyu&shytive Com&shymit&shytee of the Bu&shykha&shyran Re&shypub&shylic.<sup>2</sup>`,
-                        `From June 15 of this year un&shytil 1933, he worked as a lit&shyer&shyary ed&shyi&shytor and ac&shya&shydem&shyic 
+                        `From June 15 of this year un&shytil 1933, he worked as a lit&shyer&shyary ed&shyi&shytor and sci&shyen&shytif&shyic 
                         con&shysul&shytant at the Ta&shyjik State Pub&shylish&shying House, head&shyquar&shytered in Sa&shymar&shykand.<sup>2</sup>`,
                         `He was elect&shyed as a mem&shyber of the Cen&shytral Ex&shyec&shyu&shytive Com&shymit&shytee of Ta&shyji&shykis&shytan and 
-                        main&shytained his po&shysi&shytion through suc&shyces&shysive elec&shytions un&shytil 1938.`,
+                        main&shytained his po&shysi&shytion through suc&shyces&shysive elec&shytions un&shytil 1938.<sup>2</sup>`,
                         `Ay&shyni con&shyclud&shyed his in&shydepth pa&shyper fo&shycus&shying on Fer&shydaw&shysi and his "Shāh&shynā&shymeh." Then, he 
                         se&shyquen&shytial&shyly re&shyleas&shyes the ar&shyti&shycles about the bi&shyogra&shyphies/works of no&shytable fig&shyures such as "Sheikh-ur-rais 
                         Abu Ali Si&shyna" (Avi&shycen&shyna), "Sheikh Mus&shyli&shyhid&shydin Sa&shyadi Shi&shyra&shyzi," "Us&shytad Ru&shydaki," 
@@ -944,15 +950,15 @@ module.exports.poets = [
                         in Stal&shyin's Great Purge.`,
                         `He was elect&shyed as a rep&shyre&shysen&shyta&shytive to the Sta&shylin&shyabad City Coun&shycil (now Du&shyshan&shybe). In 1948, 
                         he was re-elect&shyed to this post.<sup>2</sup>`,
-                        `Be&shytween 1946 and 1950, Ay&shyni was the chair for the De&shypart&shyment of Uz&shybek Lit&shyer&shya&shyture at the 
-                        Fac&shyul&shyty of Phi&shylol&shyo&shygy in Uz&shybe&shykis&shytan State Uni&shyver&shysi&shyty, sit&shyu&shyat&shyed in Sa&shymar&shykand.<sup>1</sup>`,
+                        `From 1946 to 1950, Ay&shyni was the chair for the De&shypart&shyment of Uz&shybek Lit&shyer&shya&shyture at the 
+                        Fac&shyul&shyty of Phi&shylol&shyo&shygy in Uz&shybe&shykis&shytan State Uni&shyver&shysi&shyty in Sa&shymar&shykand.<sup>1</sup>`,
                         `Fol&shylow&shying his sec&shyond in&shyvi&shyta&shytion from the Su&shypreme So&shyvi&shyet of the Ta&shyjik SSR, he was 
                         elect&shyed as a dep&shyu&shyty and de&shyliv&shyered the open&shying address.<sup>2</sup>`,
                         `Af&shyter re&shyceiv&shying the Sta&shylin Prize, Ay&shyni was elect&shyed as a rep&shyre&shysen&shyta&shytive to the 
                         Su&shypreme So&shyvi&shyet of the USSR and par&shytic&shyi&shypat&shyed in its ses&shysion in Mos&shycow.<sup>1</sup>`,
-                        `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its 
+                        `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ay&shyni ap&shypointed as its 
                         in&shyau&shygu&shyral pre&shysi&shydent. 
-                        He held this po&shysition until his passing in 1954.`,
+                        He held this po&shysition until his passing in 1954.<sup>1</sup>`,
                         `In 1920, Ayni penned his first ma&shyjor li&shyte&shyra&shyry work, "The Bu&shykhara Ex&shyec&shyu&shytion&shyers." Then, 
                         he wrote the short sto&shyry "O&shydi&shyna" in 1924, fol&shylowed by the no&shyvel "Do&shykhun&shyda" (writ&shyten 
                         be&shytween 1927 and 1928, but pub&shylished in 1930). "The Slaves" was re&shyleased in 1934, and his most ex&shytensive 
