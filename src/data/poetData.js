@@ -440,11 +440,11 @@ module.exports.poets = [
                         They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
                         <span style='font-weight: bold;'>Kho&shyli&shyda</span> (b. ?), and 
                         <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
-                        Re&shymar&shykab&shyly, each of their children followed in Ay&shyni's footsteps, pur&shysu&shying academic careers in orien&shytalism, 
-                        philology, and Central Asian art his&shyto&shyry, respectively.<sup>7</sup>
+                        Re&shymar&shykab&shyly, each of their children followed in Ay&shyni's foot&shysteps, pur&shysu&shying academic careers in orien&shytalism, 
+                        philology, and Cen&shytral Asian art his&shyto&shyry, respectively.<sup>7</sup>
                         <div class='space'></div>
-                        Today, Ayni's grand&shyson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
-                        and con&shytin&shyues his grand&shyfa&shyther's leg&shya&shycy through the Sadriddin Ay&shyni Foun&shyda&shytion.<sup>8</sup>`
+                        To&shyday, Ay&shyni's grand&shyson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Du&shyshan&shybe with his fam&shyi&shyly 
+                        and con&shytin&shyues his grand&shyfa&shyther's leg&shya&shycy through the Sad&shyrid&shydin Ay&shyni Foun&shyda&shytion.<sup>8</sup>`
                 },
                 ru: {
                     year: '1920',
@@ -803,7 +803,7 @@ module.exports.poets = [
             ],
             text: {
                 tj: [
-                        `Соли 1951 Ака&shyде&shyми&shyяи Фан&shyҳои РСС То&shyҷи&shyкис&shyтон таъ&shyсис до&shyда шу&shyда, 
+                        `Соли 1951 Ака&shyде&shyми&shyяи Фан&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис до&shyда шу&shyда, 
                         Сад&shyрид&shyдин Ай&shyнӣ пре&shyзи&shyден&shyти яку&shyми он таъ&shyин гар&shyдид. 
                         Ӯ ин ва&shyзи&shyфа&shyро то со&shyли 1954 дар ӯҳ&shyда дошт.`,
                         `Со&shyли 1920, ав&shyва&shyлин аса&shyри ка&shyло&shyни ада&shyбии Ай&shyнӣ — «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро» 
@@ -842,7 +842,8 @@ module.exports.poets = [
                         ме&shyша&shyвад. Со&shyли 1948 ду&shyбо&shyра ба ин ман&shyсаб ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
                         `Аз со&shyли 1946 то со&shyли 1950, Ай&shyнӣ му&shyди&shyри ка&shyфед&shyраи ада&shyби&shyё&shyти ӯз&shyбе&shyки фа&shyкул&shyтаи 
                         фи&shyло&shyло&shyги&shyяи До&shyниш&shyго&shyҳи Дав&shyла&shyтии Ӯз&shyбе&shyкис&shyтон дар Са&shyмар&shyқанд буд.<sup>1</sup>`,
-                        `Бо даъ&shyва&shyти ду&shyю&shyми Со&shyве&shyти Олии РСС То&shyҷи&shyкис&shyтон, ба де&shyпу&shyта&shyтӣ, ба ин Со&shyвет ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
+                        `Бо даъ&shyва&shyти ду&shyю&shyми Со&shyве&shyти Олии ҶШС То&shyҷи&shyкис&shyтон, ба де&shyпу&shyта&shyтӣ, ба ин Со&shyвет ин&shyти&shyхоб 
+                        кар&shyда ме&shyша&shyвад ва ҷа&shyла&shyса&shyро бо су&shyха&shyно&shyни таб&shyри&shyкӣ ме&shyку&shyшо&shyяд.<sup>2</sup>`,
                         `Пас аз ги&shyриф&shyта&shyни Ор&shyде&shyни Ста&shyлин, Ай&shyнӣ ба Со&shyве&shyти Олии СССР ин&shyти&shyхоб 
                         ме&shyша&shyвад ва дар ҷа&shyла&shyсаи он дар Мас&shyкав иш&shyти&shyрок ме&shyку&shyнад.<sup>1</sup>`,
                         `Со&shyли 1951, Ака&shyде&shyми&shyяи илм&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис ме&shyё&shyбад ва Сад&shyрид&shyдин Ай&shyнӣ 
