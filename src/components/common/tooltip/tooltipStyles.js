@@ -23,12 +23,30 @@ export const StyledTypography = styled.div`
 
     @media (max-width: 480px) {
         font-size: 1.3rem;
+        padding: 0.25rem;
         line-height: 1.65rem;
     }
 
     @media screen and (min-device-width: 481px) and (max-device-width: 1024px) {
         padding: 0.25rem;
         line-height: 1.5rem;
+    }
+`;
+
+export const ImageWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.5rem;
+`;
+
+export const StyledImage = styled.img`
+    height: 15rem;
+    width: 10rem;
+    margin: 0 auto;
+
+    @media (max-width: 1024px) {
+        padding-bottom: 0.5rem;
     }
 `;
 

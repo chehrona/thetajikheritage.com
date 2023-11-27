@@ -143,7 +143,7 @@ module.exports.poets = [
                             year: '1910',
                             image: '/poetImages/ayni/slides/ayni7.jpeg',
                             desc: `He be&shycame one of the ear&shyly mem&shybers of "Ja&shyvon&shybu&shykho&shyri&shyyon – جوان‌بخاراییان"/"Yosh bu&shyxo&shyro&shylik&shylar" 
-                                – "Young Bu&shykha&shyri&shyans," a sec&shyret so&shyci&shyety, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for 
+                                – "Young Bu&shykha&shyrans," a sec&shyret so&shyci&shyety, which was part of the ja&shydi&shydist move&shyment, ad&shyvo&shycat&shying for 
                                 re&shyforms and mo&shyderni&shyza&shytion of Cen&shytral Asia.<sup>5</sup>`,
                         }
                     ],
@@ -236,7 +236,7 @@ module.exports.poets = [
                         image: '/poetImages/ayni/slides/ayni3.jpeg',
                         desc: `Дар вақ&shyти мад&shyра&shyса&shyхо&shyни&shyаш бо ода&shyмо&shyне, ки ба шеъ&shyру адаб ишқ дош&shyтан&shyду шо&shyи&shyрӣ ме&shyкар&shyданд, 
                         ба са&shyба&shyби наз&shyди&shyки&shyаш бо Ша&shyриф&shyҷон-мах&shyдум, ши&shyнос ме&shyша&shyвад. Вай шеър&shyҳои ав&shyва&shyли&shyни худ&shyро бо 
-                        та&shyхал&shyлус&shyҳои «Мӯҳ&shyто&shyҷӣ», «Ҷу&shyну&shyнӣ» ва «Сиф&shyлӣ» эъ&shyҷод ме&shyку&shyнад.
+                        та&shyхал&shyлус&shyҳои «Мӯҳ&shyто&shyҷӣ», «Ҷу&shyну&shyнӣ» ва «Сиф&shyлӣ» эҷод ме&shyку&shyнад.
                         <div class='space'></div>
                         Ам&shyмо со&shyли 1896 та&shyхал&shyлу&shyси «Ай&shyнӣ»-ро ги&shyриф&shyта, бо ин ном шӯҳ&shyра&shyти ада&shyбӣ пай&shyдо ме&shyку&shyнад.<sup>2</sup>`,
                     },
@@ -279,32 +279,38 @@ module.exports.poets = [
                 us: {
                     quote: `... although we regret that we spent our lives in ignorance, ... now our conscience does not allow us to say: “what does it matter to me?”<sup>5</sup>`,
                     desc: {
-                        text1: `After leaving the madrasa, Ayni continues his in&shyvolve&shyment with the ja&shydids, 
-                            resisting the old ways so deeply engrained among the Bu&shykha&shyran clergy.
-                            His re&shyfor&shymist ideas, how&shyever, were met with dis&shyap&shypro&shyval from the `,
+                        text1: `Af&shyter leav&shying the mad&shyra&shysa, Ay&shyni con&shytin&shyues his in­&shyvolve­&shyment with the ja­&shydids, 
+                            re&shysist&shying the old ways so deep&shyly en&shygrained among the Bu&shy­kha&shy­ran cler&shygy.
+                            His re­&shyfor­m&shyist ideas, how­ev&shyer, were met with dis&shy­ap&shy­pro­v&shyal from the `,
                         tooltip1: {
                             word: `emir`,
-                            text: `The last emir of the Emirate of Bukhara was Sayyid Mir Mu&shyham&shymad Alim Khan`
+                            text: `The last emir of the Emi&shyrate of Bu&shykha&shyra was Say&shyyid Mir Mu&shyham&shymad Alim Khan`
                         }, 
-                        text2: `, lead&shying to his imprisonment and the harsh&shyest pun&shyish&shyment of the time – 
-                            <span style='font-weight: bold;'>75 lashes</span><sup>2</sup>.
-                            <div class='space'></div>Eventually, he is liberated by the Russian 
-                            Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrans. After enduring 
-                            <span style='font-weight: bold;'>52 days</span> in the hos&shypital 
-                            and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span>, 
-                            he perma&shynently moved to Sa&shymar&shykand.
-                            There, he de&shydi&shyca&shyted himself to the re&shyvo&shylu&shytionary cause, wield&shying the 
-                            po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and to 
-                            di&shyrect&shyly calling the na&shytion for war against the emir.
-                            <br>After the unsuccessful Kolesov champaign, whose aim was to over&shythrow the emir, the emir turns Bu&shykha&shyra 
+                        text2: `, lead&shying to his im&shypris&shyon&shyment and the harsh&shyest pun&shyish&shyment of the time – 
+                            <span style='font-weight: bold;'>75 lashes</span>.<sup>2</sup>
+                            <div class='space'></div>Eventually, he is freed by the Russian 
+                            Re&shyvo&shylu&shytionary forces at the behest of the Young Bu&shykha&shyrans. Af&shyter en&shydur&shying 
+                            <span style='font-weight: bold;'>52 days</span>
+                            and un&shyder&shygo&shying <span style='font-weight: bold;'>25 surgeries</span> at the `,
+                        tooltip2: {
+                            word: `Kogon`,
+                            img: `../../poetImages/ayni/back.png`,
+                            text: `Ay&shyni's back af&shyter re&shylease from Ob&shykho&shyna pri&shyson`
+                        },
+                        text3: ` hos&shypi&shytal, 
+                            he per&shyma&shynent&shyly moves to Sa&shymar&shykand.
+                            There, he de&shydi&shyca&shytes him&shyself to the re&shyvo&shylu&shytionary cause, wield&shying the 
+                            po&shywer of his pen, writ&shying po&shyli&shyti&shycal ar&shyti&shycles and 
+                            di&shyrect&shyly call&shying the na&shytion to rise against the emir.
+                            <br>Af&shyter the unsuccessful Ko&shyle&shysov champaign, whose aim was to over&shythrow the emir, the emir turns Bu&shykha&shyra 
                             in&shyto a "slaugh&shyter&shyhouse." In this cha&shyos, his young&shyer bro&shyther,
                             <span style='font-weight: bold;'>Si&shyro&shyjid&shydin</span>, was false&shyly accused of being a ja&shydid and brutally strangled 
-                            in pri&shyson. Ayni chan&shynel&shyled his grief into his li&shyte&shyrary work, "`,
-                        tooltip2: {
+                            in pri&shyson. Ay&shyni chan&shynel&shyled his grief in&shyto his li&shyte&shyra&shyry work, "`,
+                        tooltip3: {
                             word: `Marsiya.`,
                             text: `A genre of po&shyet&shyry in Ta&shyjik li&shyte&shyra&shyture re&shyci&shyted du&shyring times of mourn&shying`
                         },
-                        text3: `" <div class='space'></div>In 1922, the Basmachi forces murdered Ay&shyni's older brother – 
+                        text4: `" <div class='space'></div>In 1922, the Basmachi forces murdered Ay&shyni's older brother – 
                             <span style='font-weight: bold;'>Mu&shyhid&shydin&shykho&shyja</span> and kid&shynap&shyped his son.<sup>1</sup>
                             <div class='space'></div>These agonizing losses only fueled Ayni's 
                             re&shysolve, shar&shypen&shying his pen and intensifying his de&shyter&shymi&shyna&shytion to guide the country 
@@ -324,10 +330,16 @@ module.exports.poets = [
                         },
                         text2: ` не пон&shyра&shyвил&shyся его ре&shyфор&shyмизм, что при&shyве&shyло к его тю&shyрем&shyно&shyму 
                         за&shyклю&shyче&shyнию и са&shyмо&shyму су&shyро&shyво&shyму на&shyка&shyза&shyнию то&shyго вре&shyме&shyни —
-                        <span style='font-weight:bold;'>75 уда&shyров плетью</span><sup>2</sup>.
+                        <span style='font-weight:bold;'>75 уда&shyров плетью</span>.<sup>2</sup>
                         <div class='space'></div>Его ос&shyво&shyбож&shyда&shyют рус&shyские ре&shyво&shyлю&shyци&shyон&shyные си&shyлы по 
-                        прозь&shyбе мла&shyдо&shyбу&shyхар&shyцев. Пос&shyле <span style='font-weight:bold;'>52 дней</span> в боль&shyни&shyце
-                        и <span style='font-weight:bold;'>25 опе&shyра&shyций</span>, он навсег&shyда пе&shyре&shyежа&shyет в Са&shyмар&shyканд.
+                        прозь&shyбе мла&shyдо&shyбу&shyхар&shyцев. Пос&shyле <span style='font-weight:bold;'>52 дней</span>
+                        и <span style='font-weight:bold;'>25 опе&shyра&shyций</span> в `,
+                        tooltip2: {
+                            word: `Каганской`,
+                            img: `../../poetImages/ayni/back.png`,
+                            text: `Ay&shyni's back af&shyter re&shylease from Ob&shykho&shyna pri&shyson`
+                        }, 
+                        text3: ` боль&shyни&shyце, он навсег&shyда пе&shyре&shyежа&shyет в Са&shyмар&shyканд.
                         Там он по&shyсвя&shyща&shyет се&shyбя ре&shyво&shyлю&shyци&shyон&shyно&shyму де&shyлу, пи&shyшет по&shyли&shyти&shyчес&shyкие 
                         статьи и пря&shyмо при&shyзы&shyва&shyет со&shyо&shyте&shyчес&shyтвен&shyни&shyков
                         вос&shyстать про&shyтив эми&shyра.
@@ -337,11 +349,11 @@ module.exports.poets = [
                         лож&shyно об&shyви&shyня&shyют в джа&shyди&shyдиз&shyме, и жес&shyто&shyко уби&shyва&shyют удушь&shyем в тюрь&shyме.
                         По это&shyму слу&shyчаю Ай&shyни на&shyпи&shyсал свое ду&shyше&shyраз&shyди&shyра&shyю&shyщее ли&shyте&shyра&shyтур&shyное 
                         про&shyиз&shyве&shyде&shyние «`, 
-                        tooltip2: {
+                        tooltip3: {
                             word: `Марсия`,
                             text: `Жанр по&shyэ&shyзии в пер&shyсид&shyской ли&shyте&shyра&shyту&shyре, чи&shyта&shyе&shyмый во вре&shyмя тра&shyу&shyра`
                         },
-                        text3: `».<div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
+                        text4: `».<div class='space'></div>В 1922 го&shyду бас&shyма&shyчи уби&shyва&shyют стар&shyше&shyго бра&shyта Ай&shyни —
                             <span style='font-weight:bold;'>Му&shyхид&shyдин&shyход&shyжу</span>, по&shyхи&shyща&shyют его сы&shyна и уво&shyзят в Ну&shyра&shyтин&shyские 
                             го&shyры.<sup>1</sup>
                             <div class='space'></div>
@@ -366,9 +378,15 @@ module.exports.poets = [
                             <span style='font-weight: bold;'>75 чӯб</span> маҳ&shyкум ме&shyша&shyвад.<sup>2</sup>
                             <div class='space'></div>Дар ни&shyҳо&shyят, ӯро қув&shyва&shyҳои ин&shyқи&shyло&shyбии рус&shyҳо бо 
                             хо&shyҳи&shyши Ҷа&shyвон&shyбу&shyхо&shyри&shyён озод ме&shyку&shyнанд. 
-                            Пас аз <span style='font-weight: bold;'>52 рӯз</span> дар бе&shyмор&shyхо&shyна
-                            ва аз сар гу&shyза&shyро&shyни&shyда&shyни <span style='font-weight: bold;'>25 ҷар&shyро&shyҳӣ</span>, 
-                            до&shyи&shyман ба Са&shyмар&shyқанд ме&shyкӯ&shyчад. Ӯ бо қа&shyла&shyми худ ба ман&shyфи&shyа&shyти 
+                            Пас аз <span style='font-weight: bold;'>52 рӯз</span> 
+                            ва аз сар гу&shyза&shyро&shyни&shyда&shyни <span style='font-weight: bold;'>25 ҷар&shyро&shyҳӣ</span> дар 
+                            беморхонаи `,
+                        tooltip2: {
+                            word: `Когон`,
+                            img: `../../poetImages/ayni/back.png`,
+                            text: `Тах&shyта&shyпуш&shyти Ай&shyнӣ баъд аз ра&shyҳоӣ аз зин&shyдо&shyни Об&shyхо&shyна`
+                        }, 
+                        text3: `, ӯ до&shyи&shyман ба Са&shyмар&shyқанд ме&shyкӯ&shyчад. Ӯ бо қа&shyла&shyми худ ба ман&shyфи&shyа&shyти 
                             ин&shyқи&shyло&shyби&shyён хиз&shyмат на&shyму&shyда,
                             ма&shyқо&shyла&shyҳои си&shyё&shyсӣ ме&shyна&shyви&shyсад ва ҳам&shyва&shyта&shyно&shyнаш&shyро ба 
                             му&shyбо&shyри&shyза ба зид&shyди амир даъ&shyват ме&shyку&shyнад.
@@ -379,12 +397,12 @@ module.exports.poets = [
                             <span style='font-weight: bold;'>Си&shyро&shyҷид&shyдин&shyро</span> 
                             бар&shyду&shyрӯғ айб&shyдо&shyри ҷа&shyди&shyдӣ кар&shyда, ваҳ&shyши&shyёна дар зин&shyдон бу&shyғӣ кар&shyда 
                             ме&shyку&shyшанд. Адиб «`,
-                        tooltip2: {
+                        tooltip3: {
                             word: `Марсия`,
                             text: `Жан&shyри шеър дар ада&shyби&shyё&shyти то&shyҷи&shyку форс, ки дар мо&shyтам&shyдо&shyрӣ хон&shyда 
                                 ме&shyша&shyвад`
                         },
-                        text3: `»-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
+                        text4: `»-и ҷон&shyгу&shyдо&shyзи худ&shyро ба ҳа&shyмин му&shyно&shyси&shyбат на&shyвиш&shyта&shyаст.
                             <div class='space'></div>
                             Соли 1922 бос&shyма&shyчи&shyён ба&shyро&shyда&shyри ка&shyло&shyнии Ай&shyнӣ — 
                             <span style='font-weight: bold;'>Му&shyҳид&shyдин&shyхо&shyҷа&shyро</span> 
@@ -413,16 +431,16 @@ module.exports.poets = [
                             text: `Ayni with his son – Kamol <sup>4<sup>`,
                         }
                     ],
-                    desc: `In October 1920, Ayni married <span style='font-weight: bold;'>Salohat</span>,
-                        and they moved in&shyto her pa&shyrents' home in Sa&shymar&shykand. 
+                    desc: `In October of 1920, Ayni marries <span style='font-weight: bold;'>Salohat</span>,
+                        and they move in&shyto her pa&shyrents' home in Sa&shymar&shykand. 
                         Despite Ayni's dire financial si&shytu&shyation,
-                        Sa&shylo&shyhat re&shymained un&shydeterred in her com&shymit&shyment to him. She de&shydi&shycated her&shyself to creating an 
+                        Sa&shylo&shyhat re&shymained un&shydeterred in her com&shymit&shyment to him. She de&shydi&shycated her&shyself to cre&shyat&shying an 
                         environment where his literary genius could flou&shyrish, a de&shydi&shyca&shytion that persisted until their final days.<sup>1</sup>
                         <div class='space'></div>
                         They had three children: <span style='font-weight: bold;'>Kamol</span> (b. 1928), 
                         <span style='font-weight: bold;'>Kho&shyli&shyda</span> (b. ?), and 
                         <span style='font-weight: bold;'>Lutfiya</span> (b. 1934). 
-                        Re&shymar&shykab&shyly, each of their children followed in Ayni's footsteps, pur&shysu&shying academic careers in orien&shytalism, 
+                        Re&shymar&shykab&shyly, each of their children followed in Ay&shyni's footsteps, pur&shysu&shying academic careers in orien&shytalism, 
                         philology, and Central Asian art his&shyto&shyry, respectively.<sup>7</sup>
                         <div class='space'></div>
                         Today, Ayni's grand&shyson, <span style='font-weight: bold;'>Iraj Ayni</span>, resides in Dushanbe with his family 
@@ -501,15 +519,15 @@ module.exports.poets = [
             six: {
                 us: {
                     year: '15 July 1954',
-                    desc: 'Ayni passed away at 4PM in his home, in Stalinabad (now Dushanbe) surrounded by friends, students, and family<sup>1</sup>'
+                    desc: 'Ayni passed away at 4PM in his home, in Stalinabad (now Dushanbe) surrounded by friends, students, and family <sup>1</sup>'
                 },
                 ru: {
                     year: '15 июля 1954 г.',
-                    desc: 'Айни скончался в 16:00 в своем доме в Сталинабаде (ныне Душанбе) в окружении друзей, учеников и семьи<sup>1</sup>'
+                    desc: 'Айни скончался в 16:00 в своем доме в Сталинабаде (ныне Душанбе) в окружении друзей, учеников и семьи <sup>1</sup>'
                 },
                 tj: {
                     year: '15 июли 1954',
-                    desc: 'Айнӣ соати 16:00 дар хонаи худ, дар Сталинобод (Душанбеи ҳозира) дар атрофи дӯстону шогирдон ва аҳли оилааш даргузашта аст<sup>1</sup>'
+                    desc: 'Айнӣ соати 16:00 дар хонаи худ, дар Сталинобод (Душанбеи ҳозира) дар атрофи дӯстону шогирдон ва аҳли оилааш даргузашта аст <sup>1</sup>'
                 }
             },
             seven: {
@@ -792,7 +810,7 @@ module.exports.poets = [
                         нашр шу&shyда&shyаст. Баъд, по&shyвес&shyти «Оди&shyна» дар со&shyли 1924 ва ро&shyма&shyни «До&shyхун&shyда» (бай&shyни 
                         сол&shyҳои 1927 ва 1928 на&shyвиш&shyта шу&shyда, со&shyли 1930 нашр шу&shyда&shyаст)
                         ба хо&shyнан&shyда&shyгон даст&shyрас шу&shyда&shyаст. Аса&shyри «Ғу&shyло&shyмон» со&shyли 1934 ба табъ ра&shyси&shyда, 
-                        гус&shyтур&shyда&shyта&shyрин эъ&shyҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.<sup>2</sup>
+                        гус&shyтур&shyда&shyта&shyрин эҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.<sup>2</sup>
                         <div class='emptyLine'></div>
                         <div class='imgDesc'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
                         ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст <sup>21</sup></div>`,
@@ -824,8 +842,8 @@ module.exports.poets = [
                         ме&shyша&shyвад. Со&shyли 1948 ду&shyбо&shyра ба ин ман&shyсаб ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
                         `Аз со&shyли 1946 то со&shyли 1950, Ай&shyнӣ му&shyди&shyри ка&shyфед&shyраи ада&shyби&shyё&shyти ӯз&shyбе&shyки фа&shyкул&shyтаи 
                         фи&shyло&shyло&shyги&shyяи До&shyниш&shyго&shyҳи Дав&shyла&shyтии Ӯз&shyбе&shyкис&shyтон дар Са&shyмар&shyқанд буд.<sup>1</sup>`,
-                        `Бо даъ&shyва&shyти ду&shyю&shyми Со&shyве&shyти Олии РСС То&shyҷи&shyкис&shyтон ба де&shyпу&shyта&shyтӣ ба ин Со&shyвет ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
-                        `Пас аз ги&shyриф&shyта&shyни Ор&shyде&shyни Ста&shyлин, Ай&shyнӣ ба Со&shyве&shyти Олии СССР на&shyмо&shyян&shyда ин&shyти&shyхоб 
+                        `Бо даъ&shyва&shyти ду&shyю&shyми Со&shyве&shyти Олии РСС То&shyҷи&shyкис&shyтон, ба де&shyпу&shyта&shyтӣ, ба ин Со&shyвет ин&shyти&shyхоб кар&shyда ме&shyша&shyвад.<sup>2</sup>`,
+                        `Пас аз ги&shyриф&shyта&shyни Ор&shyде&shyни Ста&shyлин, Ай&shyнӣ ба Со&shyве&shyти Олии СССР ин&shyти&shyхоб 
                         ме&shyша&shyвад ва дар ҷа&shyла&shyсаи он дар Мас&shyкав иш&shyти&shyрок ме&shyку&shyнад.<sup>1</sup>`,
                         `Со&shyли 1951, Ака&shyде&shyми&shyяи илм&shyҳои ҶШС То&shyҷи&shyкис&shyтон таъ&shyсис ме&shyё&shyбад ва Сад&shyрид&shyдин Ай&shyнӣ 
                         пре&shyзи&shyден&shyти на&shyхус&shyти&shyни он ин&shyти&shyхоб кар&shyда ме&shyша&shyвад. Ӯ ин ва&shyзи&shyфа&shyро то дар&shyгу&shyзаш&shyташ 
@@ -834,7 +852,7 @@ module.exports.poets = [
                         нашр шу&shyда&shyаст. Баъд, по&shyвес&shyти «Оди&shyна» дар со&shyли 1924 ва ро&shyма&shyни «До&shyхун&shyда» (бай&shyни 
                         сол&shyҳои 1927 ва 1928 на&shyвиш&shyта шу&shyда, со&shyли 1930 нашр шу&shyда&shyаст)
                         ба хо&shyнан&shyда&shyгон даст&shyрас шу&shyда&shyаст. Аса&shyри «Ғу&shyло&shyмон» со&shyли 1934 ба табъ ра&shyси&shyда, 
-                        гус&shyтур&shyда&shyта&shyрин эъ&shyҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.
+                        гус&shyтур&shyда&shyта&shyрин эҷо&shyди&shyёти ада&shyбии ӯ «Ёд&shyдошт&shyҳо» со&shyли 1940 нашр шу&shyда&shyаст.
                         <div class='emptyLine'></div>
                         <div class='imgDesc'>*Му&shyқо&shyваи «Ҷал&shyло&shyдо&shyни Бу&shyхо&shyро»,
                         ки со&shyли 1937 ба за&shyбо&shyни то&shyҷи&shyкӣ бо хат&shyти ло&shyти&shyнӣ на&shyвиш&shyта шу&shyда&shyаст <sup>21</sup></div>`
@@ -929,7 +947,7 @@ module.exports.poets = [
                         `Be&shytween 1946 and 1950, Ay&shyni was the chair for the De&shypart&shyment of Uz&shybek Lit&shyer&shya&shyture at the 
                         Fac&shyul&shyty of Phi&shylol&shyo&shygy in Uz&shybe&shykis&shytan State Uni&shyver&shysi&shyty, sit&shyu&shyat&shyed in Sa&shymar&shykand.<sup>1</sup>`,
                         `Fol&shylow&shying his sec&shyond in&shyvi&shyta&shytion from the Su&shypreme So&shyvi&shyet of the Ta&shyjik SSR, he was 
-                        elect&shyed as a dep&shyu&shyty to the So&shyvi&shyet.<sup>2</sup>`,
+                        elect&shyed as a dep&shyu&shyty and de&shyliv&shyered the open&shying address.<sup>2</sup>`,
                         `Af&shyter re&shyceiv&shying the Sta&shylin Prize, Ay&shyni was elect&shyed as a rep&shyre&shysen&shyta&shytive to the 
                         Su&shypreme So&shyvi&shyet of the USSR and par&shytic&shyi&shypat&shyed in its ses&shysion in Mos&shycow.<sup>1</sup>`,
                         `In 1951, the Aca&shyde&shymy of Sciences of Ta&shyjik SSR was foun&shyded, with Sad&shyriddin Ayni ap&shypointed as its 

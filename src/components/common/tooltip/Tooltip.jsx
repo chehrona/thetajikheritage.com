@@ -4,7 +4,9 @@ import { ClickAwayListener } from "@mui/material";
 import {
     StyledTooltip,
     WordWrapper,
-    StyledTypography
+    StyledTypography,
+    StyledImage,
+    ImageWrapper
 } from "./tooltipStyles";
 
 export const Tooltip = ({ key, content }) => {
@@ -22,9 +24,15 @@ export const Tooltip = ({ key, content }) => {
         <StyledTooltip
             open={show}
             key={key}
-            title={<StyledTypography dangerouslySetInnerHTML={{ __html: content.text }} />} 
             arrow
             placement="top"
+            title={content?.img ? (
+                <ImageWrapper>
+                    <StyledImage src={content?.img} />
+                    <StyledTypography dangerouslySetInnerHTML={{ __html: content.text }} />
+                </ImageWrapper>) : (
+                    <StyledTypography dangerouslySetInnerHTML={{ __html: content.text }} />)
+            }
         >
             <span>
                 <ClickAwayListener onClickAway={handleClickAway}>
